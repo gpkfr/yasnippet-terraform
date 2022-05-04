@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_network_services_edge_cache_origin
+# key: r_google_network_services_edge_cache_origin
+# --
+
+resource "google_network_services_edge_cache_origin" "${1:this}" {
+    name = "${2:name}"
+    origin_address = "${3:origin_address}"
+}

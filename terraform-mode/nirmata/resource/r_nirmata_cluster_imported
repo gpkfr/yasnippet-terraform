@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_cluster_imported
+# key: r_nirmata_cluster_imported
+# --
+
+resource "nirmata_cluster_imported" "${1:this}" {
+    cluster_type = "${2:cluster_type}"
+    credentials = "${3:credentials}"
+    name = "${4:name}"
+    project = "${5:project}"
+}

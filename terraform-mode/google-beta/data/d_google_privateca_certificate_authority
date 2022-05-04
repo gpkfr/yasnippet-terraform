@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_google_privateca_certificate_authority
+# key: d_google_privateca_certificate_authority
+# --
+
+data "google_privateca_certificate_authority" "${1:this}" {
+}

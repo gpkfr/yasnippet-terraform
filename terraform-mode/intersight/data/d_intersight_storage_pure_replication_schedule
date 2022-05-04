@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_pure_replication_schedule
+# key: d_intersight_storage_pure_replication_schedule
+# --
+
+data "intersight_storage_pure_replication_schedule" "${1:this}" {
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_fic_eri_nat_global_ip_address_set_v1
+# key: r_fic_eri_nat_global_ip_address_set_v1
+# --
+
+resource "fic_eri_nat_global_ip_address_set_v1" "${1:this}" {
+    name = "${2:name}"
+    nat_id = "${3:nat_id}"
+    number_of_addresses = "${4:number_of_addresses}"
+    router_id = "${5:router_id}"
+    type = "${6:type}"
+}

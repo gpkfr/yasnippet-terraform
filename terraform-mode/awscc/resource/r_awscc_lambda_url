@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lambda_url
+# key: r_awscc_lambda_url
+# --
+
+resource "awscc_lambda_url" "${1:this}" {
+    auth_type = "${2:auth_type}"
+    target_function_arn = "${3:target_function_arn}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_apgitlab_pipeline_trigger
+# key: r_apgitlab_pipeline_trigger
+# --
+
+resource "apgitlab_pipeline_trigger" "${1:this}" {
+    description = "${2:description}"
+    project = "${3:project}"
+}

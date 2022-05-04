@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_spectrocloud_cluster_profile
+# key: d_spectrocloud_cluster_profile
+# --
+
+data "spectrocloud_cluster_profile" "${1:this}" {
+}

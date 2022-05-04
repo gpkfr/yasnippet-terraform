@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_apprunner_service
+# key: r_awscc_apprunner_service
+# --
+
+resource "awscc_apprunner_service" "${1:this}" {
+    source_configuration = "${2:source_configuration}"
+}

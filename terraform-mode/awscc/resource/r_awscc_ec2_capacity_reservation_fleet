@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_capacity_reservation_fleet
+# key: r_awscc_ec2_capacity_reservation_fleet
+# --
+
+resource "awscc_ec2_capacity_reservation_fleet" "${1:this}" {
+}

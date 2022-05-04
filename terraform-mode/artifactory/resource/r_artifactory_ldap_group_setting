@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_ldap_group_setting
+# key: r_artifactory_ldap_group_setting
+# --
+
+resource "artifactory_ldap_group_setting" "${1:this}" {
+    description_attribute = "${2:description_attribute}"
+    filter = "${3:filter}"
+    group_member_attribute = "${4:group_member_attribute}"
+    group_name_attribute = "${5:group_name_attribute}"
+    ldap_setting_key = "${6:ldap_setting_key}"
+    name = "${7:name}"
+    strategy = "${8:strategy}"
+}

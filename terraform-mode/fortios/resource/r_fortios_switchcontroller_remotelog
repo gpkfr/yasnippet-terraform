@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_remotelog
+# key: r_fortios_switchcontroller_remotelog
+# --
+
+resource "fortios_switchcontroller_remotelog" "${1:this}" {
+}

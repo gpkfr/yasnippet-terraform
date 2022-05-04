@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logzio_drop_filter
+# key: d_logzio_drop_filter
+# --
+
+data "logzio_drop_filter" "${1:this}" {
+}

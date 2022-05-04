@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_service_external_wiki
+# key: r_gitlab_service_external_wiki
+# --
+
+resource "gitlab_service_external_wiki" "${1:this}" {
+    external_wiki_url = "${2:external_wiki_url}"
+    project = "${3:project}"
+}

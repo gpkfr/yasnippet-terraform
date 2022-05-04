@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_rdb_instance
+# key: r_scaleway_rdb_instance
+# --
+
+resource "scaleway_rdb_instance" "${1:this}" {
+    engine = "${2:engine}"
+    node_type = "${3:node_type}"
+}

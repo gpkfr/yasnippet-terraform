@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_compare_security_assessment
+# key: r_oci_data_safe_compare_security_assessment
+# --
+
+resource "oci_data_safe_compare_security_assessment" "${1:this}" {
+    comparison_security_assessment_id = "${2:comparison_security_assessment_id}"
+    security_assessment_id = "${3:security_assessment_id}"
+}

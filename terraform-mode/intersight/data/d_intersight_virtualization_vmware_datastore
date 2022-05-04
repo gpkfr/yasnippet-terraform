@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_vmware_datastore
+# key: d_intersight_virtualization_vmware_datastore
+# --
+
+data "intersight_virtualization_vmware_datastore" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_key_store
+# key: d_oci_database_key_store
+# --
+
+data "oci_database_key_store" "${1:this}" {
+    key_store_id = "${2:key_store_id}"
+}

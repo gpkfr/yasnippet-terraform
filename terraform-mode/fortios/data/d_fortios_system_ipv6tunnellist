@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_ipv6tunnellist
+# key: d_fortios_system_ipv6tunnellist
+# --
+
+data "fortios_system_ipv6tunnellist" "${1:this}" {
+}

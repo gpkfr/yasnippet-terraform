@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ultradns_probe_ping
+# key: d_ultradns_probe_ping
+# --
+
+data "ultradns_probe_ping" "${1:this}" {
+    owner_name = "${2:owner_name}"
+    zone_name = "${3:zone_name}"
+}

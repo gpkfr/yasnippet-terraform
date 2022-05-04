@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_rewritepolicylabel_rewritepolicy_binding
+# key: r_citrixadc_rewritepolicylabel_rewritepolicy_binding
+# --
+
+resource "citrixadc_rewritepolicylabel_rewritepolicy_binding" "${1:this}" {
+    labelname = "${2:labelname}"
+    policyname = "${3:policyname}"
+    priority = "${4:priority}"
+}

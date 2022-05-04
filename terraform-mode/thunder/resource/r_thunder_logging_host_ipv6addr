@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_logging_host_ipv6addr
+# key: r_thunder_logging_host_ipv6addr
+# --
+
+resource "thunder_logging_host_ipv6addr" "${1:this}" {
+    host_ipv6 = "${2:host_ipv6}"
+}

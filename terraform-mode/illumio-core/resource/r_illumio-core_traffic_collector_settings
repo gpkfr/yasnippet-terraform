@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_traffic_collector_settings
+# key: r_illumio-core_traffic_collector_settings
+# --
+
+resource "illumio-core_traffic_collector_settings" "${1:this}" {
+    action = "${2:action}"
+    transmission = "${3:transmission}"
+}

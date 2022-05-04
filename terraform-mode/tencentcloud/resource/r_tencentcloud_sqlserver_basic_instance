@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_sqlserver_basic_instance
+# key: r_tencentcloud_sqlserver_basic_instance
+# --
+
+resource "tencentcloud_sqlserver_basic_instance" "${1:this}" {
+    cpu = "${2:cpu}"
+    machine_type = "${3:machine_type}"
+    memory = "${4:memory}"
+    name = "${5:name}"
+    storage = "${6:storage}"
+}

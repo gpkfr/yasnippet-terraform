@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_management_group_subscription_association
+# key: r_azurerm_management_group_subscription_association
+# --
+
+resource "azurerm_management_group_subscription_association" "${1:this}" {
+    management_group_id = "${2:management_group_id}"
+    subscription_id = "${3:subscription_id}"
+}

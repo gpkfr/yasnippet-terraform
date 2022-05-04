@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_search_tag_item
+# key: d_intersight_search_tag_item
+# --
+
+data "intersight_search_tag_item" "${1:this}" {
+}

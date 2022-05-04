@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fabric_eth_network_group_policy
+# key: r_intersight_fabric_eth_network_group_policy
+# --
+
+resource "intersight_fabric_eth_network_group_policy" "${1:this}" {
+}

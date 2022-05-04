@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_tcr_repository
+# key: r_tencentcloud_tcr_repository
+# --
+
+resource "tencentcloud_tcr_repository" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    name = "${3:name}"
+    namespace_name = "${4:namespace_name}"
+}

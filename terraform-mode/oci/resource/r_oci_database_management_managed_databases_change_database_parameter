@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_management_managed_databases_change_database_parameter
+# key: r_oci_database_management_managed_databases_change_database_parameter
+# --
+
+resource "oci_database_management_managed_databases_change_database_parameter" "${1:this}" {
+    managed_database_id = "${2:managed_database_id}"
+    scope = "${3:scope}"
+}

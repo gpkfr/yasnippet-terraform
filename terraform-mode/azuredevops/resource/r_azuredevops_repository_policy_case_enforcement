@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_repository_policy_case_enforcement
+# key: r_azuredevops_repository_policy_case_enforcement
+# --
+
+resource "azuredevops_repository_policy_case_enforcement" "${1:this}" {
+    enforce_consistent_case = "${2:enforce_consistent_case}"
+    project_id = "${3:project_id}"
+}

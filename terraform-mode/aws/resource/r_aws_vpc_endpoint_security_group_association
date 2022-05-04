@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_endpoint_security_group_association
+# key: r_aws_vpc_endpoint_security_group_association
+# --
+
+resource "aws_vpc_endpoint_security_group_association" "${1:this}" {
+    security_group_id = "${2:security_group_id}"
+    vpc_endpoint_id = "${3:vpc_endpoint_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_project
+# key: r_nutanix_project
+# --
+
+resource "nutanix_project" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_protection_rule
+# key: d_nutanix_protection_rule
+# --
+
+data "nutanix_protection_rule" "${1:this}" {
+}

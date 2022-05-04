@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_masking_reports
+# key: d_oci_data_safe_masking_reports
+# --
+
+data "oci_data_safe_masking_reports" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

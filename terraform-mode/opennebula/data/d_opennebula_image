@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_opennebula_image
+# key: d_opennebula_image
+# --
+
+data "opennebula_image" "${1:this}" {
+    name = "${2:name}"
+}

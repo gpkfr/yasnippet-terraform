@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_slowpost_protection
+# key: r_akamai_appsec_slowpost_protection
+# --
+
+resource "akamai_appsec_slowpost_protection" "${1:this}" {
+    config_id = "${2:config_id}"
+    enabled = "${3:enabled}"
+    security_policy_id = "${4:security_policy_id}"
+    version = "${5:version}"
+}

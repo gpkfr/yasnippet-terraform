@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_apgitlab_group
+# key: r_apgitlab_group
+# --
+
+resource "apgitlab_group" "${1:this}" {
+    name = "${2:name}"
+    path = "${3:path}"
+}

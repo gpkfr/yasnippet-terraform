@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_cluster_type_gke
+# key: r_nirmata_cluster_type_gke
+# --
+
+resource "nirmata_cluster_type_gke" "${1:this}" {
+    credentials = "${2:credentials}"
+    location_type = "${3:location_type}"
+    name = "${4:name}"
+    network = "${5:network}"
+    project = "${6:project}"
+    subnetwork = "${7:subnetwork}"
+    version = "${8:version}"
+}

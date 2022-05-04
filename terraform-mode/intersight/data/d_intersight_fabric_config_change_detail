@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_config_change_detail
+# key: d_intersight_fabric_config_change_detail
+# --
+
+data "intersight_fabric_config_change_detail" "${1:this}" {
+}

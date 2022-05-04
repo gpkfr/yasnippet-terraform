@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_security_rule
+# key: d_illumio-core_security_rule
+# --
+
+data "illumio-core_security_rule" "${1:this}" {
+    href = "${2:href}"
+}

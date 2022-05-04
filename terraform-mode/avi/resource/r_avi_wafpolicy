@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_wafpolicy
+# key: r_avi_wafpolicy
+# --
+
+resource "avi_wafpolicy" "${1:this}" {
+    name = "${2:name}"
+    waf_profile_ref = "${3:waf_profile_ref}"
+}

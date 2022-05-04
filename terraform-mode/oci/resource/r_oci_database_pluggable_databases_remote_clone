@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_pluggable_databases_remote_clone
+# key: r_oci_database_pluggable_databases_remote_clone
+# --
+
+resource "oci_database_pluggable_databases_remote_clone" "${1:this}" {
+    cloned_pdb_name = "${2:cloned_pdb_name}"
+    pluggable_database_id = "${3:pluggable_database_id}"
+    source_container_db_admin_password = "${4:source_container_db_admin_password}"
+    target_container_database_id = "${5:target_container_database_id}"
+}

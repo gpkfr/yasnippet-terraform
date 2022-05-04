@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_pg_versions
+# key: d_ionoscloud_pg_versions
+# --
+
+data "ionoscloud_pg_versions" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_connect_bot_association
+# key: r_aws_connect_bot_association
+# --
+
+resource "aws_connect_bot_association" "${1:this}" {
+    instance_id = "${2:instance_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_network_load_balancer_backend_set
+# key: d_oci_network_load_balancer_backend_set
+# --
+
+data "oci_network_load_balancer_backend_set" "${1:this}" {
+    backend_set_name = "${2:backend_set_name}"
+    network_load_balancer_id = "${3:network_load_balancer_id}"
+}

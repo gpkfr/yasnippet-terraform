@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_extendercontroller_dataplan
+# key: r_fortios_extendercontroller_dataplan
+# --
+
+resource "fortios_extendercontroller_dataplan" "${1:this}" {
+}

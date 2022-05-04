@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_hsm_partition
+# key: r_ciphertrust_hsm_partition
+# --
+
+resource "ciphertrust_hsm_partition" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_linode_ipv6_range
+# key: r_linode_ipv6_range
+# --
+
+resource "linode_ipv6_range" "${1:this}" {
+    prefix_length = "${2:prefix_length}"
+}

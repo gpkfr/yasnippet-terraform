@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_googleworkspace_role_assignment
+# key: r_googleworkspace_role_assignment
+# --
+
+resource "googleworkspace_role_assignment" "${1:this}" {
+    assigned_to = "${2:assigned_to}"
+    role_id = "${3:role_id}"
+}

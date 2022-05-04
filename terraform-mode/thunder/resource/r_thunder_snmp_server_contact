@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_snmp_server_contact
+# key: r_thunder_snmp_server_contact
+# --
+
+resource "thunder_snmp_server_contact" "${1:this}" {
+}

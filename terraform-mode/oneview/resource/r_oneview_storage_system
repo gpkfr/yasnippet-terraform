@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oneview_storage_system
+# key: r_oneview_storage_system
+# --
+
+resource "oneview_storage_system" "${1:this}" {
+    hostname = "${2:hostname}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_codefresh_account_admins
+# key: r_codefresh_account_admins
+# --
+
+resource "codefresh_account_admins" "${1:this}" {
+    account_id = "${2:account_id}"
+    users = "${3:users}"
+}

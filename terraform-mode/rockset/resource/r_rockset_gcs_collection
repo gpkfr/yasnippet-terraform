@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rockset_gcs_collection
+# key: r_rockset_gcs_collection
+# --
+
+resource "rockset_gcs_collection" "${1:this}" {
+    name = "${2:name}"
+    workspace = "${3:workspace}"
+}

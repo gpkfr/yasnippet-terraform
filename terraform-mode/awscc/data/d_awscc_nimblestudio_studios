@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_nimblestudio_studios
+# key: d_awscc_nimblestudio_studios
+# --
+
+data "awscc_nimblestudio_studios" "${1:this}" {
+}

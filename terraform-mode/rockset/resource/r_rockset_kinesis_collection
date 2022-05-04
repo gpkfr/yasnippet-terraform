@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rockset_kinesis_collection
+# key: r_rockset_kinesis_collection
+# --
+
+resource "rockset_kinesis_collection" "${1:this}" {
+    name = "${2:name}"
+    workspace = "${3:workspace}"
+}

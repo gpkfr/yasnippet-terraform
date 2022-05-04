@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_google_monitoring_mesh_istio_service
+# key: d_google_monitoring_mesh_istio_service
+# --
+
+data "google_monitoring_mesh_istio_service" "${1:this}" {
+    mesh_uid = "${2:mesh_uid}"
+    service_name = "${3:service_name}"
+    service_namespace = "${4:service_namespace}"
+}

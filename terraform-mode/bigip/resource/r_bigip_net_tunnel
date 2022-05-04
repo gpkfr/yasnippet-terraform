@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_bigip_net_tunnel
+# key: r_bigip_net_tunnel
+# --
+
+resource "bigip_net_tunnel" "${1:this}" {
+    local_address = "${2:local_address}"
+    name = "${3:name}"
+    profile = "${4:profile}"
+}

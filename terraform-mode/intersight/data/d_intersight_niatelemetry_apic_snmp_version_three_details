@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_apic_snmp_version_three_details
+# key: d_intersight_niatelemetry_apic_snmp_version_three_details
+# --
+
+data "intersight_niatelemetry_apic_snmp_version_three_details" "${1:this}" {
+}

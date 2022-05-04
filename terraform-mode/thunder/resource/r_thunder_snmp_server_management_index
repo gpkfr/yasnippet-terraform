@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_snmp_server_management_index
+# key: r_thunder_snmp_server_management_index
+# --
+
+resource "thunder_snmp_server_management_index" "${1:this}" {
+}

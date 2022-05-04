@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_wafpolicypsmgroup
+# key: r_avi_wafpolicypsmgroup
+# --
+
+resource "avi_wafpolicypsmgroup" "${1:this}" {
+    name = "${2:name}"
+}

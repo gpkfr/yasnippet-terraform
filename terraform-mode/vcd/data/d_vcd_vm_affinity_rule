@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vcd_vm_affinity_rule
+# key: d_vcd_vm_affinity_rule
+# --
+
+data "vcd_vm_affinity_rule" "${1:this}" {
+}

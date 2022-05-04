@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_heroku_team_members
+# key: d_heroku_team_members
+# --
+
+data "heroku_team_members" "${1:this}" {
+    roles = "${2:roles}"
+    team = "${3:team}"
+}

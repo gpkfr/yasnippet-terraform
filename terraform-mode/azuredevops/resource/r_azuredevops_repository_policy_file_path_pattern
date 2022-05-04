@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_repository_policy_file_path_pattern
+# key: r_azuredevops_repository_policy_file_path_pattern
+# --
+
+resource "azuredevops_repository_policy_file_path_pattern" "${1:this}" {
+    filepath_patterns = "${2:filepath_patterns}"
+    project_id = "${3:project_id}"
+}

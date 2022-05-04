@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_extendercontroller_extenderprofile
+# key: r_fortios_extendercontroller_extenderprofile
+# --
+
+resource "fortios_extendercontroller_extenderprofile" "${1:this}" {
+}

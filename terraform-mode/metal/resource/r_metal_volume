@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_metal_volume
+# key: r_metal_volume
+# --
+
+resource "metal_volume" "${1:this}" {
+    facility = "${2:facility}"
+    plan = "${3:plan}"
+    project_id = "${4:project_id}"
+    size = "${5:size}"
+}

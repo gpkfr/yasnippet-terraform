@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_vod_super_player_configs
+# key: d_tencentcloud_vod_super_player_configs
+# --
+
+data "tencentcloud_vod_super_player_configs" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vmc_public_ip
+# key: r_vmc_public_ip
+# --
+
+resource "vmc_public_ip" "${1:this}" {
+    nsxt_reverse_proxy_url = "${2:nsxt_reverse_proxy_url}"
+}

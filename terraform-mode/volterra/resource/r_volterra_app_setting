@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_app_setting
+# key: r_volterra_app_setting
+# --
+
+resource "volterra_app_setting" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

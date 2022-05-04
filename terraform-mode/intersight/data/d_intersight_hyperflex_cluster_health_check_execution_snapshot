@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_cluster_health_check_execution_snapshot
+# key: d_intersight_hyperflex_cluster_health_check_execution_snapshot
+# --
+
+data "intersight_hyperflex_cluster_health_check_execution_snapshot" "${1:this}" {
+}

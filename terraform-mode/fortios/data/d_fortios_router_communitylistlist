@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_communitylistlist
+# key: d_fortios_router_communitylistlist
+# --
+
+data "fortios_router_communitylistlist" "${1:this}" {
+}

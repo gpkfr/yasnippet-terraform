@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_harness_service_ami
+# key: r_harness_service_ami
+# --
+
+resource "harness_service_ami" "${1:this}" {
+    app_id = "${2:app_id}"
+    name = "${3:name}"
+}

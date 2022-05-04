@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_datadog_security_monitoring_filters
+# key: d_datadog_security_monitoring_filters
+# --
+
+data "datadog_security_monitoring_filters" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iaas_ucsd_messages
+# key: d_intersight_iaas_ucsd_messages
+# --
+
+data "intersight_iaas_ucsd_messages" "${1:this}" {
+}

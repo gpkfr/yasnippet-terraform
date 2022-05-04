@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_app_service_environment_v3
+# key: d_azurerm_app_service_environment_v3
+# --
+
+data "azurerm_app_service_environment_v3" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+}

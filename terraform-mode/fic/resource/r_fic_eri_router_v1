@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_fic_eri_router_v1
+# key: r_fic_eri_router_v1
+# --
+
+resource "fic_eri_router_v1" "${1:this}" {
+    area = "${2:area}"
+    name = "${3:name}"
+    user_ip_address = "${4:user_ip_address}"
+}

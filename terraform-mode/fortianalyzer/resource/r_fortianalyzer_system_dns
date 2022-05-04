@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_dns
+# key: r_fortianalyzer_system_dns
+# --
+
+resource "fortianalyzer_system_dns" "${1:this}" {
+}

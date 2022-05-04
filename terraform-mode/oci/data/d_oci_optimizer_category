@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_optimizer_category
+# key: d_oci_optimizer_category
+# --
+
+data "oci_optimizer_category" "${1:this}" {
+    category_id = "${2:category_id}"
+}

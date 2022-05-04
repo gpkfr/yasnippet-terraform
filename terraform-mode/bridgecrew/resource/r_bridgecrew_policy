@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_bridgecrew_policy
+# key: r_bridgecrew_policy
+# --
+
+resource "bridgecrew_policy" "${1:this}" {
+    cloud_provider = "${2:cloud_provider}"
+    file = "${3:file}"
+    frameworks = "${4:frameworks}"
+}

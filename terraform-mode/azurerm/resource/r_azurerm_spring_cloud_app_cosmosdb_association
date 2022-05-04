@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_spring_cloud_app_cosmosdb_association
+# key: r_azurerm_spring_cloud_app_cosmosdb_association
+# --
+
+resource "azurerm_spring_cloud_app_cosmosdb_association" "${1:this}" {
+    api_type = "${2:api_type}"
+    cosmosdb_access_key = "${3:cosmosdb_access_key}"
+    cosmosdb_account_id = "${4:cosmosdb_account_id}"
+    name = "${5:name}"
+    spring_cloud_app_id = "${6:spring_cloud_app_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_sslkeyandcertificate
+# key: d_avi_sslkeyandcertificate
+# --
+
+data "avi_sslkeyandcertificate" "${1:this}" {
+}

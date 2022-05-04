@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslprofile
+# key: r_citrixadc_sslprofile
+# --
+
+resource "citrixadc_sslprofile" "${1:this}" {
+    ecccurvebindings = "${2:ecccurvebindings}"
+    name = "${3:name}"
+}

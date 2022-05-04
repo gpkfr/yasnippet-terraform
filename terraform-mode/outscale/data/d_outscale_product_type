@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_outscale_product_type
+# key: d_outscale_product_type
+# --
+
+data "outscale_product_type" "${1:this}" {
+}

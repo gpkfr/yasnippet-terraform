@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_dospolicy
+# key: r_fortimanager_packages_firewall_dospolicy
+# --
+
+resource "fortimanager_packages_firewall_dospolicy" "${1:this}" {
+    pkg = "${2:pkg}"
+}

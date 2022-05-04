@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudfront_distribution
+# key: d_awscc_cloudfront_distribution
+# --
+
+data "awscc_cloudfront_distribution" "${1:this}" {
+    id = "${2:id}"
+}

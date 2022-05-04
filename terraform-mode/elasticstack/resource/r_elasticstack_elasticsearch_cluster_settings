@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_elasticstack_elasticsearch_cluster_settings
+# key: r_elasticstack_elasticsearch_cluster_settings
+# --
+
+resource "elasticstack_elasticsearch_cluster_settings" "${1:this}" {
+}

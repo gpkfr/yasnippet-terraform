@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_admin_group
+# key: r_fortianalyzer_system_admin_group
+# --
+
+resource "fortianalyzer_system_admin_group" "${1:this}" {
+}

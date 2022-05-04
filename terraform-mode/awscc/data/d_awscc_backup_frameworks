@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_backup_frameworks
+# key: d_awscc_backup_frameworks
+# --
+
+data "awscc_backup_frameworks" "${1:this}" {
+}

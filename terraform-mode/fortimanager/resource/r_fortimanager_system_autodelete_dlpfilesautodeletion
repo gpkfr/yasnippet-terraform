@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_autodelete_dlpfilesautodeletion
+# key: r_fortimanager_system_autodelete_dlpfilesautodeletion
+# --
+
+resource "fortimanager_system_autodelete_dlpfilesautodeletion" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ciscoasa_interface_vlan
+# key: d_ciscoasa_interface_vlan
+# --
+
+data "ciscoasa_interface_vlan" "${1:this}" {
+    hardware_id = "${2:hardware_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudscale_objects_user
+# key: r_cloudscale_objects_user
+# --
+
+resource "cloudscale_objects_user" "${1:this}" {
+    display_name = "${2:display_name}"
+}

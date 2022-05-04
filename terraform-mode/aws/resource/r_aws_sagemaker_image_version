@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_image_version
+# key: r_aws_sagemaker_image_version
+# --
+
+resource "aws_sagemaker_image_version" "${1:this}" {
+    base_image = "${2:base_image}"
+    image_name = "${3:image_name}"
+}

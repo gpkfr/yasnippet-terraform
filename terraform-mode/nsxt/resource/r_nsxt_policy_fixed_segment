@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_fixed_segment
+# key: r_nsxt_policy_fixed_segment
+# --
+
+resource "nsxt_policy_fixed_segment" "${1:this}" {
+    connectivity_path = "${2:connectivity_path}"
+    display_name = "${3:display_name}"
+}

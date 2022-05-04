@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_kubernetes_trusted_registries_policy
+# key: r_intersight_kubernetes_trusted_registries_policy
+# --
+
+resource "intersight_kubernetes_trusted_registries_policy" "${1:this}" {
+}

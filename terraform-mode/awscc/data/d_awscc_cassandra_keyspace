@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cassandra_keyspace
+# key: d_awscc_cassandra_keyspace
+# --
+
+data "awscc_cassandra_keyspace" "${1:this}" {
+    id = "${2:id}"
+}

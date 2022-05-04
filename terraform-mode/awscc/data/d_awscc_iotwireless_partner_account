@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotwireless_partner_account
+# key: d_awscc_iotwireless_partner_account
+# --
+
+data "awscc_iotwireless_partner_account" "${1:this}" {
+    id = "${2:id}"
+}

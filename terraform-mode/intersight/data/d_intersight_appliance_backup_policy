@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_backup_policy
+# key: d_intersight_appliance_backup_policy
+# --
+
+data "intersight_appliance_backup_policy" "${1:this}" {
+}

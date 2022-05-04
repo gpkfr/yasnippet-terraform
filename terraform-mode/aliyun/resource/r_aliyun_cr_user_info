@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aliyun_cr_user_info
+# key: r_aliyun_cr_user_info
+# --
+
+resource "aliyun_cr_user_info" "${1:this}" {
+    password = "${2:password}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_account
+# key: d_intersight_iam_account
+# --
+
+data "intersight_iam_account" "${1:this}" {
+}

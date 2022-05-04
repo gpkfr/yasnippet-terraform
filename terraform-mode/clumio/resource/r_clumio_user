@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_clumio_user
+# key: r_clumio_user
+# --
+
+resource "clumio_user" "${1:this}" {
+    email = "${2:email}"
+    full_name = "${3:full_name}"
+    organizational_unit_ids = "${4:organizational_unit_ids}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_alarm
+# key: d_intersight_hyperflex_alarm
+# --
+
+data "intersight_hyperflex_alarm" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_fleet
+# key: r_volterra_fleet
+# --
+
+resource "volterra_fleet" "${1:this}" {
+    fleet_label = "${2:fleet_label}"
+    name = "${3:name}"
+    namespace = "${4:namespace}"
+}

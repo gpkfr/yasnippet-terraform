@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_waf_signature
+# key: r_fortimanager_object_waf_signature
+# --
+
+resource "fortimanager_object_waf_signature" "${1:this}" {
+}

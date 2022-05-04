@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_servicecatalogappregistry_applications
+# key: d_awscc_servicecatalogappregistry_applications
+# --
+
+data "awscc_servicecatalogappregistry_applications" "${1:this}" {
+}

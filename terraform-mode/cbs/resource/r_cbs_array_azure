@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: r_cbs_array_azure
+# key: r_cbs_array_azure
+# --
+
+resource "cbs_array_azure" "${1:this}" {
+    array_model = "${2:array_model}"
+    array_name = "${3:array_name}"
+    iscsi_subnet = "${4:iscsi_subnet}"
+    key_vault_id = "${5:key_vault_id}"
+    license_key = "${6:license_key}"
+    location = "${7:location}"
+    log_sender_domain = "${8:log_sender_domain}"
+    management_subnet = "${9:management_subnet}"
+    replication_subnet = "${10:replication_subnet}"
+    resource_group_name = "${11:resource_group_name}"
+    system_subnet = "${12:system_subnet}"
+    virtual_network_id = "${13:virtual_network_id}"
+    zone = "${14:zone}"
+}

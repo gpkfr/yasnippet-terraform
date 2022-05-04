@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_lacework_alert_channel_service_now
+# key: r_lacework_alert_channel_service_now
+# --
+
+resource "lacework_alert_channel_service_now" "${1:this}" {
+    instance_url = "${2:instance_url}"
+    name = "${3:name}"
+    password = "${4:password}"
+    username = "${5:username}"
+}

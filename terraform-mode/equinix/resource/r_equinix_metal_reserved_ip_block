@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_reserved_ip_block
+# key: r_equinix_metal_reserved_ip_block
+# --
+
+resource "equinix_metal_reserved_ip_block" "${1:this}" {
+    project_id = "${2:project_id}"
+}

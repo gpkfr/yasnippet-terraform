@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudfront_field_level_encryption_config
+# key: r_aws_cloudfront_field_level_encryption_config
+# --
+
+resource "aws_cloudfront_field_level_encryption_config" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sagemaker_monitoring_schedule
+# key: r_awscc_sagemaker_monitoring_schedule
+# --
+
+resource "awscc_sagemaker_monitoring_schedule" "${1:this}" {
+    monitoring_schedule_config = "${2:monitoring_schedule_config}"
+    monitoring_schedule_name = "${3:monitoring_schedule_name}"
+}

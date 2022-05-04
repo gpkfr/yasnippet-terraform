@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_keypair
+# key: r_artifactory_keypair
+# --
+
+resource "artifactory_keypair" "${1:this}" {
+    alias = "${2:alias}"
+    pair_name = "${3:pair_name}"
+    pair_type = "${4:pair_type}"
+    private_key = "${5:private_key}"
+    public_key = "${6:public_key}"
+}

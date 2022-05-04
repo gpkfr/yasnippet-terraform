@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vault_raft_snapshot_agent_config
+# key: r_vault_raft_snapshot_agent_config
+# --
+
+resource "vault_raft_snapshot_agent_config" "${1:this}" {
+    interval_seconds = "${2:interval_seconds}"
+    name = "${3:name}"
+    path_prefix = "${4:path_prefix}"
+    storage_type = "${5:storage_type}"
+}

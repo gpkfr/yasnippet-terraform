@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnsamlssoprofile
+# key: r_citrixadc_vpnsamlssoprofile
+# --
+
+resource "citrixadc_vpnsamlssoprofile" "${1:this}" {
+    assertionconsumerserviceurl = "${2:assertionconsumerserviceurl}"
+    name = "${3:name}"
+}

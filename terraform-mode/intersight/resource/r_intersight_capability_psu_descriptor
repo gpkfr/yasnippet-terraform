@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_capability_psu_descriptor
+# key: r_intersight_capability_psu_descriptor
+# --
+
+resource "intersight_capability_psu_descriptor" "${1:this}" {
+}

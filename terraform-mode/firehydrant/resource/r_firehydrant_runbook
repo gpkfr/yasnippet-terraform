@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_firehydrant_runbook
+# key: r_firehydrant_runbook
+# --
+
+resource "firehydrant_runbook" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

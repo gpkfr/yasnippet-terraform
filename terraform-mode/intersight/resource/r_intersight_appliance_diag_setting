@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_appliance_diag_setting
+# key: r_intersight_appliance_diag_setting
+# --
+
+resource "intersight_appliance_diag_setting" "${1:this}" {
+}

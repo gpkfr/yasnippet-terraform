@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_integration_aws_govcloud_cfg
+# key: r_lacework_integration_aws_govcloud_cfg
+# --
+
+resource "lacework_integration_aws_govcloud_cfg" "${1:this}" {
+    account_id = "${2:account_id}"
+    name = "${3:name}"
+}

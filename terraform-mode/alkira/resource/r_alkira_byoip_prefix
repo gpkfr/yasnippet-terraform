@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_alkira_byoip_prefix
+# key: r_alkira_byoip_prefix
+# --
+
+resource "alkira_byoip_prefix" "${1:this}" {
+    cxp = "${2:cxp}"
+    message = "${3:message}"
+    prefix = "${4:prefix}"
+    public_key = "${5:public_key}"
+    signature = "${6:signature}"
+}

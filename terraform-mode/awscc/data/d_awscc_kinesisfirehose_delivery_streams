@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_kinesisfirehose_delivery_streams
+# key: d_awscc_kinesisfirehose_delivery_streams
+# --
+
+data "awscc_kinesisfirehose_delivery_streams" "${1:this}" {
+}

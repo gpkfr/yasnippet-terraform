@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_host
+# key: r_awscc_ec2_host
+# --
+
+resource "awscc_ec2_host" "${1:this}" {
+    availability_zone = "${2:availability_zone}"
+    instance_type = "${3:instance_type}"
+}

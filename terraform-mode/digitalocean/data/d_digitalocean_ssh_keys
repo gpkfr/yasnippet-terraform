@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_ssh_keys
+# key: d_digitalocean_ssh_keys
+# --
+
+data "digitalocean_ssh_keys" "${1:this}" {
+}

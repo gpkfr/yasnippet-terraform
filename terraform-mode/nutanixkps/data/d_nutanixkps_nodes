@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanixkps_nodes
+# key: d_nutanixkps_nodes
+# --
+
+data "nutanixkps_nodes" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_ip_policy
+# key: r_ngrok_ip_policy
+# --
+
+resource "ngrok_ip_policy" "${1:this}" {
+}

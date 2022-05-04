@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_syslog_remote_dest
+# key: d_intersight_niatelemetry_syslog_remote_dest
+# --
+
+data "intersight_niatelemetry_syslog_remote_dest" "${1:this}" {
+}

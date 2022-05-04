@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_repository_file_diff
+# key: d_oci_devops_repository_file_diff
+# --
+
+data "oci_devops_repository_file_diff" "${1:this}" {
+    base_version = "${2:base_version}"
+    file_path = "${3:file_path}"
+    repository_id = "${4:repository_id}"
+    target_version = "${5:target_version}"
+}

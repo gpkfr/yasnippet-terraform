@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_dhcp_v4_static_binding
+# key: r_nsxt_policy_dhcp_v4_static_binding
+# --
+
+resource "nsxt_policy_dhcp_v4_static_binding" "${1:this}" {
+    display_name = "${2:display_name}"
+    ip_address = "${3:ip_address}"
+    mac_address = "${4:mac_address}"
+    segment_path = "${5:segment_path}"
+}

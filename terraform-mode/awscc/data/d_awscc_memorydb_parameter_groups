@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_memorydb_parameter_groups
+# key: d_awscc_memorydb_parameter_groups
+# --
+
+data "awscc_memorydb_parameter_groups" "${1:this}" {
+}

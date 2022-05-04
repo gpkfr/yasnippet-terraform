@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_target_gcp
+# key: r_akeyless_target_gcp
+# --
+
+resource "akeyless_target_gcp" "${1:this}" {
+    name = "${2:name}"
+}

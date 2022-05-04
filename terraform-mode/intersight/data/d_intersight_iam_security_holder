@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_security_holder
+# key: d_intersight_iam_security_holder
+# --
+
+data "intersight_iam_security_holder" "${1:this}" {
+}

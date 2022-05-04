@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_smpp
+# key: r_thunder_slb_smpp
+# --
+
+resource "thunder_slb_smpp" "${1:this}" {
+}

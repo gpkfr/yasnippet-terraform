@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_application_error_rules
+# key: r_dynatrace_application_error_rules
+# --
+
+resource "dynatrace_application_error_rules" "${1:this}" {
+}

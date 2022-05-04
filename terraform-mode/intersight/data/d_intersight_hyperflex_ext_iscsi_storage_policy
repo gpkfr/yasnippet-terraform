@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_ext_iscsi_storage_policy
+# key: d_intersight_hyperflex_ext_iscsi_storage_policy
+# --
+
+data "intersight_hyperflex_ext_iscsi_storage_policy" "${1:this}" {
+}

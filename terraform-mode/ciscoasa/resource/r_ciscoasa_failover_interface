@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_failover_interface
+# key: r_ciscoasa_failover_interface
+# --
+
+resource "ciscoasa_failover_interface" "${1:this}" {
+    hardware_id = "${2:hardware_id}"
+    standby_ip = "${3:standby_ip}"
+}

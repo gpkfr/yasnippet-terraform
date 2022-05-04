@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vmc_sddc
+# key: d_vmc_sddc
+# --
+
+data "vmc_sddc" "${1:this}" {
+    sddc_id = "${2:sddc_id}"
+}

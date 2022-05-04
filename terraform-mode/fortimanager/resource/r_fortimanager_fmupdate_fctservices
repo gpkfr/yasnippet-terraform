@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_fmupdate_fctservices
+# key: r_fortimanager_fmupdate_fctservices
+# --
+
+resource "fortimanager_fmupdate_fctservices" "${1:this}" {
+}

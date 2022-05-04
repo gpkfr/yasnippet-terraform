@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_resourcegroups_groups
+# key: d_awscc_resourcegroups_groups
+# --
+
+data "awscc_resourcegroups_groups" "${1:this}" {
+}

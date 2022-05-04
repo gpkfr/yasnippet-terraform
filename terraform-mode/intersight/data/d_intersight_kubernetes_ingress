@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_ingress
+# key: d_intersight_kubernetes_ingress
+# --
+
+data "intersight_kubernetes_ingress" "${1:this}" {
+}

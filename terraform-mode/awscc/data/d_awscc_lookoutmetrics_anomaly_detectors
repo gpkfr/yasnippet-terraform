@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lookoutmetrics_anomaly_detectors
+# key: d_awscc_lookoutmetrics_anomaly_detectors
+# --
+
+data "awscc_lookoutmetrics_anomaly_detectors" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_networkmanager_customer_gateway_association
+# key: r_awscc_networkmanager_customer_gateway_association
+# --
+
+resource "awscc_networkmanager_customer_gateway_association" "${1:this}" {
+    customer_gateway_arn = "${2:customer_gateway_arn}"
+    device_id = "${3:device_id}"
+    global_network_id = "${4:global_network_id}"
+}

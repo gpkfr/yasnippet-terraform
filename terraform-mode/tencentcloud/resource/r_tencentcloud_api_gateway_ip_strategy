@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_api_gateway_ip_strategy
+# key: r_tencentcloud_api_gateway_ip_strategy
+# --
+
+resource "tencentcloud_api_gateway_ip_strategy" "${1:this}" {
+    service_id = "${2:service_id}"
+    strategy_data = "${3:strategy_data}"
+    strategy_name = "${4:strategy_name}"
+    strategy_type = "${5:strategy_type}"
+}

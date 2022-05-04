@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_appstream_user
+# key: r_aws_appstream_user
+# --
+
+resource "aws_appstream_user" "${1:this}" {
+    authentication_type = "${2:authentication_type}"
+    user_name = "${3:user_name}"
+}

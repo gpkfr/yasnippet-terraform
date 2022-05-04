@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_appflow_flow
+# key: r_awscc_appflow_flow
+# --
+
+resource "awscc_appflow_flow" "${1:this}" {
+    destination_flow_config_list = "${2:destination_flow_config_list}"
+    flow_name = "${3:flow_name}"
+    source_flow_config = "${4:source_flow_config}"
+    tasks = "${5:tasks}"
+    trigger_config = "${6:trigger_config}"
+}

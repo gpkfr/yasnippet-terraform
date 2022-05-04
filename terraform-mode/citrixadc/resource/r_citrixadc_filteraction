@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_filteraction
+# key: r_citrixadc_filteraction
+# --
+
+resource "citrixadc_filteraction" "${1:this}" {
+    name = "${2:name}"
+    qual = "${3:qual}"
+}

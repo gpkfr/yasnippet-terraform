@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_quicksight_theme
+# key: d_awscc_quicksight_theme
+# --
+
+data "awscc_quicksight_theme" "${1:this}" {
+    id = "${2:id}"
+}

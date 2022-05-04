@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotevents_detector_model
+# key: r_awscc_iotevents_detector_model
+# --
+
+resource "awscc_iotevents_detector_model" "${1:this}" {
+    detector_model_definition = "${2:detector_model_definition}"
+    role_arn = "${3:role_arn}"
+}

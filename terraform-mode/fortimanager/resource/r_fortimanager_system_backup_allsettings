@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_backup_allsettings
+# key: r_fortimanager_system_backup_allsettings
+# --
+
+resource "fortimanager_system_backup_allsettings" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_pinpoint_in_app_template
+# key: r_awscc_pinpoint_in_app_template
+# --
+
+resource "awscc_pinpoint_in_app_template" "${1:this}" {
+    template_name = "${2:template_name}"
+}

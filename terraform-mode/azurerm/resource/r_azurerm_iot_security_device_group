@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_iot_security_device_group
+# key: r_azurerm_iot_security_device_group
+# --
+
+resource "azurerm_iot_security_device_group" "${1:this}" {
+    iothub_id = "${2:iothub_id}"
+    name = "${3:name}"
+}

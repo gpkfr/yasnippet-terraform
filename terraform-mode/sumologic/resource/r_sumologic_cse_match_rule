@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_match_rule
+# key: r_sumologic_cse_match_rule
+# --
+
+resource "sumologic_cse_match_rule" "${1:this}" {
+    description_expression = "${2:description_expression}"
+    enabled = "${3:enabled}"
+    expression = "${4:expression}"
+    name = "${5:name}"
+    name_expression = "${6:name_expression}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_adldap_computer
+# key: r_adldap_computer
+# --
+
+resource "adldap_computer" "${1:this}" {
+    organizational_unit = "${2:organizational_unit}"
+    samaccountname = "${3:samaccountname}"
+}

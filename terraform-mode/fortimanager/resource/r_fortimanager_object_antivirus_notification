@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_antivirus_notification
+# key: r_fortimanager_object_antivirus_notification
+# --
+
+resource "fortimanager_object_antivirus_notification" "${1:this}" {
+}

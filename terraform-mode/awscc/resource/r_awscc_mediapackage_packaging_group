@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_mediapackage_packaging_group
+# key: r_awscc_mediapackage_packaging_group
+# --
+
+resource "awscc_mediapackage_packaging_group" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_shaper_peripshaper
+# key: r_fortimanager_object_firewall_shaper_peripshaper
+# --
+
+resource "fortimanager_object_firewall_shaper_peripshaper" "${1:this}" {
+}

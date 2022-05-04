@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_bridgecrew_incidents
+# key: d_bridgecrew_incidents
+# --
+
+data "bridgecrew_incidents" "${1:this}" {
+}

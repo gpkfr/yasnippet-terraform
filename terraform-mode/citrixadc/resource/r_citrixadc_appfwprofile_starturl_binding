@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwprofile_starturl_binding
+# key: r_citrixadc_appfwprofile_starturl_binding
+# --
+
+resource "citrixadc_appfwprofile_starturl_binding" "${1:this}" {
+    name = "${2:name}"
+    starturl = "${3:starturl}"
+}

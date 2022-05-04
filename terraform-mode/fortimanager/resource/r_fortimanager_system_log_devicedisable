@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_log_devicedisable
+# key: r_fortimanager_system_log_devicedisable
+# --
+
+resource "fortimanager_system_log_devicedisable" "${1:this}" {
+}

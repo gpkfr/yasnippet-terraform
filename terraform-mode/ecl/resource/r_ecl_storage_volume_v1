@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ecl_storage_volume_v1
+# key: r_ecl_storage_volume_v1
+# --
+
+resource "ecl_storage_volume_v1" "${1:this}" {
+    name = "${2:name}"
+    size = "${3:size}"
+    virtual_storage_id = "${4:virtual_storage_id}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_nuage_data_center_server
+# key: r_checkpoint_management_nuage_data_center_server
+# --
+
+resource "checkpoint_management_nuage_data_center_server" "${1:this}" {
+    hostname = "${2:hostname}"
+    name = "${3:name}"
+    organization = "${4:organization}"
+    username = "${5:username}"
+}

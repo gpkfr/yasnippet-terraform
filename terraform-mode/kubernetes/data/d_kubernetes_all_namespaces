@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kubernetes_all_namespaces
+# key: d_kubernetes_all_namespaces
+# --
+
+data "kubernetes_all_namespaces" "${1:this}" {
+}

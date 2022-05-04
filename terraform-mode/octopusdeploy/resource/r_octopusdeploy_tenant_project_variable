@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_tenant_project_variable
+# key: r_octopusdeploy_tenant_project_variable
+# --
+
+resource "octopusdeploy_tenant_project_variable" "${1:this}" {
+    environment_id = "${2:environment_id}"
+    project_id = "${3:project_id}"
+    template_id = "${4:template_id}"
+    tenant_id = "${5:tenant_id}"
+}

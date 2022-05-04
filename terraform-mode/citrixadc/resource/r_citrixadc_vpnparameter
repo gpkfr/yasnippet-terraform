@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnparameter
+# key: r_citrixadc_vpnparameter
+# --
+
+resource "citrixadc_vpnparameter" "${1:this}" {
+}

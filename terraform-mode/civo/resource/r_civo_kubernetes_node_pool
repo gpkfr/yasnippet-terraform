@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_civo_kubernetes_node_pool
+# key: r_civo_kubernetes_node_pool
+# --
+
+resource "civo_kubernetes_node_pool" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    region = "${3:region}"
+}

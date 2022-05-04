@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_ospf_area
+# key: r_nsxt_policy_ospf_area
+# --
+
+resource "nsxt_policy_ospf_area" "${1:this}" {
+    area_id = "${2:area_id}"
+    display_name = "${3:display_name}"
+    ospf_path = "${4:ospf_path}"
+}

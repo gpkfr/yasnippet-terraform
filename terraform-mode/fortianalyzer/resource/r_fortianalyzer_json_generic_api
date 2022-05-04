@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_json_generic_api
+# key: r_fortianalyzer_json_generic_api
+# --
+
+resource "fortianalyzer_json_generic_api" "${1:this}" {
+    json_content = "${2:json_content}"
+}

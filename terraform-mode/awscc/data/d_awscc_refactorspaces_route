@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_refactorspaces_route
+# key: d_awscc_refactorspaces_route
+# --
+
+data "awscc_refactorspaces_route" "${1:this}" {
+    id = "${2:id}"
+}

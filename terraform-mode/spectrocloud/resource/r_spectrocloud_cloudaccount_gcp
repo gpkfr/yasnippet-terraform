@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_cloudaccount_gcp
+# key: r_spectrocloud_cloudaccount_gcp
+# --
+
+resource "spectrocloud_cloudaccount_gcp" "${1:this}" {
+    gcp_json_credentials = "${2:gcp_json_credentials}"
+    name = "${3:name}"
+}

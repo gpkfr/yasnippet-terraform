@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alertlogic_account
+# key: d_alertlogic_account
+# --
+
+data "alertlogic_account" "${1:this}" {
+}

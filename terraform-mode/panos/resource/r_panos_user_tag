@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_panos_user_tag
+# key: r_panos_user_tag
+# --
+
+resource "panos_user_tag" "${1:this}" {
+    tags = "${2:tags}"
+    user = "${3:user}"
+}

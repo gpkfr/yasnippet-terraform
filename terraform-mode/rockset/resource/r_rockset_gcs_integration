@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rockset_gcs_integration
+# key: r_rockset_gcs_integration
+# --
+
+resource "rockset_gcs_integration" "${1:this}" {
+    name = "${2:name}"
+    service_account_key = "${3:service_account_key}"
+}

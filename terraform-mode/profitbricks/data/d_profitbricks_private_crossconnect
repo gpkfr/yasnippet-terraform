@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_profitbricks_private_crossconnect
+# key: d_profitbricks_private_crossconnect
+# --
+
+data "profitbricks_private_crossconnect" "${1:this}" {
+}

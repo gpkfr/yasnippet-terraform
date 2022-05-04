@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_linode_lke_cluster
+# key: d_linode_lke_cluster
+# --
+
+data "linode_lke_cluster" "${1:this}" {
+    id = "${2:id}"
+}

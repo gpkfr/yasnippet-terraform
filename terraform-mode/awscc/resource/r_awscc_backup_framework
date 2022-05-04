@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_backup_framework
+# key: r_awscc_backup_framework
+# --
+
+resource "awscc_backup_framework" "${1:this}" {
+    framework_controls = "${2:framework_controls}"
+}

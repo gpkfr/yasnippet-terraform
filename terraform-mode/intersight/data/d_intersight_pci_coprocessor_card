@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_pci_coprocessor_card
+# key: d_intersight_pci_coprocessor_card
+# --
+
+data "intersight_pci_coprocessor_card" "${1:this}" {
+}

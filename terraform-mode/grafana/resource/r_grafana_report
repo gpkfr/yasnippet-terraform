@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_grafana_report
+# key: r_grafana_report
+# --
+
+resource "grafana_report" "${1:this}" {
+    dashboard_id = "${2:dashboard_id}"
+    name = "${3:name}"
+    recipients = "${4:recipients}"
+}

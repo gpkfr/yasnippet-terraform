@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_opennebula_virtual_machine
+# key: r_opennebula_virtual_machine
+# --
+
+resource "opennebula_virtual_machine" "${1:this}" {
+}

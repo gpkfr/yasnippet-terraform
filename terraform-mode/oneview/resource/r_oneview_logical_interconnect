@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneview_logical_interconnect
+# key: r_oneview_logical_interconnect
+# --
+
+resource "oneview_logical_interconnect" "${1:this}" {
+}

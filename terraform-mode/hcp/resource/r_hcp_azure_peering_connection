@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_hcp_azure_peering_connection
+# key: r_hcp_azure_peering_connection
+# --
+
+resource "hcp_azure_peering_connection" "${1:this}" {
+    hvn_link = "${2:hvn_link}"
+    peer_resource_group_name = "${3:peer_resource_group_name}"
+    peer_subscription_id = "${4:peer_subscription_id}"
+    peer_tenant_id = "${5:peer_tenant_id}"
+    peer_vnet_name = "${6:peer_vnet_name}"
+    peer_vnet_region = "${7:peer_vnet_region}"
+    peering_id = "${8:peering_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_devicefarm_upload
+# key: r_aws_devicefarm_upload
+# --
+
+resource "aws_devicefarm_upload" "${1:this}" {
+    name = "${2:name}"
+    project_arn = "${3:project_arn}"
+    type = "${4:type}"
+}

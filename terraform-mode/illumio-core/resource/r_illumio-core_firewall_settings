@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_firewall_settings
+# key: r_illumio-core_firewall_settings
+# --
+
+resource "illumio-core_firewall_settings" "${1:this}" {
+    ike_authentication_type = "${2:ike_authentication_type}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_bridgecrew_simple_policy
+# key: r_bridgecrew_simple_policy
+# --
+
+resource "bridgecrew_simple_policy" "${1:this}" {
+    category = "${2:category}"
+    cloud_provider = "${3:cloud_provider}"
+    frameworks = "${4:frameworks}"
+    severity = "${5:severity}"
+    title = "${6:title}"
+}

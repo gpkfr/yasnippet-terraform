@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_ros_change_sets
+# key: d_alicloud_ros_change_sets
+# --
+
+data "alicloud_ros_change_sets" "${1:this}" {
+    stack_id = "${2:stack_id}"
+}

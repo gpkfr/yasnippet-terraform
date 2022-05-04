@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_fc_custom_domain
+# key: r_alicloud_fc_custom_domain
+# --
+
+resource "alicloud_fc_custom_domain" "${1:this}" {
+    domain_name = "${2:domain_name}"
+    protocol = "${3:protocol}"
+}

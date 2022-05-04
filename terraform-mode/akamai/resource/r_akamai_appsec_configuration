@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_configuration
+# key: r_akamai_appsec_configuration
+# --
+
+resource "akamai_appsec_configuration" "${1:this}" {
+    contract_id = "${2:contract_id}"
+    description = "${3:description}"
+    group_id = "${4:group_id}"
+    host_names = "${5:host_names}"
+    name = "${6:name}"
+}

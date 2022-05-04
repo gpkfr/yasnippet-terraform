@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_log_receiver
+# key: r_volterra_log_receiver
+# --
+
+resource "volterra_log_receiver" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

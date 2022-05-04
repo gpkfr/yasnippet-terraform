@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_alert
+# key: r_oci_data_safe_alert
+# --
+
+resource "oci_data_safe_alert" "${1:this}" {
+    alert_id = "${2:alert_id}"
+}

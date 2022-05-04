@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_hcp_aws_transit_gateway_attachment
+# key: r_hcp_aws_transit_gateway_attachment
+# --
+
+resource "hcp_aws_transit_gateway_attachment" "${1:this}" {
+    hvn_id = "${2:hvn_id}"
+    resource_share_arn = "${3:resource_share_arn}"
+    transit_gateway_attachment_id = "${4:transit_gateway_attachment_id}"
+    transit_gateway_id = "${5:transit_gateway_id}"
+}

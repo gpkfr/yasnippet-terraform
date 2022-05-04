@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_workforce
+# key: r_aws_sagemaker_workforce
+# --
+
+resource "aws_sagemaker_workforce" "${1:this}" {
+    workforce_name = "${2:workforce_name}"
+}

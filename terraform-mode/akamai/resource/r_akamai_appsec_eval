@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_eval
+# key: r_akamai_appsec_eval
+# --
+
+resource "akamai_appsec_eval" "${1:this}" {
+    config_id = "${2:config_id}"
+    eval_operation = "${3:eval_operation}"
+    security_policy_id = "${4:security_policy_id}"
+    version = "${5:version}"
+}

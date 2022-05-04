@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_prismacloudcompute_registry_settings
+# key: r_prismacloudcompute_registry_settings
+# --
+
+resource "prismacloudcompute_registry_settings" "${1:this}" {
+}

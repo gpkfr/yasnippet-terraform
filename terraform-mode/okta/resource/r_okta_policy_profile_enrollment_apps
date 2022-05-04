@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_okta_policy_profile_enrollment_apps
+# key: r_okta_policy_profile_enrollment_apps
+# --
+
+resource "okta_policy_profile_enrollment_apps" "${1:this}" {
+    policy_id = "${2:policy_id}"
+}

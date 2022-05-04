@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_astra_private_link
+# key: r_astra_private_link
+# --
+
+resource "astra_private_link" "${1:this}" {
+    allowed_principals = "${2:allowed_principals}"
+    database_id = "${3:database_id}"
+    datacenter_id = "${4:datacenter_id}"
+}

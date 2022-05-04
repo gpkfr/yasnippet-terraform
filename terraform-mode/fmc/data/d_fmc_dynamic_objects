@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fmc_dynamic_objects
+# key: d_fmc_dynamic_objects
+# --
+
+data "fmc_dynamic_objects" "${1:this}" {
+    name = "${2:name}"
+}

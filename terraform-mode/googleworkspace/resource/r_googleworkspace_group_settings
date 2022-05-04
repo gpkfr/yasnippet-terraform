@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_googleworkspace_group_settings
+# key: r_googleworkspace_group_settings
+# --
+
+resource "googleworkspace_group_settings" "${1:this}" {
+    email = "${2:email}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_apigateway_request_validator
+# key: d_awscc_apigateway_request_validator
+# --
+
+data "awscc_apigateway_request_validator" "${1:this}" {
+    id = "${2:id}"
+}

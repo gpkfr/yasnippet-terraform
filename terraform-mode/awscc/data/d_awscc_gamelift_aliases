@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_gamelift_aliases
+# key: d_awscc_gamelift_aliases
+# --
+
+data "awscc_gamelift_aliases" "${1:this}" {
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_tdmq_topic
+# key: r_tencentcloud_tdmq_topic
+# --
+
+resource "tencentcloud_tdmq_topic" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    environ_id = "${3:environ_id}"
+    partitions = "${4:partitions}"
+    topic_name = "${5:topic_name}"
+    topic_type = "${6:topic_type}"
+}

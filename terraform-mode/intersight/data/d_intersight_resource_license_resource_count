@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_resource_license_resource_count
+# key: d_intersight_resource_license_resource_count
+# --
+
+data "intersight_resource_license_resource_count" "${1:this}" {
+}

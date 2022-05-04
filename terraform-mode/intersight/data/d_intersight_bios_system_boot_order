@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_bios_system_boot_order
+# key: d_intersight_bios_system_boot_order
+# --
+
+data "intersight_bios_system_boot_order" "${1:this}" {
+}

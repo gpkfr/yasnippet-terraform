@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_astra_database
+# key: r_astra_database
+# --
+
+resource "astra_database" "${1:this}" {
+    cloud_provider = "${2:cloud_provider}"
+    keyspace = "${3:keyspace}"
+    name = "${4:name}"
+    regions = "${5:regions}"
+}

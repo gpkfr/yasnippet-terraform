@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_grafana_oncall_integration
+# key: r_grafana_oncall_integration
+# --
+
+resource "grafana_oncall_integration" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

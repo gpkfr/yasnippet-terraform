@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_auto_support_policy
+# key: r_intersight_hyperflex_auto_support_policy
+# --
+
+resource "intersight_hyperflex_auto_support_policy" "${1:this}" {
+}

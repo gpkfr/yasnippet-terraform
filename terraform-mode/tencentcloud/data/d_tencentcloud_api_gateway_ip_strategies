@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_api_gateway_ip_strategies
+# key: d_tencentcloud_api_gateway_ip_strategies
+# --
+
+data "tencentcloud_api_gateway_ip_strategies" "${1:this}" {
+    service_id = "${2:service_id}"
+}

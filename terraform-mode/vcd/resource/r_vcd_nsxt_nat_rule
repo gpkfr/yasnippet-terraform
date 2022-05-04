@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxt_nat_rule
+# key: r_vcd_nsxt_nat_rule
+# --
+
+resource "vcd_nsxt_nat_rule" "${1:this}" {
+    edge_gateway_id = "${2:edge_gateway_id}"
+    name = "${3:name}"
+    rule_type = "${4:rule_type}"
+}

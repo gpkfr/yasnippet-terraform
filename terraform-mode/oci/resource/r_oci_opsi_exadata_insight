@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oci_opsi_exadata_insight
+# key: r_oci_opsi_exadata_insight
+# --
+
+resource "oci_opsi_exadata_insight" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    enterprise_manager_bridge_id = "${3:enterprise_manager_bridge_id}"
+    enterprise_manager_entity_identifier = "${4:enterprise_manager_entity_identifier}"
+    enterprise_manager_identifier = "${5:enterprise_manager_identifier}"
+    entity_source = "${6:entity_source}"
+}

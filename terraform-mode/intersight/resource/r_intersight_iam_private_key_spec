@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_private_key_spec
+# key: r_intersight_iam_private_key_spec
+# --
+
+resource "intersight_iam_private_key_spec" "${1:this}" {
+}

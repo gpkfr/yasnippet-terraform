@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_datadog_slo_correction
+# key: r_datadog_slo_correction
+# --
+
+resource "datadog_slo_correction" "${1:this}" {
+    category = "${2:category}"
+    slo_id = "${3:slo_id}"
+    start = "${4:start}"
+}

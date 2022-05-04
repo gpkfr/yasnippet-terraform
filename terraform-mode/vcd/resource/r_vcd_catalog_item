@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_catalog_item
+# key: r_vcd_catalog_item
+# --
+
+resource "vcd_catalog_item" "${1:this}" {
+    catalog = "${2:catalog}"
+    name = "${3:name}"
+}

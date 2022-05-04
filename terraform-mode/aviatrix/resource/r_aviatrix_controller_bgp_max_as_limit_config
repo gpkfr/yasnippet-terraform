@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_controller_bgp_max_as_limit_config
+# key: r_aviatrix_controller_bgp_max_as_limit_config
+# --
+
+resource "aviatrix_controller_bgp_max_as_limit_config" "${1:this}" {
+    max_as_limit = "${2:max_as_limit}"
+}

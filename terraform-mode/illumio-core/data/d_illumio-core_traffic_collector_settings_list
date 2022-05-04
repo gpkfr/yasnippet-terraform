@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_traffic_collector_settings_list
+# key: d_illumio-core_traffic_collector_settings_list
+# --
+
+data "illumio-core_traffic_collector_settings_list" "${1:this}" {
+}

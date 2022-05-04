@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_frauddetector_event_types
+# key: d_awscc_frauddetector_event_types
+# --
+
+data "awscc_frauddetector_event_types" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logzio_user
+# key: d_logzio_user
+# --
+
+data "logzio_user" "${1:this}" {
+}

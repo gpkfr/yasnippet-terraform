@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_objecttagging
+# key: d_fortios_system_objecttagging
+# --
+
+data "fortios_system_objecttagging" "${1:this}" {
+    category = "${2:category}"
+}

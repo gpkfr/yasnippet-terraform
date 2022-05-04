@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_astra_keyspace
+# key: r_astra_keyspace
+# --
+
+resource "astra_keyspace" "${1:this}" {
+    database_id = "${2:database_id}"
+    name = "${3:name}"
+}

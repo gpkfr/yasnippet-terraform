@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_log_fospolicystats
+# key: r_fortimanager_system_log_fospolicystats
+# --
+
+resource "fortimanager_system_log_fospolicystats" "${1:this}" {
+}

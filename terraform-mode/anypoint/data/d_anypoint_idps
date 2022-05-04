@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_anypoint_idps
+# key: d_anypoint_idps
+# --
+
+data "anypoint_idps" "${1:this}" {
+    org_id = "${2:org_id}"
+}

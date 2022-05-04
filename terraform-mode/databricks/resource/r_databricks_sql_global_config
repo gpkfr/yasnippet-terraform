@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_databricks_sql_global_config
+# key: r_databricks_sql_global_config
+# --
+
+resource "databricks_sql_global_config" "${1:this}" {
+}

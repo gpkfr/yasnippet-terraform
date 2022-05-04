@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_nat
+# key: r_ciscoasa_nat
+# --
+
+resource "ciscoasa_nat" "${1:this}" {
+    mode = "${2:mode}"
+    section = "${3:section}"
+}

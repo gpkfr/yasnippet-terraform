@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_node
+# key: d_intersight_kubernetes_node
+# --
+
+data "intersight_kubernetes_node" "${1:this}" {
+}

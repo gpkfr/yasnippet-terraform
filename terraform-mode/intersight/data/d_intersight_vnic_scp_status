@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_vnic_scp_status
+# key: d_intersight_vnic_scp_status
+# --
+
+data "intersight_vnic_scp_status" "${1:this}" {
+}

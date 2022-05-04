@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnglobal_intranetip_binding
+# key: r_citrixadc_vpnglobal_intranetip_binding
+# --
+
+resource "citrixadc_vpnglobal_intranetip_binding" "${1:this}" {
+    intranetip = "${2:intranetip}"
+    netmask = "${3:netmask}"
+}

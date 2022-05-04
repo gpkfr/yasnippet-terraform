@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_fnf_schedule
+# key: r_alicloud_fnf_schedule
+# --
+
+resource "alicloud_fnf_schedule" "${1:this}" {
+    cron_expression = "${2:cron_expression}"
+    flow_name = "${3:flow_name}"
+    schedule_name = "${4:schedule_name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_panorama_package_version
+# key: r_awscc_panorama_package_version
+# --
+
+resource "awscc_panorama_package_version" "${1:this}" {
+    package_id = "${2:package_id}"
+    package_version = "${3:package_version}"
+    patch_version = "${4:patch_version}"
+}

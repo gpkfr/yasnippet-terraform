@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fabric_fcoe_uplink_role
+# key: r_intersight_fabric_fcoe_uplink_role
+# --
+
+resource "intersight_fabric_fcoe_uplink_role" "${1:this}" {
+}

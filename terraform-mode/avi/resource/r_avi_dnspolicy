@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_dnspolicy
+# key: r_avi_dnspolicy
+# --
+
+resource "avi_dnspolicy" "${1:this}" {
+    name = "${2:name}"
+}

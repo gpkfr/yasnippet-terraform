@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_splunkconfig_app_auto_version
+# key: r_splunkconfig_app_auto_version
+# --
+
+resource "splunkconfig_app_auto_version" "${1:this}" {
+    app_id = "${2:app_id}"
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_device_virtual_wan_attachment
+# key: r_aviatrix_device_virtual_wan_attachment
+# --
+
+resource "aviatrix_device_virtual_wan_attachment" "${1:this}" {
+    account_name = "${2:account_name}"
+    connection_name = "${3:connection_name}"
+    device_bgp_asn = "${4:device_bgp_asn}"
+    device_name = "${5:device_name}"
+    hub_name = "${6:hub_name}"
+    resource_group = "${7:resource_group}"
+}

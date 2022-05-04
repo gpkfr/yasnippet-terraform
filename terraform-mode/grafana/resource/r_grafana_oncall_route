@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_grafana_oncall_route
+# key: r_grafana_oncall_route
+# --
+
+resource "grafana_oncall_route" "${1:this}" {
+    escalation_chain_id = "${2:escalation_chain_id}"
+    integration_id = "${3:integration_id}"
+    position = "${4:position}"
+    routing_regex = "${5:routing_regex}"
+}

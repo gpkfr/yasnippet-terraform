@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_ipam
+# key: r_awscc_ec2_ipam
+# --
+
+resource "awscc_ec2_ipam" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_harness_cloudprovider_tanzu
+# key: r_harness_cloudprovider_tanzu
+# --
+
+resource "harness_cloudprovider_tanzu" "${1:this}" {
+    endpoint = "${2:endpoint}"
+    name = "${3:name}"
+    password_secret_name = "${4:password_secret_name}"
+}

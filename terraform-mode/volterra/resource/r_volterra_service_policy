@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_service_policy
+# key: r_volterra_service_policy
+# --
+
+resource "volterra_service_policy" "${1:this}" {
+    algo = "${2:algo}"
+    name = "${3:name}"
+    namespace = "${4:namespace}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vcd_edgegateway
+# key: d_vcd_edgegateway
+# --
+
+data "vcd_edgegateway" "${1:this}" {
+}

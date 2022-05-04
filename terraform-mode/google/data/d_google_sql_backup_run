@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_google_sql_backup_run
+# key: d_google_sql_backup_run
+# --
+
+data "google_sql_backup_run" "${1:this}" {
+    instance = "${2:instance}"
+}

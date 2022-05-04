@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_splunkconfig_app_package
+# key: d_splunkconfig_app_package
+# --
+
+data "splunkconfig_app_package" "${1:this}" {
+    app_id = "${2:app_id}"
+    path = "${3:path}"
+}

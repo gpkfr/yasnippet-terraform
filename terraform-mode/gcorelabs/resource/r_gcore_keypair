@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gcore_keypair
+# key: r_gcore_keypair
+# --
+
+resource "gcore_keypair" "${1:this}" {
+    public_key = "${2:public_key}"
+    sshkey_name = "${3:sshkey_name}"
+}

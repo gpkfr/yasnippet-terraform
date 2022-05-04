@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_upgradestatusinfo
+# key: r_avi_upgradestatusinfo
+# --
+
+resource "avi_upgradestatusinfo" "${1:this}" {
+}

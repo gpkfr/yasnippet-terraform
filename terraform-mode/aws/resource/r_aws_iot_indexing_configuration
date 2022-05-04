@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_iot_indexing_configuration
+# key: r_aws_iot_indexing_configuration
+# --
+
+resource "aws_iot_indexing_configuration" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kubernetes_persistent_volume_claim
+# key: d_kubernetes_persistent_volume_claim
+# --
+
+data "kubernetes_persistent_volume_claim" "${1:this}" {
+}

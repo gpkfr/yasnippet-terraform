@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_user_assessment_comparison
+# key: d_oci_data_safe_user_assessment_comparison
+# --
+
+data "oci_data_safe_user_assessment_comparison" "${1:this}" {
+    comparison_user_assessment_id = "${2:comparison_user_assessment_id}"
+    user_assessment_id = "${3:user_assessment_id}"
+}

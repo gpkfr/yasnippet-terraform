@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_cloudproperties
+# key: r_avi_cloudproperties
+# --
+
+resource "avi_cloudproperties" "${1:this}" {
+}

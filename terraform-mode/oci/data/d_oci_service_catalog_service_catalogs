@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_service_catalog_service_catalogs
+# key: d_oci_service_catalog_service_catalogs
+# --
+
+data "oci_service_catalog_service_catalogs" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

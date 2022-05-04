@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53recoverycontrol_safety_rule
+# key: r_awscc_route53recoverycontrol_safety_rule
+# --
+
+resource "awscc_route53recoverycontrol_safety_rule" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_bigip_ltm_irule
+# key: d_bigip_ltm_irule
+# --
+
+data "bigip_ltm_irule" "${1:this}" {
+    name = "${2:name}"
+    partition = "${3:partition}"
+}

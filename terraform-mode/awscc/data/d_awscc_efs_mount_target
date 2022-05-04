@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_efs_mount_target
+# key: d_awscc_efs_mount_target
+# --
+
+data "awscc_efs_mount_target" "${1:this}" {
+    id = "${2:id}"
+}

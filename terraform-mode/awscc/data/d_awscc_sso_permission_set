@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sso_permission_set
+# key: d_awscc_sso_permission_set
+# --
+
+data "awscc_sso_permission_set" "${1:this}" {
+    id = "${2:id}"
+}

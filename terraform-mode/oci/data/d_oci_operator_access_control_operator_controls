@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_operator_access_control_operator_controls
+# key: d_oci_operator_access_control_operator_controls
+# --
+
+data "oci_operator_access_control_operator_controls" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_nat_gateways
+# key: d_aws_nat_gateways
+# --
+
+data "aws_nat_gateways" "${1:this}" {
+}

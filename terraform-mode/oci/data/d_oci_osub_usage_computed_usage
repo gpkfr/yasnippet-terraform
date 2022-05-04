@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_osub_usage_computed_usage
+# key: d_oci_osub_usage_computed_usage
+# --
+
+data "oci_osub_usage_computed_usage" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    computed_usage_id = "${3:computed_usage_id}"
+}

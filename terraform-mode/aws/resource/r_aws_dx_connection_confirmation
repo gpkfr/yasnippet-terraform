@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_dx_connection_confirmation
+# key: r_aws_dx_connection_confirmation
+# --
+
+resource "aws_dx_connection_confirmation" "${1:this}" {
+    connection_id = "${2:connection_id}"
+}

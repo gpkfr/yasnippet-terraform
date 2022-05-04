@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_database_upgrade
+# key: r_oci_database_database_upgrade
+# --
+
+resource "oci_database_database_upgrade" "${1:this}" {
+    action = "${2:action}"
+    database_id = "${3:database_id}"
+}

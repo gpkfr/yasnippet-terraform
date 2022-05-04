@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cynosdb_cluster
+# key: r_tencentcloud_cynosdb_cluster
+# --
+
+resource "tencentcloud_cynosdb_cluster" "${1:this}" {
+    available_zone = "${2:available_zone}"
+    cluster_name = "${3:cluster_name}"
+    db_type = "${4:db_type}"
+    db_version = "${5:db_version}"
+    instance_cpu_core = "${6:instance_cpu_core}"
+    instance_memory_size = "${7:instance_memory_size}"
+    password = "${8:password}"
+    subnet_id = "${9:subnet_id}"
+    vpc_id = "${10:vpc_id}"
+}

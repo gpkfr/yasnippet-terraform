@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_securityexemptlist
+# key: r_fortimanager_object_user_securityexemptlist
+# --
+
+resource "fortimanager_object_user_securityexemptlist" "${1:this}" {
+}

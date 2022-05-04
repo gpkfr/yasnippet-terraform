@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_boot_hdd_device
+# key: d_intersight_boot_hdd_device
+# --
+
+data "intersight_boot_hdd_device" "${1:this}" {
+}

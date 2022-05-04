@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_compute_firewall_policy
+# key: r_google_compute_firewall_policy
+# --
+
+resource "google_compute_firewall_policy" "${1:this}" {
+    parent = "${2:parent}"
+    short_name = "${3:short_name}"
+}

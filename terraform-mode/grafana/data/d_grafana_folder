@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_grafana_folder
+# key: d_grafana_folder
+# --
+
+data "grafana_folder" "${1:this}" {
+    title = "${2:title}"
+}

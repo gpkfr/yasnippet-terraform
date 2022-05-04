@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_osub_subscription_commitments
+# key: d_oci_osub_subscription_commitments
+# --
+
+data "oci_osub_subscription_commitments" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    subscribed_service_id = "${3:subscribed_service_id}"
+}

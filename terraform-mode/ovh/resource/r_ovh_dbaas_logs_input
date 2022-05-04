@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_ovh_dbaas_logs_input
+# key: r_ovh_dbaas_logs_input
+# --
+
+resource "ovh_dbaas_logs_input" "${1:this}" {
+    description = "${2:description}"
+    engine_id = "${3:engine_id}"
+    service_name = "${4:service_name}"
+    stream_id = "${5:stream_id}"
+    title = "${6:title}"
+}

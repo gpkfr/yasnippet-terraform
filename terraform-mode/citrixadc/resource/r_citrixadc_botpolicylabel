@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_botpolicylabel
+# key: r_citrixadc_botpolicylabel
+# --
+
+resource "citrixadc_botpolicylabel" "${1:this}" {
+    labelname = "${2:labelname}"
+}

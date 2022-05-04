@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_clumio_protection_group
+# key: r_clumio_protection_group
+# --
+
+resource "clumio_protection_group" "${1:this}" {
+    name = "${2:name}"
+}

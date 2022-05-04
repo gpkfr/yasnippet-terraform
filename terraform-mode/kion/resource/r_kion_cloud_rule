@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_kion_cloud_rule
+# key: r_kion_cloud_rule
+# --
+
+resource "kion_cloud_rule" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_machine_policy
+# key: r_octopusdeploy_machine_policy
+# --
+
+resource "octopusdeploy_machine_policy" "${1:this}" {
+    name = "${2:name}"
+}

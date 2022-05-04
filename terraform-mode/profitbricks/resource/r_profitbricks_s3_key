@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_s3_key
+# key: r_profitbricks_s3_key
+# --
+
+resource "profitbricks_s3_key" "${1:this}" {
+    user_id = "${2:user_id}"
+}

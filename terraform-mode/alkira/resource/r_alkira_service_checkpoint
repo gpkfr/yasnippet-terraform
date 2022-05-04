@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_alkira_service_checkpoint
+# key: r_alkira_service_checkpoint
+# --
+
+resource "alkira_service_checkpoint" "${1:this}" {
+    credential_id = "${2:credential_id}"
+    cxp = "${3:cxp}"
+    license_type = "${4:license_type}"
+    max_instance_count = "${5:max_instance_count}"
+    name = "${6:name}"
+    segment_names = "${7:segment_names}"
+    size = "${8:size}"
+    version = "${9:version}"
+}

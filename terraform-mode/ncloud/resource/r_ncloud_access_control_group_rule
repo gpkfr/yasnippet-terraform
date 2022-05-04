@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_access_control_group_rule
+# key: r_ncloud_access_control_group_rule
+# --
+
+resource "ncloud_access_control_group_rule" "${1:this}" {
+    access_control_group_no = "${2:access_control_group_no}"
+}

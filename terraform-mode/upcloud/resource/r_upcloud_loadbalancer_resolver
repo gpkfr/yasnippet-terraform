@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_loadbalancer_resolver
+# key: r_upcloud_loadbalancer_resolver
+# --
+
+resource "upcloud_loadbalancer_resolver" "${1:this}" {
+    cache_invalid = "${2:cache_invalid}"
+    cache_valid = "${3:cache_valid}"
+    loadbalancer = "${4:loadbalancer}"
+    name = "${5:name}"
+    nameservers = "${6:nameservers}"
+    retries = "${7:retries}"
+    timeout = "${8:timeout}"
+    timeout_retry = "${9:timeout_retry}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_confluent_environment
+# key: d_confluent_environment
+# --
+
+data "confluent_environment" "${1:this}" {
+}

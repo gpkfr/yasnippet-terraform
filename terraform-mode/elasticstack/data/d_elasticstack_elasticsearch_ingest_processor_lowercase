@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_lowercase
+# key: d_elasticstack_elasticsearch_ingest_processor_lowercase
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_lowercase" "${1:this}" {
+    field = "${2:field}"
+}

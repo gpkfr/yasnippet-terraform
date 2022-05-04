@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_dnspod_domain_instance
+# key: r_tencentcloud_dnspod_domain_instance
+# --
+
+resource "tencentcloud_dnspod_domain_instance" "${1:this}" {
+    domain = "${2:domain}"
+}

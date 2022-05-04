@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_snapshot
+# key: r_profitbricks_snapshot
+# --
+
+resource "profitbricks_snapshot" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    name = "${3:name}"
+    volume_id = "${4:volume_id}"
+}

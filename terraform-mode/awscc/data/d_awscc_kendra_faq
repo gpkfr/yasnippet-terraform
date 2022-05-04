@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_kendra_faq
+# key: d_awscc_kendra_faq
+# --
+
+data "awscc_kendra_faq" "${1:this}" {
+    id = "${2:id}"
+}

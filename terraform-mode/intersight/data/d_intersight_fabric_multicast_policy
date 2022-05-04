@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_multicast_policy
+# key: d_intersight_fabric_multicast_policy
+# --
+
+data "intersight_fabric_multicast_policy" "${1:this}" {
+}

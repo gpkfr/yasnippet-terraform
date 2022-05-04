@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_codeartifact_repositories
+# key: d_awscc_codeartifact_repositories
+# --
+
+data "awscc_codeartifact_repositories" "${1:this}" {
+}

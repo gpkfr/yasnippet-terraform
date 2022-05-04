@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudformation_public_type_version
+# key: r_awscc_cloudformation_public_type_version
+# --
+
+resource "awscc_cloudformation_public_type_version" "${1:this}" {
+}

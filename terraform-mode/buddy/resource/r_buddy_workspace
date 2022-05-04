@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_buddy_workspace
+# key: r_buddy_workspace
+# --
+
+resource "buddy_workspace" "${1:this}" {
+    domain = "${2:domain}"
+}

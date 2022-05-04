@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_monitor_smart_detector_alert_rule
+# key: r_azurerm_monitor_smart_detector_alert_rule
+# --
+
+resource "azurerm_monitor_smart_detector_alert_rule" "${1:this}" {
+    detector_type = "${2:detector_type}"
+    frequency = "${3:frequency}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+    scope_resource_ids = "${6:scope_resource_ids}"
+    severity = "${7:severity}"
+}

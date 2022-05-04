@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_pinger
+# key: r_citrixadc_pinger
+# --
+
+resource "citrixadc_pinger" "${1:this}" {
+}

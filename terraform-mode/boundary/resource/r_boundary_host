@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_boundary_host
+# key: r_boundary_host
+# --
+
+resource "boundary_host" "${1:this}" {
+    host_catalog_id = "${2:host_catalog_id}"
+    type = "${3:type}"
+}

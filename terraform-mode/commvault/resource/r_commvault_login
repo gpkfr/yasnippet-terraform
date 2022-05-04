@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_commvault_login
+# key: r_commvault_login
+# --
+
+resource "commvault_login" "${1:this}" {
+    password = "${2:password}"
+    user_name = "${3:user_name}"
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_oci_log_analytics_log_analytics_object_collection_rule
+# key: r_oci_log_analytics_log_analytics_object_collection_rule
+# --
+
+resource "oci_log_analytics_log_analytics_object_collection_rule" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    log_group_id = "${3:log_group_id}"
+    log_source_name = "${4:log_source_name}"
+    name = "${5:name}"
+    namespace = "${6:namespace}"
+    os_bucket_name = "${7:os_bucket_name}"
+    os_namespace = "${8:os_namespace}"
+}

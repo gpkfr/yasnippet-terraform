@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_external_database_connector
+# key: d_oci_database_external_database_connector
+# --
+
+data "oci_database_external_database_connector" "${1:this}" {
+    external_database_connector_id = "${2:external_database_connector_id}"
+}

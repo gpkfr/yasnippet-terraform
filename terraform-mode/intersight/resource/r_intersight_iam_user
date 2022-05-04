@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_user
+# key: r_intersight_iam_user
+# --
+
+resource "intersight_iam_user" "${1:this}" {
+}

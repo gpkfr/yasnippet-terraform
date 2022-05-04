@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_fail
+# key: d_elasticstack_elasticsearch_ingest_processor_fail
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_fail" "${1:this}" {
+    message = "${2:message}"
+}

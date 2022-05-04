@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_log_analytics_log_analytics_entity
+# key: r_oci_log_analytics_log_analytics_entity
+# --
+
+resource "oci_log_analytics_log_analytics_entity" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    entity_type_name = "${3:entity_type_name}"
+    name = "${4:name}"
+    namespace = "${5:namespace}"
+}

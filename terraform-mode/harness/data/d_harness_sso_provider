@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_sso_provider
+# key: d_harness_sso_provider
+# --
+
+data "harness_sso_provider" "${1:this}" {
+}

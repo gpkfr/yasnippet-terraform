@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_artifacts_repository
+# key: r_oci_artifacts_repository
+# --
+
+resource "oci_artifacts_repository" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    is_immutable = "${3:is_immutable}"
+    repository_type = "${4:repository_type}"
+}

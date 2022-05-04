@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vault_identity_oidc_assignment
+# key: r_vault_identity_oidc_assignment
+# --
+
+resource "vault_identity_oidc_assignment" "${1:this}" {
+    name = "${2:name}"
+}

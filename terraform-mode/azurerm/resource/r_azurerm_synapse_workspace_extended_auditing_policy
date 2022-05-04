@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_workspace_extended_auditing_policy
+# key: r_azurerm_synapse_workspace_extended_auditing_policy
+# --
+
+resource "azurerm_synapse_workspace_extended_auditing_policy" "${1:this}" {
+    synapse_workspace_id = "${2:synapse_workspace_id}"
+}

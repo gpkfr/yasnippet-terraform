@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_virtualwirepair
+# key: r_fortimanager_object_system_virtualwirepair
+# --
+
+resource "fortimanager_object_system_virtualwirepair" "${1:this}" {
+}

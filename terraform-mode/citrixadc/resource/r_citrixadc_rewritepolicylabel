@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_rewritepolicylabel
+# key: r_citrixadc_rewritepolicylabel
+# --
+
+resource "citrixadc_rewritepolicylabel" "${1:this}" {
+    labelname = "${2:labelname}"
+}

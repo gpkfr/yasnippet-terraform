@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_routerbgp_neighborlist
+# key: d_fortios_routerbgp_neighborlist
+# --
+
+data "fortios_routerbgp_neighborlist" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_servicecatalog_cloudformation_provisioned_product
+# key: d_awscc_servicecatalog_cloudformation_provisioned_product
+# --
+
+data "awscc_servicecatalog_cloudformation_provisioned_product" "${1:this}" {
+    id = "${2:id}"
+}

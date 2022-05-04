@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_epg
+# key: d_intersight_niatelemetry_epg
+# --
+
+data "intersight_niatelemetry_epg" "${1:this}" {
+}

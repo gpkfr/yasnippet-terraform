@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iottwinmaker_scene
+# key: r_awscc_iottwinmaker_scene
+# --
+
+resource "awscc_iottwinmaker_scene" "${1:this}" {
+    content_location = "${2:content_location}"
+    scene_id = "${3:scene_id}"
+    workspace_id = "${4:workspace_id}"
+}

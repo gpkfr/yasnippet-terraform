@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_satori_directory_group
+# key: r_satori_directory_group
+# --
+
+resource "satori_directory_group" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_lan
+# key: r_profitbricks_lan
+# --
+
+resource "profitbricks_lan" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    public = "${3:public}"
+}

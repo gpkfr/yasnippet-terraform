@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_nxos_descriptor
+# key: d_intersight_firmware_nxos_descriptor
+# --
+
+data "intersight_firmware_nxos_descriptor" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_DoSpolicy
+# key: d_fortios_firewall_DoSpolicy
+# --
+
+data "fortios_firewall_DoSpolicy" "${1:this}" {
+    policyid = "${2:policyid}"
+}

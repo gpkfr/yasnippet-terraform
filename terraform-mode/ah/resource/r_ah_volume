@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ah_volume
+# key: r_ah_volume
+# --
+
+resource "ah_volume" "${1:this}" {
+}

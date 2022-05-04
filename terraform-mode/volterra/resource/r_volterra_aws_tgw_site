@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_aws_tgw_site
+# key: r_volterra_aws_tgw_site
+# --
+
+resource "volterra_aws_tgw_site" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

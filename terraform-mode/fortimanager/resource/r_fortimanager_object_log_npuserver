@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_log_npuserver
+# key: r_fortimanager_object_log_npuserver
+# --
+
+resource "fortimanager_object_log_npuserver" "${1:this}" {
+}

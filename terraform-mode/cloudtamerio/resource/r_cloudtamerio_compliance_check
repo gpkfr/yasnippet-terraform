@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cloudtamerio_compliance_check
+# key: r_cloudtamerio_compliance_check
+# --
+
+resource "cloudtamerio_compliance_check" "${1:this}" {
+    cloud_provider_id = "${2:cloud_provider_id}"
+    compliance_check_type_id = "${3:compliance_check_type_id}"
+    created_by_user_id = "${4:created_by_user_id}"
+    name = "${5:name}"
+}

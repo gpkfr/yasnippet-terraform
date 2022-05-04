@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_alkira_connector_internet_exit
+# key: r_alkira_connector_internet_exit
+# --
+
+resource "alkira_connector_internet_exit" "${1:this}" {
+    cxp = "${2:cxp}"
+    name = "${3:name}"
+    segment_id = "${4:segment_id}"
+    size = "${5:size}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_mediapackage_asset
+# key: d_awscc_mediapackage_asset
+# --
+
+data "awscc_mediapackage_asset" "${1:this}" {
+    id = "${2:id}"
+}

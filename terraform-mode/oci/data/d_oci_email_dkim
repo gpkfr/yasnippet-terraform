@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_email_dkim
+# key: d_oci_email_dkim
+# --
+
+data "oci_email_dkim" "${1:this}" {
+    dkim_id = "${2:dkim_id}"
+}

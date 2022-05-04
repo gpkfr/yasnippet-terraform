@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_google_vertex_ai_metadata_store
+# key: r_google_vertex_ai_metadata_store
+# --
+
+resource "google_vertex_ai_metadata_store" "${1:this}" {
+}

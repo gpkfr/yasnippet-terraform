@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_databricks_library
+# key: r_databricks_library
+# --
+
+resource "databricks_library" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+}

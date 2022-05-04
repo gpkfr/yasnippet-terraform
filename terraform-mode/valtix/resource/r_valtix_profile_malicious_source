@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_malicious_source
+# key: r_valtix_profile_malicious_source
+# --
+
+resource "valtix_profile_malicious_source" "${1:this}" {
+    name = "${2:name}"
+}

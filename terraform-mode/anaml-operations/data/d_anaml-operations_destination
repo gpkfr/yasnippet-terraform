@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_anaml-operations_destination
+# key: d_anaml-operations_destination
+# --
+
+data "anaml-operations_destination" "${1:this}" {
+    name = "${2:name}"
+}

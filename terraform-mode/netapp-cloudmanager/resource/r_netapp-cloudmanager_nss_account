@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_nss_account
+# key: r_netapp-cloudmanager_nss_account
+# --
+
+resource "netapp-cloudmanager_nss_account" "${1:this}" {
+    client_id = "${2:client_id}"
+    password = "${3:password}"
+    username = "${4:username}"
+}

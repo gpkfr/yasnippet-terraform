@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_label
+# key: d_illumio-core_label
+# --
+
+data "illumio-core_label" "${1:this}" {
+    href = "${2:href}"
+}

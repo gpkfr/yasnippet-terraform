@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_monitor_alarm_policy
+# key: r_tencentcloud_monitor_alarm_policy
+# --
+
+resource "tencentcloud_monitor_alarm_policy" "${1:this}" {
+    monitor_type = "${2:monitor_type}"
+    namespace = "${3:namespace}"
+    policy_name = "${4:policy_name}"
+}

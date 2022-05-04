@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_project_features
+# key: r_azuredevops_project_features
+# --
+
+resource "azuredevops_project_features" "${1:this}" {
+    features = "${2:features}"
+    project_id = "${3:project_id}"
+}

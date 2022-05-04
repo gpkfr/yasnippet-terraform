@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_tcpool
+# key: r_ultradns_tcpool
+# --
+
+resource "ultradns_tcpool" "${1:this}" {
+    owner_name = "${2:owner_name}"
+    record_type = "${3:record_type}"
+    zone_name = "${4:zone_name}"
+}

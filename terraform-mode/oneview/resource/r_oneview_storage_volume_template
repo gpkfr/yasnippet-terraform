@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oneview_storage_volume_template
+# key: r_oneview_storage_volume_template
+# --
+
+resource "oneview_storage_volume_template" "${1:this}" {
+    name = "${2:name}"
+}

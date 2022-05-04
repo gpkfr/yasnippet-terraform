@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_servicecatalogappregistry_resource_association
+# key: r_awscc_servicecatalogappregistry_resource_association
+# --
+
+resource "awscc_servicecatalogappregistry_resource_association" "${1:this}" {
+    application = "${2:application}"
+    resource = "${3:resource}"
+    resource_type = "${4:resource_type}"
+}

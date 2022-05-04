@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_nat_gateway
+# key: d_ncloud_nat_gateway
+# --
+
+data "ncloud_nat_gateway" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_telephony_providers_edges_linebasesettings
+# key: d_genesyscloud_telephony_providers_edges_linebasesettings
+# --
+
+data "genesyscloud_telephony_providers_edges_linebasesettings" "${1:this}" {
+    name = "${2:name}"
+}

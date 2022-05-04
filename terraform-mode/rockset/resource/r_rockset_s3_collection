@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rockset_s3_collection
+# key: r_rockset_s3_collection
+# --
+
+resource "rockset_s3_collection" "${1:this}" {
+    name = "${2:name}"
+    workspace = "${3:workspace}"
+}

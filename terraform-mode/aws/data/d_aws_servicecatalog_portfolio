@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_servicecatalog_portfolio
+# key: d_aws_servicecatalog_portfolio
+# --
+
+data "aws_servicecatalog_portfolio" "${1:this}" {
+    id = "${2:id}"
+}

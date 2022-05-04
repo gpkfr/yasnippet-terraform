@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_algolia_one_way_synonym
+# key: r_algolia_one_way_synonym
+# --
+
+resource "algolia_one_way_synonym" "${1:this}" {
+    index = "${2:index}"
+    input = "${3:input}"
+    synonyms = "${4:synonyms}"
+}

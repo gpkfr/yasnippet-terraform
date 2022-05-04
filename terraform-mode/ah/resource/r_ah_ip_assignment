@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ah_ip_assignment
+# key: r_ah_ip_assignment
+# --
+
+resource "ah_ip_assignment" "${1:this}" {
+    cloud_server_id = "${2:cloud_server_id}"
+    ip_address = "${3:ip_address}"
+}

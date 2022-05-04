@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_foundation_central_imaged_node_details
+# key: d_nutanix_foundation_central_imaged_node_details
+# --
+
+data "nutanix_foundation_central_imaged_node_details" "${1:this}" {
+    imaged_node_uuid = "${2:imaged_node_uuid}"
+}

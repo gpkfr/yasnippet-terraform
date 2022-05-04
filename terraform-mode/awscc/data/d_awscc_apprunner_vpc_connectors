@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_apprunner_vpc_connectors
+# key: d_awscc_apprunner_vpc_connectors
+# --
+
+data "awscc_apprunner_vpc_connectors" "${1:this}" {
+}

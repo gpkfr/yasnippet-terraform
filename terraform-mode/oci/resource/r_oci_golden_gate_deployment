@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_oci_golden_gate_deployment
+# key: r_oci_golden_gate_deployment
+# --
+
+resource "oci_golden_gate_deployment" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    cpu_core_count = "${3:cpu_core_count}"
+    deployment_type = "${4:deployment_type}"
+    display_name = "${5:display_name}"
+    is_auto_scaling_enabled = "${6:is_auto_scaling_enabled}"
+    license_model = "${7:license_model}"
+    subnet_id = "${8:subnet_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_organizations_delegated_services
+# key: d_aws_organizations_delegated_services
+# --
+
+data "aws_organizations_delegated_services" "${1:this}" {
+    account_id = "${2:account_id}"
+}

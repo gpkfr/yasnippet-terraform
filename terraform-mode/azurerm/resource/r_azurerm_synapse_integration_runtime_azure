@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_integration_runtime_azure
+# key: r_azurerm_synapse_integration_runtime_azure
+# --
+
+resource "azurerm_synapse_integration_runtime_azure" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    synapse_workspace_id = "${4:synapse_workspace_id}"
+}

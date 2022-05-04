@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53resolver_firewall_domain_list
+# key: r_awscc_route53resolver_firewall_domain_list
+# --
+
+resource "awscc_route53resolver_firewall_domain_list" "${1:this}" {
+}

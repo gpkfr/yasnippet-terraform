@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudfront_origin_request_policy
+# key: r_awscc_cloudfront_origin_request_policy
+# --
+
+resource "awscc_cloudfront_origin_request_policy" "${1:this}" {
+    origin_request_policy_config = "${2:origin_request_policy_config}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_docker
+# key: r_harness_platform_connector_docker
+# --
+
+resource "harness_platform_connector_docker" "${1:this}" {
+    identifier = "${2:identifier}"
+    name = "${3:name}"
+    type = "${4:type}"
+    url = "${5:url}"
+}

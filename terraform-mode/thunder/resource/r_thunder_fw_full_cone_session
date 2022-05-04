@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_full_cone_session
+# key: r_thunder_fw_full_cone_session
+# --
+
+resource "thunder_fw_full_cone_session" "${1:this}" {
+}

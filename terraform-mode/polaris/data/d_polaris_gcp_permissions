@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_polaris_gcp_permissions
+# key: d_polaris_gcp_permissions
+# --
+
+data "polaris_gcp_permissions" "${1:this}" {
+    features = "${2:features}"
+}

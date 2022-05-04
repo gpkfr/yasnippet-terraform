@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_digitalocean_monitor_alert
+# key: r_digitalocean_monitor_alert
+# --
+
+resource "digitalocean_monitor_alert" "${1:this}" {
+    compare = "${2:compare}"
+    description = "${3:description}"
+    type = "${4:type}"
+    value = "${5:value}"
+    window = "${6:window}"
+}

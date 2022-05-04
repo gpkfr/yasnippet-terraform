@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudtrail_trail
+# key: d_awscc_cloudtrail_trail
+# --
+
+data "awscc_cloudtrail_trail" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_alert_channel_aws_cloudwatch
+# key: r_lacework_alert_channel_aws_cloudwatch
+# --
+
+resource "lacework_alert_channel_aws_cloudwatch" "${1:this}" {
+    event_bus_arn = "${2:event_bus_arn}"
+    name = "${3:name}"
+}

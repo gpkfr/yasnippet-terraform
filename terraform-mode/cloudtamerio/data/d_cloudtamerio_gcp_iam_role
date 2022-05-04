@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudtamerio_gcp_iam_role
+# key: d_cloudtamerio_gcp_iam_role
+# --
+
+data "cloudtamerio_gcp_iam_role" "${1:this}" {
+}

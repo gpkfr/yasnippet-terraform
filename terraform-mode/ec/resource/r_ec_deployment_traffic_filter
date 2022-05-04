@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ec_deployment_traffic_filter
+# key: r_ec_deployment_traffic_filter
+# --
+
+resource "ec_deployment_traffic_filter" "${1:this}" {
+    name = "${2:name}"
+    region = "${3:region}"
+    type = "${4:type}"
+}

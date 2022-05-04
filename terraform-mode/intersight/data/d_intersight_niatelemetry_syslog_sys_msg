@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_syslog_sys_msg
+# key: d_intersight_niatelemetry_syslog_sys_msg
+# --
+
+data "intersight_niatelemetry_syslog_sys_msg" "${1:this}" {
+}

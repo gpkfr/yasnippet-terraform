@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_rights_bundle
+# key: r_vcd_rights_bundle
+# --
+
+resource "vcd_rights_bundle" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+    publish_to_all_tenants = "${4:publish_to_all_tenants}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_netris_portgroup
+# key: r_netris_portgroup
+# --
+
+resource "netris_portgroup" "${1:this}" {
+    name = "${2:name}"
+    ports = "${3:ports}"
+}

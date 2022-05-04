@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_tcp_reset_on_error
+# key: r_thunder_fw_tcp_reset_on_error
+# --
+
+resource "thunder_fw_tcp_reset_on_error" "${1:this}" {
+}

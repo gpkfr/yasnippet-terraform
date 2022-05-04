@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_cloudn_registration
+# key: r_aviatrix_cloudn_registration
+# --
+
+resource "aviatrix_cloudn_registration" "${1:this}" {
+    address = "${2:address}"
+    name = "${3:name}"
+    password = "${4:password}"
+    username = "${5:username}"
+}

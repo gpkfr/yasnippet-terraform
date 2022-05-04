@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_artifacts_container_repository
+# key: r_oci_artifacts_container_repository
+# --
+
+resource "oci_artifacts_container_repository" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+}

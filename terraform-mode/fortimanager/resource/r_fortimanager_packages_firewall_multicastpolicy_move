@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_multicastpolicy_move
+# key: r_fortimanager_packages_firewall_multicastpolicy_move
+# --
+
+resource "fortimanager_packages_firewall_multicastpolicy_move" "${1:this}" {
+    multicast_policy = "${2:multicast_policy}"
+    option = "${3:option}"
+    pkg = "${4:pkg}"
+    target = "${5:target}"
+}

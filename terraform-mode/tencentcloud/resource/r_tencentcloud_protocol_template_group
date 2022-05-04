@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_protocol_template_group
+# key: r_tencentcloud_protocol_template_group
+# --
+
+resource "tencentcloud_protocol_template_group" "${1:this}" {
+    name = "${2:name}"
+    template_ids = "${3:template_ids}"
+}

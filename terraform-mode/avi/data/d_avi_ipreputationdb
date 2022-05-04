@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_ipreputationdb
+# key: d_avi_ipreputationdb
+# --
+
+data "avi_ipreputationdb" "${1:this}" {
+}

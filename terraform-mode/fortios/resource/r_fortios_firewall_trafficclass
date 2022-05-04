@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_trafficclass
+# key: r_fortios_firewall_trafficclass
+# --
+
+resource "fortios_firewall_trafficclass" "${1:this}" {
+}

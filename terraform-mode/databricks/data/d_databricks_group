@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_databricks_group
+# key: d_databricks_group
+# --
+
+data "databricks_group" "${1:this}" {
+    display_name = "${2:display_name}"
+}

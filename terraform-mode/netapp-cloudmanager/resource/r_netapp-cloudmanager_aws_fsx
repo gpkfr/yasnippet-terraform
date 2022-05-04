@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_aws_fsx
+# key: r_netapp-cloudmanager_aws_fsx
+# --
+
+resource "netapp-cloudmanager_aws_fsx" "${1:this}" {
+    aws_credentials_name = "${2:aws_credentials_name}"
+    fsx_admin_password = "${3:fsx_admin_password}"
+    name = "${4:name}"
+    primary_subnet_id = "${5:primary_subnet_id}"
+    region = "${6:region}"
+    secondary_subnet_id = "${7:secondary_subnet_id}"
+    throughput_capacity = "${8:throughput_capacity}"
+    workspace_id = "${9:workspace_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_ai_anomaly_detection_model
+# key: r_oci_ai_anomaly_detection_model
+# --
+
+resource "oci_ai_anomaly_detection_model" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    project_id = "${3:project_id}"
+}

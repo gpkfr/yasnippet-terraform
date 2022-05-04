@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_exoscale_anti_affinity_group
+# key: d_exoscale_anti_affinity_group
+# --
+
+data "exoscale_anti_affinity_group" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_billing_subaccount
+# key: r_google_billing_subaccount
+# --
+
+resource "google_billing_subaccount" "${1:this}" {
+    display_name = "${2:display_name}"
+    master_billing_account = "${3:master_billing_account}"
+}

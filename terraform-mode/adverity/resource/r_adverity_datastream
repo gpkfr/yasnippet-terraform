@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_adverity_datastream
+# key: r_adverity_datastream
+# --
+
+resource "adverity_datastream" "${1:this}" {
+    auth = "${2:auth}"
+    datastream_type_id = "${3:datastream_type_id}"
+    datatype = "${4:datatype}"
+    enabled = "${5:enabled}"
+    name = "${6:name}"
+    stack = "${7:stack}"
+}

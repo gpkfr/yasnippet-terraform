@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudsigma_ssh_key
+# key: r_cloudsigma_ssh_key
+# --
+
+resource "cloudsigma_ssh_key" "${1:this}" {
+    name = "${2:name}"
+}

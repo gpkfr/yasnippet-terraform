@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fmc_policy_devices_assignments
+# key: r_fmc_policy_devices_assignments
+# --
+
+resource "fmc_policy_devices_assignments" "${1:this}" {
+}

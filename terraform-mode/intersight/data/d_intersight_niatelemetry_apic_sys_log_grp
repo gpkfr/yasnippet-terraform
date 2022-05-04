@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_apic_sys_log_grp
+# key: d_intersight_niatelemetry_apic_sys_log_grp
+# --
+
+data "intersight_niatelemetry_apic_sys_log_grp" "${1:this}" {
+}

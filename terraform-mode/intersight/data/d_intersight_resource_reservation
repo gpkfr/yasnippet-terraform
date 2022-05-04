@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_resource_reservation
+# key: d_intersight_resource_reservation
+# --
+
+data "intersight_resource_reservation" "${1:this}" {
+}

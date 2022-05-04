@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_fms_policy
+# key: d_awscc_fms_policy
+# --
+
+data "awscc_fms_policy" "${1:this}" {
+    id = "${2:id}"
+}

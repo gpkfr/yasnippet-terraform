@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_apgitlab_group
+# key: d_apgitlab_group
+# --
+
+data "apgitlab_group" "${1:this}" {
+}

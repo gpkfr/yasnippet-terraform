@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_build_definition_permissions
+# key: r_azuredevops_build_definition_permissions
+# --
+
+resource "azuredevops_build_definition_permissions" "${1:this}" {
+    build_definition_id = "${2:build_definition_id}"
+    permissions = "${3:permissions}"
+    principal = "${4:principal}"
+    project_id = "${5:project_id}"
+}

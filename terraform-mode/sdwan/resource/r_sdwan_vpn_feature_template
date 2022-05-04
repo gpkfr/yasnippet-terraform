@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_sdwan_vpn_feature_template
+# key: r_sdwan_vpn_feature_template
+# --
+
+resource "sdwan_vpn_feature_template" "${1:this}" {
+    device_type = "${2:device_type}"
+    factory_default = "${3:factory_default}"
+    template_description = "${4:template_description}"
+    template_min_version = "${5:template_min_version}"
+    template_name = "${6:template_name}"
+    template_type = "${7:template_type}"
+}

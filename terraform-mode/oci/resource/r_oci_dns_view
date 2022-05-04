@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_dns_view
+# key: r_oci_dns_view
+# --
+
+resource "oci_dns_view" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    scope = "${3:scope}"
+}

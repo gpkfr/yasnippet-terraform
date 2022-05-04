@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_location_hdfs_plural
+# key: d_awscc_datasync_location_hdfs_plural
+# --
+
+data "awscc_datasync_location_hdfs_plural" "${1:this}" {
+}

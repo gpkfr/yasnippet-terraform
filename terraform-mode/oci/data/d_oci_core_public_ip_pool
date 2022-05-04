@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_public_ip_pool
+# key: d_oci_core_public_ip_pool
+# --
+
+data "oci_core_public_ip_pool" "${1:this}" {
+    public_ip_pool_id = "${2:public_ip_pool_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_frauddetector_entity_type
+# key: d_awscc_frauddetector_entity_type
+# --
+
+data "awscc_frauddetector_entity_type" "${1:this}" {
+    id = "${2:id}"
+}

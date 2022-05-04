@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_serverspace_isolated_network
+# key: r_serverspace_isolated_network
+# --
+
+resource "serverspace_isolated_network" "${1:this}" {
+    description = "${2:description}"
+    location = "${3:location}"
+    mask = "${4:mask}"
+    name = "${5:name}"
+    network_prefix = "${6:network_prefix}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kion_saml_group_association
+# key: d_kion_saml_group_association
+# --
+
+data "kion_saml_group_association" "${1:this}" {
+}

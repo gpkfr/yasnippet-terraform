@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_aws_connect_prompt
+# key: d_aws_connect_prompt
+# --
+
+data "aws_connect_prompt" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    name = "${3:name}"
+}

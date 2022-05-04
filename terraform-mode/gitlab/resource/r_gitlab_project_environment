@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_project_environment
+# key: r_gitlab_project_environment
+# --
+
+resource "gitlab_project_environment" "${1:this}" {
+    name = "${2:name}"
+    project = "${3:project}"
+}

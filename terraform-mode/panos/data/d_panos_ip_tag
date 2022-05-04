@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_ip_tag
+# key: d_panos_ip_tag
+# --
+
+data "panos_ip_tag" "${1:this}" {
+}

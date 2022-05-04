@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_datascience_fast_launch_job_configs
+# key: d_oci_datascience_fast_launch_job_configs
+# --
+
+data "oci_datascience_fast_launch_job_configs" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azuredevops_area
+# key: d_azuredevops_area
+# --
+
+data "azuredevops_area" "${1:this}" {
+    project_id = "${2:project_id}"
+}

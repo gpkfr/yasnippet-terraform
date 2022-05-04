@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_auto_scaling_group
+# key: r_ncloud_auto_scaling_group
+# --
+
+resource "ncloud_auto_scaling_group" "${1:this}" {
+    launch_configuration_no = "${2:launch_configuration_no}"
+    max_size = "${3:max_size}"
+    min_size = "${4:min_size}"
+}

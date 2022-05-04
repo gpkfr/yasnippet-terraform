@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_multai_target
+# key: r_spotinst_multai_target
+# --
+
+resource "spotinst_multai_target" "${1:this}" {
+    balancer_id = "${2:balancer_id}"
+    host = "${3:host}"
+    target_set_id = "${4:target_set_id}"
+    weight = "${5:weight}"
+}

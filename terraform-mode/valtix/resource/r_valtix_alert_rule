@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_valtix_alert_rule
+# key: r_valtix_alert_rule
+# --
+
+resource "valtix_alert_rule" "${1:this}" {
+    alert_profile = "${2:alert_profile}"
+    name = "${3:name}"
+    severity = "${4:severity}"
+    sub_type = "${5:sub_type}"
+    type = "${6:type}"
+}

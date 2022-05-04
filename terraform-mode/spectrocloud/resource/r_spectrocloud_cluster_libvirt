@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_cluster_libvirt
+# key: r_spectrocloud_cluster_libvirt
+# --
+
+resource "spectrocloud_cluster_libvirt" "${1:this}" {
+    name = "${2:name}"
+}

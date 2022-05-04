@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_api_gateway_custom_domain
+# key: r_tencentcloud_api_gateway_custom_domain
+# --
+
+resource "tencentcloud_api_gateway_custom_domain" "${1:this}" {
+    default_domain = "${2:default_domain}"
+    net_type = "${3:net_type}"
+    protocol = "${4:protocol}"
+    service_id = "${5:service_id}"
+    sub_domain = "${6:sub_domain}"
+}

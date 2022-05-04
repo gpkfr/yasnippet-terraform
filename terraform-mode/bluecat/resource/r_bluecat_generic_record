@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_generic_record
+# key: r_bluecat_generic_record
+# --
+
+resource "bluecat_generic_record" "${1:this}" {
+    absolute_name = "${2:absolute_name}"
+    data = "${3:data}"
+}

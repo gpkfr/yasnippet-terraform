@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_harness_service_tanzu
+# key: r_harness_service_tanzu
+# --
+
+resource "harness_service_tanzu" "${1:this}" {
+    app_id = "${2:app_id}"
+    name = "${3:name}"
+}

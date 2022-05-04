@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_okta_policy_mfa_default
+# key: r_okta_policy_mfa_default
+# --
+
+resource "okta_policy_mfa_default" "${1:this}" {
+}

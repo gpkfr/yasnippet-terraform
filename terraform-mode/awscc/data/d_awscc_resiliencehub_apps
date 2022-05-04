@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_resiliencehub_apps
+# key: d_awscc_resiliencehub_apps
+# --
+
+data "awscc_resiliencehub_apps" "${1:this}" {
+}

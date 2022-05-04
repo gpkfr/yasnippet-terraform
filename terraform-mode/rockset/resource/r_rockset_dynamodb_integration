@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_rockset_dynamodb_integration
+# key: r_rockset_dynamodb_integration
+# --
+
+resource "rockset_dynamodb_integration" "${1:this}" {
+    aws_role_arn = "${2:aws_role_arn}"
+    name = "${3:name}"
+    s3_export_bucket_name = "${4:s3_export_bucket_name}"
+}

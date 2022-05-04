@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudtamerio_compliance_standard
+# key: r_cloudtamerio_compliance_standard
+# --
+
+resource "cloudtamerio_compliance_standard" "${1:this}" {
+    created_by_user_id = "${2:created_by_user_id}"
+    name = "${3:name}"
+}

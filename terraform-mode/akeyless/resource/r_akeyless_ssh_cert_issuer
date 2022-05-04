@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_ssh_cert_issuer
+# key: r_akeyless_ssh_cert_issuer
+# --
+
+resource "akeyless_ssh_cert_issuer" "${1:this}" {
+    allowed_users = "${2:allowed_users}"
+    name = "${3:name}"
+    signer_key_name = "${4:signer_key_name}"
+    ttl = "${5:ttl}"
+}

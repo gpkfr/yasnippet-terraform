@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotwireless_device_profile
+# key: d_awscc_iotwireless_device_profile
+# --
+
+data "awscc_iotwireless_device_profile" "${1:this}" {
+    id = "${2:id}"
+}

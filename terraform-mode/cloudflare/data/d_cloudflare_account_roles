@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_cloudflare_account_roles
+# key: d_cloudflare_account_roles
+# --
+
+data "cloudflare_account_roles" "${1:this}" {
+    account_id = "${2:account_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nsacls
+# key: r_citrixadc_nsacls
+# --
+
+resource "citrixadc_nsacls" "${1:this}" {
+}

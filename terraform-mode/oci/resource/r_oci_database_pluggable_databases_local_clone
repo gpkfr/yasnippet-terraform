@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_pluggable_databases_local_clone
+# key: r_oci_database_pluggable_databases_local_clone
+# --
+
+resource "oci_database_pluggable_databases_local_clone" "${1:this}" {
+    cloned_pdb_name = "${2:cloned_pdb_name}"
+    pluggable_database_id = "${3:pluggable_database_id}"
+}

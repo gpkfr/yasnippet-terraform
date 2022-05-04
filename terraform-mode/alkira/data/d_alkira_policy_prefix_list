@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alkira_policy_prefix_list
+# key: d_alkira_policy_prefix_list
+# --
+
+data "alkira_policy_prefix_list" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_stackbill_instance_actions
+# key: r_stackbill_instance_actions
+# --
+
+resource "stackbill_instance_actions" "${1:this}" {
+    action = "${2:action}"
+    uuid = "${3:uuid}"
+}

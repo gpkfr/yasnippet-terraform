@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_routing_email_domain
+# key: r_genesyscloud_routing_email_domain
+# --
+
+resource "genesyscloud_routing_email_domain" "${1:this}" {
+    domain_id = "${2:domain_id}"
+}

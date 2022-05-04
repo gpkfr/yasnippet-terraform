@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oneview_appliance_snmpv3_user
+# key: d_oneview_appliance_snmpv3_user
+# --
+
+data "oneview_appliance_snmpv3_user" "${1:this}" {
+}

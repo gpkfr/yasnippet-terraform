@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_dospolicy_move
+# key: r_fortimanager_packages_firewall_dospolicy_move
+# --
+
+resource "fortimanager_packages_firewall_dospolicy_move" "${1:this}" {
+    dos_policy = "${2:dos_policy}"
+    option = "${3:option}"
+    pkg = "${4:pkg}"
+    target = "${5:target}"
+}

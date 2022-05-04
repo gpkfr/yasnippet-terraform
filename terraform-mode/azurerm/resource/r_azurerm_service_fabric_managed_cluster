@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_service_fabric_managed_cluster
+# key: r_azurerm_service_fabric_managed_cluster
+# --
+
+resource "azurerm_service_fabric_managed_cluster" "${1:this}" {
+    client_connection_port = "${2:client_connection_port}"
+    http_gateway_port = "${3:http_gateway_port}"
+    location = "${4:location}"
+    name = "${5:name}"
+    resource_group_name = "${6:resource_group_name}"
+}

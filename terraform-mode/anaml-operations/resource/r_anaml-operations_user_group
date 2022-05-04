@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_anaml-operations_user_group
+# key: r_anaml-operations_user_group
+# --
+
+resource "anaml-operations_user_group" "${1:this}" {
+    name = "${2:name}"
+}

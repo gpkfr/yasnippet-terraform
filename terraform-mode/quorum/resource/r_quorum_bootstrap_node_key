@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_quorum_bootstrap_node_key
+# key: r_quorum_bootstrap_node_key
+# --
+
+resource "quorum_bootstrap_node_key" "${1:this}" {
+}

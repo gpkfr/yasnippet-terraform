@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_auth_division_home
+# key: d_genesyscloud_auth_division_home
+# --
+
+data "genesyscloud_auth_division_home" "${1:this}" {
+}

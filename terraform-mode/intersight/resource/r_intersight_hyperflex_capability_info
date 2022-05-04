@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_capability_info
+# key: r_intersight_hyperflex_capability_info
+# --
+
+resource "intersight_hyperflex_capability_info" "${1:this}" {
+}

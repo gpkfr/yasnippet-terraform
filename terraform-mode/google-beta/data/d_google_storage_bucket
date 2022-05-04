@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_google_storage_bucket
+# key: d_google_storage_bucket
+# --
+
+data "google_storage_bucket" "${1:this}" {
+    name = "${2:name}"
+}

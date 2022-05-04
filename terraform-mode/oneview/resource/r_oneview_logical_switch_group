@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oneview_logical_switch_group
+# key: r_oneview_logical_switch_group
+# --
+
+resource "oneview_logical_switch_group" "${1:this}" {
+    name = "${2:name}"
+    switch_count = "${3:switch_count}"
+    switch_type_name = "${4:switch_type_name}"
+}

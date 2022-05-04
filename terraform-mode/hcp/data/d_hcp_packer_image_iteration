@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_hcp_packer_image_iteration
+# key: d_hcp_packer_image_iteration
+# --
+
+data "hcp_packer_image_iteration" "${1:this}" {
+    bucket_name = "${2:bucket_name}"
+    channel = "${3:channel}"
+}

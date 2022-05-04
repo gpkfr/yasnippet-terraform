@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_shield_protection_health_check_association
+# key: r_aws_shield_protection_health_check_association
+# --
+
+resource "aws_shield_protection_health_check_association" "${1:this}" {
+    health_check_arn = "${2:health_check_arn}"
+    shield_protection_id = "${3:shield_protection_id}"
+}

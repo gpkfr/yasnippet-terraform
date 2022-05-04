@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_eval_rule_condition_exception
+# key: r_akamai_appsec_eval_rule_condition_exception
+# --
+
+resource "akamai_appsec_eval_rule_condition_exception" "${1:this}" {
+    condition_exception = "${2:condition_exception}"
+    config_id = "${3:config_id}"
+    rule_id = "${4:rule_id}"
+    security_policy_id = "${5:security_policy_id}"
+    version = "${6:version}"
+}

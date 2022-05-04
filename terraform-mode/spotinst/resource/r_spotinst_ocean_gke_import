@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_ocean_gke_import
+# key: r_spotinst_ocean_gke_import
+# --
+
+resource "spotinst_ocean_gke_import" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    location = "${3:location}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_security_assessment_comparison
+# key: d_oci_data_safe_security_assessment_comparison
+# --
+
+data "oci_data_safe_security_assessment_comparison" "${1:this}" {
+    comparison_security_assessment_id = "${2:comparison_security_assessment_id}"
+    security_assessment_id = "${3:security_assessment_id}"
+}

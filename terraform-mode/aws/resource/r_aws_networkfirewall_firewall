@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_networkfirewall_firewall
+# key: r_aws_networkfirewall_firewall
+# --
+
+resource "aws_networkfirewall_firewall" "${1:this}" {
+    firewall_policy_arn = "${2:firewall_policy_arn}"
+    name = "${3:name}"
+    vpc_id = "${4:vpc_id}"
+}

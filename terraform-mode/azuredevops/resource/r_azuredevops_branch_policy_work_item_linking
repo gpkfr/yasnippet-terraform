@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_branch_policy_work_item_linking
+# key: r_azuredevops_branch_policy_work_item_linking
+# --
+
+resource "azuredevops_branch_policy_work_item_linking" "${1:this}" {
+    project_id = "${2:project_id}"
+}

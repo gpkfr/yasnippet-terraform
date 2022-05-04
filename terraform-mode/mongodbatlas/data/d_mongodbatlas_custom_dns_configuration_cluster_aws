@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_custom_dns_configuration_cluster_aws
+# key: d_mongodbatlas_custom_dns_configuration_cluster_aws
+# --
+
+data "mongodbatlas_custom_dns_configuration_cluster_aws" "${1:this}" {
+    project_id = "${2:project_id}"
+}

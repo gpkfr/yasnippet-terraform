@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_accessanalyzer_analyzers
+# key: d_awscc_accessanalyzer_analyzers
+# --
+
+data "awscc_accessanalyzer_analyzers" "${1:this}" {
+}

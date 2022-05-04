@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_disk_pool_iscsi_target
+# key: r_azurerm_disk_pool_iscsi_target
+# --
+
+resource "azurerm_disk_pool_iscsi_target" "${1:this}" {
+    acl_mode = "${2:acl_mode}"
+    disks_pool_id = "${3:disks_pool_id}"
+    name = "${4:name}"
+}

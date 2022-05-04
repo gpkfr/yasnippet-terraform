@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_networkmanager_site
+# key: r_awscc_networkmanager_site
+# --
+
+resource "awscc_networkmanager_site" "${1:this}" {
+    global_network_id = "${2:global_network_id}"
+}

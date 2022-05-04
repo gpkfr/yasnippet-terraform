@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ansible-tower_inventory_source
+# key: r_ansible-tower_inventory_source
+# --
+
+resource "ansible-tower_inventory_source" "${1:this}" {
+    inventory_id = "${2:inventory_id}"
+    name = "${3:name}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nutanixkps_application
+# key: r_nutanixkps_application
+# --
+
+resource "nutanixkps_application" "${1:this}" {
+    edge_ids = "${2:edge_ids}"
+    helm_chart_filename = "${3:helm_chart_filename}"
+    name = "${4:name}"
+    project_id = "${5:project_id}"
+}

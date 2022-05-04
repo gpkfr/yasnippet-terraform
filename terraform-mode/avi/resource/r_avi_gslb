@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_gslb
+# key: r_avi_gslb
+# --
+
+resource "avi_gslb" "${1:this}" {
+    leader_cluster_uuid = "${2:leader_cluster_uuid}"
+    name = "${3:name}"
+}

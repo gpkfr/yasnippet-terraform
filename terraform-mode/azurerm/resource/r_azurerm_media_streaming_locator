@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_media_streaming_locator
+# key: r_azurerm_media_streaming_locator
+# --
+
+resource "azurerm_media_streaming_locator" "${1:this}" {
+    asset_name = "${2:asset_name}"
+    media_services_account_name = "${3:media_services_account_name}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+    streaming_policy_name = "${6:streaming_policy_name}"
+}

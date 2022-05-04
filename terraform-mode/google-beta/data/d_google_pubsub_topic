@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_google_pubsub_topic
+# key: d_google_pubsub_topic
+# --
+
+data "google_pubsub_topic" "${1:this}" {
+    name = "${2:name}"
+}

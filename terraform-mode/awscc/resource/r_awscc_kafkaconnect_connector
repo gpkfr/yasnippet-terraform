@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_awscc_kafkaconnect_connector
+# key: r_awscc_kafkaconnect_connector
+# --
+
+resource "awscc_kafkaconnect_connector" "${1:this}" {
+    capacity = "${2:capacity}"
+    connector_configuration = "${3:connector_configuration}"
+    connector_name = "${4:connector_name}"
+    kafka_cluster = "${5:kafka_cluster}"
+    kafka_cluster_client_authentication = "${6:kafka_cluster_client_authentication}"
+    kafka_cluster_encryption_in_transit = "${7:kafka_cluster_encryption_in_transit}"
+    kafka_connect_version = "${8:kafka_connect_version}"
+    plugins = "${9:plugins}"
+    service_execution_role_arn = "${10:service_execution_role_arn}"
+}

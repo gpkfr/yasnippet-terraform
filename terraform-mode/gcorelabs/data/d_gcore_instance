@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gcore_instance
+# key: d_gcore_instance
+# --
+
+data "gcore_instance" "${1:this}" {
+    name = "${2:name}"
+}

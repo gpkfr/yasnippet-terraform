@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_stream_analytics_output_function
+# key: r_azurerm_stream_analytics_output_function
+# --
+
+resource "azurerm_stream_analytics_output_function" "${1:this}" {
+    api_key = "${2:api_key}"
+    function_app = "${3:function_app}"
+    function_name = "${4:function_name}"
+    name = "${5:name}"
+    resource_group_name = "${6:resource_group_name}"
+    stream_analytics_job_name = "${7:stream_analytics_job_name}"
+}

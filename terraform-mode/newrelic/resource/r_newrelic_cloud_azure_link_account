@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_cloud_azure_link_account
+# key: r_newrelic_cloud_azure_link_account
+# --
+
+resource "newrelic_cloud_azure_link_account" "${1:this}" {
+    application_id = "${2:application_id}"
+    client_secret = "${3:client_secret}"
+    name = "${4:name}"
+    subscription_id = "${5:subscription_id}"
+    tenant_id = "${6:tenant_id}"
+}

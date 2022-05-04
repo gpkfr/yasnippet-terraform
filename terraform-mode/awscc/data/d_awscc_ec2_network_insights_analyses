@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_network_insights_analyses
+# key: d_awscc_ec2_network_insights_analyses
+# --
+
+data "awscc_ec2_network_insights_analyses" "${1:this}" {
+}

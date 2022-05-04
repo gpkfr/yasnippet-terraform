@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_nsxt_servicechain
+# key: r_fortios_nsxt_servicechain
+# --
+
+resource "fortios_nsxt_servicechain" "${1:this}" {
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_loadbalancer_frontend
+# key: r_upcloud_loadbalancer_frontend
+# --
+
+resource "upcloud_loadbalancer_frontend" "${1:this}" {
+    default_backend_name = "${2:default_backend_name}"
+    loadbalancer = "${3:loadbalancer}"
+    mode = "${4:mode}"
+    name = "${5:name}"
+    port = "${6:port}"
+}

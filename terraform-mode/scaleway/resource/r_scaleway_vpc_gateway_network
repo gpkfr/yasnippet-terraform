@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_vpc_gateway_network
+# key: r_scaleway_vpc_gateway_network
+# --
+
+resource "scaleway_vpc_gateway_network" "${1:this}" {
+    gateway_id = "${2:gateway_id}"
+    private_network_id = "${3:private_network_id}"
+}

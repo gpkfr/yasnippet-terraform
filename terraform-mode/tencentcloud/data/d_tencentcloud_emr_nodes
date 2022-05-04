@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_emr_nodes
+# key: d_tencentcloud_emr_nodes
+# --
+
+data "tencentcloud_emr_nodes" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    node_flag = "${3:node_flag}"
+}

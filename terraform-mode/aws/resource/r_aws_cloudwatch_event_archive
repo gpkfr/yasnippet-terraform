@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudwatch_event_archive
+# key: r_aws_cloudwatch_event_archive
+# --
+
+resource "aws_cloudwatch_event_archive" "${1:this}" {
+    event_source_arn = "${2:event_source_arn}"
+    name = "${3:name}"
+}

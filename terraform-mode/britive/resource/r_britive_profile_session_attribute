@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_britive_profile_session_attribute
+# key: r_britive_profile_session_attribute
+# --
+
+resource "britive_profile_session_attribute" "${1:this}" {
+    mapping_name = "${2:mapping_name}"
+    profile_id = "${3:profile_id}"
+}

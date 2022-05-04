@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_idp_reference
+# key: d_intersight_iam_idp_reference
+# --
+
+data "intersight_iam_idp_reference" "${1:this}" {
+}

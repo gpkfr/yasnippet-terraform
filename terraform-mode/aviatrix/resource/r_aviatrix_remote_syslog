@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_remote_syslog
+# key: r_aviatrix_remote_syslog
+# --
+
+resource "aviatrix_remote_syslog" "${1:this}" {
+    name = "${2:name}"
+    port = "${3:port}"
+    server = "${4:server}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_l4policyset
+# key: d_avi_l4policyset
+# --
+
+data "avi_l4policyset" "${1:this}" {
+}

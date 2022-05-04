@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_insights_configuration
+# key: r_sumologic_cse_insights_configuration
+# --
+
+resource "sumologic_cse_insights_configuration" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nutanixkps_storageprofile
+# key: r_nutanixkps_storageprofile
+# --
+
+resource "nutanixkps_storageprofile" "${1:this}" {
+    is_default = "${2:is_default}"
+    name = "${3:name}"
+    service_domain_id = "${4:service_domain_id}"
+}

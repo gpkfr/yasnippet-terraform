@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_marketplace_publications
+# key: d_oci_marketplace_publications
+# --
+
+data "oci_marketplace_publications" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    listing_type = "${3:listing_type}"
+}

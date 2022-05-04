@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_site_allowlist
+# key: r_sigsci_site_allowlist
+# --
+
+resource "sigsci_site_allowlist" "${1:this}" {
+    note = "${2:note}"
+    site_short_name = "${3:site_short_name}"
+    source = "${4:source}"
+}

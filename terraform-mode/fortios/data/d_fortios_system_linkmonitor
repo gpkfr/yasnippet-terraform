@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_linkmonitor
+# key: d_fortios_system_linkmonitor
+# --
+
+data "fortios_system_linkmonitor" "${1:this}" {
+    name = "${2:name}"
+}

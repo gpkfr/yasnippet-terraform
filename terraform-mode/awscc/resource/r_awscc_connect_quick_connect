@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_connect_quick_connect
+# key: r_awscc_connect_quick_connect
+# --
+
+resource "awscc_connect_quick_connect" "${1:this}" {
+    instance_arn = "${2:instance_arn}"
+    name = "${3:name}"
+    quick_connect_config = "${4:quick_connect_config}"
+}

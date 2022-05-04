@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_spamfilter_dnsbl
+# key: r_fortimanager_object_spamfilter_dnsbl
+# --
+
+resource "fortimanager_object_spamfilter_dnsbl" "${1:this}" {
+}

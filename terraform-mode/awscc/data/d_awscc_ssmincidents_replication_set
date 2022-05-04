@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ssmincidents_replication_set
+# key: d_awscc_ssmincidents_replication_set
+# --
+
+data "awscc_ssmincidents_replication_set" "${1:this}" {
+    id = "${2:id}"
+}

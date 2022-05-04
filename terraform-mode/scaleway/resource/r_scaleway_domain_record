@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_domain_record
+# key: r_scaleway_domain_record
+# --
+
+resource "scaleway_domain_record" "${1:this}" {
+    data = "${2:data}"
+    dns_zone = "${3:dns_zone}"
+    type = "${4:type}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_mobile_application
+# key: r_dynatrace_mobile_application
+# --
+
+resource "dynatrace_mobile_application" "${1:this}" {
+    beacon_endpoint_type = "${2:beacon_endpoint_type}"
+    name = "${3:name}"
+}

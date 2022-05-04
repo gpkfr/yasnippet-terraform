@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_ospf
+# key: d_fortios_router_ospf
+# --
+
+data "fortios_router_ospf" "${1:this}" {
+}

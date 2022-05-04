@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_grafana_cloud_api_key
+# key: r_grafana_cloud_api_key
+# --
+
+resource "grafana_cloud_api_key" "${1:this}" {
+    cloud_org_slug = "${2:cloud_org_slug}"
+    name = "${3:name}"
+    role = "${4:role}"
+}

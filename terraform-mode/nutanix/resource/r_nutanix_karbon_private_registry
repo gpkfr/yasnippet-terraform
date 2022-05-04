@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_karbon_private_registry
+# key: r_nutanix_karbon_private_registry
+# --
+
+resource "nutanix_karbon_private_registry" "${1:this}" {
+    name = "${2:name}"
+    port = "${3:port}"
+    url = "${4:url}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_frauddetector_event_type
+# key: r_awscc_frauddetector_event_type
+# --
+
+resource "awscc_frauddetector_event_type" "${1:this}" {
+    entity_types = "${2:entity_types}"
+    event_variables = "${3:event_variables}"
+    labels = "${4:labels}"
+    name = "${5:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_telephony_providers_edges_site
+# key: r_genesyscloud_telephony_providers_edges_site
+# --
+
+resource "genesyscloud_telephony_providers_edges_site" "${1:this}" {
+    location_id = "${2:location_id}"
+    media_model = "${3:media_model}"
+    name = "${4:name}"
+}

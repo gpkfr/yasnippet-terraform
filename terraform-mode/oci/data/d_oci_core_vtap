@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_vtap
+# key: d_oci_core_vtap
+# --
+
+data "oci_core_vtap" "${1:this}" {
+    vtap_id = "${2:vtap_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_policy_virtual_machine_configuration_assignment
+# key: r_azurerm_policy_virtual_machine_configuration_assignment
+# --
+
+resource "azurerm_policy_virtual_machine_configuration_assignment" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    virtual_machine_id = "${4:virtual_machine_id}"
+}

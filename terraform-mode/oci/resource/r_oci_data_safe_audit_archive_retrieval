@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_audit_archive_retrieval
+# key: r_oci_data_safe_audit_archive_retrieval
+# --
+
+resource "oci_data_safe_audit_archive_retrieval" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    end_date = "${3:end_date}"
+    start_date = "${4:start_date}"
+    target_id = "${5:target_id}"
+}

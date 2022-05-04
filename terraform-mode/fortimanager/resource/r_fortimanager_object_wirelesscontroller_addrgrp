@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_wirelesscontroller_addrgrp
+# key: r_fortimanager_object_wirelesscontroller_addrgrp
+# --
+
+resource "fortimanager_object_wirelesscontroller_addrgrp" "${1:this}" {
+}

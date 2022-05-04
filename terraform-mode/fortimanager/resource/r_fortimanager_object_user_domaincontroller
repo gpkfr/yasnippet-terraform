@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_domaincontroller
+# key: r_fortimanager_object_user_domaincontroller
+# --
+
+resource "fortimanager_object_user_domaincontroller" "${1:this}" {
+}

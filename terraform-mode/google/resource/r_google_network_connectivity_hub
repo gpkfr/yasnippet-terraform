@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_network_connectivity_hub
+# key: r_google_network_connectivity_hub
+# --
+
+resource "google_network_connectivity_hub" "${1:this}" {
+    name = "${2:name}"
+}

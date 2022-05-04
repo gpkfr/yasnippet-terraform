@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_mysql_analytics_cluster
+# key: r_oci_mysql_analytics_cluster
+# --
+
+resource "oci_mysql_analytics_cluster" "${1:this}" {
+    cluster_size = "${2:cluster_size}"
+    db_system_id = "${3:db_system_id}"
+    shape_name = "${4:shape_name}"
+}

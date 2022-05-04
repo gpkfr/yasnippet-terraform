@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_dataexchange_revision
+# key: r_aws_dataexchange_revision
+# --
+
+resource "aws_dataexchange_revision" "${1:this}" {
+    data_set_id = "${2:data_set_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_hyper_flex_volume
+# key: d_intersight_storage_hyper_flex_volume
+# --
+
+data "intersight_storage_hyper_flex_volume" "${1:this}" {
+}

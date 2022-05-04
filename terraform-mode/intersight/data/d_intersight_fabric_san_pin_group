@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_san_pin_group
+# key: d_intersight_fabric_san_pin_group
+# --
+
+data "intersight_fabric_san_pin_group" "${1:this}" {
+}

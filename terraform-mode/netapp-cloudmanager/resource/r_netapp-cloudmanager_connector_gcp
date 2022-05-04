@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_connector_gcp
+# key: r_netapp-cloudmanager_connector_gcp
+# --
+
+resource "netapp-cloudmanager_connector_gcp" "${1:this}" {
+    company = "${2:company}"
+    name = "${3:name}"
+    project_id = "${4:project_id}"
+    service_account_email = "${5:service_account_email}"
+    zone = "${6:zone}"
+}

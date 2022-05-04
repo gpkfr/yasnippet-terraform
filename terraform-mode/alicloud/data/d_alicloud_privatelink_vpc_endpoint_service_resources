@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_privatelink_vpc_endpoint_service_resources
+# key: d_alicloud_privatelink_vpc_endpoint_service_resources
+# --
+
+data "alicloud_privatelink_vpc_endpoint_service_resources" "${1:this}" {
+    service_id = "${2:service_id}"
+}

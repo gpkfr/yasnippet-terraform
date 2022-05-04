@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_logic_app_standard
+# key: r_azurerm_logic_app_standard
+# --
+
+resource "azurerm_logic_app_standard" "${1:this}" {
+    app_service_plan_id = "${2:app_service_plan_id}"
+    location = "${3:location}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+    storage_account_access_key = "${6:storage_account_access_key}"
+    storage_account_name = "${7:storage_account_name}"
+}

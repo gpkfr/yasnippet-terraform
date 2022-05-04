@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_container_azure_client
+# key: r_google_container_azure_client
+# --
+
+resource "google_container_azure_client" "${1:this}" {
+    application_id = "${2:application_id}"
+    location = "${3:location}"
+    name = "${4:name}"
+    tenant_id = "${5:tenant_id}"
+}

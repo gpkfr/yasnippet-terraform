@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_workflow_build_task_meta_owner
+# key: d_intersight_workflow_build_task_meta_owner
+# --
+
+data "intersight_workflow_build_task_meta_owner" "${1:this}" {
+}

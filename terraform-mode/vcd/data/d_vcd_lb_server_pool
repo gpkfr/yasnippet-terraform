@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_lb_server_pool
+# key: d_vcd_lb_server_pool
+# --
+
+data "vcd_lb_server_pool" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    name = "${3:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_saml_fabricidp
+# key: r_fortimanager_system_saml_fabricidp
+# --
+
+resource "fortimanager_system_saml_fabricidp" "${1:this}" {
+}

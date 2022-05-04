@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rediscloud_payment_method
+# key: d_rediscloud_payment_method
+# --
+
+data "rediscloud_payment_method" "${1:this}" {
+}

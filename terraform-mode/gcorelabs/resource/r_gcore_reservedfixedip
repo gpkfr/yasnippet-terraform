@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gcore_reservedfixedip
+# key: r_gcore_reservedfixedip
+# --
+
+resource "gcore_reservedfixedip" "${1:this}" {
+    is_vip = "${2:is_vip}"
+    type = "${3:type}"
+}

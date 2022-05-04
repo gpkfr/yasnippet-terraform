@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cond_alarm_aggregation
+# key: d_intersight_cond_alarm_aggregation
+# --
+
+data "intersight_cond_alarm_aggregation" "${1:this}" {
+}

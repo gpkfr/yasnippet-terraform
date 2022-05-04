@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudsigma_vlan
+# key: d_cloudsigma_vlan
+# --
+
+data "cloudsigma_vlan" "${1:this}" {
+}

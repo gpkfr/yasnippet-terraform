@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_dosoptions
+# key: r_fortimanager_object_system_npu_dosoptions
+# --
+
+resource "fortimanager_object_system_npu_dosoptions" "${1:this}" {
+}

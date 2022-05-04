@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_okta_user_security_questions
+# key: d_okta_user_security_questions
+# --
+
+data "okta_user_security_questions" "${1:this}" {
+    user_id = "${2:user_id}"
+}

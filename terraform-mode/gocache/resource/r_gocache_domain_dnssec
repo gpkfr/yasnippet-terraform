@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gocache_domain_dnssec
+# key: r_gocache_domain_dnssec
+# --
+
+resource "gocache_domain_dnssec" "${1:this}" {
+    domain = "${2:domain}"
+}

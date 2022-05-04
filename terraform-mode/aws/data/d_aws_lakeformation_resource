@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_lakeformation_resource
+# key: d_aws_lakeformation_resource
+# --
+
+data "aws_lakeformation_resource" "${1:this}" {
+    arn = "${2:arn}"
+}

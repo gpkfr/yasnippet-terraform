@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_aws_key
+# key: r_ciphertrust_aws_key
+# --
+
+resource "ciphertrust_aws_key" "${1:this}" {
+    region = "${2:region}"
+}

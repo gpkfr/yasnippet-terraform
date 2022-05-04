@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_compute_target_grpc_proxy
+# key: r_google_compute_target_grpc_proxy
+# --
+
+resource "google_compute_target_grpc_proxy" "${1:this}" {
+    name = "${2:name}"
+}

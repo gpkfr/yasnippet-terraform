@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_alertemailconfig
+# key: r_avi_alertemailconfig
+# --
+
+resource "avi_alertemailconfig" "${1:this}" {
+    name = "${2:name}"
+    to_emails = "${3:to_emails}"
+}

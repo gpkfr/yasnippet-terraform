@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_awscc_budgets_budgets_action
+# key: r_awscc_budgets_budgets_action
+# --
+
+resource "awscc_budgets_budgets_action" "${1:this}" {
+    action_threshold = "${2:action_threshold}"
+    action_type = "${3:action_type}"
+    budget_name = "${4:budget_name}"
+    definition = "${5:definition}"
+    execution_role_arn = "${6:execution_role_arn}"
+    notification_type = "${7:notification_type}"
+    subscribers = "${8:subscribers}"
+}

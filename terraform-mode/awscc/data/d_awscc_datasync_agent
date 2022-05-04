@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_agent
+# key: d_awscc_datasync_agent
+# --
+
+data "awscc_datasync_agent" "${1:this}" {
+    id = "${2:id}"
+}

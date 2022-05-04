@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ivs_stream_key
+# key: r_awscc_ivs_stream_key
+# --
+
+resource "awscc_ivs_stream_key" "${1:this}" {
+    channel_arn = "${2:channel_arn}"
+}

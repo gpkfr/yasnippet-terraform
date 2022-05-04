@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_policy64_move
+# key: r_fortimanager_packages_firewall_policy64_move
+# --
+
+resource "fortimanager_packages_firewall_policy64_move" "${1:this}" {
+    option = "${2:option}"
+    pkg = "${3:pkg}"
+    policy64 = "${4:policy64}"
+    target = "${5:target}"
+}

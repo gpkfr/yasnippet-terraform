@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_internet_gateway
+# key: r_awscc_ec2_internet_gateway
+# --
+
+resource "awscc_ec2_internet_gateway" "${1:this}" {
+}

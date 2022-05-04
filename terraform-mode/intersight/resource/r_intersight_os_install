@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_os_install
+# key: r_intersight_os_install
+# --
+
+resource "intersight_os_install" "${1:this}" {
+}

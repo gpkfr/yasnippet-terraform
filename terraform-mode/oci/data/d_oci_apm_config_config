@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_apm_config_config
+# key: d_oci_apm_config_config
+# --
+
+data "oci_apm_config_config" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+    config_id = "${3:config_id}"
+}

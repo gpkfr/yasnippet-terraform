@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_outscale_load_balancer_listener_rule
+# key: d_outscale_load_balancer_listener_rule
+# --
+
+data "outscale_load_balancer_listener_rule" "${1:this}" {
+}

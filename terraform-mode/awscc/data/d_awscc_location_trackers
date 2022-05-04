@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_location_trackers
+# key: d_awscc_location_trackers
+# --
+
+data "awscc_location_trackers" "${1:this}" {
+}

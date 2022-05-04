@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_appstream_fleet_stack_association
+# key: r_aws_appstream_fleet_stack_association
+# --
+
+resource "aws_appstream_fleet_stack_association" "${1:this}" {
+    fleet_name = "${2:fleet_name}"
+    stack_name = "${3:stack_name}"
+}

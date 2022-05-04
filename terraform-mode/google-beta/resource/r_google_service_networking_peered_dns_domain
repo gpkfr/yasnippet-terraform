@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_service_networking_peered_dns_domain
+# key: r_google_service_networking_peered_dns_domain
+# --
+
+resource "google_service_networking_peered_dns_domain" "${1:this}" {
+    dns_suffix = "${2:dns_suffix}"
+    name = "${3:name}"
+    network = "${4:network}"
+}

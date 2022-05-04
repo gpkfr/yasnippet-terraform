@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_static_route
+# key: r_cloudflare_static_route
+# --
+
+resource "cloudflare_static_route" "${1:this}" {
+    nexthop = "${2:nexthop}"
+    prefix = "${3:prefix}"
+    priority = "${4:priority}"
+}

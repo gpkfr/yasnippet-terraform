@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_kubernetes_node_pool
+# key: r_tencentcloud_kubernetes_node_pool
+# --
+
+resource "tencentcloud_kubernetes_node_pool" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    max_size = "${3:max_size}"
+    min_size = "${4:min_size}"
+    name = "${5:name}"
+    vpc_id = "${6:vpc_id}"
+}

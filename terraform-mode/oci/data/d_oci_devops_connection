@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_connection
+# key: d_oci_devops_connection
+# --
+
+data "oci_devops_connection" "${1:this}" {
+    connection_id = "${2:connection_id}"
+}

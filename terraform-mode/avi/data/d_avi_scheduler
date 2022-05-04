@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_scheduler
+# key: d_avi_scheduler
+# --
+
+data "avi_scheduler" "${1:this}" {
+}

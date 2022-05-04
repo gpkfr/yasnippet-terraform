@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_json_generic_api
+# key: d_fortios_json_generic_api
+# --
+
+data "fortios_json_generic_api" "${1:this}" {
+    path = "${2:path}"
+}

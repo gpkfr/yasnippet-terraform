@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_confluent_environment
+# key: r_confluent_environment
+# --
+
+resource "confluent_environment" "${1:this}" {
+    display_name = "${2:display_name}"
+}

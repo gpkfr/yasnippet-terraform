@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_gcp_data_center_server
+# key: r_checkpoint_management_gcp_data_center_server
+# --
+
+resource "checkpoint_management_gcp_data_center_server" "${1:this}" {
+    authentication_method = "${2:authentication_method}"
+    name = "${3:name}"
+}

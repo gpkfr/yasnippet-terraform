@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_videofilter_youtubechannelfilter
+# key: r_fortimanager_object_videofilter_youtubechannelfilter
+# --
+
+resource "fortimanager_object_videofilter_youtubechannelfilter" "${1:this}" {
+}

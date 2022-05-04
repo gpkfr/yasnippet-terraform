@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_serverautoscalepolicy
+# key: d_avi_serverautoscalepolicy
+# --
+
+data "avi_serverautoscalepolicy" "${1:this}" {
+}

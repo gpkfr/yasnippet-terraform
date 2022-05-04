@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_mediapackage_origin_endpoint
+# key: d_awscc_mediapackage_origin_endpoint
+# --
+
+data "awscc_mediapackage_origin_endpoint" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_source_control_token
+# key: d_azurerm_source_control_token
+# --
+
+data "azurerm_source_control_token" "${1:this}" {
+    type = "${2:type}"
+}

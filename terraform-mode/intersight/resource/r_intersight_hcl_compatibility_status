@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hcl_compatibility_status
+# key: r_intersight_hcl_compatibility_status
+# --
+
+resource "intersight_hcl_compatibility_status" "${1:this}" {
+}

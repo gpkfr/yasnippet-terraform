@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_site_rule
+# key: r_sigsci_site_rule
+# --
+
+resource "sigsci_site_rule" "${1:this}" {
+    enabled = "${2:enabled}"
+    expiration = "${3:expiration}"
+    group_operator = "${4:group_operator}"
+    reason = "${5:reason}"
+    site_short_name = "${6:site_short_name}"
+    type = "${7:type}"
+}

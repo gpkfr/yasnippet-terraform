@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_fleet_metric
+# key: r_awscc_iot_fleet_metric
+# --
+
+resource "awscc_iot_fleet_metric" "${1:this}" {
+    metric_name = "${2:metric_name}"
+}

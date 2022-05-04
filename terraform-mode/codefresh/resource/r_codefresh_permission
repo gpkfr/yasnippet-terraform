@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_codefresh_permission
+# key: r_codefresh_permission
+# --
+
+resource "codefresh_permission" "${1:this}" {
+    action = "${2:action}"
+    resource = "${3:resource}"
+    team = "${4:team}"
+}

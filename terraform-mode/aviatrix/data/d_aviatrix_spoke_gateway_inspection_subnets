@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aviatrix_spoke_gateway_inspection_subnets
+# key: d_aviatrix_spoke_gateway_inspection_subnets
+# --
+
+data "aviatrix_spoke_gateway_inspection_subnets" "${1:this}" {
+    gw_name = "${2:gw_name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_shipa_role_association
+# key: r_shipa_role_association
+# --
+
+resource "shipa_role_association" "${1:this}" {
+    email = "${2:email}"
+    name = "${3:name}"
+}

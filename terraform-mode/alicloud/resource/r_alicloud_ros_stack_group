@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ros_stack_group
+# key: r_alicloud_ros_stack_group
+# --
+
+resource "alicloud_ros_stack_group" "${1:this}" {
+    stack_group_name = "${2:stack_group_name}"
+}

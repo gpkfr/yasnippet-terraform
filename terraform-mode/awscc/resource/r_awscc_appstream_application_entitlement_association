@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_appstream_application_entitlement_association
+# key: r_awscc_appstream_application_entitlement_association
+# --
+
+resource "awscc_appstream_application_entitlement_association" "${1:this}" {
+    application_identifier = "${2:application_identifier}"
+    entitlement_name = "${3:entitlement_name}"
+    stack_name = "${4:stack_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_user_preference
+# key: d_intersight_iam_user_preference
+# --
+
+data "intersight_iam_user_preference" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_tdmq_instance
+# key: r_tencentcloud_tdmq_instance
+# --
+
+resource "tencentcloud_tdmq_instance" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+}

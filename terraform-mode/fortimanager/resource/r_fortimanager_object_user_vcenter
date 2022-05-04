@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_vcenter
+# key: r_fortimanager_object_user_vcenter
+# --
+
+resource "fortimanager_object_user_vcenter" "${1:this}" {
+}

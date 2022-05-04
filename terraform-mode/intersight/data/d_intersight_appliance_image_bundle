@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_image_bundle
+# key: d_intersight_appliance_image_bundle
+# --
+
+data "intersight_appliance_image_bundle" "${1:this}" {
+}

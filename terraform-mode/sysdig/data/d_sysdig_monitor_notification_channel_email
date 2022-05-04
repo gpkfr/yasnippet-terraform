@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_sysdig_monitor_notification_channel_email
+# key: d_sysdig_monitor_notification_channel_email
+# --
+
+data "sysdig_monitor_notification_channel_email" "${1:this}" {
+    name = "${2:name}"
+}

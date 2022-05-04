@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gitlab_instance_variable
+# key: d_gitlab_instance_variable
+# --
+
+data "gitlab_instance_variable" "${1:this}" {
+    key = "${2:key}"
+}

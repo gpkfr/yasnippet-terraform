@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_mail
+# key: r_fortianalyzer_system_mail
+# --
+
+resource "fortianalyzer_system_mail" "${1:this}" {
+}

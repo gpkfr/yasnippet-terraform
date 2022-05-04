@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ecs_cluster_capacity_provider_associations
+# key: r_awscc_ecs_cluster_capacity_provider_associations
+# --
+
+resource "awscc_ecs_cluster_capacity_provider_associations" "${1:this}" {
+    capacity_providers = "${2:capacity_providers}"
+    cluster = "${3:cluster}"
+    default_capacity_provider_strategy = "${4:default_capacity_provider_strategy}"
+}

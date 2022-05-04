@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_algolia_regular_synonym
+# key: r_algolia_regular_synonym
+# --
+
+resource "algolia_regular_synonym" "${1:this}" {
+    index = "${2:index}"
+    synonyms = "${3:synonyms}"
+}

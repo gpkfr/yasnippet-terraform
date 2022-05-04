@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_api_gateway_api_config_iam_binding
+# key: r_google_api_gateway_api_config_iam_binding
+# --
+
+resource "google_api_gateway_api_config_iam_binding" "${1:this}" {
+    api = "${2:api}"
+    api_config = "${3:api_config}"
+    members = "${4:members}"
+    role = "${5:role}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_netapp-cloudmanager_cvo_aws
+# key: d_netapp-cloudmanager_cvo_aws
+# --
+
+data "netapp-cloudmanager_cvo_aws" "${1:this}" {
+    client_id = "${2:client_id}"
+    name = "${3:name}"
+}

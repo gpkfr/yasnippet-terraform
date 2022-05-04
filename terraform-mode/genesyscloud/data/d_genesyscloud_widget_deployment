@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_widget_deployment
+# key: d_genesyscloud_widget_deployment
+# --
+
+data "genesyscloud_widget_deployment" "${1:this}" {
+    name = "${2:name}"
+}

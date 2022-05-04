@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_gocache_ip_ranges
+# key: d_gocache_ip_ranges
+# --
+
+data "gocache_ip_ranges" "${1:this}" {
+}

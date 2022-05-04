@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_ip_access_management
+# key: d_intersight_iam_ip_access_management
+# --
+
+data "intersight_iam_ip_access_management" "${1:this}" {
+}

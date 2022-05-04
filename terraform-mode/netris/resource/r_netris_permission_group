@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_netris_permission_group
+# key: r_netris_permission_group
+# --
+
+resource "netris_permission_group" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_buddy_project_group
+# key: d_buddy_project_group
+# --
+
+data "buddy_project_group" "${1:this}" {
+    domain = "${2:domain}"
+    group_id = "${3:group_id}"
+    project_name = "${4:project_name}"
+}

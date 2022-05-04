@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_hierarchy
+# key: r_sumologic_hierarchy
+# --
+
+resource "sumologic_hierarchy" "${1:this}" {
+    name = "${2:name}"
+}

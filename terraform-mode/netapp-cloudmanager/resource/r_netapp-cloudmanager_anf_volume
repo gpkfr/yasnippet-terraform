@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_anf_volume
+# key: r_netapp-cloudmanager_anf_volume
+# --
+
+resource "netapp-cloudmanager_anf_volume" "${1:this}" {
+    capacity_pool = "${2:capacity_pool}"
+    client_id = "${3:client_id}"
+    location = "${4:location}"
+    name = "${5:name}"
+    netapp_account = "${6:netapp_account}"
+    protocol_types = "${7:protocol_types}"
+    resource_groups = "${8:resource_groups}"
+    service_level = "${9:service_level}"
+    size = "${10:size}"
+    size_unit = "${11:size_unit}"
+    subnet = "${12:subnet}"
+    subscription = "${13:subscription}"
+    virtual_network = "${14:virtual_network}"
+    volume_path = "${15:volume_path}"
+    working_environment_name = "${16:working_environment_name}"
+}

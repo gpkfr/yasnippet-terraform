@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_spectrocloud_role
+# key: d_spectrocloud_role
+# --
+
+data "spectrocloud_role" "${1:this}" {
+}

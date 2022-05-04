@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_autoscaling_warm_pool
+# key: d_awscc_autoscaling_warm_pool
+# --
+
+data "awscc_autoscaling_warm_pool" "${1:this}" {
+    id = "${2:id}"
+}

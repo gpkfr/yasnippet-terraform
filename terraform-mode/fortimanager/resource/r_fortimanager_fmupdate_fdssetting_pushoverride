@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_fmupdate_fdssetting_pushoverride
+# key: r_fortimanager_fmupdate_fdssetting_pushoverride
+# --
+
+resource "fortimanager_fmupdate_fdssetting_pushoverride" "${1:this}" {
+}

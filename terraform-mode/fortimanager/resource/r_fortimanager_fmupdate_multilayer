@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_fmupdate_multilayer
+# key: r_fortimanager_fmupdate_multilayer
+# --
+
+resource "fortimanager_fmupdate_multilayer" "${1:this}" {
+}

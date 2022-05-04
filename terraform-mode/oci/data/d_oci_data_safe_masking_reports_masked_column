@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_masking_reports_masked_column
+# key: d_oci_data_safe_masking_reports_masked_column
+# --
+
+data "oci_data_safe_masking_reports_masked_column" "${1:this}" {
+    masking_report_id = "${2:masking_report_id}"
+}

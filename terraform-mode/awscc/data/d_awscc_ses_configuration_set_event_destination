@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ses_configuration_set_event_destination
+# key: d_awscc_ses_configuration_set_event_destination
+# --
+
+data "awscc_ses_configuration_set_event_destination" "${1:this}" {
+    id = "${2:id}"
+}

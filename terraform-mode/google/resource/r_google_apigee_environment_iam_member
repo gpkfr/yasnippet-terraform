@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_apigee_environment_iam_member
+# key: r_google_apigee_environment_iam_member
+# --
+
+resource "google_apigee_environment_iam_member" "${1:this}" {
+    env_id = "${2:env_id}"
+    member = "${3:member}"
+    org_id = "${4:org_id}"
+    role = "${5:role}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_cluster
+# key: r_avi_cluster
+# --
+
+resource "avi_cluster" "${1:this}" {
+    name = "${2:name}"
+}

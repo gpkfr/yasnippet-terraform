@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_user_agent
+# key: d_elasticstack_elasticsearch_ingest_processor_user_agent
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_user_agent" "${1:this}" {
+    field = "${2:field}"
+}

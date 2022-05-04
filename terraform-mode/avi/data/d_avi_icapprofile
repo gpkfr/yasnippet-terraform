@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_icapprofile
+# key: d_avi_icapprofile
+# --
+
+data "avi_icapprofile" "${1:this}" {
+}

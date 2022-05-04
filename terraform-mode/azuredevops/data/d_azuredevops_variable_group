@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azuredevops_variable_group
+# key: d_azuredevops_variable_group
+# --
+
+data "azuredevops_variable_group" "${1:this}" {
+    name = "${2:name}"
+    project_id = "${3:project_id}"
+}

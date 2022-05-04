@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lambda_function
+# key: r_awscc_lambda_function
+# --
+
+resource "awscc_lambda_function" "${1:this}" {
+    code = "${2:code}"
+    role = "${3:role}"
+}

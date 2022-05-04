@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_cloud_backup_snapshot
+# key: d_mongodbatlas_cloud_backup_snapshot
+# --
+
+data "mongodbatlas_cloud_backup_snapshot" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    project_id = "${3:project_id}"
+    snapshot_id = "${4:snapshot_id}"
+}

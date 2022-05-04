@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_fault
+# key: d_intersight_niatelemetry_fault
+# --
+
+data "intersight_niatelemetry_fault" "${1:this}" {
+}

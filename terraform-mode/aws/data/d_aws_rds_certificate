@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_rds_certificate
+# key: d_aws_rds_certificate
+# --
+
+data "aws_rds_certificate" "${1:this}" {
+}

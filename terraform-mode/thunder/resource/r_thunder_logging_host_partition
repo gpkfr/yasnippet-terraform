@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_logging_host_partition
+# key: r_thunder_logging_host_partition
+# --
+
+resource "thunder_logging_host_partition" "${1:this}" {
+}

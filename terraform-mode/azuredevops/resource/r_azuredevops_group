@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_group
+# key: r_azuredevops_group
+# --
+
+resource "azuredevops_group" "${1:this}" {
+}

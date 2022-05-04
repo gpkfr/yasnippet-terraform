@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_persist_source_ip
+# key: r_thunder_slb_template_persist_source_ip
+# --
+
+resource "thunder_slb_template_persist_source_ip" "${1:this}" {
+}

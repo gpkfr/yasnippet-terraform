@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_sctpfilter_profile
+# key: r_fortios_sctpfilter_profile
+# --
+
+resource "fortios_sctpfilter_profile" "${1:this}" {
+}

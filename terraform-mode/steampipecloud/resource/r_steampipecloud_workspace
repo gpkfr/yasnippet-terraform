@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_steampipecloud_workspace
+# key: r_steampipecloud_workspace
+# --
+
+resource "steampipecloud_workspace" "${1:this}" {
+    handle = "${2:handle}"
+}

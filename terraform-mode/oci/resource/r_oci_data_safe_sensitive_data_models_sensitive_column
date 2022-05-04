@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_sensitive_data_models_sensitive_column
+# key: r_oci_data_safe_sensitive_data_models_sensitive_column
+# --
+
+resource "oci_data_safe_sensitive_data_models_sensitive_column" "${1:this}" {
+    column_name = "${2:column_name}"
+    object = "${3:object}"
+    schema_name = "${4:schema_name}"
+    sensitive_data_model_id = "${5:sensitive_data_model_id}"
+}

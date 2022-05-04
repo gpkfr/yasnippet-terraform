@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_seproperties
+# key: r_avi_seproperties
+# --
+
+resource "avi_seproperties" "${1:this}" {
+}

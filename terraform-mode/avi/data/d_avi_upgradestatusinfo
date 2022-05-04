@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_upgradestatusinfo
+# key: d_avi_upgradestatusinfo
+# --
+
+data "avi_upgradestatusinfo" "${1:this}" {
+}

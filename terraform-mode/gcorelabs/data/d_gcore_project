@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gcore_project
+# key: d_gcore_project
+# --
+
+data "gcore_project" "${1:this}" {
+    name = "${2:name}"
+}

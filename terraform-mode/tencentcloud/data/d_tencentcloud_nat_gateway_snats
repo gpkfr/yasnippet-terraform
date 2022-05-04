@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_nat_gateway_snats
+# key: d_tencentcloud_nat_gateway_snats
+# --
+
+data "tencentcloud_nat_gateway_snats" "${1:this}" {
+    nat_gateway_id = "${2:nat_gateway_id}"
+}

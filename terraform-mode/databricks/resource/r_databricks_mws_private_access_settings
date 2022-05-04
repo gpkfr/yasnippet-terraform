@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_databricks_mws_private_access_settings
+# key: r_databricks_mws_private_access_settings
+# --
+
+resource "databricks_mws_private_access_settings" "${1:this}" {
+    private_access_settings_name = "${2:private_access_settings_name}"
+    region = "${3:region}"
+}

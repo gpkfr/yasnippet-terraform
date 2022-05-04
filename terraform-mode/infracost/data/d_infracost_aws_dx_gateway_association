@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_infracost_aws_dx_gateway_association
+# key: d_infracost_aws_dx_gateway_association
+# --
+
+data "infracost_aws_dx_gateway_association" "${1:this}" {
+    resources = "${2:resources}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_filefilter_profile
+# key: r_fortios_filefilter_profile
+# --
+
+resource "fortios_filefilter_profile" "${1:this}" {
+}

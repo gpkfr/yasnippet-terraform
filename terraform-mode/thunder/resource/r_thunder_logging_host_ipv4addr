@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_logging_host_ipv4addr
+# key: r_thunder_logging_host_ipv4addr
+# --
+
+resource "thunder_logging_host_ipv4addr" "${1:this}" {
+    host_ipv4 = "${2:host_ipv4}"
+}

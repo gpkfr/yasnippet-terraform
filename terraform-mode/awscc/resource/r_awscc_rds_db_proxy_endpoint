@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_rds_db_proxy_endpoint
+# key: r_awscc_rds_db_proxy_endpoint
+# --
+
+resource "awscc_rds_db_proxy_endpoint" "${1:this}" {
+    db_proxy_endpoint_name = "${2:db_proxy_endpoint_name}"
+    db_proxy_name = "${3:db_proxy_name}"
+    vpc_subnet_ids = "${4:vpc_subnet_ids}"
+}

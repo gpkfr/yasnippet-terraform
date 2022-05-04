@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_ipam_preview_next_cidr
+# key: r_aws_vpc_ipam_preview_next_cidr
+# --
+
+resource "aws_vpc_ipam_preview_next_cidr" "${1:this}" {
+    ipam_pool_id = "${2:ipam_pool_id}"
+}

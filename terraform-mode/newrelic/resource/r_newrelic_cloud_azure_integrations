@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_cloud_azure_integrations
+# key: r_newrelic_cloud_azure_integrations
+# --
+
+resource "newrelic_cloud_azure_integrations" "${1:this}" {
+    linked_account_id = "${2:linked_account_id}"
+}

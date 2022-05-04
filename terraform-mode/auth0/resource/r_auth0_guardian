@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_auth0_guardian
+# key: r_auth0_guardian
+# --
+
+resource "auth0_guardian" "${1:this}" {
+    policy = "${2:policy}"
+}

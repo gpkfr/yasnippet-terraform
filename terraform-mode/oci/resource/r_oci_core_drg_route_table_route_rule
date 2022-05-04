@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_drg_route_table_route_rule
+# key: r_oci_core_drg_route_table_route_rule
+# --
+
+resource "oci_core_drg_route_table_route_rule" "${1:this}" {
+    destination = "${2:destination}"
+    destination_type = "${3:destination_type}"
+    drg_route_table_id = "${4:drg_route_table_id}"
+    next_hop_drg_attachment_id = "${5:next_hop_drg_attachment_id}"
+}

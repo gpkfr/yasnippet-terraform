@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcloud_images
+# key: d_hcloud_images
+# --
+
+data "hcloud_images" "${1:this}" {
+}

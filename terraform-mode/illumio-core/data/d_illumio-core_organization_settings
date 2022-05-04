@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_organization_settings
+# key: d_illumio-core_organization_settings
+# --
+
+data "illumio-core_organization_settings" "${1:this}" {
+}

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_api_management_identity_provider_aadb2c
+# key: r_azurerm_api_management_identity_provider_aadb2c
+# --
+
+resource "azurerm_api_management_identity_provider_aadb2c" "${1:this}" {
+    allowed_tenant = "${2:allowed_tenant}"
+    api_management_name = "${3:api_management_name}"
+    authority = "${4:authority}"
+    client_id = "${5:client_id}"
+    client_secret = "${6:client_secret}"
+    resource_group_name = "${7:resource_group_name}"
+    signin_policy = "${8:signin_policy}"
+    signin_tenant = "${9:signin_tenant}"
+    signup_policy = "${10:signup_policy}"
+}

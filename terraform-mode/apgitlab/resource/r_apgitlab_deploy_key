@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_apgitlab_deploy_key
+# key: r_apgitlab_deploy_key
+# --
+
+resource "apgitlab_deploy_key" "${1:this}" {
+    key = "${2:key}"
+    project = "${3:project}"
+    title = "${4:title}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_stepfunctions_state_machine
+# key: r_awscc_stepfunctions_state_machine
+# --
+
+resource "awscc_stepfunctions_state_machine" "${1:this}" {
+    role_arn = "${2:role_arn}"
+}

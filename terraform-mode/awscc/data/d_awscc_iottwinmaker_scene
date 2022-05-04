@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iottwinmaker_scene
+# key: d_awscc_iottwinmaker_scene
+# --
+
+data "awscc_iottwinmaker_scene" "${1:this}" {
+    id = "${2:id}"
+}

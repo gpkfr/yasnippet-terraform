@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_config_stored_queries
+# key: d_awscc_config_stored_queries
+# --
+
+data "awscc_config_stored_queries" "${1:this}" {
+}

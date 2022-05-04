@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_astra_role
+# key: r_astra_role
+# --
+
+resource "astra_role" "${1:this}" {
+    description = "${2:description}"
+    effect = "${3:effect}"
+    policy = "${4:policy}"
+    resources = "${5:resources}"
+    role_name = "${6:role_name}"
+}

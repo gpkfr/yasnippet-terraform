@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_buddy_webhook
+# key: d_buddy_webhook
+# --
+
+data "buddy_webhook" "${1:this}" {
+    domain = "${2:domain}"
+}

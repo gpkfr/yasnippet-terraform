@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_monitoring_schedule
+# key: d_awscc_sagemaker_monitoring_schedule
+# --
+
+data "awscc_sagemaker_monitoring_schedule" "${1:this}" {
+    id = "${2:id}"
+}

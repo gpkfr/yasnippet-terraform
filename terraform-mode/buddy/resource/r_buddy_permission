@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_buddy_permission
+# key: r_buddy_permission
+# --
+
+resource "buddy_permission" "${1:this}" {
+    domain = "${2:domain}"
+    name = "${3:name}"
+    pipeline_access_level = "${4:pipeline_access_level}"
+    repository_access_level = "${5:repository_access_level}"
+    sandbox_access_level = "${6:sandbox_access_level}"
+}

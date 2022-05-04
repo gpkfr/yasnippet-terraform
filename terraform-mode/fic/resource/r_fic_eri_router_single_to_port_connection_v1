@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_fic_eri_router_single_to_port_connection_v1
+# key: r_fic_eri_router_single_to_port_connection_v1
+# --
+
+resource "fic_eri_router_single_to_port_connection_v1" "${1:this}" {
+    bandwidth = "${2:bandwidth}"
+    name = "${3:name}"
+    source_group_name = "${4:source_group_name}"
+    source_route_filter_in = "${5:source_route_filter_in}"
+    source_route_filter_out = "${6:source_route_filter_out}"
+    source_router_id = "${7:source_router_id}"
+}

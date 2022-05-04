@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_schedule_group
+# key: r_fortimanager_object_firewall_schedule_group
+# --
+
+resource "fortimanager_object_firewall_schedule_group" "${1:this}" {
+}

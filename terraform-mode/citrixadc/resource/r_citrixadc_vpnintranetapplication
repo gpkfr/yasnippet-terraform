@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnintranetapplication
+# key: r_citrixadc_vpnintranetapplication
+# --
+
+resource "citrixadc_vpnintranetapplication" "${1:this}" {
+    intranetapplication = "${2:intranetapplication}"
+}

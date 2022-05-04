@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_auditsyslogpolicy
+# key: r_citrixadc_auditsyslogpolicy
+# --
+
+resource "citrixadc_auditsyslogpolicy" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53resolver_resolver_query_logging_config_association
+# key: r_awscc_route53resolver_resolver_query_logging_config_association
+# --
+
+resource "awscc_route53resolver_resolver_query_logging_config_association" "${1:this}" {
+}

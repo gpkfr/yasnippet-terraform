@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_location_route_calculator
+# key: r_awscc_location_route_calculator
+# --
+
+resource "awscc_location_route_calculator" "${1:this}" {
+    calculator_name = "${2:calculator_name}"
+    data_source = "${3:data_source}"
+}

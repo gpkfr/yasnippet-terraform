@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_shipa_team
+# key: r_shipa_team
+# --
+
+resource "shipa_team" "${1:this}" {
+}

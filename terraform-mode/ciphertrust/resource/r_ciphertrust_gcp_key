@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_gcp_key
+# key: r_ciphertrust_gcp_key
+# --
+
+resource "ciphertrust_gcp_key" "${1:this}" {
+    algorithm = "${2:algorithm}"
+    key_ring = "${3:key_ring}"
+    name = "${4:name}"
+}

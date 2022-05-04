@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_inventory_generic_inventory_holder
+# key: d_intersight_inventory_generic_inventory_holder
+# --
+
+data "intersight_inventory_generic_inventory_holder" "${1:this}" {
+}

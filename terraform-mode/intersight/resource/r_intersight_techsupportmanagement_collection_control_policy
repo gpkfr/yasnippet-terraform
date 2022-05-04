@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_techsupportmanagement_collection_control_policy
+# key: r_intersight_techsupportmanagement_collection_control_policy
+# --
+
+resource "intersight_techsupportmanagement_collection_control_policy" "${1:this}" {
+}

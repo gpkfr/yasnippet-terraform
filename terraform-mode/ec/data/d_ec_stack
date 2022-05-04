@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ec_stack
+# key: d_ec_stack
+# --
+
+data "ec_stack" "${1:this}" {
+    region = "${2:region}"
+    version_regex = "${3:version_regex}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_user_roles
+# key: d_octopusdeploy_user_roles
+# --
+
+data "octopusdeploy_user_roles" "${1:this}" {
+}

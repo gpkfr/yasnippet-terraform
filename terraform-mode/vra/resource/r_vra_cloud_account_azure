@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_vra_cloud_account_azure
+# key: r_vra_cloud_account_azure
+# --
+
+resource "vra_cloud_account_azure" "${1:this}" {
+    application_id = "${2:application_id}"
+    application_key = "${3:application_key}"
+    name = "${4:name}"
+    regions = "${5:regions}"
+    subscription_id = "${6:subscription_id}"
+    tenant_id = "${7:tenant_id}"
+}

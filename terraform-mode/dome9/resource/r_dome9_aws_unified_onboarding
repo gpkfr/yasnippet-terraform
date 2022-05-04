@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_dome9_aws_unified_onboarding
+# key: r_dome9_aws_unified_onboarding
+# --
+
+resource "dome9_aws_unified_onboarding" "${1:this}" {
+}

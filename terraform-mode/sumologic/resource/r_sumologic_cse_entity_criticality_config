@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_entity_criticality_config
+# key: r_sumologic_cse_entity_criticality_config
+# --
+
+resource "sumologic_cse_entity_criticality_config" "${1:this}" {
+    name = "${2:name}"
+    severity_expression = "${3:severity_expression}"
+}

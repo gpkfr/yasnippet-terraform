@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_decryptedtrafficmirror
+# key: r_fortios_firewall_decryptedtrafficmirror
+# --
+
+resource "fortios_firewall_decryptedtrafficmirror" "${1:this}" {
+}

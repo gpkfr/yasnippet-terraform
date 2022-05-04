@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_email_dkim
+# key: r_oci_email_dkim
+# --
+
+resource "oci_email_dkim" "${1:this}" {
+    email_domain_id = "${2:email_domain_id}"
+}

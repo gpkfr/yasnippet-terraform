@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_access_rulebase
+# key: d_checkpoint_management_access_rulebase
+# --
+
+data "checkpoint_management_access_rulebase" "${1:this}" {
+}

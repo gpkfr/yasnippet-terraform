@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_role
+# key: d_vcd_role
+# --
+
+data "vcd_role" "${1:this}" {
+    name = "${2:name}"
+}

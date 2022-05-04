@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslservicegroup_ecccurve_binding
+# key: r_citrixadc_sslservicegroup_ecccurve_binding
+# --
+
+resource "citrixadc_sslservicegroup_ecccurve_binding" "${1:this}" {
+    ecccurvename = "${2:ecccurvename}"
+    servicegroupname = "${3:servicegroupname}"
+}

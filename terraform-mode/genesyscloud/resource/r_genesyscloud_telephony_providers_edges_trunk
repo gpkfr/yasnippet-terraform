@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_telephony_providers_edges_trunk
+# key: r_genesyscloud_telephony_providers_edges_trunk
+# --
+
+resource "genesyscloud_telephony_providers_edges_trunk" "${1:this}" {
+}

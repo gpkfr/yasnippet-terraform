@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_net_app_license
+# key: d_intersight_storage_net_app_license
+# --
+
+data "intersight_storage_net_app_license" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_efs_access_points
+# key: d_awscc_efs_access_points
+# --
+
+data "awscc_efs_access_points" "${1:this}" {
+}

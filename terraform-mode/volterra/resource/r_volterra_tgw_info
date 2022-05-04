@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_tgw_info
+# key: r_volterra_tgw_info
+# --
+
+resource "volterra_tgw_info" "${1:this}" {
+    name = "${2:name}"
+    tgw_id = "${3:tgw_id}"
+    vpc_id = "${4:vpc_id}"
+}

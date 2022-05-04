@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_panos_custom_data_pattern_object
+# key: d_panos_custom_data_pattern_object
+# --
+
+data "panos_custom_data_pattern_object" "${1:this}" {
+    name = "${2:name}"
+}

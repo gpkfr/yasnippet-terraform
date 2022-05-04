@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_witness_configuration
+# key: d_intersight_hyperflex_witness_configuration
+# --
+
+data "intersight_hyperflex_witness_configuration" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_data_integration
+# key: r_spotinst_data_integration
+# --
+
+resource "spotinst_data_integration" "${1:this}" {
+    name = "${2:name}"
+}

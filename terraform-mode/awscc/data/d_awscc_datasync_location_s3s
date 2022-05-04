@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_location_s3s
+# key: d_awscc_datasync_location_s3s
+# --
+
+data "awscc_datasync_location_s3s" "${1:this}" {
+}

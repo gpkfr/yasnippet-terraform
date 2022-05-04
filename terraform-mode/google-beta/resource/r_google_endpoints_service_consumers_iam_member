@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_endpoints_service_consumers_iam_member
+# key: r_google_endpoints_service_consumers_iam_member
+# --
+
+resource "google_endpoints_service_consumers_iam_member" "${1:this}" {
+    consumer_project = "${2:consumer_project}"
+    member = "${3:member}"
+    role = "${4:role}"
+    service_name = "${5:service_name}"
+}

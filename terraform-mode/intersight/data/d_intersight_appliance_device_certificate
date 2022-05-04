@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_device_certificate
+# key: d_intersight_appliance_device_certificate
+# --
+
+data "intersight_appliance_device_certificate" "${1:this}" {
+}

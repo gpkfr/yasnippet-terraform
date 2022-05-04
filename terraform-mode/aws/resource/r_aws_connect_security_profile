@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_connect_security_profile
+# key: r_aws_connect_security_profile
+# --
+
+resource "aws_connect_security_profile" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    name = "${3:name}"
+}

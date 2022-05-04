@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_snmp_sysinfo
+# key: r_fortimanager_system_snmp_sysinfo
+# --
+
+resource "fortimanager_system_snmp_sysinfo" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_dscpbasedpriority
+# key: d_fortios_system_dscpbasedpriority
+# --
+
+data "fortios_system_dscpbasedpriority" "${1:this}" {
+    fosid = "${2:fosid}"
+}

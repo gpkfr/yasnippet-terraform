@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_migration_job
+# key: r_oci_database_migration_job
+# --
+
+resource "oci_database_migration_job" "${1:this}" {
+    job_id = "${2:job_id}"
+}

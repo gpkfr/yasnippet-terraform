@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_dome9_user
+# key: r_dome9_user
+# --
+
+resource "dome9_user" "${1:this}" {
+    email = "${2:email}"
+    first_name = "${3:first_name}"
+    is_sso_enabled = "${4:is_sso_enabled}"
+    last_name = "${5:last_name}"
+}

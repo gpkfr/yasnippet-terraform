@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_statuscake_uptime_check
+# key: r_statuscake_uptime_check
+# --
+
+resource "statuscake_uptime_check" "${1:this}" {
+    check_interval = "${2:check_interval}"
+    name = "${3:name}"
+}

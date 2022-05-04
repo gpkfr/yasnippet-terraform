@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_cloudaccount_openstack
+# key: r_spectrocloud_cloudaccount_openstack
+# --
+
+resource "spectrocloud_cloudaccount_openstack" "${1:this}" {
+    default_domain = "${2:default_domain}"
+    default_project = "${3:default_project}"
+    identity_endpoint = "${4:identity_endpoint}"
+    name = "${5:name}"
+    openstack_password = "${6:openstack_password}"
+    openstack_username = "${7:openstack_username}"
+    parent_region = "${8:parent_region}"
+    private_cloud_gateway_id = "${9:private_cloud_gateway_id}"
+}

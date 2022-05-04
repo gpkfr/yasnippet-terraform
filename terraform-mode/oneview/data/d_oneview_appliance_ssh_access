@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oneview_appliance_ssh_access
+# key: d_oneview_appliance_ssh_access
+# --
+
+data "oneview_appliance_ssh_access" "${1:this}" {
+}

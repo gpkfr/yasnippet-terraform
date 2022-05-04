@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_rdb_database
+# key: r_scaleway_rdb_database
+# --
+
+resource "scaleway_rdb_database" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    name = "${3:name}"
+}

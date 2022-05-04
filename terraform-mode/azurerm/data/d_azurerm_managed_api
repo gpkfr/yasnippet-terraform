@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_managed_api
+# key: d_azurerm_managed_api
+# --
+
+data "azurerm_managed_api" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+}

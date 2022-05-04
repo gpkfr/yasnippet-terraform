@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_transit_gateway_prefix_list_reference
+# key: r_aws_ec2_transit_gateway_prefix_list_reference
+# --
+
+resource "aws_ec2_transit_gateway_prefix_list_reference" "${1:this}" {
+    prefix_list_id = "${2:prefix_list_id}"
+    transit_gateway_route_table_id = "${3:transit_gateway_route_table_id}"
+}

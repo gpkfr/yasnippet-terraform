@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_fms_policy
+# key: r_aws_fms_policy
+# --
+
+resource "aws_fms_policy" "${1:this}" {
+    exclude_resource_tags = "${2:exclude_resource_tags}"
+    name = "${3:name}"
+}

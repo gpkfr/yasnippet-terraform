@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_log_interfacestats
+# key: r_fortianalyzer_system_log_interfacestats
+# --
+
+resource "fortianalyzer_system_log_interfacestats" "${1:this}" {
+}

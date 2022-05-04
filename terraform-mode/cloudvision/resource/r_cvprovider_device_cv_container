@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cvprovider_device_cv_container
+# key: r_cvprovider_device_cv_container
+# --
+
+resource "cvprovider_device_cv_container" "${1:this}" {
+    device_containername = "${2:device_containername}"
+}

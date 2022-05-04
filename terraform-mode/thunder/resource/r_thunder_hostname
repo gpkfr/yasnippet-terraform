@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_hostname
+# key: r_thunder_hostname
+# --
+
+resource "thunder_hostname" "${1:this}" {
+}

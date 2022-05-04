@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_target_alert_policy_association
+# key: d_oci_data_safe_target_alert_policy_association
+# --
+
+data "oci_data_safe_target_alert_policy_association" "${1:this}" {
+    target_alert_policy_association_id = "${2:target_alert_policy_association_id}"
+}

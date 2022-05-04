@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_sdnconnector
+# key: r_fortimanager_object_system_sdnconnector
+# --
+
+resource "fortimanager_object_system_sdnconnector" "${1:this}" {
+}

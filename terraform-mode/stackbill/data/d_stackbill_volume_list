@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_stackbill_volume_list
+# key: d_stackbill_volume_list
+# --
+
+data "stackbill_volume_list" "${1:this}" {
+    zone_uuid = "${2:zone_uuid}"
+}

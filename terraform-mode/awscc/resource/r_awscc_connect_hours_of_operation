@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_connect_hours_of_operation
+# key: r_awscc_connect_hours_of_operation
+# --
+
+resource "awscc_connect_hours_of_operation" "${1:this}" {
+    config = "${2:config}"
+    instance_arn = "${3:instance_arn}"
+    name = "${4:name}"
+    time_zone = "${5:time_zone}"
+}

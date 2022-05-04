@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_vpc_peering
+# key: r_ncloud_vpc_peering
+# --
+
+resource "ncloud_vpc_peering" "${1:this}" {
+    source_vpc_no = "${2:source_vpc_no}"
+    target_vpc_no = "${3:target_vpc_no}"
+}

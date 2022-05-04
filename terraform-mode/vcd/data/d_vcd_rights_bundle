@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_rights_bundle
+# key: d_vcd_rights_bundle
+# --
+
+data "vcd_rights_bundle" "${1:this}" {
+    name = "${2:name}"
+}

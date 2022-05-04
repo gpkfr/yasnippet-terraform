@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_extended_locations
+# key: d_azurerm_extended_locations
+# --
+
+data "azurerm_extended_locations" "${1:this}" {
+    location = "${2:location}"
+}

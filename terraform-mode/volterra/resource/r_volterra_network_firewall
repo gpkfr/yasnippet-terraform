@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_network_firewall
+# key: r_volterra_network_firewall
+# --
+
+resource "volterra_network_firewall" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

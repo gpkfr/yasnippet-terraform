@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_lacework_alert_channel_splunk
+# key: r_lacework_alert_channel_splunk
+# --
+
+resource "lacework_alert_channel_splunk" "${1:this}" {
+    hec_token = "${2:hec_token}"
+    host = "${3:host}"
+    name = "${4:name}"
+    port = "${5:port}"
+}

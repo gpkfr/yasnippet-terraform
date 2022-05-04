@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gridscale_storage_import
+# key: r_gridscale_storage_import
+# --
+
+resource "gridscale_storage_import" "${1:this}" {
+    name = "${2:name}"
+    storage_backup_id = "${3:storage_backup_id}"
+}

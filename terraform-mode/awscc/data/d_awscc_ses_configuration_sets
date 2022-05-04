@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ses_configuration_sets
+# key: d_awscc_ses_configuration_sets
+# --
+
+data "awscc_ses_configuration_sets" "${1:this}" {
+}

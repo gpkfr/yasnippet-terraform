@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_certificates_management_ca_bundle
+# key: r_oci_certificates_management_ca_bundle
+# --
+
+resource "oci_certificates_management_ca_bundle" "${1:this}" {
+    ca_bundle_pem = "${2:ca_bundle_pem}"
+    compartment_id = "${3:compartment_id}"
+    name = "${4:name}"
+}

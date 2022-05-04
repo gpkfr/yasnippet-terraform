@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vapp_network
+# key: r_vcd_vapp_network
+# --
+
+resource "vcd_vapp_network" "${1:this}" {
+    gateway = "${2:gateway}"
+    name = "${3:name}"
+    vapp_name = "${4:vapp_name}"
+}

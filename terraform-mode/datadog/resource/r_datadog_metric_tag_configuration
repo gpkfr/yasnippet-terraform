@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_datadog_metric_tag_configuration
+# key: r_datadog_metric_tag_configuration
+# --
+
+resource "datadog_metric_tag_configuration" "${1:this}" {
+    metric_name = "${2:metric_name}"
+    metric_type = "${3:metric_type}"
+    tags = "${4:tags}"
+}

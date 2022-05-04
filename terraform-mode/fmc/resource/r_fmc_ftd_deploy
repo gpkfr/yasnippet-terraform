@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fmc_ftd_deploy
+# key: r_fmc_ftd_deploy
+# --
+
+resource "fmc_ftd_deploy" "${1:this}" {
+    device = "${2:device}"
+}

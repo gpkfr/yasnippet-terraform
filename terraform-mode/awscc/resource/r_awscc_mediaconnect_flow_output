@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_mediaconnect_flow_output
+# key: r_awscc_mediaconnect_flow_output
+# --
+
+resource "awscc_mediaconnect_flow_output" "${1:this}" {
+    flow_arn = "${2:flow_arn}"
+    protocol = "${3:protocol}"
+}

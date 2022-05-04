@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_digital_twins_endpoint_servicebus
+# key: r_azurerm_digital_twins_endpoint_servicebus
+# --
+
+resource "azurerm_digital_twins_endpoint_servicebus" "${1:this}" {
+    digital_twins_id = "${2:digital_twins_id}"
+    name = "${3:name}"
+    servicebus_primary_connection_string = "${4:servicebus_primary_connection_string}"
+    servicebus_secondary_connection_string = "${5:servicebus_secondary_connection_string}"
+}

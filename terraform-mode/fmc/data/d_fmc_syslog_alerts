@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fmc_syslog_alerts
+# key: d_fmc_syslog_alerts
+# --
+
+data "fmc_syslog_alerts" "${1:this}" {
+    name = "${2:name}"
+}

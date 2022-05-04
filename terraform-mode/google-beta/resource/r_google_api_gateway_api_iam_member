@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_api_gateway_api_iam_member
+# key: r_google_api_gateway_api_iam_member
+# --
+
+resource "google_api_gateway_api_iam_member" "${1:this}" {
+    api = "${2:api}"
+    member = "${3:member}"
+    role = "${4:role}"
+}

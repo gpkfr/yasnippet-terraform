@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_one_dashboard_raw
+# key: r_newrelic_one_dashboard_raw
+# --
+
+resource "newrelic_one_dashboard_raw" "${1:this}" {
+    name = "${2:name}"
+}

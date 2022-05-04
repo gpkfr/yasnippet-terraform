@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_vpc_private_network
+# key: d_scaleway_vpc_private_network
+# --
+
+data "scaleway_vpc_private_network" "${1:this}" {
+}

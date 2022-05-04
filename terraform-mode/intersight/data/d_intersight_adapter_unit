@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_adapter_unit
+# key: d_intersight_adapter_unit
+# --
+
+data "intersight_adapter_unit" "${1:this}" {
+}

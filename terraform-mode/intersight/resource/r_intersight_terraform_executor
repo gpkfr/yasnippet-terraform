@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_terraform_executor
+# key: r_intersight_terraform_executor
+# --
+
+resource "intersight_terraform_executor" "${1:this}" {
+}

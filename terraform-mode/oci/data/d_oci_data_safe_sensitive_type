@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_sensitive_type
+# key: d_oci_data_safe_sensitive_type
+# --
+
+data "oci_data_safe_sensitive_type" "${1:this}" {
+    sensitive_type_id = "${2:sensitive_type_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_diagnostics
+# key: r_valtix_profile_diagnostics
+# --
+
+resource "valtix_profile_diagnostics" "${1:this}" {
+    csp_type = "${2:csp_type}"
+    name = "${3:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_dlp_sensor
+# key: r_fortimanager_object_dlp_sensor
+# --
+
+resource "fortimanager_object_dlp_sensor" "${1:this}" {
+}

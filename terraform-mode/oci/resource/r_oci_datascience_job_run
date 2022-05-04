@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_datascience_job_run
+# key: r_oci_datascience_job_run
+# --
+
+resource "oci_datascience_job_run" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    job_id = "${3:job_id}"
+    project_id = "${4:project_id}"
+}

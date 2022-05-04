@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_topic_rule
+# key: r_awscc_iot_topic_rule
+# --
+
+resource "awscc_iot_topic_rule" "${1:this}" {
+    topic_rule_payload = "${2:topic_rule_payload}"
+}

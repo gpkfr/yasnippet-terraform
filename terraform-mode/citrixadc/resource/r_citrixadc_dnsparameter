@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_dnsparameter
+# key: r_citrixadc_dnsparameter
+# --
+
+resource "citrixadc_dnsparameter" "${1:this}" {
+}

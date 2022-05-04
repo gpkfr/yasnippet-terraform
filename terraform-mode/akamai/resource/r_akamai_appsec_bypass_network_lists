@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_bypass_network_lists
+# key: r_akamai_appsec_bypass_network_lists
+# --
+
+resource "akamai_appsec_bypass_network_lists" "${1:this}" {
+    bypass_network_list = "${2:bypass_network_list}"
+    config_id = "${3:config_id}"
+    version = "${4:version}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_http_loadbalancer
+# key: r_volterra_http_loadbalancer
+# --
+
+resource "volterra_http_loadbalancer" "${1:this}" {
+    domains = "${2:domains}"
+    name = "${3:name}"
+    namespace = "${4:namespace}"
+}

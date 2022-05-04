@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_dynatrace
+# key: r_harness_platform_connector_dynatrace
+# --
+
+resource "harness_platform_connector_dynatrace" "${1:this}" {
+    api_token_ref = "${2:api_token_ref}"
+    identifier = "${3:identifier}"
+    name = "${4:name}"
+    url = "${5:url}"
+}

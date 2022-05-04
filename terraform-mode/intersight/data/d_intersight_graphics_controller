@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_graphics_controller
+# key: d_intersight_graphics_controller
+# --
+
+data "intersight_graphics_controller" "${1:this}" {
+}

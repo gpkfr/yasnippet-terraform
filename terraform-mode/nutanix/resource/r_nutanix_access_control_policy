@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_access_control_policy
+# key: r_nutanix_access_control_policy
+# --
+
+resource "nutanix_access_control_policy" "${1:this}" {
+}

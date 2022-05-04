@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_repository_file_line
+# key: d_oci_devops_repository_file_line
+# --
+
+data "oci_devops_repository_file_line" "${1:this}" {
+    file_path = "${2:file_path}"
+    repository_id = "${3:repository_id}"
+    revision = "${4:revision}"
+}

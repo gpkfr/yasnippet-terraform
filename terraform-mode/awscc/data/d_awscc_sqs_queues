@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sqs_queues
+# key: d_awscc_sqs_queues
+# --
+
+data "awscc_sqs_queues" "${1:this}" {
+}

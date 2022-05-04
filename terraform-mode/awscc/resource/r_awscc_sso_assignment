@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sso_assignment
+# key: r_awscc_sso_assignment
+# --
+
+resource "awscc_sso_assignment" "${1:this}" {
+    instance_arn = "${2:instance_arn}"
+    permission_set_arn = "${3:permission_set_arn}"
+    principal_id = "${4:principal_id}"
+    principal_type = "${5:principal_type}"
+    target_id = "${6:target_id}"
+    target_type = "${7:target_type}"
+}

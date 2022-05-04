@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_foundation_central_cluster_details
+# key: d_nutanix_foundation_central_cluster_details
+# --
+
+data "nutanix_foundation_central_cluster_details" "${1:this}" {
+    imaged_cluster_uuid = "${2:imaged_cluster_uuid}"
+}

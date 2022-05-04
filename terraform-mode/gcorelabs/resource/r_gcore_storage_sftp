@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gcore_storage_sftp
+# key: r_gcore_storage_sftp
+# --
+
+resource "gcore_storage_sftp" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+}

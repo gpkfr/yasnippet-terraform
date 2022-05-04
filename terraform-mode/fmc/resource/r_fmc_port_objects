@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_fmc_port_objects
+# key: r_fmc_port_objects
+# --
+
+resource "fmc_port_objects" "${1:this}" {
+    name = "${2:name}"
+    port = "${3:port}"
+    protocol = "${4:protocol}"
+}

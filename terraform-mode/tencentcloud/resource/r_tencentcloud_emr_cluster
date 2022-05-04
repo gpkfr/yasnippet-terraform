@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_emr_cluster
+# key: r_tencentcloud_emr_cluster
+# --
+
+resource "tencentcloud_emr_cluster" "${1:this}" {
+    display_strategy = "${2:display_strategy}"
+    instance_name = "${3:instance_name}"
+    login_settings = "${4:login_settings}"
+    pay_mode = "${5:pay_mode}"
+    placement = "${6:placement}"
+    product_id = "${7:product_id}"
+    softwares = "${8:softwares}"
+    support_ha = "${9:support_ha}"
+    time_span = "${10:time_span}"
+    time_unit = "${11:time_unit}"
+    vpc_settings = "${12:vpc_settings}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_ssli
+# key: r_thunder_slb_template_ssli
+# --
+
+resource "thunder_slb_template_ssli" "${1:this}" {
+}

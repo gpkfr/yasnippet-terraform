@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_datadog
+# key: r_harness_platform_connector_datadog
+# --
+
+resource "harness_platform_connector_datadog" "${1:this}" {
+    api_key_ref = "${2:api_key_ref}"
+    application_key_ref = "${3:application_key_ref}"
+    identifier = "${4:identifier}"
+    name = "${5:name}"
+    url = "${6:url}"
+}

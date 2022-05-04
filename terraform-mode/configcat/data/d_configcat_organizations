@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_configcat_organizations
+# key: d_configcat_organizations
+# --
+
+data "configcat_organizations" "${1:this}" {
+}

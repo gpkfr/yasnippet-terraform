@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ecl_dedicated_hypervisor_server_v1
+# key: r_ecl_dedicated_hypervisor_server_v1
+# --
+
+resource "ecl_dedicated_hypervisor_server_v1" "${1:this}" {
+    flavor_ref = "${2:flavor_ref}"
+    image_ref = "${3:image_ref}"
+    name = "${4:name}"
+}

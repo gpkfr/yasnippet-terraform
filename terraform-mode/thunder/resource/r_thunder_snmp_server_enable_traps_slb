@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_snmp_server_enable_traps_slb
+# key: r_thunder_snmp_server_enable_traps_slb
+# --
+
+resource "thunder_snmp_server_enable_traps_slb" "${1:this}" {
+}

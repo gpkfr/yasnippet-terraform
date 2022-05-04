@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alertlogic_assets_external_dns_names
+# key: d_alertlogic_assets_external_dns_names
+# --
+
+data "alertlogic_assets_external_dns_names" "${1:this}" {
+}

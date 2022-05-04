@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_infoblox_ipv4_network
+# key: r_infoblox_ipv4_network
+# --
+
+resource "infoblox_ipv4_network" "${1:this}" {
+}

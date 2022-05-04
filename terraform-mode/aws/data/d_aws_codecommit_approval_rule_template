@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_codecommit_approval_rule_template
+# key: d_aws_codecommit_approval_rule_template
+# --
+
+data "aws_codecommit_approval_rule_template" "${1:this}" {
+    name = "${2:name}"
+}

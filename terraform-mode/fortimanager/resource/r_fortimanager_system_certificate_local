@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_certificate_local
+# key: r_fortimanager_system_certificate_local
+# --
+
+resource "fortimanager_system_certificate_local" "${1:this}" {
+}

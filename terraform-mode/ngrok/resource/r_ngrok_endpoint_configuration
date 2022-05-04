@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_endpoint_configuration
+# key: r_ngrok_endpoint_configuration
+# --
+
+resource "ngrok_endpoint_configuration" "${1:this}" {
+}

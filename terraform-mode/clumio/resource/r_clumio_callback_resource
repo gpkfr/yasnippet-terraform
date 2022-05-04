@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: r_clumio_callback_resource
+# key: r_clumio_callback_resource
+# --
+
+resource "clumio_callback_resource" "${1:this}" {
+    account_id = "${2:account_id}"
+    bucket_name = "${3:bucket_name}"
+    canonical_user = "${4:canonical_user}"
+    clumio_event_pub_id = "${5:clumio_event_pub_id}"
+    config_version = "${6:config_version}"
+    discover_version = "${7:discover_version}"
+    region = "${8:region}"
+    role_arn = "${9:role_arn}"
+    role_external_id = "${10:role_external_id}"
+    role_id = "${11:role_id}"
+    sns_topic = "${12:sns_topic}"
+    token = "${13:token}"
+    type = "${14:type}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_prometheus_rule_group_namespace
+# key: r_aws_prometheus_rule_group_namespace
+# --
+
+resource "aws_prometheus_rule_group_namespace" "${1:this}" {
+    data = "${2:data}"
+    name = "${3:name}"
+    workspace_id = "${4:workspace_id}"
+}

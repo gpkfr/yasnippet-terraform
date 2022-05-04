@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_gslbgeodbprofile
+# key: d_avi_gslbgeodbprofile
+# --
+
+data "avi_gslbgeodbprofile" "${1:this}" {
+}

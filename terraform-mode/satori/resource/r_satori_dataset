@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_satori_dataset
+# key: r_satori_dataset
+# --
+
+resource "satori_dataset" "${1:this}" {
+}

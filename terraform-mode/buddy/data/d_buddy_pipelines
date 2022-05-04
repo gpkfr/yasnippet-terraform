@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_buddy_pipelines
+# key: d_buddy_pipelines
+# --
+
+data "buddy_pipelines" "${1:this}" {
+    domain = "${2:domain}"
+    project_name = "${3:project_name}"
+}

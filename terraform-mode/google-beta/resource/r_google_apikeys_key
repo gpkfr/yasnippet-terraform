@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_apikeys_key
+# key: r_google_apikeys_key
+# --
+
+resource "google_apikeys_key" "${1:this}" {
+    name = "${2:name}"
+}

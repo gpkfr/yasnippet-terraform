@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oneview_ethernet_network
+# key: r_oneview_ethernet_network
+# --
+
+resource "oneview_ethernet_network" "${1:this}" {
+    ethernet_network_type = "${2:ethernet_network_type}"
+    name = "${3:name}"
+}

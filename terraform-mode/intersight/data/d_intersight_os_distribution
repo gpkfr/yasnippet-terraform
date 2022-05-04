@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_os_distribution
+# key: d_intersight_os_distribution
+# --
+
+data "intersight_os_distribution" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_os_bulk_install_info
+# key: r_intersight_os_bulk_install_info
+# --
+
+resource "intersight_os_bulk_install_info" "${1:this}" {
+}

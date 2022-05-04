@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_googleworkspace_domain
+# key: d_googleworkspace_domain
+# --
+
+data "googleworkspace_domain" "${1:this}" {
+    domain_name = "${2:domain_name}"
+}

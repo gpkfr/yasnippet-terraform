@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ecl_rca_user_v1
+# key: r_ecl_rca_user_v1
+# --
+
+resource "ecl_rca_user_v1" "${1:this}" {
+    password = "${2:password}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iwotenant_tenant_status
+# key: d_intersight_iwotenant_tenant_status
+# --
+
+data "intersight_iwotenant_tenant_status" "${1:this}" {
+}

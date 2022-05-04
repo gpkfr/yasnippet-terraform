@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gcore_lbpool
+# key: d_gcore_lbpool
+# --
+
+data "gcore_lbpool" "${1:this}" {
+    name = "${2:name}"
+}

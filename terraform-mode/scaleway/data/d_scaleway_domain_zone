@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_domain_zone
+# key: d_scaleway_domain_zone
+# --
+
+data "scaleway_domain_zone" "${1:this}" {
+}

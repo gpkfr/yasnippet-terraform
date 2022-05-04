@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_ipam
+# key: r_aws_vpc_ipam
+# --
+
+resource "aws_vpc_ipam" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_privatelink_vpc_endpoint_zones
+# key: d_alicloud_privatelink_vpc_endpoint_zones
+# --
+
+data "alicloud_privatelink_vpc_endpoint_zones" "${1:this}" {
+    endpoint_id = "${2:endpoint_id}"
+}

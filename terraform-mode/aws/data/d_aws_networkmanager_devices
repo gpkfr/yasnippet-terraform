@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_networkmanager_devices
+# key: d_aws_networkmanager_devices
+# --
+
+data "aws_networkmanager_devices" "${1:this}" {
+    global_network_id = "${2:global_network_id}"
+}

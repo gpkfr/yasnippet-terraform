@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_personalize_dataset
+# key: r_awscc_personalize_dataset
+# --
+
+resource "awscc_personalize_dataset" "${1:this}" {
+    dataset_group_arn = "${2:dataset_group_arn}"
+    dataset_type = "${3:dataset_type}"
+    name = "${4:name}"
+    schema_arn = "${5:schema_arn}"
+}

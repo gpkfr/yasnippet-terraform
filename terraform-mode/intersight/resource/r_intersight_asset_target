@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_asset_target
+# key: r_intersight_asset_target
+# --
+
+resource "intersight_asset_target" "${1:this}" {
+}

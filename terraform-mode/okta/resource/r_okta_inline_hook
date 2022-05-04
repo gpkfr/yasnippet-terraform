@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_okta_inline_hook
+# key: r_okta_inline_hook
+# --
+
+resource "okta_inline_hook" "${1:this}" {
+    channel = "${2:channel}"
+    name = "${3:name}"
+    type = "${4:type}"
+    version = "${5:version}"
+}

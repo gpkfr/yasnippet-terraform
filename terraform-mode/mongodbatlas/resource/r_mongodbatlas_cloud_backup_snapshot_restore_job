@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_cloud_backup_snapshot_restore_job
+# key: r_mongodbatlas_cloud_backup_snapshot_restore_job
+# --
+
+resource "mongodbatlas_cloud_backup_snapshot_restore_job" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    project_id = "${3:project_id}"
+    snapshot_id = "${4:snapshot_id}"
+}

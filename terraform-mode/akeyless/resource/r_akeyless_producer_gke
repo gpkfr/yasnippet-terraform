@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_producer_gke
+# key: r_akeyless_producer_gke
+# --
+
+resource "akeyless_producer_gke" "${1:this}" {
+    name = "${2:name}"
+}

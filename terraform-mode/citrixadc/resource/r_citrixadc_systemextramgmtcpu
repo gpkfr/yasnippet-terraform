@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_systemextramgmtcpu
+# key: r_citrixadc_systemextramgmtcpu
+# --
+
+resource "citrixadc_systemextramgmtcpu" "${1:this}" {
+    enabled = "${2:enabled}"
+}

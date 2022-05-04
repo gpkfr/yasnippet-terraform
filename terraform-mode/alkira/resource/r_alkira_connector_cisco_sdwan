@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_alkira_connector_cisco_sdwan
+# key: r_alkira_connector_cisco_sdwan
+# --
+
+resource "alkira_connector_cisco_sdwan" "${1:this}" {
+    cxp = "${2:cxp}"
+    name = "${3:name}"
+    size = "${4:size}"
+    version = "${5:version}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_apigateway_authorizer
+# key: r_awscc_apigateway_authorizer
+# --
+
+resource "awscc_apigateway_authorizer" "${1:this}" {
+    name = "${2:name}"
+    rest_api_id = "${3:rest_api_id}"
+    type = "${4:type}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akcauth_authorization_code_client
+# key: r_akcauth_authorization_code_client
+# --
+
+resource "akcauth_authorization_code_client" "${1:this}" {
+    client_id = "${2:client_id}"
+    client_name = "${3:client_name}"
+}

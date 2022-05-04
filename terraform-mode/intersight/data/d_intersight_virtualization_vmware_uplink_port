@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_vmware_uplink_port
+# key: d_intersight_virtualization_vmware_uplink_port
+# --
+
+data "intersight_virtualization_vmware_uplink_port" "${1:this}" {
+}

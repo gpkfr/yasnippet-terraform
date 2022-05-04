@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_apps
+# key: d_awscc_sagemaker_apps
+# --
+
+data "awscc_sagemaker_apps" "${1:this}" {
+}

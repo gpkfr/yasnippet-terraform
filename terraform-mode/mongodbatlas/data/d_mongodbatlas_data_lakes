@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_data_lakes
+# key: d_mongodbatlas_data_lakes
+# --
+
+data "mongodbatlas_data_lakes" "${1:this}" {
+    project_id = "${2:project_id}"
+}

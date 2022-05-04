@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_betteruptime_monitor
+# key: r_betteruptime_monitor
+# --
+
+resource "betteruptime_monitor" "${1:this}" {
+    monitor_type = "${2:monitor_type}"
+    url = "${3:url}"
+}

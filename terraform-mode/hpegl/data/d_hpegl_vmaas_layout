@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_hpegl_vmaas_layout
+# key: d_hpegl_vmaas_layout
+# --
+
+data "hpegl_vmaas_layout" "${1:this}" {
+    instance_type_code = "${2:instance_type_code}"
+    name = "${3:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ovh_order_cart_product
+# key: d_ovh_order_cart_product
+# --
+
+data "ovh_order_cart_product" "${1:this}" {
+    cart_id = "${2:cart_id}"
+    product = "${3:product}"
+}

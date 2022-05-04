@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_server_model
+# key: r_intersight_hyperflex_server_model
+# --
+
+resource "intersight_hyperflex_server_model" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_devopsguru_resource_collection
+# key: r_awscc_devopsguru_resource_collection
+# --
+
+resource "awscc_devopsguru_resource_collection" "${1:this}" {
+    resource_collection_filter = "${2:resource_collection_filter}"
+}

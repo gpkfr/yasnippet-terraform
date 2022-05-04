@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotwireless_fuota_task
+# key: r_awscc_iotwireless_fuota_task
+# --
+
+resource "awscc_iotwireless_fuota_task" "${1:this}" {
+    firmware_update_image = "${2:firmware_update_image}"
+    firmware_update_role = "${3:firmware_update_role}"
+    lo_ra_wan = "${4:lo_ra_wan}"
+}

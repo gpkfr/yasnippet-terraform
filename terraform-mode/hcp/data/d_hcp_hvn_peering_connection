@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_hcp_hvn_peering_connection
+# key: d_hcp_hvn_peering_connection
+# --
+
+data "hcp_hvn_peering_connection" "${1:this}" {
+    hvn_1 = "${2:hvn_1}"
+    hvn_2 = "${3:hvn_2}"
+    peering_id = "${4:peering_id}"
+}

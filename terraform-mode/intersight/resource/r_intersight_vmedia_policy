@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_vmedia_policy
+# key: r_intersight_vmedia_policy
+# --
+
+resource "intersight_vmedia_policy" "${1:this}" {
+}

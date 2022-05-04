@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oneview_task
+# key: r_oneview_task
+# --
+
+resource "oneview_task" "${1:this}" {
+    uri = "${2:uri}"
+}

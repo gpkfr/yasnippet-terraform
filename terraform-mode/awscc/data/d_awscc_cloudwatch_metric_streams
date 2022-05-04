@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudwatch_metric_streams
+# key: d_awscc_cloudwatch_metric_streams
+# --
+
+data "awscc_cloudwatch_metric_streams" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_prismacloudcompute_user
+# key: r_prismacloudcompute_user
+# --
+
+resource "prismacloudcompute_user" "${1:this}" {
+    authentication_type = "${2:authentication_type}"
+    password = "${3:password}"
+    role = "${4:role}"
+    username = "${5:username}"
+}

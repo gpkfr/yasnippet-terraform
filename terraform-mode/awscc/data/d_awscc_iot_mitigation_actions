@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_mitigation_actions
+# key: d_awscc_iot_mitigation_actions
+# --
+
+data "awscc_iot_mitigation_actions" "${1:this}" {
+}

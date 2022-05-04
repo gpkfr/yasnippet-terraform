@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_aggregation_rule
+# key: r_sumologic_cse_aggregation_rule
+# --
+
+resource "sumologic_cse_aggregation_rule" "${1:this}" {
+    description_expression = "${2:description_expression}"
+    enabled = "${3:enabled}"
+    match_expression = "${4:match_expression}"
+    name = "${5:name}"
+    name_expression = "${6:name_expression}"
+    trigger_expression = "${7:trigger_expression}"
+    window_size = "${8:window_size}"
+}

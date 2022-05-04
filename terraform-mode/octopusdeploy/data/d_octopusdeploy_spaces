@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_spaces
+# key: d_octopusdeploy_spaces
+# --
+
+data "octopusdeploy_spaces" "${1:this}" {
+}

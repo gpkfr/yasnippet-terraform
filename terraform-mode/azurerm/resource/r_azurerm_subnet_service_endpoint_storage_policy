@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_subnet_service_endpoint_storage_policy
+# key: r_azurerm_subnet_service_endpoint_storage_policy
+# --
+
+resource "azurerm_subnet_service_endpoint_storage_policy" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+}

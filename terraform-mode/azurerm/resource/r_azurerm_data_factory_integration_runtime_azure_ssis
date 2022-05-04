@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_integration_runtime_azure_ssis
+# key: r_azurerm_data_factory_integration_runtime_azure_ssis
+# --
+
+resource "azurerm_data_factory_integration_runtime_azure_ssis" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    location = "${3:location}"
+    name = "${4:name}"
+    node_size = "${5:node_size}"
+}

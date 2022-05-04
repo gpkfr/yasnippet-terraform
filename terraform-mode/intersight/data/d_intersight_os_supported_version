@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_os_supported_version
+# key: d_intersight_os_supported_version
+# --
+
+data "intersight_os_supported_version" "${1:this}" {
+}

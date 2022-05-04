@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_kentik-synthetics_test
+# key: d_kentik-synthetics_test
+# --
+
+data "kentik-synthetics_test" "${1:this}" {
+    id = "${2:id}"
+}

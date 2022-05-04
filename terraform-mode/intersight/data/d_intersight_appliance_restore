@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_restore
+# key: d_intersight_appliance_restore
+# --
+
+data "intersight_appliance_restore" "${1:this}" {
+}

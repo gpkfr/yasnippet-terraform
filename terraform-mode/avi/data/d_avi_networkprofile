@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_networkprofile
+# key: d_avi_networkprofile
+# --
+
+data "avi_networkprofile" "${1:this}" {
+}

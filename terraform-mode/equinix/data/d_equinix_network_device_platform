@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_network_device_platform
+# key: d_equinix_network_device_platform
+# --
+
+data "equinix_network_device_platform" "${1:this}" {
+    device_type = "${2:device_type}"
+}

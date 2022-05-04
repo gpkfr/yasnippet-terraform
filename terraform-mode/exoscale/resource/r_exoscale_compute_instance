@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_exoscale_compute_instance
+# key: r_exoscale_compute_instance
+# --
+
+resource "exoscale_compute_instance" "${1:this}" {
+    name = "${2:name}"
+    template_id = "${3:template_id}"
+    type = "${4:type}"
+    zone = "${5:zone}"
+}

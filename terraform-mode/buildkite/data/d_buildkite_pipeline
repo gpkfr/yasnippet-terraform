@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_buildkite_pipeline
+# key: d_buildkite_pipeline
+# --
+
+data "buildkite_pipeline" "${1:this}" {
+    slug = "${2:slug}"
+}

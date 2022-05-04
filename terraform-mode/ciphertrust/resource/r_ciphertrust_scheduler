@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_scheduler
+# key: r_ciphertrust_scheduler
+# --
+
+resource "ciphertrust_scheduler" "${1:this}" {
+    name = "${2:name}"
+    run_at = "${3:run_at}"
+}

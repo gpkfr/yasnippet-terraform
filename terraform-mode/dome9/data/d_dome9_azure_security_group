@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_azure_security_group
+# key: d_dome9_azure_security_group
+# --
+
+data "dome9_azure_security_group" "${1:this}" {
+    id = "${2:id}"
+}

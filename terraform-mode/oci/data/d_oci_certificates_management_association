@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_certificates_management_association
+# key: d_oci_certificates_management_association
+# --
+
+data "oci_certificates_management_association" "${1:this}" {
+    association_id = "${2:association_id}"
+}

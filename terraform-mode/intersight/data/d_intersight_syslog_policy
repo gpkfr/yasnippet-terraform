@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_syslog_policy
+# key: d_intersight_syslog_policy
+# --
+
+data "intersight_syslog_policy" "${1:this}" {
+}

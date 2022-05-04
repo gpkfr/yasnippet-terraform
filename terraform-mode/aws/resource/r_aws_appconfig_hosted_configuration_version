@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_appconfig_hosted_configuration_version
+# key: r_aws_appconfig_hosted_configuration_version
+# --
+
+resource "aws_appconfig_hosted_configuration_version" "${1:this}" {
+    application_id = "${2:application_id}"
+    configuration_profile_id = "${3:configuration_profile_id}"
+    content = "${4:content}"
+    content_type = "${5:content_type}"
+}

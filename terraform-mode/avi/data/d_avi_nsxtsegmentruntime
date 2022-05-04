@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_nsxtsegmentruntime
+# key: d_avi_nsxtsegmentruntime
+# --
+
+data "avi_nsxtsegmentruntime" "${1:this}" {
+}

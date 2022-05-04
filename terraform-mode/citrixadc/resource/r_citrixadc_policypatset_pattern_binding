@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_policypatset_pattern_binding
+# key: r_citrixadc_policypatset_pattern_binding
+# --
+
+resource "citrixadc_policypatset_pattern_binding" "${1:this}" {
+    name = "${2:name}"
+    string = "${3:string}"
+}

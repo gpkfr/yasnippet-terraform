@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewallschedule_grouplist
+# key: d_fortios_firewallschedule_grouplist
+# --
+
+data "fortios_firewallschedule_grouplist" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_infoblox_a_record
+# key: r_infoblox_a_record
+# --
+
+resource "infoblox_a_record" "${1:this}" {
+    fqdn = "${2:fqdn}"
+}

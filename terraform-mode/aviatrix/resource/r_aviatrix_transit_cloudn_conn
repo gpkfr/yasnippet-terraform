@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_transit_cloudn_conn
+# key: r_aviatrix_transit_cloudn_conn
+# --
+
+resource "aviatrix_transit_cloudn_conn" "${1:this}" {
+    bgp_local_as_num = "${2:bgp_local_as_num}"
+    cloudn_as_num = "${3:cloudn_as_num}"
+    cloudn_neighbor_as_num = "${4:cloudn_neighbor_as_num}"
+    cloudn_neighbor_ip = "${5:cloudn_neighbor_ip}"
+    cloudn_remote_ip = "${6:cloudn_remote_ip}"
+    connection_name = "${7:connection_name}"
+    gw_name = "${8:gw_name}"
+    vpc_id = "${9:vpc_id}"
+}

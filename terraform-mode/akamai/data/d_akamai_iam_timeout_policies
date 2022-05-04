@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_iam_timeout_policies
+# key: d_akamai_iam_timeout_policies
+# --
+
+data "akamai_iam_timeout_policies" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_centralsnatmap_move
+# key: r_fortimanager_packages_firewall_centralsnatmap_move
+# --
+
+resource "fortimanager_packages_firewall_centralsnatmap_move" "${1:this}" {
+    central_snat_map = "${2:central_snat_map}"
+    option = "${3:option}"
+    pkg = "${4:pkg}"
+    target = "${5:target}"
+}

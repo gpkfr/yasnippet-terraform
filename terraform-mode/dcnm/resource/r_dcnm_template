@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dcnm_template
+# key: r_dcnm_template
+# --
+
+resource "dcnm_template" "${1:this}" {
+    content = "${2:content}"
+    name = "${3:name}"
+}

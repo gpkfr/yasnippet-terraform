@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_logzio_restore_logs
+# key: r_logzio_restore_logs
+# --
+
+resource "logzio_restore_logs" "${1:this}" {
+    account_name = "${2:account_name}"
+    end_time = "${3:end_time}"
+    start_time = "${4:start_time}"
+}

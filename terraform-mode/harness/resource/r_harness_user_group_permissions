@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_harness_user_group_permissions
+# key: r_harness_user_group_permissions
+# --
+
+resource "harness_user_group_permissions" "${1:this}" {
+    user_group_id = "${2:user_group_id}"
+}

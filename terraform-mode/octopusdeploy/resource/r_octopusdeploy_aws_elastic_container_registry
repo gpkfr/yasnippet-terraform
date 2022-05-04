@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_aws_elastic_container_registry
+# key: r_octopusdeploy_aws_elastic_container_registry
+# --
+
+resource "octopusdeploy_aws_elastic_container_registry" "${1:this}" {
+    access_key = "${2:access_key}"
+    name = "${3:name}"
+    region = "${4:region}"
+    secret_key = "${5:secret_key}"
+}

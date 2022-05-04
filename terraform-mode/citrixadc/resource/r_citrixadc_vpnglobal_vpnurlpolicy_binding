@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnglobal_vpnurlpolicy_binding
+# key: r_citrixadc_vpnglobal_vpnurlpolicy_binding
+# --
+
+resource "citrixadc_vpnglobal_vpnurlpolicy_binding" "${1:this}" {
+    policyname = "${2:policyname}"
+}

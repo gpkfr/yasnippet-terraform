@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_run_application
+# key: r_nirmata_run_application
+# --
+
+resource "nirmata_run_application" "${1:this}" {
+    application = "${2:application}"
+    catalog = "${3:catalog}"
+    channel = "${4:channel}"
+    name = "${5:name}"
+}

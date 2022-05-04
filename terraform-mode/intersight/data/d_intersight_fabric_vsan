@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_vsan
+# key: d_intersight_fabric_vsan
+# --
+
+data "intersight_fabric_vsan" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_ddnslist
+# key: d_fortios_system_ddnslist
+# --
+
+data "fortios_system_ddnslist" "${1:this}" {
+}

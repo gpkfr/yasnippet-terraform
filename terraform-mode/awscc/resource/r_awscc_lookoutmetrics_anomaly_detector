@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lookoutmetrics_anomaly_detector
+# key: r_awscc_lookoutmetrics_anomaly_detector
+# --
+
+resource "awscc_lookoutmetrics_anomaly_detector" "${1:this}" {
+    anomaly_detector_config = "${2:anomaly_detector_config}"
+    metric_set_list = "${3:metric_set_list}"
+}

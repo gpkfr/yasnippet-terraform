@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_kion_azure_role
+# key: r_kion_azure_role
+# --
+
+resource "kion_azure_role" "${1:this}" {
+    name = "${2:name}"
+    role_permissions = "${3:role_permissions}"
+}

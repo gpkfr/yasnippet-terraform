@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_network
+# key: r_upcloud_network
+# --
+
+resource "upcloud_network" "${1:this}" {
+    name = "${2:name}"
+    zone = "${3:zone}"
+}

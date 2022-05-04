@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_logzio_alert_v2
+# key: r_logzio_alert_v2
+# --
+
+resource "logzio_alert_v2" "${1:this}" {
+    search_timeframe_minutes = "${2:search_timeframe_minutes}"
+    title = "${3:title}"
+}

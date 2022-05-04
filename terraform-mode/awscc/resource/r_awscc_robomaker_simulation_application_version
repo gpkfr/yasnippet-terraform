@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_robomaker_simulation_application_version
+# key: r_awscc_robomaker_simulation_application_version
+# --
+
+resource "awscc_robomaker_simulation_application_version" "${1:this}" {
+    application = "${2:application}"
+}

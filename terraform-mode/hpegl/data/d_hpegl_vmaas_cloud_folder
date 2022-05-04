@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_hpegl_vmaas_cloud_folder
+# key: d_hpegl_vmaas_cloud_folder
+# --
+
+data "hpegl_vmaas_cloud_folder" "${1:this}" {
+    cloud_id = "${2:cloud_id}"
+    name = "${3:name}"
+}

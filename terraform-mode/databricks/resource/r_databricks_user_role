@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_databricks_user_role
+# key: r_databricks_user_role
+# --
+
+resource "databricks_user_role" "${1:this}" {
+    role = "${2:role}"
+    user_id = "${3:user_id}"
+}

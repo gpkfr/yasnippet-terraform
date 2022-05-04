@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_licenseledgerdetails
+# key: r_avi_licenseledgerdetails
+# --
+
+resource "avi_licenseledgerdetails" "${1:this}" {
+}

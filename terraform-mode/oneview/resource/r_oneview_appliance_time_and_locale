@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oneview_appliance_time_and_locale
+# key: r_oneview_appliance_time_and_locale
+# --
+
+resource "oneview_appliance_time_and_locale" "${1:this}" {
+    locale = "${2:locale}"
+    ntp_servers = "${3:ntp_servers}"
+    timezone = "${4:timezone}"
+}

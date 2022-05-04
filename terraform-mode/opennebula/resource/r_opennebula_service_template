@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opennebula_service_template
+# key: r_opennebula_service_template
+# --
+
+resource "opennebula_service_template" "${1:this}" {
+    template = "${2:template}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_target_rabbit
+# key: r_akeyless_target_rabbit
+# --
+
+resource "akeyless_target_rabbit" "${1:this}" {
+    name = "${2:name}"
+    rabbitmq_server_uri = "${3:rabbitmq_server_uri}"
+    rabbitmq_server_user = "${4:rabbitmq_server_user}"
+}

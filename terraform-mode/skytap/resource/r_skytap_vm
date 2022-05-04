@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_skytap_vm
+# key: r_skytap_vm
+# --
+
+resource "skytap_vm" "${1:this}" {
+    environment_id = "${2:environment_id}"
+    template_id = "${3:template_id}"
+    vm_id = "${4:vm_id}"
+}

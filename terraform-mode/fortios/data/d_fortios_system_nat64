@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_nat64
+# key: d_fortios_system_nat64
+# --
+
+data "fortios_system_nat64" "${1:this}" {
+}

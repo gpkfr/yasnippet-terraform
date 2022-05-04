@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_aws_iam_user_ssh_key
+# key: d_aws_iam_user_ssh_key
+# --
+
+data "aws_iam_user_ssh_key" "${1:this}" {
+    encoding = "${2:encoding}"
+    ssh_public_key_id = "${3:ssh_public_key_id}"
+    username = "${4:username}"
+}

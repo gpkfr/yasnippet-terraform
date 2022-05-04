@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_batch_scheduling_policy
+# key: r_awscc_batch_scheduling_policy
+# --
+
+resource "awscc_batch_scheduling_policy" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_hcp_consul_agent_helm_config
+# key: d_hcp_consul_agent_helm_config
+# --
+
+data "hcp_consul_agent_helm_config" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    kubernetes_endpoint = "${3:kubernetes_endpoint}"
+}

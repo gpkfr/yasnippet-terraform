@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_artifacts_container_configuration
+# key: r_oci_artifacts_container_configuration
+# --
+
+resource "oci_artifacts_container_configuration" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    is_repository_created_on_first_push = "${3:is_repository_created_on_first_push}"
+}

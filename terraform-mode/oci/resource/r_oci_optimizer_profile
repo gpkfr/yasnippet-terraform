@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_optimizer_profile
+# key: r_oci_optimizer_profile
+# --
+
+resource "oci_optimizer_profile" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    description = "${3:description}"
+    name = "${4:name}"
+}

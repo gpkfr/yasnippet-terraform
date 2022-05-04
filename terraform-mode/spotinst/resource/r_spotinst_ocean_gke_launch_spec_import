@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_ocean_gke_launch_spec_import
+# key: r_spotinst_ocean_gke_launch_spec_import
+# --
+
+resource "spotinst_ocean_gke_launch_spec_import" "${1:this}" {
+    node_pool_name = "${2:node_pool_name}"
+    ocean_id = "${3:ocean_id}"
+}

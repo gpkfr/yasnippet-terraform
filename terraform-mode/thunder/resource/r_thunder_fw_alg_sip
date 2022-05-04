@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_alg_sip
+# key: r_thunder_fw_alg_sip
+# --
+
+resource "thunder_fw_alg_sip" "${1:this}" {
+}

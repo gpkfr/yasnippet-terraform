@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_docker_container_registry
+# key: r_octopusdeploy_docker_container_registry
+# --
+
+resource "octopusdeploy_docker_container_registry" "${1:this}" {
+    feed_uri = "${2:feed_uri}"
+    name = "${3:name}"
+}

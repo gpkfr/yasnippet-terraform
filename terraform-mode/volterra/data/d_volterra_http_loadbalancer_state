@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_volterra_http_loadbalancer_state
+# key: d_volterra_http_loadbalancer_state
+# --
+
+data "volterra_http_loadbalancer_state" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

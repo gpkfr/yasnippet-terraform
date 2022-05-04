@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_remove
+# key: d_elasticstack_elasticsearch_ingest_processor_remove
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_remove" "${1:this}" {
+    field = "${2:field}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ecl_imagestorages_member_accepter_v2
+# key: r_ecl_imagestorages_member_accepter_v2
+# --
+
+resource "ecl_imagestorages_member_accepter_v2" "${1:this}" {
+    image_member_id = "${2:image_member_id}"
+    status = "${3:status}"
+}

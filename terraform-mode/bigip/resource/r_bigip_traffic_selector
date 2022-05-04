@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_bigip_traffic_selector
+# key: r_bigip_traffic_selector
+# --
+
+resource "bigip_traffic_selector" "${1:this}" {
+    destination_address = "${2:destination_address}"
+    name = "${3:name}"
+    source_address = "${4:source_address}"
+}

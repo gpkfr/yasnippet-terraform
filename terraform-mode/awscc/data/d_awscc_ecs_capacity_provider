@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ecs_capacity_provider
+# key: d_awscc_ecs_capacity_provider
+# --
+
+data "awscc_ecs_capacity_provider" "${1:this}" {
+    id = "${2:id}"
+}

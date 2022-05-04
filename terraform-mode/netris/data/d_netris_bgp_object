@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_netris_bgp_object
+# key: d_netris_bgp_object
+# --
+
+data "netris_bgp_object" "${1:this}" {
+    name = "${2:name}"
+}

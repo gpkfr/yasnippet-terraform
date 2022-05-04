@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_clumio_policy_rule
+# key: r_clumio_policy_rule
+# --
+
+resource "clumio_policy_rule" "${1:this}" {
+    before_rule_id = "${2:before_rule_id}"
+    condition = "${3:condition}"
+    name = "${4:name}"
+    policy_id = "${5:policy_id}"
+}

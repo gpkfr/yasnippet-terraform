@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ros_change_set
+# key: r_alicloud_ros_change_set
+# --
+
+resource "alicloud_ros_change_set" "${1:this}" {
+    change_set_name = "${2:change_set_name}"
+}

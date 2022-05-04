@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_adverity_workspace
+# key: r_adverity_workspace
+# --
+
+resource "adverity_workspace" "${1:this}" {
+    datalake_id = "${2:datalake_id}"
+    name = "${3:name}"
+}

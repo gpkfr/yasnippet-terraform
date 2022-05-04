@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_lb_backend_address_pool_address
+# key: r_azurerm_lb_backend_address_pool_address
+# --
+
+resource "azurerm_lb_backend_address_pool_address" "${1:this}" {
+    backend_address_pool_id = "${2:backend_address_pool_id}"
+    ip_address = "${3:ip_address}"
+    name = "${4:name}"
+    virtual_network_id = "${5:virtual_network_id}"
+}

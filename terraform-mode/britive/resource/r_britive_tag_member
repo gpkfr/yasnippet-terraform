@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_britive_tag_member
+# key: r_britive_tag_member
+# --
+
+resource "britive_tag_member" "${1:this}" {
+    tag_id = "${2:tag_id}"
+    username = "${3:username}"
+}

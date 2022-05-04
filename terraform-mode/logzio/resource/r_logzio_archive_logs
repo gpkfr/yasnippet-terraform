@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_logzio_archive_logs
+# key: r_logzio_archive_logs
+# --
+
+resource "logzio_archive_logs" "${1:this}" {
+    storage_type = "${2:storage_type}"
+}

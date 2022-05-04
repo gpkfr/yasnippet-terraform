@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_stepfunctions_activity
+# key: r_awscc_stepfunctions_activity
+# --
+
+resource "awscc_stepfunctions_activity" "${1:this}" {
+    name = "${2:name}"
+}

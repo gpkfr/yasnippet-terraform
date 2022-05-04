@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_ntp_server
+# key: r_ciscoasa_ntp_server
+# --
+
+resource "ciscoasa_ntp_server" "${1:this}" {
+    ip_address = "${2:ip_address}"
+    key_number = "${3:key_number}"
+    key_value = "${4:key_value}"
+}

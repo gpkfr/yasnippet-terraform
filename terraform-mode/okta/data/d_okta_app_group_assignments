@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_okta_app_group_assignments
+# key: d_okta_app_group_assignments
+# --
+
+data "okta_app_group_assignments" "${1:this}" {
+    id = "${2:id}"
+}

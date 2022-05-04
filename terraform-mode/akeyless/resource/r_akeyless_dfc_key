@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_dfc_key
+# key: r_akeyless_dfc_key
+# --
+
+resource "akeyless_dfc_key" "${1:this}" {
+    alg = "${2:alg}"
+    name = "${3:name}"
+}

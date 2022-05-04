@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_slack_integration
+# key: r_site24x7_slack_integration
+# --
+
+resource "site24x7_slack_integration" "${1:this}" {
+    name = "${2:name}"
+    sender_name = "${3:sender_name}"
+    title = "${4:title}"
+    url = "${5:url}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_bgp_config
+# key: r_nsxt_policy_bgp_config
+# --
+
+resource "nsxt_policy_bgp_config" "${1:this}" {
+    gateway_path = "${2:gateway_path}"
+}

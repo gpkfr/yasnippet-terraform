@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_pluggable_database
+# key: r_oci_database_pluggable_database
+# --
+
+resource "oci_database_pluggable_database" "${1:this}" {
+    container_database_id = "${2:container_database_id}"
+    pdb_name = "${3:pdb_name}"
+}

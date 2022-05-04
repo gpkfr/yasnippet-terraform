@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_nimblestudio_launch_profile
+# key: d_awscc_nimblestudio_launch_profile
+# --
+
+data "awscc_nimblestudio_launch_profile" "${1:this}" {
+    id = "${2:id}"
+}

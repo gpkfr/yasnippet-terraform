@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_clb_log_set
+# key: r_tencentcloud_clb_log_set
+# --
+
+resource "tencentcloud_clb_log_set" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_rundeck_job
+# key: r_rundeck_job
+# --
+
+resource "rundeck_job" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+    project_name = "${4:project_name}"
+}

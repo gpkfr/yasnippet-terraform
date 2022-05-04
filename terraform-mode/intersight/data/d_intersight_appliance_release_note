@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_release_note
+# key: d_intersight_appliance_release_note
+# --
+
+data "intersight_appliance_release_note" "${1:this}" {
+}

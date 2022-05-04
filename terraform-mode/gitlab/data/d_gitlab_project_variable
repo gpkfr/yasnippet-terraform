@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_gitlab_project_variable
+# key: d_gitlab_project_variable
+# --
+
+data "gitlab_project_variable" "${1:this}" {
+    key = "${2:key}"
+    project = "${3:project}"
+}

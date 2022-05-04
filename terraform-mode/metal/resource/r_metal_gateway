@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_metal_gateway
+# key: r_metal_gateway
+# --
+
+resource "metal_gateway" "${1:this}" {
+    project_id = "${2:project_id}"
+    vlan_id = "${3:vlan_id}"
+}

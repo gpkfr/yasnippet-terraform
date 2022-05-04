@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnportaltheme
+# key: r_citrixadc_vpnportaltheme
+# --
+
+resource "citrixadc_vpnportaltheme" "${1:this}" {
+    basetheme = "${2:basetheme}"
+    name = "${3:name}"
+}

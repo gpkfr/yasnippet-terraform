@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_vens_unpair
+# key: r_illumio-core_vens_unpair
+# --
+
+resource "illumio-core_vens_unpair" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_gcp_connection
+# key: r_ciphertrust_gcp_connection
+# --
+
+resource "ciphertrust_gcp_connection" "${1:this}" {
+    key_file = "${2:key_file}"
+    name = "${3:name}"
+}

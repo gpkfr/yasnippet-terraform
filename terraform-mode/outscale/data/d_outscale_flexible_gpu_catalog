@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_outscale_flexible_gpu_catalog
+# key: d_outscale_flexible_gpu_catalog
+# --
+
+data "outscale_flexible_gpu_catalog" "${1:this}" {
+}

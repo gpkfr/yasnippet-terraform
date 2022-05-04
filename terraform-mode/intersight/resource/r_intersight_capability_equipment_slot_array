@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_capability_equipment_slot_array
+# key: r_intersight_capability_equipment_slot_array
+# --
+
+resource "intersight_capability_equipment_slot_array" "${1:this}" {
+}

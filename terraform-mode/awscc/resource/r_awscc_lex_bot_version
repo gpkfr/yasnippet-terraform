@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lex_bot_version
+# key: r_awscc_lex_bot_version
+# --
+
+resource "awscc_lex_bot_version" "${1:this}" {
+    bot_id = "${2:bot_id}"
+    bot_version_locale_specification = "${3:bot_version_locale_specification}"
+}

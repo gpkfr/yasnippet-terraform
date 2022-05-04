@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_k8s_cluster
+# key: r_volterra_k8s_cluster
+# --
+
+resource "volterra_k8s_cluster" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

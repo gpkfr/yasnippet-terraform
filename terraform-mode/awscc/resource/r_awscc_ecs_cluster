@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ecs_cluster
+# key: r_awscc_ecs_cluster
+# --
+
+resource "awscc_ecs_cluster" "${1:this}" {
+}

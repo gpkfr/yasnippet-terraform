@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_outscale_image_export_task
+# key: r_outscale_image_export_task
+# --
+
+resource "outscale_image_export_task" "${1:this}" {
+    image_id = "${2:image_id}"
+}

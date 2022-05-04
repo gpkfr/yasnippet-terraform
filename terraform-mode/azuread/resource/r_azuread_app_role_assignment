@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuread_app_role_assignment
+# key: r_azuread_app_role_assignment
+# --
+
+resource "azuread_app_role_assignment" "${1:this}" {
+    app_role_id = "${2:app_role_id}"
+    principal_object_id = "${3:principal_object_id}"
+    resource_object_id = "${4:resource_object_id}"
+}

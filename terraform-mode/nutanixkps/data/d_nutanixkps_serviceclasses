@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanixkps_serviceclasses
+# key: d_nutanixkps_serviceclasses
+# --
+
+data "nutanixkps_serviceclasses" "${1:this}" {
+}

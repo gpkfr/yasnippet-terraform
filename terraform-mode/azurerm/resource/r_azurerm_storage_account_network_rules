@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_account_network_rules
+# key: r_azurerm_storage_account_network_rules
+# --
+
+resource "azurerm_storage_account_network_rules" "${1:this}" {
+    default_action = "${2:default_action}"
+    storage_account_id = "${3:storage_account_id}"
+}

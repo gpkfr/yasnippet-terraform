@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpngobal_vpntrafficpolicy_binding
+# key: r_citrixadc_vpngobal_vpntrafficpolicy_binding
+# --
+
+resource "citrixadc_vpngobal_vpntrafficpolicy_binding" "${1:this}" {
+    policyname = "${2:policyname}"
+}

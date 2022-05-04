@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxt_alb_service_engine_group
+# key: r_vcd_nsxt_alb_service_engine_group
+# --
+
+resource "vcd_nsxt_alb_service_engine_group" "${1:this}" {
+    alb_cloud_id = "${2:alb_cloud_id}"
+    importable_service_engine_group_name = "${3:importable_service_engine_group_name}"
+    name = "${4:name}"
+    reservation_model = "${5:reservation_model}"
+}

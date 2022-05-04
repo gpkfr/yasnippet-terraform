@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_dx_connection
+# key: d_aws_dx_connection
+# --
+
+data "aws_dx_connection" "${1:this}" {
+    name = "${2:name}"
+}

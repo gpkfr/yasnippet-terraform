@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_custom_url_categories
+# key: d_panos_custom_url_categories
+# --
+
+data "panos_custom_url_categories" "${1:this}" {
+}

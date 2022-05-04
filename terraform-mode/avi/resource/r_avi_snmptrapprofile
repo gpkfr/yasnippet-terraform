@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_snmptrapprofile
+# key: r_avi_snmptrapprofile
+# --
+
+resource "avi_snmptrapprofile" "${1:this}" {
+    name = "${2:name}"
+}

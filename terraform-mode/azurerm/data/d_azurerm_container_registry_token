@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_container_registry_token
+# key: d_azurerm_container_registry_token
+# --
+
+data "azurerm_container_registry_token" "${1:this}" {
+    container_registry_name = "${2:container_registry_name}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+}

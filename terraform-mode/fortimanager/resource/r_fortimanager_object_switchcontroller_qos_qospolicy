@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_switchcontroller_qos_qospolicy
+# key: r_fortimanager_object_switchcontroller_qos_qospolicy
+# --
+
+resource "fortimanager_object_switchcontroller_qos_qospolicy" "${1:this}" {
+}

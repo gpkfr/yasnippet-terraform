@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ah_load_balancer
+# key: r_ah_load_balancer
+# --
+
+resource "ah_load_balancer" "${1:this}" {
+    datacenter = "${2:datacenter}"
+    name = "${3:name}"
+}

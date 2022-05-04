@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_metal_gateway
+# key: d_metal_gateway
+# --
+
+data "metal_gateway" "${1:this}" {
+    gateway_id = "${2:gateway_id}"
+}

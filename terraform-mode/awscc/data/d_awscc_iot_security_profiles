@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_security_profiles
+# key: d_awscc_iot_security_profiles
+# --
+
+data "awscc_iot_security_profiles" "${1:this}" {
+}

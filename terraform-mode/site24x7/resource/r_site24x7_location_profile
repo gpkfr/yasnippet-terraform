@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_location_profile
+# key: r_site24x7_location_profile
+# --
+
+resource "site24x7_location_profile" "${1:this}" {
+    primary_location = "${2:primary_location}"
+    profile_name = "${3:profile_name}"
+    secondary_locations = "${4:secondary_locations}"
+}

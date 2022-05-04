@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_sumologic_cse_log_mapping_vendor_product
+# key: d_sumologic_cse_log_mapping_vendor_product
+# --
+
+data "sumologic_cse_log_mapping_vendor_product" "${1:this}" {
+    product = "${2:product}"
+    vendor = "${3:vendor}"
+}

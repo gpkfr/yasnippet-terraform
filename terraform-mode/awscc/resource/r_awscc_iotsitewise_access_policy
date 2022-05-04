@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotsitewise_access_policy
+# key: r_awscc_iotsitewise_access_policy
+# --
+
+resource "awscc_iotsitewise_access_policy" "${1:this}" {
+    access_policy_identity = "${2:access_policy_identity}"
+    access_policy_permission = "${3:access_policy_permission}"
+    access_policy_resource = "${4:access_policy_resource}"
+}

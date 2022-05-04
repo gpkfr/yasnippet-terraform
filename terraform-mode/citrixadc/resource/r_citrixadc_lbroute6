@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbroute6
+# key: r_citrixadc_lbroute6
+# --
+
+resource "citrixadc_lbroute6" "${1:this}" {
+    gatewayname = "${2:gatewayname}"
+    network = "${3:network}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_protection_backup_instance_postgresql
+# key: r_azurerm_data_protection_backup_instance_postgresql
+# --
+
+resource "azurerm_data_protection_backup_instance_postgresql" "${1:this}" {
+    backup_policy_id = "${2:backup_policy_id}"
+    database_id = "${3:database_id}"
+    location = "${4:location}"
+    name = "${5:name}"
+    vault_id = "${6:vault_id}"
+}

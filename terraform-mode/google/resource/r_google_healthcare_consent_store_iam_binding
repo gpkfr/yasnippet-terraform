@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_healthcare_consent_store_iam_binding
+# key: r_google_healthcare_consent_store_iam_binding
+# --
+
+resource "google_healthcare_consent_store_iam_binding" "${1:this}" {
+    consent_store_id = "${2:consent_store_id}"
+    dataset = "${3:dataset}"
+    members = "${4:members}"
+    role = "${5:role}"
+}

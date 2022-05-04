@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alks_iamtrustrole
+# key: r_alks_iamtrustrole
+# --
+
+resource "alks_iamtrustrole" "${1:this}" {
+    trust_arn = "${2:trust_arn}"
+    type = "${3:type}"
+}

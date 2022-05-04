@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_harmony_controller_profile
+# key: r_thunder_harmony_controller_profile
+# --
+
+resource "thunder_harmony_controller_profile" "${1:this}" {
+}

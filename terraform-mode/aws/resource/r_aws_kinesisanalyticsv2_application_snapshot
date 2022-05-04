@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_kinesisanalyticsv2_application_snapshot
+# key: r_aws_kinesisanalyticsv2_application_snapshot
+# --
+
+resource "aws_kinesisanalyticsv2_application_snapshot" "${1:this}" {
+    application_name = "${2:application_name}"
+    snapshot_name = "${3:snapshot_name}"
+}

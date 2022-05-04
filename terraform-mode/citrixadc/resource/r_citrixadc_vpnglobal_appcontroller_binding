@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnglobal_appcontroller_binding
+# key: r_citrixadc_vpnglobal_appcontroller_binding
+# --
+
+resource "citrixadc_vpnglobal_appcontroller_binding" "${1:this}" {
+}

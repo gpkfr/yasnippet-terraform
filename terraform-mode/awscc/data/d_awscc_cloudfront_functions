@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudfront_functions
+# key: d_awscc_cloudfront_functions
+# --
+
+data "awscc_cloudfront_functions" "${1:this}" {
+}

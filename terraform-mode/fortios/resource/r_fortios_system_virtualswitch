@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_virtualswitch
+# key: r_fortios_system_virtualswitch
+# --
+
+resource "fortios_system_virtualswitch" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fabric_uplink_pc_role
+# key: r_intersight_fabric_uplink_pc_role
+# --
+
+resource "intersight_fabric_uplink_pc_role" "${1:this}" {
+}

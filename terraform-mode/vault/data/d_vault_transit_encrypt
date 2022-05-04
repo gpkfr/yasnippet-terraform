@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_vault_transit_encrypt
+# key: d_vault_transit_encrypt
+# --
+
+data "vault_transit_encrypt" "${1:this}" {
+    backend = "${2:backend}"
+    key = "${3:key}"
+    plaintext = "${4:plaintext}"
+}

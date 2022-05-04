@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_local_gateway_route
+# key: d_awscc_ec2_local_gateway_route
+# --
+
+data "awscc_ec2_local_gateway_route" "${1:this}" {
+    id = "${2:id}"
+}

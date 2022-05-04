@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_elastigroup_gcp
+# key: r_spotinst_elastigroup_gcp
+# --
+
+resource "spotinst_elastigroup_gcp" "${1:this}" {
+    desired_capacity = "${2:desired_capacity}"
+    name = "${3:name}"
+}

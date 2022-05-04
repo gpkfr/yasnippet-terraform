@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_artifactory
+# key: r_azuredevops_serviceendpoint_artifactory
+# --
+
+resource "azuredevops_serviceendpoint_artifactory" "${1:this}" {
+    project_id = "${2:project_id}"
+    service_endpoint_name = "${3:service_endpoint_name}"
+    url = "${4:url}"
+}

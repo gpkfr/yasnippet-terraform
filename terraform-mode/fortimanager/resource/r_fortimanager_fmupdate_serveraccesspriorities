@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_fmupdate_serveraccesspriorities
+# key: r_fortimanager_fmupdate_serveraccesspriorities
+# --
+
+resource "fortimanager_fmupdate_serveraccesspriorities" "${1:this}" {
+}

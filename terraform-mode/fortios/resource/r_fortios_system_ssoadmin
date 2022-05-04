@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_ssoadmin
+# key: r_fortios_system_ssoadmin
+# --
+
+resource "fortios_system_ssoadmin" "${1:this}" {
+    accprofile = "${2:accprofile}"
+}

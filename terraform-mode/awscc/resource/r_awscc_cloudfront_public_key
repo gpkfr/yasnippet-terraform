@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudfront_public_key
+# key: r_awscc_cloudfront_public_key
+# --
+
+resource "awscc_cloudfront_public_key" "${1:this}" {
+    public_key_config = "${2:public_key_config}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_projects
+# key: d_oci_devops_projects
+# --
+
+data "oci_devops_projects" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

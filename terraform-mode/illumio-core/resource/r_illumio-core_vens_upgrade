@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_vens_upgrade
+# key: r_illumio-core_vens_upgrade
+# --
+
+resource "illumio-core_vens_upgrade" "${1:this}" {
+    release = "${2:release}"
+}

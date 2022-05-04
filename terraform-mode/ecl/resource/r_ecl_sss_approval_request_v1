@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ecl_sss_approval_request_v1
+# key: r_ecl_sss_approval_request_v1
+# --
+
+resource "ecl_sss_approval_request_v1" "${1:this}" {
+    request_id = "${2:request_id}"
+    status = "${3:status}"
+}

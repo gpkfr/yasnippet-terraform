@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_location_object_storage
+# key: d_awscc_datasync_location_object_storage
+# --
+
+data "awscc_datasync_location_object_storage" "${1:this}" {
+    id = "${2:id}"
+}

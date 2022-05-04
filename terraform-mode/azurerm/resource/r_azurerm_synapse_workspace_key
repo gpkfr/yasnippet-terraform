@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_workspace_key
+# key: r_azurerm_synapse_workspace_key
+# --
+
+resource "azurerm_synapse_workspace_key" "${1:this}" {
+    active = "${2:active}"
+    customer_managed_key_name = "${3:customer_managed_key_name}"
+    synapse_workspace_id = "${4:synapse_workspace_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rockset_workspace
+# key: r_rockset_workspace
+# --
+
+resource "rockset_workspace" "${1:this}" {
+    name = "${2:name}"
+}

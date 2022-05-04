@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_branch
+# key: r_gitlab_branch
+# --
+
+resource "gitlab_branch" "${1:this}" {
+    name = "${2:name}"
+    project = "${3:project}"
+    ref = "${4:ref}"
+}

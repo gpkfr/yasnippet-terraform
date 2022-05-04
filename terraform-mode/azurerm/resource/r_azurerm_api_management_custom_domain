@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_api_management_custom_domain
+# key: r_azurerm_api_management_custom_domain
+# --
+
+resource "azurerm_api_management_custom_domain" "${1:this}" {
+    api_management_id = "${2:api_management_id}"
+}

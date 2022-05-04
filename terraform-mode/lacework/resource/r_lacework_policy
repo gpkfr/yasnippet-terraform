@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_lacework_policy
+# key: r_lacework_policy
+# --
+
+resource "lacework_policy" "${1:this}" {
+    description = "${2:description}"
+    query_id = "${3:query_id}"
+    severity = "${4:severity}"
+    title = "${5:title}"
+    type = "${6:type}"
+}

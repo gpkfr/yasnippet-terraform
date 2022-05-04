@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lightsail_database
+# key: r_awscc_lightsail_database
+# --
+
+resource "awscc_lightsail_database" "${1:this}" {
+    master_database_name = "${2:master_database_name}"
+    master_username = "${3:master_username}"
+    relational_database_blueprint_id = "${4:relational_database_blueprint_id}"
+    relational_database_bundle_id = "${5:relational_database_bundle_id}"
+    relational_database_name = "${6:relational_database_name}"
+}

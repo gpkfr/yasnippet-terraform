@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_network_vrf
+# key: d_intersight_network_vrf
+# --
+
+data "intersight_network_vrf" "${1:this}" {
+}

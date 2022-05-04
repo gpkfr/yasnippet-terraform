@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vmc_org
+# key: d_vmc_org
+# --
+
+data "vmc_org" "${1:this}" {
+}

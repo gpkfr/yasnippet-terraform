@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_limit_entry
+# key: r_thunder_fw_limit_entry
+# --
+
+resource "thunder_fw_limit_entry" "${1:this}" {
+}

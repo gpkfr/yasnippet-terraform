@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_equinix_ecx_l2_serviceprofile
+# key: r_equinix_ecx_l2_serviceprofile
+# --
+
+resource "equinix_ecx_l2_serviceprofile" "${1:this}" {
+    bandwidth_threshold_notifications = "${2:bandwidth_threshold_notifications}"
+    name = "${3:name}"
+    profile_statuschange_notifications = "${4:profile_statuschange_notifications}"
+    vc_statuschange_notifications = "${5:vc_statuschange_notifications}"
+}

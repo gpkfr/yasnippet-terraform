@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_ocvp_supported_skus
+# key: d_oci_ocvp_supported_skus
+# --
+
+data "oci_ocvp_supported_skus" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

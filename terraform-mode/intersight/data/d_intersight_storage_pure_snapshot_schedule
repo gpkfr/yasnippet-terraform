@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_pure_snapshot_schedule
+# key: d_intersight_storage_pure_snapshot_schedule
+# --
+
+data "intersight_storage_pure_snapshot_schedule" "${1:this}" {
+}

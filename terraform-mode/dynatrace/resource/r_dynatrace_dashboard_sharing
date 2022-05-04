@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_dashboard_sharing
+# key: r_dynatrace_dashboard_sharing
+# --
+
+resource "dynatrace_dashboard_sharing" "${1:this}" {
+    dashboard_id = "${2:dashboard_id}"
+}

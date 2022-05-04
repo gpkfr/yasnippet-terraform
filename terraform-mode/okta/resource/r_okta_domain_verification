@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_okta_domain_verification
+# key: r_okta_domain_verification
+# --
+
+resource "okta_domain_verification" "${1:this}" {
+    domain_id = "${2:domain_id}"
+}

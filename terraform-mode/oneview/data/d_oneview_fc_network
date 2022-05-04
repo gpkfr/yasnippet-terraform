@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_fc_network
+# key: d_oneview_fc_network
+# --
+
+data "oneview_fc_network" "${1:this}" {
+    name = "${2:name}"
+}

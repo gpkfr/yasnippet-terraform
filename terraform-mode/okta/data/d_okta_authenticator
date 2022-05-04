@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_okta_authenticator
+# key: d_okta_authenticator
+# --
+
+data "okta_authenticator" "${1:this}" {
+}

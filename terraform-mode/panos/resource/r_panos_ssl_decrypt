@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_ssl_decrypt
+# key: r_panos_ssl_decrypt
+# --
+
+resource "panos_ssl_decrypt" "${1:this}" {
+}

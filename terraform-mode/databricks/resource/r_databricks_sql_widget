@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_databricks_sql_widget
+# key: r_databricks_sql_widget
+# --
+
+resource "databricks_sql_widget" "${1:this}" {
+    dashboard_id = "${2:dashboard_id}"
+}

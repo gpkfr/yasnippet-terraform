@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_waf_web_app_firewall
+# key: r_oci_waf_web_app_firewall
+# --
+
+resource "oci_waf_web_app_firewall" "${1:this}" {
+    backend_type = "${2:backend_type}"
+    compartment_id = "${3:compartment_id}"
+    load_balancer_id = "${4:load_balancer_id}"
+    web_app_firewall_policy_id = "${5:web_app_firewall_policy_id}"
+}

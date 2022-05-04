@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_sensitive_data_models_sensitive_columns
+# key: d_oci_data_safe_sensitive_data_models_sensitive_columns
+# --
+
+data "oci_data_safe_sensitive_data_models_sensitive_columns" "${1:this}" {
+    sensitive_data_model_id = "${2:sensitive_data_model_id}"
+}

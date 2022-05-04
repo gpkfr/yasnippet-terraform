@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_org_invitation
+# key: r_mongodbatlas_org_invitation
+# --
+
+resource "mongodbatlas_org_invitation" "${1:this}" {
+    org_id = "${2:org_id}"
+    roles = "${3:roles}"
+    username = "${4:username}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_datacatalog_metastore
+# key: d_oci_datacatalog_metastore
+# --
+
+data "oci_datacatalog_metastore" "${1:this}" {
+    metastore_id = "${2:metastore_id}"
+}

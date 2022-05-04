@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_ssl_cert_revoke
+# key: r_thunder_slb_ssl_cert_revoke
+# --
+
+resource "thunder_slb_ssl_cert_revoke" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_karbon_private_registry
+# key: d_nutanix_karbon_private_registry
+# --
+
+data "nutanix_karbon_private_registry" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_mskconnect_worker_configuration
+# key: d_aws_mskconnect_worker_configuration
+# --
+
+data "aws_mskconnect_worker_configuration" "${1:this}" {
+    name = "${2:name}"
+}

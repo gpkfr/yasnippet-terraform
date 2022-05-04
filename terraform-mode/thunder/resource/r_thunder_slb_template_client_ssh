@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_client_ssh
+# key: r_thunder_slb_template_client_ssh
+# --
+
+resource "thunder_slb_template_client_ssh" "${1:this}" {
+}

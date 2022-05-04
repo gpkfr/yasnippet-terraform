@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_networklist_network_lists
+# key: d_akamai_networklist_network_lists
+# --
+
+data "akamai_networklist_network_lists" "${1:this}" {
+}

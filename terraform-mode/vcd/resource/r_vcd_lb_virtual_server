@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_vcd_lb_virtual_server
+# key: r_vcd_lb_virtual_server
+# --
+
+resource "vcd_lb_virtual_server" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    ip_address = "${3:ip_address}"
+    name = "${4:name}"
+    port = "${5:port}"
+    protocol = "${6:protocol}"
+}

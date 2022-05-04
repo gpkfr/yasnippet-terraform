@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_backup_backup_vault
+# key: r_awscc_backup_backup_vault
+# --
+
+resource "awscc_backup_backup_vault" "${1:this}" {
+    backup_vault_name = "${2:backup_vault_name}"
+}

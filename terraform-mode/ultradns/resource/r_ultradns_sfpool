@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_sfpool
+# key: r_ultradns_sfpool
+# --
+
+resource "ultradns_sfpool" "${1:this}" {
+    owner_name = "${2:owner_name}"
+    record_data = "${3:record_data}"
+    record_type = "${4:record_type}"
+    region_failure_sensitivity = "${5:region_failure_sensitivity}"
+    zone_name = "${6:zone_name}"
+}

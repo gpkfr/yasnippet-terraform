@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_user_info
+# key: d_tencentcloud_user_info
+# --
+
+data "tencentcloud_user_info" "${1:this}" {
+}

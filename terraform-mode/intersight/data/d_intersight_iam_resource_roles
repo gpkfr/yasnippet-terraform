@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_resource_roles
+# key: d_intersight_iam_resource_roles
+# --
+
+data "intersight_iam_resource_roles" "${1:this}" {
+}

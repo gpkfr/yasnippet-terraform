@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_splunkconfig_app_package
+# key: r_splunkconfig_app_package
+# --
+
+resource "splunkconfig_app_package" "${1:this}" {
+    app_id = "${2:app_id}"
+    path = "${3:path}"
+}

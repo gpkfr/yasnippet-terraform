@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_compute_capacity_reservation
+# key: r_oci_core_compute_capacity_reservation
+# --
+
+resource "oci_core_compute_capacity_reservation" "${1:this}" {
+    availability_domain = "${2:availability_domain}"
+    compartment_id = "${3:compartment_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_sittunnel
+# key: d_fortios_system_sittunnel
+# --
+
+data "fortios_system_sittunnel" "${1:this}" {
+    name = "${2:name}"
+}

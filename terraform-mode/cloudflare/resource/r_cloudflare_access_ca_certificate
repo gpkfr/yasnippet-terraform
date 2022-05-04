@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_access_ca_certificate
+# key: r_cloudflare_access_ca_certificate
+# --
+
+resource "cloudflare_access_ca_certificate" "${1:this}" {
+    application_id = "${2:application_id}"
+}

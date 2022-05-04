@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_cloud_aws_govcloud_link_account
+# key: r_newrelic_cloud_aws_govcloud_link_account
+# --
+
+resource "newrelic_cloud_aws_govcloud_link_account" "${1:this}" {
+    access_key_id = "${2:access_key_id}"
+    aws_account_id = "${3:aws_account_id}"
+    name = "${4:name}"
+    secret_access_key = "${5:secret_access_key}"
+}

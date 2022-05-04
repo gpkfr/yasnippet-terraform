@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_user_roles
+# key: r_genesyscloud_user_roles
+# --
+
+resource "genesyscloud_user_roles" "${1:this}" {
+    user_id = "${2:user_id}"
+}

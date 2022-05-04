@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iam_saml_provider
+# key: d_awscc_iam_saml_provider
+# --
+
+data "awscc_iam_saml_provider" "${1:this}" {
+    id = "${2:id}"
+}

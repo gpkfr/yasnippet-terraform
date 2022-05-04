@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_router_ospf_area
+# key: r_thunder_router_ospf_area
+# --
+
+resource "thunder_router_ospf_area" "${1:this}" {
+    process_id = "${2:process_id}"
+}

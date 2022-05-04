@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_panos_syslog_server_profile
+# key: d_panos_syslog_server_profile
+# --
+
+data "panos_syslog_server_profile" "${1:this}" {
+    name = "${2:name}"
+}

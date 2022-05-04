@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewallshaper_trafficshaperlist
+# key: d_fortios_firewallshaper_trafficshaperlist
+# --
+
+data "fortios_firewallshaper_trafficshaperlist" "${1:this}" {
+}

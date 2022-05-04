@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_devops_repository
+# key: r_oci_devops_repository
+# --
+
+resource "oci_devops_repository" "${1:this}" {
+    name = "${2:name}"
+    project_id = "${3:project_id}"
+    repository_type = "${4:repository_type}"
+}

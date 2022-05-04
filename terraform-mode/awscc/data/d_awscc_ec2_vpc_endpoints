@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_vpc_endpoints
+# key: d_awscc_ec2_vpc_endpoints
+# --
+
+data "awscc_ec2_vpc_endpoints" "${1:this}" {
+}

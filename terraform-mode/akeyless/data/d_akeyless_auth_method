@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akeyless_auth_method
+# key: d_akeyless_auth_method
+# --
+
+data "akeyless_auth_method" "${1:this}" {
+    path = "${2:path}"
+}

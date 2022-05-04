@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudfront_function
+# key: d_awscc_cloudfront_function
+# --
+
+data "awscc_cloudfront_function" "${1:this}" {
+    id = "${2:id}"
+}

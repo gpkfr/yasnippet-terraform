@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_delegate_ids
+# key: d_harness_delegate_ids
+# --
+
+data "harness_delegate_ids" "${1:this}" {
+}

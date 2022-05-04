@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_nimblestudio_studio
+# key: r_awscc_nimblestudio_studio
+# --
+
+resource "awscc_nimblestudio_studio" "${1:this}" {
+    admin_role_arn = "${2:admin_role_arn}"
+    display_name = "${3:display_name}"
+    studio_name = "${4:studio_name}"
+    user_role_arn = "${5:user_role_arn}"
+}

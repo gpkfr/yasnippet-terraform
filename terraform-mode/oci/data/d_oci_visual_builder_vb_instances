@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_visual_builder_vb_instances
+# key: d_oci_visual_builder_vb_instances
+# --
+
+data "oci_visual_builder_vb_instances" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

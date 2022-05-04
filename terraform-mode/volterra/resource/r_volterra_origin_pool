@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_volterra_origin_pool
+# key: r_volterra_origin_pool
+# --
+
+resource "volterra_origin_pool" "${1:this}" {
+    endpoint_selection = "${2:endpoint_selection}"
+    loadbalancer_algorithm = "${3:loadbalancer_algorithm}"
+    name = "${4:name}"
+    namespace = "${5:namespace}"
+    port = "${6:port}"
+}

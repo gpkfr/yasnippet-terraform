@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_dome9_ruleset
+# key: r_dome9_ruleset
+# --
+
+resource "dome9_ruleset" "${1:this}" {
+    cloud_vendor = "${2:cloud_vendor}"
+    hide_in_compliance = "${3:hide_in_compliance}"
+    language = "${4:language}"
+    name = "${5:name}"
+}

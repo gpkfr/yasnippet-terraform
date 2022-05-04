@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_refactorspaces_environments
+# key: d_awscc_refactorspaces_environments
+# --
+
+data "awscc_refactorspaces_environments" "${1:this}" {
+}

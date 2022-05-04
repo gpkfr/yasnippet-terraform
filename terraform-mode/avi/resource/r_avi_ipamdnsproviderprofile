@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_ipamdnsproviderprofile
+# key: r_avi_ipamdnsproviderprofile
+# --
+
+resource "avi_ipamdnsproviderprofile" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

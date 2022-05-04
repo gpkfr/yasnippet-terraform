@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_networkprofile
+# key: r_avi_networkprofile
+# --
+
+resource "avi_networkprofile" "${1:this}" {
+    name = "${2:name}"
+}

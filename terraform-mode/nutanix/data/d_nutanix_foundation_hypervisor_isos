@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_foundation_hypervisor_isos
+# key: d_nutanix_foundation_hypervisor_isos
+# --
+
+data "nutanix_foundation_hypervisor_isos" "${1:this}" {
+}

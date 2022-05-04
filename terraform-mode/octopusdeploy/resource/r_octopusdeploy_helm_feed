@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_helm_feed
+# key: r_octopusdeploy_helm_feed
+# --
+
+resource "octopusdeploy_helm_feed" "${1:this}" {
+    feed_uri = "${2:feed_uri}"
+    name = "${3:name}"
+}

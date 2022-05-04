@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_rds_global_clusters
+# key: d_awscc_rds_global_clusters
+# --
+
+data "awscc_rds_global_clusters" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_glue_registry
+# key: d_awscc_glue_registry
+# --
+
+data "awscc_glue_registry" "${1:this}" {
+    id = "${2:id}"
+}

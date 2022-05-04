@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_protection_backup_policy_disk
+# key: r_azurerm_data_protection_backup_policy_disk
+# --
+
+resource "azurerm_data_protection_backup_policy_disk" "${1:this}" {
+    backup_repeating_time_intervals = "${2:backup_repeating_time_intervals}"
+    default_retention_duration = "${3:default_retention_duration}"
+    name = "${4:name}"
+    vault_id = "${5:vault_id}"
+}

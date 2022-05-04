@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_api_gateway_strategy_attachment
+# key: r_tencentcloud_api_gateway_strategy_attachment
+# --
+
+resource "tencentcloud_api_gateway_strategy_attachment" "${1:this}" {
+    bind_api_id = "${2:bind_api_id}"
+    environment_name = "${3:environment_name}"
+    service_id = "${4:service_id}"
+    strategy_id = "${5:strategy_id}"
+}

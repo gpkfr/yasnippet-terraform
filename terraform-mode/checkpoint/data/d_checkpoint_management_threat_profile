@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_threat_profile
+# key: d_checkpoint_management_threat_profile
+# --
+
+data "checkpoint_management_threat_profile" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_clumio_aws_connection
+# key: r_clumio_aws_connection
+# --
+
+resource "clumio_aws_connection" "${1:this}" {
+    account_native_id = "${2:account_native_id}"
+    aws_region = "${3:aws_region}"
+    services_enabled = "${4:services_enabled}"
+}

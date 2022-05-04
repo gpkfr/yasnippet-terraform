@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_ecl_security_host_based_v2
+# key: r_ecl_security_host_based_v2
+# --
+
+resource "ecl_security_host_based_v2" "${1:this}" {
+    dsm_lang = "${2:dsm_lang}"
+    mail_address = "${3:mail_address}"
+    max_agent_value = "${4:max_agent_value}"
+    service_order_service = "${5:service_order_service}"
+    tenant_id = "${6:tenant_id}"
+    time_zone = "${7:time_zone}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_loadbalancer
+# key: r_upcloud_loadbalancer
+# --
+
+resource "upcloud_loadbalancer" "${1:this}" {
+    name = "${2:name}"
+    network = "${3:network}"
+    plan = "${4:plan}"
+    zone = "${5:zone}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system3gmodem_custom
+# key: r_fortios_system3gmodem_custom
+# --
+
+resource "fortios_system3gmodem_custom" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_ldap_group
+# key: r_intersight_iam_ldap_group
+# --
+
+resource "intersight_iam_ldap_group" "${1:this}" {
+}

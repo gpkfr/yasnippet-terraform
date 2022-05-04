@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ilert_team
+# key: d_ilert_team
+# --
+
+data "ilert_team" "${1:this}" {
+    name = "${2:name}"
+}

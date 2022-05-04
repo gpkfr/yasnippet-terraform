@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_hcs_cluster
+# key: r_hcs_cluster
+# --
+
+resource "hcs_cluster" "${1:this}" {
+    cluster_mode = "${2:cluster_mode}"
+    email = "${3:email}"
+    managed_application_name = "${4:managed_application_name}"
+    resource_group_name = "${5:resource_group_name}"
+}

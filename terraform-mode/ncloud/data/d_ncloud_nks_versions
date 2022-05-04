@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_nks_versions
+# key: d_ncloud_nks_versions
+# --
+
+data "ncloud_nks_versions" "${1:this}" {
+}

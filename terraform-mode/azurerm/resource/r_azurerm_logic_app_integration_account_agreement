@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_logic_app_integration_account_agreement
+# key: r_azurerm_logic_app_integration_account_agreement
+# --
+
+resource "azurerm_logic_app_integration_account_agreement" "${1:this}" {
+    agreement_type = "${2:agreement_type}"
+    content = "${3:content}"
+    guest_partner_name = "${4:guest_partner_name}"
+    host_partner_name = "${5:host_partner_name}"
+    integration_account_name = "${6:integration_account_name}"
+    name = "${7:name}"
+    resource_group_name = "${8:resource_group_name}"
+}

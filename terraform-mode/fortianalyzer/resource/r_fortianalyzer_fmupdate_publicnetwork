@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_publicnetwork
+# key: r_fortianalyzer_fmupdate_publicnetwork
+# --
+
+resource "fortianalyzer_fmupdate_publicnetwork" "${1:this}" {
+}

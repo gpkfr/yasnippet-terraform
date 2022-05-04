@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_authpathlist
+# key: d_fortios_router_authpathlist
+# --
+
+data "fortios_router_authpathlist" "${1:this}" {
+}

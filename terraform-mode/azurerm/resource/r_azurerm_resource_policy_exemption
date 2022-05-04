@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_resource_policy_exemption
+# key: r_azurerm_resource_policy_exemption
+# --
+
+resource "azurerm_resource_policy_exemption" "${1:this}" {
+    exemption_category = "${2:exemption_category}"
+    name = "${3:name}"
+    policy_assignment_id = "${4:policy_assignment_id}"
+    resource_id = "${5:resource_id}"
+}

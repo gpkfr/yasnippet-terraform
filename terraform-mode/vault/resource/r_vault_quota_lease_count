@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vault_quota_lease_count
+# key: r_vault_quota_lease_count
+# --
+
+resource "vault_quota_lease_count" "${1:this}" {
+    max_leases = "${2:max_leases}"
+    name = "${3:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_logzio_drop_filter
+# key: r_logzio_drop_filter
+# --
+
+resource "logzio_drop_filter" "${1:this}" {
+}

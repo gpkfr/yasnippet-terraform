@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_cloudaccount_azure
+# key: d_dome9_cloudaccount_azure
+# --
+
+data "dome9_cloudaccount_azure" "${1:this}" {
+    id = "${2:id}"
+}

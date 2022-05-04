@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_systemlimits
+# key: d_avi_systemlimits
+# --
+
+data "avi_systemlimits" "${1:this}" {
+}

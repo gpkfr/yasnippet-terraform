@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_automationactionlist
+# key: d_fortios_system_automationactionlist
+# --
+
+data "fortios_system_automationactionlist" "${1:this}" {
+}

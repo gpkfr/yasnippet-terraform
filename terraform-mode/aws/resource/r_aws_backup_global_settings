@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_backup_global_settings
+# key: r_aws_backup_global_settings
+# --
+
+resource "aws_backup_global_settings" "${1:this}" {
+    global_settings = "${2:global_settings}"
+}

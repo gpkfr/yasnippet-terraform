@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_aadb2c_directory
+# key: r_azurerm_aadb2c_directory
+# --
+
+resource "azurerm_aadb2c_directory" "${1:this}" {
+    data_residency_location = "${2:data_residency_location}"
+    domain_name = "${3:domain_name}"
+    resource_group_name = "${4:resource_group_name}"
+    sku_name = "${5:sku_name}"
+}

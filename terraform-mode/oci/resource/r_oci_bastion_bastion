@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_bastion_bastion
+# key: r_oci_bastion_bastion
+# --
+
+resource "oci_bastion_bastion" "${1:this}" {
+    bastion_type = "${2:bastion_type}"
+    compartment_id = "${3:compartment_id}"
+    target_subnet_id = "${4:target_subnet_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_sql_customskipidx
+# key: r_fortimanager_system_sql_customskipidx
+# --
+
+resource "fortimanager_system_sql_customskipidx" "${1:this}" {
+}

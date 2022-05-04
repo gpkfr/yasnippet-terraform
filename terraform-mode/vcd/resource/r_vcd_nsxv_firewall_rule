@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxv_firewall_rule
+# key: r_vcd_nsxv_firewall_rule
+# --
+
+resource "vcd_nsxv_firewall_rule" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+}

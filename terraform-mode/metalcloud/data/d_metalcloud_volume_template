@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_metalcloud_volume_template
+# key: d_metalcloud_volume_template
+# --
+
+data "metalcloud_volume_template" "${1:this}" {
+    volume_template_label = "${2:volume_template_label}"
+}

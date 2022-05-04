@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ecl_security_network_based_waf_single_v2
+# key: r_ecl_security_network_based_waf_single_v2
+# --
+
+resource "ecl_security_network_based_waf_single_v2" "${1:this}" {
+    az_group = "${2:az_group}"
+    license_kind = "${3:license_kind}"
+    tenant_id = "${4:tenant_id}"
+}

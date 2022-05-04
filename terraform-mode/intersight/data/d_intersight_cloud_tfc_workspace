@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_tfc_workspace
+# key: d_intersight_cloud_tfc_workspace
+# --
+
+data "intersight_cloud_tfc_workspace" "${1:this}" {
+}

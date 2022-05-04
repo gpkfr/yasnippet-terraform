@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aquasec_image_assurance_policy
+# key: d_aquasec_image_assurance_policy
+# --
+
+data "aquasec_image_assurance_policy" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_appflow_connector_profiles
+# key: d_awscc_appflow_connector_profiles
+# --
+
+data "awscc_appflow_connector_profiles" "${1:this}" {
+}

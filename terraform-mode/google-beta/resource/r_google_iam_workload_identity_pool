@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_iam_workload_identity_pool
+# key: r_google_iam_workload_identity_pool
+# --
+
+resource "google_iam_workload_identity_pool" "${1:this}" {
+    workload_identity_pool_id = "${2:workload_identity_pool_id}"
+}

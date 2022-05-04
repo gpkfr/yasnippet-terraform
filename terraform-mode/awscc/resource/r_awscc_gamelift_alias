@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_gamelift_alias
+# key: r_awscc_gamelift_alias
+# --
+
+resource "awscc_gamelift_alias" "${1:this}" {
+    name = "${2:name}"
+    routing_strategy = "${3:routing_strategy}"
+}

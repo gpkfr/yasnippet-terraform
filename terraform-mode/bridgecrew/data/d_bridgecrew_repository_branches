@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_bridgecrew_repository_branches
+# key: d_bridgecrew_repository_branches
+# --
+
+data "bridgecrew_repository_branches" "${1:this}" {
+    sourcetype = "${2:sourcetype}"
+    target = "${3:target}"
+}

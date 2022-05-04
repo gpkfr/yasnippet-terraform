@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_certificate
+# key: d_awscc_iot_certificate
+# --
+
+data "awscc_iot_certificate" "${1:this}" {
+    id = "${2:id}"
+}

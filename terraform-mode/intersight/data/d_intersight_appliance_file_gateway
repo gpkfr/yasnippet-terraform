@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_file_gateway
+# key: d_intersight_appliance_file_gateway
+# --
+
+data "intersight_appliance_file_gateway" "${1:this}" {
+}

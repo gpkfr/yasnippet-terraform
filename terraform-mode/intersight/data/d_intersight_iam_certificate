@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_certificate
+# key: d_intersight_iam_certificate
+# --
+
+data "intersight_iam_certificate" "${1:this}" {
+}

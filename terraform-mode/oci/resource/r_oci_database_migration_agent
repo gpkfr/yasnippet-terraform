@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_migration_agent
+# key: r_oci_database_migration_agent
+# --
+
+resource "oci_database_migration_agent" "${1:this}" {
+    agent_id = "${2:agent_id}"
+}

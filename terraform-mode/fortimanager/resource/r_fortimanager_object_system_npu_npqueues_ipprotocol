@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_npqueues_ipprotocol
+# key: r_fortimanager_object_system_npu_npqueues_ipprotocol
+# --
+
+resource "fortimanager_object_system_npu_npqueues_ipprotocol" "${1:this}" {
+}

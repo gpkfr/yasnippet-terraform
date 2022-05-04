@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_github_organization_teams
+# key: d_github_organization_teams
+# --
+
+data "github_organization_teams" "${1:this}" {
+}

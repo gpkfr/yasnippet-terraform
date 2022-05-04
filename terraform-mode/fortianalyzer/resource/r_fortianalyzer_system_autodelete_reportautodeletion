@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_autodelete_reportautodeletion
+# key: r_fortianalyzer_system_autodelete_reportautodeletion
+# --
+
+resource "fortianalyzer_system_autodelete_reportautodeletion" "${1:this}" {
+}

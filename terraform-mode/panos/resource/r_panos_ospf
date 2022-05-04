@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_ospf
+# key: r_panos_ospf
+# --
+
+resource "panos_ospf" "${1:this}" {
+    virtual_router = "${2:virtual_router}"
+}

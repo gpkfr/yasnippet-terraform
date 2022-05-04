@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_devcycle_project
+# key: r_devcycle_project
+# --
+
+resource "devcycle_project" "${1:this}" {
+    description = "${2:description}"
+    key = "${3:key}"
+    name = "${4:name}"
+}

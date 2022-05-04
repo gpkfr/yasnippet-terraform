@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_buildkite_pipeline_schedule
+# key: r_buildkite_pipeline_schedule
+# --
+
+resource "buildkite_pipeline_schedule" "${1:this}" {
+    branch = "${2:branch}"
+    cronline = "${3:cronline}"
+    label = "${4:label}"
+    pipeline_id = "${5:pipeline_id}"
+}

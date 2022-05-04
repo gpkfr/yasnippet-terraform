@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_user_admin_roles
+# key: r_okta_user_admin_roles
+# --
+
+resource "okta_user_admin_roles" "${1:this}" {
+    admin_roles = "${2:admin_roles}"
+    user_id = "${3:user_id}"
+}

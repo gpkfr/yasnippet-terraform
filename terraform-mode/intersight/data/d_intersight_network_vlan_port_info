@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_network_vlan_port_info
+# key: d_intersight_network_vlan_port_info
+# --
+
+data "intersight_network_vlan_port_info" "${1:this}" {
+}

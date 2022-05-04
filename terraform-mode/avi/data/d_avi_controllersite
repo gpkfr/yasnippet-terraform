@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_controllersite
+# key: d_avi_controllersite
+# --
+
+data "avi_controllersite" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_elasticsearch_instance
+# key: r_tencentcloud_elasticsearch_instance
+# --
+
+resource "tencentcloud_elasticsearch_instance" "${1:this}" {
+    password = "${2:password}"
+    version = "${3:version}"
+    vpc_id = "${4:vpc_id}"
+}

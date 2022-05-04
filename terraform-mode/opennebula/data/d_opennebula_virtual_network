@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_opennebula_virtual_network
+# key: d_opennebula_virtual_network
+# --
+
+data "opennebula_virtual_network" "${1:this}" {
+    name = "${2:name}"
+}

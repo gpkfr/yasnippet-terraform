@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_web_application
+# key: r_dynatrace_web_application
+# --
+
+resource "dynatrace_web_application" "${1:this}" {
+    cost_control_user_session_percentage = "${2:cost_control_user_session_percentage}"
+    load_action_key_performance_metric = "${3:load_action_key_performance_metric}"
+    name = "${4:name}"
+    type = "${5:type}"
+    xhr_action_key_performance_metric = "${6:xhr_action_key_performance_metric}"
+}

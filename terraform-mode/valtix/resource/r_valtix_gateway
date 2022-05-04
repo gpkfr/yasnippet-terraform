@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_valtix_gateway
+# key: r_valtix_gateway
+# --
+
+resource "valtix_gateway" "${1:this}" {
+    csp_account_name = "${2:csp_account_name}"
+    gateway_image = "${3:gateway_image}"
+    instance_type = "${4:instance_type}"
+    name = "${5:name}"
+    policy_rule_set_id = "${6:policy_rule_set_id}"
+    region = "${7:region}"
+    vpc_id = "${8:vpc_id}"
+}

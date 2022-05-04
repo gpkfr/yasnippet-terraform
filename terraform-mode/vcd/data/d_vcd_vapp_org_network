@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_vapp_org_network
+# key: d_vcd_vapp_org_network
+# --
+
+data "vcd_vapp_org_network" "${1:this}" {
+    org_network_name = "${2:org_network_name}"
+    vapp_name = "${3:vapp_name}"
+}

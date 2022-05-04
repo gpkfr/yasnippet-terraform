@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_grafana_synthetic_monitoring_check
+# key: r_grafana_synthetic_monitoring_check
+# --
+
+resource "grafana_synthetic_monitoring_check" "${1:this}" {
+    job = "${2:job}"
+    probes = "${3:probes}"
+    target = "${4:target}"
+}

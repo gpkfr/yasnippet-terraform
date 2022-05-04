@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_azurerm
+# key: r_azuredevops_serviceendpoint_azurerm
+# --
+
+resource "azuredevops_serviceendpoint_azurerm" "${1:this}" {
+    azurerm_spn_tenantid = "${2:azurerm_spn_tenantid}"
+    azurerm_subscription_id = "${3:azurerm_subscription_id}"
+    azurerm_subscription_name = "${4:azurerm_subscription_name}"
+    project_id = "${5:project_id}"
+    service_endpoint_name = "${6:service_endpoint_name}"
+}

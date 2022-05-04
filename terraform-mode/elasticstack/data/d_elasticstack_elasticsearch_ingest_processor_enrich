@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_enrich
+# key: d_elasticstack_elasticsearch_ingest_processor_enrich
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_enrich" "${1:this}" {
+    field = "${2:field}"
+    policy_name = "${3:policy_name}"
+    target_field = "${4:target_field}"
+}

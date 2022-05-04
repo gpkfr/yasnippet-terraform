@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kion_compliance_check
+# key: d_kion_compliance_check
+# --
+
+data "kion_compliance_check" "${1:this}" {
+}

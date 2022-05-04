@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_k8s_node_pool
+# key: r_profitbricks_k8s_node_pool
+# --
+
+resource "profitbricks_k8s_node_pool" "${1:this}" {
+    availability_zone = "${2:availability_zone}"
+    cores_count = "${3:cores_count}"
+    cpu_family = "${4:cpu_family}"
+    datacenter_id = "${5:datacenter_id}"
+    k8s_cluster_id = "${6:k8s_cluster_id}"
+    k8s_version = "${7:k8s_version}"
+    name = "${8:name}"
+    node_count = "${9:node_count}"
+    ram_size = "${10:ram_size}"
+    storage_size = "${11:storage_size}"
+    storage_type = "${12:storage_type}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_splunkconfig_app_ids
+# key: d_splunkconfig_app_ids
+# --
+
+data "splunkconfig_app_ids" "${1:this}" {
+}

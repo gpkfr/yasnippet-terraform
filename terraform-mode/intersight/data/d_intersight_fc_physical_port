@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fc_physical_port
+# key: d_intersight_fc_physical_port
+# --
+
+data "intersight_fc_physical_port" "${1:this}" {
+}

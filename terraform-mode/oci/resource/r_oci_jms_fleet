@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_jms_fleet
+# key: r_oci_jms_fleet
+# --
+
+resource "oci_jms_fleet" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+}

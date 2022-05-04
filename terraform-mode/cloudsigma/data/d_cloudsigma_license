@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudsigma_license
+# key: d_cloudsigma_license
+# --
+
+data "cloudsigma_license" "${1:this}" {
+}

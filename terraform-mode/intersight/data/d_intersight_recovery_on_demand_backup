@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_recovery_on_demand_backup
+# key: d_intersight_recovery_on_demand_backup
+# --
+
+data "intersight_recovery_on_demand_backup" "${1:this}" {
+}

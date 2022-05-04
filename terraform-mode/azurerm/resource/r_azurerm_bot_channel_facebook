@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_bot_channel_facebook
+# key: r_azurerm_bot_channel_facebook
+# --
+
+resource "azurerm_bot_channel_facebook" "${1:this}" {
+    bot_name = "${2:bot_name}"
+    facebook_application_id = "${3:facebook_application_id}"
+    facebook_application_secret = "${4:facebook_application_secret}"
+    location = "${5:location}"
+    resource_group_name = "${6:resource_group_name}"
+}

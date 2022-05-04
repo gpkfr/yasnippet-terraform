@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_macpool_lease
+# key: d_intersight_macpool_lease
+# --
+
+data "intersight_macpool_lease" "${1:this}" {
+}

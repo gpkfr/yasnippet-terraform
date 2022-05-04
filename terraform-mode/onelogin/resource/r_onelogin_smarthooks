@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_onelogin_smarthooks
+# key: r_onelogin_smarthooks
+# --
+
+resource "onelogin_smarthooks" "${1:this}" {
+    disabled = "${2:disabled}"
+    env_vars = "${3:env_vars}"
+    function = "${4:function}"
+    packages = "${5:packages}"
+    retries = "${6:retries}"
+    runtime = "${7:runtime}"
+    timeout = "${8:timeout}"
+    type = "${9:type}"
+}

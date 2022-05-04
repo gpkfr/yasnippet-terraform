@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_reserved_domain
+# key: r_ngrok_reserved_domain
+# --
+
+resource "ngrok_reserved_domain" "${1:this}" {
+    name = "${2:name}"
+}

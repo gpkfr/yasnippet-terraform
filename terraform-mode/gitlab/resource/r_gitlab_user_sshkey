@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_user_sshkey
+# key: r_gitlab_user_sshkey
+# --
+
+resource "gitlab_user_sshkey" "${1:this}" {
+    key = "${2:key}"
+    title = "${3:title}"
+    user_id = "${4:user_id}"
+}

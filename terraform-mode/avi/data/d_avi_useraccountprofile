@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_useraccountprofile
+# key: d_avi_useraccountprofile
+# --
+
+data "avi_useraccountprofile" "${1:this}" {
+}

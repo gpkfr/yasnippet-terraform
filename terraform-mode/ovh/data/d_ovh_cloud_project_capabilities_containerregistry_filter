@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_ovh_cloud_project_capabilities_containerregistry_filter
+# key: d_ovh_cloud_project_capabilities_containerregistry_filter
+# --
+
+data "ovh_cloud_project_capabilities_containerregistry_filter" "${1:this}" {
+    plan_name = "${2:plan_name}"
+    region = "${3:region}"
+    service_name = "${4:service_name}"
+}

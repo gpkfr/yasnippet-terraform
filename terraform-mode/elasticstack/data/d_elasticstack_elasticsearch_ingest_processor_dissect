@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_dissect
+# key: d_elasticstack_elasticsearch_ingest_processor_dissect
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_dissect" "${1:this}" {
+    field = "${2:field}"
+    pattern = "${3:pattern}"
+}

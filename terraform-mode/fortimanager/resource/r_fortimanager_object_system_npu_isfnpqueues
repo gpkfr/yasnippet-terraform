@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_isfnpqueues
+# key: r_fortimanager_object_system_npu_isfnpqueues
+# --
+
+resource "fortimanager_object_system_npu_isfnpqueues" "${1:this}" {
+}

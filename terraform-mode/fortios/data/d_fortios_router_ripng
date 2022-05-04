@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_ripng
+# key: d_fortios_router_ripng
+# --
+
+data "fortios_router_ripng" "${1:this}" {
+}

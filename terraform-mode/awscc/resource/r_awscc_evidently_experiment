@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_evidently_experiment
+# key: r_awscc_evidently_experiment
+# --
+
+resource "awscc_evidently_experiment" "${1:this}" {
+    metric_goals = "${2:metric_goals}"
+    name = "${3:name}"
+    online_ab_config = "${4:online_ab_config}"
+    project = "${5:project}"
+    treatments = "${6:treatments}"
+}

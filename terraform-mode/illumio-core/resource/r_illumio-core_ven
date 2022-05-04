@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_ven
+# key: r_illumio-core_ven
+# --
+
+resource "illumio-core_ven" "${1:this}" {
+    status = "${2:status}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_identity_data_plane_generate_scoped_access_token
+# key: r_oci_identity_data_plane_generate_scoped_access_token
+# --
+
+resource "oci_identity_data_plane_generate_scoped_access_token" "${1:this}" {
+    public_key = "${2:public_key}"
+    scope = "${3:scope}"
+}

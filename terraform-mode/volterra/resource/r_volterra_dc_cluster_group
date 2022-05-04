@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_dc_cluster_group
+# key: r_volterra_dc_cluster_group
+# --
+
+resource "volterra_dc_cluster_group" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

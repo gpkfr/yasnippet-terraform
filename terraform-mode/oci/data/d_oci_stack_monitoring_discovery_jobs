@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_stack_monitoring_discovery_jobs
+# key: d_oci_stack_monitoring_discovery_jobs
+# --
+
+data "oci_stack_monitoring_discovery_jobs" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

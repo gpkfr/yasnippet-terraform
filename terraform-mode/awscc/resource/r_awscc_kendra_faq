@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_kendra_faq
+# key: r_awscc_kendra_faq
+# --
+
+resource "awscc_kendra_faq" "${1:this}" {
+    index_id = "${2:index_id}"
+    name = "${3:name}"
+    role_arn = "${4:role_arn}"
+    s3_path = "${5:s3_path}"
+}

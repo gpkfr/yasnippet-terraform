@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewallschedule_onetimelist
+# key: d_fortios_firewallschedule_onetimelist
+# --
+
+data "fortios_firewallschedule_onetimelist" "${1:this}" {
+}

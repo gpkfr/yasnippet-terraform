@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_location_geofence_collections
+# key: d_awscc_location_geofence_collections
+# --
+
+data "awscc_location_geofence_collections" "${1:this}" {
+}

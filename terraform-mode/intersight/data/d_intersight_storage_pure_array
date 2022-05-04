@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_pure_array
+# key: d_intersight_storage_pure_array
+# --
+
+data "intersight_storage_pure_array" "${1:this}" {
+}

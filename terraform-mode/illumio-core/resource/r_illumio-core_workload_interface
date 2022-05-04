@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_workload_interface
+# key: r_illumio-core_workload_interface
+# --
+
+resource "illumio-core_workload_interface" "${1:this}" {
+    link_state = "${2:link_state}"
+    name = "${3:name}"
+    workload_href = "${4:workload_href}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alertlogic_global_roles
+# key: d_alertlogic_global_roles
+# --
+
+data "alertlogic_global_roles" "${1:this}" {
+}

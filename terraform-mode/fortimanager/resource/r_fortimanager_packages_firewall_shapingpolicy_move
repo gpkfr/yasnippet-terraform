@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_shapingpolicy_move
+# key: r_fortimanager_packages_firewall_shapingpolicy_move
+# --
+
+resource "fortimanager_packages_firewall_shapingpolicy_move" "${1:this}" {
+    option = "${2:option}"
+    pkg = "${3:pkg}"
+    shaping_policy = "${4:shaping_policy}"
+    target = "${5:target}"
+}

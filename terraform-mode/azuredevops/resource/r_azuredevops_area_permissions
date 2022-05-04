@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_area_permissions
+# key: r_azuredevops_area_permissions
+# --
+
+resource "azuredevops_area_permissions" "${1:this}" {
+    permissions = "${2:permissions}"
+    principal = "${3:principal}"
+    project_id = "${4:project_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_elasticache_global_replication_groups
+# key: d_awscc_elasticache_global_replication_groups
+# --
+
+data "awscc_elasticache_global_replication_groups" "${1:this}" {
+}

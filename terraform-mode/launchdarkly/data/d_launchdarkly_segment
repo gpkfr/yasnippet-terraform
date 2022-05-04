@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_launchdarkly_segment
+# key: d_launchdarkly_segment
+# --
+
+data "launchdarkly_segment" "${1:this}" {
+    env_key = "${2:env_key}"
+    key = "${3:key}"
+    project_key = "${4:project_key}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_router_isis
+# key: r_thunder_router_isis
+# --
+
+resource "thunder_router_isis" "${1:this}" {
+    tag = "${2:tag}"
+}

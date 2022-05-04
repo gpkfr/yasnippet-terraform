@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_device
+# key: r_aws_sagemaker_device
+# --
+
+resource "aws_sagemaker_device" "${1:this}" {
+    device_fleet_name = "${2:device_fleet_name}"
+}

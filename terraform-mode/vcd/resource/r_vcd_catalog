@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_catalog
+# key: r_vcd_catalog
+# --
+
+resource "vcd_catalog" "${1:this}" {
+    delete_force = "${2:delete_force}"
+    delete_recursive = "${3:delete_recursive}"
+    name = "${4:name}"
+}

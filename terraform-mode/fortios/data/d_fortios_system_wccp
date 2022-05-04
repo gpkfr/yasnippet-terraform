@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_wccp
+# key: d_fortios_system_wccp
+# --
+
+data "fortios_system_wccp" "${1:this}" {
+    service_id = "${2:service_id}"
+}

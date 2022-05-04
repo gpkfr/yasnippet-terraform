@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gitlab_project_protected_branches
+# key: d_gitlab_project_protected_branches
+# --
+
+data "gitlab_project_protected_branches" "${1:this}" {
+    project_id = "${2:project_id}"
+}

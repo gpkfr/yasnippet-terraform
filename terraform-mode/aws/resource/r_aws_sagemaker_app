@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_app
+# key: r_aws_sagemaker_app
+# --
+
+resource "aws_sagemaker_app" "${1:this}" {
+    app_name = "${2:app_name}"
+    app_type = "${3:app_type}"
+    domain_id = "${4:domain_id}"
+    user_profile_name = "${5:user_profile_name}"
+}

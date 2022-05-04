@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_shipa_app_deploy
+# key: r_shipa_app_deploy
+# --
+
+resource "shipa_app_deploy" "${1:this}" {
+    app = "${2:app}"
+}

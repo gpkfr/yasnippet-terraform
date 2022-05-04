@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanixkps_users
+# key: d_nutanixkps_users
+# --
+
+data "nutanixkps_users" "${1:this}" {
+}

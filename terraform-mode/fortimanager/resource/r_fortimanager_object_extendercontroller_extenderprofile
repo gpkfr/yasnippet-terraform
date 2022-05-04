@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_extendercontroller_extenderprofile
+# key: r_fortimanager_object_extendercontroller_extenderprofile
+# --
+
+resource "fortimanager_object_extendercontroller_extenderprofile" "${1:this}" {
+}

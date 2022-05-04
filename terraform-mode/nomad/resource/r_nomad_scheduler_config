@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nomad_scheduler_config
+# key: r_nomad_scheduler_config
+# --
+
+resource "nomad_scheduler_config" "${1:this}" {
+}

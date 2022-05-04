@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_imagebuilder_container_recipe
+# key: r_awscc_imagebuilder_container_recipe
+# --
+
+resource "awscc_imagebuilder_container_recipe" "${1:this}" {
+}

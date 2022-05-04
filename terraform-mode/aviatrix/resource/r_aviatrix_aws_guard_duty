@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_aws_guard_duty
+# key: r_aviatrix_aws_guard_duty
+# --
+
+resource "aviatrix_aws_guard_duty" "${1:this}" {
+    account_name = "${2:account_name}"
+    region = "${3:region}"
+}

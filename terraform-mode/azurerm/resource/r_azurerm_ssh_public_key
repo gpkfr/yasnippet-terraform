@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_ssh_public_key
+# key: r_azurerm_ssh_public_key
+# --
+
+resource "azurerm_ssh_public_key" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    public_key = "${4:public_key}"
+    resource_group_name = "${5:resource_group_name}"
+}

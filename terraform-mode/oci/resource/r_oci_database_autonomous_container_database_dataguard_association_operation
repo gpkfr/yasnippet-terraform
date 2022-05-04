@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_autonomous_container_database_dataguard_association_operation
+# key: r_oci_database_autonomous_container_database_dataguard_association_operation
+# --
+
+resource "oci_database_autonomous_container_database_dataguard_association_operation" "${1:this}" {
+    autonomous_container_database_dataguard_association_id = "${2:autonomous_container_database_dataguard_association_id}"
+    autonomous_container_database_id = "${3:autonomous_container_database_id}"
+    operation = "${4:operation}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_end_point_user_role_inventory
+# key: d_intersight_iam_end_point_user_role_inventory
+# --
+
+data "intersight_iam_end_point_user_role_inventory" "${1:this}" {
+}

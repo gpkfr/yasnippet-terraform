@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_panos_security_rule
+# key: d_panos_security_rule
+# --
+
+data "panos_security_rule" "${1:this}" {
+    name = "${2:name}"
+}

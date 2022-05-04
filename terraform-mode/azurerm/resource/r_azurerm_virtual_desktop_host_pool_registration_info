@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_desktop_host_pool_registration_info
+# key: r_azurerm_virtual_desktop_host_pool_registration_info
+# --
+
+resource "azurerm_virtual_desktop_host_pool_registration_info" "${1:this}" {
+    expiration_date = "${2:expiration_date}"
+    hostpool_id = "${3:hostpool_id}"
+}

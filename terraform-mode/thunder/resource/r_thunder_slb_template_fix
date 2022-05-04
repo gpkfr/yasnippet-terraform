@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_fix
+# key: r_thunder_slb_template_fix
+# --
+
+resource "thunder_slb_template_fix" "${1:this}" {
+}

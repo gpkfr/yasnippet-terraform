@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ovh_cloud_project_regions
+# key: d_ovh_cloud_project_regions
+# --
+
+data "ovh_cloud_project_regions" "${1:this}" {
+    service_name = "${2:service_name}"
+}

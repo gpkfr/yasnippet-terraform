@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_launchdarkly_team_members
+# key: d_launchdarkly_team_members
+# --
+
+data "launchdarkly_team_members" "${1:this}" {
+    emails = "${2:emails}"
+}

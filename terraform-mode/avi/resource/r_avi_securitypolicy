@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_securitypolicy
+# key: r_avi_securitypolicy
+# --
+
+resource "avi_securitypolicy" "${1:this}" {
+    name = "${2:name}"
+}

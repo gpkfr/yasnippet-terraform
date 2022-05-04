@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_dx_location
+# key: d_aws_dx_location
+# --
+
+data "aws_dx_location" "${1:this}" {
+    location_code = "${2:location_code}"
+}

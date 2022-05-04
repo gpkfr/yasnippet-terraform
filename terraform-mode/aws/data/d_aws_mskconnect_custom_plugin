@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_mskconnect_custom_plugin
+# key: d_aws_mskconnect_custom_plugin
+# --
+
+data "aws_mskconnect_custom_plugin" "${1:this}" {
+    name = "${2:name}"
+}

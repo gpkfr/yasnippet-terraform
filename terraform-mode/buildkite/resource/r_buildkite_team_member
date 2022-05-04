@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_buildkite_team_member
+# key: r_buildkite_team_member
+# --
+
+resource "buildkite_team_member" "${1:this}" {
+    role = "${2:role}"
+    team_id = "${3:team_id}"
+    user_id = "${4:user_id}"
+}

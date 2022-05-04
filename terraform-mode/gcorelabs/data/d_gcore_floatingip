@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gcore_floatingip
+# key: d_gcore_floatingip
+# --
+
+data "gcore_floatingip" "${1:this}" {
+    floating_ip_address = "${2:floating_ip_address}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_opsi_operations_insights_warehouse_rotate_warehouse_wallet
+# key: r_oci_opsi_operations_insights_warehouse_rotate_warehouse_wallet
+# --
+
+resource "oci_opsi_operations_insights_warehouse_rotate_warehouse_wallet" "${1:this}" {
+    operations_insights_warehouse_id = "${2:operations_insights_warehouse_id}"
+}

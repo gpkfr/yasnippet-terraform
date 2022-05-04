@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnpcoipprofile
+# key: r_citrixadc_vpnpcoipprofile
+# --
+
+resource "citrixadc_vpnpcoipprofile" "${1:this}" {
+    conserverurl = "${2:conserverurl}"
+    name = "${3:name}"
+}

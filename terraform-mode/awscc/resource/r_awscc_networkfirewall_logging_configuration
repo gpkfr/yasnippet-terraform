@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_networkfirewall_logging_configuration
+# key: r_awscc_networkfirewall_logging_configuration
+# --
+
+resource "awscc_networkfirewall_logging_configuration" "${1:this}" {
+    firewall_arn = "${2:firewall_arn}"
+    logging_configuration = "${3:logging_configuration}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_ipsec_tunnel
+# key: r_cloudflare_ipsec_tunnel
+# --
+
+resource "cloudflare_ipsec_tunnel" "${1:this}" {
+    cloudflare_endpoint = "${2:cloudflare_endpoint}"
+    customer_endpoint = "${3:customer_endpoint}"
+    interface_address = "${4:interface_address}"
+    name = "${5:name}"
+}

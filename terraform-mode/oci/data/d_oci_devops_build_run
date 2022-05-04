@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_build_run
+# key: d_oci_devops_build_run
+# --
+
+data "oci_devops_build_run" "${1:this}" {
+    build_run_id = "${2:build_run_id}"
+}

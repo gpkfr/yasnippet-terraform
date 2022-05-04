@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_match_target_sequence
+# key: r_akamai_appsec_match_target_sequence
+# --
+
+resource "akamai_appsec_match_target_sequence" "${1:this}" {
+    config_id = "${2:config_id}"
+    version = "${3:version}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_backup
+# key: r_artifactory_backup
+# --
+
+resource "artifactory_backup" "${1:this}" {
+    cron_exp = "${2:cron_exp}"
+    key = "${3:key}"
+}

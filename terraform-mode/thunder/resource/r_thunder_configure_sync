@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_configure_sync
+# key: r_thunder_configure_sync
+# --
+
+resource "thunder_configure_sync" "${1:this}" {
+}

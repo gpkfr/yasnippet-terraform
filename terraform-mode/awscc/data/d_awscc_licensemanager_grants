@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_licensemanager_grants
+# key: d_awscc_licensemanager_grants
+# --
+
+data "awscc_licensemanager_grants" "${1:this}" {
+}

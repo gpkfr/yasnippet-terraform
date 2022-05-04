@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_adverity_auth_url
+# key: d_adverity_auth_url
+# --
+
+data "adverity_auth_url" "${1:this}" {
+    connection_id = "${2:connection_id}"
+    connection_type_id = "${3:connection_type_id}"
+}

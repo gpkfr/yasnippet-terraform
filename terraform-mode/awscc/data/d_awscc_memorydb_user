@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_memorydb_user
+# key: d_awscc_memorydb_user
+# --
+
+data "awscc_memorydb_user" "${1:this}" {
+    id = "${2:id}"
+}

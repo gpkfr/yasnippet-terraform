@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_data_flow
+# key: r_azurerm_data_factory_data_flow
+# --
+
+resource "azurerm_data_factory_data_flow" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    name = "${3:name}"
+    script = "${4:script}"
+}

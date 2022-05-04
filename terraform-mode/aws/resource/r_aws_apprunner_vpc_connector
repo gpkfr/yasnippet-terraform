@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_apprunner_vpc_connector
+# key: r_aws_apprunner_vpc_connector
+# --
+
+resource "aws_apprunner_vpc_connector" "${1:this}" {
+    security_groups = "${2:security_groups}"
+    subnets = "${3:subnets}"
+    vpc_connector_name = "${4:vpc_connector_name}"
+}

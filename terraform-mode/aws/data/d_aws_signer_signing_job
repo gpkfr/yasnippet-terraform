@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_signer_signing_job
+# key: d_aws_signer_signing_job
+# --
+
+data "aws_signer_signing_job" "${1:this}" {
+    job_id = "${2:job_id}"
+}

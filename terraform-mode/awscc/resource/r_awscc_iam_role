@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iam_role
+# key: r_awscc_iam_role
+# --
+
+resource "awscc_iam_role" "${1:this}" {
+    assume_role_policy_document = "${2:assume_role_policy_document}"
+}

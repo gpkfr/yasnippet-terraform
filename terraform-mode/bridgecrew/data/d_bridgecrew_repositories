@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_bridgecrew_repositories
+# key: d_bridgecrew_repositories
+# --
+
+data "bridgecrew_repositories" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_oauth_authorization
+# key: r_intersight_oauth_authorization
+# --
+
+resource "intersight_oauth_authorization" "${1:this}" {
+}

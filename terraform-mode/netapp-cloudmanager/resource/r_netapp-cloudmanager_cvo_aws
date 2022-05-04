@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_cvo_aws
+# key: r_netapp-cloudmanager_cvo_aws
+# --
+
+resource "netapp-cloudmanager_cvo_aws" "${1:this}" {
+    client_id = "${2:client_id}"
+    name = "${3:name}"
+    region = "${4:region}"
+    svm_password = "${5:svm_password}"
+}

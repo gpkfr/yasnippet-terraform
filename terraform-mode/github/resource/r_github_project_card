@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_github_project_card
+# key: r_github_project_card
+# --
+
+resource "github_project_card" "${1:this}" {
+    column_id = "${2:column_id}"
+}

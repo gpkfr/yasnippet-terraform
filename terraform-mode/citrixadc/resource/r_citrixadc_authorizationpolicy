@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authorizationpolicy
+# key: r_citrixadc_authorizationpolicy
+# --
+
+resource "citrixadc_authorizationpolicy" "${1:this}" {
+    action = "${2:action}"
+    name = "${3:name}"
+    rule = "${4:rule}"
+}

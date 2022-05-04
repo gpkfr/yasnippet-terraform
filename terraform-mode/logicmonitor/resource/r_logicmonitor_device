@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_logicmonitor_device
+# key: r_logicmonitor_device
+# --
+
+resource "logicmonitor_device" "${1:this}" {
+    display_name = "${2:display_name}"
+    name = "${3:name}"
+    preferred_collector_id = "${4:preferred_collector_id}"
+}

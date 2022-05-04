@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_drive
+# key: d_intersight_hyperflex_drive
+# --
+
+data "intersight_hyperflex_drive" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_github_app_installation_repository
+# key: r_github_app_installation_repository
+# --
+
+resource "github_app_installation_repository" "${1:this}" {
+    installation_id = "${2:installation_id}"
+    repository = "${3:repository}"
+}

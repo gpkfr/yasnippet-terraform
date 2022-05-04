@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_subnet
+# key: r_awscc_ec2_subnet
+# --
+
+resource "awscc_ec2_subnet" "${1:this}" {
+    vpc_id = "${2:vpc_id}"
+}

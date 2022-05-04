@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_environment
+# key: r_dynatrace_environment
+# --
+
+resource "dynatrace_environment" "${1:this}" {
+    name = "${2:name}"
+    state = "${3:state}"
+}

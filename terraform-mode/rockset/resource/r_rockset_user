@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rockset_user
+# key: r_rockset_user
+# --
+
+resource "rockset_user" "${1:this}" {
+    email = "${2:email}"
+    roles = "${3:roles}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_microservicegroup
+# key: r_avi_microservicegroup
+# --
+
+resource "avi_microservicegroup" "${1:this}" {
+    name = "${2:name}"
+}

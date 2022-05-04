@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_search_index
+# key: r_mongodbatlas_search_index
+# --
+
+resource "mongodbatlas_search_index" "${1:this}" {
+    analyzer = "${2:analyzer}"
+    cluster_name = "${3:cluster_name}"
+    collection_name = "${4:collection_name}"
+    database = "${5:database}"
+    name = "${6:name}"
+    project_id = "${7:project_id}"
+}

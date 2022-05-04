@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_equinix_ecx_l2_connection_accepter
+# key: r_equinix_ecx_l2_connection_accepter
+# --
+
+resource "equinix_ecx_l2_connection_accepter" "${1:this}" {
+    connection_id = "${2:connection_id}"
+}

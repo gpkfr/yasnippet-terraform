@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcs_plan_defaults
+# key: d_hcs_plan_defaults
+# --
+
+data "hcs_plan_defaults" "${1:this}" {
+}

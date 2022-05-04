@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_iot_hub
+# key: r_scaleway_iot_hub
+# --
+
+resource "scaleway_iot_hub" "${1:this}" {
+    name = "${2:name}"
+    product_plan = "${3:product_plan}"
+}

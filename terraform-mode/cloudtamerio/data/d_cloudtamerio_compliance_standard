@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudtamerio_compliance_standard
+# key: d_cloudtamerio_compliance_standard
+# --
+
+data "cloudtamerio_compliance_standard" "${1:this}" {
+}

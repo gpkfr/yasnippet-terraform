@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_aws_connect_lambda_function_association
+# key: d_aws_connect_lambda_function_association
+# --
+
+data "aws_connect_lambda_function_association" "${1:this}" {
+    function_arn = "${2:function_arn}"
+    instance_id = "${3:instance_id}"
+}

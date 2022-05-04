@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: r_cloudeos_aws_vpn
+# key: r_cloudeos_aws_vpn
+# --
+
+resource "cloudeos_aws_vpn" "${1:this}" {
+    cgw_id = "${2:cgw_id}"
+    cnps = "${3:cnps}"
+    router_id = "${4:router_id}"
+    tunnel1_aws_endpoint_ip = "${5:tunnel1_aws_endpoint_ip}"
+    tunnel1_aws_overlay_ip = "${6:tunnel1_aws_overlay_ip}"
+    tunnel1_bgp_asn = "${7:tunnel1_bgp_asn}"
+    tunnel1_bgp_holdtime = "${8:tunnel1_bgp_holdtime}"
+    tunnel1_preshared_key = "${9:tunnel1_preshared_key}"
+    tunnel1_router_overlay_ip = "${10:tunnel1_router_overlay_ip}"
+    tunnel2_aws_endpoint_ip = "${11:tunnel2_aws_endpoint_ip}"
+    tunnel2_aws_overlay_ip = "${12:tunnel2_aws_overlay_ip}"
+    tunnel2_bgp_asn = "${13:tunnel2_bgp_asn}"
+    tunnel2_bgp_holdtime = "${14:tunnel2_bgp_holdtime}"
+    tunnel2_preshared_key = "${15:tunnel2_preshared_key}"
+    tunnel2_router_overlay_ip = "${16:tunnel2_router_overlay_ip}"
+    vpc_id = "${17:vpc_id}"
+    vpn_connection_id = "${18:vpn_connection_id}"
+}

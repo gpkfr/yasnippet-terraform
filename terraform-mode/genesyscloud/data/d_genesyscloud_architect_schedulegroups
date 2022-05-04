@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_architect_schedulegroups
+# key: d_genesyscloud_architect_schedulegroups
+# --
+
+data "genesyscloud_architect_schedulegroups" "${1:this}" {
+    name = "${2:name}"
+}

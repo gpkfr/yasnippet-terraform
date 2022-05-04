@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_emailfilter_bwl
+# key: r_fortios_emailfilter_bwl
+# --
+
+resource "fortios_emailfilter_bwl" "${1:this}" {
+}

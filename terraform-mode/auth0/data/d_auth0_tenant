@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_auth0_tenant
+# key: d_auth0_tenant
+# --
+
+data "auth0_tenant" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_datasync_location_nfs
+# key: r_awscc_datasync_location_nfs
+# --
+
+resource "awscc_datasync_location_nfs" "${1:this}" {
+    on_prem_config = "${2:on_prem_config}"
+    server_hostname = "${3:server_hostname}"
+    subdirectory = "${4:subdirectory}"
+}

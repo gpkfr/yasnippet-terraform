@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azuredevops_users
+# key: d_azuredevops_users
+# --
+
+data "azuredevops_users" "${1:this}" {
+}

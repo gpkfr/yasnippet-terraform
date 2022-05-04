@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niaapi_dcnm_sweol
+# key: d_intersight_niaapi_dcnm_sweol
+# --
+
+data "intersight_niaapi_dcnm_sweol" "${1:this}" {
+}

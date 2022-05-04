@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_tools_database_tools_connection
+# key: r_oci_database_tools_database_tools_connection
+# --
+
+resource "oci_database_tools_database_tools_connection" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+    type = "${4:type}"
+}

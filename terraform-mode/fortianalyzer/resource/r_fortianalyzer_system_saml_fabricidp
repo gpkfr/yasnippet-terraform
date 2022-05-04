@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_saml_fabricidp
+# key: r_fortianalyzer_system_saml_fabricidp
+# --
+
+resource "fortianalyzer_system_saml_fabricidp" "${1:this}" {
+}

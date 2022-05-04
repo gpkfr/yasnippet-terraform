@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_signer_profile_permission
+# key: d_awscc_signer_profile_permission
+# --
+
+data "awscc_signer_profile_permission" "${1:this}" {
+    id = "${2:id}"
+}

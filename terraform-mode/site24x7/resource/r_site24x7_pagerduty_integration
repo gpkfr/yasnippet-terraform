@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_pagerduty_integration
+# key: r_site24x7_pagerduty_integration
+# --
+
+resource "site24x7_pagerduty_integration" "${1:this}" {
+    name = "${2:name}"
+    sender_name = "${3:sender_name}"
+    service_key = "${4:service_key}"
+    title = "${5:title}"
+}

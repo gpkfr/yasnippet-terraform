@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_replacemsggrouplist
+# key: d_fortios_system_replacemsggrouplist
+# --
+
+data "fortios_system_replacemsggrouplist" "${1:this}" {
+}

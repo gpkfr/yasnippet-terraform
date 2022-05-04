@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_portal_tenant_configuration
+# key: r_azurerm_portal_tenant_configuration
+# --
+
+resource "azurerm_portal_tenant_configuration" "${1:this}" {
+    private_markdown_storage_enforced = "${2:private_markdown_storage_enforced}"
+}

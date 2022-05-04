@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_match_list
+# key: r_sumologic_cse_match_list
+# --
+
+resource "sumologic_cse_match_list" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+    target_column = "${4:target_column}"
+}

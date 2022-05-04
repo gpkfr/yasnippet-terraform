@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_generic_data_center_server
+# key: r_checkpoint_management_generic_data_center_server
+# --
+
+resource "checkpoint_management_generic_data_center_server" "${1:this}" {
+    interval = "${2:interval}"
+    name = "${3:name}"
+    url = "${4:url}"
+}

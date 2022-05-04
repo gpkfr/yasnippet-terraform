@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_tfc_organization
+# key: d_intersight_cloud_tfc_organization
+# --
+
+data "intersight_cloud_tfc_organization" "${1:this}" {
+}

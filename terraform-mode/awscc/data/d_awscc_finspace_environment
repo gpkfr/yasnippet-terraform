@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_finspace_environment
+# key: d_awscc_finspace_environment
+# --
+
+data "awscc_finspace_environment" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_adman_dns_zone_record
+# key: r_adman_dns_zone_record
+# --
+
+resource "adman_dns_zone_record" "${1:this}" {
+    external_id = "${2:external_id}"
+    host = "${3:host}"
+    ttl = "${4:ttl}"
+    type = "${5:type}"
+    value = "${6:value}"
+    zone = "${7:zone}"
+}

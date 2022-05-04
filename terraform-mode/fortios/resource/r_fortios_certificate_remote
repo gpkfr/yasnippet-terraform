@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_certificate_remote
+# key: r_fortios_certificate_remote
+# --
+
+resource "fortios_certificate_remote" "${1:this}" {
+}

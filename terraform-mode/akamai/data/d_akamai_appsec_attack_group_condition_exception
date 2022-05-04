@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_attack_group_condition_exception
+# key: d_akamai_appsec_attack_group_condition_exception
+# --
+
+data "akamai_appsec_attack_group_condition_exception" "${1:this}" {
+    attack_group = "${2:attack_group}"
+    config_id = "${3:config_id}"
+    security_policy_id = "${4:security_policy_id}"
+    version = "${5:version}"
+}

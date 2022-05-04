@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ssmcontacts_contact
+# key: r_awscc_ssmcontacts_contact
+# --
+
+resource "awscc_ssmcontacts_contact" "${1:this}" {
+    alias = "${2:alias}"
+    display_name = "${3:display_name}"
+    plan = "${4:plan}"
+    type = "${5:type}"
+}

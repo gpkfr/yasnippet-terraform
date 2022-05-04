@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ns1_tsigkey
+# key: r_ns1_tsigkey
+# --
+
+resource "ns1_tsigkey" "${1:this}" {
+    algorithm = "${2:algorithm}"
+    name = "${3:name}"
+    secret = "${4:secret}"
+}

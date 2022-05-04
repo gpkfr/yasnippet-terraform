@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_connect_user_hierarchy_structure
+# key: r_aws_connect_user_hierarchy_structure
+# --
+
+resource "aws_connect_user_hierarchy_structure" "${1:this}" {
+    instance_id = "${2:instance_id}"
+}

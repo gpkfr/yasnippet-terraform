@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fivetran_groups
+# key: d_fivetran_groups
+# --
+
+data "fivetran_groups" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_commvault_disk_storage
+# key: r_commvault_disk_storage
+# --
+
+resource "commvault_disk_storage" "${1:this}" {
+    backup_location = "${2:backup_location}"
+    mediaagent = "${3:mediaagent}"
+    storage_name = "${4:storage_name}"
+}

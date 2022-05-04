@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_splunkconfig_saml_group_attributes
+# key: d_splunkconfig_saml_group_attributes
+# --
+
+data "splunkconfig_saml_group_attributes" "${1:this}" {
+    saml_group_name = "${2:saml_group_name}"
+}

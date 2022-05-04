@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_volterra_fast_acl_for_internet_vips
+# key: r_volterra_fast_acl_for_internet_vips
+# --
+
+resource "volterra_fast_acl_for_internet_vips" "${1:this}" {
+}

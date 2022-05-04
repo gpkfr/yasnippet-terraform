@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oci_opsi_operations_insights_private_endpoint
+# key: r_oci_opsi_operations_insights_private_endpoint
+# --
+
+resource "oci_opsi_operations_insights_private_endpoint" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+    is_used_for_rac_dbs = "${4:is_used_for_rac_dbs}"
+    subnet_id = "${5:subnet_id}"
+    vcn_id = "${6:vcn_id}"
+}

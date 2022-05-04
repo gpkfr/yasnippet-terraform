@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_databricks_mws_workspaces
+# key: r_databricks_mws_workspaces
+# --
+
+resource "databricks_mws_workspaces" "${1:this}" {
+    account_id = "${2:account_id}"
+    workspace_name = "${3:workspace_name}"
+}

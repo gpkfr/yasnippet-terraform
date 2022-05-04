@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_logs_resource_policies
+# key: d_awscc_logs_resource_policies
+# --
+
+data "awscc_logs_resource_policies" "${1:this}" {
+}

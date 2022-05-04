@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_job_templates
+# key: d_awscc_iot_job_templates
+# --
+
+data "awscc_iot_job_templates" "${1:this}" {
+}

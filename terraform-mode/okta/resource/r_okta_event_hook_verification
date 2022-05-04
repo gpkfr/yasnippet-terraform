@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_okta_event_hook_verification
+# key: r_okta_event_hook_verification
+# --
+
+resource "okta_event_hook_verification" "${1:this}" {
+    event_hook_id = "${2:event_hook_id}"
+}

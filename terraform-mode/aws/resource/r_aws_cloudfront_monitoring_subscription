@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudfront_monitoring_subscription
+# key: r_aws_cloudfront_monitoring_subscription
+# --
+
+resource "aws_cloudfront_monitoring_subscription" "${1:this}" {
+    distribution_id = "${2:distribution_id}"
+}

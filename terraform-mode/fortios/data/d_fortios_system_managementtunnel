@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_managementtunnel
+# key: d_fortios_system_managementtunnel
+# --
+
+data "fortios_system_managementtunnel" "${1:this}" {
+}

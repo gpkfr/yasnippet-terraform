@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_compute_firewall_policy_association
+# key: r_google_compute_firewall_policy_association
+# --
+
+resource "google_compute_firewall_policy_association" "${1:this}" {
+    attachment_target = "${2:attachment_target}"
+    firewall_policy = "${3:firewall_policy}"
+    name = "${4:name}"
+}

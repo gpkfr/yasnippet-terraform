@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_nat_rule
+# key: r_checkpoint_management_nat_rule
+# --
+
+resource "checkpoint_management_nat_rule" "${1:this}" {
+    package = "${2:package}"
+    position = "${3:position}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_host
+# key: d_awscc_ec2_host
+# --
+
+data "awscc_ec2_host" "${1:this}" {
+    id = "${2:id}"
+}

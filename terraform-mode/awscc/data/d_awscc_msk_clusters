@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_msk_clusters
+# key: d_awscc_msk_clusters
+# --
+
+data "awscc_msk_clusters" "${1:this}" {
+}

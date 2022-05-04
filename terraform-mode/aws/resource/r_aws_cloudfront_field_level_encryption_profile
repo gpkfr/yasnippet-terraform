@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudfront_field_level_encryption_profile
+# key: r_aws_cloudfront_field_level_encryption_profile
+# --
+
+resource "aws_cloudfront_field_level_encryption_profile" "${1:this}" {
+    name = "${2:name}"
+}

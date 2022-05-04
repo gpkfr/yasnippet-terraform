@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_project
+# key: d_nutanix_project
+# --
+
+data "nutanix_project" "${1:this}" {
+}

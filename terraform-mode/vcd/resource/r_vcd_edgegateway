@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_edgegateway
+# key: r_vcd_edgegateway
+# --
+
+resource "vcd_edgegateway" "${1:this}" {
+    configuration = "${2:configuration}"
+    name = "${3:name}"
+}

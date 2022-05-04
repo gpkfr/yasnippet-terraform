@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_vpc_peering
+# key: d_ncloud_vpc_peering
+# --
+
+data "ncloud_vpc_peering" "${1:this}" {
+}

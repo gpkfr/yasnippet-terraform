@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_vmrc_console
+# key: d_intersight_vmrc_console
+# --
+
+data "intersight_vmrc_console" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_anaml-operations_feature_store
+# key: d_anaml-operations_feature_store
+# --
+
+data "anaml-operations_feature_store" "${1:this}" {
+    name = "${2:name}"
+}

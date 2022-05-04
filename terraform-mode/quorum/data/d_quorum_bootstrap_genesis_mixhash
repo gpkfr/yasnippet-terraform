@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_quorum_bootstrap_genesis_mixhash
+# key: d_quorum_bootstrap_genesis_mixhash
+# --
+
+data "quorum_bootstrap_genesis_mixhash" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_mskconnect_connector
+# key: r_aws_mskconnect_connector
+# --
+
+resource "aws_mskconnect_connector" "${1:this}" {
+    connector_configuration = "${2:connector_configuration}"
+    kafkaconnect_version = "${3:kafkaconnect_version}"
+    name = "${4:name}"
+    service_execution_role_arn = "${5:service_execution_role_arn}"
+}

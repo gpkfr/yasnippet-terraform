@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_networkmanager_global_network
+# key: d_aws_networkmanager_global_network
+# --
+
+data "aws_networkmanager_global_network" "${1:this}" {
+    global_network_id = "${2:global_network_id}"
+}

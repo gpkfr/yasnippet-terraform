@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_maps_creator
+# key: r_azurerm_maps_creator
+# --
+
+resource "azurerm_maps_creator" "${1:this}" {
+    location = "${2:location}"
+    maps_account_id = "${3:maps_account_id}"
+    name = "${4:name}"
+    storage_units = "${5:storage_units}"
+}

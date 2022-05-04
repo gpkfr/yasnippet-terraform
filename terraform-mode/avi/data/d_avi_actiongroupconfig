@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_actiongroupconfig
+# key: d_avi_actiongroupconfig
+# --
+
+data "avi_actiongroupconfig" "${1:this}" {
+}

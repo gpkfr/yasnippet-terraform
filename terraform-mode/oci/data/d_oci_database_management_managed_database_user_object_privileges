@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_management_managed_database_user_object_privileges
+# key: d_oci_database_management_managed_database_user_object_privileges
+# --
+
+data "oci_database_management_managed_database_user_object_privileges" "${1:this}" {
+    managed_database_id = "${2:managed_database_id}"
+    user_name = "${3:user_name}"
+}

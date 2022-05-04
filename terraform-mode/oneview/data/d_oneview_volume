@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_volume
+# key: d_oneview_volume
+# --
+
+data "oneview_volume" "${1:this}" {
+    name = "${2:name}"
+}

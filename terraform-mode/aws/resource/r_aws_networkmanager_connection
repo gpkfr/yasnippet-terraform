@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_networkmanager_connection
+# key: r_aws_networkmanager_connection
+# --
+
+resource "aws_networkmanager_connection" "${1:this}" {
+    connected_device_id = "${2:connected_device_id}"
+    device_id = "${3:device_id}"
+    global_network_id = "${4:global_network_id}"
+}

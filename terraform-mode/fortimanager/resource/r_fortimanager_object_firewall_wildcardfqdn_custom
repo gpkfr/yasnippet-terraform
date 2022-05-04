@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_wildcardfqdn_custom
+# key: r_fortimanager_object_firewall_wildcardfqdn_custom
+# --
+
+resource "fortimanager_object_firewall_wildcardfqdn_custom" "${1:this}" {
+}

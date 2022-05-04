@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_aaa_tacacs_provider_details
+# key: d_intersight_niatelemetry_aaa_tacacs_provider_details
+# --
+
+data "intersight_niatelemetry_aaa_tacacs_provider_details" "${1:this}" {
+}

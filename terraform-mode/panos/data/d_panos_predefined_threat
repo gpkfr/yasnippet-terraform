@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_predefined_threat
+# key: d_panos_predefined_threat
+# --
+
+data "panos_predefined_threat" "${1:this}" {
+}

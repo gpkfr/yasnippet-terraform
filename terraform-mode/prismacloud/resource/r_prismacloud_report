@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_prismacloud_report
+# key: r_prismacloud_report
+# --
+
+resource "prismacloud_report" "${1:this}" {
+    name = "${2:name}"
+    report_type = "${3:report_type}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_security_center_automation
+# key: r_azurerm_security_center_automation
+# --
+
+resource "azurerm_security_center_automation" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+    scopes = "${5:scopes}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cond_hcl_status_job
+# key: d_intersight_cond_hcl_status_job
+# --
+
+data "intersight_cond_hcl_status_job" "${1:this}" {
+}

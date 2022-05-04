@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_cluster_direct_connect
+# key: r_nirmata_cluster_direct_connect
+# --
+
+resource "nirmata_cluster_direct_connect" "${1:this}" {
+    host_group = "${2:host_group}"
+    name = "${3:name}"
+    policy = "${4:policy}"
+}

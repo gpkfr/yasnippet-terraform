@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_eks_cluster
+# key: r_tencentcloud_eks_cluster
+# --
+
+resource "tencentcloud_eks_cluster" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    k8s_version = "${3:k8s_version}"
+    subnet_ids = "${4:subnet_ids}"
+    vpc_id = "${5:vpc_id}"
+}

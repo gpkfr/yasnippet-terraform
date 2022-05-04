@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_chime_voice_connector_streaming
+# key: r_aws_chime_voice_connector_streaming
+# --
+
+resource "aws_chime_voice_connector_streaming" "${1:this}" {
+    data_retention = "${2:data_retention}"
+    voice_connector_id = "${3:voice_connector_id}"
+}

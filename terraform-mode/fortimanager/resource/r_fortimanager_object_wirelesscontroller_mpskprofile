@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_wirelesscontroller_mpskprofile
+# key: r_fortimanager_object_wirelesscontroller_mpskprofile
+# --
+
+resource "fortimanager_object_wirelesscontroller_mpskprofile" "${1:this}" {
+}

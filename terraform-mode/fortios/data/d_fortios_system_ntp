@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_ntp
+# key: d_fortios_system_ntp
+# --
+
+data "fortios_system_ntp" "${1:this}" {
+}

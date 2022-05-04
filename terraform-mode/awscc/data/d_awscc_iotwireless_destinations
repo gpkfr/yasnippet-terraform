@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotwireless_destinations
+# key: d_awscc_iotwireless_destinations
+# --
+
+data "awscc_iotwireless_destinations" "${1:this}" {
+}

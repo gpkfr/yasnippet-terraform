@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_multai_routing_rule
+# key: r_spotinst_multai_routing_rule
+# --
+
+resource "spotinst_multai_routing_rule" "${1:this}" {
+    balancer_id = "${2:balancer_id}"
+    listener_id = "${3:listener_id}"
+    route = "${4:route}"
+    target_set_ids = "${5:target_set_ids}"
+}

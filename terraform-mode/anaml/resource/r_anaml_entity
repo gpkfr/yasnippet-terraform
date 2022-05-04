@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_anaml_entity
+# key: r_anaml_entity
+# --
+
+resource "anaml_entity" "${1:this}" {
+    default_column = "${2:default_column}"
+    description = "${3:description}"
+    name = "${4:name}"
+}

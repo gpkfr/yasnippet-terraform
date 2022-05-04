@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_budgets_budgets_actions
+# key: d_awscc_budgets_budgets_actions
+# --
+
+data "awscc_budgets_budgets_actions" "${1:this}" {
+}

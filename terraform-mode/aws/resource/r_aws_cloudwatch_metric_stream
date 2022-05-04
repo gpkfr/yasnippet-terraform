@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudwatch_metric_stream
+# key: r_aws_cloudwatch_metric_stream
+# --
+
+resource "aws_cloudwatch_metric_stream" "${1:this}" {
+    firehose_arn = "${2:firehose_arn}"
+    output_format = "${3:output_format}"
+    role_arn = "${4:role_arn}"
+}

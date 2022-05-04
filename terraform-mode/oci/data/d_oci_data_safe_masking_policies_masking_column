@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_masking_policies_masking_column
+# key: d_oci_data_safe_masking_policies_masking_column
+# --
+
+data "oci_data_safe_masking_policies_masking_column" "${1:this}" {
+    masking_column_key = "${2:masking_column_key}"
+    masking_policy_id = "${3:masking_policy_id}"
+}

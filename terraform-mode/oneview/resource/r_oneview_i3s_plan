@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oneview_i3s_plan
+# key: r_oneview_i3s_plan
+# --
+
+resource "oneview_i3s_plan" "${1:this}" {
+    deploy_net_name = "${2:deploy_net_name}"
+    os_deployment_plan = "${3:os_deployment_plan}"
+    server_name = "${4:server_name}"
+}

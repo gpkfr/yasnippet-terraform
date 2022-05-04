@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_connect_instance
+# key: r_aws_connect_instance
+# --
+
+resource "aws_connect_instance" "${1:this}" {
+    identity_management_type = "${2:identity_management_type}"
+    inbound_calls_enabled = "${3:inbound_calls_enabled}"
+    outbound_calls_enabled = "${4:outbound_calls_enabled}"
+}

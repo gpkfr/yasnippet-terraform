@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_tf_params_action
+# key: r_volterra_tf_params_action
+# --
+
+resource "volterra_tf_params_action" "${1:this}" {
+    action = "${2:action}"
+    site_kind = "${3:site_kind}"
+    site_name = "${4:site_name}"
+}

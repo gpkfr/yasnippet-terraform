@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lambda_code_signing_config
+# key: r_awscc_lambda_code_signing_config
+# --
+
+resource "awscc_lambda_code_signing_config" "${1:this}" {
+    allowed_publishers = "${2:allowed_publishers}"
+}

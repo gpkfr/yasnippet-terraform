@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_linked_service_data_lake_storage_gen2
+# key: r_azurerm_data_factory_linked_service_data_lake_storage_gen2
+# --
+
+resource "azurerm_data_factory_linked_service_data_lake_storage_gen2" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    name = "${3:name}"
+    url = "${4:url}"
+}

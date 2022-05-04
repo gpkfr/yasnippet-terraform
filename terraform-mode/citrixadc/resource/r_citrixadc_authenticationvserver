@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationvserver
+# key: r_citrixadc_authenticationvserver
+# --
+
+resource "citrixadc_authenticationvserver" "${1:this}" {
+    name = "${2:name}"
+}

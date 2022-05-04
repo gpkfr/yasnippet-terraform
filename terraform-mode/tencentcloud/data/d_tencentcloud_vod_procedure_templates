@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_vod_procedure_templates
+# key: d_tencentcloud_vod_procedure_templates
+# --
+
+data "tencentcloud_vod_procedure_templates" "${1:this}" {
+}

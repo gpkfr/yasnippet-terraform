@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_grafana_dashboard_permission
+# key: r_grafana_dashboard_permission
+# --
+
+resource "grafana_dashboard_permission" "${1:this}" {
+    dashboard_id = "${2:dashboard_id}"
+}

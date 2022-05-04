@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_integration_registry
+# key: r_aquasec_integration_registry
+# --
+
+resource "aquasec_integration_registry" "${1:this}" {
+    name = "${2:name}"
+    prefixes = "${3:prefixes}"
+    type = "${4:type}"
+}

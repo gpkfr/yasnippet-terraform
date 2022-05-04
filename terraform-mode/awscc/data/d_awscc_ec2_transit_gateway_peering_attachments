@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_transit_gateway_peering_attachments
+# key: d_awscc_ec2_transit_gateway_peering_attachments
+# --
+
+data "awscc_ec2_transit_gateway_peering_attachments" "${1:this}" {
+}

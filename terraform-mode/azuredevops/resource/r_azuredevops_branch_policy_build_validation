@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_branch_policy_build_validation
+# key: r_azuredevops_branch_policy_build_validation
+# --
+
+resource "azuredevops_branch_policy_build_validation" "${1:this}" {
+    project_id = "${2:project_id}"
+}

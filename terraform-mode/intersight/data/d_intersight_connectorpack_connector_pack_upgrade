@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_connectorpack_connector_pack_upgrade
+# key: d_intersight_connectorpack_connector_pack_upgrade
+# --
+
+data "intersight_connectorpack_connector_pack_upgrade" "${1:this}" {
+}

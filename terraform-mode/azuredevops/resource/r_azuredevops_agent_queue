@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_agent_queue
+# key: r_azuredevops_agent_queue
+# --
+
+resource "azuredevops_agent_queue" "${1:this}" {
+    agent_pool_id = "${2:agent_pool_id}"
+    project_id = "${3:project_id}"
+}

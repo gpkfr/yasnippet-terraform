@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_osmanagement_managed_instance_event_report
+# key: d_oci_osmanagement_managed_instance_event_report
+# --
+
+data "oci_osmanagement_managed_instance_event_report" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    managed_instance_id = "${3:managed_instance_id}"
+}

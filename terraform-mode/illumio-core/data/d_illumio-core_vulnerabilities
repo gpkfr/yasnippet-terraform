@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_vulnerabilities
+# key: d_illumio-core_vulnerabilities
+# --
+
+data "illumio-core_vulnerabilities" "${1:this}" {
+}

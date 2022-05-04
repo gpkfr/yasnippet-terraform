@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_segmentation_security_domain_association
+# key: r_aviatrix_segmentation_security_domain_association
+# --
+
+resource "aviatrix_segmentation_security_domain_association" "${1:this}" {
+    attachment_name = "${2:attachment_name}"
+    security_domain_name = "${3:security_domain_name}"
+    transit_gateway_name = "${4:transit_gateway_name}"
+}

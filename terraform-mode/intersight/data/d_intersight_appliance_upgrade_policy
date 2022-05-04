@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_upgrade_policy
+# key: d_intersight_appliance_upgrade_policy
+# --
+
+data "intersight_appliance_upgrade_policy" "${1:this}" {
+}

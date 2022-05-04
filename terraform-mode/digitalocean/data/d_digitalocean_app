@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_app
+# key: d_digitalocean_app
+# --
+
+data "digitalocean_app" "${1:this}" {
+    app_id = "${2:app_id}"
+}

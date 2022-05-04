@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_codefresh_team
+# key: r_codefresh_team
+# --
+
+resource "codefresh_team" "${1:this}" {
+    name = "${2:name}"
+}

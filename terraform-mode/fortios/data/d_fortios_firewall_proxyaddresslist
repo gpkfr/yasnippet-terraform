@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_proxyaddresslist
+# key: d_fortios_firewall_proxyaddresslist
+# --
+
+data "fortios_firewall_proxyaddresslist" "${1:this}" {
+}

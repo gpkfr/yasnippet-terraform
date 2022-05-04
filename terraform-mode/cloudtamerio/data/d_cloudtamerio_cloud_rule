@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudtamerio_cloud_rule
+# key: d_cloudtamerio_cloud_rule
+# --
+
+data "cloudtamerio_cloud_rule" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_rancher2_global_role
+# key: d_rancher2_global_role
+# --
+
+data "rancher2_global_role" "${1:this}" {
+    name = "${2:name}"
+}

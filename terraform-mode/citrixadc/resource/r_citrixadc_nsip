@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nsip
+# key: r_citrixadc_nsip
+# --
+
+resource "citrixadc_nsip" "${1:this}" {
+}

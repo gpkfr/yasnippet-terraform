@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_json_generic_api
+# key: r_fortimanager_json_generic_api
+# --
+
+resource "fortimanager_json_generic_api" "${1:this}" {
+    json_content = "${2:json_content}"
+}

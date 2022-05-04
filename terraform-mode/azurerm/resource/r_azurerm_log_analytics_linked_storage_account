@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_log_analytics_linked_storage_account
+# key: r_azurerm_log_analytics_linked_storage_account
+# --
+
+resource "azurerm_log_analytics_linked_storage_account" "${1:this}" {
+    data_source_type = "${2:data_source_type}"
+    resource_group_name = "${3:resource_group_name}"
+    storage_account_ids = "${4:storage_account_ids}"
+    workspace_resource_id = "${5:workspace_resource_id}"
+}

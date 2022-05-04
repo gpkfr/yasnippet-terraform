@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_glue_registries
+# key: d_awscc_glue_registries
+# --
+
+data "awscc_glue_registries" "${1:this}" {
+}

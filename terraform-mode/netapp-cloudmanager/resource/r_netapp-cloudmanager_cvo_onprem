@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_cvo_onprem
+# key: r_netapp-cloudmanager_cvo_onprem
+# --
+
+resource "netapp-cloudmanager_cvo_onprem" "${1:this}" {
+    client_id = "${2:client_id}"
+    cluster_address = "${3:cluster_address}"
+    cluster_password = "${4:cluster_password}"
+    cluster_user_name = "${5:cluster_user_name}"
+    location = "${6:location}"
+    name = "${7:name}"
+}

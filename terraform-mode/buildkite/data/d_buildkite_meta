@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_buildkite_meta
+# key: d_buildkite_meta
+# --
+
+data "buildkite_meta" "${1:this}" {
+}

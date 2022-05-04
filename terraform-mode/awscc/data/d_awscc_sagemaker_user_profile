@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_user_profile
+# key: d_awscc_sagemaker_user_profile
+# --
+
+data "awscc_sagemaker_user_profile" "${1:this}" {
+    id = "${2:id}"
+}

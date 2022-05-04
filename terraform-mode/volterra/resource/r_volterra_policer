@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_volterra_policer
+# key: r_volterra_policer
+# --
+
+resource "volterra_policer" "${1:this}" {
+    burst_size = "${2:burst_size}"
+    committed_information_rate = "${3:committed_information_rate}"
+    name = "${4:name}"
+    namespace = "${5:namespace}"
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_networkloadbalancer_forwardingrule
+# key: r_ionoscloud_networkloadbalancer_forwardingrule
+# --
+
+resource "ionoscloud_networkloadbalancer_forwardingrule" "${1:this}" {
+    algorithm = "${2:algorithm}"
+    datacenter_id = "${3:datacenter_id}"
+    listener_ip = "${4:listener_ip}"
+    listener_port = "${5:listener_port}"
+    name = "${6:name}"
+    networkloadbalancer_id = "${7:networkloadbalancer_id}"
+    protocol = "${8:protocol}"
+}

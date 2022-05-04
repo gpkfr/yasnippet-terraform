@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_cloud_security_group_rule
+# key: d_dome9_cloud_security_group_rule
+# --
+
+data "dome9_cloud_security_group_rule" "${1:this}" {
+    id = "${2:id}"
+}

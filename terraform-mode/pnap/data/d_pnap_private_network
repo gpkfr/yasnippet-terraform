@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_pnap_private_network
+# key: d_pnap_private_network
+# --
+
+data "pnap_private_network" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_request_attribute
+# key: r_dynatrace_request_attribute
+# --
+
+resource "dynatrace_request_attribute" "${1:this}" {
+    aggregation = "${2:aggregation}"
+    data_type = "${3:data_type}"
+    name = "${4:name}"
+    normalization = "${5:normalization}"
+}

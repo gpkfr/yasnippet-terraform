@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_policymap
+# key: r_citrixadc_policymap
+# --
+
+resource "citrixadc_policymap" "${1:this}" {
+    mappolicyname = "${2:mappolicyname}"
+    sd = "${3:sd}"
+    td = "${4:td}"
+}

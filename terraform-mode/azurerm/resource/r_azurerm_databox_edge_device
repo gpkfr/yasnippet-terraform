@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_databox_edge_device
+# key: r_azurerm_databox_edge_device
+# --
+
+resource "azurerm_databox_edge_device" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+    sku_name = "${5:sku_name}"
+}

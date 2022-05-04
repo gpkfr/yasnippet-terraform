@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_aws_appmesh_virtual_service
+# key: d_aws_appmesh_virtual_service
+# --
+
+data "aws_appmesh_virtual_service" "${1:this}" {
+    mesh_name = "${2:mesh_name}"
+    name = "${3:name}"
+}

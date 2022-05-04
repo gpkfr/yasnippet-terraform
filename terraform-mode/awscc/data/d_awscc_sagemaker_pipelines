@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_pipelines
+# key: d_awscc_sagemaker_pipelines
+# --
+
+data "awscc_sagemaker_pipelines" "${1:this}" {
+}

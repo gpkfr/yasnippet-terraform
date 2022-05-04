@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fastly_tls_activation
+# key: d_fastly_tls_activation
+# --
+
+data "fastly_tls_activation" "${1:this}" {
+}

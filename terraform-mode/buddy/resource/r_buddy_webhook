@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_buddy_webhook
+# key: r_buddy_webhook
+# --
+
+resource "buddy_webhook" "${1:this}" {
+    domain = "${2:domain}"
+    events = "${3:events}"
+    projects = "${4:projects}"
+    target_url = "${5:target_url}"
+}

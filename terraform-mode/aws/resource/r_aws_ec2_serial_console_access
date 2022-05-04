@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_serial_console_access
+# key: r_aws_ec2_serial_console_access
+# --
+
+resource "aws_ec2_serial_console_access" "${1:this}" {
+}

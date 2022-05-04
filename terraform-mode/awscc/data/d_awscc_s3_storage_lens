@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_s3_storage_lens
+# key: d_awscc_s3_storage_lens
+# --
+
+data "awscc_s3_storage_lens" "${1:this}" {
+    id = "${2:id}"
+}

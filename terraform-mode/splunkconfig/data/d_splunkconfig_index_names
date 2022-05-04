@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_splunkconfig_index_names
+# key: d_splunkconfig_index_names
+# --
+
+data "splunkconfig_index_names" "${1:this}" {
+}

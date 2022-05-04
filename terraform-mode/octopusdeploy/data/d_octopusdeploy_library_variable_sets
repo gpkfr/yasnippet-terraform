@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_library_variable_sets
+# key: d_octopusdeploy_library_variable_sets
+# --
+
+data "octopusdeploy_library_variable_sets" "${1:this}" {
+}

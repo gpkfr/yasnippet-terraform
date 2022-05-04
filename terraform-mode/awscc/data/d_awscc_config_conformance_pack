@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_config_conformance_pack
+# key: d_awscc_config_conformance_pack
+# --
+
+data "awscc_config_conformance_pack" "${1:this}" {
+    id = "${2:id}"
+}

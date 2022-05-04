@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_tls_certificate
+# key: r_ngrok_tls_certificate
+# --
+
+resource "ngrok_tls_certificate" "${1:this}" {
+    certificate_pem = "${2:certificate_pem}"
+    private_key_pem = "${3:private_key_pem}"
+}

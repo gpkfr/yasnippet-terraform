@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_reserved_addr
+# key: r_ngrok_reserved_addr
+# --
+
+resource "ngrok_reserved_addr" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_config_conformance_pack
+# key: r_awscc_config_conformance_pack
+# --
+
+resource "awscc_config_conformance_pack" "${1:this}" {
+    conformance_pack_name = "${2:conformance_pack_name}"
+}

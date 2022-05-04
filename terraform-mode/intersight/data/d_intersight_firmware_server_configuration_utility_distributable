@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_server_configuration_utility_distributable
+# key: d_intersight_firmware_server_configuration_utility_distributable
+# --
+
+data "intersight_firmware_server_configuration_utility_distributable" "${1:this}" {
+}

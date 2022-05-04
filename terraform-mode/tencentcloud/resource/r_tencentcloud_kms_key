@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_kms_key
+# key: r_tencentcloud_kms_key
+# --
+
+resource "tencentcloud_kms_key" "${1:this}" {
+    alias = "${2:alias}"
+}

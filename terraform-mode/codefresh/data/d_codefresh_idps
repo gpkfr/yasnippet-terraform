@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_codefresh_idps
+# key: d_codefresh_idps
+# --
+
+data "codefresh_idps" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_dynamodb_global_table
+# key: r_awscc_dynamodb_global_table
+# --
+
+resource "awscc_dynamodb_global_table" "${1:this}" {
+    attribute_definitions = "${2:attribute_definitions}"
+    key_schema = "${3:key_schema}"
+    replicas = "${4:replicas}"
+}

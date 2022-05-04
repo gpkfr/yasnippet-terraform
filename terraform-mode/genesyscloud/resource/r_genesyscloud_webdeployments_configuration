@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_webdeployments_configuration
+# key: r_genesyscloud_webdeployments_configuration
+# --
+
+resource "genesyscloud_webdeployments_configuration" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ip_tcp
+# key: r_thunder_ip_tcp
+# --
+
+resource "thunder_ip_tcp" "${1:this}" {
+}

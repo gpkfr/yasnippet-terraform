@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cohesity_restore_vmware_vm
+# key: r_cohesity_restore_vmware_vm
+# --
+
+resource "cohesity_restore_vmware_vm" "${1:this}" {
+    job_name = "${2:job_name}"
+    name = "${3:name}"
+}

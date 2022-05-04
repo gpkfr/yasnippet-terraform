@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_corp_rule
+# key: r_sigsci_corp_rule
+# --
+
+resource "sigsci_corp_rule" "${1:this}" {
+    corp_scope = "${2:corp_scope}"
+    enabled = "${3:enabled}"
+    expiration = "${4:expiration}"
+    group_operator = "${5:group_operator}"
+    reason = "${6:reason}"
+    type = "${7:type}"
+}

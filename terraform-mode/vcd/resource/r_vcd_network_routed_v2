@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vcd_network_routed_v2
+# key: r_vcd_network_routed_v2
+# --
+
+resource "vcd_network_routed_v2" "${1:this}" {
+    edge_gateway_id = "${2:edge_gateway_id}"
+    gateway = "${3:gateway}"
+    name = "${4:name}"
+    prefix_length = "${5:prefix_length}"
+}

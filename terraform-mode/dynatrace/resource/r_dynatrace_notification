@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_notification
+# key: r_dynatrace_notification
+# --
+
+resource "dynatrace_notification" "${1:this}" {
+}

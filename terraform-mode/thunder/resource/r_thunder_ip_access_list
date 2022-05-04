@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ip_access_list
+# key: r_thunder_ip_access_list
+# --
+
+resource "thunder_ip_access_list" "${1:this}" {
+}

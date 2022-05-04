@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fivetran_group
+# key: r_fivetran_group
+# --
+
+resource "fivetran_group" "${1:this}" {
+    name = "${2:name}"
+}

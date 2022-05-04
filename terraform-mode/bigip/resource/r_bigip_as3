@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_bigip_as3
+# key: r_bigip_as3
+# --
+
+resource "bigip_as3" "${1:this}" {
+}

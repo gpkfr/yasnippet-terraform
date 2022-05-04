@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationdfaaction
+# key: r_citrixadc_authenticationdfaaction
+# --
+
+resource "citrixadc_authenticationdfaaction" "${1:this}" {
+    clientid = "${2:clientid}"
+    name = "${3:name}"
+    passphrase = "${4:passphrase}"
+    serverurl = "${5:serverurl}"
+}

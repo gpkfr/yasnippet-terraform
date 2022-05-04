@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_k8s_auth_config
+# key: r_akeyless_k8s_auth_config
+# --
+
+resource "akeyless_k8s_auth_config" "${1:this}" {
+    access_id = "${2:access_id}"
+    name = "${3:name}"
+}

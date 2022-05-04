@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_boot_precision_policy
+# key: r_intersight_boot_precision_policy
+# --
+
+resource "intersight_boot_precision_policy" "${1:this}" {
+}

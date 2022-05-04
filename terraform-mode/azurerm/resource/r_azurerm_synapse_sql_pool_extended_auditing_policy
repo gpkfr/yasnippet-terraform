@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_sql_pool_extended_auditing_policy
+# key: r_azurerm_synapse_sql_pool_extended_auditing_policy
+# --
+
+resource "azurerm_synapse_sql_pool_extended_auditing_policy" "${1:this}" {
+    sql_pool_id = "${2:sql_pool_id}"
+}

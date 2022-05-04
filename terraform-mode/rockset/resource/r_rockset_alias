@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_rockset_alias
+# key: r_rockset_alias
+# --
+
+resource "rockset_alias" "${1:this}" {
+    collections = "${2:collections}"
+    name = "${3:name}"
+    workspace = "${4:workspace}"
+}

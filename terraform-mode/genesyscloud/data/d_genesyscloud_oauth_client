@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_oauth_client
+# key: d_genesyscloud_oauth_client
+# --
+
+data "genesyscloud_oauth_client" "${1:this}" {
+    name = "${2:name}"
+}

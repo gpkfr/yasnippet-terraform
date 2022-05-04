@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_advanced_settings_logging
+# key: r_akamai_appsec_advanced_settings_logging
+# --
+
+resource "akamai_appsec_advanced_settings_logging" "${1:this}" {
+    config_id = "${2:config_id}"
+    logging = "${3:logging}"
+    version = "${4:version}"
+}

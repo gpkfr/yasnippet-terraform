@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotwireless_wireless_gateway
+# key: d_awscc_iotwireless_wireless_gateway
+# --
+
+data "awscc_iotwireless_wireless_gateway" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_function_app_active_slot
+# key: r_azurerm_function_app_active_slot
+# --
+
+resource "azurerm_function_app_active_slot" "${1:this}" {
+    slot_id = "${2:slot_id}"
+}

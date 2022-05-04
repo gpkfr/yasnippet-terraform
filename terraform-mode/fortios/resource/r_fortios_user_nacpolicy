@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_user_nacpolicy
+# key: r_fortios_user_nacpolicy
+# --
+
+resource "fortios_user_nacpolicy" "${1:this}" {
+}

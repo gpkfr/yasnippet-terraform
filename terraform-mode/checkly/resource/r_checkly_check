@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_checkly_check
+# key: r_checkly_check
+# --
+
+resource "checkly_check" "${1:this}" {
+    activated = "${2:activated}"
+    frequency = "${3:frequency}"
+    name = "${4:name}"
+    type = "${5:type}"
+}

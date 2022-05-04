@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_b2_bucket
+# key: r_b2_bucket
+# --
+
+resource "b2_bucket" "${1:this}" {
+    bucket_name = "${2:bucket_name}"
+    bucket_type = "${3:bucket_type}"
+}

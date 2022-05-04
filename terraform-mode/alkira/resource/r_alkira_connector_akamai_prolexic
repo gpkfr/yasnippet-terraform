@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_alkira_connector_akamai_prolexic
+# key: r_alkira_connector_akamai_prolexic
+# --
+
+resource "alkira_connector_akamai_prolexic" "${1:this}" {
+    akamai_bgp_asn = "${2:akamai_bgp_asn}"
+    akamai_bgp_authentication_key = "${3:akamai_bgp_authentication_key}"
+    cxp = "${4:cxp}"
+    name = "${5:name}"
+    segment_id = "${6:segment_id}"
+    size = "${7:size}"
+}

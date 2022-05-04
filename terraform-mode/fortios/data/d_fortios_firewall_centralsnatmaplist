@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_centralsnatmaplist
+# key: d_fortios_firewall_centralsnatmaplist
+# --
+
+data "fortios_firewall_centralsnatmaplist" "${1:this}" {
+}

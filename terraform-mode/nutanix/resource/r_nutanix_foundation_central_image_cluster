@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_foundation_central_image_cluster
+# key: r_nutanix_foundation_central_image_cluster
+# --
+
+resource "nutanix_foundation_central_image_cluster" "${1:this}" {
+}

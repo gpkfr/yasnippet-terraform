@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_snmp_policy
+# key: d_intersight_snmp_policy
+# --
+
+data "intersight_snmp_policy" "${1:this}" {
+}

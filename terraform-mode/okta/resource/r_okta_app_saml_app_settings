@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_app_saml_app_settings
+# key: r_okta_app_saml_app_settings
+# --
+
+resource "okta_app_saml_app_settings" "${1:this}" {
+    app_id = "${2:app_id}"
+    settings = "${3:settings}"
+}

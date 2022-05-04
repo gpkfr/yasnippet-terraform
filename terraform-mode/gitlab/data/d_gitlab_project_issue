@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_gitlab_project_issue
+# key: d_gitlab_project_issue
+# --
+
+data "gitlab_project_issue" "${1:this}" {
+    iid = "${2:iid}"
+    project = "${3:project}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_network_acl_association
+# key: r_aws_network_acl_association
+# --
+
+resource "aws_network_acl_association" "${1:this}" {
+    network_acl_id = "${2:network_acl_id}"
+    subnet_id = "${3:subnet_id}"
+}

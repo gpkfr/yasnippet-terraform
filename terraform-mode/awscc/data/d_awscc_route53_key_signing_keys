@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53_key_signing_keys
+# key: d_awscc_route53_key_signing_keys
+# --
+
+data "awscc_route53_key_signing_keys" "${1:this}" {
+}

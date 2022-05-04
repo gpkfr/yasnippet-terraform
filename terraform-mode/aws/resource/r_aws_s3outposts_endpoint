@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3outposts_endpoint
+# key: r_aws_s3outposts_endpoint
+# --
+
+resource "aws_s3outposts_endpoint" "${1:this}" {
+    outpost_id = "${2:outpost_id}"
+    security_group_id = "${3:security_group_id}"
+    subnet_id = "${4:subnet_id}"
+}

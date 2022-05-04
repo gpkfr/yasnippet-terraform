@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_admin_radius
+# key: r_fortianalyzer_system_admin_radius
+# --
+
+resource "fortianalyzer_system_admin_radius" "${1:this}" {
+}

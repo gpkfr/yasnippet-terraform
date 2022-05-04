@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_fqdn_tag_rule
+# key: r_aviatrix_fqdn_tag_rule
+# --
+
+resource "aviatrix_fqdn_tag_rule" "${1:this}" {
+    fqdn = "${2:fqdn}"
+    fqdn_tag_name = "${3:fqdn_tag_name}"
+    port = "${4:port}"
+    protocol = "${5:protocol}"
+}

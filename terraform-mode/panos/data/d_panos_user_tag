@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_user_tag
+# key: d_panos_user_tag
+# --
+
+data "panos_user_tag" "${1:this}" {
+}

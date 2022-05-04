@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niaapi_apic_latest_maintained_release
+# key: d_intersight_niaapi_apic_latest_maintained_release
+# --
+
+data "intersight_niaapi_apic_latest_maintained_release" "${1:this}" {
+}

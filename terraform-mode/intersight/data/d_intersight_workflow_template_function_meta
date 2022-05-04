@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_workflow_template_function_meta
+# key: d_intersight_workflow_template_function_meta
+# --
+
+data "intersight_workflow_template_function_meta" "${1:this}" {
+}

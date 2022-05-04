@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudtamerio_aws_iam_policy
+# key: d_cloudtamerio_aws_iam_policy
+# --
+
+data "cloudtamerio_aws_iam_policy" "${1:this}" {
+}

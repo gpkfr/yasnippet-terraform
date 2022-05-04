@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_ai_vision_model
+# key: r_oci_ai_vision_model
+# --
+
+resource "oci_ai_vision_model" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    model_type = "${3:model_type}"
+    project_id = "${4:project_id}"
+}

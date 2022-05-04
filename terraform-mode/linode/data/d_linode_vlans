@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_linode_vlans
+# key: d_linode_vlans
+# --
+
+data "linode_vlans" "${1:this}" {
+}

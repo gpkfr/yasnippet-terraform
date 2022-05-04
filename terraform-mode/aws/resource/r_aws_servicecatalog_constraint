@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_servicecatalog_constraint
+# key: r_aws_servicecatalog_constraint
+# --
+
+resource "aws_servicecatalog_constraint" "${1:this}" {
+    parameters = "${2:parameters}"
+    portfolio_id = "${3:portfolio_id}"
+    product_id = "${4:product_id}"
+    type = "${5:type}"
+}

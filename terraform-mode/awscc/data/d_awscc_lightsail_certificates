@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lightsail_certificates
+# key: d_awscc_lightsail_certificates
+# --
+
+data "awscc_lightsail_certificates" "${1:this}" {
+}

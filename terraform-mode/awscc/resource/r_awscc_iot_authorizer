@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_authorizer
+# key: r_awscc_iot_authorizer
+# --
+
+resource "awscc_iot_authorizer" "${1:this}" {
+    authorizer_function_arn = "${2:authorizer_function_arn}"
+}

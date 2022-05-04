@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_add_sdm_columns
+# key: r_oci_data_safe_add_sdm_columns
+# --
+
+resource "oci_data_safe_add_sdm_columns" "${1:this}" {
+    masking_policy_id = "${2:masking_policy_id}"
+}

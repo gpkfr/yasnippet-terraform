@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_launchdarkly_environment
+# key: d_launchdarkly_environment
+# --
+
+data "launchdarkly_environment" "${1:this}" {
+    key = "${2:key}"
+    project_key = "${3:project_key}"
+}

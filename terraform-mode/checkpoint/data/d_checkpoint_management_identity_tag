@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_identity_tag
+# key: d_checkpoint_management_identity_tag
+# --
+
+data "checkpoint_management_identity_tag" "${1:this}" {
+}

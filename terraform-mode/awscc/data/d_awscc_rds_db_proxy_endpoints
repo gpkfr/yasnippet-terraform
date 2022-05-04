@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_rds_db_proxy_endpoints
+# key: d_awscc_rds_db_proxy_endpoints
+# --
+
+data "awscc_rds_db_proxy_endpoints" "${1:this}" {
+}

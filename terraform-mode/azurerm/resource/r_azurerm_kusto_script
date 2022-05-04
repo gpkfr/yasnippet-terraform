@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_kusto_script
+# key: r_azurerm_kusto_script
+# --
+
+resource "azurerm_kusto_script" "${1:this}" {
+    database_id = "${2:database_id}"
+    name = "${3:name}"
+    sas_token = "${4:sas_token}"
+    url = "${5:url}"
+}

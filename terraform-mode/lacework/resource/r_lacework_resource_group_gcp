@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lacework_resource_group_gcp
+# key: r_lacework_resource_group_gcp
+# --
+
+resource "lacework_resource_group_gcp" "${1:this}" {
+    name = "${2:name}"
+    organization = "${3:organization}"
+    projects = "${4:projects}"
+}

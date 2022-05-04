@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_hcp_consul_snapshot
+# key: r_hcp_consul_snapshot
+# --
+
+resource "hcp_consul_snapshot" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    snapshot_name = "${3:snapshot_name}"
+}

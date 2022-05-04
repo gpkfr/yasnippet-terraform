@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_metal_hardware_reservation
+# key: d_metal_hardware_reservation
+# --
+
+data "metal_hardware_reservation" "${1:this}" {
+}

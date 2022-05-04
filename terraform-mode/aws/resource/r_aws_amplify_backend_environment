@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_amplify_backend_environment
+# key: r_aws_amplify_backend_environment
+# --
+
+resource "aws_amplify_backend_environment" "${1:this}" {
+    app_id = "${2:app_id}"
+    environment_name = "${3:environment_name}"
+}

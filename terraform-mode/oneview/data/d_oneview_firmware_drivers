@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_firmware_drivers
+# key: d_oneview_firmware_drivers
+# --
+
+data "oneview_firmware_drivers" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_csv
+# key: d_elasticstack_elasticsearch_ingest_processor_csv
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_csv" "${1:this}" {
+    field = "${2:field}"
+    target_fields = "${3:target_fields}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_syslog_policy
+# key: r_intersight_syslog_policy
+# --
+
+resource "intersight_syslog_policy" "${1:this}" {
+}

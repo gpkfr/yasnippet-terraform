@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_lakeformation_data_lake_settings
+# key: r_aws_lakeformation_data_lake_settings
+# --
+
+resource "aws_lakeformation_data_lake_settings" "${1:this}" {
+}

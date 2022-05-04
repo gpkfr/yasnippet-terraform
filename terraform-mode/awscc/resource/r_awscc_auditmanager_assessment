@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_auditmanager_assessment
+# key: r_awscc_auditmanager_assessment
+# --
+
+resource "awscc_auditmanager_assessment" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_certificates
+# key: d_awscc_iot_certificates
+# --
+
+data "awscc_iot_certificates" "${1:this}" {
+}

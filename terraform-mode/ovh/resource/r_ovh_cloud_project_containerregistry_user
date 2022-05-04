@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ovh_cloud_project_containerregistry_user
+# key: r_ovh_cloud_project_containerregistry_user
+# --
+
+resource "ovh_cloud_project_containerregistry_user" "${1:this}" {
+    email = "${2:email}"
+    login = "${3:login}"
+    registry_id = "${4:registry_id}"
+    service_name = "${5:service_name}"
+}

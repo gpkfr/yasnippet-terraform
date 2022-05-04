@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_transfer_workflow
+# key: d_awscc_transfer_workflow
+# --
+
+data "awscc_transfer_workflow" "${1:this}" {
+    id = "${2:id}"
+}

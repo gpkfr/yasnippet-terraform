@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_desktop_application
+# key: r_azurerm_virtual_desktop_application
+# --
+
+resource "azurerm_virtual_desktop_application" "${1:this}" {
+    application_group_id = "${2:application_group_id}"
+    command_line_argument_policy = "${3:command_line_argument_policy}"
+    name = "${4:name}"
+    path = "${5:path}"
+}

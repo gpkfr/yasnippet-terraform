@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_code_repository
+# key: r_aws_sagemaker_code_repository
+# --
+
+resource "aws_sagemaker_code_repository" "${1:this}" {
+    code_repository_name = "${2:code_repository_name}"
+}

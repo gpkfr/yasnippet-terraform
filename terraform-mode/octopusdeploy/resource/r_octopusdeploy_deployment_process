@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_deployment_process
+# key: r_octopusdeploy_deployment_process
+# --
+
+resource "octopusdeploy_deployment_process" "${1:this}" {
+    project_id = "${2:project_id}"
+}

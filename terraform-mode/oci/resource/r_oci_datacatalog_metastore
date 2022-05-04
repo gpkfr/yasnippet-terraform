@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_datacatalog_metastore
+# key: r_oci_datacatalog_metastore
+# --
+
+resource "oci_datacatalog_metastore" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    default_external_table_location = "${3:default_external_table_location}"
+    default_managed_table_location = "${4:default_managed_table_location}"
+}

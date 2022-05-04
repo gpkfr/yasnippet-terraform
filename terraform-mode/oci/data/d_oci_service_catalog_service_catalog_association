@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_service_catalog_service_catalog_association
+# key: d_oci_service_catalog_service_catalog_association
+# --
+
+data "oci_service_catalog_service_catalog_association" "${1:this}" {
+    service_catalog_association_id = "${2:service_catalog_association_id}"
+}

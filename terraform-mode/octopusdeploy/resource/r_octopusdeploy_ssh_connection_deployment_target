@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_ssh_connection_deployment_target
+# key: r_octopusdeploy_ssh_connection_deployment_target
+# --
+
+resource "octopusdeploy_ssh_connection_deployment_target" "${1:this}" {
+    account_id = "${2:account_id}"
+    environments = "${3:environments}"
+    fingerprint = "${4:fingerprint}"
+    host = "${5:host}"
+    name = "${6:name}"
+    roles = "${7:roles}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_bgp_asn_set
+# key: r_volterra_bgp_asn_set
+# --
+
+resource "volterra_bgp_asn_set" "${1:this}" {
+    as_numbers = "${2:as_numbers}"
+    name = "${3:name}"
+    namespace = "${4:namespace}"
+}

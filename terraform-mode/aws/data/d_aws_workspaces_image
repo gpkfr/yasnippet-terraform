@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_workspaces_image
+# key: d_aws_workspaces_image
+# --
+
+data "aws_workspaces_image" "${1:this}" {
+    image_id = "${2:image_id}"
+}

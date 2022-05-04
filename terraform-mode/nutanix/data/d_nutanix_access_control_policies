@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_access_control_policies
+# key: d_nutanix_access_control_policies
+# --
+
+data "nutanix_access_control_policies" "${1:this}" {
+}

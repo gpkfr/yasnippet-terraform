@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ethernet
+# key: r_thunder_ethernet
+# --
+
+resource "thunder_ethernet" "${1:this}" {
+}

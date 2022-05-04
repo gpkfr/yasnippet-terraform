@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_athena_named_queries
+# key: d_awscc_athena_named_queries
+# --
+
+data "awscc_athena_named_queries" "${1:this}" {
+}

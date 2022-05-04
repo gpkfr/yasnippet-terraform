@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_router_communitylist
+# key: r_fortimanager_object_router_communitylist
+# --
+
+resource "fortimanager_object_router_communitylist" "${1:this}" {
+}

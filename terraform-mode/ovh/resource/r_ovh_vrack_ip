@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ovh_vrack_ip
+# key: r_ovh_vrack_ip
+# --
+
+resource "ovh_vrack_ip" "${1:this}" {
+    block = "${2:block}"
+    service_name = "${3:service_name}"
+}

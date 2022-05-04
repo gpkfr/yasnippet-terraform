@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_attack_group_action
+# key: r_akamai_appsec_attack_group_action
+# --
+
+resource "akamai_appsec_attack_group_action" "${1:this}" {
+    attack_group = "${2:attack_group}"
+    attack_group_action = "${3:attack_group_action}"
+    config_id = "${4:config_id}"
+    security_policy_id = "${5:security_policy_id}"
+    version = "${6:version}"
+}

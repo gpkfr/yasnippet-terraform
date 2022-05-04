@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudfront_response_headers_policy
+# key: r_awscc_cloudfront_response_headers_policy
+# --
+
+resource "awscc_cloudfront_response_headers_policy" "${1:this}" {
+    response_headers_policy_config = "${2:response_headers_policy_config}"
+}

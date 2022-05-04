@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ilert_alert_source
+# key: d_ilert_alert_source
+# --
+
+data "ilert_alert_source" "${1:this}" {
+    name = "${2:name}"
+}

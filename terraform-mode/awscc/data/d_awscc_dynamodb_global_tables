@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_dynamodb_global_tables
+# key: d_awscc_dynamodb_global_tables
+# --
+
+data "awscc_dynamodb_global_tables" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cohesity_job_run
+# key: r_cohesity_job_run
+# --
+
+resource "cohesity_job_run" "${1:this}" {
+    name = "${2:name}"
+    timestamp = "${3:timestamp}"
+}

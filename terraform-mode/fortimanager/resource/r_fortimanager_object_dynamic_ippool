@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_dynamic_ippool
+# key: r_fortimanager_object_dynamic_ippool
+# --
+
+resource "fortimanager_object_dynamic_ippool" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ah_ssh_keys
+# key: d_ah_ssh_keys
+# --
+
+data "ah_ssh_keys" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_boundary_account_oidc
+# key: r_boundary_account_oidc
+# --
+
+resource "boundary_account_oidc" "${1:this}" {
+    auth_method_id = "${2:auth_method_id}"
+}

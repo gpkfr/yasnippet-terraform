@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_azure_service_principal
+# key: r_octopusdeploy_azure_service_principal
+# --
+
+resource "octopusdeploy_azure_service_principal" "${1:this}" {
+    application_id = "${2:application_id}"
+    name = "${3:name}"
+    password = "${4:password}"
+    subscription_id = "${5:subscription_id}"
+    tenant_id = "${6:tenant_id}"
+}

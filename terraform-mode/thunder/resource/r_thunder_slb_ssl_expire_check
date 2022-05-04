@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_ssl_expire_check
+# key: r_thunder_slb_ssl_expire_check
+# --
+
+resource "thunder_slb_ssl_expire_check" "${1:this}" {
+}

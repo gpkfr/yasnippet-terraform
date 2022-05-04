@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudformation_type_activations
+# key: d_awscc_cloudformation_type_activations
+# --
+
+data "awscc_cloudformation_type_activations" "${1:this}" {
+}

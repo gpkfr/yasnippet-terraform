@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_splunkconfig_role_names
+# key: d_splunkconfig_role_names
+# --
+
+data "splunkconfig_role_names" "${1:this}" {
+}

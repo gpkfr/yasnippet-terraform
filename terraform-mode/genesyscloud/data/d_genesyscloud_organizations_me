@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_organizations_me
+# key: d_genesyscloud_organizations_me
+# --
+
+data "genesyscloud_organizations_me" "${1:this}" {
+}

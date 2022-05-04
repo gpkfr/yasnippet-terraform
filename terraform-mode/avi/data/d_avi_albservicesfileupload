@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_albservicesfileupload
+# key: d_avi_albservicesfileupload
+# --
+
+data "avi_albservicesfileupload" "${1:this}" {
+}

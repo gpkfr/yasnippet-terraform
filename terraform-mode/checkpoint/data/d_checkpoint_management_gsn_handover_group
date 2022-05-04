@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_gsn_handover_group
+# key: d_checkpoint_management_gsn_handover_group
+# --
+
+data "checkpoint_management_gsn_handover_group" "${1:this}" {
+}

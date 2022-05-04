@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_anaml_feature_set
+# key: r_anaml_feature_set
+# --
+
+resource "anaml_feature_set" "${1:this}" {
+    entity = "${2:entity}"
+    features = "${3:features}"
+    name = "${4:name}"
+}

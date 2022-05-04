@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_notification_policy
+# key: r_cloudflare_notification_policy
+# --
+
+resource "cloudflare_notification_policy" "${1:this}" {
+    account_id = "${2:account_id}"
+    alert_type = "${3:alert_type}"
+    enabled = "${4:enabled}"
+    name = "${5:name}"
+}

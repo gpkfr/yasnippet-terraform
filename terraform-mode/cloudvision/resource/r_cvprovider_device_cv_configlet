@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cvprovider_device_cv_configlet
+# key: r_cvprovider_device_cv_configlet
+# --
+
+resource "cvprovider_device_cv_configlet" "${1:this}" {
+}

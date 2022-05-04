@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_endpoints_service_consumers_iam_policy
+# key: r_google_endpoints_service_consumers_iam_policy
+# --
+
+resource "google_endpoints_service_consumers_iam_policy" "${1:this}" {
+    consumer_project = "${2:consumer_project}"
+    policy_data = "${3:policy_data}"
+    service_name = "${4:service_name}"
+}

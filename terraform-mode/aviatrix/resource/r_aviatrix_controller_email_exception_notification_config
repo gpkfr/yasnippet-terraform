@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_controller_email_exception_notification_config
+# key: r_aviatrix_controller_email_exception_notification_config
+# --
+
+resource "aviatrix_controller_email_exception_notification_config" "${1:this}" {
+}

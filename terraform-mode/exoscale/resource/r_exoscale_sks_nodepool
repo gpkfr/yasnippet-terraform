@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_exoscale_sks_nodepool
+# key: r_exoscale_sks_nodepool
+# --
+
+resource "exoscale_sks_nodepool" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    instance_type = "${3:instance_type}"
+    name = "${4:name}"
+    size = "${5:size}"
+    zone = "${6:zone}"
+}

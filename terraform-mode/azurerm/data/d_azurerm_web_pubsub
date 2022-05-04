@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_web_pubsub
+# key: d_azurerm_web_pubsub
+# --
+
+data "azurerm_web_pubsub" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+}

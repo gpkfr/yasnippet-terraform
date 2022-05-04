@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_anxcloud_vsphere_locations
+# key: d_anxcloud_vsphere_locations
+# --
+
+data "anxcloud_vsphere_locations" "${1:this}" {
+}

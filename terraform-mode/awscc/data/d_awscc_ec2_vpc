@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_vpc
+# key: d_awscc_ec2_vpc
+# --
+
+data "awscc_ec2_vpc" "${1:this}" {
+    id = "${2:id}"
+}

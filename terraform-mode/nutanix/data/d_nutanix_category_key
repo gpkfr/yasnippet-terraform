@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_category_key
+# key: d_nutanix_category_key
+# --
+
+data "nutanix_category_key" "${1:this}" {
+    name = "${2:name}"
+}

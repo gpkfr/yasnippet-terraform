@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_site24x7_monitors
+# key: d_site24x7_monitors
+# --
+
+data "site24x7_monitors" "${1:this}" {
+}

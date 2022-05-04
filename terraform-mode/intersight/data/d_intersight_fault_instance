@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fault_instance
+# key: d_intersight_fault_instance
+# --
+
+data "intersight_fault_instance" "${1:this}" {
+}

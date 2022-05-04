@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ivs_playback_key_pair
+# key: r_awscc_ivs_playback_key_pair
+# --
+
+resource "awscc_ivs_playback_key_pair" "${1:this}" {
+    public_key_material = "${2:public_key_material}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_account_alternate_contact
+# key: r_aws_account_alternate_contact
+# --
+
+resource "aws_account_alternate_contact" "${1:this}" {
+    alternate_contact_type = "${2:alternate_contact_type}"
+    email_address = "${3:email_address}"
+    name = "${4:name}"
+    phone_number = "${5:phone_number}"
+    title = "${6:title}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_public_ip
+# key: r_volterra_public_ip
+# --
+
+resource "volterra_public_ip" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lacework_report_rule
+# key: r_lacework_report_rule
+# --
+
+resource "lacework_report_rule" "${1:this}" {
+    email_alert_channels = "${2:email_alert_channels}"
+    name = "${3:name}"
+    severities = "${4:severities}"
+}

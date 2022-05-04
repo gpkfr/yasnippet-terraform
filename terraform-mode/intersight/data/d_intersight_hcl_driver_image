@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hcl_driver_image
+# key: d_intersight_hcl_driver_image
+# --
+
+data "intersight_hcl_driver_image" "${1:this}" {
+}

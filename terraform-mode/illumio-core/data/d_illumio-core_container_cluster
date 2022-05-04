@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_container_cluster
+# key: d_illumio-core_container_cluster
+# --
+
+data "illumio-core_container_cluster" "${1:this}" {
+    href = "${2:href}"
+}

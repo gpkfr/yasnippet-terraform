@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cassandra_table
+# key: d_awscc_cassandra_table
+# --
+
+data "awscc_cassandra_table" "${1:this}" {
+    id = "${2:id}"
+}

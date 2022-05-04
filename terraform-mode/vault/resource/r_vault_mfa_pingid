@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vault_mfa_pingid
+# key: r_vault_mfa_pingid
+# --
+
+resource "vault_mfa_pingid" "${1:this}" {
+    mount_accessor = "${2:mount_accessor}"
+    name = "${3:name}"
+    settings_file_base64 = "${4:settings_file_base64}"
+}

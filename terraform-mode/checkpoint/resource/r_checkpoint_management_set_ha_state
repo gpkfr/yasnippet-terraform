@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_set_ha_state
+# key: r_checkpoint_management_set_ha_state
+# --
+
+resource "checkpoint_management_set_ha_state" "${1:this}" {
+    new_state = "${2:new_state}"
+}

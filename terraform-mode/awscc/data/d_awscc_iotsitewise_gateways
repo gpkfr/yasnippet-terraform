@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotsitewise_gateways
+# key: d_awscc_iotsitewise_gateways
+# --
+
+data "awscc_iotsitewise_gateways" "${1:this}" {
+}

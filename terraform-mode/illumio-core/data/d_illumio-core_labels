@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_labels
+# key: d_illumio-core_labels
+# --
+
+data "illumio-core_labels" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_splunk_logging
+# key: r_aviatrix_splunk_logging
+# --
+
+resource "aviatrix_splunk_logging" "${1:this}" {
+}

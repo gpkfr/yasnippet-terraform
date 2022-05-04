@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_hcs_snapshot
+# key: r_hcs_snapshot
+# --
+
+resource "hcs_snapshot" "${1:this}" {
+    managed_application_name = "${2:managed_application_name}"
+    resource_group_name = "${3:resource_group_name}"
+    snapshot_name = "${4:snapshot_name}"
+}

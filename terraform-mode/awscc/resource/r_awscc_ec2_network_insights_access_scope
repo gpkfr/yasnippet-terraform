@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_network_insights_access_scope
+# key: r_awscc_ec2_network_insights_access_scope
+# --
+
+resource "awscc_ec2_network_insights_access_scope" "${1:this}" {
+}

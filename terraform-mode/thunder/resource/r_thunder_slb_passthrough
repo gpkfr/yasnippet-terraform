@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_passthrough
+# key: r_thunder_slb_passthrough
+# --
+
+resource "thunder_slb_passthrough" "${1:this}" {
+}

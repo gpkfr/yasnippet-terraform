@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_location
+# key: r_fortios_switchcontroller_location
+# --
+
+resource "fortios_switchcontroller_location" "${1:this}" {
+}

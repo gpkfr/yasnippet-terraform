@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ah_cloud_server_snapshot
+# key: r_ah_cloud_server_snapshot
+# --
+
+resource "ah_cloud_server_snapshot" "${1:this}" {
+    cloud_server_id = "${2:cloud_server_id}"
+}

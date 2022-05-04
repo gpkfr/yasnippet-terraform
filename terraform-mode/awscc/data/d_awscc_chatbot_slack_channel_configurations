@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_chatbot_slack_channel_configurations
+# key: d_awscc_chatbot_slack_channel_configurations
+# --
+
+data "awscc_chatbot_slack_channel_configurations" "${1:this}" {
+}

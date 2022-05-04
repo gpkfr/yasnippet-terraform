@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: d_ovh_order_cart_product_options_plan
+# key: d_ovh_order_cart_product_options_plan
+# --
+
+data "ovh_order_cart_product_options_plan" "${1:this}" {
+    cart_id = "${2:cart_id}"
+    options_plan_code = "${3:options_plan_code}"
+    plan_code = "${4:plan_code}"
+    price_capacity = "${5:price_capacity}"
+    product = "${6:product}"
+}

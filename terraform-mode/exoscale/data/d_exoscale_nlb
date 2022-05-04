@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_exoscale_nlb
+# key: d_exoscale_nlb
+# --
+
+data "exoscale_nlb" "${1:this}" {
+    zone = "${2:zone}"
+}

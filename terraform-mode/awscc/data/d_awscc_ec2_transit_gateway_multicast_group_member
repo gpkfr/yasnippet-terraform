@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_transit_gateway_multicast_group_member
+# key: d_awscc_ec2_transit_gateway_multicast_group_member
+# --
+
+data "awscc_ec2_transit_gateway_multicast_group_member" "${1:this}" {
+    id = "${2:id}"
+}

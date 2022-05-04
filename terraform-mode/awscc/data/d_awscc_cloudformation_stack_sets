@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudformation_stack_sets
+# key: d_awscc_cloudformation_stack_sets
+# --
+
+data "awscc_cloudformation_stack_sets" "${1:this}" {
+}

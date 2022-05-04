@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vdc_group
+# key: r_vcd_vdc_group
+# --
+
+resource "vcd_vdc_group" "${1:this}" {
+    name = "${2:name}"
+    participating_vdc_ids = "${3:participating_vdc_ids}"
+    starting_vdc_id = "${4:starting_vdc_id}"
+}

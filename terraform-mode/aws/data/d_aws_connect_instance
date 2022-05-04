@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_connect_instance
+# key: d_aws_connect_instance
+# --
+
+data "aws_connect_instance" "${1:this}" {
+}

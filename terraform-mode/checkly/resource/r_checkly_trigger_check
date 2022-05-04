@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_checkly_trigger_check
+# key: r_checkly_trigger_check
+# --
+
+resource "checkly_trigger_check" "${1:this}" {
+    check_id = "${2:check_id}"
+}

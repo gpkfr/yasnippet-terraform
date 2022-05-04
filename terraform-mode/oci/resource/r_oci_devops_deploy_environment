@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_devops_deploy_environment
+# key: r_oci_devops_deploy_environment
+# --
+
+resource "oci_devops_deploy_environment" "${1:this}" {
+    deploy_environment_type = "${2:deploy_environment_type}"
+    project_id = "${3:project_id}"
+}

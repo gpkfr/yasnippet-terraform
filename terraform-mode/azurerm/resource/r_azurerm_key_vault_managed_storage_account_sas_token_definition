@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_key_vault_managed_storage_account_sas_token_definition
+# key: r_azurerm_key_vault_managed_storage_account_sas_token_definition
+# --
+
+resource "azurerm_key_vault_managed_storage_account_sas_token_definition" "${1:this}" {
+    managed_storage_account_id = "${2:managed_storage_account_id}"
+    name = "${3:name}"
+    sas_template_uri = "${4:sas_template_uri}"
+    sas_type = "${5:sas_type}"
+    validity_period = "${6:validity_period}"
+}

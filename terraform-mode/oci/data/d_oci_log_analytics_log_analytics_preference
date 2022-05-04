@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_log_analytics_log_analytics_preference
+# key: d_oci_log_analytics_log_analytics_preference
+# --
+
+data "oci_log_analytics_log_analytics_preference" "${1:this}" {
+    namespace = "${2:namespace}"
+}

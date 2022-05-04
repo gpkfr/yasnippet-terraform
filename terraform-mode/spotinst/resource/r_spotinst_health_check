@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_health_check
+# key: r_spotinst_health_check
+# --
+
+resource "spotinst_health_check" "${1:this}" {
+    proxy_address = "${2:proxy_address}"
+    resource_id = "${3:resource_id}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_stackbill_network
+# key: r_stackbill_network
+# --
+
+resource "stackbill_network" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+    network_offering_uuid = "${4:network_offering_uuid}"
+    zone_uuid = "${5:zone_uuid}"
+}

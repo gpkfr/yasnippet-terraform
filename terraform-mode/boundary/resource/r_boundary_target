@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_boundary_target
+# key: r_boundary_target
+# --
+
+resource "boundary_target" "${1:this}" {
+    scope_id = "${2:scope_id}"
+    type = "${3:type}"
+}

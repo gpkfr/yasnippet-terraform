@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_codefresh_context
+# key: r_codefresh_context
+# --
+
+resource "codefresh_context" "${1:this}" {
+    name = "${2:name}"
+}

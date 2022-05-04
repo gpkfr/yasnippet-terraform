@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_apprunner_auto_scaling_configuration_version
+# key: r_aws_apprunner_auto_scaling_configuration_version
+# --
+
+resource "aws_apprunner_auto_scaling_configuration_version" "${1:this}" {
+    auto_scaling_configuration_name = "${2:auto_scaling_configuration_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rafay_project
+# key: r_rafay_project
+# --
+
+resource "rafay_project" "${1:this}" {
+}

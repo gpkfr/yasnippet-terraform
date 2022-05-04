@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_registry_image
+# key: d_scaleway_registry_image
+# --
+
+data "scaleway_registry_image" "${1:this}" {
+}

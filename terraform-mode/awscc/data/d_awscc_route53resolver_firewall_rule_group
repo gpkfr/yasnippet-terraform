@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53resolver_firewall_rule_group
+# key: d_awscc_route53resolver_firewall_rule_group
+# --
+
+data "awscc_route53resolver_firewall_rule_group" "${1:this}" {
+    id = "${2:id}"
+}

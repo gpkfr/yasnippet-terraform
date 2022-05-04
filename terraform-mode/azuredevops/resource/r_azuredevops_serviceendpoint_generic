@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_generic
+# key: r_azuredevops_serviceendpoint_generic
+# --
+
+resource "azuredevops_serviceendpoint_generic" "${1:this}" {
+    project_id = "${2:project_id}"
+    server_url = "${3:server_url}"
+    service_endpoint_name = "${4:service_endpoint_name}"
+}

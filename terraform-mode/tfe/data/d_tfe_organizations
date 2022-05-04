@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tfe_organizations
+# key: d_tfe_organizations
+# --
+
+data "tfe_organizations" "${1:this}" {
+}

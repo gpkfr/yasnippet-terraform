@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_privatelink_endpoint_service_adl
+# key: r_mongodbatlas_privatelink_endpoint_service_adl
+# --
+
+resource "mongodbatlas_privatelink_endpoint_service_adl" "${1:this}" {
+    endpoint_id = "${2:endpoint_id}"
+    project_id = "${3:project_id}"
+    provider_name = "${4:provider_name}"
+    type = "${5:type}"
+}

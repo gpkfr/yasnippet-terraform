@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_datadog_synthetics_test
+# key: d_datadog_synthetics_test
+# --
+
+data "datadog_synthetics_test" "${1:this}" {
+    test_id = "${2:test_id}"
+}

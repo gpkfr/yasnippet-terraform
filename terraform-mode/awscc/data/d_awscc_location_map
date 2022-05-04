@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_location_map
+# key: d_awscc_location_map
+# --
+
+data "awscc_location_map" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_vm_restore_operation
+# key: r_intersight_hyperflex_vm_restore_operation
+# --
+
+resource "intersight_hyperflex_vm_restore_operation" "${1:this}" {
+}

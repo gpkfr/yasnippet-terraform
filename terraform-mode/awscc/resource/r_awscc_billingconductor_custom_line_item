@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_billingconductor_custom_line_item
+# key: r_awscc_billingconductor_custom_line_item
+# --
+
+resource "awscc_billingconductor_custom_line_item" "${1:this}" {
+    billing_group_arn = "${2:billing_group_arn}"
+    name = "${3:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_glue_schema_version_metadata
+# key: r_awscc_glue_schema_version_metadata
+# --
+
+resource "awscc_glue_schema_version_metadata" "${1:this}" {
+    key = "${2:key}"
+    schema_version_id = "${3:schema_version_id}"
+    value = "${4:value}"
+}

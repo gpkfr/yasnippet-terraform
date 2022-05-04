@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_elasticstack_elasticsearch_snapshot_lifecycle
+# key: r_elasticstack_elasticsearch_snapshot_lifecycle
+# --
+
+resource "elasticstack_elasticsearch_snapshot_lifecycle" "${1:this}" {
+    name = "${2:name}"
+    repository = "${3:repository}"
+    schedule = "${4:schedule}"
+}

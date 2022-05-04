@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_organization
+# key: d_equinix_metal_organization
+# --
+
+data "equinix_metal_organization" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_stackbill_security_group_list
+# key: d_stackbill_security_group_list
+# --
+
+data "stackbill_security_group_list" "${1:this}" {
+}

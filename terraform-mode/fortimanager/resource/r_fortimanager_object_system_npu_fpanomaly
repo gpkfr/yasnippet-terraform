@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_fpanomaly
+# key: r_fortimanager_object_system_npu_fpanomaly
+# --
+
+resource "fortimanager_object_system_npu_fpanomaly" "${1:this}" {
+}

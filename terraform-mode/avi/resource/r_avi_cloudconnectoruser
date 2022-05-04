@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_cloudconnectoruser
+# key: r_avi_cloudconnectoruser
+# --
+
+resource "avi_cloudconnectoruser" "${1:this}" {
+    name = "${2:name}"
+}

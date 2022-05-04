@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vcd_catalog
+# key: d_vcd_catalog
+# --
+
+data "vcd_catalog" "${1:this}" {
+}

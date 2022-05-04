@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_stackbill_sshkey_list
+# key: d_stackbill_sshkey_list
+# --
+
+data "stackbill_sshkey_list" "${1:this}" {
+}

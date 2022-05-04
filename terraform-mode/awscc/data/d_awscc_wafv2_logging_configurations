@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_wafv2_logging_configurations
+# key: d_awscc_wafv2_logging_configurations
+# --
+
+data "awscc_wafv2_logging_configurations" "${1:this}" {
+}

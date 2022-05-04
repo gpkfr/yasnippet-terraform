@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ecl_network_common_function_gateway_v2
+# key: r_ecl_network_common_function_gateway_v2
+# --
+
+resource "ecl_network_common_function_gateway_v2" "${1:this}" {
+    common_function_pool_id = "${2:common_function_pool_id}"
+}

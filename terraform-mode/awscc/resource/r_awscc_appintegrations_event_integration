@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_appintegrations_event_integration
+# key: r_awscc_appintegrations_event_integration
+# --
+
+resource "awscc_appintegrations_event_integration" "${1:this}" {
+    event_bridge_bus = "${2:event_bridge_bus}"
+    event_filter = "${3:event_filter}"
+    name = "${4:name}"
+}

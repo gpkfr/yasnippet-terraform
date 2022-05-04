@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_fivetran_connector
+# key: r_fivetran_connector
+# --
+
+resource "fivetran_connector" "${1:this}" {
+    group_id = "${2:group_id}"
+    pause_after_trial = "${3:pause_after_trial}"
+    paused = "${4:paused}"
+    service = "${5:service}"
+    sync_frequency = "${6:sync_frequency}"
+}

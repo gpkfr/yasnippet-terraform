@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_config_organization_conformance_packs
+# key: d_awscc_config_organization_conformance_packs
+# --
+
+data "awscc_config_organization_conformance_packs" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_logfetch_clientprofile
+# key: r_fortianalyzer_system_logfetch_clientprofile
+# --
+
+resource "fortianalyzer_system_logfetch_clientprofile" "${1:this}" {
+}

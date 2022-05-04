@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_proxyaddress
+# key: d_fortios_firewall_proxyaddress
+# --
+
+data "fortios_firewall_proxyaddress" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aquasec_enforcer_groups
+# key: d_aquasec_enforcer_groups
+# --
+
+data "aquasec_enforcer_groups" "${1:this}" {
+    group_id = "${2:group_id}"
+}

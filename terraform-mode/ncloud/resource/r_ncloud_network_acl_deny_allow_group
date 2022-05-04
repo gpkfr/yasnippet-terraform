@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_network_acl_deny_allow_group
+# key: r_ncloud_network_acl_deny_allow_group
+# --
+
+resource "ncloud_network_acl_deny_allow_group" "${1:this}" {
+    ip_list = "${2:ip_list}"
+    vpc_no = "${3:vpc_no}"
+}

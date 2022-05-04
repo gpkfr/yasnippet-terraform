@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_spectrocloud_pack
+# key: d_spectrocloud_pack
+# --
+
+data "spectrocloud_pack" "${1:this}" {
+}

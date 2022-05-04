@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_kafkaconnect_connector
+# key: d_awscc_kafkaconnect_connector
+# --
+
+data "awscc_kafkaconnect_connector" "${1:this}" {
+    id = "${2:id}"
+}

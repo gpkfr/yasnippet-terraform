@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_topic_rule
+# key: d_awscc_iot_topic_rule
+# --
+
+data "awscc_iot_topic_rule" "${1:this}" {
+    id = "${2:id}"
+}

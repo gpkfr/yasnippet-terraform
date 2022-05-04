@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_shoreline_alarm
+# key: r_shoreline_alarm
+# --
+
+resource "shoreline_alarm" "${1:this}" {
+    fire_query = "${2:fire_query}"
+    name = "${3:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iaas_device_status
+# key: d_intersight_iaas_device_status
+# --
+
+data "intersight_iaas_device_status" "${1:this}" {
+}

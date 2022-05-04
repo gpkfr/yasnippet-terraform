@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_anaml-operations_event_store
+# key: r_anaml-operations_event_store
+# --
+
+resource "anaml-operations_event_store" "${1:this}" {
+    bootstrap_servers = "${2:bootstrap_servers}"
+    cluster = "${3:cluster}"
+    connect_base_uri = "${4:connect_base_uri}"
+    description = "${5:description}"
+    glacier_base_uri = "${6:glacier_base_uri}"
+    name = "${7:name}"
+    scatter_base_uri = "${8:scatter_base_uri}"
+    schema_registry_url = "${9:schema_registry_url}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotwireless_multicast_group
+# key: r_awscc_iotwireless_multicast_group
+# --
+
+resource "awscc_iotwireless_multicast_group" "${1:this}" {
+    lo_ra_wan = "${2:lo_ra_wan}"
+}

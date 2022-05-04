@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_firewall
+# key: d_digitalocean_firewall
+# --
+
+data "digitalocean_firewall" "${1:this}" {
+    firewall_id = "${2:firewall_id}"
+}

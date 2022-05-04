@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_tfe_agent_pool
+# key: d_tfe_agent_pool
+# --
+
+data "tfe_agent_pool" "${1:this}" {
+    name = "${2:name}"
+    organization = "${3:organization}"
+}

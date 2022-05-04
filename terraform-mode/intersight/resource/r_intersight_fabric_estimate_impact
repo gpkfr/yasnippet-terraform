@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fabric_estimate_impact
+# key: r_intersight_fabric_estimate_impact
+# --
+
+resource "intersight_fabric_estimate_impact" "${1:this}" {
+}

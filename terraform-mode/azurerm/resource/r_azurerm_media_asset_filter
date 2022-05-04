@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_media_asset_filter
+# key: r_azurerm_media_asset_filter
+# --
+
+resource "azurerm_media_asset_filter" "${1:this}" {
+    asset_id = "${2:asset_id}"
+    name = "${3:name}"
+}

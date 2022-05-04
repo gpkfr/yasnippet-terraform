@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_metal_vlan
+# key: d_metal_vlan
+# --
+
+data "metal_vlan" "${1:this}" {
+}

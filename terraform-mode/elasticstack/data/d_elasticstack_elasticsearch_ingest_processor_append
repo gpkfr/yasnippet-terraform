@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_append
+# key: d_elasticstack_elasticsearch_ingest_processor_append
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_append" "${1:this}" {
+    field = "${2:field}"
+    value = "${3:value}"
+}

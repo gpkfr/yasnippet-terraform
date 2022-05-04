@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudscale_server_group
+# key: d_cloudscale_server_group
+# --
+
+data "cloudscale_server_group" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_bulk_export
+# key: r_intersight_bulk_export
+# --
+
+resource "intersight_bulk_export" "${1:this}" {
+}

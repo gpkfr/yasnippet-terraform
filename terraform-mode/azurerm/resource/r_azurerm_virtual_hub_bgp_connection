@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_hub_bgp_connection
+# key: r_azurerm_virtual_hub_bgp_connection
+# --
+
+resource "azurerm_virtual_hub_bgp_connection" "${1:this}" {
+    name = "${2:name}"
+    peer_asn = "${3:peer_asn}"
+    peer_ip = "${4:peer_ip}"
+    virtual_hub_id = "${5:virtual_hub_id}"
+}

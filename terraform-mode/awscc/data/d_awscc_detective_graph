@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_detective_graph
+# key: d_awscc_detective_graph
+# --
+
+data "awscc_detective_graph" "${1:this}" {
+    id = "${2:id}"
+}

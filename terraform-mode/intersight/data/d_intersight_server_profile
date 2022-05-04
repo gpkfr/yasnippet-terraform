@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_server_profile
+# key: d_intersight_server_profile
+# --
+
+data "intersight_server_profile" "${1:this}" {
+}

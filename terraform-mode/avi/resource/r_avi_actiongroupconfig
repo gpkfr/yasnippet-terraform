@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_avi_actiongroupconfig
+# key: r_avi_actiongroupconfig
+# --
+
+resource "avi_actiongroupconfig" "${1:this}" {
+    external_only = "${2:external_only}"
+    level = "${3:level}"
+    name = "${4:name}"
+}

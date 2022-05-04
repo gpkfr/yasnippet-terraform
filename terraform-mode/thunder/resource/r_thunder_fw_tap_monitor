@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_tap_monitor
+# key: r_thunder_fw_tap_monitor
+# --
+
+resource "thunder_fw_tap_monitor" "${1:this}" {
+}

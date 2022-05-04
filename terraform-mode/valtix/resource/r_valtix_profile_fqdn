@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_fqdn
+# key: r_valtix_profile_fqdn
+# --
+
+resource "valtix_profile_fqdn" "${1:this}" {
+    name = "${2:name}"
+}

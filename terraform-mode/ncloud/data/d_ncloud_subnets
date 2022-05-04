@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_subnets
+# key: d_ncloud_subnets
+# --
+
+data "ncloud_subnets" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_subscription_policy_assignment
+# key: r_azurerm_subscription_policy_assignment
+# --
+
+resource "azurerm_subscription_policy_assignment" "${1:this}" {
+    name = "${2:name}"
+    policy_definition_id = "${3:policy_definition_id}"
+    subscription_id = "${4:subscription_id}"
+}

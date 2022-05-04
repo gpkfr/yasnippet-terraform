@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_dns_response_policy
+# key: r_google_dns_response_policy
+# --
+
+resource "google_dns_response_policy" "${1:this}" {
+    response_policy_name = "${2:response_policy_name}"
+}

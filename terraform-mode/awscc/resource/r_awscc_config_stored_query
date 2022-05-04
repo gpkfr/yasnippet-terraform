@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_config_stored_query
+# key: r_awscc_config_stored_query
+# --
+
+resource "awscc_config_stored_query" "${1:this}" {
+    query_expression = "${2:query_expression}"
+    query_name = "${3:query_name}"
+}

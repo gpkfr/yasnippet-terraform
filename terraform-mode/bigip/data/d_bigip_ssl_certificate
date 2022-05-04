@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_bigip_ssl_certificate
+# key: d_bigip_ssl_certificate
+# --
+
+data "bigip_ssl_certificate" "${1:this}" {
+    name = "${2:name}"
+    partition = "${3:partition}"
+}

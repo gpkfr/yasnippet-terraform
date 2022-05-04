@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_partition
+# key: r_thunder_partition
+# --
+
+resource "thunder_partition" "${1:this}" {
+}

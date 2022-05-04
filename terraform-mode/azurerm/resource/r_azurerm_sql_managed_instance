@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_sql_managed_instance
+# key: r_azurerm_sql_managed_instance
+# --
+
+resource "azurerm_sql_managed_instance" "${1:this}" {
+    administrator_login = "${2:administrator_login}"
+    administrator_login_password = "${3:administrator_login_password}"
+    license_type = "${4:license_type}"
+    location = "${5:location}"
+    name = "${6:name}"
+    resource_group_name = "${7:resource_group_name}"
+    sku_name = "${8:sku_name}"
+    storage_size_in_gb = "${9:storage_size_in_gb}"
+    subnet_id = "${10:subnet_id}"
+    vcores = "${11:vcores}"
+}

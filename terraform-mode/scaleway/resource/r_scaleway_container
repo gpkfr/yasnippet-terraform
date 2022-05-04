@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_container
+# key: r_scaleway_container
+# --
+
+resource "scaleway_container" "${1:this}" {
+    namespace_id = "${2:namespace_id}"
+}

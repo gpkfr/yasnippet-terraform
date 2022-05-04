@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_harness_user
+# key: r_harness_user
+# --
+
+resource "harness_user" "${1:this}" {
+    email = "${2:email}"
+    name = "${3:name}"
+}

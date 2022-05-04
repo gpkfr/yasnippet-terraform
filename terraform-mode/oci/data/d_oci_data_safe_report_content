@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_report_content
+# key: d_oci_data_safe_report_content
+# --
+
+data "oci_data_safe_report_content" "${1:this}" {
+    report_id = "${2:report_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_container_registry_task
+# key: r_azurerm_container_registry_task
+# --
+
+resource "azurerm_container_registry_task" "${1:this}" {
+    container_registry_id = "${2:container_registry_id}"
+    name = "${3:name}"
+}

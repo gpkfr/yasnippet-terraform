@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_address6template
+# key: d_fortios_firewall_address6template
+# --
+
+data "fortios_firewall_address6template" "${1:this}" {
+    name = "${2:name}"
+}

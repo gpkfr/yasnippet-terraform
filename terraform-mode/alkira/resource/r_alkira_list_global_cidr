@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alkira_list_global_cidr
+# key: r_alkira_list_global_cidr
+# --
+
+resource "alkira_list_global_cidr" "${1:this}" {
+    cxp = "${2:cxp}"
+    name = "${3:name}"
+    values = "${4:values}"
+}

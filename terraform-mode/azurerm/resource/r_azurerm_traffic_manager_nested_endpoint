@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_traffic_manager_nested_endpoint
+# key: r_azurerm_traffic_manager_nested_endpoint
+# --
+
+resource "azurerm_traffic_manager_nested_endpoint" "${1:this}" {
+    minimum_child_endpoints = "${2:minimum_child_endpoints}"
+    name = "${3:name}"
+    profile_id = "${4:profile_id}"
+    target_resource_id = "${5:target_resource_id}"
+    weight = "${6:weight}"
+}

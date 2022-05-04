@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnclientlessaccesspolicy
+# key: r_citrixadc_vpnclientlessaccesspolicy
+# --
+
+resource "citrixadc_vpnclientlessaccesspolicy" "${1:this}" {
+    name = "${2:name}"
+}

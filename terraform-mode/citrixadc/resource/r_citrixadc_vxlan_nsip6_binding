@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vxlan_nsip6_binding
+# key: r_citrixadc_vxlan_nsip6_binding
+# --
+
+resource "citrixadc_vxlan_nsip6_binding" "${1:this}" {
+    ipaddress = "${2:ipaddress}"
+    vxlanid = "${3:vxlanid}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oneview_appliance_time_and_locale
+# key: d_oneview_appliance_time_and_locale
+# --
+
+data "oneview_appliance_time_and_locale" "${1:this}" {
+}

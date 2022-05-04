@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_mssql_firewall_rule
+# key: r_azurerm_mssql_firewall_rule
+# --
+
+resource "azurerm_mssql_firewall_rule" "${1:this}" {
+    end_ip_address = "${2:end_ip_address}"
+    name = "${3:name}"
+    server_id = "${4:server_id}"
+    start_ip_address = "${5:start_ip_address}"
+}

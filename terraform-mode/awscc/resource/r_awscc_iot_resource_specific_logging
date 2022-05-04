@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_resource_specific_logging
+# key: r_awscc_iot_resource_specific_logging
+# --
+
+resource "awscc_iot_resource_specific_logging" "${1:this}" {
+    log_level = "${2:log_level}"
+    target_name = "${3:target_name}"
+    target_type = "${4:target_type}"
+}

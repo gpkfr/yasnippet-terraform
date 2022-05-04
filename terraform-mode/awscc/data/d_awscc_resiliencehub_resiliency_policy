@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_resiliencehub_resiliency_policy
+# key: d_awscc_resiliencehub_resiliency_policy
+# --
+
+data "awscc_resiliencehub_resiliency_policy" "${1:this}" {
+    id = "${2:id}"
+}

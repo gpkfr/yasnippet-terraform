@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_postgresql_readonly_group
+# key: r_tencentcloud_postgresql_readonly_group
+# --
+
+resource "tencentcloud_postgresql_readonly_group" "${1:this}" {
+    master_db_instance_id = "${2:master_db_instance_id}"
+    max_replay_lag = "${3:max_replay_lag}"
+    max_replay_latency = "${4:max_replay_latency}"
+    min_delay_eliminate_reserve = "${5:min_delay_eliminate_reserve}"
+    name = "${6:name}"
+    project_id = "${7:project_id}"
+    replay_lag_eliminate = "${8:replay_lag_eliminate}"
+    replay_latency_eliminate = "${9:replay_latency_eliminate}"
+    subnet_id = "${10:subnet_id}"
+    vpc_id = "${11:vpc_id}"
+}

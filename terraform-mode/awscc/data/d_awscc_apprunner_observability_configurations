@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_apprunner_observability_configurations
+# key: d_awscc_apprunner_observability_configurations
+# --
+
+data "awscc_apprunner_observability_configurations" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_placement_group
+# key: r_ncloud_placement_group
+# --
+
+resource "ncloud_placement_group" "${1:this}" {
+}

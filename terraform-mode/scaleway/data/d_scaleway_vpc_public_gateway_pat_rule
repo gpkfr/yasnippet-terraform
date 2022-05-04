@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_vpc_public_gateway_pat_rule
+# key: d_scaleway_vpc_public_gateway_pat_rule
+# --
+
+data "scaleway_vpc_public_gateway_pat_rule" "${1:this}" {
+    pat_rule_id = "${2:pat_rule_id}"
+}

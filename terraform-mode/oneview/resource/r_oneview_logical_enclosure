@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oneview_logical_enclosure
+# key: r_oneview_logical_enclosure
+# --
+
+resource "oneview_logical_enclosure" "${1:this}" {
+    enclosure_group_uri = "${2:enclosure_group_uri}"
+    enclosure_uris = "${3:enclosure_uris}"
+    name = "${4:name}"
+}

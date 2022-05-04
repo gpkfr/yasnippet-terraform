@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_ai_anomaly_detection_data_asset
+# key: d_oci_ai_anomaly_detection_data_asset
+# --
+
+data "oci_ai_anomaly_detection_data_asset" "${1:this}" {
+    data_asset_id = "${2:data_asset_id}"
+}

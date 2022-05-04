@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_sessionhelper
+# key: d_fortios_system_sessionhelper
+# --
+
+data "fortios_system_sessionhelper" "${1:this}" {
+    fosid = "${2:fosid}"
+}

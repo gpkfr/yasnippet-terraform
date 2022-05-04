@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_volterra_tunnel
+# key: d_volterra_tunnel
+# --
+
+data "volterra_tunnel" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

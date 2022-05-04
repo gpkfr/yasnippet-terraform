@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_workflow_workflow_metadata
+# key: d_intersight_workflow_workflow_metadata
+# --
+
+data "intersight_workflow_workflow_metadata" "${1:this}" {
+}

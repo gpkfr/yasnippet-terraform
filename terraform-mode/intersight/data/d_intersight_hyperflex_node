@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_node
+# key: d_intersight_hyperflex_node
+# --
+
+data "intersight_hyperflex_node" "${1:this}" {
+}

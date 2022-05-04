@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_cloud_aws_govcloud_integrations
+# key: r_newrelic_cloud_aws_govcloud_integrations
+# --
+
+resource "newrelic_cloud_aws_govcloud_integrations" "${1:this}" {
+    linked_account_id = "${2:linked_account_id}"
+}

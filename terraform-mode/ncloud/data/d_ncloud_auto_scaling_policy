@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_auto_scaling_policy
+# key: d_ncloud_auto_scaling_policy
+# --
+
+data "ncloud_auto_scaling_policy" "${1:this}" {
+    auto_scaling_group_no = "${2:auto_scaling_group_no}"
+}

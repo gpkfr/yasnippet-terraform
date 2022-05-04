@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudtamerio_saml_group_association
+# key: d_cloudtamerio_saml_group_association
+# --
+
+data "cloudtamerio_saml_group_association" "${1:this}" {
+}

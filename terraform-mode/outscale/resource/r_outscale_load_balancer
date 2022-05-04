@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_outscale_load_balancer
+# key: r_outscale_load_balancer
+# --
+
+resource "outscale_load_balancer" "${1:this}" {
+    load_balancer_name = "${2:load_balancer_name}"
+}

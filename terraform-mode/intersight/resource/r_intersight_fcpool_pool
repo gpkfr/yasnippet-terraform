@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fcpool_pool
+# key: r_intersight_fcpool_pool
+# --
+
+resource "intersight_fcpool_pool" "${1:this}" {
+}

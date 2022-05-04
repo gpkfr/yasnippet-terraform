@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_dynamic_worker_pool
+# key: r_octopusdeploy_dynamic_worker_pool
+# --
+
+resource "octopusdeploy_dynamic_worker_pool" "${1:this}" {
+    name = "${2:name}"
+    worker_type = "${3:worker_type}"
+}

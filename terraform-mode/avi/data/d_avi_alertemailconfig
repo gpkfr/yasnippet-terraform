@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_alertemailconfig
+# key: d_avi_alertemailconfig
+# --
+
+data "avi_alertemailconfig" "${1:this}" {
+}

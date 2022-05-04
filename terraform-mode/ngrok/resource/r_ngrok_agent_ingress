@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_agent_ingress
+# key: r_ngrok_agent_ingress
+# --
+
+resource "ngrok_agent_ingress" "${1:this}" {
+    domain = "${2:domain}"
+}

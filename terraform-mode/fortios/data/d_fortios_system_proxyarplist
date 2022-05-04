@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_proxyarplist
+# key: d_fortios_system_proxyarplist
+# --
+
+data "fortios_system_proxyarplist" "${1:this}" {
+}

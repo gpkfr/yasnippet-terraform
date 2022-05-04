@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_kion_azure_arm_template
+# key: r_kion_azure_arm_template
+# --
+
+resource "kion_azure_arm_template" "${1:this}" {
+    deployment_mode = "${2:deployment_mode}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+    resource_group_region_id = "${5:resource_group_region_id}"
+    template = "${6:template}"
+}

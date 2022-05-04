@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_outscale_flexible_gpu
+# key: r_outscale_flexible_gpu
+# --
+
+resource "outscale_flexible_gpu" "${1:this}" {
+    model_name = "${2:model_name}"
+    subregion_name = "${3:subregion_name}"
+}

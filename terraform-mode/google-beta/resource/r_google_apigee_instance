@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_apigee_instance
+# key: r_google_apigee_instance
+# --
+
+resource "google_apigee_instance" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    org_id = "${4:org_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_cm_key
+# key: r_ciphertrust_cm_key
+# --
+
+resource "ciphertrust_cm_key" "${1:this}" {
+    algorithm = "${2:algorithm}"
+    name = "${3:name}"
+}

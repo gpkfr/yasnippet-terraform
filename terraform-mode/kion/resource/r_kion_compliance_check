@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_kion_compliance_check
+# key: r_kion_compliance_check
+# --
+
+resource "kion_compliance_check" "${1:this}" {
+    cloud_provider_id = "${2:cloud_provider_id}"
+    compliance_check_type_id = "${3:compliance_check_type_id}"
+    name = "${4:name}"
+}

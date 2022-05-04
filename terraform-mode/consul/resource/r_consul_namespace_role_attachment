@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_consul_namespace_role_attachment
+# key: r_consul_namespace_role_attachment
+# --
+
+resource "consul_namespace_role_attachment" "${1:this}" {
+    namespace = "${2:namespace}"
+    role = "${3:role}"
+}

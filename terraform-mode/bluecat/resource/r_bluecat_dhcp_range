@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_dhcp_range
+# key: r_bluecat_dhcp_range
+# --
+
+resource "bluecat_dhcp_range" "${1:this}" {
+    network = "${2:network}"
+}

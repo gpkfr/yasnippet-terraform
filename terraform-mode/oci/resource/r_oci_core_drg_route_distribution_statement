@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_drg_route_distribution_statement
+# key: r_oci_core_drg_route_distribution_statement
+# --
+
+resource "oci_core_drg_route_distribution_statement" "${1:this}" {
+    action = "${2:action}"
+    drg_route_distribution_id = "${3:drg_route_distribution_id}"
+    priority = "${4:priority}"
+}

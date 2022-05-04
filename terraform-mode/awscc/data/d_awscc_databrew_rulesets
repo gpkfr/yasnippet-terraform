@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_databrew_rulesets
+# key: d_awscc_databrew_rulesets
+# --
+
+data "awscc_databrew_rulesets" "${1:this}" {
+}

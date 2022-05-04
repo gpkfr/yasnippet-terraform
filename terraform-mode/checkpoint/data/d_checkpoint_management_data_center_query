@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_data_center_query
+# key: d_checkpoint_management_data_center_query
+# --
+
+data "checkpoint_management_data_center_query" "${1:this}" {
+}

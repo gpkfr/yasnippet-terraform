@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudtamerio_user_group
+# key: d_cloudtamerio_user_group
+# --
+
+data "cloudtamerio_user_group" "${1:this}" {
+}

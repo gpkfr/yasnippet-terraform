@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_dlp_sensitivity
+# key: r_fortios_dlp_sensitivity
+# --
+
+resource "fortios_dlp_sensitivity" "${1:this}" {
+}

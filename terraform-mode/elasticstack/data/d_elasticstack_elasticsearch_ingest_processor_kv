@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_kv
+# key: d_elasticstack_elasticsearch_ingest_processor_kv
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_kv" "${1:this}" {
+    field = "${2:field}"
+    field_split = "${3:field_split}"
+    value_split = "${4:value_split}"
+}

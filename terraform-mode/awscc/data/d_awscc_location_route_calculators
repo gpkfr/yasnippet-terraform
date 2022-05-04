@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_location_route_calculators
+# key: d_awscc_location_route_calculators
+# --
+
+data "awscc_location_route_calculators" "${1:this}" {
+}

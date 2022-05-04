@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_kms_replication_status
+# key: d_oci_kms_replication_status
+# --
+
+data "oci_kms_replication_status" "${1:this}" {
+    management_endpoint = "${2:management_endpoint}"
+    replication_id = "${3:replication_id}"
+}

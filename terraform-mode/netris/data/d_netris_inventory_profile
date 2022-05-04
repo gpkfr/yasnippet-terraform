@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_netris_inventory_profile
+# key: d_netris_inventory_profile
+# --
+
+data "netris_inventory_profile" "${1:this}" {
+    name = "${2:name}"
+}

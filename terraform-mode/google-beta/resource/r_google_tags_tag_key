@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_tags_tag_key
+# key: r_google_tags_tag_key
+# --
+
+resource "google_tags_tag_key" "${1:this}" {
+    parent = "${2:parent}"
+    short_name = "${3:short_name}"
+}

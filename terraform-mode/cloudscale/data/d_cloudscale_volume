@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudscale_volume
+# key: d_cloudscale_volume
+# --
+
+data "cloudscale_volume" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_common_buffer_threshold
+# key: r_thunder_slb_common_buffer_threshold
+# --
+
+resource "thunder_slb_common_buffer_threshold" "${1:this}" {
+    buff_thresh = "${2:buff_thresh}"
+}

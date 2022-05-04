@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_valtix_policy_rule_set
+# key: d_valtix_policy_rule_set
+# --
+
+data "valtix_policy_rule_set" "${1:this}" {
+    name = "${2:name}"
+}

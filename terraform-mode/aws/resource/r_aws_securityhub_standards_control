@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_securityhub_standards_control
+# key: r_aws_securityhub_standards_control
+# --
+
+resource "aws_securityhub_standards_control" "${1:this}" {
+    control_status = "${2:control_status}"
+    standards_control_arn = "${3:standards_control_arn}"
+}

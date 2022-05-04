@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_multilayer
+# key: r_fortianalyzer_fmupdate_multilayer
+# --
+
+resource "fortianalyzer_fmupdate_multilayer" "${1:this}" {
+}

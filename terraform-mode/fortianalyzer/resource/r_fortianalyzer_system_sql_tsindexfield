@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_sql_tsindexfield
+# key: r_fortianalyzer_system_sql_tsindexfield
+# --
+
+resource "fortianalyzer_system_sql_tsindexfield" "${1:this}" {
+}

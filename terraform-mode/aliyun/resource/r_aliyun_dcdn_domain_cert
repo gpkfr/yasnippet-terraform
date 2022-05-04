@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aliyun_dcdn_domain_cert
+# key: r_aliyun_dcdn_domain_cert
+# --
+
+resource "aliyun_dcdn_domain_cert" "${1:this}" {
+    cert_name = "${2:cert_name}"
+    domain_name = "${3:domain_name}"
+    ssl_pri = "${4:ssl_pri}"
+    ssl_pub = "${5:ssl_pub}"
+}

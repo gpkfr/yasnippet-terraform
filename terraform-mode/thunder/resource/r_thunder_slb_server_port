@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_server_port
+# key: r_thunder_slb_server_port
+# --
+
+resource "thunder_slb_server_port" "${1:this}" {
+    port_number = "${2:port_number}"
+    protocol = "${3:protocol}"
+    server_name = "${4:server_name}"
+}

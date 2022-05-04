@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_acmpca_permission
+# key: d_awscc_acmpca_permission
+# --
+
+data "awscc_acmpca_permission" "${1:this}" {
+    id = "${2:id}"
+}

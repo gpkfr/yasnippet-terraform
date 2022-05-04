@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oneview_id_pools_ipv4_subnets
+# key: d_oneview_id_pools_ipv4_subnets
+# --
+
+data "oneview_id_pools_ipv4_subnets" "${1:this}" {
+}

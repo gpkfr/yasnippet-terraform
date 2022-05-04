@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_interface
+# key: r_fortimanager_system_interface
+# --
+
+resource "fortimanager_system_interface" "${1:this}" {
+}

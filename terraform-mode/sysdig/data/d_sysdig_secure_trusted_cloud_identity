@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_sysdig_secure_trusted_cloud_identity
+# key: d_sysdig_secure_trusted_cloud_identity
+# --
+
+data "sysdig_secure_trusted_cloud_identity" "${1:this}" {
+    cloud_provider = "${2:cloud_provider}"
+}

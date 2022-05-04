@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_dns_domain
+# key: r_volterra_dns_domain
+# --
+
+resource "volterra_dns_domain" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

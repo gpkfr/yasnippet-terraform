@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_tenant
+# key: d_avi_tenant
+# --
+
+data "avi_tenant" "${1:this}" {
+}

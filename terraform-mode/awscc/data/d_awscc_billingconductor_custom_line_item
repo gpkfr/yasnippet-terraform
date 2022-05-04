@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_billingconductor_custom_line_item
+# key: d_awscc_billingconductor_custom_line_item
+# --
+
+data "awscc_billingconductor_custom_line_item" "${1:this}" {
+    id = "${2:id}"
+}

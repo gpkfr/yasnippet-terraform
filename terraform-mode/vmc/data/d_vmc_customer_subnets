@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vmc_customer_subnets
+# key: d_vmc_customer_subnets
+# --
+
+data "vmc_customer_subnets" "${1:this}" {
+    region = "${2:region}"
+}

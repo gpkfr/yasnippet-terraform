@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_rewritepolicy
+# key: r_citrixadc_rewritepolicy
+# --
+
+resource "citrixadc_rewritepolicy" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_ssm_maintenance_window_task
+# key: r_aws_ssm_maintenance_window_task
+# --
+
+resource "aws_ssm_maintenance_window_task" "${1:this}" {
+    task_arn = "${2:task_arn}"
+    task_type = "${3:task_type}"
+    window_id = "${4:window_id}"
+}

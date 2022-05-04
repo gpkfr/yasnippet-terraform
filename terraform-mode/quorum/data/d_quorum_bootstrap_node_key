@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_quorum_bootstrap_node_key
+# key: d_quorum_bootstrap_node_key
+# --
+
+data "quorum_bootstrap_node_key" "${1:this}" {
+    node_key_hex = "${2:node_key_hex}"
+}

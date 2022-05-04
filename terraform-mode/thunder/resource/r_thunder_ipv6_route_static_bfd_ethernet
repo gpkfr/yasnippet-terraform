@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ipv6_route_static_bfd_ethernet
+# key: r_thunder_ipv6_route_static_bfd_ethernet
+# --
+
+resource "thunder_ipv6_route_static_bfd_ethernet" "${1:this}" {
+    eth_num = "${2:eth_num}"
+    nexthop_ipv6_ll = "${3:nexthop_ipv6_ll}"
+}

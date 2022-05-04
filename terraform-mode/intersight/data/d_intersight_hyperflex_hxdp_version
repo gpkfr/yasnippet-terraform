@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_hxdp_version
+# key: d_intersight_hyperflex_hxdp_version
+# --
+
+data "intersight_hyperflex_hxdp_version" "${1:this}" {
+}

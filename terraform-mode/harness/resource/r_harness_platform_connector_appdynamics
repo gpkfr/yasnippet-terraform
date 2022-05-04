@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_appdynamics
+# key: r_harness_platform_connector_appdynamics
+# --
+
+resource "harness_platform_connector_appdynamics" "${1:this}" {
+    account_name = "${2:account_name}"
+    identifier = "${3:identifier}"
+    name = "${4:name}"
+    url = "${5:url}"
+}

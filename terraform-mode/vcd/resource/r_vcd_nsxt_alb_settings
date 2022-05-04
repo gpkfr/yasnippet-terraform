@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxt_alb_settings
+# key: r_vcd_nsxt_alb_settings
+# --
+
+resource "vcd_nsxt_alb_settings" "${1:this}" {
+    edge_gateway_id = "${2:edge_gateway_id}"
+    is_active = "${3:is_active}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_networkmanager_site
+# key: d_awscc_networkmanager_site
+# --
+
+data "awscc_networkmanager_site" "${1:this}" {
+    id = "${2:id}"
+}

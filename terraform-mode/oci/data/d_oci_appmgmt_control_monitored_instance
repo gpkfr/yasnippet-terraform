@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_appmgmt_control_monitored_instance
+# key: d_oci_appmgmt_control_monitored_instance
+# --
+
+data "oci_appmgmt_control_monitored_instance" "${1:this}" {
+    monitored_instance_id = "${2:monitored_instance_id}"
+}

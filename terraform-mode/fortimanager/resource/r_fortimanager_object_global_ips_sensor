@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_global_ips_sensor
+# key: r_fortimanager_object_global_ips_sensor
+# --
+
+resource "fortimanager_object_global_ips_sensor" "${1:this}" {
+}

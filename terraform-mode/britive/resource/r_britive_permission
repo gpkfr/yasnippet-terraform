@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_britive_permission
+# key: r_britive_permission
+# --
+
+resource "britive_permission" "${1:this}" {
+    actions = "${2:actions}"
+    consumer = "${3:consumer}"
+    name = "${4:name}"
+    resources = "${5:resources}"
+}

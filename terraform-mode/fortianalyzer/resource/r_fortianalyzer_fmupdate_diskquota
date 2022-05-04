@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_diskquota
+# key: r_fortianalyzer_fmupdate_diskquota
+# --
+
+resource "fortianalyzer_fmupdate_diskquota" "${1:this}" {
+}

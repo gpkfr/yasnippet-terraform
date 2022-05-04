@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_sql_pool_workload_group
+# key: r_azurerm_synapse_sql_pool_workload_group
+# --
+
+resource "azurerm_synapse_sql_pool_workload_group" "${1:this}" {
+    max_resource_percent = "${2:max_resource_percent}"
+    min_resource_percent = "${3:min_resource_percent}"
+    name = "${4:name}"
+    sql_pool_id = "${5:sql_pool_id}"
+}

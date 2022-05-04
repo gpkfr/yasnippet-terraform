@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bigip_fast_application
+# key: r_bigip_fast_application
+# --
+
+resource "bigip_fast_application" "${1:this}" {
+    fast_json = "${2:fast_json}"
+}

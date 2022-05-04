@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnvserver_vpneula_binding
+# key: r_citrixadc_vpnvserver_vpneula_binding
+# --
+
+resource "citrixadc_vpnvserver_vpneula_binding" "${1:this}" {
+    eula = "${2:eula}"
+    name = "${3:name}"
+}

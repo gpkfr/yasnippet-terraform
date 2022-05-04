@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_bypass_network_lists
+# key: d_akamai_appsec_bypass_network_lists
+# --
+
+data "akamai_appsec_bypass_network_lists" "${1:this}" {
+    config_id = "${2:config_id}"
+    version = "${3:version}"
+}

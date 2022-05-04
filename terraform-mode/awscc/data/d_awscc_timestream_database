@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_timestream_database
+# key: d_awscc_timestream_database
+# --
+
+data "awscc_timestream_database" "${1:this}" {
+    id = "${2:id}"
+}

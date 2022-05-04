@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_traffic_manager_azure_endpoint
+# key: r_azurerm_traffic_manager_azure_endpoint
+# --
+
+resource "azurerm_traffic_manager_azure_endpoint" "${1:this}" {
+    name = "${2:name}"
+    profile_id = "${3:profile_id}"
+    target_resource_id = "${4:target_resource_id}"
+    weight = "${5:weight}"
+}

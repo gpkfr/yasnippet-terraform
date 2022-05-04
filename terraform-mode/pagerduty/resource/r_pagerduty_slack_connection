@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_slack_connection
+# key: r_pagerduty_slack_connection
+# --
+
+resource "pagerduty_slack_connection" "${1:this}" {
+    channel_id = "${2:channel_id}"
+    notification_type = "${3:notification_type}"
+    source_id = "${4:source_id}"
+    source_type = "${5:source_type}"
+    workspace_id = "${6:workspace_id}"
+}

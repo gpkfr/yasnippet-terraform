@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_imagebuilder_component
+# key: d_aws_imagebuilder_component
+# --
+
+data "aws_imagebuilder_component" "${1:this}" {
+    arn = "${2:arn}"
+}

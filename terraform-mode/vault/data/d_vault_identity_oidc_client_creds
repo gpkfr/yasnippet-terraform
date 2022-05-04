@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vault_identity_oidc_client_creds
+# key: d_vault_identity_oidc_client_creds
+# --
+
+data "vault_identity_oidc_client_creds" "${1:this}" {
+    name = "${2:name}"
+}

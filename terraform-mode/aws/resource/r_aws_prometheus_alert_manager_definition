@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_prometheus_alert_manager_definition
+# key: r_aws_prometheus_alert_manager_definition
+# --
+
+resource "aws_prometheus_alert_manager_definition" "${1:this}" {
+    definition = "${2:definition}"
+    workspace_id = "${3:workspace_id}"
+}

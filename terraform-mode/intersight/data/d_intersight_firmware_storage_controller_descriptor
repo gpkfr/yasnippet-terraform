@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_storage_controller_descriptor
+# key: d_intersight_firmware_storage_controller_descriptor
+# --
+
+data "intersight_firmware_storage_controller_descriptor" "${1:this}" {
+}

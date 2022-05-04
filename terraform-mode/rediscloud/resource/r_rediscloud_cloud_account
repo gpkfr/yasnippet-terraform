@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_rediscloud_cloud_account
+# key: r_rediscloud_cloud_account
+# --
+
+resource "rediscloud_cloud_account" "${1:this}" {
+    access_key_id = "${2:access_key_id}"
+    access_secret_key = "${3:access_secret_key}"
+    console_password = "${4:console_password}"
+    console_username = "${5:console_username}"
+    name = "${6:name}"
+    provider_type = "${7:provider_type}"
+    sign_in_login_url = "${8:sign_in_login_url}"
+}

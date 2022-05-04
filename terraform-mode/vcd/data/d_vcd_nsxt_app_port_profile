@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxt_app_port_profile
+# key: d_vcd_nsxt_app_port_profile
+# --
+
+data "vcd_nsxt_app_port_profile" "${1:this}" {
+    name = "${2:name}"
+    scope = "${3:scope}"
+}

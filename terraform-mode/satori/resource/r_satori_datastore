@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_satori_datastore
+# key: r_satori_datastore
+# --
+
+resource "satori_datastore" "${1:this}" {
+    dataaccess_controller_id = "${2:dataaccess_controller_id}"
+    hostname = "${3:hostname}"
+    name = "${4:name}"
+    type = "${5:type}"
+}

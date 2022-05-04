@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vra_storage_profile_vsphere
+# key: d_vra_storage_profile_vsphere
+# --
+
+data "vra_storage_profile_vsphere" "${1:this}" {
+}

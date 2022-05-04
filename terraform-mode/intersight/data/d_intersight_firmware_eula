@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_eula
+# key: d_intersight_firmware_eula
+# --
+
+data "intersight_firmware_eula" "${1:this}" {
+}

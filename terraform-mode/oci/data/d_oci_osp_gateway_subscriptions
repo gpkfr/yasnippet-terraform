@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_osp_gateway_subscriptions
+# key: d_oci_osp_gateway_subscriptions
+# --
+
+data "oci_osp_gateway_subscriptions" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    osp_home_region = "${3:osp_home_region}"
+}

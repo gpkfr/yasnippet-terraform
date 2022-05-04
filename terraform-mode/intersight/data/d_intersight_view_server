@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_view_server
+# key: d_intersight_view_server
+# --
+
+data "intersight_view_server" "${1:this}" {
+}

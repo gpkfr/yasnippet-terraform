@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_acmpca_certificate_authority_activation
+# key: d_awscc_acmpca_certificate_authority_activation
+# --
+
+data "awscc_acmpca_certificate_authority_activation" "${1:this}" {
+    id = "${2:id}"
+}

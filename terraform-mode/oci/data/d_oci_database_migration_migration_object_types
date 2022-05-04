@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_migration_migration_object_types
+# key: d_oci_database_migration_migration_object_types
+# --
+
+data "oci_database_migration_migration_object_types" "${1:this}" {
+}

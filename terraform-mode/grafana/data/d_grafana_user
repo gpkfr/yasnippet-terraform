@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_grafana_user
+# key: d_grafana_user
+# --
+
+data "grafana_user" "${1:this}" {
+}

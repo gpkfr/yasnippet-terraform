@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudfront_function
+# key: r_aws_cloudfront_function
+# --
+
+resource "aws_cloudfront_function" "${1:this}" {
+    code = "${2:code}"
+    name = "${3:name}"
+    runtime = "${4:runtime}"
+}

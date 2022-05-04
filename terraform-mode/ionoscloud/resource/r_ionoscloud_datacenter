@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_datacenter
+# key: r_ionoscloud_datacenter
+# --
+
+resource "ionoscloud_datacenter" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+}

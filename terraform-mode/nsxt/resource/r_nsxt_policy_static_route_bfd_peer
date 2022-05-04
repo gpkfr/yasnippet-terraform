@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_static_route_bfd_peer
+# key: r_nsxt_policy_static_route_bfd_peer
+# --
+
+resource "nsxt_policy_static_route_bfd_peer" "${1:this}" {
+    bfd_profile_path = "${2:bfd_profile_path}"
+    display_name = "${3:display_name}"
+    gateway_path = "${4:gateway_path}"
+    peer_address = "${5:peer_address}"
+}

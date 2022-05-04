@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_rdb_acl
+# key: d_scaleway_rdb_acl
+# --
+
+data "scaleway_rdb_acl" "${1:this}" {
+    instance_id = "${2:instance_id}"
+}

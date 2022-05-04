@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_job_template
+# key: d_awscc_iot_job_template
+# --
+
+data "awscc_iot_job_template" "${1:this}" {
+    id = "${2:id}"
+}

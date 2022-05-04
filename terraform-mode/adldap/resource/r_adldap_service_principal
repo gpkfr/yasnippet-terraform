@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_adldap_service_principal
+# key: r_adldap_service_principal
+# --
+
+resource "adldap_service_principal" "${1:this}" {
+    samaccountname = "${2:samaccountname}"
+    spn = "${3:spn}"
+}

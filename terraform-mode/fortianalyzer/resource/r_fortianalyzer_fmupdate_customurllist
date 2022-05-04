@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_customurllist
+# key: r_fortianalyzer_fmupdate_customurllist
+# --
+
+resource "fortianalyzer_fmupdate_customurllist" "${1:this}" {
+}

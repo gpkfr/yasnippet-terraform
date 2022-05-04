@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_clear_session_filter
+# key: r_thunder_fw_clear_session_filter
+# --
+
+resource "thunder_fw_clear_session_filter" "${1:this}" {
+}

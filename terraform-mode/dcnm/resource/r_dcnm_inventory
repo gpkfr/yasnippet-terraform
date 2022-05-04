@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dcnm_inventory
+# key: r_dcnm_inventory
+# --
+
+resource "dcnm_inventory" "${1:this}" {
+    fabric_name = "${2:fabric_name}"
+    password = "${3:password}"
+    username = "${4:username}"
+}

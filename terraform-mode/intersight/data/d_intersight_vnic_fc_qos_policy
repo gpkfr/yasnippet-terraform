@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_vnic_fc_qos_policy
+# key: d_intersight_vnic_fc_qos_policy
+# --
+
+data "intersight_vnic_fc_qos_policy" "${1:this}" {
+}

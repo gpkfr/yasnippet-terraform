@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_anonymous_user
+# key: r_artifactory_anonymous_user
+# --
+
+resource "artifactory_anonymous_user" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_ftmpush
+# key: d_fortios_system_ftmpush
+# --
+
+data "fortios_system_ftmpush" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_clusterfiles_syncer
+# key: r_citrixadc_clusterfiles_syncer
+# --
+
+resource "citrixadc_clusterfiles_syncer" "${1:this}" {
+    mode = "${2:mode}"
+    timestamp = "${3:timestamp}"
+}

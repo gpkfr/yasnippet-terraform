@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_service_level
+# key: r_newrelic_service_level
+# --
+
+resource "newrelic_service_level" "${1:this}" {
+    guid = "${2:guid}"
+    name = "${3:name}"
+}

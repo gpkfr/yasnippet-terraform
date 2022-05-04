@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_workload_interface
+# key: d_illumio-core_workload_interface
+# --
+
+data "illumio-core_workload_interface" "${1:this}" {
+    href = "${2:href}"
+}

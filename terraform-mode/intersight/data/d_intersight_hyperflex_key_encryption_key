@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_key_encryption_key
+# key: d_intersight_hyperflex_key_encryption_key
+# --
+
+data "intersight_hyperflex_key_encryption_key" "${1:this}" {
+}

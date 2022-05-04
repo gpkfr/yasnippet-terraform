@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_grafana_team
+# key: r_grafana_team
+# --
+
+resource "grafana_team" "${1:this}" {
+    name = "${2:name}"
+}

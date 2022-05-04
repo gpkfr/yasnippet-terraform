@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_operating_system
+# key: d_equinix_metal_operating_system
+# --
+
+data "equinix_metal_operating_system" "${1:this}" {
+}

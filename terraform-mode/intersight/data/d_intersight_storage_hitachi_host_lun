@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_hitachi_host_lun
+# key: d_intersight_storage_hitachi_host_lun
+# --
+
+data "intersight_storage_hitachi_host_lun" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_rack_unit_personality
+# key: d_intersight_rack_unit_personality
+# --
+
+data "intersight_rack_unit_personality" "${1:this}" {
+}

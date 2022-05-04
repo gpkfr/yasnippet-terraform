@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_clumio_post_process_aws_connection
+# key: r_clumio_post_process_aws_connection
+# --
+
+resource "clumio_post_process_aws_connection" "${1:this}" {
+    account_id = "${2:account_id}"
+    clumio_event_pub_id = "${3:clumio_event_pub_id}"
+    config_version = "${4:config_version}"
+    discover_version = "${5:discover_version}"
+    region = "${6:region}"
+    role_arn = "${7:role_arn}"
+    role_external_id = "${8:role_external_id}"
+    token = "${9:token}"
+}

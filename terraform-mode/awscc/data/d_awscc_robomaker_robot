@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_robomaker_robot
+# key: d_awscc_robomaker_robot
+# --
+
+data "awscc_robomaker_robot" "${1:this}" {
+    id = "${2:id}"
+}

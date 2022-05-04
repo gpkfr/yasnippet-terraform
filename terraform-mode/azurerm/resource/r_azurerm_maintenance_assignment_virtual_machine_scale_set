@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_maintenance_assignment_virtual_machine_scale_set
+# key: r_azurerm_maintenance_assignment_virtual_machine_scale_set
+# --
+
+resource "azurerm_maintenance_assignment_virtual_machine_scale_set" "${1:this}" {
+    location = "${2:location}"
+    maintenance_configuration_id = "${3:maintenance_configuration_id}"
+    virtual_machine_scale_set_id = "${4:virtual_machine_scale_set_id}"
+}

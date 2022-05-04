@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_zerotier_network
+# key: d_zerotier_network
+# --
+
+data "zerotier_network" "${1:this}" {
+}

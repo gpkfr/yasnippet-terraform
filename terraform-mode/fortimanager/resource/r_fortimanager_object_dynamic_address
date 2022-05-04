@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_dynamic_address
+# key: r_fortimanager_object_dynamic_address
+# --
+
+resource "fortimanager_object_dynamic_address" "${1:this}" {
+}

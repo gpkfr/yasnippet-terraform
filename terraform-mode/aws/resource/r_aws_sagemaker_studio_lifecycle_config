@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_studio_lifecycle_config
+# key: r_aws_sagemaker_studio_lifecycle_config
+# --
+
+resource "aws_sagemaker_studio_lifecycle_config" "${1:this}" {
+    studio_lifecycle_config_app_type = "${2:studio_lifecycle_config_app_type}"
+    studio_lifecycle_config_content = "${3:studio_lifecycle_config_content}"
+    studio_lifecycle_config_name = "${4:studio_lifecycle_config_name}"
+}

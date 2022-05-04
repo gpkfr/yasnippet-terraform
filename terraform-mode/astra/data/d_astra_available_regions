@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_astra_available_regions
+# key: d_astra_available_regions
+# --
+
+data "astra_available_regions" "${1:this}" {
+}

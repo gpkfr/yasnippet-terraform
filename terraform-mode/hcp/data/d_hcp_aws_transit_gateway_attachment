@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_hcp_aws_transit_gateway_attachment
+# key: d_hcp_aws_transit_gateway_attachment
+# --
+
+data "hcp_aws_transit_gateway_attachment" "${1:this}" {
+    hvn_id = "${2:hvn_id}"
+    transit_gateway_attachment_id = "${3:transit_gateway_attachment_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sqs_queue
+# key: d_awscc_sqs_queue
+# --
+
+data "awscc_sqs_queue" "${1:this}" {
+    id = "${2:id}"
+}

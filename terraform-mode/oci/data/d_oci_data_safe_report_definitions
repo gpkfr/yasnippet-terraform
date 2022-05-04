@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_report_definitions
+# key: d_oci_data_safe_report_definitions
+# --
+
+data "oci_data_safe_report_definitions" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dcnm_network
+# key: r_dcnm_network
+# --
+
+resource "dcnm_network" "${1:this}" {
+    fabric_name = "${2:fabric_name}"
+    name = "${3:name}"
+}

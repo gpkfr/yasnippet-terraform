@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_shipa_app
+# key: d_shipa_app
+# --
+
+data "shipa_app" "${1:this}" {
+    id = "${2:id}"
+}

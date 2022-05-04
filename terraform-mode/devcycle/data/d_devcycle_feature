@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_devcycle_feature
+# key: d_devcycle_feature
+# --
+
+data "devcycle_feature" "${1:this}" {
+    key = "${2:key}"
+    project_key = "${3:project_key}"
+}

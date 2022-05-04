@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_databricks_mws_log_delivery
+# key: r_databricks_mws_log_delivery
+# --
+
+resource "databricks_mws_log_delivery" "${1:this}" {
+    account_id = "${2:account_id}"
+    credentials_id = "${3:credentials_id}"
+    log_type = "${4:log_type}"
+    output_format = "${5:output_format}"
+    storage_configuration_id = "${6:storage_configuration_id}"
+}

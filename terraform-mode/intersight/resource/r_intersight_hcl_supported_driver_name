@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hcl_supported_driver_name
+# key: r_intersight_hcl_supported_driver_name
+# --
+
+resource "intersight_hcl_supported_driver_name" "${1:this}" {
+}

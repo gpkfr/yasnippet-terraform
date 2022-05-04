@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_infoblox_a_record
+# key: d_infoblox_a_record
+# --
+
+data "infoblox_a_record" "${1:this}" {
+    dns_view = "${2:dns_view}"
+    fqdn = "${3:fqdn}"
+    ip_addr = "${4:ip_addr}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_adverity_workspace
+# key: d_adverity_workspace
+# --
+
+data "adverity_workspace" "${1:this}" {
+    slug = "${2:slug}"
+    workspace_id = "${3:workspace_id}"
+}

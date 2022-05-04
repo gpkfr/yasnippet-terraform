@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_anaml-operations_feature_store
+# key: r_anaml-operations_feature_store
+# --
+
+resource "anaml-operations_feature_store" "${1:this}" {
+    cluster = "${2:cluster}"
+    enabled = "${3:enabled}"
+    feature_set = "${4:feature_set}"
+    name = "${5:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_labels
+# key: r_kubernetes_labels
+# --
+
+resource "kubernetes_labels" "${1:this}" {
+    api_version = "${2:api_version}"
+    kind = "${3:kind}"
+    labels = "${4:labels}"
+}

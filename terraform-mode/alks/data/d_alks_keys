@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alks_keys
+# key: d_alks_keys
+# --
+
+data "alks_keys" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_ssh_policy
+# key: d_intersight_ssh_policy
+# --
+
+data "intersight_ssh_policy" "${1:this}" {
+}

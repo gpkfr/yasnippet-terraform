@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_confluent_kafka_topic
+# key: d_confluent_kafka_topic
+# --
+
+data "confluent_kafka_topic" "${1:this}" {
+    http_endpoint = "${2:http_endpoint}"
+    topic_name = "${3:topic_name}"
+}

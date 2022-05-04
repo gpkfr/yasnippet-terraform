@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_malicious_user_mitigation
+# key: r_volterra_malicious_user_mitigation
+# --
+
+resource "volterra_malicious_user_mitigation" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_rename
+# key: d_elasticstack_elasticsearch_ingest_processor_rename
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_rename" "${1:this}" {
+    field = "${2:field}"
+    target_field = "${3:target_field}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_management_managed_database_sql_tuning_advisor_tasks_sql_execution_plan
+# key: d_oci_database_management_managed_database_sql_tuning_advisor_tasks_sql_execution_plan
+# --
+
+data "oci_database_management_managed_database_sql_tuning_advisor_tasks_sql_execution_plan" "${1:this}" {
+    attribute = "${2:attribute}"
+    managed_database_id = "${3:managed_database_id}"
+    sql_object_id = "${4:sql_object_id}"
+    sql_tuning_advisor_task_id = "${5:sql_tuning_advisor_task_id}"
+}

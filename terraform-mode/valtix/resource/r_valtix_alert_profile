@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_valtix_alert_profile
+# key: r_valtix_alert_profile
+# --
+
+resource "valtix_alert_profile" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

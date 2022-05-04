@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_resourcelimits
+# key: d_fortios_system_resourcelimits
+# --
+
+data "fortios_system_resourcelimits" "${1:this}" {
+}

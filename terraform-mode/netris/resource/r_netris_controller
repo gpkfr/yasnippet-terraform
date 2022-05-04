@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_netris_controller
+# key: r_netris_controller
+# --
+
+resource "netris_controller" "${1:this}" {
+    mainip = "${2:mainip}"
+    name = "${3:name}"
+    siteid = "${4:siteid}"
+    tenantid = "${5:tenantid}"
+}

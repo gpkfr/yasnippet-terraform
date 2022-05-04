@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_sslprofile
+# key: r_avi_sslprofile
+# --
+
+resource "avi_sslprofile" "${1:this}" {
+    name = "${2:name}"
+}

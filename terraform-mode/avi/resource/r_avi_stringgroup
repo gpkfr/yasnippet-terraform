@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_stringgroup
+# key: r_avi_stringgroup
+# --
+
+resource "avi_stringgroup" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_architect_ivr
+# key: r_genesyscloud_architect_ivr
+# --
+
+resource "genesyscloud_architect_ivr" "${1:this}" {
+    name = "${2:name}"
+}

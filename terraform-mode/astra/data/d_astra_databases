@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_astra_databases
+# key: d_astra_databases
+# --
+
+data "astra_databases" "${1:this}" {
+}

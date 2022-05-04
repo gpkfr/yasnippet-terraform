@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_bios_vf_select_memory_ras_configuration
+# key: d_intersight_bios_vf_select_memory_ras_configuration
+# --
+
+data "intersight_bios_vf_select_memory_ras_configuration" "${1:this}" {
+}

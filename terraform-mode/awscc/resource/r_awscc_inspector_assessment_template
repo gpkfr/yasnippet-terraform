@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_inspector_assessment_template
+# key: r_awscc_inspector_assessment_template
+# --
+
+resource "awscc_inspector_assessment_template" "${1:this}" {
+    assessment_target_arn = "${2:assessment_target_arn}"
+    duration_in_seconds = "${3:duration_in_seconds}"
+    rules_package_arns = "${4:rules_package_arns}"
+}

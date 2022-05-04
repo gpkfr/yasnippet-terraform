@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_routing_wrapupcode
+# key: r_genesyscloud_routing_wrapupcode
+# --
+
+resource "genesyscloud_routing_wrapupcode" "${1:this}" {
+    name = "${2:name}"
+}

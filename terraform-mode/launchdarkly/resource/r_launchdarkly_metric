@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_launchdarkly_metric
+# key: r_launchdarkly_metric
+# --
+
+resource "launchdarkly_metric" "${1:this}" {
+    key = "${2:key}"
+    kind = "${3:kind}"
+    name = "${4:name}"
+    project_key = "${5:project_key}"
+}

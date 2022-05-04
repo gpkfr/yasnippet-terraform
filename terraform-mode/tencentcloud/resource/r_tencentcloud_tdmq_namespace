@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_tdmq_namespace
+# key: r_tencentcloud_tdmq_namespace
+# --
+
+resource "tencentcloud_tdmq_namespace" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    environ_name = "${3:environ_name}"
+    msg_ttl = "${4:msg_ttl}"
+}

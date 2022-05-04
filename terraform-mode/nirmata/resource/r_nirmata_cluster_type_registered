@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_cluster_type_registered
+# key: r_nirmata_cluster_type_registered
+# --
+
+resource "nirmata_cluster_type_registered" "${1:this}" {
+    cloud = "${2:cloud}"
+    name = "${3:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_pg_cluster
+# key: d_ionoscloud_pg_cluster
+# --
+
+data "ionoscloud_pg_cluster" "${1:this}" {
+}

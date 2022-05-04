@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_google_assured_workloads_workload
+# key: r_google_assured_workloads_workload
+# --
+
+resource "google_assured_workloads_workload" "${1:this}" {
+    billing_account = "${2:billing_account}"
+    compliance_regime = "${3:compliance_regime}"
+    display_name = "${4:display_name}"
+    location = "${5:location}"
+    organization = "${6:organization}"
+}

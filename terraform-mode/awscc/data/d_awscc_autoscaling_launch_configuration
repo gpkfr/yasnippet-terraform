@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_autoscaling_launch_configuration
+# key: d_awscc_autoscaling_launch_configuration
+# --
+
+data "awscc_autoscaling_launch_configuration" "${1:this}" {
+    id = "${2:id}"
+}

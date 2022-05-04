@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_ecx_port
+# key: d_equinix_ecx_port
+# --
+
+data "equinix_ecx_port" "${1:this}" {
+    name = "${2:name}"
+}

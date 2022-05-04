@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_athena_prepared_statement
+# key: d_awscc_athena_prepared_statement
+# --
+
+data "awscc_athena_prepared_statement" "${1:this}" {
+    id = "${2:id}"
+}

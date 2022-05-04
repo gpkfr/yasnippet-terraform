@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_softwarerepository_category_mapper
+# key: d_intersight_softwarerepository_category_mapper
+# --
+
+data "intersight_softwarerepository_category_mapper" "${1:this}" {
+}

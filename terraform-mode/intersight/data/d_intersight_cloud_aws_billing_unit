@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_aws_billing_unit
+# key: d_intersight_cloud_aws_billing_unit
+# --
+
+data "intersight_cloud_aws_billing_unit" "${1:this}" {
+}

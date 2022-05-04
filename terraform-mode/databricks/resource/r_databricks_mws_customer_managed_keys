@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_databricks_mws_customer_managed_keys
+# key: r_databricks_mws_customer_managed_keys
+# --
+
+resource "databricks_mws_customer_managed_keys" "${1:this}" {
+    account_id = "${2:account_id}"
+    use_cases = "${3:use_cases}"
+}

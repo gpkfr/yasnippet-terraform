@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbmonitor_sslcertkey_binding
+# key: r_citrixadc_lbmonitor_sslcertkey_binding
+# --
+
+resource "citrixadc_lbmonitor_sslcertkey_binding" "${1:this}" {
+    certkeyname = "${2:certkeyname}"
+    monitorname = "${3:monitorname}"
+}

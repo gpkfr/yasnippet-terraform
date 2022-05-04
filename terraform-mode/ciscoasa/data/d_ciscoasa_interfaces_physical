@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ciscoasa_interfaces_physical
+# key: d_ciscoasa_interfaces_physical
+# --
+
+data "ciscoasa_interfaces_physical" "${1:this}" {
+}

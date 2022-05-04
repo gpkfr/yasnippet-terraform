@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ecl_security_network_based_device_single_v2
+# key: r_ecl_security_network_based_device_single_v2
+# --
+
+resource "ecl_security_network_based_device_single_v2" "${1:this}" {
+    az_group = "${2:az_group}"
+    license_kind = "${3:license_kind}"
+    operating_mode = "${4:operating_mode}"
+    tenant_id = "${5:tenant_id}"
+}

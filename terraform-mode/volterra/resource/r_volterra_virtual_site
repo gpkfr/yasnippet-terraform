@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_virtual_site
+# key: r_volterra_virtual_site
+# --
+
+resource "volterra_virtual_site" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+    site_type = "${4:site_type}"
+}

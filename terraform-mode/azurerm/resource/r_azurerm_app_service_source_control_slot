@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_app_service_source_control_slot
+# key: r_azurerm_app_service_source_control_slot
+# --
+
+resource "azurerm_app_service_source_control_slot" "${1:this}" {
+    slot_id = "${2:slot_id}"
+}

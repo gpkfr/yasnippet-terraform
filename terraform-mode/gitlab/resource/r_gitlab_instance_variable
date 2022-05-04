@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_instance_variable
+# key: r_gitlab_instance_variable
+# --
+
+resource "gitlab_instance_variable" "${1:this}" {
+    key = "${2:key}"
+    value = "${3:value}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_failover_setup
+# key: r_ciscoasa_failover_setup
+# --
+
+resource "ciscoasa_failover_setup" "${1:this}" {
+}

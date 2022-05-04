@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_configcat_setting_value
+# key: r_configcat_setting_value
+# --
+
+resource "configcat_setting_value" "${1:this}" {
+    environment_id = "${2:environment_id}"
+    setting_id = "${3:setting_id}"
+    value = "${4:value}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_aaa_retention_policy
+# key: r_intersight_aaa_retention_policy
+# --
+
+resource "intersight_aaa_retention_policy" "${1:this}" {
+}

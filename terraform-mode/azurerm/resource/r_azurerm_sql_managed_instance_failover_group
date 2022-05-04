@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_sql_managed_instance_failover_group
+# key: r_azurerm_sql_managed_instance_failover_group
+# --
+
+resource "azurerm_sql_managed_instance_failover_group" "${1:this}" {
+    location = "${2:location}"
+    managed_instance_name = "${3:managed_instance_name}"
+    name = "${4:name}"
+    partner_managed_instance_id = "${5:partner_managed_instance_id}"
+    resource_group_name = "${6:resource_group_name}"
+}

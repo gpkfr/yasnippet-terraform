@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_os_valid_install_target
+# key: r_intersight_os_valid_install_target
+# --
+
+resource "intersight_os_valid_install_target" "${1:this}" {
+}

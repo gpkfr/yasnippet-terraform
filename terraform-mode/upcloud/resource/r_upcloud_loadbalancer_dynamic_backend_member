@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_loadbalancer_dynamic_backend_member
+# key: r_upcloud_loadbalancer_dynamic_backend_member
+# --
+
+resource "upcloud_loadbalancer_dynamic_backend_member" "${1:this}" {
+    backend = "${2:backend}"
+    max_sessions = "${3:max_sessions}"
+    name = "${4:name}"
+    weight = "${5:weight}"
+}

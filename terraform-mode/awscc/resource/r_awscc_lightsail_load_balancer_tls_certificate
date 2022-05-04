@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lightsail_load_balancer_tls_certificate
+# key: r_awscc_lightsail_load_balancer_tls_certificate
+# --
+
+resource "awscc_lightsail_load_balancer_tls_certificate" "${1:this}" {
+    certificate_domain_name = "${2:certificate_domain_name}"
+    certificate_name = "${3:certificate_name}"
+    load_balancer_name = "${4:load_balancer_name}"
+}

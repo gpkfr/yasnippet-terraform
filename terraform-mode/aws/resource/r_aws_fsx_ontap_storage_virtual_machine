@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_fsx_ontap_storage_virtual_machine
+# key: r_aws_fsx_ontap_storage_virtual_machine
+# --
+
+resource "aws_fsx_ontap_storage_virtual_machine" "${1:this}" {
+    file_system_id = "${2:file_system_id}"
+    name = "${3:name}"
+}

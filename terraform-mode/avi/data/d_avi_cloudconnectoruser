@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_cloudconnectoruser
+# key: d_avi_cloudconnectoruser
+# --
+
+data "avi_cloudconnectoruser" "${1:this}" {
+}

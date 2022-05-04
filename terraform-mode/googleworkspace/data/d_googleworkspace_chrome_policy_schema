@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_googleworkspace_chrome_policy_schema
+# key: d_googleworkspace_chrome_policy_schema
+# --
+
+data "googleworkspace_chrome_policy_schema" "${1:this}" {
+    schema_name = "${2:schema_name}"
+}

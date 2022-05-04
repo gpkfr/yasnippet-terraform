@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_quicksight_data_source
+# key: r_aws_quicksight_data_source
+# --
+
+resource "aws_quicksight_data_source" "${1:this}" {
+    data_source_id = "${2:data_source_id}"
+    name = "${3:name}"
+    type = "${4:type}"
+}

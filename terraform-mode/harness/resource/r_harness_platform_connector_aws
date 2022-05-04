@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_aws
+# key: r_harness_platform_connector_aws
+# --
+
+resource "harness_platform_connector_aws" "${1:this}" {
+    identifier = "${2:identifier}"
+    name = "${3:name}"
+}

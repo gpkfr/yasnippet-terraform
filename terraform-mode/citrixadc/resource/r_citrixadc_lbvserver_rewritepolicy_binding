@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbvserver_rewritepolicy_binding
+# key: r_citrixadc_lbvserver_rewritepolicy_binding
+# --
+
+resource "citrixadc_lbvserver_rewritepolicy_binding" "${1:this}" {
+    name = "${2:name}"
+    policyname = "${3:policyname}"
+}

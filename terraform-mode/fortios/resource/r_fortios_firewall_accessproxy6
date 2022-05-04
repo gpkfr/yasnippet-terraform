@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_accessproxy6
+# key: r_fortios_firewall_accessproxy6
+# --
+
+resource "fortios_firewall_accessproxy6" "${1:this}" {
+}

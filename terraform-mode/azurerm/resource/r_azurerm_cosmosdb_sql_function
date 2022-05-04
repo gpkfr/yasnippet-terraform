@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cosmosdb_sql_function
+# key: r_azurerm_cosmosdb_sql_function
+# --
+
+resource "azurerm_cosmosdb_sql_function" "${1:this}" {
+    body = "${2:body}"
+    container_id = "${3:container_id}"
+    name = "${4:name}"
+}

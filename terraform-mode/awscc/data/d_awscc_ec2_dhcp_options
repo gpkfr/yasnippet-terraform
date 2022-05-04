@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_dhcp_options
+# key: d_awscc_ec2_dhcp_options
+# --
+
+data "awscc_ec2_dhcp_options" "${1:this}" {
+    id = "${2:id}"
+}

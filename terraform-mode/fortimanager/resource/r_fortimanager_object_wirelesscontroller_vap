@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_wirelesscontroller_vap
+# key: r_fortimanager_object_wirelesscontroller_vap
+# --
+
+resource "fortimanager_object_wirelesscontroller_vap" "${1:this}" {
+}

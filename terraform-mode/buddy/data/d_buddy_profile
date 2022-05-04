@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_buddy_profile
+# key: d_buddy_profile
+# --
+
+data "buddy_profile" "${1:this}" {
+}

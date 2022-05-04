@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_custom_rule
+# key: r_akamai_appsec_custom_rule
+# --
+
+resource "akamai_appsec_custom_rule" "${1:this}" {
+    config_id = "${2:config_id}"
+    custom_rule = "${3:custom_rule}"
+}

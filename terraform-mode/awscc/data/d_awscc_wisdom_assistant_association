@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_wisdom_assistant_association
+# key: d_awscc_wisdom_assistant_association
+# --
+
+data "awscc_wisdom_assistant_association" "${1:this}" {
+    id = "${2:id}"
+}

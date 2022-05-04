@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_registry
+# key: r_aws_glue_registry
+# --
+
+resource "aws_glue_registry" "${1:this}" {
+    registry_name = "${2:registry_name}"
+}

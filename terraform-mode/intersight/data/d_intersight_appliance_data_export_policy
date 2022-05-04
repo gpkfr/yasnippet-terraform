@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_data_export_policy
+# key: d_intersight_appliance_data_export_policy
+# --
+
+data "intersight_appliance_data_export_policy" "${1:this}" {
+}

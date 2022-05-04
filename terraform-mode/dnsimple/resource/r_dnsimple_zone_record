@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_dnsimple_zone_record
+# key: r_dnsimple_zone_record
+# --
+
+resource "dnsimple_zone_record" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+    value = "${4:value}"
+    zone_name = "${5:zone_name}"
+}

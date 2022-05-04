@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_vmware_folder
+# key: d_intersight_virtualization_vmware_folder
+# --
+
+data "intersight_virtualization_vmware_folder" "${1:this}" {
+}

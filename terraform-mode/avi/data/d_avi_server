@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_avi_server
+# key: d_avi_server
+# --
+
+data "avi_server" "${1:this}" {
+    ip = "${2:ip}"
+    pool_ref = "${3:pool_ref}"
+}

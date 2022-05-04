@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_eventschemas_registry_policy
+# key: r_awscc_eventschemas_registry_policy
+# --
+
+resource "awscc_eventschemas_registry_policy" "${1:this}" {
+    policy = "${2:policy}"
+    registry_name = "${3:registry_name}"
+}

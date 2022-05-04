@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_logzio_subaccount
+# key: r_logzio_subaccount
+# --
+
+resource "logzio_subaccount" "${1:this}" {
+    account_name = "${2:account_name}"
+    email = "${3:email}"
+    retention_days = "${4:retention_days}"
+}

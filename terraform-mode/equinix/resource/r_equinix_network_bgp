@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_equinix_network_bgp
+# key: r_equinix_network_bgp
+# --
+
+resource "equinix_network_bgp" "${1:this}" {
+    connection_id = "${2:connection_id}"
+    local_asn = "${3:local_asn}"
+    local_ip_address = "${4:local_ip_address}"
+    remote_asn = "${5:remote_asn}"
+    remote_ip_address = "${6:remote_ip_address}"
+}

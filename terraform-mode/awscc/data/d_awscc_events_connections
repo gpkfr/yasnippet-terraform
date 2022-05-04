@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_events_connections
+# key: d_awscc_events_connections
+# --
+
+data "awscc_events_connections" "${1:this}" {
+}

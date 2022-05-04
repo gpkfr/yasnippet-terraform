@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_connect_phone_number
+# key: d_awscc_connect_phone_number
+# --
+
+data "awscc_connect_phone_number" "${1:this}" {
+    id = "${2:id}"
+}

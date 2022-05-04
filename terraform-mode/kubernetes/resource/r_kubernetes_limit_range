@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_limit_range
+# key: r_kubernetes_limit_range
+# --
+
+resource "kubernetes_limit_range" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_azuread_directory_role
+# key: r_azuread_directory_role
+# --
+
+resource "azuread_directory_role" "${1:this}" {
+}

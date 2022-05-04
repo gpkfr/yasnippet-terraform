@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_commvault_azure_hypervisor
+# key: r_commvault_azure_hypervisor
+# --
+
+resource "commvault_azure_hypervisor" "${1:this}" {
+    access_nodes = "${2:access_nodes}"
+    application_id = "${3:application_id}"
+    application_password = "${4:application_password}"
+    hypervisor_name = "${5:hypervisor_name}"
+    subscription_id = "${6:subscription_id}"
+    tenant_id = "${7:tenant_id}"
+}

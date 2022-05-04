@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_connector_azure
+# key: r_netapp-cloudmanager_connector_azure
+# --
+
+resource "netapp-cloudmanager_connector_azure" "${1:this}" {
+    admin_password = "${2:admin_password}"
+    admin_username = "${3:admin_username}"
+    company = "${4:company}"
+    location = "${5:location}"
+    name = "${6:name}"
+    network_security_group_name = "${7:network_security_group_name}"
+    resource_group = "${8:resource_group}"
+    subnet_id = "${9:subnet_id}"
+    subscription_id = "${10:subscription_id}"
+    vnet_id = "${11:vnet_id}"
+}

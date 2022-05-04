@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_gamelift_fleet
+# key: d_awscc_gamelift_fleet
+# --
+
+data "awscc_gamelift_fleet" "${1:this}" {
+    id = "${2:id}"
+}

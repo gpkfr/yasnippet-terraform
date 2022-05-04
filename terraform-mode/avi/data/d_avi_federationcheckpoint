@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_federationcheckpoint
+# key: d_avi_federationcheckpoint
+# --
+
+data "avi_federationcheckpoint" "${1:this}" {
+}

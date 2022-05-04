@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_opsi_enterprise_manager_bridges
+# key: d_oci_opsi_enterprise_manager_bridges
+# --
+
+data "oci_opsi_enterprise_manager_bridges" "${1:this}" {
+}

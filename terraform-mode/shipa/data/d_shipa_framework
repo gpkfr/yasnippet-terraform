@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_shipa_framework
+# key: d_shipa_framework
+# --
+
+data "shipa_framework" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_nia_license_state
+# key: d_intersight_niatelemetry_nia_license_state
+# --
+
+data "intersight_niatelemetry_nia_license_state" "${1:this}" {
+}

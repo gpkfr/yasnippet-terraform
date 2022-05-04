@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_iam_saml_provider
+# key: d_aws_iam_saml_provider
+# --
+
+data "aws_iam_saml_provider" "${1:this}" {
+    arn = "${2:arn}"
+}

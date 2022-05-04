@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_widget_deployment
+# key: r_genesyscloud_widget_deployment
+# --
+
+resource "genesyscloud_widget_deployment" "${1:this}" {
+    authentication_required = "${2:authentication_required}"
+    client_type = "${3:client_type}"
+    disabled = "${4:disabled}"
+    name = "${5:name}"
+}

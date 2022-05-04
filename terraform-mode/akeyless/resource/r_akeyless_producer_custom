@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_producer_custom
+# key: r_akeyless_producer_custom
+# --
+
+resource "akeyless_producer_custom" "${1:this}" {
+    create_sync_url = "${2:create_sync_url}"
+    name = "${3:name}"
+    revoke_sync_url = "${4:revoke_sync_url}"
+}

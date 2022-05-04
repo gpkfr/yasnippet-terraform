@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_http_monitor
+# key: r_dynatrace_http_monitor
+# --
+
+resource "dynatrace_http_monitor" "${1:this}" {
+    frequency = "${2:frequency}"
+    name = "${3:name}"
+}

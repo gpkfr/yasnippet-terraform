@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_salesforce_user_role
+# key: r_salesforce_user_role
+# --
+
+resource "salesforce_user_role" "${1:this}" {
+    developer_name = "${2:developer_name}"
+    name = "${3:name}"
+}

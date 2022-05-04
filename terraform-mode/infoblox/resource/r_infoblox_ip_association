@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_infoblox_ip_association
+# key: r_infoblox_ip_association
+# --
+
+resource "infoblox_ip_association" "${1:this}" {
+    internal_id = "${2:internal_id}"
+}

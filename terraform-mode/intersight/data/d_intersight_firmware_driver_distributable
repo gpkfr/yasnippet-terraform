@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_driver_distributable
+# key: d_intersight_firmware_driver_distributable
+# --
+
+data "intersight_firmware_driver_distributable" "${1:this}" {
+}

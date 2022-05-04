@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_hub_route_table
+# key: r_azurerm_virtual_hub_route_table
+# --
+
+resource "azurerm_virtual_hub_route_table" "${1:this}" {
+    name = "${2:name}"
+    virtual_hub_id = "${3:virtual_hub_id}"
+}

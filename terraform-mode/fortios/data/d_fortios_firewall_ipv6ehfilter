@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_ipv6ehfilter
+# key: d_fortios_firewall_ipv6ehfilter
+# --
+
+data "fortios_firewall_ipv6ehfilter" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_compute_capacity_reservation_instances
+# key: d_oci_core_compute_capacity_reservation_instances
+# --
+
+data "oci_core_compute_capacity_reservation_instances" "${1:this}" {
+    capacity_reservation_id = "${2:capacity_reservation_id}"
+}

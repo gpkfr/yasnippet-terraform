@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudsigma_snapshot
+# key: r_cloudsigma_snapshot
+# --
+
+resource "cloudsigma_snapshot" "${1:this}" {
+    drive = "${2:drive}"
+    name = "${3:name}"
+}

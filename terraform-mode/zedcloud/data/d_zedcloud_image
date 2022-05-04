@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_zedcloud_image
+# key: d_zedcloud_image
+# --
+
+data "zedcloud_image" "${1:this}" {
+    name = "${2:name}"
+}

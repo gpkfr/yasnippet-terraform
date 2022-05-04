@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_nacdevice
+# key: r_fortios_switchcontroller_nacdevice
+# --
+
+resource "fortios_switchcontroller_nacdevice" "${1:this}" {
+}

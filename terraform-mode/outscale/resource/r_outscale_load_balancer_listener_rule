@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_outscale_load_balancer_listener_rule
+# key: r_outscale_load_balancer_listener_rule
+# --
+
+resource "outscale_load_balancer_listener_rule" "${1:this}" {
+    vm_ids = "${2:vm_ids}"
+}

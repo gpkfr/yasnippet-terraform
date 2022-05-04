@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_ingress
+# key: r_kubernetes_ingress
+# --
+
+resource "kubernetes_ingress" "${1:this}" {
+}

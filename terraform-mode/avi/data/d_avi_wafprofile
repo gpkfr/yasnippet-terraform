@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_wafprofile
+# key: d_avi_wafprofile
+# --
+
+data "avi_wafprofile" "${1:this}" {
+}

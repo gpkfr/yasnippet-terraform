@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_notification_policy_webhooks
+# key: r_cloudflare_notification_policy_webhooks
+# --
+
+resource "cloudflare_notification_policy_webhooks" "${1:this}" {
+    account_id = "${2:account_id}"
+    name = "${3:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_kentik-cloudexport_item
+# key: d_kentik-cloudexport_item
+# --
+
+data "kentik-cloudexport_item" "${1:this}" {
+    id = "${2:id}"
+}

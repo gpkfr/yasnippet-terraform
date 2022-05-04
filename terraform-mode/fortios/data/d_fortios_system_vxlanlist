@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_vxlanlist
+# key: d_fortios_system_vxlanlist
+# --
+
+data "fortios_system_vxlanlist" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iam_roles
+# key: d_awscc_iam_roles
+# --
+
+data "awscc_iam_roles" "${1:this}" {
+}

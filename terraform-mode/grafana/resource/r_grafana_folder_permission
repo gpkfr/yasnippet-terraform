@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_grafana_folder_permission
+# key: r_grafana_folder_permission
+# --
+
+resource "grafana_folder_permission" "${1:this}" {
+    folder_uid = "${2:folder_uid}"
+}

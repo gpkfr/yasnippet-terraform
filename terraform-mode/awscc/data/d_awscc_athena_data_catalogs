@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_athena_data_catalogs
+# key: d_awscc_athena_data_catalogs
+# --
+
+data "awscc_athena_data_catalogs" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_securityhub_organization_configuration
+# key: r_aws_securityhub_organization_configuration
+# --
+
+resource "aws_securityhub_organization_configuration" "${1:this}" {
+    auto_enable = "${2:auto_enable}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationemailaction
+# key: r_citrixadc_authenticationemailaction
+# --
+
+resource "citrixadc_authenticationemailaction" "${1:this}" {
+    name = "${2:name}"
+    password = "${3:password}"
+    serverurl = "${4:serverurl}"
+    username = "${5:username}"
+}

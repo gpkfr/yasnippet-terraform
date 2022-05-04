@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_report_estbrowsetime
+# key: r_fortianalyzer_system_report_estbrowsetime
+# --
+
+resource "fortianalyzer_system_report_estbrowsetime" "${1:this}" {
+}

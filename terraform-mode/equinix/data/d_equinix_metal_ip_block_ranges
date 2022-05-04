@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_ip_block_ranges
+# key: d_equinix_metal_ip_block_ranges
+# --
+
+data "equinix_metal_ip_block_ranges" "${1:this}" {
+    project_id = "${2:project_id}"
+}

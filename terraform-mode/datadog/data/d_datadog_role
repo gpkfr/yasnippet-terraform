@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_datadog_role
+# key: d_datadog_role
+# --
+
+data "datadog_role" "${1:this}" {
+    filter = "${2:filter}"
+}

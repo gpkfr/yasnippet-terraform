@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_access_token
+# key: r_artifactory_access_token
+# --
+
+resource "artifactory_access_token" "${1:this}" {
+    username = "${2:username}"
+}

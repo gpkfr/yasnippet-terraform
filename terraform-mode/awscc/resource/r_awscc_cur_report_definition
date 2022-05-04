@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cur_report_definition
+# key: r_awscc_cur_report_definition
+# --
+
+resource "awscc_cur_report_definition" "${1:this}" {
+    compression = "${2:compression}"
+    format = "${3:format}"
+    refresh_closed_reports = "${4:refresh_closed_reports}"
+    report_name = "${5:report_name}"
+    report_versioning = "${6:report_versioning}"
+    s3_bucket = "${7:s3_bucket}"
+    s3_prefix = "${8:s3_prefix}"
+    s3_region = "${9:s3_region}"
+    time_unit = "${10:time_unit}"
+}

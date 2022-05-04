@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewallshaper_peripshaperlist
+# key: d_fortios_firewallshaper_peripshaperlist
+# --
+
+data "fortios_firewallshaper_peripshaperlist" "${1:this}" {
+}

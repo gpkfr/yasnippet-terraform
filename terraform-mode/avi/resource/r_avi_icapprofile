@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_avi_icapprofile
+# key: r_avi_icapprofile
+# --
+
+resource "avi_icapprofile" "${1:this}" {
+    name = "${2:name}"
+    pool_group_ref = "${3:pool_group_ref}"
+    service_uri = "${4:service_uri}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_waf_protection_capabilities
+# key: d_oci_waf_protection_capabilities
+# --
+
+data "oci_waf_protection_capabilities" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

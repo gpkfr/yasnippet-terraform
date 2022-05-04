@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_certificates_management_certificate_authority
+# key: r_oci_certificates_management_certificate_authority
+# --
+
+resource "oci_certificates_management_certificate_authority" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    kms_key_id = "${3:kms_key_id}"
+    name = "${4:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_host
+# key: r_aws_ec2_host
+# --
+
+resource "aws_ec2_host" "${1:this}" {
+    availability_zone = "${2:availability_zone}"
+}

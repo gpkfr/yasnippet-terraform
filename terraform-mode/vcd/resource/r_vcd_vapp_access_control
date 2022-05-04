@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vapp_access_control
+# key: r_vcd_vapp_access_control
+# --
+
+resource "vcd_vapp_access_control" "${1:this}" {
+    shared_with_everyone = "${2:shared_with_everyone}"
+    vapp_id = "${3:vapp_id}"
+}

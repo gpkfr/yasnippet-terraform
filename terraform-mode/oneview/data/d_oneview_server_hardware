@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_server_hardware
+# key: d_oneview_server_hardware
+# --
+
+data "oneview_server_hardware" "${1:this}" {
+    name = "${2:name}"
+}

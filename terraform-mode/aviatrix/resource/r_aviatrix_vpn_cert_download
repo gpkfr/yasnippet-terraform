@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_vpn_cert_download
+# key: r_aviatrix_vpn_cert_download
+# --
+
+resource "aviatrix_vpn_cert_download" "${1:this}" {
+}

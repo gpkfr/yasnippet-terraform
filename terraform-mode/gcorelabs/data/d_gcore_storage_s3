@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_gcore_storage_s3
+# key: d_gcore_storage_s3
+# --
+
+data "gcore_storage_s3" "${1:this}" {
+}

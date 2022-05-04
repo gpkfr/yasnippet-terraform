@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_interface_ethernet
+# key: r_thunder_interface_ethernet
+# --
+
+resource "thunder_interface_ethernet" "${1:this}" {
+    ifnum = "${2:ifnum}"
+}

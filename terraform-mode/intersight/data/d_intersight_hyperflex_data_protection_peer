@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_data_protection_peer
+# key: d_intersight_hyperflex_data_protection_peer
+# --
+
+data "intersight_hyperflex_data_protection_peer" "${1:this}" {
+}

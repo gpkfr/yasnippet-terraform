@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_oauth_client
+# key: r_genesyscloud_oauth_client
+# --
+
+resource "genesyscloud_oauth_client" "${1:this}" {
+    authorized_grant_type = "${2:authorized_grant_type}"
+    name = "${3:name}"
+}

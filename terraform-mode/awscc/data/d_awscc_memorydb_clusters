@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_memorydb_clusters
+# key: d_awscc_memorydb_clusters
+# --
+
+data "awscc_memorydb_clusters" "${1:this}" {
+}

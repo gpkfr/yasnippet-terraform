@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_okta_link_definition
+# key: r_okta_link_definition
+# --
+
+resource "okta_link_definition" "${1:this}" {
+    associated_description = "${2:associated_description}"
+    associated_name = "${3:associated_name}"
+    associated_title = "${4:associated_title}"
+    primary_description = "${5:primary_description}"
+    primary_name = "${6:primary_name}"
+    primary_title = "${7:primary_title}"
+}

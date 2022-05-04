@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_outscale_load_balancer_vm_health
+# key: d_outscale_load_balancer_vm_health
+# --
+
+data "outscale_load_balancer_vm_health" "${1:this}" {
+    load_balancer_name = "${2:load_balancer_name}"
+}

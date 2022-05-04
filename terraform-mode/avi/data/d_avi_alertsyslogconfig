@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_alertsyslogconfig
+# key: d_avi_alertsyslogconfig
+# --
+
+data "avi_alertsyslogconfig" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_route_table
+# key: r_ncloud_route_table
+# --
+
+resource "ncloud_route_table" "${1:this}" {
+    supported_subnet_type = "${2:supported_subnet_type}"
+    vpc_no = "${3:vpc_no}"
+}

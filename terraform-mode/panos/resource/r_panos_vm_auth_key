@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_vm_auth_key
+# key: r_panos_vm_auth_key
+# --
+
+resource "panos_vm_auth_key" "${1:this}" {
+}

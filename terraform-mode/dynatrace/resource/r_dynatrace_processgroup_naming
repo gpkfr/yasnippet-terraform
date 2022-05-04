@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_processgroup_naming
+# key: r_dynatrace_processgroup_naming
+# --
+
+resource "dynatrace_processgroup_naming" "${1:this}" {
+    enabled = "${2:enabled}"
+    format = "${3:format}"
+    name = "${4:name}"
+}

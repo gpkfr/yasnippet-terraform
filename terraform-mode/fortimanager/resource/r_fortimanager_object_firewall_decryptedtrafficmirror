@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_decryptedtrafficmirror
+# key: r_fortimanager_object_firewall_decryptedtrafficmirror
+# --
+
+resource "fortimanager_object_firewall_decryptedtrafficmirror" "${1:this}" {
+}

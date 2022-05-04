@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_databricks_metastore_data_access
+# key: r_databricks_metastore_data_access
+# --
+
+resource "databricks_metastore_data_access" "${1:this}" {
+    metastore_id = "${2:metastore_id}"
+    name = "${3:name}"
+}

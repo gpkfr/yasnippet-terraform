@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53_key_signing_key
+# key: r_aws_route53_key_signing_key
+# --
+
+resource "aws_route53_key_signing_key" "${1:this}" {
+    hosted_zone_id = "${2:hosted_zone_id}"
+    key_management_service_arn = "${3:key_management_service_arn}"
+    name = "${4:name}"
+}

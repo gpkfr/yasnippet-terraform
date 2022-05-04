@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_vmware_private_cloud
+# key: d_azurerm_vmware_private_cloud
+# --
+
+data "azurerm_vmware_private_cloud" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+}

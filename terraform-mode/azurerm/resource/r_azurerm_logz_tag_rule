@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_logz_tag_rule
+# key: r_azurerm_logz_tag_rule
+# --
+
+resource "azurerm_logz_tag_rule" "${1:this}" {
+    logz_monitor_id = "${2:logz_monitor_id}"
+}

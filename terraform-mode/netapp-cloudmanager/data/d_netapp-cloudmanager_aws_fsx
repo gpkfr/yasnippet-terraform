@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_netapp-cloudmanager_aws_fsx
+# key: d_netapp-cloudmanager_aws_fsx
+# --
+
+data "netapp-cloudmanager_aws_fsx" "${1:this}" {
+    id = "${2:id}"
+}

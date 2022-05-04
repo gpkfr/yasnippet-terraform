@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_backup_vault_lock_configuration
+# key: r_aws_backup_vault_lock_configuration
+# --
+
+resource "aws_backup_vault_lock_configuration" "${1:this}" {
+    backup_vault_name = "${2:backup_vault_name}"
+}

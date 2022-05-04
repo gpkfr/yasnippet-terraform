@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_availabilityzone
+# key: d_avi_availabilityzone
+# --
+
+data "avi_availabilityzone" "${1:this}" {
+}

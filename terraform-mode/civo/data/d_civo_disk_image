@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_civo_disk_image
+# key: d_civo_disk_image
+# --
+
+data "civo_disk_image" "${1:this}" {
+}

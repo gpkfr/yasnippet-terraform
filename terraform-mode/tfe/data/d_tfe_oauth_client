@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tfe_oauth_client
+# key: d_tfe_oauth_client
+# --
+
+data "tfe_oauth_client" "${1:this}" {
+    oauth_client_id = "${2:oauth_client_id}"
+}

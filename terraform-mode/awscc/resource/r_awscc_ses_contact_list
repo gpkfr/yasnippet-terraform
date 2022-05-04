@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ses_contact_list
+# key: r_awscc_ses_contact_list
+# --
+
+resource "awscc_ses_contact_list" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_adverity_storage
+# key: r_adverity_storage
+# --
+
+resource "adverity_storage" "${1:this}" {
+    auth = "${2:auth}"
+    name = "${3:name}"
+    url = "${4:url}"
+}

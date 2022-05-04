@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_datadog_cloud_workload_security_agent_rules
+# key: d_datadog_cloud_workload_security_agent_rules
+# --
+
+data "datadog_cloud_workload_security_agent_rules" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_webfilter_content
+# key: r_fortimanager_object_webfilter_content
+# --
+
+resource "fortimanager_object_webfilter_content" "${1:this}" {
+}

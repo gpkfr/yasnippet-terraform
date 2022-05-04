@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_firehydrant_functionality
+# key: d_firehydrant_functionality
+# --
+
+data "firehydrant_functionality" "${1:this}" {
+    functionality_id = "${2:functionality_id}"
+}

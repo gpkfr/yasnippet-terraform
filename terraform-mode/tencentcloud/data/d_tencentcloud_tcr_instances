@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_tcr_instances
+# key: d_tencentcloud_tcr_instances
+# --
+
+data "tencentcloud_tcr_instances" "${1:this}" {
+}

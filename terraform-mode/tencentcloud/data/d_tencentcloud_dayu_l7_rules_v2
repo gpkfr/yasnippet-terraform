@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_dayu_l7_rules_v2
+# key: d_tencentcloud_dayu_l7_rules_v2
+# --
+
+data "tencentcloud_dayu_l7_rules_v2" "${1:this}" {
+    business = "${2:business}"
+}

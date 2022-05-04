@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_extension_servicenow
+# key: r_pagerduty_extension_servicenow
+# --
+
+resource "pagerduty_extension_servicenow" "${1:this}" {
+    extension_objects = "${2:extension_objects}"
+    extension_schema = "${3:extension_schema}"
+    referer = "${4:referer}"
+    snow_password = "${5:snow_password}"
+    snow_user = "${6:snow_user}"
+    sync_options = "${7:sync_options}"
+    target = "${8:target}"
+    task_type = "${9:task_type}"
+}

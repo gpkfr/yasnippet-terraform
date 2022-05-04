@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_wisdom_assistants
+# key: d_awscc_wisdom_assistants
+# --
+
+data "awscc_wisdom_assistants" "${1:this}" {
+}

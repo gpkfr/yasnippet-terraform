@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_servicecatalog_budget_resource_association
+# key: r_aws_servicecatalog_budget_resource_association
+# --
+
+resource "aws_servicecatalog_budget_resource_association" "${1:this}" {
+    budget_name = "${2:budget_name}"
+    resource_id = "${3:resource_id}"
+}

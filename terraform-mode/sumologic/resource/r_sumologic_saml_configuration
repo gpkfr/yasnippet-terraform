@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_saml_configuration
+# key: r_sumologic_saml_configuration
+# --
+
+resource "sumologic_saml_configuration" "${1:this}" {
+    configuration_name = "${2:configuration_name}"
+    issuer = "${3:issuer}"
+    x509cert1 = "${4:x509cert1}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_netris_inventory_profile
+# key: r_netris_inventory_profile
+# --
+
+resource "netris_inventory_profile" "${1:this}" {
+    name = "${2:name}"
+    timezone = "${3:timezone}"
+}

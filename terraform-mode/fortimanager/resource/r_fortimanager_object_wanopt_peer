@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_wanopt_peer
+# key: r_fortimanager_object_wanopt_peer
+# --
+
+resource "fortimanager_object_wanopt_peer" "${1:this}" {
+}

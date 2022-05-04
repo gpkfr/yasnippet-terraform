@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxv_dhcp_relay
+# key: d_vcd_nsxv_dhcp_relay
+# --
+
+data "vcd_nsxv_dhcp_relay" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+}

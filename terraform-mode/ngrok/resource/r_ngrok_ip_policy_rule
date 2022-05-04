@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_ip_policy_rule
+# key: r_ngrok_ip_policy_rule
+# --
+
+resource "ngrok_ip_policy_rule" "${1:this}" {
+    cidr = "${2:cidr}"
+    ip_policy_id = "${3:ip_policy_id}"
+}

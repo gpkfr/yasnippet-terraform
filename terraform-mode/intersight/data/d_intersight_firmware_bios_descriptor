@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_bios_descriptor
+# key: d_intersight_firmware_bios_descriptor
+# --
+
+data "intersight_firmware_bios_descriptor" "${1:this}" {
+}

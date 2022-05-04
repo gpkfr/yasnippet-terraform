@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_device_network_type
+# key: r_equinix_metal_device_network_type
+# --
+
+resource "equinix_metal_device_network_type" "${1:this}" {
+    device_id = "${2:device_id}"
+    type = "${3:type}"
+}

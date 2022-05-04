@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_nat_rulebase
+# key: d_checkpoint_management_nat_rulebase
+# --
+
+data "checkpoint_management_nat_rulebase" "${1:this}" {
+    package = "${2:package}"
+}

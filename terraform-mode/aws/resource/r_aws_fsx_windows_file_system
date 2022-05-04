@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_fsx_windows_file_system
+# key: r_aws_fsx_windows_file_system
+# --
+
+resource "aws_fsx_windows_file_system" "${1:this}" {
+    subnet_ids = "${2:subnet_ids}"
+    throughput_capacity = "${3:throughput_capacity}"
+}

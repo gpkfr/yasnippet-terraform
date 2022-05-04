@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudflare_api_token_permission_groups
+# key: d_cloudflare_api_token_permission_groups
+# --
+
+data "cloudflare_api_token_permission_groups" "${1:this}" {
+}

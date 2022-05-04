@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_router_bgp_address_family_ipv6_redistribute
+# key: r_thunder_router_bgp_address_family_ipv6_redistribute
+# --
+
+resource "thunder_router_bgp_address_family_ipv6_redistribute" "${1:this}" {
+}

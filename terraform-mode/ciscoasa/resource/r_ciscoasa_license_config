@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_license_config
+# key: r_ciscoasa_license_config
+# --
+
+resource "ciscoasa_license_config" "${1:this}" {
+    throughput = "${2:throughput}"
+}

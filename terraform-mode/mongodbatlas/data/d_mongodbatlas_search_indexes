@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_search_indexes
+# key: d_mongodbatlas_search_indexes
+# --
+
+data "mongodbatlas_search_indexes" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    collection_name = "${3:collection_name}"
+    database = "${4:database}"
+    project_id = "${5:project_id}"
+}

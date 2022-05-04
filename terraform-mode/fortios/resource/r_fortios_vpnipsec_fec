@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_vpnipsec_fec
+# key: r_fortios_vpnipsec_fec
+# --
+
+resource "fortios_vpnipsec_fec" "${1:this}" {
+}

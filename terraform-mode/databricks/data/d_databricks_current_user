@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_databricks_current_user
+# key: d_databricks_current_user
+# --
+
+data "databricks_current_user" "${1:this}" {
+}

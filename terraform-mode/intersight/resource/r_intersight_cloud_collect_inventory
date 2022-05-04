@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_cloud_collect_inventory
+# key: r_intersight_cloud_collect_inventory
+# --
+
+resource "intersight_cloud_collect_inventory" "${1:this}" {
+}

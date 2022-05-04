@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_vpc_public_gateway_dhcp_reservation
+# key: r_scaleway_vpc_public_gateway_dhcp_reservation
+# --
+
+resource "scaleway_vpc_public_gateway_dhcp_reservation" "${1:this}" {
+    gateway_network_id = "${2:gateway_network_id}"
+    ip_address = "${3:ip_address}"
+    mac_address = "${4:mac_address}"
+}

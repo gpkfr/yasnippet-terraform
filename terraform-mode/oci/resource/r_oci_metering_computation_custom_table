@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_metering_computation_custom_table
+# key: r_oci_metering_computation_custom_table
+# --
+
+resource "oci_metering_computation_custom_table" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    saved_report_id = "${3:saved_report_id}"
+}

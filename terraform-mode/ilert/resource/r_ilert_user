@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ilert_user
+# key: r_ilert_user
+# --
+
+resource "ilert_user" "${1:this}" {
+    email = "${2:email}"
+    first_name = "${3:first_name}"
+    last_name = "${4:last_name}"
+    username = "${5:username}"
+}

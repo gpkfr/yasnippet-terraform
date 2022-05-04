@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_serviceengine
+# key: r_avi_serviceengine
+# --
+
+resource "avi_serviceengine" "${1:this}" {
+}

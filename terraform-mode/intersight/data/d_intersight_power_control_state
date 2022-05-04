@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_power_control_state
+# key: d_intersight_power_control_state
+# --
+
+data "intersight_power_control_state" "${1:this}" {
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_fis_experiment_template
+# key: r_awscc_fis_experiment_template
+# --
+
+resource "awscc_fis_experiment_template" "${1:this}" {
+    description = "${2:description}"
+    role_arn = "${3:role_arn}"
+    stop_conditions = "${4:stop_conditions}"
+    tags = "${5:tags}"
+    targets = "${6:targets}"
+}

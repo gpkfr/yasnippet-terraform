@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cls_topic
+# key: r_tencentcloud_cls_topic
+# --
+
+resource "tencentcloud_cls_topic" "${1:this}" {
+    logset_id = "${2:logset_id}"
+    topic_name = "${3:topic_name}"
+}

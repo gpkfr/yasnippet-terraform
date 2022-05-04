@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_kendra_indices
+# key: d_awscc_kendra_indices
+# --
+
+data "awscc_kendra_indices" "${1:this}" {
+}

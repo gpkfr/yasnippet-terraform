@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vault_gcp_auth_backend_role
+# key: d_vault_gcp_auth_backend_role
+# --
+
+data "vault_gcp_auth_backend_role" "${1:this}" {
+    role_name = "${2:role_name}"
+}

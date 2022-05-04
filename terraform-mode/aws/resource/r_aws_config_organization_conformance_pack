@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_config_organization_conformance_pack
+# key: r_aws_config_organization_conformance_pack
+# --
+
+resource "aws_config_organization_conformance_pack" "${1:this}" {
+    name = "${2:name}"
+}

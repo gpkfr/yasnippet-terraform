@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_interface_vlan
+# key: r_ciscoasa_interface_vlan
+# --
+
+resource "ciscoasa_interface_vlan" "${1:this}" {
+    hardware_id = "${2:hardware_id}"
+    name = "${3:name}"
+    security_level = "${4:security_level}"
+}

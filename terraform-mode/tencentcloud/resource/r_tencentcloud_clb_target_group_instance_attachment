@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_clb_target_group_instance_attachment
+# key: r_tencentcloud_clb_target_group_instance_attachment
+# --
+
+resource "tencentcloud_clb_target_group_instance_attachment" "${1:this}" {
+    bind_ip = "${2:bind_ip}"
+    port = "${3:port}"
+    target_group_id = "${4:target_group_id}"
+    weight = "${5:weight}"
+}

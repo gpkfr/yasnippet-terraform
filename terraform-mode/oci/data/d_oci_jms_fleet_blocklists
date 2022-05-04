@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_jms_fleet_blocklists
+# key: d_oci_jms_fleet_blocklists
+# --
+
+data "oci_jms_fleet_blocklists" "${1:this}" {
+    fleet_id = "${2:fleet_id}"
+}

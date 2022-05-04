@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53resolver_resolver_rule_associations
+# key: d_awscc_route53resolver_resolver_rule_associations
+# --
+
+data "awscc_route53resolver_resolver_rule_associations" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_policystringmap_pattern_binding
+# key: r_citrixadc_policystringmap_pattern_binding
+# --
+
+resource "citrixadc_policystringmap_pattern_binding" "${1:this}" {
+    key = "${2:key}"
+    name = "${3:name}"
+    value = "${4:value}"
+}

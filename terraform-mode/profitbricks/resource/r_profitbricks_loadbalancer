@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_loadbalancer
+# key: r_profitbricks_loadbalancer
+# --
+
+resource "profitbricks_loadbalancer" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    name = "${3:name}"
+    nic_ids = "${4:nic_ids}"
+}

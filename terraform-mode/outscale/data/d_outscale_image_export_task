@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_outscale_image_export_task
+# key: d_outscale_image_export_task
+# --
+
+data "outscale_image_export_task" "${1:this}" {
+}

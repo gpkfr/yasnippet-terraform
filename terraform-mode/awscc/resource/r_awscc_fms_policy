@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_fms_policy
+# key: r_awscc_fms_policy
+# --
+
+resource "awscc_fms_policy" "${1:this}" {
+    exclude_resource_tags = "${2:exclude_resource_tags}"
+    policy_name = "${3:policy_name}"
+    remediation_enabled = "${4:remediation_enabled}"
+    resource_type = "${5:resource_type}"
+    security_service_policy_data = "${6:security_service_policy_data}"
+}

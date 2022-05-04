@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_zerotier_token
+# key: r_zerotier_token
+# --
+
+resource "zerotier_token" "${1:this}" {
+}

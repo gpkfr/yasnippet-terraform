@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_healthlake_fhir_datastore
+# key: d_awscc_healthlake_fhir_datastore
+# --
+
+data "awscc_healthlake_fhir_datastore" "${1:this}" {
+    id = "${2:id}"
+}

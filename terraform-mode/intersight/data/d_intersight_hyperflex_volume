@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_volume
+# key: d_intersight_hyperflex_volume
+# --
+
+data "intersight_hyperflex_volume" "${1:this}" {
+}

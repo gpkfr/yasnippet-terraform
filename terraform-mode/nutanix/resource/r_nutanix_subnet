@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_subnet
+# key: r_nutanix_subnet
+# --
+
+resource "nutanix_subnet" "${1:this}" {
+    cluster_uuid = "${2:cluster_uuid}"
+    name = "${3:name}"
+    subnet_type = "${4:subnet_type}"
+}

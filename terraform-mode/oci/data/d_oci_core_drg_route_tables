@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_drg_route_tables
+# key: d_oci_core_drg_route_tables
+# --
+
+data "oci_core_drg_route_tables" "${1:this}" {
+    drg_id = "${2:drg_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_google_dataproc_metastore_service
+# key: d_google_dataproc_metastore_service
+# --
+
+data "google_dataproc_metastore_service" "${1:this}" {
+    location = "${2:location}"
+    service_id = "${3:service_id}"
+}

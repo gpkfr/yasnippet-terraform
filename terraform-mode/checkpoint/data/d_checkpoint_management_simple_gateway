@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_simple_gateway
+# key: d_checkpoint_management_simple_gateway
+# --
+
+data "checkpoint_management_simple_gateway" "${1:this}" {
+}

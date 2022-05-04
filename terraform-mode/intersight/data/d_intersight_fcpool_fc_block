@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fcpool_fc_block
+# key: d_intersight_fcpool_fc_block
+# --
+
+data "intersight_fcpool_fc_block" "${1:this}" {
+}

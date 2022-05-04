@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_resource_authorization
+# key: r_azuredevops_resource_authorization
+# --
+
+resource "azuredevops_resource_authorization" "${1:this}" {
+    authorized = "${2:authorized}"
+    project_id = "${3:project_id}"
+    resource_id = "${4:resource_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_snmp_src
+# key: d_intersight_niatelemetry_snmp_src
+# --
+
+data "intersight_niatelemetry_snmp_src" "${1:this}" {
+}

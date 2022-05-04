@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vmc_srm_node
+# key: r_vmc_srm_node
+# --
+
+resource "vmc_srm_node" "${1:this}" {
+    sddc_id = "${2:sddc_id}"
+    srm_node_extension_key_suffix = "${3:srm_node_extension_key_suffix}"
+}

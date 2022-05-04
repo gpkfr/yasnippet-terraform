@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rafay_cluster_override
+# key: r_rafay_cluster_override
+# --
+
+resource "rafay_cluster_override" "${1:this}" {
+}

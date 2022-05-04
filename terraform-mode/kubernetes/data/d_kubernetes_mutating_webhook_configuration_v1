@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kubernetes_mutating_webhook_configuration_v1
+# key: d_kubernetes_mutating_webhook_configuration_v1
+# --
+
+data "kubernetes_mutating_webhook_configuration_v1" "${1:this}" {
+}

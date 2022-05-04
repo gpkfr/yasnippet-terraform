@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_network_element
+# key: d_intersight_network_element
+# --
+
+data "intersight_network_element" "${1:this}" {
+}

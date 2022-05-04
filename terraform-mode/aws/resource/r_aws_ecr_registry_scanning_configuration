@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ecr_registry_scanning_configuration
+# key: r_aws_ecr_registry_scanning_configuration
+# --
+
+resource "aws_ecr_registry_scanning_configuration" "${1:this}" {
+    scan_type = "${2:scan_type}"
+}

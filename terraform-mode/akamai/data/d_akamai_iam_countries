@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_iam_countries
+# key: d_akamai_iam_countries
+# --
+
+data "akamai_iam_countries" "${1:this}" {
+}

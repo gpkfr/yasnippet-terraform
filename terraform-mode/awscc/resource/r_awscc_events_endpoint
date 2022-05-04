@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_events_endpoint
+# key: r_awscc_events_endpoint
+# --
+
+resource "awscc_events_endpoint" "${1:this}" {
+    event_buses = "${2:event_buses}"
+    name = "${3:name}"
+    routing_config = "${4:routing_config}"
+}

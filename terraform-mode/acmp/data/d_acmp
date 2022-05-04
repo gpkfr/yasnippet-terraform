@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_acmp
+# key: d_acmp
+# --
+
+data "acmp" "${1:this}" {
+}

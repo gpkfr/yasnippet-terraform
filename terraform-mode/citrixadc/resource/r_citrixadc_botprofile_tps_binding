@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_botprofile_tps_binding
+# key: r_citrixadc_botprofile_tps_binding
+# --
+
+resource "citrixadc_botprofile_tps_binding" "${1:this}" {
+    bot_tps_type = "${2:bot_tps_type}"
+    name = "${3:name}"
+}

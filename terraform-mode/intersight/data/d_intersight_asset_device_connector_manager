@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_asset_device_connector_manager
+# key: d_intersight_asset_device_connector_manager
+# --
+
+data "intersight_asset_device_connector_manager" "${1:this}" {
+}

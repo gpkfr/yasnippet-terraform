@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: d_oci_apm_synthetics_result
+# key: d_oci_apm_synthetics_result
+# --
+
+data "oci_apm_synthetics_result" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+    execution_time = "${3:execution_time}"
+    monitor_id = "${4:monitor_id}"
+    result_content_type = "${5:result_content_type}"
+    result_type = "${6:result_type}"
+    vantage_point = "${7:vantage_point}"
+}

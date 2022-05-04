@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ipv6_route_static_bfd_trunk
+# key: r_thunder_ipv6_route_static_bfd_trunk
+# --
+
+resource "thunder_ipv6_route_static_bfd_trunk" "${1:this}" {
+    nexthop_ipv6_ll = "${2:nexthop_ipv6_ll}"
+    trunk_num = "${3:trunk_num}"
+}

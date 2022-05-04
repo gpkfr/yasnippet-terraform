@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_kion_aws_cloudformation_template
+# key: r_kion_aws_cloudformation_template
+# --
+
+resource "kion_aws_cloudformation_template" "${1:this}" {
+    name = "${2:name}"
+    policy = "${3:policy}"
+    regions = "${4:regions}"
+}

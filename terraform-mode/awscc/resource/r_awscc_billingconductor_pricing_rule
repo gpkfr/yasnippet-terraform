@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_billingconductor_pricing_rule
+# key: r_awscc_billingconductor_pricing_rule
+# --
+
+resource "awscc_billingconductor_pricing_rule" "${1:this}" {
+    modifier_percentage = "${2:modifier_percentage}"
+    name = "${3:name}"
+    scope = "${4:scope}"
+    type = "${5:type}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_fsso
+# key: r_fortimanager_object_user_fsso
+# --
+
+resource "fortimanager_object_user_fsso" "${1:this}" {
+}

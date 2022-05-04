@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_apigateway_usage_plan
+# key: r_awscc_apigateway_usage_plan
+# --
+
+resource "awscc_apigateway_usage_plan" "${1:this}" {
+}

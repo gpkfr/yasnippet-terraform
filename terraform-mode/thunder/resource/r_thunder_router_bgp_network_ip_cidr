@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_thunder_router_bgp_network_ip_cidr
+# key: r_thunder_router_bgp_network_ip_cidr
+# --
+
+resource "thunder_router_bgp_network_ip_cidr" "${1:this}" {
+    as_number = "${2:as_number}"
+    network_ipv4_cidr = "${3:network_ipv4_cidr}"
+}

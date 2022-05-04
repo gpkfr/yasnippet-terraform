@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_rule_tuning_expression
+# key: r_sumologic_cse_rule_tuning_expression
+# --
+
+resource "sumologic_cse_rule_tuning_expression" "${1:this}" {
+    description = "${2:description}"
+    enabled = "${3:enabled}"
+    exclude = "${4:exclude}"
+    expression = "${5:expression}"
+    is_global = "${6:is_global}"
+    name = "${7:name}"
+    rule_ids = "${8:rule_ids}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_network
+# key: d_avi_network
+# --
+
+data "avi_network" "${1:this}" {
+}

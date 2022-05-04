@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_kinesis_stream_consumer
+# key: r_aws_kinesis_stream_consumer
+# --
+
+resource "aws_kinesis_stream_consumer" "${1:this}" {
+    name = "${2:name}"
+    stream_arn = "${3:stream_arn}"
+}

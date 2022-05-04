@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_evidently_feature
+# key: r_awscc_evidently_feature
+# --
+
+resource "awscc_evidently_feature" "${1:this}" {
+    name = "${2:name}"
+    project = "${3:project}"
+    variations = "${4:variations}"
+}

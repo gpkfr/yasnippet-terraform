@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_byoip_allocated_ranges
+# key: d_oci_core_byoip_allocated_ranges
+# --
+
+data "oci_core_byoip_allocated_ranges" "${1:this}" {
+    byoip_range_id = "${2:byoip_range_id}"
+}

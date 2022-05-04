@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudfront_function
+# key: d_aws_cloudfront_function
+# --
+
+data "aws_cloudfront_function" "${1:this}" {
+    name = "${2:name}"
+    stage = "${3:stage}"
+}

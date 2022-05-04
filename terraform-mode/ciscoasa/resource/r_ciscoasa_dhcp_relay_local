@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_dhcp_relay_local
+# key: r_ciscoasa_dhcp_relay_local
+# --
+
+resource "ciscoasa_dhcp_relay_local" "${1:this}" {
+    interface = "${2:interface}"
+    servers = "${3:servers}"
+}

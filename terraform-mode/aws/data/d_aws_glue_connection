@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_glue_connection
+# key: d_aws_glue_connection
+# --
+
+data "aws_glue_connection" "${1:this}" {
+    id = "${2:id}"
+}

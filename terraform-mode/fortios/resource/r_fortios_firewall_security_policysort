@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_security_policysort
+# key: r_fortios_firewall_security_policysort
+# --
+
+resource "fortios_firewall_security_policysort" "${1:this}" {
+    sortby = "${2:sortby}"
+    sortdirection = "${3:sortdirection}"
+}

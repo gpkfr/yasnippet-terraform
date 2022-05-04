@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_cloudsmith_package_list
+# key: d_cloudsmith_package_list
+# --
+
+data "cloudsmith_package_list" "${1:this}" {
+    namespace = "${2:namespace}"
+    repository = "${3:repository}"
+}

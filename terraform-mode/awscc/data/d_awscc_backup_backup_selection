@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_backup_backup_selection
+# key: d_awscc_backup_backup_selection
+# --
+
+data "awscc_backup_backup_selection" "${1:this}" {
+    id = "${2:id}"
+}

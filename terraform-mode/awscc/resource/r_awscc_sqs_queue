@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sqs_queue
+# key: r_awscc_sqs_queue
+# --
+
+resource "awscc_sqs_queue" "${1:this}" {
+}

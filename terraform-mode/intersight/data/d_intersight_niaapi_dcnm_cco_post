@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niaapi_dcnm_cco_post
+# key: d_intersight_niaapi_dcnm_cco_post
+# --
+
+data "intersight_niaapi_dcnm_cco_post" "${1:this}" {
+}

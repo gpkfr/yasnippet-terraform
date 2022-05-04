@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_ipam_organization_admin_account
+# key: r_aws_vpc_ipam_organization_admin_account
+# --
+
+resource "aws_vpc_ipam_organization_admin_account" "${1:this}" {
+    delegated_admin_account_id = "${2:delegated_admin_account_id}"
+}

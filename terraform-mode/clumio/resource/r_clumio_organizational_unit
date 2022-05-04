@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_clumio_organizational_unit
+# key: r_clumio_organizational_unit
+# --
+
+resource "clumio_organizational_unit" "${1:this}" {
+    name = "${2:name}"
+}

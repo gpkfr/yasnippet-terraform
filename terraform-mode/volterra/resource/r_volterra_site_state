@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_site_state
+# key: r_volterra_site_state
+# --
+
+resource "volterra_site_state" "${1:this}" {
+    name = "${2:name}"
+    state = "${3:state}"
+    when = "${4:when}"
+}

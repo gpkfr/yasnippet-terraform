@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudscale_server
+# key: r_cloudscale_server
+# --
+
+resource "cloudscale_server" "${1:this}" {
+    flavor_slug = "${2:flavor_slug}"
+    name = "${3:name}"
+}

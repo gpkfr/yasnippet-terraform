@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_mssql_virtual_network_rule
+# key: r_azurerm_mssql_virtual_network_rule
+# --
+
+resource "azurerm_mssql_virtual_network_rule" "${1:this}" {
+    name = "${2:name}"
+    server_id = "${3:server_id}"
+    subnet_id = "${4:subnet_id}"
+}

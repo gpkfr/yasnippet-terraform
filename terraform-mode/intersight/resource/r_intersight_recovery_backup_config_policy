@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_recovery_backup_config_policy
+# key: r_intersight_recovery_backup_config_policy
+# --
+
+resource "intersight_recovery_backup_config_policy" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_accessproxyvirtualhost
+# key: r_fortimanager_object_firewall_accessproxyvirtualhost
+# --
+
+resource "fortimanager_object_firewall_accessproxyvirtualhost" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_iwe_virtual_disk
+# key: d_intersight_virtualization_iwe_virtual_disk
+# --
+
+data "intersight_virtualization_iwe_virtual_disk" "${1:this}" {
+}

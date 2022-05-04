@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ah_volume_products
+# key: d_ah_volume_products
+# --
+
+data "ah_volume_products" "${1:this}" {
+}

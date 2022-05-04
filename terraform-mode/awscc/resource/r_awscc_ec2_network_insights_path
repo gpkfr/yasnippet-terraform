@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_network_insights_path
+# key: r_awscc_ec2_network_insights_path
+# --
+
+resource "awscc_ec2_network_insights_path" "${1:this}" {
+    destination = "${2:destination}"
+    protocol = "${3:protocol}"
+    source = "${4:source}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_wirelesscontroller_mpskprofile
+# key: r_fortios_wirelesscontroller_mpskprofile
+# --
+
+resource "fortios_wirelesscontroller_mpskprofile" "${1:this}" {
+}

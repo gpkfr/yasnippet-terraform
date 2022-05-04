@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_nutanixkps_vm_config
+# key: d_nutanixkps_vm_config
+# --
+
+data "nutanixkps_vm_config" "${1:this}" {
+    public_ip_address = "${2:public_ip_address}"
+}

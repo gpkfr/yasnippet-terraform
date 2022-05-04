@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_dvmdb_group
+# key: r_fortianalyzer_dvmdb_group
+# --
+
+resource "fortianalyzer_dvmdb_group" "${1:this}" {
+}

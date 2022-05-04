@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_splunkconfig_user_names
+# key: d_splunkconfig_user_names
+# --
+
+data "splunkconfig_user_names" "${1:this}" {
+}

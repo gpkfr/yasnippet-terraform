@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_auth_method_aws_iam
+# key: r_akeyless_auth_method_aws_iam
+# --
+
+resource "akeyless_auth_method_aws_iam" "${1:this}" {
+    bound_aws_account_id = "${2:bound_aws_account_id}"
+    name = "${3:name}"
+}

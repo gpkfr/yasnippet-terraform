@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_thermal_policy
+# key: d_intersight_thermal_policy
+# --
+
+data "intersight_thermal_policy" "${1:this}" {
+}

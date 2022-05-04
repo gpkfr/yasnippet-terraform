@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_anypoint_bg
+# key: d_anypoint_bg
+# --
+
+data "anypoint_bg" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_user
+# key: r_genesyscloud_user
+# --
+
+resource "genesyscloud_user" "${1:this}" {
+    email = "${2:email}"
+    name = "${3:name}"
+}

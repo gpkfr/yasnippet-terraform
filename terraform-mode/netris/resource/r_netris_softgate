@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_netris_softgate
+# key: r_netris_softgate
+# --
+
+resource "netris_softgate" "${1:this}" {
+    mainip = "${2:mainip}"
+    mgmtip = "${3:mgmtip}"
+    name = "${4:name}"
+    siteid = "${5:siteid}"
+    tenantid = "${6:tenantid}"
+}

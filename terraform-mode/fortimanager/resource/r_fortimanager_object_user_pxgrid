@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_pxgrid
+# key: r_fortimanager_object_user_pxgrid
+# --
+
+resource "fortimanager_object_user_pxgrid" "${1:this}" {
+}

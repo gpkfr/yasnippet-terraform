@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_metalcloud_infrastructure_deployer
+# key: r_metalcloud_infrastructure_deployer
+# --
+
+resource "metalcloud_infrastructure_deployer" "${1:this}" {
+    infrastructure_id = "${2:infrastructure_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_telephony_providers_edges_extension_pool
+# key: d_genesyscloud_telephony_providers_edges_extension_pool
+# --
+
+data "genesyscloud_telephony_providers_edges_extension_pool" "${1:this}" {
+    end_number = "${2:end_number}"
+    start_number = "${3:start_number}"
+}

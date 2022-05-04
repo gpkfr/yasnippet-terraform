@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_ven
+# key: d_illumio-core_ven
+# --
+
+data "illumio-core_ven" "${1:this}" {
+    href = "${2:href}"
+}

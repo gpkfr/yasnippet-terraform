@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_recovery_restore
+# key: r_intersight_recovery_restore
+# --
+
+resource "intersight_recovery_restore" "${1:this}" {
+}

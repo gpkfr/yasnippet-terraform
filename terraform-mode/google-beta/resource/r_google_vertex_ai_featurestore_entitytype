@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_vertex_ai_featurestore_entitytype
+# key: r_google_vertex_ai_featurestore_entitytype
+# --
+
+resource "google_vertex_ai_featurestore_entitytype" "${1:this}" {
+    featurestore = "${2:featurestore}"
+}

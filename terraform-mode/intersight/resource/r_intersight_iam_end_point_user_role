@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_end_point_user_role
+# key: r_intersight_iam_end_point_user_role
+# --
+
+resource "intersight_iam_end_point_user_role" "${1:this}" {
+}

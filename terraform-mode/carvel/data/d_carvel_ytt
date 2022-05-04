@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_carvel_ytt
+# key: d_carvel_ytt
+# --
+
+data "carvel_ytt" "${1:this}" {
+}

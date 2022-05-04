@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vcd_external_network
+# key: r_vcd_external_network
+# --
+
+resource "vcd_external_network" "${1:this}" {
+    name = "${2:name}"
+}

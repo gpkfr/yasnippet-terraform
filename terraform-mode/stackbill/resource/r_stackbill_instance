@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_stackbill_instance
+# key: r_stackbill_instance
+# --
+
+resource "stackbill_instance" "${1:this}" {
+    compute_offering_uuid = "${2:compute_offering_uuid}"
+    name = "${3:name}"
+    network_uuid = "${4:network_uuid}"
+    template_uuid = "${5:template_uuid}"
+    zone_uuid = "${6:zone_uuid}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_eventarc_trigger
+# key: r_google_eventarc_trigger
+# --
+
+resource "google_eventarc_trigger" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+}

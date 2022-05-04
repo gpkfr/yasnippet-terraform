@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_metalcloud_server_type
+# key: d_metalcloud_server_type
+# --
+
+data "metalcloud_server_type" "${1:this}" {
+    server_type_name = "${2:server_type_name}"
+}

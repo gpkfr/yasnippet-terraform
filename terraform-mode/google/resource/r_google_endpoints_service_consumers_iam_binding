@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_endpoints_service_consumers_iam_binding
+# key: r_google_endpoints_service_consumers_iam_binding
+# --
+
+resource "google_endpoints_service_consumers_iam_binding" "${1:this}" {
+    consumer_project = "${2:consumer_project}"
+    members = "${3:members}"
+    role = "${4:role}"
+    service_name = "${5:service_name}"
+}

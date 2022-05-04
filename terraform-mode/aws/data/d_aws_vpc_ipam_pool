@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_vpc_ipam_pool
+# key: d_aws_vpc_ipam_pool
+# --
+
+data "aws_vpc_ipam_pool" "${1:this}" {
+}

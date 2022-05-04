@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_signer_signing_profile
+# key: r_awscc_signer_signing_profile
+# --
+
+resource "awscc_signer_signing_profile" "${1:this}" {
+    platform_id = "${2:platform_id}"
+}

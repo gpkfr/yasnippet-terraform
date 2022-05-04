@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_custom_data_type_definition
+# key: r_intersight_workflow_custom_data_type_definition
+# --
+
+resource "intersight_workflow_custom_data_type_definition" "${1:this}" {
+}

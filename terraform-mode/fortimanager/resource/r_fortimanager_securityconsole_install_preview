@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_securityconsole_install_preview
+# key: r_fortimanager_securityconsole_install_preview
+# --
+
+resource "fortimanager_securityconsole_install_preview" "${1:this}" {
+}

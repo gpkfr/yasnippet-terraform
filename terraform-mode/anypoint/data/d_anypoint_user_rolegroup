@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_anypoint_user_rolegroup
+# key: d_anypoint_user_rolegroup
+# --
+
+data "anypoint_user_rolegroup" "${1:this}" {
+    org_id = "${2:org_id}"
+    rolegroup_id = "${3:rolegroup_id}"
+    user_id = "${4:user_id}"
+}

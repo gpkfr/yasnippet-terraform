@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rockset_account
+# key: d_rockset_account
+# --
+
+data "rockset_account" "${1:this}" {
+}

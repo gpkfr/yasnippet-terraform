@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_managed_prefix_list_entry
+# key: r_aws_ec2_managed_prefix_list_entry
+# --
+
+resource "aws_ec2_managed_prefix_list_entry" "${1:this}" {
+    cidr = "${2:cidr}"
+    prefix_list_id = "${3:prefix_list_id}"
+}

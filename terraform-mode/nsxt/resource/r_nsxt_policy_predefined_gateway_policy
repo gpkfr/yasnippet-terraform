@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_predefined_gateway_policy
+# key: r_nsxt_policy_predefined_gateway_policy
+# --
+
+resource "nsxt_policy_predefined_gateway_policy" "${1:this}" {
+    path = "${2:path}"
+}

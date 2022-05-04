@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fastly_tls_subscription
+# key: d_fastly_tls_subscription
+# --
+
+data "fastly_tls_subscription" "${1:this}" {
+}

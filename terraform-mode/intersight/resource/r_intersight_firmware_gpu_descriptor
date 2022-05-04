@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_firmware_gpu_descriptor
+# key: r_intersight_firmware_gpu_descriptor
+# --
+
+resource "intersight_firmware_gpu_descriptor" "${1:this}" {
+}

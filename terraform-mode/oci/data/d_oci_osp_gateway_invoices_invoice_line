@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_oci_osp_gateway_invoices_invoice_line
+# key: d_oci_osp_gateway_invoices_invoice_line
+# --
+
+data "oci_osp_gateway_invoices_invoice_line" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    internal_invoice_id = "${3:internal_invoice_id}"
+    osp_home_region = "${4:osp_home_region}"
+}

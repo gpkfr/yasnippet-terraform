@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_securitypolicy
+# key: d_avi_securitypolicy
+# --
+
+data "avi_securitypolicy" "${1:this}" {
+}

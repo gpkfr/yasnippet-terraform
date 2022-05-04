@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_network_load_balancer_network_load_balancers_protocols
+# key: d_oci_network_load_balancer_network_load_balancers_protocols
+# --
+
+data "oci_network_load_balancer_network_load_balancers_protocols" "${1:this}" {
+}

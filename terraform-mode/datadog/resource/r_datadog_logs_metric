@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_datadog_logs_metric
+# key: r_datadog_logs_metric
+# --
+
+resource "datadog_logs_metric" "${1:this}" {
+    name = "${2:name}"
+}

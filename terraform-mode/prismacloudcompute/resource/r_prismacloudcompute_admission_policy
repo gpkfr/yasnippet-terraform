@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_prismacloudcompute_admission_policy
+# key: r_prismacloudcompute_admission_policy
+# --
+
+resource "prismacloudcompute_admission_policy" "${1:this}" {
+}

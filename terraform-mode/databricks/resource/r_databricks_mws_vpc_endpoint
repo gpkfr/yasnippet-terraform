@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_databricks_mws_vpc_endpoint
+# key: r_databricks_mws_vpc_endpoint
+# --
+
+resource "databricks_mws_vpc_endpoint" "${1:this}" {
+    aws_vpc_endpoint_id = "${2:aws_vpc_endpoint_id}"
+    region = "${3:region}"
+    vpc_endpoint_name = "${4:vpc_endpoint_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_spdy_proxy
+# key: r_thunder_slb_spdy_proxy
+# --
+
+resource "thunder_slb_spdy_proxy" "${1:this}" {
+}

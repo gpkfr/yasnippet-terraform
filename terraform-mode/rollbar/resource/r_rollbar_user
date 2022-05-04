@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rollbar_user
+# key: r_rollbar_user
+# --
+
+resource "rollbar_user" "${1:this}" {
+    email = "${2:email}"
+    team_ids = "${3:team_ids}"
+}

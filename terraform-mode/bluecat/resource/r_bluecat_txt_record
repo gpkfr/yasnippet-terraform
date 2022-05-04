@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_txt_record
+# key: r_bluecat_txt_record
+# --
+
+resource "bluecat_txt_record" "${1:this}" {
+    absolute_name = "${2:absolute_name}"
+    text = "${3:text}"
+}

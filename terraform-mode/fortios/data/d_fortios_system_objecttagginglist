@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_objecttagginglist
+# key: d_fortios_system_objecttagginglist
+# --
+
+data "fortios_system_objecttagginglist" "${1:this}" {
+}

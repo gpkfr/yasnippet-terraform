@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aidbox_token_introspector
+# key: r_aidbox_token_introspector
+# --
+
+resource "aidbox_token_introspector" "${1:this}" {
+    type = "${2:type}"
+}

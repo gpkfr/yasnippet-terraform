@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_site_redaction
+# key: r_sigsci_site_redaction
+# --
+
+resource "sigsci_site_redaction" "${1:this}" {
+    field = "${2:field}"
+    redaction_type = "${3:redaction_type}"
+    site_short_name = "${4:site_short_name}"
+}

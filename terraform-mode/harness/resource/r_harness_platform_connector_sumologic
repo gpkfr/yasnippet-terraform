@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_sumologic
+# key: r_harness_platform_connector_sumologic
+# --
+
+resource "harness_platform_connector_sumologic" "${1:this}" {
+    access_id_ref = "${2:access_id_ref}"
+    access_key_ref = "${3:access_key_ref}"
+    identifier = "${4:identifier}"
+    name = "${5:name}"
+    url = "${6:url}"
+}

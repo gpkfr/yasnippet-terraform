@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_processautomation_trigger
+# key: r_genesyscloud_processautomation_trigger
+# --
+
+resource "genesyscloud_processautomation_trigger" "${1:this}" {
+    enabled = "${2:enabled}"
+    name = "${3:name}"
+    topic_name = "${4:topic_name}"
+}

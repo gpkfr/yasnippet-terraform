@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lookoutvision_projects
+# key: d_awscc_lookoutvision_projects
+# --
+
+data "awscc_lookoutvision_projects" "${1:this}" {
+}

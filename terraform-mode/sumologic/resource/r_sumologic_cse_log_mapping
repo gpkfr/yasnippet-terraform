@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_log_mapping
+# key: r_sumologic_cse_log_mapping
+# --
+
+resource "sumologic_cse_log_mapping" "${1:this}" {
+    enabled = "${2:enabled}"
+    name = "${3:name}"
+    product_guid = "${4:product_guid}"
+    record_type = "${5:record_type}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_ip_geo
+# key: r_akamai_appsec_ip_geo
+# --
+
+resource "akamai_appsec_ip_geo" "${1:this}" {
+    config_id = "${2:config_id}"
+    mode = "${3:mode}"
+    security_policy_id = "${4:security_policy_id}"
+    version = "${5:version}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_adverity_fetch
+# key: r_adverity_fetch
+# --
+
+resource "adverity_fetch" "${1:this}" {
+    datastream_id = "${2:datastream_id}"
+    days_to_fetch = "${3:days_to_fetch}"
+    mode = "${4:mode}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_storage_class
+# key: r_kubernetes_storage_class
+# --
+
+resource "kubernetes_storage_class" "${1:this}" {
+    storage_provisioner = "${2:storage_provisioner}"
+}

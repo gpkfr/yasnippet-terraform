@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_azure_cloud_service_deployment_target
+# key: r_octopusdeploy_azure_cloud_service_deployment_target
+# --
+
+resource "octopusdeploy_azure_cloud_service_deployment_target" "${1:this}" {
+    account_id = "${2:account_id}"
+    cloud_service_name = "${3:cloud_service_name}"
+    environments = "${4:environments}"
+    name = "${5:name}"
+    roles = "${6:roles}"
+    storage_account_name = "${7:storage_account_name}"
+}

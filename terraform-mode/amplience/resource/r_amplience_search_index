@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_amplience_search_index
+# key: r_amplience_search_index
+# --
+
+resource "amplience_search_index" "${1:this}" {
+    content_types = "${2:content_types}"
+    label = "${3:label}"
+    suffix = "${4:suffix}"
+    type = "${5:type}"
+}

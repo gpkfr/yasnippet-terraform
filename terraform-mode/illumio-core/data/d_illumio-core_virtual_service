@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_virtual_service
+# key: d_illumio-core_virtual_service
+# --
+
+data "illumio-core_virtual_service" "${1:this}" {
+    href = "${2:href}"
+}

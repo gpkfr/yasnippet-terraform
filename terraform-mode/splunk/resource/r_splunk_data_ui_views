@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_splunk_data_ui_views
+# key: r_splunk_data_ui_views
+# --
+
+resource "splunk_data_ui_views" "${1:this}" {
+    eai_data = "${2:eai_data}"
+    name = "${3:name}"
+}

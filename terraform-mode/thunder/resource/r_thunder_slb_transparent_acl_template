@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_transparent_acl_template
+# key: r_thunder_slb_transparent_acl_template
+# --
+
+resource "thunder_slb_transparent_acl_template" "${1:this}" {
+}

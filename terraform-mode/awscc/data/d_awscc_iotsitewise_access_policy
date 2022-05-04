@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotsitewise_access_policy
+# key: d_awscc_iotsitewise_access_policy
+# --
+
+data "awscc_iotsitewise_access_policy" "${1:this}" {
+    id = "${2:id}"
+}

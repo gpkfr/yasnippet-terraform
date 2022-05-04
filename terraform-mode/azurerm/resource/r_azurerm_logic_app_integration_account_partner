@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_logic_app_integration_account_partner
+# key: r_azurerm_logic_app_integration_account_partner
+# --
+
+resource "azurerm_logic_app_integration_account_partner" "${1:this}" {
+    integration_account_name = "${2:integration_account_name}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+}

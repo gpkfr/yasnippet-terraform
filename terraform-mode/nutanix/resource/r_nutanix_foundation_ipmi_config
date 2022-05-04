@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_foundation_ipmi_config
+# key: r_nutanix_foundation_ipmi_config
+# --
+
+resource "nutanix_foundation_ipmi_config" "${1:this}" {
+    ipmi_gateway = "${2:ipmi_gateway}"
+    ipmi_netmask = "${3:ipmi_netmask}"
+    ipmi_password = "${4:ipmi_password}"
+    ipmi_user = "${5:ipmi_user}"
+}

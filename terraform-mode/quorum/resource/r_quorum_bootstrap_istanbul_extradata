@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_quorum_bootstrap_istanbul_extradata
+# key: r_quorum_bootstrap_istanbul_extradata
+# --
+
+resource "quorum_bootstrap_istanbul_extradata" "${1:this}" {
+    istanbul_addresses = "${2:istanbul_addresses}"
+}

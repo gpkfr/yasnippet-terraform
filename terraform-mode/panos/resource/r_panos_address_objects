@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_address_objects
+# key: r_panos_address_objects
+# --
+
+resource "panos_address_objects" "${1:this}" {
+}

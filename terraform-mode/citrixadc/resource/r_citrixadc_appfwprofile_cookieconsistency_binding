@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwprofile_cookieconsistency_binding
+# key: r_citrixadc_appfwprofile_cookieconsistency_binding
+# --
+
+resource "citrixadc_appfwprofile_cookieconsistency_binding" "${1:this}" {
+    cookieconsistency = "${2:cookieconsistency}"
+    name = "${3:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_sysdig_monitor_alert_promql
+# key: r_sysdig_monitor_alert_promql
+# --
+
+resource "sysdig_monitor_alert_promql" "${1:this}" {
+    name = "${2:name}"
+    promql = "${3:promql}"
+    trigger_after_minutes = "${4:trigger_after_minutes}"
+}

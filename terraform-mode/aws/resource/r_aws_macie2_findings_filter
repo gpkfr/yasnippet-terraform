@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_macie2_findings_filter
+# key: r_aws_macie2_findings_filter
+# --
+
+resource "aws_macie2_findings_filter" "${1:this}" {
+    action = "${2:action}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_function_runtime_policy
+# key: r_aquasec_function_runtime_policy
+# --
+
+resource "aquasec_function_runtime_policy" "${1:this}" {
+    name = "${2:name}"
+}

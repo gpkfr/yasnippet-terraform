@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_associate_role_auth_method
+# key: r_akeyless_associate_role_auth_method
+# --
+
+resource "akeyless_associate_role_auth_method" "${1:this}" {
+    am_name = "${2:am_name}"
+    role_name = "${3:role_name}"
+}

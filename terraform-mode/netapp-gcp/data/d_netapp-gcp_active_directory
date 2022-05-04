@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_netapp-gcp_active_directory
+# key: d_netapp-gcp_active_directory
+# --
+
+data "netapp-gcp_active_directory" "${1:this}" {
+    region = "${2:region}"
+}

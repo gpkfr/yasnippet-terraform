@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslvserver_ecccurve_binding
+# key: r_citrixadc_sslvserver_ecccurve_binding
+# --
+
+resource "citrixadc_sslvserver_ecccurve_binding" "${1:this}" {
+    ecccurvename = "${2:ecccurvename}"
+    vservername = "${3:vservername}"
+}

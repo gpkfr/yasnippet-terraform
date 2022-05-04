@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_hardwaresecuritymodulegroup
+# key: r_avi_hardwaresecuritymodulegroup
+# --
+
+resource "avi_hardwaresecuritymodulegroup" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_set_automatic_purge
+# key: r_checkpoint_management_set_automatic_purge
+# --
+
+resource "checkpoint_management_set_automatic_purge" "${1:this}" {
+    enabled = "${2:enabled}"
+}

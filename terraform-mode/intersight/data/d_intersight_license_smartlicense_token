@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_license_smartlicense_token
+# key: d_intersight_license_smartlicense_token
+# --
+
+data "intersight_license_smartlicense_token" "${1:this}" {
+}

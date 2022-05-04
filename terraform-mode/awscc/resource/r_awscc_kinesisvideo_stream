@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_kinesisvideo_stream
+# key: r_awscc_kinesisvideo_stream
+# --
+
+resource "awscc_kinesisvideo_stream" "${1:this}" {
+}

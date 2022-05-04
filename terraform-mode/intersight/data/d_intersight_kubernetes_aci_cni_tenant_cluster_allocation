@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_aci_cni_tenant_cluster_allocation
+# key: d_intersight_kubernetes_aci_cni_tenant_cluster_allocation
+# --
+
+data "intersight_kubernetes_aci_cni_tenant_cluster_allocation" "${1:this}" {
+}

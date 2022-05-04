@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akc_feature
+# key: r_akc_feature
+# --
+
+resource "akc_feature" "${1:this}" {
+    endpoint = "${2:endpoint}"
+    name = "${3:name}"
+}

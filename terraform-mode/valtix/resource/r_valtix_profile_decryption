@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_decryption
+# key: r_valtix_profile_decryption
+# --
+
+resource "valtix_profile_decryption" "${1:this}" {
+    certificate_name = "${2:certificate_name}"
+    name = "${3:name}"
+}

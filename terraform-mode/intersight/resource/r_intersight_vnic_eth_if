@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_vnic_eth_if
+# key: r_intersight_vnic_eth_if
+# --
+
+resource "intersight_vnic_eth_if" "${1:this}" {
+}

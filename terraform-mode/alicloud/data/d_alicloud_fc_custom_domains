@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_fc_custom_domains
+# key: d_alicloud_fc_custom_domains
+# --
+
+data "alicloud_fc_custom_domains" "${1:this}" {
+}

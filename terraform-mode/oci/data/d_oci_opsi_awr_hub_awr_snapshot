@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_opsi_awr_hub_awr_snapshot
+# key: d_oci_opsi_awr_hub_awr_snapshot
+# --
+
+data "oci_opsi_awr_hub_awr_snapshot" "${1:this}" {
+    awr_hub_id = "${2:awr_hub_id}"
+    awr_source_database_identifier = "${3:awr_source_database_identifier}"
+}

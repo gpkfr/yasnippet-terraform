@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudfront_function
+# key: r_awscc_cloudfront_function
+# --
+
+resource "awscc_cloudfront_function" "${1:this}" {
+    name = "${2:name}"
+}

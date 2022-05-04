@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cosmosdb_sql_stored_procedure
+# key: r_azurerm_cosmosdb_sql_stored_procedure
+# --
+
+resource "azurerm_cosmosdb_sql_stored_procedure" "${1:this}" {
+    account_name = "${2:account_name}"
+    body = "${3:body}"
+    container_name = "${4:container_name}"
+    database_name = "${5:database_name}"
+    name = "${6:name}"
+    resource_group_name = "${7:resource_group_name}"
+}

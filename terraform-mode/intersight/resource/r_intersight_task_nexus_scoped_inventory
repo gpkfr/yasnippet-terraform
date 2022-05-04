@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_task_nexus_scoped_inventory
+# key: r_intersight_task_nexus_scoped_inventory
+# --
+
+resource "intersight_task_nexus_scoped_inventory" "${1:this}" {
+}

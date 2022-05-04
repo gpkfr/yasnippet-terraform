@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_serverlessapplicationrepository_cloudformation_stack
+# key: r_aws_serverlessapplicationrepository_cloudformation_stack
+# --
+
+resource "aws_serverlessapplicationrepository_cloudformation_stack" "${1:this}" {
+    application_id = "${2:application_id}"
+    capabilities = "${3:capabilities}"
+    name = "${4:name}"
+}

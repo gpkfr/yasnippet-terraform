@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_controller
+# key: d_intersight_storage_controller
+# --
+
+data "intersight_storage_controller" "${1:this}" {
+}

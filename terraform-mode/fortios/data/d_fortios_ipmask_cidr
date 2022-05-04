@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_ipmask_cidr
+# key: d_fortios_ipmask_cidr
+# --
+
+data "fortios_ipmask_cidr" "${1:this}" {
+}

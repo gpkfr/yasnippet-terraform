@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_cohesity_physical_edition_cluster
+# key: r_cohesity_physical_edition_cluster
+# --
+
+resource "cohesity_physical_edition_cluster" "${1:this}" {
+    cluster_gateway = "${2:cluster_gateway}"
+    cluster_name = "${3:cluster_name}"
+    cluster_subnet_mask = "${4:cluster_subnet_mask}"
+    dns_servers = "${5:dns_servers}"
+    domain_names = "${6:domain_names}"
+    ipmi_gateway = "${7:ipmi_gateway}"
+    ipmi_subnet_mask = "${8:ipmi_subnet_mask}"
+    ntp_servers = "${9:ntp_servers}"
+    virtual_ip_hostname = "${10:virtual_ip_hostname}"
+    virtual_ips = "${11:virtual_ips}"
+}

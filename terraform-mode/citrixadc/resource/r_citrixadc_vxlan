@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vxlan
+# key: r_citrixadc_vxlan
+# --
+
+resource "citrixadc_vxlan" "${1:this}" {
+    vxlanid = "${2:vxlanid}"
+}

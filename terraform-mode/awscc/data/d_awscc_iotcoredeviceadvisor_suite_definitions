@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotcoredeviceadvisor_suite_definitions
+# key: d_awscc_iotcoredeviceadvisor_suite_definitions
+# --
+
+data "awscc_iotcoredeviceadvisor_suite_definitions" "${1:this}" {
+}

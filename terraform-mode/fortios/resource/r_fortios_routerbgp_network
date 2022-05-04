@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortios_routerbgp_network
+# key: r_fortios_routerbgp_network
+# --
+
+resource "fortios_routerbgp_network" "${1:this}" {
+    prefix = "${2:prefix}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ssmincidents_response_plan
+# key: d_awscc_ssmincidents_response_plan
+# --
+
+data "awscc_ssmincidents_response_plan" "${1:this}" {
+    id = "${2:id}"
+}

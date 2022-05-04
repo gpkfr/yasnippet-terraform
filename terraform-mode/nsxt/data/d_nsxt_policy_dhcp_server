@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nsxt_policy_dhcp_server
+# key: d_nsxt_policy_dhcp_server
+# --
+
+data "nsxt_policy_dhcp_server" "${1:this}" {
+}

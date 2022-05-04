@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_library_variable_set
+# key: r_octopusdeploy_library_variable_set
+# --
+
+resource "octopusdeploy_library_variable_set" "${1:this}" {
+    name = "${2:name}"
+}

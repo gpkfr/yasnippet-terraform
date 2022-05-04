@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_firmware_chassis_upgrade
+# key: r_intersight_firmware_chassis_upgrade
+# --
+
+resource "intersight_firmware_chassis_upgrade" "${1:this}" {
+}

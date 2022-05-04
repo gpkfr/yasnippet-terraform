@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_vdomexceptionlist
+# key: d_fortios_system_vdomexceptionlist
+# --
+
+data "fortios_system_vdomexceptionlist" "${1:this}" {
+}

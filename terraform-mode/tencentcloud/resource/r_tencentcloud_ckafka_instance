@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_ckafka_instance
+# key: r_tencentcloud_ckafka_instance
+# --
+
+resource "tencentcloud_ckafka_instance" "${1:this}" {
+    instance_name = "${2:instance_name}"
+    subnet_id = "${3:subnet_id}"
+    vpc_id = "${4:vpc_id}"
+    zone_id = "${5:zone_id}"
+}

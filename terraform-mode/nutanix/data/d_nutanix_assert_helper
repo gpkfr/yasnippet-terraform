@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_assert_helper
+# key: d_nutanix_assert_helper
+# --
+
+data "nutanix_assert_helper" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_group
+# key: r_aquasec_group
+# --
+
+resource "aquasec_group" "${1:this}" {
+    name = "${2:name}"
+}

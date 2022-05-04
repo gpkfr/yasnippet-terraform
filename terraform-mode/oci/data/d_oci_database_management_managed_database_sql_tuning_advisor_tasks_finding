@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_management_managed_database_sql_tuning_advisor_tasks_finding
+# key: d_oci_database_management_managed_database_sql_tuning_advisor_tasks_finding
+# --
+
+data "oci_database_management_managed_database_sql_tuning_advisor_tasks_finding" "${1:this}" {
+    managed_database_id = "${2:managed_database_id}"
+    sql_tuning_advisor_task_id = "${3:sql_tuning_advisor_task_id}"
+}

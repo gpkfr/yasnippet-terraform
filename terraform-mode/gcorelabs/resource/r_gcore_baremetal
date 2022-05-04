@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gcore_baremetal
+# key: r_gcore_baremetal
+# --
+
+resource "gcore_baremetal" "${1:this}" {
+    flavor_id = "${2:flavor_id}"
+}

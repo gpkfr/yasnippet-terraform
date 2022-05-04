@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_devops_trigger
+# key: r_oci_devops_trigger
+# --
+
+resource "oci_devops_trigger" "${1:this}" {
+    project_id = "${2:project_id}"
+    trigger_source = "${3:trigger_source}"
+}

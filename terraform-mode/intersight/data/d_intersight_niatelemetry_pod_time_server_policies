@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_pod_time_server_policies
+# key: d_intersight_niatelemetry_pod_time_server_policies
+# --
+
+data "intersight_niatelemetry_pod_time_server_policies" "${1:this}" {
+}

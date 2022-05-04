@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_vmware_private_cloud
+# key: r_azurerm_vmware_private_cloud
+# --
+
+resource "azurerm_vmware_private_cloud" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    network_subnet_cidr = "${4:network_subnet_cidr}"
+    resource_group_name = "${5:resource_group_name}"
+    sku_name = "${6:sku_name}"
+}

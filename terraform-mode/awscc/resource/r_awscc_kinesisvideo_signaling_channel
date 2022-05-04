@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_kinesisvideo_signaling_channel
+# key: r_awscc_kinesisvideo_signaling_channel
+# --
+
+resource "awscc_kinesisvideo_signaling_channel" "${1:this}" {
+}

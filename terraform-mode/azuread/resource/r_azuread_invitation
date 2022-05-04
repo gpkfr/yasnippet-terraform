@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuread_invitation
+# key: r_azuread_invitation
+# --
+
+resource "azuread_invitation" "${1:this}" {
+    redirect_url = "${2:redirect_url}"
+    user_email_address = "${3:user_email_address}"
+}

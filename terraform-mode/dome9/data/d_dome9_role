@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_role
+# key: d_dome9_role
+# --
+
+data "dome9_role" "${1:this}" {
+    id = "${2:id}"
+}

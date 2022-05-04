@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_rdb_user
+# key: r_scaleway_rdb_user
+# --
+
+resource "scaleway_rdb_user" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    name = "${3:name}"
+    password = "${4:password}"
+}

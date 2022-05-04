@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_golden_gate_deployment_backup
+# key: d_oci_golden_gate_deployment_backup
+# --
+
+data "oci_golden_gate_deployment_backup" "${1:this}" {
+    deployment_backup_id = "${2:deployment_backup_id}"
+}

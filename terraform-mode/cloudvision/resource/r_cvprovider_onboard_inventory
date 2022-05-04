@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cvprovider_onboard_inventory
+# key: r_cvprovider_onboard_inventory
+# --
+
+resource "cvprovider_onboard_inventory" "${1:this}" {
+    fqdn = "${2:fqdn}"
+    ipaddress = "${3:ipaddress}"
+    typeofdev = "${4:typeofdev}"
+}

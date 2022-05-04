@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_memory_unit
+# key: d_intersight_memory_unit
+# --
+
+data "intersight_memory_unit" "${1:this}" {
+}

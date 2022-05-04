@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lightsail_bucket
+# key: r_awscc_lightsail_bucket
+# --
+
+resource "awscc_lightsail_bucket" "${1:this}" {
+    bucket_name = "${2:bucket_name}"
+    bundle_id = "${3:bundle_id}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationoauthidpprofile
+# key: r_citrixadc_authenticationoauthidpprofile
+# --
+
+resource "citrixadc_authenticationoauthidpprofile" "${1:this}" {
+    clientid = "${2:clientid}"
+    clientsecret = "${3:clientsecret}"
+    name = "${4:name}"
+    redirecturl = "${5:redirecturl}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_log_analytics_data_export_rule
+# key: r_azurerm_log_analytics_data_export_rule
+# --
+
+resource "azurerm_log_analytics_data_export_rule" "${1:this}" {
+    destination_resource_id = "${2:destination_resource_id}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+    table_names = "${5:table_names}"
+    workspace_resource_id = "${6:workspace_resource_id}"
+}

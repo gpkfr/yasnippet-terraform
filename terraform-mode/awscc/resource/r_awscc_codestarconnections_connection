@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_codestarconnections_connection
+# key: r_awscc_codestarconnections_connection
+# --
+
+resource "awscc_codestarconnections_connection" "${1:this}" {
+    connection_name = "${2:connection_name}"
+}

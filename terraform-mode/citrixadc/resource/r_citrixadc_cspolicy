@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_cspolicy
+# key: r_citrixadc_cspolicy
+# --
+
+resource "citrixadc_cspolicy" "${1:this}" {
+}

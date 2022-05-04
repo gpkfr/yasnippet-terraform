@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_rockset_query_lambda_tag
+# key: r_rockset_query_lambda_tag
+# --
+
+resource "rockset_query_lambda_tag" "${1:this}" {
+    name = "${2:name}"
+    query_lambda = "${3:query_lambda}"
+    version = "${4:version}"
+    workspace = "${5:workspace}"
+}

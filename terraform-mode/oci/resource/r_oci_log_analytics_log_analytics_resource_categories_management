@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_log_analytics_log_analytics_resource_categories_management
+# key: r_oci_log_analytics_log_analytics_resource_categories_management
+# --
+
+resource "oci_log_analytics_log_analytics_resource_categories_management" "${1:this}" {
+    namespace = "${2:namespace}"
+    resource_categories = "${3:resource_categories}"
+    resource_id = "${4:resource_id}"
+    resource_type = "${5:resource_type}"
+}

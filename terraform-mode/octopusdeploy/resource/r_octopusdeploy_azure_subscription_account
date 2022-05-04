@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_azure_subscription_account
+# key: r_octopusdeploy_azure_subscription_account
+# --
+
+resource "octopusdeploy_azure_subscription_account" "${1:this}" {
+    management_endpoint = "${2:management_endpoint}"
+    name = "${3:name}"
+    storage_endpoint_suffix = "${4:storage_endpoint_suffix}"
+    subscription_id = "${5:subscription_id}"
+}

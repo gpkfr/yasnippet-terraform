@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_cloudwatch_agent
+# key: r_aviatrix_cloudwatch_agent
+# --
+
+resource "aviatrix_cloudwatch_agent" "${1:this}" {
+    cloudwatch_role_arn = "${2:cloudwatch_role_arn}"
+    region = "${3:region}"
+}

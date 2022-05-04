@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_britive_profile_policy
+# key: r_britive_profile_policy
+# --
+
+resource "britive_profile_policy" "${1:this}" {
+    policy_name = "${2:policy_name}"
+    profile_id = "${3:profile_id}"
+}

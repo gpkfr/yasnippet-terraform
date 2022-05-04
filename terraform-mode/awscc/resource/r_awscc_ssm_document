@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ssm_document
+# key: r_awscc_ssm_document
+# --
+
+resource "awscc_ssm_document" "${1:this}" {
+    content = "${2:content}"
+}

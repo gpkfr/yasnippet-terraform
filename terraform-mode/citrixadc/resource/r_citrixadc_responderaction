@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_responderaction
+# key: r_citrixadc_responderaction
+# --
+
+resource "citrixadc_responderaction" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_logging
+# key: r_thunder_fw_logging
+# --
+
+resource "thunder_fw_logging" "${1:this}" {
+}

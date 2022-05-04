@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_codestarnotifications_notification_rule
+# key: d_awscc_codestarnotifications_notification_rule
+# --
+
+data "awscc_codestarnotifications_notification_rule" "${1:this}" {
+    id = "${2:id}"
+}

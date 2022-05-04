@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_communication_service
+# key: r_azurerm_communication_service
+# --
+
+resource "azurerm_communication_service" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_multicastaddress
+# key: r_fortios_firewall_multicastaddress
+# --
+
+resource "fortios_firewall_multicastaddress" "${1:this}" {
+}

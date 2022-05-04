@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ssm_resource_data_syncs
+# key: d_awscc_ssm_resource_data_syncs
+# --
+
+data "awscc_ssm_resource_data_syncs" "${1:this}" {
+}

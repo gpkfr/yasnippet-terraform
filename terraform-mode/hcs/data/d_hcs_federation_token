@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_hcs_federation_token
+# key: d_hcs_federation_token
+# --
+
+data "hcs_federation_token" "${1:this}" {
+    managed_application_name = "${2:managed_application_name}"
+    resource_group_name = "${3:resource_group_name}"
+}

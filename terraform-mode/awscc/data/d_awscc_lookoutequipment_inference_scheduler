@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lookoutequipment_inference_scheduler
+# key: d_awscc_lookoutequipment_inference_scheduler
+# --
+
+data "awscc_lookoutequipment_inference_scheduler" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_confluent_network
+# key: r_confluent_network
+# --
+
+resource "confluent_network" "${1:this}" {
+    cloud = "${2:cloud}"
+    connection_types = "${3:connection_types}"
+    region = "${4:region}"
+}

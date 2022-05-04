@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_logs_log_group
+# key: r_awscc_logs_log_group
+# --
+
+resource "awscc_logs_log_group" "${1:this}" {
+}

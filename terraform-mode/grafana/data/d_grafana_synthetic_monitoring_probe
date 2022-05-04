@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_grafana_synthetic_monitoring_probe
+# key: d_grafana_synthetic_monitoring_probe
+# --
+
+data "grafana_synthetic_monitoring_probe" "${1:this}" {
+    name = "${2:name}"
+}

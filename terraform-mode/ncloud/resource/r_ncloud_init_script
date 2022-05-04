@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_init_script
+# key: r_ncloud_init_script
+# --
+
+resource "ncloud_init_script" "${1:this}" {
+    content = "${2:content}"
+}

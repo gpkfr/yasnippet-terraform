@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_physical_disk_usage
+# key: d_intersight_storage_physical_disk_usage
+# --
+
+data "intersight_storage_physical_disk_usage" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_fdssetting_pushoverride
+# key: r_fortianalyzer_fmupdate_fdssetting_pushoverride
+# --
+
+resource "fortianalyzer_fmupdate_fdssetting_pushoverride" "${1:this}" {
+}

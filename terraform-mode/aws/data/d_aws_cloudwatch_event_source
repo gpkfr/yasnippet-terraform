@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudwatch_event_source
+# key: d_aws_cloudwatch_event_source
+# --
+
+data "aws_cloudwatch_event_source" "${1:this}" {
+}

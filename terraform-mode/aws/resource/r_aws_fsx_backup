@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_fsx_backup
+# key: r_aws_fsx_backup
+# --
+
+resource "aws_fsx_backup" "${1:this}" {
+}

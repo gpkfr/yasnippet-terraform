@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_lumen_bare_metal_instance
+# key: r_lumen_bare_metal_instance
+# --
+
+resource "lumen_bare_metal_instance" "${1:this}" {
+    name = "${2:name}"
+}

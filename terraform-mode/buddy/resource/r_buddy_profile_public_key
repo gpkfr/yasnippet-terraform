@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_buddy_profile_public_key
+# key: r_buddy_profile_public_key
+# --
+
+resource "buddy_profile_public_key" "${1:this}" {
+    content = "${2:content}"
+}

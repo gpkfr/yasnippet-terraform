@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_confluentcloud_kafka_cluster
+# key: d_confluentcloud_kafka_cluster
+# --
+
+data "confluentcloud_kafka_cluster" "${1:this}" {
+    id = "${2:id}"
+}

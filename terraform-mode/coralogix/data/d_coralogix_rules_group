@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_coralogix_rules_group
+# key: d_coralogix_rules_group
+# --
+
+data "coralogix_rules_group" "${1:this}" {
+    rules_group_id = "${2:rules_group_id}"
+}

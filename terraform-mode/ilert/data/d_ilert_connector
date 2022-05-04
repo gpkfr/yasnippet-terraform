@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ilert_connector
+# key: d_ilert_connector
+# --
+
+data "ilert_connector" "${1:this}" {
+    name = "${2:name}"
+}

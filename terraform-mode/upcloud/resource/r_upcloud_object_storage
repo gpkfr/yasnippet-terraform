@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_object_storage
+# key: r_upcloud_object_storage
+# --
+
+resource "upcloud_object_storage" "${1:this}" {
+    access_key = "${2:access_key}"
+    name = "${3:name}"
+    secret_key = "${4:secret_key}"
+    size = "${5:size}"
+    zone = "${6:zone}"
+}

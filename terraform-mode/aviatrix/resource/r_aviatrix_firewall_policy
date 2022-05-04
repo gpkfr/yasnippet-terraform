@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_firewall_policy
+# key: r_aviatrix_firewall_policy
+# --
+
+resource "aviatrix_firewall_policy" "${1:this}" {
+    action = "${2:action}"
+    dst_ip = "${3:dst_ip}"
+    gw_name = "${4:gw_name}"
+    port = "${5:port}"
+    src_ip = "${6:src_ip}"
+}

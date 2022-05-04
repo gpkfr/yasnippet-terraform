@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_location_place_indices
+# key: d_awscc_location_place_indices
+# --
+
+data "awscc_location_place_indices" "${1:this}" {
+}

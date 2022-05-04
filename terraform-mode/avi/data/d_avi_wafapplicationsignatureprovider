@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_wafapplicationsignatureprovider
+# key: d_avi_wafapplicationsignatureprovider
+# --
+
+data "avi_wafapplicationsignatureprovider" "${1:this}" {
+}

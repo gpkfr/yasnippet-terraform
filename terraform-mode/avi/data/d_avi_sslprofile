@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_sslprofile
+# key: d_avi_sslprofile
+# --
+
+data "avi_sslprofile" "${1:this}" {
+}

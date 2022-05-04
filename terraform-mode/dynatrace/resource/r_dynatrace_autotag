@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_autotag
+# key: r_dynatrace_autotag
+# --
+
+resource "dynatrace_autotag" "${1:this}" {
+    name = "${2:name}"
+}

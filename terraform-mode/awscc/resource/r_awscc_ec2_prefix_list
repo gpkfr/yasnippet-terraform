@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_prefix_list
+# key: r_awscc_ec2_prefix_list
+# --
+
+resource "awscc_ec2_prefix_list" "${1:this}" {
+    address_family = "${2:address_family}"
+    max_entries = "${3:max_entries}"
+    prefix_list_name = "${4:prefix_list_name}"
+}

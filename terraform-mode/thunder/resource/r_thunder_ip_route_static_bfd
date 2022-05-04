@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ip_route_static_bfd
+# key: r_thunder_ip_route_static_bfd
+# --
+
+resource "thunder_ip_route_static_bfd" "${1:this}" {
+    local_ip = "${2:local_ip}"
+    nexthop_ip = "${3:nexthop_ip}"
+}

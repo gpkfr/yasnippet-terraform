@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_zedcloud_volume_instance
+# key: d_zedcloud_volume_instance
+# --
+
+data "zedcloud_volume_instance" "${1:this}" {
+    name = "${2:name}"
+}

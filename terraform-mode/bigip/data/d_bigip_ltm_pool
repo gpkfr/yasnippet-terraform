@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_bigip_ltm_pool
+# key: d_bigip_ltm_pool
+# --
+
+data "bigip_ltm_pool" "${1:this}" {
+    name = "${2:name}"
+    partition = "${3:partition}"
+}

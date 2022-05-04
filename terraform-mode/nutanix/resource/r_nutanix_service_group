@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_service_group
+# key: r_nutanix_service_group
+# --
+
+resource "nutanix_service_group" "${1:this}" {
+    name = "${2:name}"
+}

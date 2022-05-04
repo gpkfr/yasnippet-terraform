@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kubernetes_storage_class
+# key: d_kubernetes_storage_class
+# --
+
+data "kubernetes_storage_class" "${1:this}" {
+}

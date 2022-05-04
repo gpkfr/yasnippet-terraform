@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_datasync_location_hdfs
+# key: r_aws_datasync_location_hdfs
+# --
+
+resource "aws_datasync_location_hdfs" "${1:this}" {
+    agent_arns = "${2:agent_arns}"
+}

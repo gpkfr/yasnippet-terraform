@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_service_microsoft_teams
+# key: r_gitlab_service_microsoft_teams
+# --
+
+resource "gitlab_service_microsoft_teams" "${1:this}" {
+    project = "${2:project}"
+    webhook = "${3:webhook}"
+}

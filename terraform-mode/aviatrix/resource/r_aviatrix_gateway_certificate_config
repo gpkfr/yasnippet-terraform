@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_gateway_certificate_config
+# key: r_aviatrix_gateway_certificate_config
+# --
+
+resource "aviatrix_gateway_certificate_config" "${1:this}" {
+    ca_certificate = "${2:ca_certificate}"
+    ca_private_key = "${3:ca_private_key}"
+}

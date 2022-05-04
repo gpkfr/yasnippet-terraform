@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_portnpumap
+# key: r_fortimanager_object_system_npu_portnpumap
+# --
+
+resource "fortimanager_object_system_npu_portnpumap" "${1:this}" {
+}

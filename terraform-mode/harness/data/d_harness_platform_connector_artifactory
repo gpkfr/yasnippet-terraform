@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_platform_connector_artifactory
+# key: d_harness_platform_connector_artifactory
+# --
+
+data "harness_platform_connector_artifactory" "${1:this}" {
+}

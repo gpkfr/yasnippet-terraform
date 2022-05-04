@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_general_security
+# key: r_artifactory_general_security
+# --
+
+resource "artifactory_general_security" "${1:this}" {
+}

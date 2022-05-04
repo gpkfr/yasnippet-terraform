@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_satori_custom_taxonomy_classifier
+# key: r_satori_custom_taxonomy_classifier
+# --
+
+resource "satori_custom_taxonomy_classifier" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

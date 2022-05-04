@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fmc_access_policies_category
+# key: r_fmc_access_policies_category
+# --
+
+resource "fmc_access_policies_category" "${1:this}" {
+    access_policy_id = "${2:access_policy_id}"
+    name = "${3:name}"
+}

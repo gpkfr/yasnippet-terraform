@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_nic
+# key: r_profitbricks_nic
+# --
+
+resource "profitbricks_nic" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    lan = "${3:lan}"
+    server_id = "${4:server_id}"
+}

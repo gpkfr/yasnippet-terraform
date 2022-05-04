@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_target_k8s
+# key: r_akeyless_target_k8s
+# --
+
+resource "akeyless_target_k8s" "${1:this}" {
+    k8s_cluster_ca_cert = "${2:k8s_cluster_ca_cert}"
+    k8s_cluster_endpoint = "${3:k8s_cluster_endpoint}"
+    k8s_cluster_token = "${4:k8s_cluster_token}"
+    name = "${5:name}"
+}

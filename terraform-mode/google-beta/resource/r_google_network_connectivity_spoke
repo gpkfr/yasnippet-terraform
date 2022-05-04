@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_network_connectivity_spoke
+# key: r_google_network_connectivity_spoke
+# --
+
+resource "google_network_connectivity_spoke" "${1:this}" {
+    hub = "${2:hub}"
+    location = "${3:location}"
+    name = "${4:name}"
+}

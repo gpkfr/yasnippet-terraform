@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_healthcare_consent_store_iam_policy
+# key: r_google_healthcare_consent_store_iam_policy
+# --
+
+resource "google_healthcare_consent_store_iam_policy" "${1:this}" {
+    consent_store_id = "${2:consent_store_id}"
+    dataset = "${3:dataset}"
+    policy_data = "${4:policy_data}"
+}

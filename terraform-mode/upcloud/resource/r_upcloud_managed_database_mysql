@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_managed_database_mysql
+# key: r_upcloud_managed_database_mysql
+# --
+
+resource "upcloud_managed_database_mysql" "${1:this}" {
+    name = "${2:name}"
+    plan = "${3:plan}"
+    zone = "${4:zone}"
+}

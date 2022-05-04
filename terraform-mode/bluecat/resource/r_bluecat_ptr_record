@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_ptr_record
+# key: r_bluecat_ptr_record
+# --
+
+resource "bluecat_ptr_record" "${1:this}" {
+    ip4_address = "${2:ip4_address}"
+    name = "${3:name}"
+    reverse_record = "${4:reverse_record}"
+    zone = "${5:zone}"
+}

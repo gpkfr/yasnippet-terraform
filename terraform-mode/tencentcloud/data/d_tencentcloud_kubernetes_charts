@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_kubernetes_charts
+# key: d_tencentcloud_kubernetes_charts
+# --
+
+data "tencentcloud_kubernetes_charts" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_dcnm_fan_details
+# key: d_intersight_niatelemetry_dcnm_fan_details
+# --
+
+data "intersight_niatelemetry_dcnm_fan_details" "${1:this}" {
+}

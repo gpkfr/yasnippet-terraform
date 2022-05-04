@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotwireless_partner_account
+# key: r_awscc_iotwireless_partner_account
+# --
+
+resource "awscc_iotwireless_partner_account" "${1:this}" {
+}

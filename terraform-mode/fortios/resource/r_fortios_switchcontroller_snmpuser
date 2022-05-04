@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_snmpuser
+# key: r_fortios_switchcontroller_snmpuser
+# --
+
+resource "fortios_switchcontroller_snmpuser" "${1:this}" {
+}

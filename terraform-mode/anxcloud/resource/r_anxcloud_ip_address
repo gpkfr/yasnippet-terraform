@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_anxcloud_ip_address
+# key: r_anxcloud_ip_address
+# --
+
+resource "anxcloud_ip_address" "${1:this}" {
+    address = "${2:address}"
+    network_prefix_id = "${3:network_prefix_id}"
+}

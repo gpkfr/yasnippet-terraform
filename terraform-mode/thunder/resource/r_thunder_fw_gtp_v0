@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_gtp_v0
+# key: r_thunder_fw_gtp_v0
+# --
+
+resource "thunder_fw_gtp_v0" "${1:this}" {
+}

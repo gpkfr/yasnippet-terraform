@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_sdwan_device_uuids
+# key: d_sdwan_device_uuids
+# --
+
+data "sdwan_device_uuids" "${1:this}" {
+}

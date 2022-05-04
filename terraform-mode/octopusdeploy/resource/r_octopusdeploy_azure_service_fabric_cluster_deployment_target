@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_azure_service_fabric_cluster_deployment_target
+# key: r_octopusdeploy_azure_service_fabric_cluster_deployment_target
+# --
+
+resource "octopusdeploy_azure_service_fabric_cluster_deployment_target" "${1:this}" {
+    connection_endpoint = "${2:connection_endpoint}"
+    environments = "${3:environments}"
+    name = "${4:name}"
+    roles = "${5:roles}"
+}

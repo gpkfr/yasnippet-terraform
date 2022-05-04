@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_sentinel_automation_rule
+# key: r_azurerm_sentinel_automation_rule
+# --
+
+resource "azurerm_sentinel_automation_rule" "${1:this}" {
+    display_name = "${2:display_name}"
+    log_analytics_workspace_id = "${3:log_analytics_workspace_id}"
+    name = "${4:name}"
+    order = "${5:order}"
+}

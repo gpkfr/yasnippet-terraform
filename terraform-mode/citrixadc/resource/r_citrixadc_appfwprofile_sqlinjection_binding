@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwprofile_sqlinjection_binding
+# key: r_citrixadc_appfwprofile_sqlinjection_binding
+# --
+
+resource "citrixadc_appfwprofile_sqlinjection_binding" "${1:this}" {
+    as_scan_location_sql = "${2:as_scan_location_sql}"
+    formactionurl_sql = "${3:formactionurl_sql}"
+    name = "${4:name}"
+    sqlinjection = "${5:sqlinjection}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_cluster_edge_vsphere
+# key: r_spectrocloud_cluster_edge_vsphere
+# --
+
+resource "spectrocloud_cluster_edge_vsphere" "${1:this}" {
+    edge_host_uid = "${2:edge_host_uid}"
+    name = "${3:name}"
+}

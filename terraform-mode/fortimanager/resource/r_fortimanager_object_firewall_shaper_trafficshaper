@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_shaper_trafficshaper
+# key: r_fortimanager_object_firewall_shaper_trafficshaper
+# --
+
+resource "fortimanager_object_firewall_shaper_trafficshaper" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_integration_gcp_cfg
+# key: r_lacework_integration_gcp_cfg
+# --
+
+resource "lacework_integration_gcp_cfg" "${1:this}" {
+    name = "${2:name}"
+    resource_id = "${3:resource_id}"
+}

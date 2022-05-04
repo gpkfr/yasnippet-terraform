@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_panos_arp
+# key: r_panos_arp
+# --
+
+resource "panos_arp" "${1:this}" {
+    ip = "${2:ip}"
+    mac_address = "${3:mac_address}"
+}

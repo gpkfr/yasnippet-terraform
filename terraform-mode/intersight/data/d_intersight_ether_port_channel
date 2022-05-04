@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_ether_port_channel
+# key: d_intersight_ether_port_channel
+# --
+
+data "intersight_ether_port_channel" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_notification_account_subscription
+# key: r_intersight_notification_account_subscription
+# --
+
+resource "intersight_notification_account_subscription" "${1:this}" {
+}

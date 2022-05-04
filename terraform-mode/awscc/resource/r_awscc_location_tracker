@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_location_tracker
+# key: r_awscc_location_tracker
+# --
+
+resource "awscc_location_tracker" "${1:this}" {
+    tracker_name = "${2:tracker_name}"
+}

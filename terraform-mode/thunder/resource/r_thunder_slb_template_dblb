@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_dblb
+# key: r_thunder_slb_template_dblb
+# --
+
+resource "thunder_slb_template_dblb" "${1:this}" {
+}

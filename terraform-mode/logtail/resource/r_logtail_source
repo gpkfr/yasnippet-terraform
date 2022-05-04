@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_logtail_source
+# key: r_logtail_source
+# --
+
+resource "logtail_source" "${1:this}" {
+    name = "${2:name}"
+    platform = "${3:platform}"
+}

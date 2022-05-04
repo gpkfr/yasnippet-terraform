@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_api_connection
+# key: r_azurerm_api_connection
+# --
+
+resource "azurerm_api_connection" "${1:this}" {
+    managed_api_id = "${2:managed_api_id}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_mmsprofile
+# key: r_fortimanager_object_firewall_mmsprofile
+# --
+
+resource "fortimanager_object_firewall_mmsprofile" "${1:this}" {
+}

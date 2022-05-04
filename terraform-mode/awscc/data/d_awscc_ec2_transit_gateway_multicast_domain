@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_transit_gateway_multicast_domain
+# key: d_awscc_ec2_transit_gateway_multicast_domain
+# --
+
+data "awscc_ec2_transit_gateway_multicast_domain" "${1:this}" {
+    id = "${2:id}"
+}

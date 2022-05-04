@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_managed_private_endpoint
+# key: r_azurerm_data_factory_managed_private_endpoint
+# --
+
+resource "azurerm_data_factory_managed_private_endpoint" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    name = "${3:name}"
+    target_resource_id = "${4:target_resource_id}"
+}

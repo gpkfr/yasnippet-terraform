@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_iot_route
+# key: r_scaleway_iot_route
+# --
+
+resource "scaleway_iot_route" "${1:this}" {
+    hub_id = "${2:hub_id}"
+    name = "${3:name}"
+    topic = "${4:topic}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_grafana_builtin_role_assignment
+# key: r_grafana_builtin_role_assignment
+# --
+
+resource "grafana_builtin_role_assignment" "${1:this}" {
+    builtin_role = "${2:builtin_role}"
+}

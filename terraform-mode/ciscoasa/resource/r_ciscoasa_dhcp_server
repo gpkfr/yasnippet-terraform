@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_dhcp_server
+# key: r_ciscoasa_dhcp_server
+# --
+
+resource "ciscoasa_dhcp_server" "${1:this}" {
+    interface = "${2:interface}"
+}

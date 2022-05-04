@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logzio_authentication_groups
+# key: d_logzio_authentication_groups
+# --
+
+data "logzio_authentication_groups" "${1:this}" {
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_threshold_rule
+# key: r_sumologic_cse_threshold_rule
+# --
+
+resource "sumologic_cse_threshold_rule" "${1:this}" {
+    description = "${2:description}"
+    enabled = "${3:enabled}"
+    expression = "${4:expression}"
+    limit = "${5:limit}"
+    name = "${6:name}"
+    severity = "${7:severity}"
+    window_size = "${8:window_size}"
+}

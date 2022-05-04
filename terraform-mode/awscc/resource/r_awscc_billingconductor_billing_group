@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_billingconductor_billing_group
+# key: r_awscc_billingconductor_billing_group
+# --
+
+resource "awscc_billingconductor_billing_group" "${1:this}" {
+    account_grouping = "${2:account_grouping}"
+    computation_preference = "${3:computation_preference}"
+    name = "${4:name}"
+    primary_account_id = "${5:primary_account_id}"
+}

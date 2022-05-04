@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_mediapackage_channels
+# key: d_awscc_mediapackage_channels
+# --
+
+data "awscc_mediapackage_channels" "${1:this}" {
+}

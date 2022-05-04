@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_optimizer_recommendation
+# key: r_oci_optimizer_recommendation
+# --
+
+resource "oci_optimizer_recommendation" "${1:this}" {
+    recommendation_id = "${2:recommendation_id}"
+    status = "${3:status}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_b2_bucket_files
+# key: d_b2_bucket_files
+# --
+
+data "b2_bucket_files" "${1:this}" {
+    bucket_id = "${2:bucket_id}"
+}

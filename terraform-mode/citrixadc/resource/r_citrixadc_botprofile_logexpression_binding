@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_botprofile_logexpression_binding
+# key: r_citrixadc_botprofile_logexpression_binding
+# --
+
+resource "citrixadc_botprofile_logexpression_binding" "${1:this}" {
+    bot_log_expression_name = "${2:bot_log_expression_name}"
+    name = "${3:name}"
+}

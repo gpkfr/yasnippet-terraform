@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_networkmanager_transit_gateway_registration
+# key: r_awscc_networkmanager_transit_gateway_registration
+# --
+
+resource "awscc_networkmanager_transit_gateway_registration" "${1:this}" {
+    global_network_id = "${2:global_network_id}"
+    transit_gateway_arn = "${3:transit_gateway_arn}"
+}

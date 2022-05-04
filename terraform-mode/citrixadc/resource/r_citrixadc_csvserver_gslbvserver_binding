@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_csvserver_gslbvserver_binding
+# key: r_citrixadc_csvserver_gslbvserver_binding
+# --
+
+resource "citrixadc_csvserver_gslbvserver_binding" "${1:this}" {
+    name = "${2:name}"
+    vserver = "${3:vserver}"
+}

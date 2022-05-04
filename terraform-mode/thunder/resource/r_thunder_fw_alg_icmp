@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_alg_icmp
+# key: r_thunder_fw_alg_icmp
+# --
+
+resource "thunder_fw_alg_icmp" "${1:this}" {
+}

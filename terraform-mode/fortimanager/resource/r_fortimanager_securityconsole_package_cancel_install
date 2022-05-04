@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_securityconsole_package_cancel_install
+# key: r_fortimanager_securityconsole_package_cancel_install
+# --
+
+resource "fortimanager_securityconsole_package_cancel_install" "${1:this}" {
+}

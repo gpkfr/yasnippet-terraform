@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ecr_replication_configurations
+# key: d_awscc_ecr_replication_configurations
+# --
+
+data "awscc_ecr_replication_configurations" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_apply_changes
+# key: r_thunder_fw_apply_changes
+# --
+
+resource "thunder_fw_apply_changes" "${1:this}" {
+}

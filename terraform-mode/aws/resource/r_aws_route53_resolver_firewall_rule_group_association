@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53_resolver_firewall_rule_group_association
+# key: r_aws_route53_resolver_firewall_rule_group_association
+# --
+
+resource "aws_route53_resolver_firewall_rule_group_association" "${1:this}" {
+    firewall_rule_group_id = "${2:firewall_rule_group_id}"
+    name = "${3:name}"
+    priority = "${4:priority}"
+    vpc_id = "${5:vpc_id}"
+}

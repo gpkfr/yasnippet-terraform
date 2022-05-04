@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_appliance_pc_role
+# key: d_intersight_fabric_appliance_pc_role
+# --
+
+data "intersight_fabric_appliance_pc_role" "${1:this}" {
+}

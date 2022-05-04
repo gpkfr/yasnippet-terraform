@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_sku_region_rate_cards
+# key: d_intersight_cloud_sku_region_rate_cards
+# --
+
+data "intersight_cloud_sku_region_rate_cards" "${1:this}" {
+}

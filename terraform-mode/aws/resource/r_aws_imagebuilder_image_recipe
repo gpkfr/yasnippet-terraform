@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_imagebuilder_image_recipe
+# key: r_aws_imagebuilder_image_recipe
+# --
+
+resource "aws_imagebuilder_image_recipe" "${1:this}" {
+    name = "${2:name}"
+    parent_image = "${3:parent_image}"
+    version = "${4:version}"
+}

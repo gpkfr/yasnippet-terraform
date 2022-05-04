@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_netapp_snapshot_policy
+# key: r_azurerm_netapp_snapshot_policy
+# --
+
+resource "azurerm_netapp_snapshot_policy" "${1:this}" {
+    account_name = "${2:account_name}"
+    enabled = "${3:enabled}"
+    location = "${4:location}"
+    name = "${5:name}"
+    resource_group_name = "${6:resource_group_name}"
+}

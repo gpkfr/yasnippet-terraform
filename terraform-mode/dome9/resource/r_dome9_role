@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dome9_role
+# key: r_dome9_role
+# --
+
+resource "dome9_role" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+}

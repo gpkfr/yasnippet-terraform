@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_eipanycast_anycast_eip_address
+# key: r_alicloud_eipanycast_anycast_eip_address
+# --
+
+resource "alicloud_eipanycast_anycast_eip_address" "${1:this}" {
+    service_location = "${2:service_location}"
+}

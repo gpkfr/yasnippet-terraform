@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_alkira_policy
+# key: r_alkira_policy
+# --
+
+resource "alkira_policy" "${1:this}" {
+    enabled = "${2:enabled}"
+    from_groups = "${3:from_groups}"
+    name = "${4:name}"
+    rule_list_id = "${5:rule_list_id}"
+    segment_ids = "${6:segment_ids}"
+    to_groups = "${7:to_groups}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_grafana_playlist
+# key: r_grafana_playlist
+# --
+
+resource "grafana_playlist" "${1:this}" {
+    interval = "${2:interval}"
+    name = "${3:name}"
+}

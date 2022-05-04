@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_compute_firewall_policy_rule
+# key: r_google_compute_firewall_policy_rule
+# --
+
+resource "google_compute_firewall_policy_rule" "${1:this}" {
+    action = "${2:action}"
+    direction = "${3:direction}"
+    firewall_policy = "${4:firewall_policy}"
+    priority = "${5:priority}"
+}

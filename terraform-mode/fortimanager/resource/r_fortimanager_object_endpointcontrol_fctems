@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_endpointcontrol_fctems
+# key: r_fortimanager_object_endpointcontrol_fctems
+# --
+
+resource "fortimanager_object_endpointcontrol_fctems" "${1:this}" {
+}

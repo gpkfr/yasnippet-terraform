@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_site_set_vip_info
+# key: r_volterra_site_set_vip_info
+# --
+
+resource "volterra_site_set_vip_info" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+    site_type = "${4:site_type}"
+}

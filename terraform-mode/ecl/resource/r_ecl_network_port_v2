@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ecl_network_port_v2
+# key: r_ecl_network_port_v2
+# --
+
+resource "ecl_network_port_v2" "${1:this}" {
+    network_id = "${2:network_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_nutanixkps_node
+# key: d_nutanixkps_node
+# --
+
+data "nutanixkps_node" "${1:this}" {
+    serial_number = "${2:serial_number}"
+}

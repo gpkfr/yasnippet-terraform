@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_datadog_webhook
+# key: r_datadog_webhook
+# --
+
+resource "datadog_webhook" "${1:this}" {
+    name = "${2:name}"
+    url = "${3:url}"
+}

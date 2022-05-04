@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ecl_sss_tenant_v1
+# key: r_ecl_sss_tenant_v1
+# --
+
+resource "ecl_sss_tenant_v1" "${1:this}" {
+    description = "${2:description}"
+    tenant_name = "${3:tenant_name}"
+    tenant_region = "${4:tenant_region}"
+}

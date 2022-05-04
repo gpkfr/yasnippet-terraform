@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_dimensions
+# key: d_awscc_iot_dimensions
+# --
+
+data "awscc_iot_dimensions" "${1:this}" {
+}

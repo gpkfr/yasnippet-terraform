@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_s3_buckets
+# key: d_awscc_s3_buckets
+# --
+
+data "awscc_s3_buckets" "${1:this}" {
+}

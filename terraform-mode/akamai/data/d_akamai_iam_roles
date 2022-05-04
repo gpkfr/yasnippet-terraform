@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_iam_roles
+# key: d_akamai_iam_roles
+# --
+
+data "akamai_iam_roles" "${1:this}" {
+}

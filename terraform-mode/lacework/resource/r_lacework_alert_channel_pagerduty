@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_alert_channel_pagerduty
+# key: r_lacework_alert_channel_pagerduty
+# --
+
+resource "lacework_alert_channel_pagerduty" "${1:this}" {
+    integration_key = "${2:integration_key}"
+    name = "${3:name}"
+}

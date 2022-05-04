@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_cloud_vm_cluster
+# key: r_oci_database_cloud_vm_cluster
+# --
+
+resource "oci_database_cloud_vm_cluster" "${1:this}" {
+    backup_subnet_id = "${2:backup_subnet_id}"
+    cloud_exadata_infrastructure_id = "${3:cloud_exadata_infrastructure_id}"
+    compartment_id = "${4:compartment_id}"
+    cpu_core_count = "${5:cpu_core_count}"
+    display_name = "${6:display_name}"
+    gi_version = "${7:gi_version}"
+    hostname = "${8:hostname}"
+    ssh_public_keys = "${9:ssh_public_keys}"
+    subnet_id = "${10:subnet_id}"
+}

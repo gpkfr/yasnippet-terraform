@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxt_alb_edgegateway_service_engine_group
+# key: r_vcd_nsxt_alb_edgegateway_service_engine_group
+# --
+
+resource "vcd_nsxt_alb_edgegateway_service_engine_group" "${1:this}" {
+    edge_gateway_id = "${2:edge_gateway_id}"
+    service_engine_group_id = "${3:service_engine_group_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_lex_intent
+# key: r_aws_lex_intent
+# --
+
+resource "aws_lex_intent" "${1:this}" {
+    name = "${2:name}"
+}

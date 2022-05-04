@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_wirelesscontroller_hotspot20_h2qpconncapability
+# key: r_fortimanager_object_wirelesscontroller_hotspot20_h2qpconncapability
+# --
+
+resource "fortimanager_object_wirelesscontroller_hotspot20_h2qpconncapability" "${1:this}" {
+}

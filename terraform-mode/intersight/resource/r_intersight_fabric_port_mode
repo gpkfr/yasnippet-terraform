@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fabric_port_mode
+# key: r_intersight_fabric_port_mode
+# --
+
+resource "intersight_fabric_port_mode" "${1:this}" {
+}

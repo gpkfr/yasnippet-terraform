@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_devcycle_environment
+# key: r_devcycle_environment
+# --
+
+resource "devcycle_environment" "${1:this}" {
+    color = "${2:color}"
+    description = "${3:description}"
+    key = "${4:key}"
+    name = "${5:name}"
+    project_id = "${6:project_id}"
+    settings = "${7:settings}"
+    type = "${8:type}"
+}

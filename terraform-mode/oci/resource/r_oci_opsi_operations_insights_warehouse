@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_opsi_operations_insights_warehouse
+# key: r_oci_opsi_operations_insights_warehouse
+# --
+
+resource "oci_opsi_operations_insights_warehouse" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    cpu_allocated = "${3:cpu_allocated}"
+    display_name = "${4:display_name}"
+}

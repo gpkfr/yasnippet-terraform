@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_evpn_tunnel_endpoint
+# key: r_nsxt_policy_evpn_tunnel_endpoint
+# --
+
+resource "nsxt_policy_evpn_tunnel_endpoint" "${1:this}" {
+    display_name = "${2:display_name}"
+    edge_node_path = "${3:edge_node_path}"
+    external_interface_path = "${4:external_interface_path}"
+    local_address = "${5:local_address}"
+}

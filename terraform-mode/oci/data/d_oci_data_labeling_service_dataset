@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_labeling_service_dataset
+# key: d_oci_data_labeling_service_dataset
+# --
+
+data "oci_data_labeling_service_dataset" "${1:this}" {
+    dataset_id = "${2:dataset_id}"
+}

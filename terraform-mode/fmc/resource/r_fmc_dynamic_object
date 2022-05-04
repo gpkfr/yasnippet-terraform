@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fmc_dynamic_object
+# key: r_fmc_dynamic_object
+# --
+
+resource "fmc_dynamic_object" "${1:this}" {
+    name = "${2:name}"
+    object_type = "${3:object_type}"
+}

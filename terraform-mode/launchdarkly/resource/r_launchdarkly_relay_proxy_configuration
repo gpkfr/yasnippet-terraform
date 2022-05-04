@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_launchdarkly_relay_proxy_configuration
+# key: r_launchdarkly_relay_proxy_configuration
+# --
+
+resource "launchdarkly_relay_proxy_configuration" "${1:this}" {
+    name = "${2:name}"
+}

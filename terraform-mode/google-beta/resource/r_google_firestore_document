@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_firestore_document
+# key: r_google_firestore_document
+# --
+
+resource "google_firestore_document" "${1:this}" {
+    collection = "${2:collection}"
+    document_id = "${3:document_id}"
+    fields = "${4:fields}"
+}

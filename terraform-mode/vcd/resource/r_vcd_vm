@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vm
+# key: r_vcd_vm
+# --
+
+resource "vcd_vm" "${1:this}" {
+    name = "${2:name}"
+}

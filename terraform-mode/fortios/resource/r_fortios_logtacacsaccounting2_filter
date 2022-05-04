@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_logtacacsaccounting2_filter
+# key: r_fortios_logtacacsaccounting2_filter
+# --
+
+resource "fortios_logtacacsaccounting2_filter" "${1:this}" {
+}

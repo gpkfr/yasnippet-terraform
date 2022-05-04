@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_routerospf_neighbor
+# key: r_fortios_routerospf_neighbor
+# --
+
+resource "fortios_routerospf_neighbor" "${1:this}" {
+}

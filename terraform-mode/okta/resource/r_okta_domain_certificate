@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_okta_domain_certificate
+# key: r_okta_domain_certificate
+# --
+
+resource "okta_domain_certificate" "${1:this}" {
+    certificate = "${2:certificate}"
+    certificate_chain = "${3:certificate_chain}"
+    domain_id = "${4:domain_id}"
+    private_key = "${5:private_key}"
+}

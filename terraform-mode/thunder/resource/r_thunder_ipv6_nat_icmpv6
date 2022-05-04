@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ipv6_nat_icmpv6
+# key: r_thunder_ipv6_nat_icmpv6
+# --
+
+resource "thunder_ipv6_nat_icmpv6" "${1:this}" {
+}

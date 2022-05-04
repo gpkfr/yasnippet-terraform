@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vra_fabric_compute
+# key: d_vra_fabric_compute
+# --
+
+data "vra_fabric_compute" "${1:this}" {
+}

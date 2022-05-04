@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gcore_k8s
+# key: d_gcore_k8s
+# --
+
+data "gcore_k8s" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+}

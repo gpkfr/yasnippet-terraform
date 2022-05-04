@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_kubernetes_version_policy
+# key: r_intersight_kubernetes_version_policy
+# --
+
+resource "intersight_kubernetes_version_policy" "${1:this}" {
+}

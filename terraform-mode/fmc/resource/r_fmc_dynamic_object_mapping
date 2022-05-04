@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fmc_dynamic_object_mapping
+# key: r_fmc_dynamic_object_mapping
+# --
+
+resource "fmc_dynamic_object_mapping" "${1:this}" {
+    dynamic_object_id = "${2:dynamic_object_id}"
+    mappings = "${3:mappings}"
+}

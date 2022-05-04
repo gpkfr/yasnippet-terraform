@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iam_oidc_provider
+# key: d_awscc_iam_oidc_provider
+# --
+
+data "awscc_iam_oidc_provider" "${1:this}" {
+    id = "${2:id}"
+}

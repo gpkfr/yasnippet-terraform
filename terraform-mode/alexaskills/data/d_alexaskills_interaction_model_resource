@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alexaskills_interaction_model_resource
+# key: d_alexaskills_interaction_model_resource
+# --
+
+data "alexaskills_interaction_model_resource" "${1:this}" {
+    skill_id = "${2:skill_id}"
+}

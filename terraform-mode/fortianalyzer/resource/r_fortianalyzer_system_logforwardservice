@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_logforwardservice
+# key: r_fortianalyzer_system_logforwardservice
+# --
+
+resource "fortianalyzer_system_logforwardservice" "${1:this}" {
+}

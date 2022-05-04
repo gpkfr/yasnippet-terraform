@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_hpegl_vmaas_cloud
+# key: d_hpegl_vmaas_cloud
+# --
+
+data "hpegl_vmaas_cloud" "${1:this}" {
+    name = "${2:name}"
+}

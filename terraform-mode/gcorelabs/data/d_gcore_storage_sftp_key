@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gcore_storage_sftp_key
+# key: d_gcore_storage_sftp_key
+# --
+
+data "gcore_storage_sftp_key" "${1:this}" {
+    name = "${2:name}"
+}

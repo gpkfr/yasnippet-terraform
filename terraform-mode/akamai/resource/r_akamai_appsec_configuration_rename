@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_configuration_rename
+# key: r_akamai_appsec_configuration_rename
+# --
+
+resource "akamai_appsec_configuration_rename" "${1:this}" {
+    config_id = "${2:config_id}"
+    description = "${3:description}"
+    name = "${4:name}"
+}

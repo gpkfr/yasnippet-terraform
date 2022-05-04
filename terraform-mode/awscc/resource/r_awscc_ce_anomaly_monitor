@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ce_anomaly_monitor
+# key: r_awscc_ce_anomaly_monitor
+# --
+
+resource "awscc_ce_anomaly_monitor" "${1:this}" {
+    monitor_name = "${2:monitor_name}"
+    monitor_type = "${3:monitor_type}"
+}

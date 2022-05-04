@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oneview_hypervisor_cluster_profile
+# key: r_oneview_hypervisor_cluster_profile
+# --
+
+resource "oneview_hypervisor_cluster_profile" "${1:this}" {
+    hypervisor_type = "${2:hypervisor_type}"
+}

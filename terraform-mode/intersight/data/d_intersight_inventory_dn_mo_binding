@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_inventory_dn_mo_binding
+# key: d_intersight_inventory_dn_mo_binding
+# --
+
+data "intersight_inventory_dn_mo_binding" "${1:this}" {
+}

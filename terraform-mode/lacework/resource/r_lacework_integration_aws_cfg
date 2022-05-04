@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_lacework_integration_aws_cfg
+# key: r_lacework_integration_aws_cfg
+# --
+
+resource "lacework_integration_aws_cfg" "${1:this}" {
+    name = "${2:name}"
+}

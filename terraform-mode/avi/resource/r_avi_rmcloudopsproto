@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_rmcloudopsproto
+# key: r_avi_rmcloudopsproto
+# --
+
+resource "avi_rmcloudopsproto" "${1:this}" {
+}

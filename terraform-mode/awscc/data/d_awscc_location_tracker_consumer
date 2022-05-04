@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_location_tracker_consumer
+# key: d_awscc_location_tracker_consumer
+# --
+
+data "awscc_location_tracker_consumer" "${1:this}" {
+    id = "${2:id}"
+}

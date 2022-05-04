@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_log_ratelimit_ratelimits
+# key: r_fortimanager_system_log_ratelimit_ratelimits
+# --
+
+resource "fortimanager_system_log_ratelimit_ratelimits" "${1:this}" {
+}

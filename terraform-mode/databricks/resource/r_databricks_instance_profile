@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_databricks_instance_profile
+# key: r_databricks_instance_profile
+# --
+
+resource "databricks_instance_profile" "${1:this}" {
+}

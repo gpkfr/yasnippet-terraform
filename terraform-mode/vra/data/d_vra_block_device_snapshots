@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vra_block_device_snapshots
+# key: d_vra_block_device_snapshots
+# --
+
+data "vra_block_device_snapshots" "${1:this}" {
+    block_device_id = "${2:block_device_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rancher2_machine_config_v2
+# key: r_rancher2_machine_config_v2
+# --
+
+resource "rancher2_machine_config_v2" "${1:this}" {
+    generate_name = "${2:generate_name}"
+}

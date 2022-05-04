@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_metal_device_bgp_neighbors
+# key: d_metal_device_bgp_neighbors
+# --
+
+data "metal_device_bgp_neighbors" "${1:this}" {
+    device_id = "${2:device_id}"
+}

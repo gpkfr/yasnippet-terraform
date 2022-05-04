@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_anaml_entity_population
+# key: r_anaml_entity_population
+# --
+
+resource "anaml_entity_population" "${1:this}" {
+    description = "${2:description}"
+    entity = "${3:entity}"
+    expression = "${4:expression}"
+    name = "${5:name}"
+    sources = "${6:sources}"
+}

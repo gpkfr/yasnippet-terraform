@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_trigger_custom_event
+# key: r_azurerm_data_factory_trigger_custom_event
+# --
+
+resource "azurerm_data_factory_trigger_custom_event" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    eventgrid_topic_id = "${3:eventgrid_topic_id}"
+    events = "${4:events}"
+    name = "${5:name}"
+}

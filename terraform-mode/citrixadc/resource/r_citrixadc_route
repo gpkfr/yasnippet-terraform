@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_route
+# key: r_citrixadc_route
+# --
+
+resource "citrixadc_route" "${1:this}" {
+    gateway = "${2:gateway}"
+    netmask = "${3:netmask}"
+    network = "${4:network}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_location_fsx_open_zfs
+# key: d_awscc_datasync_location_fsx_open_zfs
+# --
+
+data "awscc_datasync_location_fsx_open_zfs" "${1:this}" {
+    id = "${2:id}"
+}

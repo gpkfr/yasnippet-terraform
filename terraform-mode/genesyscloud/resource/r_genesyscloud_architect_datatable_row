@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_architect_datatable_row
+# key: r_genesyscloud_architect_datatable_row
+# --
+
+resource "genesyscloud_architect_datatable_row" "${1:this}" {
+    datatable_id = "${2:datatable_id}"
+    key_value = "${3:key_value}"
+}

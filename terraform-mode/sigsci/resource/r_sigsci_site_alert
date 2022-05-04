@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_site_alert
+# key: r_sigsci_site_alert
+# --
+
+resource "sigsci_site_alert" "${1:this}" {
+    site_short_name = "${2:site_short_name}"
+    tag_name = "${3:tag_name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_codefresh_api_key
+# key: r_codefresh_api_key
+# --
+
+resource "codefresh_api_key" "${1:this}" {
+    account_id = "${2:account_id}"
+    name = "${3:name}"
+    user_id = "${4:user_id}"
+}

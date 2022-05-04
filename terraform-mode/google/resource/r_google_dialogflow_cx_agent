@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_dialogflow_cx_agent
+# key: r_google_dialogflow_cx_agent
+# --
+
+resource "google_dialogflow_cx_agent" "${1:this}" {
+    default_language_code = "${2:default_language_code}"
+    display_name = "${3:display_name}"
+    location = "${4:location}"
+    time_zone = "${5:time_zone}"
+}

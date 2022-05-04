@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxt_network_imported
+# key: d_vcd_nsxt_network_imported
+# --
+
+data "vcd_nsxt_network_imported" "${1:this}" {
+}

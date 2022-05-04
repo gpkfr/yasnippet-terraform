@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_customerprofiles_domain
+# key: r_awscc_customerprofiles_domain
+# --
+
+resource "awscc_customerprofiles_domain" "${1:this}" {
+    domain_name = "${2:domain_name}"
+}

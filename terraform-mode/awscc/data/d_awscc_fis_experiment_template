@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_fis_experiment_template
+# key: d_awscc_fis_experiment_template
+# --
+
+data "awscc_fis_experiment_template" "${1:this}" {
+    id = "${2:id}"
+}

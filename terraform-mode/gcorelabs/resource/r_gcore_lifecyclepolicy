@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gcore_lifecyclepolicy
+# key: r_gcore_lifecyclepolicy
+# --
+
+resource "gcore_lifecyclepolicy" "${1:this}" {
+    name = "${2:name}"
+}

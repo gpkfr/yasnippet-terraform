@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_outscale_quota
+# key: d_outscale_quota
+# --
+
+data "outscale_quota" "${1:this}" {
+}

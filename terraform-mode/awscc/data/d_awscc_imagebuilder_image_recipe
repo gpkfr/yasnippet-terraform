@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_imagebuilder_image_recipe
+# key: d_awscc_imagebuilder_image_recipe
+# --
+
+data "awscc_imagebuilder_image_recipe" "${1:this}" {
+    id = "${2:id}"
+}

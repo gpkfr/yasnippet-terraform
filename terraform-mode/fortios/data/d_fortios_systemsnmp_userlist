@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_systemsnmp_userlist
+# key: d_fortios_systemsnmp_userlist
+# --
+
+data "fortios_systemsnmp_userlist" "${1:this}" {
+}

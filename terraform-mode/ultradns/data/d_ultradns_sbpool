@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_ultradns_sbpool
+# key: d_ultradns_sbpool
+# --
+
+data "ultradns_sbpool" "${1:this}" {
+    owner_name = "${2:owner_name}"
+    record_type = "${3:record_type}"
+    zone_name = "${4:zone_name}"
+}

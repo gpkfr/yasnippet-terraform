@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lightsail_load_balancer
+# key: d_awscc_lightsail_load_balancer
+# --
+
+data "awscc_lightsail_load_balancer" "${1:this}" {
+    id = "${2:id}"
+}

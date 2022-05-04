@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_rdpool
+# key: r_ultradns_rdpool
+# --
+
+resource "ultradns_rdpool" "${1:this}" {
+    order = "${2:order}"
+    owner_name = "${3:owner_name}"
+    record_data = "${4:record_data}"
+    record_type = "${5:record_type}"
+    zone_name = "${6:zone_name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_role
+# key: r_avi_role
+# --
+
+resource "avi_role" "${1:this}" {
+    name = "${2:name}"
+}

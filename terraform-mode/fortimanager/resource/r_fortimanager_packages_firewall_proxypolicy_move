@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_proxypolicy_move
+# key: r_fortimanager_packages_firewall_proxypolicy_move
+# --
+
+resource "fortimanager_packages_firewall_proxypolicy_move" "${1:this}" {
+    option = "${2:option}"
+    pkg = "${3:pkg}"
+    proxy_policy = "${4:proxy_policy}"
+    target = "${5:target}"
+}

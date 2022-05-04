@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_egress_only_internet_gateway
+# key: d_awscc_ec2_egress_only_internet_gateway
+# --
+
+data "awscc_ec2_egress_only_internet_gateway" "${1:this}" {
+    id = "${2:id}"
+}

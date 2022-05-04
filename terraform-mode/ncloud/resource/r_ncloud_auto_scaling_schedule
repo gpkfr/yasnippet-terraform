@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_auto_scaling_schedule
+# key: r_ncloud_auto_scaling_schedule
+# --
+
+resource "ncloud_auto_scaling_schedule" "${1:this}" {
+    auto_scaling_group_no = "${2:auto_scaling_group_no}"
+    max_size = "${3:max_size}"
+    min_size = "${4:min_size}"
+    name = "${5:name}"
+}

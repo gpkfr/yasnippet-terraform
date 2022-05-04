@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_country
+# key: r_fortios_firewall_country
+# --
+
+resource "fortios_firewall_country" "${1:this}" {
+}

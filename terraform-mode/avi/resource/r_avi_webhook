@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_webhook
+# key: r_avi_webhook
+# --
+
+resource "avi_webhook" "${1:this}" {
+    name = "${2:name}"
+}

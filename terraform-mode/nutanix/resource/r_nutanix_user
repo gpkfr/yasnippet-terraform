@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_user
+# key: r_nutanix_user
+# --
+
+resource "nutanix_user" "${1:this}" {
+}

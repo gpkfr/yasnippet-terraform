@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_siteversion
+# key: r_avi_siteversion
+# --
+
+resource "avi_siteversion" "${1:this}" {
+    name = "${2:name}"
+}

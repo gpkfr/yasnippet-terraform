@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_volume
+# key: r_ionoscloud_volume
+# --
+
+resource "ionoscloud_volume" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    disk_type = "${3:disk_type}"
+    server_id = "${4:server_id}"
+    size = "${5:size}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_lambda_function_url
+# key: d_aws_lambda_function_url
+# --
+
+data "aws_lambda_function_url" "${1:this}" {
+    function_name = "${2:function_name}"
+}

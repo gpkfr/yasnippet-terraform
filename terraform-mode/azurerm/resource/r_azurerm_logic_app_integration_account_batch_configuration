@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_logic_app_integration_account_batch_configuration
+# key: r_azurerm_logic_app_integration_account_batch_configuration
+# --
+
+resource "azurerm_logic_app_integration_account_batch_configuration" "${1:this}" {
+    batch_group_name = "${2:batch_group_name}"
+    integration_account_name = "${3:integration_account_name}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+}

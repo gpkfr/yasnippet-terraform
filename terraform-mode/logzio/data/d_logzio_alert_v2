@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logzio_alert_v2
+# key: d_logzio_alert_v2
+# --
+
+data "logzio_alert_v2" "${1:this}" {
+}

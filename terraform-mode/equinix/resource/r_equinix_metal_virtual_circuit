@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_virtual_circuit
+# key: r_equinix_metal_virtual_circuit
+# --
+
+resource "equinix_metal_virtual_circuit" "${1:this}" {
+    connection_id = "${2:connection_id}"
+    port_id = "${3:port_id}"
+    project_id = "${4:project_id}"
+}

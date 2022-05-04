@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_integration
+# key: d_genesyscloud_integration
+# --
+
+data "genesyscloud_integration" "${1:this}" {
+    name = "${2:name}"
+}

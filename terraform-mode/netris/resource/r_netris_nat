@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_netris_nat
+# key: r_netris_nat
+# --
+
+resource "netris_nat" "${1:this}" {
+    action = "${2:action}"
+    dstaddress = "${3:dstaddress}"
+    name = "${4:name}"
+    protocol = "${5:protocol}"
+    siteid = "${6:siteid}"
+    srcaddress = "${7:srcaddress}"
+}

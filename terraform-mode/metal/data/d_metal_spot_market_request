@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_metal_spot_market_request
+# key: d_metal_spot_market_request
+# --
+
+data "metal_spot_market_request" "${1:this}" {
+    request_id = "${2:request_id}"
+}

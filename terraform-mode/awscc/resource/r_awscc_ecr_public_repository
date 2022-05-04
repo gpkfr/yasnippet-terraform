@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ecr_public_repository
+# key: r_awscc_ecr_public_repository
+# --
+
+resource "awscc_ecr_public_repository" "${1:this}" {
+}

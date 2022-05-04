@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ciscoasa_network_services
+# key: d_ciscoasa_network_services
+# --
+
+data "ciscoasa_network_services" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_appsync_domain_name_api_association
+# key: r_awscc_appsync_domain_name_api_association
+# --
+
+resource "awscc_appsync_domain_name_api_association" "${1:this}" {
+    api_id = "${2:api_id}"
+    domain_name = "${3:domain_name}"
+}

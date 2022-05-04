@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_venafi_policy
+# key: r_venafi_policy
+# --
+
+resource "venafi_policy" "${1:this}" {
+}

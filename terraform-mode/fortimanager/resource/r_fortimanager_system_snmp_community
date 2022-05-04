@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_snmp_community
+# key: r_fortimanager_system_snmp_community
+# --
+
+resource "fortimanager_system_snmp_community" "${1:this}" {
+}

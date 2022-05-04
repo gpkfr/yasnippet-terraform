@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_infoblox_cname_record
+# key: d_infoblox_cname_record
+# --
+
+data "infoblox_cname_record" "${1:this}" {
+    alias = "${2:alias}"
+    canonical = "${3:canonical}"
+    dns_view = "${4:dns_view}"
+}

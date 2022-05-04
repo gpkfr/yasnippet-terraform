@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53_key_signing_key
+# key: d_awscc_route53_key_signing_key
+# --
+
+data "awscc_route53_key_signing_key" "${1:this}" {
+    id = "${2:id}"
+}

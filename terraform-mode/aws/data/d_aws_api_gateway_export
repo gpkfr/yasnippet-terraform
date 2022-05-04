@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_aws_api_gateway_export
+# key: d_aws_api_gateway_export
+# --
+
+data "aws_api_gateway_export" "${1:this}" {
+    export_type = "${2:export_type}"
+    rest_api_id = "${3:rest_api_id}"
+    stage_name = "${4:stage_name}"
+}

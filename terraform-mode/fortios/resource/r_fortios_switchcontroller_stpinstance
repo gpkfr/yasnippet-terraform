@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_stpinstance
+# key: r_fortios_switchcontroller_stpinstance
+# --
+
+resource "fortios_switchcontroller_stpinstance" "${1:this}" {
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_hcp_aws_network_peering
+# key: r_hcp_aws_network_peering
+# --
+
+resource "hcp_aws_network_peering" "${1:this}" {
+    hvn_id = "${2:hvn_id}"
+    peer_account_id = "${3:peer_account_id}"
+    peer_vpc_id = "${4:peer_vpc_id}"
+    peer_vpc_region = "${5:peer_vpc_region}"
+    peering_id = "${6:peering_id}"
+}

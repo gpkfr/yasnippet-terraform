@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_cifs_profile
+# key: r_fortios_cifs_profile
+# --
+
+resource "fortios_cifs_profile" "${1:this}" {
+}

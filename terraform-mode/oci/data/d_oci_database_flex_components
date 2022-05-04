@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_flex_components
+# key: d_oci_database_flex_components
+# --
+
+data "oci_database_flex_components" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

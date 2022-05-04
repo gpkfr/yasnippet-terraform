@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_wirelesscontrollerhotspot20_h2qptermsandconditions
+# key: r_fortios_wirelesscontrollerhotspot20_h2qptermsandconditions
+# --
+
+resource "fortios_wirelesscontrollerhotspot20_h2qptermsandconditions" "${1:this}" {
+}

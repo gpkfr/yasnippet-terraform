@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudfront_log_delivery_canonical_user_id
+# key: d_aws_cloudfront_log_delivery_canonical_user_id
+# --
+
+data "aws_cloudfront_log_delivery_canonical_user_id" "${1:this}" {
+}

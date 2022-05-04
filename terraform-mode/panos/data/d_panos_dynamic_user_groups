@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_dynamic_user_groups
+# key: d_panos_dynamic_user_groups
+# --
+
+data "panos_dynamic_user_groups" "${1:this}" {
+}

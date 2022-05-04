@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_fortitoken
+# key: r_fortimanager_object_user_fortitoken
+# --
+
+resource "fortimanager_object_user_fortitoken" "${1:this}" {
+}

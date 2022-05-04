@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_health_check_definition
+# key: r_intersight_hyperflex_health_check_definition
+# --
+
+resource "intersight_hyperflex_health_check_definition" "${1:this}" {
+}

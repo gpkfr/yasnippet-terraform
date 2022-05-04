@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_access_list_standard
+# key: r_thunder_access_list_standard
+# --
+
+resource "thunder_access_list_standard" "${1:this}" {
+}

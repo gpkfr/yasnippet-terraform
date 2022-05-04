@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_buddy_variable
+# key: r_buddy_variable
+# --
+
+resource "buddy_variable" "${1:this}" {
+    domain = "${2:domain}"
+    key = "${3:key}"
+    value = "${4:value}"
+}

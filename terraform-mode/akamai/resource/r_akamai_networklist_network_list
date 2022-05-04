@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_akamai_networklist_network_list
+# key: r_akamai_networklist_network_list
+# --
+
+resource "akamai_networklist_network_list" "${1:this}" {
+    description = "${2:description}"
+    mode = "${3:mode}"
+    name = "${4:name}"
+    type = "${5:type}"
+}

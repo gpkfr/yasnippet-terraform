@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_networkfirewall_firewall_policy
+# key: d_awscc_networkfirewall_firewall_policy
+# --
+
+data "awscc_networkfirewall_firewall_policy" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_notification_account_subscription
+# key: d_intersight_notification_account_subscription
+# --
+
+data "intersight_notification_account_subscription" "${1:this}" {
+}

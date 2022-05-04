@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_foundation_image_nodes
+# key: r_nutanix_foundation_image_nodes
+# --
+
+resource "nutanix_foundation_image_nodes" "${1:this}" {
+    cvm_gateway = "${2:cvm_gateway}"
+    cvm_netmask = "${3:cvm_netmask}"
+    hypervisor_gateway = "${4:hypervisor_gateway}"
+    hypervisor_netmask = "${5:hypervisor_netmask}"
+    nos_package = "${6:nos_package}"
+}

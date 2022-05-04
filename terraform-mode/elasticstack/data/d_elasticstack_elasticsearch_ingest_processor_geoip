@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_geoip
+# key: d_elasticstack_elasticsearch_ingest_processor_geoip
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_geoip" "${1:this}" {
+    field = "${2:field}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_contracts_groups
+# key: d_akamai_appsec_contracts_groups
+# --
+
+data "akamai_appsec_contracts_groups" "${1:this}" {
+}

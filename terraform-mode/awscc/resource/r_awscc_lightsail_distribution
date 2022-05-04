@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lightsail_distribution
+# key: r_awscc_lightsail_distribution
+# --
+
+resource "awscc_lightsail_distribution" "${1:this}" {
+    bundle_id = "${2:bundle_id}"
+    default_cache_behavior = "${3:default_cache_behavior}"
+    distribution_name = "${4:distribution_name}"
+    origin = "${5:origin}"
+}

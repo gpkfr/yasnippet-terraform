@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_healthlake_fhir_datastores
+# key: d_awscc_healthlake_fhir_datastores
+# --
+
+data "awscc_healthlake_fhir_datastores" "${1:this}" {
+}

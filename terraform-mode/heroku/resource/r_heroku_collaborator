@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_heroku_collaborator
+# key: r_heroku_collaborator
+# --
+
+resource "heroku_collaborator" "${1:this}" {
+    app_id = "${2:app_id}"
+    email = "${3:email}"
+}

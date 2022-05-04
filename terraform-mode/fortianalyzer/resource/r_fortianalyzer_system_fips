@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_fips
+# key: r_fortianalyzer_system_fips
+# --
+
+resource "fortianalyzer_system_fips" "${1:this}" {
+}

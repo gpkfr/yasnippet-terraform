@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_wafv2_regex_pattern_set
+# key: r_awscc_wafv2_regex_pattern_set
+# --
+
+resource "awscc_wafv2_regex_pattern_set" "${1:this}" {
+    regular_expression_list = "${2:regular_expression_list}"
+    scope = "${3:scope}"
+}

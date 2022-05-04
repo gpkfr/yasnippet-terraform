@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_virtual_mfa_device
+# key: r_aws_iam_virtual_mfa_device
+# --
+
+resource "aws_iam_virtual_mfa_device" "${1:this}" {
+    virtual_mfa_device_name = "${2:virtual_mfa_device_name}"
+}

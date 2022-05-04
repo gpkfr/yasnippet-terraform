@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudfront_response_headers_policies
+# key: d_awscc_cloudfront_response_headers_policies
+# --
+
+data "awscc_cloudfront_response_headers_policies" "${1:this}" {
+}

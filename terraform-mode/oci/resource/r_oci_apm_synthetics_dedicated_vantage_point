@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_apm_synthetics_dedicated_vantage_point
+# key: r_oci_apm_synthetics_dedicated_vantage_point
+# --
+
+resource "oci_apm_synthetics_dedicated_vantage_point" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+    display_name = "${3:display_name}"
+    region = "${4:region}"
+}

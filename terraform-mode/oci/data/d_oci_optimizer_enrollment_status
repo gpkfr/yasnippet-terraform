@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_optimizer_enrollment_status
+# key: d_oci_optimizer_enrollment_status
+# --
+
+data "oci_optimizer_enrollment_status" "${1:this}" {
+    enrollment_status_id = "${2:enrollment_status_id}"
+}

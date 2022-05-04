@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_privatelink_vpc_endpoint_zone
+# key: r_alicloud_privatelink_vpc_endpoint_zone
+# --
+
+resource "alicloud_privatelink_vpc_endpoint_zone" "${1:this}" {
+    endpoint_id = "${2:endpoint_id}"
+    vswitch_id = "${3:vswitch_id}"
+}

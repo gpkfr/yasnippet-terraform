@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_subdomain
+# key: r_sumologic_subdomain
+# --
+
+resource "sumologic_subdomain" "${1:this}" {
+    subdomain = "${2:subdomain}"
+}

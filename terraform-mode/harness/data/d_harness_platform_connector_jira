@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_platform_connector_jira
+# key: d_harness_platform_connector_jira
+# --
+
+data "harness_platform_connector_jira" "${1:this}" {
+}

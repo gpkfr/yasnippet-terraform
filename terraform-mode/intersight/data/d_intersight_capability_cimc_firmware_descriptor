@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_capability_cimc_firmware_descriptor
+# key: d_intersight_capability_cimc_firmware_descriptor
+# --
+
+data "intersight_capability_cimc_firmware_descriptor" "${1:this}" {
+}

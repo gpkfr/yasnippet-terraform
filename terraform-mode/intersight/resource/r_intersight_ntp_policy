@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_ntp_policy
+# key: r_intersight_ntp_policy
+# --
+
+resource "intersight_ntp_policy" "${1:this}" {
+}

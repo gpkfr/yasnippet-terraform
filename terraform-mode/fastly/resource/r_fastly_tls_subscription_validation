@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fastly_tls_subscription_validation
+# key: r_fastly_tls_subscription_validation
+# --
+
+resource "fastly_tls_subscription_validation" "${1:this}" {
+    subscription_id = "${2:subscription_id}"
+}

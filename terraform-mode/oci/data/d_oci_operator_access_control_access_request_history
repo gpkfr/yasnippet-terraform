@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_operator_access_control_access_request_history
+# key: d_oci_operator_access_control_access_request_history
+# --
+
+data "oci_operator_access_control_access_request_history" "${1:this}" {
+    access_request_id = "${2:access_request_id}"
+}

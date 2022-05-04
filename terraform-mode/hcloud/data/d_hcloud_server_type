@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcloud_server_type
+# key: d_hcloud_server_type
+# --
+
+data "hcloud_server_type" "${1:this}" {
+}

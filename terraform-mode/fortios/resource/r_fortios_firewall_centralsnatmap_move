@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_centralsnatmap_move
+# key: r_fortios_firewall_centralsnatmap_move
+# --
+
+resource "fortios_firewall_centralsnatmap_move" "${1:this}" {
+    move = "${2:move}"
+    policyid_dst = "${3:policyid_dst}"
+    policyid_src = "${4:policyid_src}"
+}

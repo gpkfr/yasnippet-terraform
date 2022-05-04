@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_authentication_scheme
+# key: r_fortimanager_object_authentication_scheme
+# --
+
+resource "fortimanager_object_authentication_scheme" "${1:this}" {
+}

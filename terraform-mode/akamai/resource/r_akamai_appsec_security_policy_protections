@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_security_policy_protections
+# key: r_akamai_appsec_security_policy_protections
+# --
+
+resource "akamai_appsec_security_policy_protections" "${1:this}" {
+    apply_api_constraints = "${2:apply_api_constraints}"
+    apply_application_layer_controls = "${3:apply_application_layer_controls}"
+    apply_botman_controls = "${4:apply_botman_controls}"
+    apply_network_layer_controls = "${5:apply_network_layer_controls}"
+    apply_rate_controls = "${6:apply_rate_controls}"
+    apply_reputation_controls = "${7:apply_reputation_controls}"
+    apply_slow_post_controls = "${8:apply_slow_post_controls}"
+    config_id = "${9:config_id}"
+    security_policy_id = "${10:security_policy_id}"
+    version = "${11:version}"
+}

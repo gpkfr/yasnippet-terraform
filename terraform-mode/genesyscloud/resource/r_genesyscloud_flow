@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_flow
+# key: r_genesyscloud_flow
+# --
+
+resource "genesyscloud_flow" "${1:this}" {
+    filepath = "${2:filepath}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_s3_storage_lens
+# key: r_awscc_s3_storage_lens
+# --
+
+resource "awscc_s3_storage_lens" "${1:this}" {
+    storage_lens_configuration = "${2:storage_lens_configuration}"
+}

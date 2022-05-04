@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_iterative_machine
+# key: r_iterative_machine
+# --
+
+resource "iterative_machine" "${1:this}" {
+}

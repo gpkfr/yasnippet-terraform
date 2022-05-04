@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_kinesisanalyticsv2_application
+# key: r_aws_kinesisanalyticsv2_application
+# --
+
+resource "aws_kinesisanalyticsv2_application" "${1:this}" {
+    name = "${2:name}"
+    runtime_environment = "${3:runtime_environment}"
+    service_execution_role = "${4:service_execution_role}"
+}

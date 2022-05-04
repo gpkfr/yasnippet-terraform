@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_iothub_endpoint_servicebus_queue
+# key: r_azurerm_iothub_endpoint_servicebus_queue
+# --
+
+resource "azurerm_iothub_endpoint_servicebus_queue" "${1:this}" {
+    iothub_id = "${2:iothub_id}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_s3_multi_region_access_point_policy
+# key: d_awscc_s3_multi_region_access_point_policy
+# --
+
+data "awscc_s3_multi_region_access_point_policy" "${1:this}" {
+    id = "${2:id}"
+}

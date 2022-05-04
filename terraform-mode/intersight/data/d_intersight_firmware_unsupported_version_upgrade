@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_unsupported_version_upgrade
+# key: d_intersight_firmware_unsupported_version_upgrade
+# --
+
+data "intersight_firmware_unsupported_version_upgrade" "${1:this}" {
+}

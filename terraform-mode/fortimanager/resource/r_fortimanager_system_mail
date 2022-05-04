@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_mail
+# key: r_fortimanager_system_mail
+# --
+
+resource "fortimanager_system_mail" "${1:this}" {
+}

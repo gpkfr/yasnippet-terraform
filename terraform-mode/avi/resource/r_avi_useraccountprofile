@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_useraccountprofile
+# key: r_avi_useraccountprofile
+# --
+
+resource "avi_useraccountprofile" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotsitewise_asset_models
+# key: d_awscc_iotsitewise_asset_models
+# --
+
+data "awscc_iotsitewise_asset_models" "${1:this}" {
+}

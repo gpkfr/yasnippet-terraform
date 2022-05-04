@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_security_user
+# key: d_elasticstack_elasticsearch_security_user
+# --
+
+data "elasticstack_elasticsearch_security_user" "${1:this}" {
+    username = "${2:username}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iaas_connector_pack
+# key: d_intersight_iaas_connector_pack
+# --
+
+data "intersight_iaas_connector_pack" "${1:this}" {
+}

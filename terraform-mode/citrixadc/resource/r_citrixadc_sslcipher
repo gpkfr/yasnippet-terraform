@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslcipher
+# key: r_citrixadc_sslcipher
+# --
+
+resource "citrixadc_sslcipher" "${1:this}" {
+    ciphergroupname = "${2:ciphergroupname}"
+}

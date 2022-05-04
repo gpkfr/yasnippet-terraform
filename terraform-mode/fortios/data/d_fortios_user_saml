@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_user_saml
+# key: d_fortios_user_saml
+# --
+
+data "fortios_user_saml" "${1:this}" {
+    name = "${2:name}"
+}

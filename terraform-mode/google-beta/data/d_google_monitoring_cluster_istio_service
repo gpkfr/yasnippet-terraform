@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_google_monitoring_cluster_istio_service
+# key: d_google_monitoring_cluster_istio_service
+# --
+
+data "google_monitoring_cluster_istio_service" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    location = "${3:location}"
+    service_name = "${4:service_name}"
+    service_namespace = "${5:service_namespace}"
+}

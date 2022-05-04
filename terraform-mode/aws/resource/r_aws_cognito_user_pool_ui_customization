@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cognito_user_pool_ui_customization
+# key: r_aws_cognito_user_pool_ui_customization
+# --
+
+resource "aws_cognito_user_pool_ui_customization" "${1:this}" {
+    user_pool_id = "${2:user_pool_id}"
+}

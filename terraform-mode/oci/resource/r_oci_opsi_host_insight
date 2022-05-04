@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_opsi_host_insight
+# key: r_oci_opsi_host_insight
+# --
+
+resource "oci_opsi_host_insight" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    entity_source = "${3:entity_source}"
+}

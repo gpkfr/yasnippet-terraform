@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslcacertgroup_sslcertkey_binding
+# key: r_citrixadc_sslcacertgroup_sslcertkey_binding
+# --
+
+resource "citrixadc_sslcacertgroup_sslcertkey_binding" "${1:this}" {
+    cacertgroupname = "${2:cacertgroupname}"
+    certkeyname = "${3:certkeyname}"
+}

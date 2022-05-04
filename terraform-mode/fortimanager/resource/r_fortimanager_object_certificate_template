@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_certificate_template
+# key: r_fortimanager_object_certificate_template
+# --
+
+resource "fortimanager_object_certificate_template" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_certificatemanager_account
+# key: d_awscc_certificatemanager_account
+# --
+
+data "awscc_certificatemanager_account" "${1:this}" {
+    id = "${2:id}"
+}

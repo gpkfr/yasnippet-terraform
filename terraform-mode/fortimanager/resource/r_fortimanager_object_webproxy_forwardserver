@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_webproxy_forwardserver
+# key: r_fortimanager_object_webproxy_forwardserver
+# --
+
+resource "fortimanager_object_webproxy_forwardserver" "${1:this}" {
+}

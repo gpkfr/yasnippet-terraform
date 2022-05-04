@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dcnm_policy
+# key: d_dcnm_policy
+# --
+
+data "dcnm_policy" "${1:this}" {
+    policy_id = "${2:policy_id}"
+}

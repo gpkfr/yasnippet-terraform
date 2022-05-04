@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_accessproxysshclientcert
+# key: r_fortios_firewall_accessproxysshclientcert
+# --
+
+resource "fortios_firewall_accessproxysshclientcert" "${1:this}" {
+}

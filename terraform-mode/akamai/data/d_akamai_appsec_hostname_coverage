@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_hostname_coverage
+# key: d_akamai_appsec_hostname_coverage
+# --
+
+data "akamai_appsec_hostname_coverage" "${1:this}" {
+}

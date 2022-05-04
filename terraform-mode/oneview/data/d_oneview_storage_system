@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_storage_system
+# key: d_oneview_storage_system
+# --
+
+data "oneview_storage_system" "${1:this}" {
+    name = "${2:name}"
+}

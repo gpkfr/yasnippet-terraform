@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_mwaa_environment
+# key: r_awscc_mwaa_environment
+# --
+
+resource "awscc_mwaa_environment" "${1:this}" {
+    name = "${2:name}"
+}

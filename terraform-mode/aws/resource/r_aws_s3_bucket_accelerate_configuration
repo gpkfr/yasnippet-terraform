@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3_bucket_accelerate_configuration
+# key: r_aws_s3_bucket_accelerate_configuration
+# --
+
+resource "aws_s3_bucket_accelerate_configuration" "${1:this}" {
+    bucket = "${2:bucket}"
+    status = "${3:status}"
+}

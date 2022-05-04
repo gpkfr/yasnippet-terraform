@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_harness_user_group
+# key: r_harness_user_group
+# --
+
+resource "harness_user_group" "${1:this}" {
+    name = "${2:name}"
+}

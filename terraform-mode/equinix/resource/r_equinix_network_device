@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_equinix_network_device
+# key: r_equinix_network_device
+# --
+
+resource "equinix_network_device" "${1:this}" {
+    account_number = "${2:account_number}"
+    core_count = "${3:core_count}"
+    metro_code = "${4:metro_code}"
+    name = "${5:name}"
+    notifications = "${6:notifications}"
+    package_code = "${7:package_code}"
+    term_length = "${8:term_length}"
+    type_code = "${9:type_code}"
+    version = "${10:version}"
+}

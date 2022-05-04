@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_service_item_definition
+# key: r_intersight_workflow_service_item_definition
+# --
+
+resource "intersight_workflow_service_item_definition" "${1:this}" {
+}

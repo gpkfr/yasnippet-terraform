@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_extendercontroller_dataplan
+# key: r_fortimanager_object_extendercontroller_dataplan
+# --
+
+resource "fortimanager_object_extendercontroller_dataplan" "${1:this}" {
+}

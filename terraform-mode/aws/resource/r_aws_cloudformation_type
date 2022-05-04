@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudformation_type
+# key: r_aws_cloudformation_type
+# --
+
+resource "aws_cloudformation_type" "${1:this}" {
+    schema_handler_package = "${2:schema_handler_package}"
+    type_name = "${3:type_name}"
+}

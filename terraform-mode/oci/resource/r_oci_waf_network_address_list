@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_waf_network_address_list
+# key: r_oci_waf_network_address_list
+# --
+
+resource "oci_waf_network_address_list" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    type = "${3:type}"
+}

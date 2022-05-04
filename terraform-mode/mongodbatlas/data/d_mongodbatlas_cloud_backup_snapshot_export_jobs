@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_cloud_backup_snapshot_export_jobs
+# key: d_mongodbatlas_cloud_backup_snapshot_export_jobs
+# --
+
+data "mongodbatlas_cloud_backup_snapshot_export_jobs" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    project_id = "${3:project_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_pnap_rancher_cluster
+# key: r_pnap_rancher_cluster
+# --
+
+resource "pnap_rancher_cluster" "${1:this}" {
+    location = "${2:location}"
+}

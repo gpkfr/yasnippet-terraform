@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnvserver_staserver_binding
+# key: r_citrixadc_vpnvserver_staserver_binding
+# --
+
+resource "citrixadc_vpnvserver_staserver_binding" "${1:this}" {
+    name = "${2:name}"
+    staserver = "${3:staserver}"
+}

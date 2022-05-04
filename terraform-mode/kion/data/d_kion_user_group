@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kion_user_group
+# key: d_kion_user_group
+# --
+
+data "kion_user_group" "${1:this}" {
+}

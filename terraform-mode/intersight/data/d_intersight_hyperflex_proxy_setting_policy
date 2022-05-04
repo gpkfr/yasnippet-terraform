@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_proxy_setting_policy
+# key: d_intersight_hyperflex_proxy_setting_policy
+# --
+
+data "intersight_hyperflex_proxy_setting_policy" "${1:this}" {
+}

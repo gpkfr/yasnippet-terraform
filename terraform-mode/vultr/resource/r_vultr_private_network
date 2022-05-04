@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vultr_private_network
+# key: r_vultr_private_network
+# --
+
+resource "vultr_private_network" "${1:this}" {
+    region = "${2:region}"
+}

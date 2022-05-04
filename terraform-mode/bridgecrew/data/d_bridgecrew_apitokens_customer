@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_bridgecrew_apitokens_customer
+# key: d_bridgecrew_apitokens_customer
+# --
+
+data "bridgecrew_apitokens_customer" "${1:this}" {
+}

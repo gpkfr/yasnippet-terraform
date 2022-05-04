@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_custom_deny
+# key: r_akamai_appsec_custom_deny
+# --
+
+resource "akamai_appsec_custom_deny" "${1:this}" {
+    config_id = "${2:config_id}"
+    custom_deny = "${3:custom_deny}"
+    version = "${4:version}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_global_sslciphersuites
+# key: r_fortianalyzer_system_global_sslciphersuites
+# --
+
+resource "fortianalyzer_system_global_sslciphersuites" "${1:this}" {
+}

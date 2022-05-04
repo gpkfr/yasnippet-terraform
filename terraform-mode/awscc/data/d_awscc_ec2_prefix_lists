@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_prefix_lists
+# key: d_awscc_ec2_prefix_lists
+# --
+
+data "awscc_ec2_prefix_lists" "${1:this}" {
+}

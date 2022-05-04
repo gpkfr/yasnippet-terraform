@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_sysdig_user
+# key: d_sysdig_user
+# --
+
+data "sysdig_user" "${1:this}" {
+    email = "${2:email}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_mwaa_environments
+# key: d_awscc_mwaa_environments
+# --
+
+data "awscc_mwaa_environments" "${1:this}" {
+}

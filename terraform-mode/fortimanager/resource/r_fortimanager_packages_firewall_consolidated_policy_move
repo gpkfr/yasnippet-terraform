@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_consolidated_policy_move
+# key: r_fortimanager_packages_firewall_consolidated_policy_move
+# --
+
+resource "fortimanager_packages_firewall_consolidated_policy_move" "${1:this}" {
+    option = "${2:option}"
+    pkg = "${3:pkg}"
+    policy = "${4:policy}"
+    target = "${5:target}"
+}

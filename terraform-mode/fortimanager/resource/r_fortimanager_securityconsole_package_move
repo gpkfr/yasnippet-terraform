@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_securityconsole_package_move
+# key: r_fortimanager_securityconsole_package_move
+# --
+
+resource "fortimanager_securityconsole_package_move" "${1:this}" {
+}

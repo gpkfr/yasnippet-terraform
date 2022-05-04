@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_linode_firewall
+# key: r_linode_firewall
+# --
+
+resource "linode_firewall" "${1:this}" {
+    inbound_policy = "${2:inbound_policy}"
+    label = "${3:label}"
+    outbound_policy = "${4:outbound_policy}"
+}

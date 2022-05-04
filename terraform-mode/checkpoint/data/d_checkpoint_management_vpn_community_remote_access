@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_vpn_community_remote_access
+# key: d_checkpoint_management_vpn_community_remote_access
+# --
+
+data "checkpoint_management_vpn_community_remote_access" "${1:this}" {
+}

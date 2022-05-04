@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_equinix_network_acl_template
+# key: r_equinix_network_acl_template
+# --
+
+resource "equinix_network_acl_template" "${1:this}" {
+    name = "${2:name}"
+}

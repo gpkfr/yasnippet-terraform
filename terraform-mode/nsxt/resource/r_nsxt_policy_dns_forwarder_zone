@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_dns_forwarder_zone
+# key: r_nsxt_policy_dns_forwarder_zone
+# --
+
+resource "nsxt_policy_dns_forwarder_zone" "${1:this}" {
+    display_name = "${2:display_name}"
+    upstream_servers = "${3:upstream_servers}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_grafana_user
+# key: r_grafana_user
+# --
+
+resource "grafana_user" "${1:this}" {
+    email = "${2:email}"
+    password = "${3:password}"
+}

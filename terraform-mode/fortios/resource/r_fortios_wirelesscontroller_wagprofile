@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_wirelesscontroller_wagprofile
+# key: r_fortios_wirelesscontroller_wagprofile
+# --
+
+resource "fortios_wirelesscontroller_wagprofile" "${1:this}" {
+}

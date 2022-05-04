@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_vsdatascriptset
+# key: d_avi_vsdatascriptset
+# --
+
+data "avi_vsdatascriptset" "${1:this}" {
+}

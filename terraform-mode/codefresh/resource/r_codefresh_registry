@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_codefresh_registry
+# key: r_codefresh_registry
+# --
+
+resource "codefresh_registry" "${1:this}" {
+    name = "${2:name}"
+}

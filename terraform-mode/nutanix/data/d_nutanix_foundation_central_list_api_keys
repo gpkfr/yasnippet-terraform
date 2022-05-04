@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_foundation_central_list_api_keys
+# key: d_nutanix_foundation_central_list_api_keys
+# --
+
+data "nutanix_foundation_central_list_api_keys" "${1:this}" {
+}

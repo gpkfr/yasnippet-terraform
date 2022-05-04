@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iam_virtual_mfa_device
+# key: r_awscc_iam_virtual_mfa_device
+# --
+
+resource "awscc_iam_virtual_mfa_device" "${1:this}" {
+    users = "${2:users}"
+}

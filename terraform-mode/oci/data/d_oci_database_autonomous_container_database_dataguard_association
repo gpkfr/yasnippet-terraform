@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_autonomous_container_database_dataguard_association
+# key: d_oci_database_autonomous_container_database_dataguard_association
+# --
+
+data "oci_database_autonomous_container_database_dataguard_association" "${1:this}" {
+    autonomous_container_database_dataguard_association_id = "${2:autonomous_container_database_dataguard_association_id}"
+    autonomous_container_database_id = "${3:autonomous_container_database_id}"
+}

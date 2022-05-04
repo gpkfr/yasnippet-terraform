@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_backup_storage_location
+# key: r_spectrocloud_backup_storage_location
+# --
+
+resource "spectrocloud_backup_storage_location" "${1:this}" {
+    bucket_name = "${2:bucket_name}"
+    is_default = "${3:is_default}"
+    name = "${4:name}"
+    region = "${5:region}"
+}

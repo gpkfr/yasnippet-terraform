@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ip_route_rib
+# key: r_thunder_ip_route_rib
+# --
+
+resource "thunder_ip_route_rib" "${1:this}" {
+    ip_dest_addr = "${2:ip_dest_addr}"
+    ip_mask = "${3:ip_mask}"
+}

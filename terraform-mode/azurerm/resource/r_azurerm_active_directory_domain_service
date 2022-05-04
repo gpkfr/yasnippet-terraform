@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_active_directory_domain_service
+# key: r_azurerm_active_directory_domain_service
+# --
+
+resource "azurerm_active_directory_domain_service" "${1:this}" {
+    domain_name = "${2:domain_name}"
+    location = "${3:location}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+    sku = "${6:sku}"
+}

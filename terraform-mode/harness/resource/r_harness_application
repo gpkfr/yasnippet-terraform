@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_harness_application
+# key: r_harness_application
+# --
+
+resource "harness_application" "${1:this}" {
+    name = "${2:name}"
+}

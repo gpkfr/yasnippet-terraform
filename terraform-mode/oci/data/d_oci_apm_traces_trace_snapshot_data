@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_apm_traces_trace_snapshot_data
+# key: d_oci_apm_traces_trace_snapshot_data
+# --
+
+data "oci_apm_traces_trace_snapshot_data" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+    trace_key = "${3:trace_key}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_dx_locations
+# key: d_aws_dx_locations
+# --
+
+data "aws_dx_locations" "${1:this}" {
+}

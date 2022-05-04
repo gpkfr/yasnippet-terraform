@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_key_store
+# key: r_oci_database_key_store
+# --
+
+resource "oci_database_key_store" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dome9_attach_iam_safe
+# key: r_dome9_attach_iam_safe
+# --
+
+resource "dome9_attach_iam_safe" "${1:this}" {
+    aws_cloud_account_id = "${2:aws_cloud_account_id}"
+    aws_group_arn = "${3:aws_group_arn}"
+    aws_policy_arn = "${4:aws_policy_arn}"
+}

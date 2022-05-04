@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_repository_mirror_record
+# key: d_oci_devops_repository_mirror_record
+# --
+
+data "oci_devops_repository_mirror_record" "${1:this}" {
+    mirror_record_type = "${2:mirror_record_type}"
+    repository_id = "${3:repository_id}"
+}

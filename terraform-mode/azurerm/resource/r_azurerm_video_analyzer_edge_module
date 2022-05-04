@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_video_analyzer_edge_module
+# key: r_azurerm_video_analyzer_edge_module
+# --
+
+resource "azurerm_video_analyzer_edge_module" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+    video_analyzer_name = "${4:video_analyzer_name}"
+}

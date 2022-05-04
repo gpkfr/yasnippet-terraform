@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_smtp_policy
+# key: d_intersight_smtp_policy
+# --
+
+data "intersight_smtp_policy" "${1:this}" {
+}

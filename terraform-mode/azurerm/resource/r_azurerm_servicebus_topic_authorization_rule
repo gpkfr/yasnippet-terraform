@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_servicebus_topic_authorization_rule
+# key: r_azurerm_servicebus_topic_authorization_rule
+# --
+
+resource "azurerm_servicebus_topic_authorization_rule" "${1:this}" {
+    name = "${2:name}"
+    topic_id = "${3:topic_id}"
+}

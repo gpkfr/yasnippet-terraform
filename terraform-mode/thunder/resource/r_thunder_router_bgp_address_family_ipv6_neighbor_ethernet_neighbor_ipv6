@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_router_bgp_address_family_ipv6_neighbor_ethernet_neighbor_ipv6
+# key: r_thunder_router_bgp_address_family_ipv6_neighbor_ethernet_neighbor_ipv6
+# --
+
+resource "thunder_router_bgp_address_family_ipv6_neighbor_ethernet_neighbor_ipv6" "${1:this}" {
+}

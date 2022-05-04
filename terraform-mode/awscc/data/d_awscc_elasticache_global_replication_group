@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_elasticache_global_replication_group
+# key: d_awscc_elasticache_global_replication_group
+# --
+
+data "awscc_elasticache_global_replication_group" "${1:this}" {
+    id = "${2:id}"
+}

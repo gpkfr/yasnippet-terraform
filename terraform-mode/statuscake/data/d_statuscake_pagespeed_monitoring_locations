@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_statuscake_pagespeed_monitoring_locations
+# key: d_statuscake_pagespeed_monitoring_locations
+# --
+
+data "statuscake_pagespeed_monitoring_locations" "${1:this}" {
+}

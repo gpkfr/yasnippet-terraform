@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_certificate_remote
+# key: r_fortianalyzer_system_certificate_remote
+# --
+
+resource "fortianalyzer_system_certificate_remote" "${1:this}" {
+}

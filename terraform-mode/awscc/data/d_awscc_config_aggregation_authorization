@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_config_aggregation_authorization
+# key: d_awscc_config_aggregation_authorization
+# --
+
+data "awscc_config_aggregation_authorization" "${1:this}" {
+    id = "${2:id}"
+}

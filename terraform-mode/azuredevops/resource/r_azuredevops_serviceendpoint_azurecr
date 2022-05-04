@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_azurecr
+# key: r_azuredevops_serviceendpoint_azurecr
+# --
+
+resource "azuredevops_serviceendpoint_azurecr" "${1:this}" {
+    azurecr_name = "${2:azurecr_name}"
+    azurecr_spn_tenantid = "${3:azurecr_spn_tenantid}"
+    azurecr_subscription_id = "${4:azurecr_subscription_id}"
+    azurecr_subscription_name = "${5:azurecr_subscription_name}"
+    project_id = "${6:project_id}"
+    resource_group = "${7:resource_group}"
+    service_endpoint_name = "${8:service_endpoint_name}"
+}

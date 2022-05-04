@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_networkmanager_global_network
+# key: r_awscc_networkmanager_global_network
+# --
+
+resource "awscc_networkmanager_global_network" "${1:this}" {
+}

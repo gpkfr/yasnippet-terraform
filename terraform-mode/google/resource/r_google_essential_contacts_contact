@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_essential_contacts_contact
+# key: r_google_essential_contacts_contact
+# --
+
+resource "google_essential_contacts_contact" "${1:this}" {
+    email = "${2:email}"
+    language_tag = "${3:language_tag}"
+    notification_category_subscriptions = "${4:notification_category_subscriptions}"
+    parent = "${5:parent}"
+}

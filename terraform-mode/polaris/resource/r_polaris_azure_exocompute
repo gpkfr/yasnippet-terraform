@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_polaris_azure_exocompute
+# key: r_polaris_azure_exocompute
+# --
+
+resource "polaris_azure_exocompute" "${1:this}" {
+    region = "${2:region}"
+    subnet = "${3:subnet}"
+    subscription_id = "${4:subscription_id}"
+}

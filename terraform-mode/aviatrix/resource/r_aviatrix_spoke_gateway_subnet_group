@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_spoke_gateway_subnet_group
+# key: r_aviatrix_spoke_gateway_subnet_group
+# --
+
+resource "aviatrix_spoke_gateway_subnet_group" "${1:this}" {
+    gw_name = "${2:gw_name}"
+    name = "${3:name}"
+}

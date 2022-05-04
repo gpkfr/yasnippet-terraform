@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxt_alb_settings
+# key: d_vcd_nsxt_alb_settings
+# --
+
+data "vcd_nsxt_alb_settings" "${1:this}" {
+    edge_gateway_id = "${2:edge_gateway_id}"
+}

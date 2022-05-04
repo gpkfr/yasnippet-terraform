@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewallservice_category
+# key: d_fortios_firewallservice_category
+# --
+
+data "fortios_firewallservice_category" "${1:this}" {
+    name = "${2:name}"
+}

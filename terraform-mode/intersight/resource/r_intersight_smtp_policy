@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_smtp_policy
+# key: r_intersight_smtp_policy
+# --
+
+resource "intersight_smtp_policy" "${1:this}" {
+}

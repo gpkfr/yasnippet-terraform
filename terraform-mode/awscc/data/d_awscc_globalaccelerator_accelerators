@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_globalaccelerator_accelerators
+# key: d_awscc_globalaccelerator_accelerators
+# --
+
+data "awscc_globalaccelerator_accelerators" "${1:this}" {
+}

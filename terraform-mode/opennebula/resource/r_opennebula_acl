@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_opennebula_acl
+# key: r_opennebula_acl
+# --
+
+resource "opennebula_acl" "${1:this}" {
+    resource = "${2:resource}"
+    rights = "${3:rights}"
+    user = "${4:user}"
+}

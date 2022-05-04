@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_discovery_job
+# key: r_oci_data_safe_discovery_job
+# --
+
+resource "oci_data_safe_discovery_job" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    sensitive_data_model_id = "${3:sensitive_data_model_id}"
+}

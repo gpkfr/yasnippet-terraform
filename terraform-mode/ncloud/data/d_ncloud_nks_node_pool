@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_nks_node_pool
+# key: d_ncloud_nks_node_pool
+# --
+
+data "ncloud_nks_node_pool" "${1:this}" {
+    cluster_uuid = "${2:cluster_uuid}"
+    node_pool_name = "${3:node_pool_name}"
+}

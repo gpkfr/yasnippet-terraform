@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_ssl_decrypt
+# key: d_panos_ssl_decrypt
+# --
+
+data "panos_ssl_decrypt" "${1:this}" {
+}

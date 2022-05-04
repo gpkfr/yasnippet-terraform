@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ecl_network_load_balancer_v2
+# key: r_ecl_network_load_balancer_v2
+# --
+
+resource "ecl_network_load_balancer_v2" "${1:this}" {
+    load_balancer_plan_id = "${2:load_balancer_plan_id}"
+}

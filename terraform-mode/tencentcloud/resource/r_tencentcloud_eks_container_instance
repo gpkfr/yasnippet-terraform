@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_eks_container_instance
+# key: r_tencentcloud_eks_container_instance
+# --
+
+resource "tencentcloud_eks_container_instance" "${1:this}" {
+    cpu = "${2:cpu}"
+    memory = "${3:memory}"
+    name = "${4:name}"
+    security_groups = "${5:security_groups}"
+    subnet_id = "${6:subnet_id}"
+    vpc_id = "${7:vpc_id}"
+}

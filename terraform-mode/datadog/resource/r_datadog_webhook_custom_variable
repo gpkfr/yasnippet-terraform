@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_datadog_webhook_custom_variable
+# key: r_datadog_webhook_custom_variable
+# --
+
+resource "datadog_webhook_custom_variable" "${1:this}" {
+    is_secret = "${2:is_secret}"
+    name = "${3:name}"
+    value = "${4:value}"
+}

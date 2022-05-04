@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_project_approval_rule
+# key: r_gitlab_project_approval_rule
+# --
+
+resource "gitlab_project_approval_rule" "${1:this}" {
+    approvals_required = "${2:approvals_required}"
+    name = "${3:name}"
+    project = "${4:project}"
+}

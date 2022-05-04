@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_audit_profile_collected_audit_volume
+# key: d_oci_data_safe_audit_profile_collected_audit_volume
+# --
+
+data "oci_data_safe_audit_profile_collected_audit_volume" "${1:this}" {
+    audit_profile_id = "${2:audit_profile_id}"
+    work_request_id = "${3:work_request_id}"
+}

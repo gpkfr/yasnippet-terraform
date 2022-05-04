@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_load_balancer_load_balancer_routing_policy
+# key: r_oci_load_balancer_load_balancer_routing_policy
+# --
+
+resource "oci_load_balancer_load_balancer_routing_policy" "${1:this}" {
+    condition_language_version = "${2:condition_language_version}"
+    load_balancer_id = "${3:load_balancer_id}"
+    name = "${4:name}"
+}

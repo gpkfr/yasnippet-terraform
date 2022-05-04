@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_zedcloud_network_instance
+# key: r_zedcloud_network_instance
+# --
+
+resource "zedcloud_network_instance" "${1:this}" {
+    name = "${2:name}"
+}

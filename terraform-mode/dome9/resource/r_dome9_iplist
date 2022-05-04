@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_dome9_iplist
+# key: r_dome9_iplist
+# --
+
+resource "dome9_iplist" "${1:this}" {
+    name = "${2:name}"
+}

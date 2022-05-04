@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_lacework_api_token
+# key: d_lacework_api_token
+# --
+
+data "lacework_api_token" "${1:this}" {
+}

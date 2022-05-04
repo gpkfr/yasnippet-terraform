@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_fm
+# key: d_fortios_system_fm
+# --
+
+data "fortios_system_fm" "${1:this}" {
+}

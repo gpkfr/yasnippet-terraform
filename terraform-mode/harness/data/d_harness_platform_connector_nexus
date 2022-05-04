@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_platform_connector_nexus
+# key: d_harness_platform_connector_nexus
+# --
+
+data "harness_platform_connector_nexus" "${1:this}" {
+}

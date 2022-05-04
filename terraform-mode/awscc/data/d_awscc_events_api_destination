@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_events_api_destination
+# key: d_awscc_events_api_destination
+# --
+
+data "awscc_events_api_destination" "${1:this}" {
+    id = "${2:id}"
+}

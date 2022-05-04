@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_ga_ip_sets
+# key: d_alicloud_ga_ip_sets
+# --
+
+data "alicloud_ga_ip_sets" "${1:this}" {
+    accelerator_id = "${2:accelerator_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_gcore_floatingip
+# key: r_gcore_floatingip
+# --
+
+resource "gcore_floatingip" "${1:this}" {
+}

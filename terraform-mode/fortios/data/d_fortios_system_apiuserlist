@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_apiuserlist
+# key: d_fortios_system_apiuserlist
+# --
+
+data "fortios_system_apiuserlist" "${1:this}" {
+}

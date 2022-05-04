@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ilert_escalation_policy
+# key: r_ilert_escalation_policy
+# --
+
+resource "ilert_escalation_policy" "${1:this}" {
+    name = "${2:name}"
+}

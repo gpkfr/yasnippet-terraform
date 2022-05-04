@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewallconsolidated_policy
+# key: d_fortios_firewallconsolidated_policy
+# --
+
+data "fortios_firewallconsolidated_policy" "${1:this}" {
+    policyid = "${2:policyid}"
+}

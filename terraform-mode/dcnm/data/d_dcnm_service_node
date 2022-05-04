@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_dcnm_service_node
+# key: d_dcnm_service_node
+# --
+
+data "dcnm_service_node" "${1:this}" {
+    name = "${2:name}"
+    service_fabric = "${3:service_fabric}"
+}

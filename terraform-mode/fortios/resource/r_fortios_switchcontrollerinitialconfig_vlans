@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontrollerinitialconfig_vlans
+# key: r_fortios_switchcontrollerinitialconfig_vlans
+# --
+
+resource "fortios_switchcontrollerinitialconfig_vlans" "${1:this}" {
+}

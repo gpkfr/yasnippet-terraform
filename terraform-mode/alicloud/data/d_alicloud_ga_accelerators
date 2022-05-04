@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_ga_accelerators
+# key: d_alicloud_ga_accelerators
+# --
+
+data "alicloud_ga_accelerators" "${1:this}" {
+}

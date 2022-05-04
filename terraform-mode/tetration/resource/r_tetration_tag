@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tetration_tag
+# key: r_tetration_tag
+# --
+
+resource "tetration_tag" "${1:this}" {
+    ip = "${2:ip}"
+}

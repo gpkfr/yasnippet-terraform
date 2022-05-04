@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_subscription
+# key: r_spotinst_subscription
+# --
+
+resource "spotinst_subscription" "${1:this}" {
+    endpoint = "${2:endpoint}"
+    event_type = "${3:event_type}"
+    protocol = "${4:protocol}"
+    resource_id = "${5:resource_id}"
+}

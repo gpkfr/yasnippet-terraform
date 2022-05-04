@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_security_assessment
+# key: r_oci_data_safe_security_assessment
+# --
+
+resource "oci_data_safe_security_assessment" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    target_id = "${3:target_id}"
+}

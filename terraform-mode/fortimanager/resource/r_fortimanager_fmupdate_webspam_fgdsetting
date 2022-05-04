@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_fmupdate_webspam_fgdsetting
+# key: r_fortimanager_fmupdate_webspam_fgdsetting
+# --
+
+resource "fortimanager_fmupdate_webspam_fgdsetting" "${1:this}" {
+}

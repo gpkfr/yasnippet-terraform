@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_alkira_segment_resource_share
+# key: r_alkira_segment_resource_share
+# --
+
+resource "alkira_segment_resource_share" "${1:this}" {
+    designated_segment_id = "${2:designated_segment_id}"
+    end_a_segment_resource_ids = "${3:end_a_segment_resource_ids}"
+    end_b_segment_resource_ids = "${4:end_b_segment_resource_ids}"
+    name = "${5:name}"
+    service_ids = "${6:service_ids}"
+}

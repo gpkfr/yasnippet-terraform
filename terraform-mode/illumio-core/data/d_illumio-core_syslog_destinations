@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_syslog_destinations
+# key: d_illumio-core_syslog_destinations
+# --
+
+data "illumio-core_syslog_destinations" "${1:this}" {
+}

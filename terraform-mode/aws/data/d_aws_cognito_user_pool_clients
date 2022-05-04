@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_cognito_user_pool_clients
+# key: d_aws_cognito_user_pool_clients
+# --
+
+data "aws_cognito_user_pool_clients" "${1:this}" {
+    user_pool_id = "${2:user_pool_id}"
+}

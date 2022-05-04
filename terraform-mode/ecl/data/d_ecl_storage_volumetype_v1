@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ecl_storage_volumetype_v1
+# key: d_ecl_storage_volumetype_v1
+# --
+
+data "ecl_storage_volumetype_v1" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_network_block
+# key: r_sumologic_cse_network_block
+# --
+
+resource "sumologic_cse_network_block" "${1:this}" {
+    address_block = "${2:address_block}"
+}

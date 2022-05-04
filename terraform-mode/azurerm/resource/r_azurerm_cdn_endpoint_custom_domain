@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cdn_endpoint_custom_domain
+# key: r_azurerm_cdn_endpoint_custom_domain
+# --
+
+resource "azurerm_cdn_endpoint_custom_domain" "${1:this}" {
+    cdn_endpoint_id = "${2:cdn_endpoint_id}"
+    host_name = "${3:host_name}"
+    name = "${4:name}"
+}

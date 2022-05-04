@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_media_live_event
+# key: r_azurerm_media_live_event
+# --
+
+resource "azurerm_media_live_event" "${1:this}" {
+    location = "${2:location}"
+    media_services_account_name = "${3:media_services_account_name}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+}

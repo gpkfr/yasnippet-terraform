@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_synthetics_check
+# key: d_synthetics_check
+# --
+
+data "synthetics_check" "${1:this}" {
+    id = "${2:id}"
+}

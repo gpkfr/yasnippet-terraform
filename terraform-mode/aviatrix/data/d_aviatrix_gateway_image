@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_aviatrix_gateway_image
+# key: d_aviatrix_gateway_image
+# --
+
+data "aviatrix_gateway_image" "${1:this}" {
+    cloud_type = "${2:cloud_type}"
+    software_version = "${3:software_version}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_api_gateway_api_key
+# key: r_tencentcloud_api_gateway_api_key
+# --
+
+resource "tencentcloud_api_gateway_api_key" "${1:this}" {
+    secret_name = "${2:secret_name}"
+}

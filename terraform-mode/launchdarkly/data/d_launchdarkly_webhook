@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_launchdarkly_webhook
+# key: d_launchdarkly_webhook
+# --
+
+data "launchdarkly_webhook" "${1:this}" {
+    id = "${2:id}"
+}

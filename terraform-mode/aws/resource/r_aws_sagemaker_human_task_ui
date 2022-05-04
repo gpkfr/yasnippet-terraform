@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_human_task_ui
+# key: r_aws_sagemaker_human_task_ui
+# --
+
+resource "aws_sagemaker_human_task_ui" "${1:this}" {
+    human_task_ui_name = "${2:human_task_ui_name}"
+}

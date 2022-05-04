@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_dimension
+# key: r_awscc_iot_dimension
+# --
+
+resource "awscc_iot_dimension" "${1:this}" {
+    string_values = "${2:string_values}"
+    type = "${3:type}"
+}

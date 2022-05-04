@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_snapmirror
+# key: r_netapp-cloudmanager_snapmirror
+# --
+
+resource "netapp-cloudmanager_snapmirror" "${1:this}" {
+    client_id = "${2:client_id}"
+    destination_volume_name = "${3:destination_volume_name}"
+    source_volume_name = "${4:source_volume_name}"
+}

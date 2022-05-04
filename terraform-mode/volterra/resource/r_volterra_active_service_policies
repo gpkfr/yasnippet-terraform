@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_volterra_active_service_policies
+# key: r_volterra_active_service_policies
+# --
+
+resource "volterra_active_service_policies" "${1:this}" {
+    namespace = "${2:namespace}"
+}

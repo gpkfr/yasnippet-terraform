@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnpcoipvserverprofile
+# key: r_citrixadc_vpnpcoipvserverprofile
+# --
+
+resource "citrixadc_vpnpcoipvserverprofile" "${1:this}" {
+    logindomain = "${2:logindomain}"
+    name = "${3:name}"
+}

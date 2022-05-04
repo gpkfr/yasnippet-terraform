@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_avi_networkservice
+# key: r_avi_networkservice
+# --
+
+resource "avi_networkservice" "${1:this}" {
+    name = "${2:name}"
+    se_group_ref = "${3:se_group_ref}"
+    service_type = "${4:service_type}"
+    vrf_ref = "${5:vrf_ref}"
+}

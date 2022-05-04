@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ecr_pull_through_cache_rule
+# key: r_aws_ecr_pull_through_cache_rule
+# --
+
+resource "aws_ecr_pull_through_cache_rule" "${1:this}" {
+    ecr_repository_prefix = "${2:ecr_repository_prefix}"
+    upstream_registry_url = "${3:upstream_registry_url}"
+}

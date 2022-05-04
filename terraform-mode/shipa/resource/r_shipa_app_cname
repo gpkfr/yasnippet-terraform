@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_shipa_app_cname
+# key: r_shipa_app_cname
+# --
+
+resource "shipa_app_cname" "${1:this}" {
+    app = "${2:app}"
+    cname = "${3:cname}"
+}

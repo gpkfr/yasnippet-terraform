@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53recoverycontrol_control_panel
+# key: d_awscc_route53recoverycontrol_control_panel
+# --
+
+data "awscc_route53recoverycontrol_control_panel" "${1:this}" {
+    id = "${2:id}"
+}

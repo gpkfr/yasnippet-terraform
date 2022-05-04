@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_role
+# key: r_kubernetes_role
+# --
+
+resource "kubernetes_role" "${1:this}" {
+}

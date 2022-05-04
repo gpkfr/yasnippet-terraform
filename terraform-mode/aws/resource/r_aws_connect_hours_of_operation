@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_connect_hours_of_operation
+# key: r_aws_connect_hours_of_operation
+# --
+
+resource "aws_connect_hours_of_operation" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    name = "${3:name}"
+    time_zone = "${4:time_zone}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_interface_lif
+# key: r_thunder_interface_lif
+# --
+
+resource "thunder_interface_lif" "${1:this}" {
+    ifname = "${2:ifname}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_flowtracking
+# key: r_fortios_switchcontroller_flowtracking
+# --
+
+resource "fortios_switchcontroller_flowtracking" "${1:this}" {
+}

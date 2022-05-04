@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_lex_bot_alias
+# key: r_aws_lex_bot_alias
+# --
+
+resource "aws_lex_bot_alias" "${1:this}" {
+    bot_name = "${2:bot_name}"
+    bot_version = "${3:bot_version}"
+    name = "${4:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_backup_framework
+# key: d_aws_backup_framework
+# --
+
+data "aws_backup_framework" "${1:this}" {
+    name = "${2:name}"
+}

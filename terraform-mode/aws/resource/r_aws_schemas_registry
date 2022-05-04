@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_schemas_registry
+# key: r_aws_schemas_registry
+# --
+
+resource "aws_schemas_registry" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_storage_share
+# key: d_azurerm_storage_share
+# --
+
+data "azurerm_storage_share" "${1:this}" {
+    name = "${2:name}"
+    storage_account_name = "${3:storage_account_name}"
+}

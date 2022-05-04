@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_audit_archive_retrieval
+# key: d_oci_data_safe_audit_archive_retrieval
+# --
+
+data "oci_data_safe_audit_archive_retrieval" "${1:this}" {
+    audit_archive_retrieval_id = "${2:audit_archive_retrieval_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_linked_service_key_vault
+# key: r_azurerm_data_factory_linked_service_key_vault
+# --
+
+resource "azurerm_data_factory_linked_service_key_vault" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    key_vault_id = "${3:key_vault_id}"
+    name = "${4:name}"
+}

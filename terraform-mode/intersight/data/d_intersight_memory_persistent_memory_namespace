@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_memory_persistent_memory_namespace
+# key: d_intersight_memory_persistent_memory_namespace
+# --
+
+data "intersight_memory_persistent_memory_namespace" "${1:this}" {
+}

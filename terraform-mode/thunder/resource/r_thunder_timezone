@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_timezone
+# key: r_thunder_timezone
+# --
+
+resource "thunder_timezone" "${1:this}" {
+}

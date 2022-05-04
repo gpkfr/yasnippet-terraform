@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_codegurureviewer_repository_association
+# key: r_awscc_codegurureviewer_repository_association
+# --
+
+resource "awscc_codegurureviewer_repository_association" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

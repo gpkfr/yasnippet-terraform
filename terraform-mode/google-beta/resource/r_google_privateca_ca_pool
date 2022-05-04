@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_privateca_ca_pool
+# key: r_google_privateca_ca_pool
+# --
+
+resource "google_privateca_ca_pool" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    tier = "${4:tier}"
+}

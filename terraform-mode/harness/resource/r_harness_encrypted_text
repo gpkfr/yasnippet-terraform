@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_harness_encrypted_text
+# key: r_harness_encrypted_text
+# --
+
+resource "harness_encrypted_text" "${1:this}" {
+    name = "${2:name}"
+    secret_manager_id = "${3:secret_manager_id}"
+}

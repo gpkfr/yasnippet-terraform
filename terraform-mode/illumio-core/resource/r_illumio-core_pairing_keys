@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_pairing_keys
+# key: r_illumio-core_pairing_keys
+# --
+
+resource "illumio-core_pairing_keys" "${1:this}" {
+    pairing_profile_href = "${2:pairing_profile_href}"
+    token_count = "${3:token_count}"
+}

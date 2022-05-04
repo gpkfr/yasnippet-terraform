@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_linode_instance_ip
+# key: r_linode_instance_ip
+# --
+
+resource "linode_instance_ip" "${1:this}" {
+    linode_id = "${2:linode_id}"
+}

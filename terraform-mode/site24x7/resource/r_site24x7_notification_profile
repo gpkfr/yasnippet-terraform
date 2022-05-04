@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_notification_profile
+# key: r_site24x7_notification_profile
+# --
+
+resource "site24x7_notification_profile" "${1:this}" {
+    profile_name = "${2:profile_name}"
+}

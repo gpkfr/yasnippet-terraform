@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_github_repository_autolink_reference
+# key: r_github_repository_autolink_reference
+# --
+
+resource "github_repository_autolink_reference" "${1:this}" {
+    key_prefix = "${2:key_prefix}"
+    repository = "${3:repository}"
+    target_url_template = "${4:target_url_template}"
+}

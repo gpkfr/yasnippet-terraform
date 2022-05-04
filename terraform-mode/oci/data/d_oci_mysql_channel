@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_mysql_channel
+# key: d_oci_mysql_channel
+# --
+
+data "oci_mysql_channel" "${1:this}" {
+    channel_id = "${2:channel_id}"
+}

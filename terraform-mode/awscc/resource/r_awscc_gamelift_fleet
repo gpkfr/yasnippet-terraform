@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_gamelift_fleet
+# key: r_awscc_gamelift_fleet
+# --
+
+resource "awscc_gamelift_fleet" "${1:this}" {
+}

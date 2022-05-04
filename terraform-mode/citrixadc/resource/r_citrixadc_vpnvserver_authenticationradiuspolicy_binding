@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnvserver_authenticationradiuspolicy_binding
+# key: r_citrixadc_vpnvserver_authenticationradiuspolicy_binding
+# --
+
+resource "citrixadc_vpnvserver_authenticationradiuspolicy_binding" "${1:this}" {
+    name = "${2:name}"
+    policy = "${3:policy}"
+    priority = "${4:priority}"
+}

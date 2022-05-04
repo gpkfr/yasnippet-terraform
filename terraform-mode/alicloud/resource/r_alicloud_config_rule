@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_config_rule
+# key: r_alicloud_config_rule
+# --
+
+resource "alicloud_config_rule" "${1:this}" {
+    risk_level = "${2:risk_level}"
+    rule_name = "${3:rule_name}"
+    scope_compliance_resource_types = "${4:scope_compliance_resource_types}"
+    source_detail_message_type = "${5:source_detail_message_type}"
+    source_identifier = "${6:source_identifier}"
+    source_owner = "${7:source_owner}"
+}

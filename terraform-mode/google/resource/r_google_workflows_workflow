@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_google_workflows_workflow
+# key: r_google_workflows_workflow
+# --
+
+resource "google_workflows_workflow" "${1:this}" {
+}

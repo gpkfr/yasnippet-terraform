@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iaas_diagnostic_messages
+# key: d_intersight_iaas_diagnostic_messages
+# --
+
+data "intersight_iaas_diagnostic_messages" "${1:this}" {
+}

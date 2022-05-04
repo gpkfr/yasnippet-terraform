@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kion_azure_policy
+# key: r_kion_azure_policy
+# --
+
+resource "kion_azure_policy" "${1:this}" {
+}

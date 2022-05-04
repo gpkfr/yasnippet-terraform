@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_authorizers
+# key: d_awscc_iot_authorizers
+# --
+
+data "awscc_iot_authorizers" "${1:this}" {
+}

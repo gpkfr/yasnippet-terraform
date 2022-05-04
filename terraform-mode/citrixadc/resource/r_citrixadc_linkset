@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_linkset
+# key: r_citrixadc_linkset
+# --
+
+resource "citrixadc_linkset" "${1:this}" {
+    linkset_id = "${2:linkset_id}"
+}

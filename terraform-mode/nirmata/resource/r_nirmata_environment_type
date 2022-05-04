@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_environment_type
+# key: r_nirmata_environment_type
+# --
+
+resource "nirmata_environment_type" "${1:this}" {
+    is_default = "${2:is_default}"
+    name = "${3:name}"
+    resource_limits = "${4:resource_limits}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_cognito_user_in_group
+# key: r_aws_cognito_user_in_group
+# --
+
+resource "aws_cognito_user_in_group" "${1:this}" {
+    group_name = "${2:group_name}"
+    user_pool_id = "${3:user_pool_id}"
+    username = "${4:username}"
+}

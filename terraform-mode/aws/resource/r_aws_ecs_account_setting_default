@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ecs_account_setting_default
+# key: r_aws_ecs_account_setting_default
+# --
+
+resource "aws_ecs_account_setting_default" "${1:this}" {
+    name = "${2:name}"
+    value = "${3:value}"
+}

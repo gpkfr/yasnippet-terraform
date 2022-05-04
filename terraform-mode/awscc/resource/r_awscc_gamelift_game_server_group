@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_gamelift_game_server_group
+# key: r_awscc_gamelift_game_server_group
+# --
+
+resource "awscc_gamelift_game_server_group" "${1:this}" {
+    game_server_group_name = "${2:game_server_group_name}"
+    instance_definitions = "${3:instance_definitions}"
+    launch_template = "${4:launch_template}"
+    role_arn = "${5:role_arn}"
+}

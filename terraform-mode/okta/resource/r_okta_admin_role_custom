@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_admin_role_custom
+# key: r_okta_admin_role_custom
+# --
+
+resource "okta_admin_role_custom" "${1:this}" {
+    description = "${2:description}"
+    label = "${3:label}"
+}

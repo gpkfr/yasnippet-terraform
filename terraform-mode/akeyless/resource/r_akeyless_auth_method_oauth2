@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_auth_method_oauth2
+# key: r_akeyless_auth_method_oauth2
+# --
+
+resource "akeyless_auth_method_oauth2" "${1:this}" {
+    jwks_uri = "${2:jwks_uri}"
+    name = "${3:name}"
+    unique_identifier = "${4:unique_identifier}"
+}

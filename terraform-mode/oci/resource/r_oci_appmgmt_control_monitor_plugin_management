@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_appmgmt_control_monitor_plugin_management
+# key: r_oci_appmgmt_control_monitor_plugin_management
+# --
+
+resource "oci_appmgmt_control_monitor_plugin_management" "${1:this}" {
+    monitored_instance_id = "${2:monitored_instance_id}"
+}

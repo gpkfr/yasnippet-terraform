@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_anaml_feature_template
+# key: r_anaml_feature_template
+# --
+
+resource "anaml_feature_template" "${1:this}" {
+    name = "${2:name}"
+    select = "${3:select}"
+}

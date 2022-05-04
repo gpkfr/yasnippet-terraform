@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_zonelist
+# key: d_fortios_system_zonelist
+# --
+
+data "fortios_system_zonelist" "${1:this}" {
+}

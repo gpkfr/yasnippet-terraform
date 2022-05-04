@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_hyperscalepolicy64
+# key: r_fortimanager_packages_firewall_hyperscalepolicy64
+# --
+
+resource "fortimanager_packages_firewall_hyperscalepolicy64" "${1:this}" {
+    pkg = "${2:pkg}"
+}

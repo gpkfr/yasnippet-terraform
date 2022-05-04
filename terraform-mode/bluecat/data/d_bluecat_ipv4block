@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_bluecat_ipv4block
+# key: d_bluecat_ipv4block
+# --
+
+data "bluecat_ipv4block" "${1:this}" {
+    cidr = "${2:cidr}"
+}

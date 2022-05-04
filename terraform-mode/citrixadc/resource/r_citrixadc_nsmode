@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nsmode
+# key: r_citrixadc_nsmode
+# --
+
+resource "citrixadc_nsmode" "${1:this}" {
+}

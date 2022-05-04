@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_anypoint_roles
+# key: d_anypoint_roles
+# --
+
+data "anypoint_roles" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_advanced_settings_prefetch
+# key: d_akamai_appsec_advanced_settings_prefetch
+# --
+
+data "akamai_appsec_advanced_settings_prefetch" "${1:this}" {
+    config_id = "${2:config_id}"
+    version = "${3:version}"
+}

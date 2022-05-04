@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_sysdig_monitor_notification_channel_pagerduty
+# key: d_sysdig_monitor_notification_channel_pagerduty
+# --
+
+data "sysdig_monitor_notification_channel_pagerduty" "${1:this}" {
+    name = "${2:name}"
+}

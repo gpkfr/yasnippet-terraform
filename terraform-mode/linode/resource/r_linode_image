@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_linode_image
+# key: r_linode_image
+# --
+
+resource "linode_image" "${1:this}" {
+    label = "${2:label}"
+}

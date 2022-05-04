@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_vpn_ssl_server
+# key: r_tencentcloud_vpn_ssl_server
+# --
+
+resource "tencentcloud_vpn_ssl_server" "${1:this}" {
+    local_address = "${2:local_address}"
+    remote_address = "${3:remote_address}"
+    ssl_vpn_server_name = "${4:ssl_vpn_server_name}"
+    vpn_gateway_id = "${5:vpn_gateway_id}"
+}

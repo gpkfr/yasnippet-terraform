@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudformation_module_versions
+# key: d_awscc_cloudformation_module_versions
+# --
+
+data "awscc_cloudformation_module_versions" "${1:this}" {
+}

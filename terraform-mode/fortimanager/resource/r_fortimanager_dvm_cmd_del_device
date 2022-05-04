@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_dvm_cmd_del_device
+# key: r_fortimanager_dvm_cmd_del_device
+# --
+
+resource "fortimanager_dvm_cmd_del_device" "${1:this}" {
+}

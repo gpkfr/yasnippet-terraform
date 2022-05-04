@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_service_item_output
+# key: r_intersight_workflow_service_item_output
+# --
+
+resource "intersight_workflow_service_item_output" "${1:this}" {
+}

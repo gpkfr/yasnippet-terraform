@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_codestarconnections_host
+# key: r_aws_codestarconnections_host
+# --
+
+resource "aws_codestarconnections_host" "${1:this}" {
+    name = "${2:name}"
+    provider_endpoint = "${3:provider_endpoint}"
+    provider_type = "${4:provider_type}"
+}

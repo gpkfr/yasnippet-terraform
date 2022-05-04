@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_iam_users
+# key: d_aws_iam_users
+# --
+
+data "aws_iam_users" "${1:this}" {
+}

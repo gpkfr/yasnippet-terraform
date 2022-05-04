@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_backup_unit
+# key: d_ionoscloud_backup_unit
+# --
+
+data "ionoscloud_backup_unit" "${1:this}" {
+}

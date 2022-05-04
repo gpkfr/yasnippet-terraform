@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_boot_precision_policy
+# key: d_intersight_boot_precision_policy
+# --
+
+data "intersight_boot_precision_policy" "${1:this}" {
+}

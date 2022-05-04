@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_cluster_eks
+# key: r_spectrocloud_cluster_eks
+# --
+
+resource "spectrocloud_cluster_eks" "${1:this}" {
+    cloud_account_id = "${2:cloud_account_id}"
+    name = "${3:name}"
+}

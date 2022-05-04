@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotwireless_service_profile
+# key: r_awscc_iotwireless_service_profile
+# --
+
+resource "awscc_iotwireless_service_profile" "${1:this}" {
+}

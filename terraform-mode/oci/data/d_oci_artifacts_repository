@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_artifacts_repository
+# key: d_oci_artifacts_repository
+# --
+
+data "oci_artifacts_repository" "${1:this}" {
+    repository_id = "${2:repository_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_s3outposts_bucket_policy
+# key: d_awscc_s3outposts_bucket_policy
+# --
+
+data "awscc_s3outposts_bucket_policy" "${1:this}" {
+    id = "${2:id}"
+}

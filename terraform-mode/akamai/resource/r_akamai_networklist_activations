@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akamai_networklist_activations
+# key: r_akamai_networklist_activations
+# --
+
+resource "akamai_networklist_activations" "${1:this}" {
+    network_list_id = "${2:network_list_id}"
+    notification_emails = "${3:notification_emails}"
+}

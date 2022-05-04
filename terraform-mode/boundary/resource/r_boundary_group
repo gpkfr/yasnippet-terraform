@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_boundary_group
+# key: r_boundary_group
+# --
+
+resource "boundary_group" "${1:this}" {
+    scope_id = "${2:scope_id}"
+}

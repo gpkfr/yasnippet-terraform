@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vcd_edgegateway_settings
+# key: r_vcd_edgegateway_settings
+# --
+
+resource "vcd_edgegateway_settings" "${1:this}" {
+}

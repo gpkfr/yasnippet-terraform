@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_fipscc
+# key: d_fortios_system_fipscc
+# --
+
+data "fortios_system_fipscc" "${1:this}" {
+}

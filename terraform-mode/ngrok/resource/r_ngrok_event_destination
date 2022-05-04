@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_event_destination
+# key: r_ngrok_event_destination
+# --
+
+resource "ngrok_event_destination" "${1:this}" {
+}

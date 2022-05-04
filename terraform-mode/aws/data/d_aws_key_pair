@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_key_pair
+# key: d_aws_key_pair
+# --
+
+data "aws_key_pair" "${1:this}" {
+}

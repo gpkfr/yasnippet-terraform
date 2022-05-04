@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_pinpoint_in_app_templates
+# key: d_awscc_pinpoint_in_app_templates
+# --
+
+data "awscc_pinpoint_in_app_templates" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_router_bgp_neighbor_trunk_neighbor
+# key: r_thunder_router_bgp_neighbor_trunk_neighbor
+# --
+
+resource "thunder_router_bgp_neighbor_trunk_neighbor" "${1:this}" {
+}

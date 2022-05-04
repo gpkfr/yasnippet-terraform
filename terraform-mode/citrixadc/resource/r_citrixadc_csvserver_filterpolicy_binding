@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_csvserver_filterpolicy_binding
+# key: r_citrixadc_csvserver_filterpolicy_binding
+# --
+
+resource "citrixadc_csvserver_filterpolicy_binding" "${1:this}" {
+    name = "${2:name}"
+    policyname = "${3:policyname}"
+}

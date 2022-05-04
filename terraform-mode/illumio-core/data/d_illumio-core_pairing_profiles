@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_pairing_profiles
+# key: d_illumio-core_pairing_profiles
+# --
+
+data "illumio-core_pairing_profiles" "${1:this}" {
+}

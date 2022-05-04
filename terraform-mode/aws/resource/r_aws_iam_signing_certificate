@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_iam_signing_certificate
+# key: r_aws_iam_signing_certificate
+# --
+
+resource "aws_iam_signing_certificate" "${1:this}" {
+    certificate_body = "${2:certificate_body}"
+    user_name = "${3:user_name}"
+}

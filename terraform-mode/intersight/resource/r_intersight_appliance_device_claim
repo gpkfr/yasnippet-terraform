@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_appliance_device_claim
+# key: r_intersight_appliance_device_claim
+# --
+
+resource "intersight_appliance_device_claim" "${1:this}" {
+}

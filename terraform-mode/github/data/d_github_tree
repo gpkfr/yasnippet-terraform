@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_github_tree
+# key: d_github_tree
+# --
+
+data "github_tree" "${1:this}" {
+    repository = "${2:repository}"
+    tree_sha = "${3:tree_sha}"
+}

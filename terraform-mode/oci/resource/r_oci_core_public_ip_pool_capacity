@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_public_ip_pool_capacity
+# key: r_oci_core_public_ip_pool_capacity
+# --
+
+resource "oci_core_public_ip_pool_capacity" "${1:this}" {
+    byoip_id = "${2:byoip_id}"
+    cidr_block = "${3:cidr_block}"
+    public_ip_pool_id = "${4:public_ip_pool_id}"
+}

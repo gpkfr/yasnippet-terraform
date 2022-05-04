@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_rate_limit_log
+# key: r_thunder_slb_rate_limit_log
+# --
+
+resource "thunder_slb_rate_limit_log" "${1:this}" {
+}

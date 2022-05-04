@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ga_listener
+# key: r_alicloud_ga_listener
+# --
+
+resource "alicloud_ga_listener" "${1:this}" {
+    accelerator_id = "${2:accelerator_id}"
+}

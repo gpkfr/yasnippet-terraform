@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aquasec_host_runtime_policy
+# key: d_aquasec_host_runtime_policy
+# --
+
+data "aquasec_host_runtime_policy" "${1:this}" {
+    name = "${2:name}"
+}

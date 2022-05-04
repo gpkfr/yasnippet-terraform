@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_splunk
+# key: r_harness_platform_connector_splunk
+# --
+
+resource "harness_platform_connector_splunk" "${1:this}" {
+    account_id = "${2:account_id}"
+    identifier = "${3:identifier}"
+    name = "${4:name}"
+    password_ref = "${5:password_ref}"
+    url = "${6:url}"
+    username = "${7:username}"
+}

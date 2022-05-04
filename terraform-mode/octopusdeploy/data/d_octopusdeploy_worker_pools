@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_worker_pools
+# key: d_octopusdeploy_worker_pools
+# --
+
+data "octopusdeploy_worker_pools" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_ssl_monitor
+# key: r_site24x7_ssl_monitor
+# --
+
+resource "site24x7_ssl_monitor" "${1:this}" {
+    display_name = "${2:display_name}"
+    domain_name = "${3:domain_name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alkira_policy_nat_rule
+# key: r_alkira_policy_nat_rule
+# --
+
+resource "alkira_policy_nat_rule" "${1:this}" {
+    enabled = "${2:enabled}"
+    name = "${3:name}"
+}

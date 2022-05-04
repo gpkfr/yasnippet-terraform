@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_chain_rule
+# key: r_sumologic_cse_chain_rule
+# --
+
+resource "sumologic_cse_chain_rule" "${1:this}" {
+    description = "${2:description}"
+    enabled = "${3:enabled}"
+    name = "${4:name}"
+    severity = "${5:severity}"
+    window_size = "${6:window_size}"
+}

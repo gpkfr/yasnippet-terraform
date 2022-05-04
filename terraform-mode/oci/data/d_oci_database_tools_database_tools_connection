@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_tools_database_tools_connection
+# key: d_oci_database_tools_database_tools_connection
+# --
+
+data "oci_database_tools_database_tools_connection" "${1:this}" {
+    database_tools_connection_id = "${2:database_tools_connection_id}"
+}

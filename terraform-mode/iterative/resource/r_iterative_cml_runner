@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_iterative_cml_runner
+# key: r_iterative_cml_runner
+# --
+
+resource "iterative_cml_runner" "${1:this}" {
+    driver = "${2:driver}"
+    repo = "${3:repo}"
+}

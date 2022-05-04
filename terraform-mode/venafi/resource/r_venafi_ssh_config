@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_venafi_ssh_config
+# key: r_venafi_ssh_config
+# --
+
+resource "venafi_ssh_config" "${1:this}" {
+    template = "${2:template}"
+}

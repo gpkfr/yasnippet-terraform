@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_videofilter_youtubekey
+# key: r_fortios_videofilter_youtubekey
+# --
+
+resource "fortios_videofilter_youtubekey" "${1:this}" {
+}

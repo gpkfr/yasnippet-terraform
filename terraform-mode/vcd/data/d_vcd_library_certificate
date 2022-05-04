@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vcd_library_certificate
+# key: d_vcd_library_certificate
+# --
+
+data "vcd_library_certificate" "${1:this}" {
+}

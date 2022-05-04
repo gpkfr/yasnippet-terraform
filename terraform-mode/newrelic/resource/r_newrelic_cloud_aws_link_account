@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_cloud_aws_link_account
+# key: r_newrelic_cloud_aws_link_account
+# --
+
+resource "newrelic_cloud_aws_link_account" "${1:this}" {
+    arn = "${2:arn}"
+    name = "${3:name}"
+}

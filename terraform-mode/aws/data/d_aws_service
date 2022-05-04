@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_service
+# key: d_aws_service
+# --
+
+data "aws_service" "${1:this}" {
+}

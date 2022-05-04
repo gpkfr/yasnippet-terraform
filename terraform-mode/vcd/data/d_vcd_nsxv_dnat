@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxv_dnat
+# key: d_vcd_nsxv_dnat
+# --
+
+data "vcd_nsxv_dnat" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    rule_id = "${3:rule_id}"
+}

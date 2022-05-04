@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_consul_admin_partition
+# key: r_consul_admin_partition
+# --
+
+resource "consul_admin_partition" "${1:this}" {
+    name = "${2:name}"
+}

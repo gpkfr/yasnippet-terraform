@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslvserver
+# key: r_citrixadc_sslvserver
+# --
+
+resource "citrixadc_sslvserver" "${1:this}" {
+    vservername = "${2:vservername}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_okta_idp_social
+# key: d_okta_idp_social
+# --
+
+data "okta_idp_social" "${1:this}" {
+}

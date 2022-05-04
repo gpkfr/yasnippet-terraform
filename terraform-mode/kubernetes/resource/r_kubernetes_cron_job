@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_cron_job
+# key: r_kubernetes_cron_job
+# --
+
+resource "kubernetes_cron_job" "${1:this}" {
+}

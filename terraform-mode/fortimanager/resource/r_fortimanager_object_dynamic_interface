@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_dynamic_interface
+# key: r_fortimanager_object_dynamic_interface
+# --
+
+resource "fortimanager_object_dynamic_interface" "${1:this}" {
+}

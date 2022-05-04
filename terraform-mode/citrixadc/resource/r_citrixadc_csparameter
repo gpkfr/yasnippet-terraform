@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_csparameter
+# key: r_citrixadc_csparameter
+# --
+
+resource "citrixadc_csparameter" "${1:this}" {
+}

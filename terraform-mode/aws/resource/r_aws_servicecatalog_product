@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_servicecatalog_product
+# key: r_aws_servicecatalog_product
+# --
+
+resource "aws_servicecatalog_product" "${1:this}" {
+    name = "${2:name}"
+    owner = "${3:owner}"
+    type = "${4:type}"
+}

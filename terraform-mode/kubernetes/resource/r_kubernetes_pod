@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_pod
+# key: r_kubernetes_pod
+# --
+
+resource "kubernetes_pod" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_databricks_mount
+# key: r_databricks_mount
+# --
+
+resource "databricks_mount" "${1:this}" {
+}

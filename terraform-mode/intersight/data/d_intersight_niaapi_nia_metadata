@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niaapi_nia_metadata
+# key: d_intersight_niaapi_nia_metadata
+# --
+
+data "intersight_niaapi_nia_metadata" "${1:this}" {
+}

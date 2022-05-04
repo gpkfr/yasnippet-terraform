@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_eventhub_namespace_customer_managed_key
+# key: r_azurerm_eventhub_namespace_customer_managed_key
+# --
+
+resource "azurerm_eventhub_namespace_customer_managed_key" "${1:this}" {
+    eventhub_namespace_id = "${2:eventhub_namespace_id}"
+    key_vault_key_ids = "${3:key_vault_key_ids}"
+}

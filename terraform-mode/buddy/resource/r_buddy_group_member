@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_buddy_group_member
+# key: r_buddy_group_member
+# --
+
+resource "buddy_group_member" "${1:this}" {
+    domain = "${2:domain}"
+    group_id = "${3:group_id}"
+    member_id = "${4:member_id}"
+}

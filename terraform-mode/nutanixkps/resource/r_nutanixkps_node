@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_nutanixkps_node
+# key: r_nutanixkps_node
+# --
+
+resource "nutanixkps_node" "${1:this}" {
+    description = "${2:description}"
+    gateway = "${3:gateway}"
+    ip_address = "${4:ip_address}"
+    name = "${5:name}"
+    serial_number = "${6:serial_number}"
+    service_domain_id = "${7:service_domain_id}"
+    subnet = "${8:subnet}"
+}

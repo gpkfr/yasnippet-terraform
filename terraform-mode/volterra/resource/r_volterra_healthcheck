@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_volterra_healthcheck
+# key: r_volterra_healthcheck
+# --
+
+resource "volterra_healthcheck" "${1:this}" {
+    healthy_threshold = "${2:healthy_threshold}"
+    interval = "${3:interval}"
+    name = "${4:name}"
+    namespace = "${5:namespace}"
+    timeout = "${6:timeout}"
+    unhealthy_threshold = "${7:unhealthy_threshold}"
+}

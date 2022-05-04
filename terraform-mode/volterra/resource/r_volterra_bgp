@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_bgp
+# key: r_volterra_bgp
+# --
+
+resource "volterra_bgp" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

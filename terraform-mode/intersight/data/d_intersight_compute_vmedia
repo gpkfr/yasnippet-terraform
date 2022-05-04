@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_compute_vmedia
+# key: d_intersight_compute_vmedia
+# --
+
+data "intersight_compute_vmedia" "${1:this}" {
+}

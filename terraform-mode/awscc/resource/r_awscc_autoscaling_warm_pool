@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_autoscaling_warm_pool
+# key: r_awscc_autoscaling_warm_pool
+# --
+
+resource "awscc_autoscaling_warm_pool" "${1:this}" {
+    auto_scaling_group_name = "${2:auto_scaling_group_name}"
+}

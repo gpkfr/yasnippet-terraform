@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ovh_cloud_project_containerregistry_users
+# key: d_ovh_cloud_project_containerregistry_users
+# --
+
+data "ovh_cloud_project_containerregistry_users" "${1:this}" {
+    registry_id = "${2:registry_id}"
+    service_name = "${3:service_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_rib_route
+# key: r_thunder_rib_route
+# --
+
+resource "thunder_rib_route" "${1:this}" {
+}

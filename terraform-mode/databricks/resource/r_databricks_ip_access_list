@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_databricks_ip_access_list
+# key: r_databricks_ip_access_list
+# --
+
+resource "databricks_ip_access_list" "${1:this}" {
+    ip_addresses = "${2:ip_addresses}"
+    label = "${3:label}"
+    list_type = "${4:list_type}"
+}

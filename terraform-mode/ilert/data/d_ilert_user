@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ilert_user
+# key: d_ilert_user
+# --
+
+data "ilert_user" "${1:this}" {
+    email = "${2:email}"
+}

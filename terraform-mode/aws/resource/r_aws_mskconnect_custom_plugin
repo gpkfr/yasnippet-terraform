@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_mskconnect_custom_plugin
+# key: r_aws_mskconnect_custom_plugin
+# --
+
+resource "aws_mskconnect_custom_plugin" "${1:this}" {
+    content_type = "${2:content_type}"
+    name = "${3:name}"
+}

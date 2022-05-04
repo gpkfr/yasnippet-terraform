@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_service_item_action_instance
+# key: r_intersight_workflow_service_item_action_instance
+# --
+
+resource "intersight_workflow_service_item_action_instance" "${1:this}" {
+}

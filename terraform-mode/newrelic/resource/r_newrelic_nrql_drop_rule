@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_newrelic_nrql_drop_rule
+# key: r_newrelic_nrql_drop_rule
+# --
+
+resource "newrelic_nrql_drop_rule" "${1:this}" {
+    action = "${2:action}"
+    nrql = "${3:nrql}"
+}

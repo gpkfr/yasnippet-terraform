@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_firewall_instance_association
+# key: r_aviatrix_firewall_instance_association
+# --
+
+resource "aviatrix_firewall_instance_association" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    vpc_id = "${3:vpc_id}"
+}

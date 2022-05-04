@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_backup_framework
+# key: r_aws_backup_framework
+# --
+
+resource "aws_backup_framework" "${1:this}" {
+    name = "${2:name}"
+}

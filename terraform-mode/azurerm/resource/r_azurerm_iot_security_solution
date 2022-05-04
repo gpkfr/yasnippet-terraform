@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_iot_security_solution
+# key: r_azurerm_iot_security_solution
+# --
+
+resource "azurerm_iot_security_solution" "${1:this}" {
+    display_name = "${2:display_name}"
+    iothub_ids = "${3:iothub_ids}"
+    location = "${4:location}"
+    name = "${5:name}"
+    resource_group_name = "${6:resource_group_name}"
+}

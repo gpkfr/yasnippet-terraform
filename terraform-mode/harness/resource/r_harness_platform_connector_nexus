@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_nexus
+# key: r_harness_platform_connector_nexus
+# --
+
+resource "harness_platform_connector_nexus" "${1:this}" {
+    identifier = "${2:identifier}"
+    name = "${3:name}"
+    url = "${4:url}"
+    version = "${5:version}"
+}

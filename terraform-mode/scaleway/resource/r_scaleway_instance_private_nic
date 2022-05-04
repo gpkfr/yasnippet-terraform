@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_instance_private_nic
+# key: r_scaleway_instance_private_nic
+# --
+
+resource "scaleway_instance_private_nic" "${1:this}" {
+    private_network_id = "${2:private_network_id}"
+    server_id = "${3:server_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_emailfilter_options
+# key: r_fortimanager_object_emailfilter_options
+# --
+
+resource "fortimanager_object_emailfilter_options" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_vpc_public_gateway
+# key: d_scaleway_vpc_public_gateway
+# --
+
+data "scaleway_vpc_public_gateway" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_external_container_database
+# key: d_oci_database_external_container_database
+# --
+
+data "oci_database_external_container_database" "${1:this}" {
+    external_container_database_id = "${2:external_container_database_id}"
+}

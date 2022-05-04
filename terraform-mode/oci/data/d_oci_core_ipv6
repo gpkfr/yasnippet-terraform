@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_ipv6
+# key: d_oci_core_ipv6
+# --
+
+data "oci_core_ipv6" "${1:this}" {
+    ipv6id = "${2:ipv6id}"
+}

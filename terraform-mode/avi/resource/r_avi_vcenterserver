@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_avi_vcenterserver
+# key: r_avi_vcenterserver
+# --
+
+resource "avi_vcenterserver" "${1:this}" {
+    name = "${2:name}"
+    vcenter_credentials_ref = "${3:vcenter_credentials_ref}"
+    vcenter_url = "${4:vcenter_url}"
+}

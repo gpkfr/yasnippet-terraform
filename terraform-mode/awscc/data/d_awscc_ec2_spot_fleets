@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_spot_fleets
+# key: d_awscc_ec2_spot_fleets
+# --
+
+data "awscc_ec2_spot_fleets" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbvserver_analyticsprofile_binding
+# key: r_citrixadc_lbvserver_analyticsprofile_binding
+# --
+
+resource "citrixadc_lbvserver_analyticsprofile_binding" "${1:this}" {
+    analyticsprofile = "${2:analyticsprofile}"
+    name = "${3:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opennebula_user
+# key: r_opennebula_user
+# --
+
+resource "opennebula_user" "${1:this}" {
+    name = "${2:name}"
+}

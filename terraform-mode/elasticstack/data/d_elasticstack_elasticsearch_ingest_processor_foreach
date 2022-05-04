@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_foreach
+# key: d_elasticstack_elasticsearch_ingest_processor_foreach
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_foreach" "${1:this}" {
+    field = "${2:field}"
+    processor = "${3:processor}"
+}

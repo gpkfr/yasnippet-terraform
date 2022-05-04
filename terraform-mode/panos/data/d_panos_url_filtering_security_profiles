@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_url_filtering_security_profiles
+# key: d_panos_url_filtering_security_profiles
+# --
+
+data "panos_url_filtering_security_profiles" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_architect_ivr
+# key: d_genesyscloud_architect_ivr
+# --
+
+data "genesyscloud_architect_ivr" "${1:this}" {
+    name = "${2:name}"
+}

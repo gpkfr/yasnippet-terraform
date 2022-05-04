@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lightsail_disks
+# key: d_awscc_lightsail_disks
+# --
+
+data "awscc_lightsail_disks" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_consul_acl_token_role_attachment
+# key: r_consul_acl_token_role_attachment
+# --
+
+resource "consul_acl_token_role_attachment" "${1:this}" {
+    role = "${2:role}"
+    token_id = "${3:token_id}"
+}

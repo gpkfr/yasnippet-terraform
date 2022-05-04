@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_emrcontainers_virtual_cluster
+# key: r_awscc_emrcontainers_virtual_cluster
+# --
+
+resource "awscc_emrcontainers_virtual_cluster" "${1:this}" {
+    container_provider = "${2:container_provider}"
+    name = "${3:name}"
+}

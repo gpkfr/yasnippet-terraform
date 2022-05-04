@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_outscale_server_certificate
+# key: d_outscale_server_certificate
+# --
+
+data "outscale_server_certificate" "${1:this}" {
+}

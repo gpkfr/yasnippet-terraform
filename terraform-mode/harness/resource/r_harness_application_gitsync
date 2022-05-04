@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_harness_application_gitsync
+# key: r_harness_application_gitsync
+# --
+
+resource "harness_application_gitsync" "${1:this}" {
+    app_id = "${2:app_id}"
+    branch = "${3:branch}"
+    connector_id = "${4:connector_id}"
+}

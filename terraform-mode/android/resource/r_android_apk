@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_android_apk
+# key: r_android_apk
+# --
+
+resource "android_apk" "${1:this}" {
+    name = "${2:name}"
+}

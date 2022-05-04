@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_databricks_user
+# key: r_databricks_user
+# --
+
+resource "databricks_user" "${1:this}" {
+    user_name = "${2:user_name}"
+}

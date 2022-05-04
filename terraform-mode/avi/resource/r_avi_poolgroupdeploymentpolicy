@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_poolgroupdeploymentpolicy
+# key: r_avi_poolgroupdeploymentpolicy
+# --
+
+resource "avi_poolgroupdeploymentpolicy" "${1:this}" {
+    name = "${2:name}"
+}

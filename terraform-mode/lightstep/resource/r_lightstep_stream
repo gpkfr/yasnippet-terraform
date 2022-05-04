@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lightstep_stream
+# key: r_lightstep_stream
+# --
+
+resource "lightstep_stream" "${1:this}" {
+    project_name = "${2:project_name}"
+    query = "${3:query}"
+    stream_name = "${4:stream_name}"
+}

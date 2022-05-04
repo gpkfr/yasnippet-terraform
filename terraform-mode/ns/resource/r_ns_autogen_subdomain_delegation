@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ns_autogen_subdomain_delegation
+# key: r_ns_autogen_subdomain_delegation
+# --
+
+resource "ns_autogen_subdomain_delegation" "${1:this}" {
+    env_id = "${2:env_id}"
+    nameservers = "${3:nameservers}"
+    subdomain_id = "${4:subdomain_id}"
+}

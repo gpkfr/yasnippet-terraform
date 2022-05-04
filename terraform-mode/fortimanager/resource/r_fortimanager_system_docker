@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_docker
+# key: r_fortimanager_system_docker
+# --
+
+resource "fortimanager_system_docker" "${1:this}" {
+}

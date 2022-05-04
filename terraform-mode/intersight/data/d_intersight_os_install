@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_os_install
+# key: d_intersight_os_install
+# --
+
+data "intersight_os_install" "${1:this}" {
+}

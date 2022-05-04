@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_http2
+# key: r_thunder_slb_http2
+# --
+
+resource "thunder_slb_http2" "${1:this}" {
+}

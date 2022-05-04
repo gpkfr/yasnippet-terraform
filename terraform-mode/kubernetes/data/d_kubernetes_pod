@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kubernetes_pod
+# key: d_kubernetes_pod
+# --
+
+data "kubernetes_pod" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_okta_trusted_origins
+# key: d_okta_trusted_origins
+# --
+
+data "okta_trusted_origins" "${1:this}" {
+}

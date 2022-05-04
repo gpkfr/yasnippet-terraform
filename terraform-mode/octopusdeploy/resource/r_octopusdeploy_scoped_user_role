@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_scoped_user_role
+# key: r_octopusdeploy_scoped_user_role
+# --
+
+resource "octopusdeploy_scoped_user_role" "${1:this}" {
+    space_id = "${2:space_id}"
+    team_id = "${3:team_id}"
+    user_role_id = "${4:user_role_id}"
+}

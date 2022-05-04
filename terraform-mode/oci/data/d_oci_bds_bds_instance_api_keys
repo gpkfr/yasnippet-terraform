@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_bds_bds_instance_api_keys
+# key: d_oci_bds_bds_instance_api_keys
+# --
+
+data "oci_bds_bds_instance_api_keys" "${1:this}" {
+    bds_instance_id = "${2:bds_instance_id}"
+}

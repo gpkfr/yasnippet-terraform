@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tetration_application
+# key: r_tetration_application
+# --
+
+resource "tetration_application" "${1:this}" {
+    app_scope_id = "${2:app_scope_id}"
+    catch_all_action = "${3:catch_all_action}"
+}

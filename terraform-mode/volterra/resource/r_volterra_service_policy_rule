@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_volterra_service_policy_rule
+# key: r_volterra_service_policy_rule
+# --
+
+resource "volterra_service_policy_rule" "${1:this}" {
+    action = "${2:action}"
+    challenge_action = "${3:challenge_action}"
+    name = "${4:name}"
+    namespace = "${5:namespace}"
+}

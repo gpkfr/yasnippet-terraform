@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_container_connected_registry
+# key: r_azurerm_container_connected_registry
+# --
+
+resource "azurerm_container_connected_registry" "${1:this}" {
+    container_registry_id = "${2:container_registry_id}"
+    name = "${3:name}"
+    sync_token_id = "${4:sync_token_id}"
+}

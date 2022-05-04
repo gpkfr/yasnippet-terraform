@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_rdb_privilege
+# key: r_scaleway_rdb_privilege
+# --
+
+resource "scaleway_rdb_privilege" "${1:this}" {
+    database_name = "${2:database_name}"
+    instance_id = "${3:instance_id}"
+    permission = "${4:permission}"
+    user_name = "${5:user_name}"
+}

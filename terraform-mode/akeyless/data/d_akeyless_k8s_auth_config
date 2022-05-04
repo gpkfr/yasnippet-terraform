@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akeyless_k8s_auth_config
+# key: d_akeyless_k8s_auth_config
+# --
+
+data "akeyless_k8s_auth_config" "${1:this}" {
+    name = "${2:name}"
+}

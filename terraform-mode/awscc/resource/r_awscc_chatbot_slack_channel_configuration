@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_chatbot_slack_channel_configuration
+# key: r_awscc_chatbot_slack_channel_configuration
+# --
+
+resource "awscc_chatbot_slack_channel_configuration" "${1:this}" {
+    configuration_name = "${2:configuration_name}"
+    iam_role_arn = "${3:iam_role_arn}"
+    slack_channel_id = "${4:slack_channel_id}"
+    slack_workspace_id = "${5:slack_workspace_id}"
+}

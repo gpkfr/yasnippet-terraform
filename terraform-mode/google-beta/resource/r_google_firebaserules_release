@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_firebaserules_release
+# key: r_google_firebaserules_release
+# --
+
+resource "google_firebaserules_release" "${1:this}" {
+    name = "${2:name}"
+    ruleset_name = "${3:ruleset_name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_target_aws
+# key: r_akeyless_target_aws
+# --
+
+resource "akeyless_target_aws" "${1:this}" {
+    access_key_id = "${2:access_key_id}"
+    name = "${3:name}"
+}

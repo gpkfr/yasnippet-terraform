@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ecr_pull_through_cache_rule
+# key: r_awscc_ecr_pull_through_cache_rule
+# --
+
+resource "awscc_ecr_pull_through_cache_rule" "${1:this}" {
+}

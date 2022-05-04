@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_log_topology
+# key: r_fortianalyzer_system_log_topology
+# --
+
+resource "fortianalyzer_system_log_topology" "${1:this}" {
+}

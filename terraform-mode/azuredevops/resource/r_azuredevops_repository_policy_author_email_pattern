@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_repository_policy_author_email_pattern
+# key: r_azuredevops_repository_policy_author_email_pattern
+# --
+
+resource "azuredevops_repository_policy_author_email_pattern" "${1:this}" {
+    author_email_patterns = "${2:author_email_patterns}"
+    project_id = "${3:project_id}"
+}

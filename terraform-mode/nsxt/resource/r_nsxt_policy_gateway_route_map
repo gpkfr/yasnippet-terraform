@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_gateway_route_map
+# key: r_nsxt_policy_gateway_route_map
+# --
+
+resource "nsxt_policy_gateway_route_map" "${1:this}" {
+    display_name = "${2:display_name}"
+    gateway_path = "${3:gateway_path}"
+}

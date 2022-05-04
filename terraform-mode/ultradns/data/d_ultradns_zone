@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ultradns_zone
+# key: d_ultradns_zone
+# --
+
+data "ultradns_zone" "${1:this}" {
+    name = "${2:name}"
+}

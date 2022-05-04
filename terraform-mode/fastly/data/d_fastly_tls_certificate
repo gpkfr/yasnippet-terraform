@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fastly_tls_certificate
+# key: d_fastly_tls_certificate
+# --
+
+data "fastly_tls_certificate" "${1:this}" {
+}

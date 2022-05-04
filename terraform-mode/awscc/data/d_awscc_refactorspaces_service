@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_refactorspaces_service
+# key: d_awscc_refactorspaces_service
+# --
+
+data "awscc_refactorspaces_service" "${1:this}" {
+    id = "${2:id}"
+}

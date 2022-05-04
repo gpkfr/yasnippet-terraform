@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_tunnel_route
+# key: r_cloudflare_tunnel_route
+# --
+
+resource "cloudflare_tunnel_route" "${1:this}" {
+    account_id = "${2:account_id}"
+    network = "${3:network}"
+    tunnel_id = "${4:tunnel_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akamai_iam_states
+# key: d_akamai_iam_states
+# --
+
+data "akamai_iam_states" "${1:this}" {
+    country = "${2:country}"
+}

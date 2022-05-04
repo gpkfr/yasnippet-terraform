@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vra_network_ip_range
+# key: r_vra_network_ip_range
+# --
+
+resource "vra_network_ip_range" "${1:this}" {
+    end_ip_address = "${2:end_ip_address}"
+    ip_version = "${3:ip_version}"
+    name = "${4:name}"
+    start_ip_address = "${5:start_ip_address}"
+}

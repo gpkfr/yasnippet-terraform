@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_chime_voice_connector_logging
+# key: r_aws_chime_voice_connector_logging
+# --
+
+resource "aws_chime_voice_connector_logging" "${1:this}" {
+    voice_connector_id = "${2:voice_connector_id}"
+}

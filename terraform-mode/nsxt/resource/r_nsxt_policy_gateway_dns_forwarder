@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_gateway_dns_forwarder
+# key: r_nsxt_policy_gateway_dns_forwarder
+# --
+
+resource "nsxt_policy_gateway_dns_forwarder" "${1:this}" {
+    default_forwarder_zone_path = "${2:default_forwarder_zone_path}"
+    display_name = "${3:display_name}"
+    gateway_path = "${4:gateway_path}"
+    listener_ip = "${5:listener_ip}"
+}

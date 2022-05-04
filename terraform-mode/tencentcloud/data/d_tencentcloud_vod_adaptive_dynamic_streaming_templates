@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_vod_adaptive_dynamic_streaming_templates
+# key: d_tencentcloud_vod_adaptive_dynamic_streaming_templates
+# --
+
+data "tencentcloud_vod_adaptive_dynamic_streaming_templates" "${1:this}" {
+}

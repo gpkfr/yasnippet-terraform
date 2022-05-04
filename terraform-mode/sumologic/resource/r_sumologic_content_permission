@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_content_permission
+# key: r_sumologic_content_permission
+# --
+
+resource "sumologic_content_permission" "${1:this}" {
+    content_id = "${2:content_id}"
+    notify_recipient = "${3:notify_recipient}"
+}

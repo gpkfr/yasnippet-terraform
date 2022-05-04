@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sagemaker_device_fleet
+# key: r_awscc_sagemaker_device_fleet
+# --
+
+resource "awscc_sagemaker_device_fleet" "${1:this}" {
+    device_fleet_name = "${2:device_fleet_name}"
+    output_config = "${3:output_config}"
+    role_arn = "${4:role_arn}"
+}

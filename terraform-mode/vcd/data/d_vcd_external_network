@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_external_network
+# key: d_vcd_external_network
+# --
+
+data "vcd_external_network" "${1:this}" {
+    name = "${2:name}"
+}

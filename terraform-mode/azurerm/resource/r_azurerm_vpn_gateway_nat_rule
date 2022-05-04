@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_vpn_gateway_nat_rule
+# key: r_azurerm_vpn_gateway_nat_rule
+# --
+
+resource "azurerm_vpn_gateway_nat_rule" "${1:this}" {
+    external_address_space_mappings = "${2:external_address_space_mappings}"
+    internal_address_space_mappings = "${3:internal_address_space_mappings}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+    vpn_gateway_id = "${6:vpn_gateway_id}"
+}

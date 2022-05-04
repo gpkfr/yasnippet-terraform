@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_admin_ldap
+# key: r_fortimanager_system_admin_ldap
+# --
+
+resource "fortimanager_system_admin_ldap" "${1:this}" {
+}

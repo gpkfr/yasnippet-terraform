@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_monitoring_health_status
+# key: d_intersight_monitoring_health_status
+# --
+
+data "intersight_monitoring_health_status" "${1:this}" {
+}

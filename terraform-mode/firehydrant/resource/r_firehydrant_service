@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_firehydrant_service
+# key: r_firehydrant_service
+# --
+
+resource "firehydrant_service" "${1:this}" {
+    name = "${2:name}"
+}

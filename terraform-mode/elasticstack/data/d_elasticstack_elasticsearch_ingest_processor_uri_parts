@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_uri_parts
+# key: d_elasticstack_elasticsearch_ingest_processor_uri_parts
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_uri_parts" "${1:this}" {
+    field = "${2:field}"
+}

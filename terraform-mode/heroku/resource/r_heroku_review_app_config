@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_heroku_review_app_config
+# key: r_heroku_review_app_config
+# --
+
+resource "heroku_review_app_config" "${1:this}" {
+    org_repo = "${2:org_repo}"
+    pipeline_id = "${3:pipeline_id}"
+}

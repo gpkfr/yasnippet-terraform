@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_gcore_cdn_rule
+# key: r_gcore_cdn_rule
+# --
+
+resource "gcore_cdn_rule" "${1:this}" {
+    name = "${2:name}"
+    resource_id = "${3:resource_id}"
+    rule = "${4:rule}"
+    rule_type = "${5:rule_type}"
+}

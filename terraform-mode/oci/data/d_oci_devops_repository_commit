@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_repository_commit
+# key: d_oci_devops_repository_commit
+# --
+
+data "oci_devops_repository_commit" "${1:this}" {
+    commit_id = "${2:commit_id}"
+    repository_id = "${3:repository_id}"
+}

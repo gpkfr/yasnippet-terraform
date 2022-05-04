@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_resource_manager_shared_resources
+# key: d_alicloud_resource_manager_shared_resources
+# --
+
+data "alicloud_resource_manager_shared_resources" "${1:this}" {
+}

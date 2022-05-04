@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_logging_log_view
+# key: r_google_logging_log_view
+# --
+
+resource "google_logging_log_view" "${1:this}" {
+    bucket = "${2:bucket}"
+    name = "${3:name}"
+}

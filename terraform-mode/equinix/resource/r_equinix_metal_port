@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_port
+# key: r_equinix_metal_port
+# --
+
+resource "equinix_metal_port" "${1:this}" {
+    bonded = "${2:bonded}"
+    port_id = "${3:port_id}"
+}

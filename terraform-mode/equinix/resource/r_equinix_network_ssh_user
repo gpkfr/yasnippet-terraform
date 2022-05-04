@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_equinix_network_ssh_user
+# key: r_equinix_network_ssh_user
+# --
+
+resource "equinix_network_ssh_user" "${1:this}" {
+    device_ids = "${2:device_ids}"
+    password = "${3:password}"
+    username = "${4:username}"
+}

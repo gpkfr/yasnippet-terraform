@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_system_hook
+# key: r_gitlab_system_hook
+# --
+
+resource "gitlab_system_hook" "${1:this}" {
+    url = "${2:url}"
+}

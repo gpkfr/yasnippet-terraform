@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_workflow_task_debug_log
+# key: d_intersight_workflow_task_debug_log
+# --
+
+data "intersight_workflow_task_debug_log" "${1:this}" {
+}

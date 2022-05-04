@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_metering_computation_query
+# key: d_oci_metering_computation_query
+# --
+
+data "oci_metering_computation_query" "${1:this}" {
+    query_id = "${2:query_id}"
+}

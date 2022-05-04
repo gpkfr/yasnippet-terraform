@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_storagegateway_stored_iscsi_volume
+# key: r_aws_storagegateway_stored_iscsi_volume
+# --
+
+resource "aws_storagegateway_stored_iscsi_volume" "${1:this}" {
+    disk_id = "${2:disk_id}"
+    gateway_arn = "${3:gateway_arn}"
+    network_interface_id = "${4:network_interface_id}"
+    preserve_existing_data = "${5:preserve_existing_data}"
+    target_name = "${6:target_name}"
+}

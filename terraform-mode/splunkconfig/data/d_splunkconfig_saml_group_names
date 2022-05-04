@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_splunkconfig_saml_group_names
+# key: d_splunkconfig_saml_group_names
+# --
+
+data "splunkconfig_saml_group_names" "${1:this}" {
+}

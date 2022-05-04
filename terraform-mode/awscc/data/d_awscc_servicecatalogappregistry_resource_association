@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_servicecatalogappregistry_resource_association
+# key: d_awscc_servicecatalogappregistry_resource_association
+# --
+
+data "awscc_servicecatalogappregistry_resource_association" "${1:this}" {
+    id = "${2:id}"
+}

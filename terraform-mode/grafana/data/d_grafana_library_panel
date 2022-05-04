@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_grafana_library_panel
+# key: d_grafana_library_panel
+# --
+
+data "grafana_library_panel" "${1:this}" {
+}

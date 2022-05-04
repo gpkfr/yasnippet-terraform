@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_transit_gateway_connect_peer
+# key: r_aws_ec2_transit_gateway_connect_peer
+# --
+
+resource "aws_ec2_transit_gateway_connect_peer" "${1:this}" {
+    inside_cidr_blocks = "${2:inside_cidr_blocks}"
+    peer_address = "${3:peer_address}"
+    transit_gateway_attachment_id = "${4:transit_gateway_attachment_id}"
+}

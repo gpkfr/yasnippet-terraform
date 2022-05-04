@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_stackbill_zone_list
+# key: d_stackbill_zone_list
+# --
+
+data "stackbill_zone_list" "${1:this}" {
+}

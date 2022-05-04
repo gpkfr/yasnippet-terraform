@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_backup_report_plan
+# key: d_aws_backup_report_plan
+# --
+
+data "aws_backup_report_plan" "${1:this}" {
+    name = "${2:name}"
+}

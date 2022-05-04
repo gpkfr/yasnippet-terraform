@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_oci_optimizer_resource_actions
+# key: d_oci_optimizer_resource_actions
+# --
+
+data "oci_optimizer_resource_actions" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    compartment_id_in_subtree = "${3:compartment_id_in_subtree}"
+    recommendation_id = "${4:recommendation_id}"
+}

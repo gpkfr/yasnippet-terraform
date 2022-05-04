@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alkira_billing_tag
+# key: d_alkira_billing_tag
+# --
+
+data "alkira_billing_tag" "${1:this}" {
+    name = "${2:name}"
+}

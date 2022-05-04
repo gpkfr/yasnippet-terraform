@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_third_party_integrations
+# key: d_mongodbatlas_third_party_integrations
+# --
+
+data "mongodbatlas_third_party_integrations" "${1:this}" {
+    project_id = "${2:project_id}"
+}

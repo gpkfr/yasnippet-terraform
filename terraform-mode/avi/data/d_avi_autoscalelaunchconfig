@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_autoscalelaunchconfig
+# key: d_avi_autoscalelaunchconfig
+# --
+
+data "avi_autoscalelaunchconfig" "${1:this}" {
+}

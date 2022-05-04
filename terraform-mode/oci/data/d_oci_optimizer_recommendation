@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_optimizer_recommendation
+# key: d_oci_optimizer_recommendation
+# --
+
+data "oci_optimizer_recommendation" "${1:this}" {
+    recommendation_id = "${2:recommendation_id}"
+}

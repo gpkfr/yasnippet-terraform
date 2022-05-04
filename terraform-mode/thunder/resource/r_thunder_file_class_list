@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_thunder_file_class_list
+# key: r_thunder_file_class_list
+# --
+
+resource "thunder_file_class_list" "${1:this}" {
+    host = "${2:host}"
+    name = "${3:name}"
+    path = "${4:path}"
+    protocol = "${5:protocol}"
+}

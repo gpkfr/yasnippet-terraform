@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_saml_serviceproviders
+# key: r_fortianalyzer_system_saml_serviceproviders
+# --
+
+resource "fortianalyzer_system_saml_serviceproviders" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_wisdom_assistant_association
+# key: r_awscc_wisdom_assistant_association
+# --
+
+resource "awscc_wisdom_assistant_association" "${1:this}" {
+    assistant_id = "${2:assistant_id}"
+    association = "${3:association}"
+    association_type = "${4:association_type}"
+}

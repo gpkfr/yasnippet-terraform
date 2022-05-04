@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cynosdb_readonly_instance
+# key: r_tencentcloud_cynosdb_readonly_instance
+# --
+
+resource "tencentcloud_cynosdb_readonly_instance" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    instance_cpu_core = "${3:instance_cpu_core}"
+    instance_memory_size = "${4:instance_memory_size}"
+    instance_name = "${5:instance_name}"
+}

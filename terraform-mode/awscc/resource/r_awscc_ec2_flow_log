@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_flow_log
+# key: r_awscc_ec2_flow_log
+# --
+
+resource "awscc_ec2_flow_log" "${1:this}" {
+    resource_id = "${2:resource_id}"
+    resource_type = "${3:resource_type}"
+    traffic_type = "${4:traffic_type}"
+}

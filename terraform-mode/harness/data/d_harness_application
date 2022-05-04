@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_application
+# key: d_harness_application
+# --
+
+data "harness_application" "${1:this}" {
+}

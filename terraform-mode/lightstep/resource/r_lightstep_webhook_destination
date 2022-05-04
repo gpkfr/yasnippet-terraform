@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lightstep_webhook_destination
+# key: r_lightstep_webhook_destination
+# --
+
+resource "lightstep_webhook_destination" "${1:this}" {
+    destination_name = "${2:destination_name}"
+    project_name = "${3:project_name}"
+    url = "${4:url}"
+}

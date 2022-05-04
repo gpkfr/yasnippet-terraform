@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_ssoadmin_managed_policy_attachment
+# key: r_aws_ssoadmin_managed_policy_attachment
+# --
+
+resource "aws_ssoadmin_managed_policy_attachment" "${1:this}" {
+    instance_arn = "${2:instance_arn}"
+    managed_policy_arn = "${3:managed_policy_arn}"
+    permission_set_arn = "${4:permission_set_arn}"
+}

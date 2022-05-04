@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fastly_tls_activation
+# key: r_fastly_tls_activation
+# --
+
+resource "fastly_tls_activation" "${1:this}" {
+    certificate_id = "${2:certificate_id}"
+    domain = "${3:domain}"
+}

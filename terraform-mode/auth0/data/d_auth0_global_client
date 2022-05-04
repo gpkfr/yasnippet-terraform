@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_auth0_global_client
+# key: d_auth0_global_client
+# --
+
+data "auth0_global_client" "${1:this}" {
+}

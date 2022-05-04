@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_workspace_aad_admin
+# key: r_azurerm_synapse_workspace_aad_admin
+# --
+
+resource "azurerm_synapse_workspace_aad_admin" "${1:this}" {
+    login = "${2:login}"
+    object_id = "${3:object_id}"
+    synapse_workspace_id = "${4:synapse_workspace_id}"
+    tenant_id = "${5:tenant_id}"
+}

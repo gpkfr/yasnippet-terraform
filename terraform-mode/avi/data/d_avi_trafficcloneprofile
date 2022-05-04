@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_trafficcloneprofile
+# key: d_avi_trafficcloneprofile
+# --
+
+data "avi_trafficcloneprofile" "${1:this}" {
+}

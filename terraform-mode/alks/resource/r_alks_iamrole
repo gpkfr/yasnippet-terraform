@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alks_iamrole
+# key: r_alks_iamrole
+# --
+
+resource "alks_iamrole" "${1:this}" {
+    include_default_policies = "${2:include_default_policies}"
+    type = "${3:type}"
+}

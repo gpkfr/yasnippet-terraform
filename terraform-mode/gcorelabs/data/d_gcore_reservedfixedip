@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gcore_reservedfixedip
+# key: d_gcore_reservedfixedip
+# --
+
+data "gcore_reservedfixedip" "${1:this}" {
+    fixed_ip_address = "${2:fixed_ip_address}"
+}

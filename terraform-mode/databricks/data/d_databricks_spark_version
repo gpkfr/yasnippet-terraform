@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_databricks_spark_version
+# key: d_databricks_spark_version
+# --
+
+data "databricks_spark_version" "${1:this}" {
+}

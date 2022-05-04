@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_appstream_entitlement
+# key: r_awscc_appstream_entitlement
+# --
+
+resource "awscc_appstream_entitlement" "${1:this}" {
+    app_visibility = "${2:app_visibility}"
+    attributes = "${3:attributes}"
+    name = "${4:name}"
+    stack_name = "${5:stack_name}"
+}

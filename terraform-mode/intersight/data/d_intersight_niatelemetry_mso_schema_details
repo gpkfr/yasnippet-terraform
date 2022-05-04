@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_mso_schema_details
+# key: d_intersight_niatelemetry_mso_schema_details
+# --
+
+data "intersight_niatelemetry_mso_schema_details" "${1:this}" {
+}

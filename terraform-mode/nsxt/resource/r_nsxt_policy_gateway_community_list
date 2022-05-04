@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_gateway_community_list
+# key: r_nsxt_policy_gateway_community_list
+# --
+
+resource "nsxt_policy_gateway_community_list" "${1:this}" {
+    communities = "${2:communities}"
+    display_name = "${3:display_name}"
+    gateway_path = "${4:gateway_path}"
+}

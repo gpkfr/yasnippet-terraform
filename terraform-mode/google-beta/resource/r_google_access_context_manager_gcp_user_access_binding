@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_access_context_manager_gcp_user_access_binding
+# key: r_google_access_context_manager_gcp_user_access_binding
+# --
+
+resource "google_access_context_manager_gcp_user_access_binding" "${1:this}" {
+    access_levels = "${2:access_levels}"
+    group_key = "${3:group_key}"
+    organization_id = "${4:organization_id}"
+}

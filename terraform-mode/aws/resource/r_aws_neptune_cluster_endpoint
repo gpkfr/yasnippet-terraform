@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_neptune_cluster_endpoint
+# key: r_aws_neptune_cluster_endpoint
+# --
+
+resource "aws_neptune_cluster_endpoint" "${1:this}" {
+    cluster_endpoint_identifier = "${2:cluster_endpoint_identifier}"
+    cluster_identifier = "${3:cluster_identifier}"
+    endpoint_type = "${4:endpoint_type}"
+}

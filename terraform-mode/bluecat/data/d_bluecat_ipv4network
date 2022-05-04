@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_bluecat_ipv4network
+# key: d_bluecat_ipv4network
+# --
+
+data "bluecat_ipv4network" "${1:this}" {
+    cidr = "${2:cidr}"
+}

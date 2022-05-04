@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_target_alert_policy_association
+# key: r_oci_data_safe_target_alert_policy_association
+# --
+
+resource "oci_data_safe_target_alert_policy_association" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    is_enabled = "${3:is_enabled}"
+    policy_id = "${4:policy_id}"
+    target_id = "${5:target_id}"
+}

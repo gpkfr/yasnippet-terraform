@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_network_acl
+# key: r_ncloud_network_acl
+# --
+
+resource "ncloud_network_acl" "${1:this}" {
+    vpc_no = "${2:vpc_no}"
+}

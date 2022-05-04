@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_capability_server_schema_descriptor
+# key: r_intersight_capability_server_schema_descriptor
+# --
+
+resource "intersight_capability_server_schema_descriptor" "${1:this}" {
+}

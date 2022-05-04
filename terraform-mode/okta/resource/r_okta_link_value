@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_link_value
+# key: r_okta_link_value
+# --
+
+resource "okta_link_value" "${1:this}" {
+    primary_name = "${2:primary_name}"
+    primary_user_id = "${3:primary_user_id}"
+}

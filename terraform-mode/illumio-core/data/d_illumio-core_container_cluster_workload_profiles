@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_container_cluster_workload_profiles
+# key: d_illumio-core_container_cluster_workload_profiles
+# --
+
+data "illumio-core_container_cluster_workload_profiles" "${1:this}" {
+    container_cluster_href = "${2:container_cluster_href}"
+}

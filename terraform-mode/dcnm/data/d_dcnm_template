@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dcnm_template
+# key: d_dcnm_template
+# --
+
+data "dcnm_template" "${1:this}" {
+    name = "${2:name}"
+}

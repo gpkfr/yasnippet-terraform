@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fastly_datacenters
+# key: d_fastly_datacenters
+# --
+
+data "fastly_datacenters" "${1:this}" {
+}

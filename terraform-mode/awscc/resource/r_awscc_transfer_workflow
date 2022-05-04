@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_transfer_workflow
+# key: r_awscc_transfer_workflow
+# --
+
+resource "awscc_transfer_workflow" "${1:this}" {
+    steps = "${2:steps}"
+}

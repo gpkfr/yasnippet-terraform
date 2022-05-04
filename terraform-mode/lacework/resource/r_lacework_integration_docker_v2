@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_lacework_integration_docker_v2
+# key: r_lacework_integration_docker_v2
+# --
+
+resource "lacework_integration_docker_v2" "${1:this}" {
+    name = "${2:name}"
+    password = "${3:password}"
+    registry_domain = "${4:registry_domain}"
+    username = "${5:username}"
+}

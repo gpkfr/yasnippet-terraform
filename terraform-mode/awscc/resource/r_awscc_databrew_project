@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_databrew_project
+# key: r_awscc_databrew_project
+# --
+
+resource "awscc_databrew_project" "${1:this}" {
+    dataset_name = "${2:dataset_name}"
+    name = "${3:name}"
+    recipe_name = "${4:recipe_name}"
+    role_arn = "${5:role_arn}"
+}

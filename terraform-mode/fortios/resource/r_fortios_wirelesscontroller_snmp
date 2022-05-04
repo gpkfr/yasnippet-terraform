@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_wirelesscontroller_snmp
+# key: r_fortios_wirelesscontroller_snmp
+# --
+
+resource "fortios_wirelesscontroller_snmp" "${1:this}" {
+}

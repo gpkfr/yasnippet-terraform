@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_splunkconfig_lookup_attributes
+# key: d_splunkconfig_lookup_attributes
+# --
+
+data "splunkconfig_lookup_attributes" "${1:this}" {
+    lookup_name = "${2:lookup_name}"
+}

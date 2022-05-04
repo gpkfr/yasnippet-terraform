@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aci_rest
+# key: r_aci_rest
+# --
+
+resource "aci_rest" "${1:this}" {
+    class_name = "${2:class_name}"
+    dn = "${3:dn}"
+}

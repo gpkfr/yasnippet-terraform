@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_commvault_azure_storage
+# key: r_commvault_azure_storage
+# --
+
+resource "commvault_azure_storage" "${1:this}" {
+    container = "${2:container}"
+    mediaagent = "${3:mediaagent}"
+    service_host = "${4:service_host}"
+    storage_name = "${5:storage_name}"
+}

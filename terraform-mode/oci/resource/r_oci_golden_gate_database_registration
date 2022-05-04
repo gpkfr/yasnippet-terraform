@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_oci_golden_gate_database_registration
+# key: r_oci_golden_gate_database_registration
+# --
+
+resource "oci_golden_gate_database_registration" "${1:this}" {
+    alias_name = "${2:alias_name}"
+    compartment_id = "${3:compartment_id}"
+    display_name = "${4:display_name}"
+    fqdn = "${5:fqdn}"
+    password = "${6:password}"
+    username = "${7:username}"
+}

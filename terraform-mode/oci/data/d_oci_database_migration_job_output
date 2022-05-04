@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_migration_job_output
+# key: d_oci_database_migration_job_output
+# --
+
+data "oci_database_migration_job_output" "${1:this}" {
+    job_id = "${2:job_id}"
+}

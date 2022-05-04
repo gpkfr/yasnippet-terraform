@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxt_alb_controller
+# key: r_vcd_nsxt_alb_controller
+# --
+
+resource "vcd_nsxt_alb_controller" "${1:this}" {
+    license_type = "${2:license_type}"
+    name = "${3:name}"
+    password = "${4:password}"
+    url = "${5:url}"
+    username = "${6:username}"
+}

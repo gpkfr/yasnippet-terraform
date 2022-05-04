@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cls_config
+# key: r_tencentcloud_cls_config
+# --
+
+resource "tencentcloud_cls_config" "${1:this}" {
+    name = "${2:name}"
+}

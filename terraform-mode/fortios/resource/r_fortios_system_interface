@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_interface
+# key: r_fortios_system_interface
+# --
+
+resource "fortios_system_interface" "${1:this}" {
+    name = "${2:name}"
+    vdom = "${3:vdom}"
+}

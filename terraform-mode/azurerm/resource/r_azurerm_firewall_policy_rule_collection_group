@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_firewall_policy_rule_collection_group
+# key: r_azurerm_firewall_policy_rule_collection_group
+# --
+
+resource "azurerm_firewall_policy_rule_collection_group" "${1:this}" {
+    firewall_policy_id = "${2:firewall_policy_id}"
+    name = "${3:name}"
+    priority = "${4:priority}"
+}

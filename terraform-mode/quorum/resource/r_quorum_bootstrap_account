@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_quorum_bootstrap_account
+# key: r_quorum_bootstrap_account
+# --
+
+resource "quorum_bootstrap_account" "${1:this}" {
+    wallet_id = "${2:wallet_id}"
+}

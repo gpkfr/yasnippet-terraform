@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_civo_firewall_rule
+# key: r_civo_firewall_rule
+# --
+
+resource "civo_firewall_rule" "${1:this}" {
+    action = "${2:action}"
+    cidr = "${3:cidr}"
+    direction = "${4:direction}"
+    firewall_id = "${5:firewall_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_vd_member_ep
+# key: d_intersight_storage_vd_member_ep
+# --
+
+data "intersight_storage_vd_member_ep" "${1:this}" {
+}

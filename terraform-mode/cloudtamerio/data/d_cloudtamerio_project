@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudtamerio_project
+# key: d_cloudtamerio_project
+# --
+
+data "cloudtamerio_project" "${1:this}" {
+}

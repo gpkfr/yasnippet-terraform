@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_apprunner_service
+# key: r_aws_apprunner_service
+# --
+
+resource "aws_apprunner_service" "${1:this}" {
+    service_name = "${2:service_name}"
+}

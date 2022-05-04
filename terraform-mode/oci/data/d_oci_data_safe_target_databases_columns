@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_target_databases_columns
+# key: d_oci_data_safe_target_databases_columns
+# --
+
+data "oci_data_safe_target_databases_columns" "${1:this}" {
+    target_database_id = "${2:target_database_id}"
+}

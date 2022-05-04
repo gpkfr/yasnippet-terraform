@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53_health_check
+# key: r_awscc_route53_health_check
+# --
+
+resource "awscc_route53_health_check" "${1:this}" {
+    health_check_config = "${2:health_check_config}"
+}

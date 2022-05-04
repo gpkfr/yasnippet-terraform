@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_eks_nodegroup
+# key: d_awscc_eks_nodegroup
+# --
+
+data "awscc_eks_nodegroup" "${1:this}" {
+    id = "${2:id}"
+}

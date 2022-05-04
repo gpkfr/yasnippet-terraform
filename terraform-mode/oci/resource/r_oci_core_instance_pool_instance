@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_instance_pool_instance
+# key: r_oci_core_instance_pool_instance
+# --
+
+resource "oci_core_instance_pool_instance" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    instance_pool_id = "${3:instance_pool_id}"
+}

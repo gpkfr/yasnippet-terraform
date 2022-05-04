@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_config_map_v1_data
+# key: r_kubernetes_config_map_v1_data
+# --
+
+resource "kubernetes_config_map_v1_data" "${1:this}" {
+    data = "${2:data}"
+}

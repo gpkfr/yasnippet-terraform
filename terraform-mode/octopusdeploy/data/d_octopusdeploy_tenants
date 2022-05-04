@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_tenants
+# key: d_octopusdeploy_tenants
+# --
+
+data "octopusdeploy_tenants" "${1:this}" {
+}

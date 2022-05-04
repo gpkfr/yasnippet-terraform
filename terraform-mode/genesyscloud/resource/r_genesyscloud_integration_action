@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_integration_action
+# key: r_genesyscloud_integration_action
+# --
+
+resource "genesyscloud_integration_action" "${1:this}" {
+    category = "${2:category}"
+    contract_input = "${3:contract_input}"
+    contract_output = "${4:contract_output}"
+    name = "${5:name}"
+}

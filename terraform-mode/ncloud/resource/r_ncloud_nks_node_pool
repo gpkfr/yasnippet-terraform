@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_nks_node_pool
+# key: r_ncloud_nks_node_pool
+# --
+
+resource "ncloud_nks_node_pool" "${1:this}" {
+    cluster_uuid = "${2:cluster_uuid}"
+    node_count = "${3:node_count}"
+    node_pool_name = "${4:node_pool_name}"
+    product_code = "${5:product_code}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_firehydrant_runbook
+# key: d_firehydrant_runbook
+# --
+
+data "firehydrant_runbook" "${1:this}" {
+    id = "${2:id}"
+}

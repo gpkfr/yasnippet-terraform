@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vault_mfa_okta
+# key: r_vault_mfa_okta
+# --
+
+resource "vault_mfa_okta" "${1:this}" {
+    api_token = "${2:api_token}"
+    mount_accessor = "${3:mount_accessor}"
+    name = "${4:name}"
+    org_name = "${5:org_name}"
+}

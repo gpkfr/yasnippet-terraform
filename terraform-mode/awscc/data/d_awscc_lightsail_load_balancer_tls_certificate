@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lightsail_load_balancer_tls_certificate
+# key: d_awscc_lightsail_load_balancer_tls_certificate
+# --
+
+data "awscc_lightsail_load_balancer_tls_certificate" "${1:this}" {
+    id = "${2:id}"
+}

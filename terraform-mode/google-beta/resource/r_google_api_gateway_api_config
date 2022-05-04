@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_api_gateway_api_config
+# key: r_google_api_gateway_api_config
+# --
+
+resource "google_api_gateway_api_config" "${1:this}" {
+    api = "${2:api}"
+}

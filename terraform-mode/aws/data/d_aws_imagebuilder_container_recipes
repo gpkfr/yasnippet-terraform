@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_imagebuilder_container_recipes
+# key: d_aws_imagebuilder_container_recipes
+# --
+
+data "aws_imagebuilder_container_recipes" "${1:this}" {
+}

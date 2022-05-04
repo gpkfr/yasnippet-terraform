@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_transformaction
+# key: r_citrixadc_transformaction
+# --
+
+resource "citrixadc_transformaction" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_selected_hostnames
+# key: r_akamai_appsec_selected_hostnames
+# --
+
+resource "akamai_appsec_selected_hostnames" "${1:this}" {
+    config_id = "${2:config_id}"
+    hostnames = "${3:hostnames}"
+    mode = "${4:mode}"
+    version = "${5:version}"
+}

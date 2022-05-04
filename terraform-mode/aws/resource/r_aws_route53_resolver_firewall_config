@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53_resolver_firewall_config
+# key: r_aws_route53_resolver_firewall_config
+# --
+
+resource "aws_route53_resolver_firewall_config" "${1:this}" {
+    resource_id = "${2:resource_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnglobal_auditsyslogpolicy_binding
+# key: r_citrixadc_vpnglobal_auditsyslogpolicy_binding
+# --
+
+resource "citrixadc_vpnglobal_auditsyslogpolicy_binding" "${1:this}" {
+    policyname = "${2:policyname}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_metering_computation_schedule
+# key: d_oci_metering_computation_schedule
+# --
+
+data "oci_metering_computation_schedule" "${1:this}" {
+    schedule_id = "${2:schedule_id}"
+}

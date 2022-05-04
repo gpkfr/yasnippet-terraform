@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_networkmanager_global_network
+# key: d_awscc_networkmanager_global_network
+# --
+
+data "awscc_networkmanager_global_network" "${1:this}" {
+    id = "${2:id}"
+}

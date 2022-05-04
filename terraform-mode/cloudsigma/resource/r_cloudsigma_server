@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cloudsigma_server
+# key: r_cloudsigma_server
+# --
+
+resource "cloudsigma_server" "${1:this}" {
+    cpu = "${2:cpu}"
+    memory = "${3:memory}"
+    name = "${4:name}"
+    vnc_password = "${5:vnc_password}"
+}

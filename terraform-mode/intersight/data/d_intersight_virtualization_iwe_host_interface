@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_iwe_host_interface
+# key: d_intersight_virtualization_iwe_host_interface
+# --
+
+data "intersight_virtualization_iwe_host_interface" "${1:this}" {
+}

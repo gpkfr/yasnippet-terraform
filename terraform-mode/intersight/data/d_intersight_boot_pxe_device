@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_boot_pxe_device
+# key: d_intersight_boot_pxe_device
+# --
+
+data "intersight_boot_pxe_device" "${1:this}" {
+}

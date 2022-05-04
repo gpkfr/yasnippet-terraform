@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontrollersecuritypolicy_localaccess
+# key: r_fortios_switchcontrollersecuritypolicy_localaccess
+# --
+
+resource "fortios_switchcontrollersecuritypolicy_localaccess" "${1:this}" {
+}

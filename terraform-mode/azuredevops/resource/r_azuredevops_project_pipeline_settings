@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_project_pipeline_settings
+# key: r_azuredevops_project_pipeline_settings
+# --
+
+resource "azuredevops_project_pipeline_settings" "${1:this}" {
+    project_id = "${2:project_id}"
+}

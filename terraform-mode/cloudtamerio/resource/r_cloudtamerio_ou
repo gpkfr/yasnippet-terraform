@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudtamerio_ou
+# key: r_cloudtamerio_ou
+# --
+
+resource "cloudtamerio_ou" "${1:this}" {
+    name = "${2:name}"
+    parent_ou_id = "${3:parent_ou_id}"
+    permission_scheme_id = "${4:permission_scheme_id}"
+}

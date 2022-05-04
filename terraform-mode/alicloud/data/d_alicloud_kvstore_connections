@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_kvstore_connections
+# key: d_alicloud_kvstore_connections
+# --
+
+data "alicloud_kvstore_connections" "${1:this}" {
+    ids = "${2:ids}"
+}

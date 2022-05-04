@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_systemgroup
+# key: r_citrixadc_systemgroup
+# --
+
+resource "citrixadc_systemgroup" "${1:this}" {
+    groupname = "${2:groupname}"
+}

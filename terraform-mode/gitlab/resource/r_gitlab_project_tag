@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_project_tag
+# key: r_gitlab_project_tag
+# --
+
+resource "gitlab_project_tag" "${1:this}" {
+    name = "${2:name}"
+    project = "${3:project}"
+    ref = "${4:ref}"
+}

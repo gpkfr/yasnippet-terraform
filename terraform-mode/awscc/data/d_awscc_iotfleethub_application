@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotfleethub_application
+# key: d_awscc_iotfleethub_application
+# --
+
+data "awscc_iotfleethub_application" "${1:this}" {
+    id = "${2:id}"
+}

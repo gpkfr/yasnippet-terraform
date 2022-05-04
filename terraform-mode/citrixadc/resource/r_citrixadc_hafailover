@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_hafailover
+# key: r_citrixadc_hafailover
+# --
+
+resource "citrixadc_hafailover" "${1:this}" {
+    ipaddress = "${2:ipaddress}"
+    state = "${3:state}"
+}

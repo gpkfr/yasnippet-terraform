@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_ippool_grp
+# key: r_fortimanager_object_firewall_ippool_grp
+# --
+
+resource "fortimanager_object_firewall_ippool_grp" "${1:this}" {
+}

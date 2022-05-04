@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_auto_scaling_policy
+# key: r_ncloud_auto_scaling_policy
+# --
+
+resource "ncloud_auto_scaling_policy" "${1:this}" {
+    adjustment_type_code = "${2:adjustment_type_code}"
+    auto_scaling_group_no = "${3:auto_scaling_group_no}"
+    name = "${4:name}"
+    scaling_adjustment = "${5:scaling_adjustment}"
+}

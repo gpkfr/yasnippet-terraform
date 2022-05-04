@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_advanced_cluster
+# key: r_mongodbatlas_advanced_cluster
+# --
+
+resource "mongodbatlas_advanced_cluster" "${1:this}" {
+    cluster_type = "${2:cluster_type}"
+    name = "${3:name}"
+    project_id = "${4:project_id}"
+}

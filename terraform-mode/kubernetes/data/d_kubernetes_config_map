@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kubernetes_config_map
+# key: d_kubernetes_config_map
+# --
+
+data "kubernetes_config_map" "${1:this}" {
+}

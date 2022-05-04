@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_nia_inventory_fabric
+# key: d_intersight_niatelemetry_nia_inventory_fabric
+# --
+
+data "intersight_niatelemetry_nia_inventory_fabric" "${1:this}" {
+}

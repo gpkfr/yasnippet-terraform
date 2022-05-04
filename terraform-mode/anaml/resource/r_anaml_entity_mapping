@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_anaml_entity_mapping
+# key: r_anaml_entity_mapping
+# --
+
+resource "anaml_entity_mapping" "${1:this}" {
+    from = "${2:from}"
+    mapping = "${3:mapping}"
+    to = "${4:to}"
+}

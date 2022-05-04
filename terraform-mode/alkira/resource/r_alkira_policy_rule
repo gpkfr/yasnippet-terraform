@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alkira_policy_rule
+# key: r_alkira_policy_rule
+# --
+
+resource "alkira_policy_rule" "${1:this}" {
+    dscp = "${2:dscp}"
+    name = "${3:name}"
+    protocol = "${4:protocol}"
+}

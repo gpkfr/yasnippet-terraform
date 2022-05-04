@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_trafficsniffer
+# key: r_fortios_switchcontroller_trafficsniffer
+# --
+
+resource "fortios_switchcontroller_trafficsniffer" "${1:this}" {
+}

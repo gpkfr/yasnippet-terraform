@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_onelogin_users
+# key: d_onelogin_users
+# --
+
+data "onelogin_users" "${1:this}" {
+}

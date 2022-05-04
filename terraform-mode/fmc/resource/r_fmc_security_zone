@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fmc_security_zone
+# key: r_fmc_security_zone
+# --
+
+resource "fmc_security_zone" "${1:this}" {
+    interface_mode = "${2:interface_mode}"
+    name = "${3:name}"
+}

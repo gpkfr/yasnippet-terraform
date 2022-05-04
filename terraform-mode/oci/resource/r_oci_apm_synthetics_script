@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_apm_synthetics_script
+# key: r_oci_apm_synthetics_script
+# --
+
+resource "oci_apm_synthetics_script" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+    content = "${3:content}"
+    content_type = "${4:content_type}"
+    display_name = "${5:display_name}"
+}

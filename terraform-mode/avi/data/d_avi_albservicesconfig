@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_albservicesconfig
+# key: d_avi_albservicesconfig
+# --
+
+data "avi_albservicesconfig" "${1:this}" {
+}

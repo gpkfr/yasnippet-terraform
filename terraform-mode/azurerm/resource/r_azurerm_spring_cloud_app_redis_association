@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_spring_cloud_app_redis_association
+# key: r_azurerm_spring_cloud_app_redis_association
+# --
+
+resource "azurerm_spring_cloud_app_redis_association" "${1:this}" {
+    name = "${2:name}"
+    redis_access_key = "${3:redis_access_key}"
+    redis_cache_id = "${4:redis_cache_id}"
+    spring_cloud_app_id = "${5:spring_cloud_app_id}"
+}

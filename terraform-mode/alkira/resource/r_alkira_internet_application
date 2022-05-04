@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_alkira_internet_application
+# key: r_alkira_internet_application
+# --
+
+resource "alkira_internet_application" "${1:this}" {
+    connector_id = "${2:connector_id}"
+    connector_type = "${3:connector_type}"
+    fqdn_prefix = "${4:fqdn_prefix}"
+    name = "${5:name}"
+    segment_id = "${6:segment_id}"
+    size = "${7:size}"
+}

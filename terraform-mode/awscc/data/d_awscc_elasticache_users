@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_elasticache_users
+# key: d_awscc_elasticache_users
+# --
+
+data "awscc_elasticache_users" "${1:this}" {
+}

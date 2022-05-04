@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_servicecatalogappregistry_attribute_groups
+# key: d_awscc_servicecatalogappregistry_attribute_groups
+# --
+
+data "awscc_servicecatalogappregistry_attribute_groups" "${1:this}" {
+}

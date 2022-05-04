@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_bgp
+# key: d_fortios_router_bgp
+# --
+
+data "fortios_router_bgp" "${1:this}" {
+}

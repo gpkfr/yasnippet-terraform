@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_systemdhcp_serverlist
+# key: d_fortios_systemdhcp_serverlist
+# --
+
+data "fortios_systemdhcp_serverlist" "${1:this}" {
+}

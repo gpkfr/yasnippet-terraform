@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_commvault_plan
+# key: r_commvault_plan
+# --
+
+resource "commvault_plan" "${1:this}" {
+    backup_destination_name = "${2:backup_destination_name}"
+    backup_destination_storage = "${3:backup_destination_storage}"
+    plan_name = "${4:plan_name}"
+    retention_period_days = "${5:retention_period_days}"
+}

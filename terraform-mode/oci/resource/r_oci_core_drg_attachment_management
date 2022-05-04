@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_drg_attachment_management
+# key: r_oci_core_drg_attachment_management
+# --
+
+resource "oci_core_drg_attachment_management" "${1:this}" {
+    attachment_type = "${2:attachment_type}"
+    compartment_id = "${3:compartment_id}"
+    drg_id = "${4:drg_id}"
+}

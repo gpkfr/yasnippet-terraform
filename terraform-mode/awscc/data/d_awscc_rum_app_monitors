@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_rum_app_monitors
+# key: d_awscc_rum_app_monitors
+# --
+
+data "awscc_rum_app_monitors" "${1:this}" {
+}

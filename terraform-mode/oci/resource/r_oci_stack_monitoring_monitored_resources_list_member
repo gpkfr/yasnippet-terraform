@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_stack_monitoring_monitored_resources_list_member
+# key: r_oci_stack_monitoring_monitored_resources_list_member
+# --
+
+resource "oci_stack_monitoring_monitored_resources_list_member" "${1:this}" {
+    monitored_resource_id = "${2:monitored_resource_id}"
+}

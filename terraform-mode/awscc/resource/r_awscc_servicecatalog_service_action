@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_servicecatalog_service_action
+# key: r_awscc_servicecatalog_service_action
+# --
+
+resource "awscc_servicecatalog_service_action" "${1:this}" {
+    definition = "${2:definition}"
+    definition_type = "${3:definition_type}"
+    name = "${4:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_britive_application
+# key: d_britive_application
+# --
+
+data "britive_application" "${1:this}" {
+    name = "${2:name}"
+}

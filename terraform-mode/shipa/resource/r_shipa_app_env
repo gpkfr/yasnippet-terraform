@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_shipa_app_env
+# key: r_shipa_app_env
+# --
+
+resource "shipa_app_env" "${1:this}" {
+    app = "${2:app}"
+}

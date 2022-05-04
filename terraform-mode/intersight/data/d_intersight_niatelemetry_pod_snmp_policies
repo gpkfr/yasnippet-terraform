@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_pod_snmp_policies
+# key: d_intersight_niatelemetry_pod_snmp_policies
+# --
+
+data "intersight_niatelemetry_pod_snmp_policies" "${1:this}" {
+}

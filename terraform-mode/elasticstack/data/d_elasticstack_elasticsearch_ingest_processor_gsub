@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_gsub
+# key: d_elasticstack_elasticsearch_ingest_processor_gsub
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_gsub" "${1:this}" {
+    field = "${2:field}"
+    pattern = "${3:pattern}"
+    replacement = "${4:replacement}"
+}

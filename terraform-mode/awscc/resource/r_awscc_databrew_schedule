@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_databrew_schedule
+# key: r_awscc_databrew_schedule
+# --
+
+resource "awscc_databrew_schedule" "${1:this}" {
+    cron_expression = "${2:cron_expression}"
+    name = "${3:name}"
+}

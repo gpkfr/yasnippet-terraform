@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_testsedatastorelevel2
+# key: d_avi_testsedatastorelevel2
+# --
+
+data "avi_testsedatastorelevel2" "${1:this}" {
+}

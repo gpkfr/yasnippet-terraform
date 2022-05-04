@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_forecast_dataset
+# key: r_awscc_forecast_dataset
+# --
+
+resource "awscc_forecast_dataset" "${1:this}" {
+    dataset_name = "${2:dataset_name}"
+    dataset_type = "${3:dataset_type}"
+    domain = "${4:domain}"
+    schema = "${5:schema}"
+}

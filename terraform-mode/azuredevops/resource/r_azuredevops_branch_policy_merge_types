@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_branch_policy_merge_types
+# key: r_azuredevops_branch_policy_merge_types
+# --
+
+resource "azuredevops_branch_policy_merge_types" "${1:this}" {
+    project_id = "${2:project_id}"
+}

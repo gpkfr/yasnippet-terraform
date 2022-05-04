@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oci_blockchain_blockchain_platform
+# key: r_oci_blockchain_blockchain_platform
+# --
+
+resource "oci_blockchain_blockchain_platform" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    compute_shape = "${3:compute_shape}"
+    display_name = "${4:display_name}"
+    idcs_access_token = "${5:idcs_access_token}"
+    platform_role = "${6:platform_role}"
+}

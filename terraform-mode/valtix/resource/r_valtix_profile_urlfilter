@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_urlfilter
+# key: r_valtix_profile_urlfilter
+# --
+
+resource "valtix_profile_urlfilter" "${1:this}" {
+    name = "${2:name}"
+}

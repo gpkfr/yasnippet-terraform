@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortios_vpncertificate_local
+# key: r_fortios_vpncertificate_local
+# --
+
+resource "fortios_vpncertificate_local" "${1:this}" {
+    name = "${2:name}"
+}

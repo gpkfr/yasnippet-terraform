@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_database_ca
+# key: d_digitalocean_database_ca
+# --
+
+data "digitalocean_database_ca" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+}

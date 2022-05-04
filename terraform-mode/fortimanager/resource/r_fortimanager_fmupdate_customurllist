@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_fmupdate_customurllist
+# key: r_fortimanager_fmupdate_customurllist
+# --
+
+resource "fortimanager_fmupdate_customurllist" "${1:this}" {
+}

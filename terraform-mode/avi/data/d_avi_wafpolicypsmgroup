@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_wafpolicypsmgroup
+# key: d_avi_wafpolicypsmgroup
+# --
+
+data "avi_wafpolicypsmgroup" "${1:this}" {
+}

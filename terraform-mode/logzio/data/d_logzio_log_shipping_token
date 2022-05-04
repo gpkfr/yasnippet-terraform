@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logzio_log_shipping_token
+# key: d_logzio_log_shipping_token
+# --
+
+data "logzio_log_shipping_token" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_buildkite_team
+# key: r_buildkite_team
+# --
+
+resource "buildkite_team" "${1:this}" {
+    default_member_role = "${2:default_member_role}"
+    default_team = "${3:default_team}"
+    name = "${4:name}"
+    privacy = "${5:privacy}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_trust_point
+# key: r_intersight_iam_trust_point
+# --
+
+resource "intersight_iam_trust_point" "${1:this}" {
+}

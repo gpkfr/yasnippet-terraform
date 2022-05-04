@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_net_app_base_disk
+# key: d_intersight_storage_net_app_base_disk
+# --
+
+data "intersight_storage_net_app_base_disk" "${1:this}" {
+}

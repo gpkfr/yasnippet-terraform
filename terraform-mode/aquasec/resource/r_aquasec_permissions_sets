@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_permissions_sets
+# key: r_aquasec_permissions_sets
+# --
+
+resource "aquasec_permissions_sets" "${1:this}" {
+    actions = "${2:actions}"
+    name = "${3:name}"
+    ui_access = "${4:ui_access}"
+}

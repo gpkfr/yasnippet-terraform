@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_local_sensitive_file
+# key: r_local_sensitive_file
+# --
+
+resource "local_sensitive_file" "${1:this}" {
+    filename = "${2:filename}"
+}

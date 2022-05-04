@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_bios_policy
+# key: d_intersight_bios_policy
+# --
+
+data "intersight_bios_policy" "${1:this}" {
+}

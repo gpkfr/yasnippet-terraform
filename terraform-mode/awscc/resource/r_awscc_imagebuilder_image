@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_imagebuilder_image
+# key: r_awscc_imagebuilder_image
+# --
+
+resource "awscc_imagebuilder_image" "${1:this}" {
+}

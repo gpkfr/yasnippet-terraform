@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_awscc
+# key: r_harness_platform_connector_awscc
+# --
+
+resource "harness_platform_connector_awscc" "${1:this}" {
+    account_id = "${2:account_id}"
+    features_enabled = "${3:features_enabled}"
+    identifier = "${4:identifier}"
+    name = "${5:name}"
+    report_name = "${6:report_name}"
+    s3_bucket = "${7:s3_bucket}"
+}

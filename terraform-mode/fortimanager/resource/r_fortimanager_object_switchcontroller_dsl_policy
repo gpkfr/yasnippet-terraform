@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_switchcontroller_dsl_policy
+# key: r_fortimanager_object_switchcontroller_dsl_policy
+# --
+
+resource "fortimanager_object_switchcontroller_dsl_policy" "${1:this}" {
+}

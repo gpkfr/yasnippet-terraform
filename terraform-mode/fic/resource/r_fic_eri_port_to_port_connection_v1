@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_fic_eri_port_to_port_connection_v1
+# key: r_fic_eri_port_to_port_connection_v1
+# --
+
+resource "fic_eri_port_to_port_connection_v1" "${1:this}" {
+    bandwidth = "${2:bandwidth}"
+    destination_port_id = "${3:destination_port_id}"
+    destination_vlan = "${4:destination_vlan}"
+    name = "${5:name}"
+    source_port_id = "${6:source_port_id}"
+    source_vlan = "${7:source_vlan}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iam_oidc_provider
+# key: r_awscc_iam_oidc_provider
+# --
+
+resource "awscc_iam_oidc_provider" "${1:this}" {
+    thumbprint_list = "${2:thumbprint_list}"
+}

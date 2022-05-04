@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vra_fabric_compute
+# key: r_vra_fabric_compute
+# --
+
+resource "vra_fabric_compute" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_sniffer
+# key: r_fortimanager_system_sniffer
+# --
+
+resource "fortimanager_system_sniffer" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_accessproxy_move
+# key: r_fortimanager_object_firewall_accessproxy_move
+# --
+
+resource "fortimanager_object_firewall_accessproxy_move" "${1:this}" {
+    access_proxy = "${2:access_proxy}"
+    option = "${3:option}"
+    target = "${4:target}"
+}

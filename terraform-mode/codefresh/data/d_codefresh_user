@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_codefresh_user
+# key: d_codefresh_user
+# --
+
+data "codefresh_user" "${1:this}" {
+    email = "${2:email}"
+}

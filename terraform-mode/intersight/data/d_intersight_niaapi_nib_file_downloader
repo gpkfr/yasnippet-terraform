@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niaapi_nib_file_downloader
+# key: d_intersight_niaapi_nib_file_downloader
+# --
+
+data "intersight_niaapi_nib_file_downloader" "${1:this}" {
+}

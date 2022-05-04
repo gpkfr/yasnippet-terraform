@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tfe_slug
+# key: d_tfe_slug
+# --
+
+data "tfe_slug" "${1:this}" {
+    source_path = "${2:source_path}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_vnic_fc_if
+# key: d_intersight_vnic_fc_if
+# --
+
+data "intersight_vnic_fc_if" "${1:this}" {
+}

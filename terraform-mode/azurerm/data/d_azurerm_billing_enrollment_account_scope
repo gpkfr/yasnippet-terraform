@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_billing_enrollment_account_scope
+# key: d_azurerm_billing_enrollment_account_scope
+# --
+
+data "azurerm_billing_enrollment_account_scope" "${1:this}" {
+    billing_account_name = "${2:billing_account_name}"
+    enrollment_account_name = "${3:enrollment_account_name}"
+}

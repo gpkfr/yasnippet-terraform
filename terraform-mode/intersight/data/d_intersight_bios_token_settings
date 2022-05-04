@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_bios_token_settings
+# key: d_intersight_bios_token_settings
+# --
+
+data "intersight_bios_token_settings" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ecr_registry_policy
+# key: r_aws_ecr_registry_policy
+# --
+
+resource "aws_ecr_registry_policy" "${1:this}" {
+    policy = "${2:policy}"
+}

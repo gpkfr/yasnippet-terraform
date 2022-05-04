@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_org_group
+# key: r_vcd_org_group
+# --
+
+resource "vcd_org_group" "${1:this}" {
+    name = "${2:name}"
+    provider_type = "${3:provider_type}"
+    role = "${4:role}"
+}

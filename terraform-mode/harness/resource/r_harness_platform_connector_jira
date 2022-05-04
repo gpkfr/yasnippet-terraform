@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_jira
+# key: r_harness_platform_connector_jira
+# --
+
+resource "harness_platform_connector_jira" "${1:this}" {
+    identifier = "${2:identifier}"
+    name = "${3:name}"
+    password_ref = "${4:password_ref}"
+    url = "${5:url}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_artifacts_upload
+# key: r_artifacts_upload
+# --
+
+resource "artifacts_upload" "${1:this}" {
+    upload_file = "${2:upload_file}"
+    upload_path = "${3:upload_path}"
+}

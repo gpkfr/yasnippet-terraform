@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudfront_cache_policy
+# key: r_awscc_cloudfront_cache_policy
+# --
+
+resource "awscc_cloudfront_cache_policy" "${1:this}" {
+    cache_policy_config = "${2:cache_policy_config}"
+}

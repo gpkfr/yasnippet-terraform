@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_interface_ethernet_lldp
+# key: r_thunder_interface_ethernet_lldp
+# --
+
+resource "thunder_interface_ethernet_lldp" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vercel_project
+# key: r_vercel_project
+# --
+
+resource "vercel_project" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_batch_compute_environment
+# key: d_awscc_batch_compute_environment
+# --
+
+data "awscc_batch_compute_environment" "${1:this}" {
+    id = "${2:id}"
+}

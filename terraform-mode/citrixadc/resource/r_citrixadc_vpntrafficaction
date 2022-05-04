@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpntrafficaction
+# key: r_citrixadc_vpntrafficaction
+# --
+
+resource "citrixadc_vpntrafficaction" "${1:this}" {
+    name = "${2:name}"
+    qual = "${3:qual}"
+}

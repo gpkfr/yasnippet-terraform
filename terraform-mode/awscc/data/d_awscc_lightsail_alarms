@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lightsail_alarms
+# key: d_awscc_lightsail_alarms
+# --
+
+data "awscc_lightsail_alarms" "${1:this}" {
+}

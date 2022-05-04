@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ah_ssh_key
+# key: r_ah_ssh_key
+# --
+
+resource "ah_ssh_key" "${1:this}" {
+    public_key = "${2:public_key}"
+}

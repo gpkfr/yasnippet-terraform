@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_compute_board
+# key: d_intersight_compute_board
+# --
+
+data "intersight_compute_board" "${1:this}" {
+}

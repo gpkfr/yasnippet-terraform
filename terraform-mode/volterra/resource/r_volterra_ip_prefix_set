@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_ip_prefix_set
+# key: r_volterra_ip_prefix_set
+# --
+
+resource "volterra_ip_prefix_set" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+    prefix = "${4:prefix}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_firmware_upgrade_impact
+# key: r_intersight_firmware_upgrade_impact
+# --
+
+resource "intersight_firmware_upgrade_impact" "${1:this}" {
+}

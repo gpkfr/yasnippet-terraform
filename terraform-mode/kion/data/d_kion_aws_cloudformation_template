@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kion_aws_cloudformation_template
+# key: d_kion_aws_cloudformation_template
+# --
+
+data "kion_aws_cloudformation_template" "${1:this}" {
+}

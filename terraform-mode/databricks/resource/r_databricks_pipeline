@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_databricks_pipeline
+# key: r_databricks_pipeline
+# --
+
+resource "databricks_pipeline" "${1:this}" {
+}

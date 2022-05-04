@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_stepfunctions_state_machine
+# key: d_awscc_stepfunctions_state_machine
+# --
+
+data "awscc_stepfunctions_state_machine" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_zerotier_identity
+# key: r_zerotier_identity
+# --
+
+resource "zerotier_identity" "${1:this}" {
+}

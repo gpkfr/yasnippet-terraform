@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_gke_hub_membership
+# key: r_google_gke_hub_membership
+# --
+
+resource "google_gke_hub_membership" "${1:this}" {
+    membership_id = "${2:membership_id}"
+}

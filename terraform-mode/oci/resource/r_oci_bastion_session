@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_bastion_session
+# key: r_oci_bastion_session
+# --
+
+resource "oci_bastion_session" "${1:this}" {
+    bastion_id = "${2:bastion_id}"
+}

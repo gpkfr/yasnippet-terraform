@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_devops_build_run
+# key: r_oci_devops_build_run
+# --
+
+resource "oci_devops_build_run" "${1:this}" {
+    build_pipeline_id = "${2:build_pipeline_id}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_gamelift_game_server_group
+# key: r_aws_gamelift_game_server_group
+# --
+
+resource "aws_gamelift_game_server_group" "${1:this}" {
+    game_server_group_name = "${2:game_server_group_name}"
+    max_size = "${3:max_size}"
+    min_size = "${4:min_size}"
+    role_arn = "${5:role_arn}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_wirelesscontroller_hotspot20_anqp3gppcellular
+# key: r_fortimanager_object_wirelesscontroller_hotspot20_anqp3gppcellular
+# --
+
+resource "fortimanager_object_wirelesscontroller_hotspot20_anqp3gppcellular" "${1:this}" {
+}

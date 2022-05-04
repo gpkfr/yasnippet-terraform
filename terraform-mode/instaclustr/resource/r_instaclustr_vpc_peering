@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_instaclustr_vpc_peering
+# key: r_instaclustr_vpc_peering
+# --
+
+resource "instaclustr_vpc_peering" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    peer_account_id = "${3:peer_account_id}"
+    peer_vpc_id = "${4:peer_vpc_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_quorum_transaction_manager_keypair
+# key: r_quorum_transaction_manager_keypair
+# --
+
+resource "quorum_transaction_manager_keypair" "${1:this}" {
+}

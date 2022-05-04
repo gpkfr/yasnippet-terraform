@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_ecl_network_gateway_interface_v2
+# key: r_ecl_network_gateway_interface_v2
+# --
+
+resource "ecl_network_gateway_interface_v2" "${1:this}" {
+    gw_vipv4 = "${2:gw_vipv4}"
+    netmask = "${3:netmask}"
+    network_id = "${4:network_id}"
+    primary_ipv4 = "${5:primary_ipv4}"
+    secondary_ipv4 = "${6:secondary_ipv4}"
+    service_type = "${7:service_type}"
+    vrid = "${8:vrid}"
+}

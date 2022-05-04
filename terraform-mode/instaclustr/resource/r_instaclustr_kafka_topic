@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_instaclustr_kafka_topic
+# key: r_instaclustr_kafka_topic
+# --
+
+resource "instaclustr_kafka_topic" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    partitions = "${3:partitions}"
+    replication_factor = "${4:replication_factor}"
+    topic = "${5:topic}"
+}

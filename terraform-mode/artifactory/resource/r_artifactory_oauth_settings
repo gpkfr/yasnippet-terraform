@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_oauth_settings
+# key: r_artifactory_oauth_settings
+# --
+
+resource "artifactory_oauth_settings" "${1:this}" {
+}

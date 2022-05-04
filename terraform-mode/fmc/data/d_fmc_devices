@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fmc_devices
+# key: d_fmc_devices
+# --
+
+data "fmc_devices" "${1:this}" {
+    name = "${2:name}"
+}

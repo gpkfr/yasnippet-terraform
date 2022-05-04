@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnglobal_domain_binding
+# key: r_citrixadc_vpnglobal_domain_binding
+# --
+
+resource "citrixadc_vpnglobal_domain_binding" "${1:this}" {
+    intranetdomain = "${2:intranetdomain}"
+}

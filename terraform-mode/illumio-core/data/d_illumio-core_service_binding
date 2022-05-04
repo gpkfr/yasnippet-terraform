@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_service_binding
+# key: d_illumio-core_service_binding
+# --
+
+data "illumio-core_service_binding" "${1:this}" {
+    href = "${2:href}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_internet_gateway_attachment
+# key: r_aws_internet_gateway_attachment
+# --
+
+resource "aws_internet_gateway_attachment" "${1:this}" {
+    internet_gateway_id = "${2:internet_gateway_id}"
+    vpc_id = "${3:vpc_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_tam_advisory_definition
+# key: r_intersight_tam_advisory_definition
+# --
+
+resource "intersight_tam_advisory_definition" "${1:this}" {
+}

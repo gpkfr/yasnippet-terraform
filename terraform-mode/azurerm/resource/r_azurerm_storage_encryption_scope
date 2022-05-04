@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_encryption_scope
+# key: r_azurerm_storage_encryption_scope
+# --
+
+resource "azurerm_storage_encryption_scope" "${1:this}" {
+    name = "${2:name}"
+    source = "${3:source}"
+    storage_account_id = "${4:storage_account_id}"
+}

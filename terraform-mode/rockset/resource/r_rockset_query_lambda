@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rockset_query_lambda
+# key: r_rockset_query_lambda
+# --
+
+resource "rockset_query_lambda" "${1:this}" {
+    name = "${2:name}"
+    workspace = "${3:workspace}"
+}

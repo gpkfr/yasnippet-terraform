@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_k8s_cluster
+# key: d_scaleway_k8s_cluster
+# --
+
+data "scaleway_k8s_cluster" "${1:this}" {
+}

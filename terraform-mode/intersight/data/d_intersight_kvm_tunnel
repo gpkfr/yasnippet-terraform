@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kvm_tunnel
+# key: d_intersight_kvm_tunnel
+# --
+
+data "intersight_kvm_tunnel" "${1:this}" {
+}

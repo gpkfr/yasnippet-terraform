@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_cloud_backup_snapshot_export_bucket
+# key: r_mongodbatlas_cloud_backup_snapshot_export_bucket
+# --
+
+resource "mongodbatlas_cloud_backup_snapshot_export_bucket" "${1:this}" {
+    bucket_name = "${2:bucket_name}"
+    cloud_provider = "${3:cloud_provider}"
+    iam_role_id = "${4:iam_role_id}"
+    project_id = "${5:project_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_nexus_dashboards
+# key: d_intersight_niatelemetry_nexus_dashboards
+# --
+
+data "intersight_niatelemetry_nexus_dashboards" "${1:this}" {
+}

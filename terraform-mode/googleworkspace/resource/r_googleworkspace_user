@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_googleworkspace_user
+# key: r_googleworkspace_user
+# --
+
+resource "googleworkspace_user" "${1:this}" {
+    primary_email = "${2:primary_email}"
+}

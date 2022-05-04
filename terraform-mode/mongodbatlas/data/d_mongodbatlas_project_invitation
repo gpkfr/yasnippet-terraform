@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_project_invitation
+# key: d_mongodbatlas_project_invitation
+# --
+
+data "mongodbatlas_project_invitation" "${1:this}" {
+    invitation_id = "${2:invitation_id}"
+    project_id = "${3:project_id}"
+    username = "${4:username}"
+}

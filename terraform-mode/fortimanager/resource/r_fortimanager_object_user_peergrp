@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_peergrp
+# key: r_fortimanager_object_user_peergrp
+# --
+
+resource "fortimanager_object_user_peergrp" "${1:this}" {
+}

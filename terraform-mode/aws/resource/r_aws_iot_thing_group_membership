@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_iot_thing_group_membership
+# key: r_aws_iot_thing_group_membership
+# --
+
+resource "aws_iot_thing_group_membership" "${1:this}" {
+    thing_group_name = "${2:thing_group_name}"
+    thing_name = "${3:thing_name}"
+}

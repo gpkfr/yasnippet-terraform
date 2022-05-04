@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_route
+# key: r_ncloud_route
+# --
+
+resource "ncloud_route" "${1:this}" {
+    destination_cidr_block = "${2:destination_cidr_block}"
+    route_table_no = "${3:route_table_no}"
+    target_name = "${4:target_name}"
+    target_no = "${5:target_no}"
+    target_type = "${6:target_type}"
+}

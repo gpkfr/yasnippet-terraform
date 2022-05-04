@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_usb_policy
+# key: r_volterra_usb_policy
+# --
+
+resource "volterra_usb_policy" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

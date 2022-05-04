@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_foundation_image
+# key: r_nutanix_foundation_image
+# --
+
+resource "nutanix_foundation_image" "${1:this}" {
+    filename = "${2:filename}"
+    installer_type = "${3:installer_type}"
+    source = "${4:source}"
+}

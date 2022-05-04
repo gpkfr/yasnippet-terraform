@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_port
+# key: d_equinix_metal_port
+# --
+
+data "equinix_metal_port" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_vm_cluster_update
+# key: d_oci_database_vm_cluster_update
+# --
+
+data "oci_database_vm_cluster_update" "${1:this}" {
+    update_id = "${2:update_id}"
+    vm_cluster_id = "${3:vm_cluster_id}"
+}

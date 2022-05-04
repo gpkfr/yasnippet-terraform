@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_metalcloud_drive_array
+# key: r_metalcloud_drive_array
+# --
+
+resource "metalcloud_drive_array" "${1:this}" {
+    infrastructure_id = "${2:infrastructure_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_datadog_security_monitoring_rule
+# key: r_datadog_security_monitoring_rule
+# --
+
+resource "datadog_security_monitoring_rule" "${1:this}" {
+    message = "${2:message}"
+    name = "${3:name}"
+}

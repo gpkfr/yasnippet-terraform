@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_commvault_company
+# key: r_commvault_company
+# --
+
+resource "commvault_company" "${1:this}" {
+    company_alias = "${2:company_alias}"
+    company_name = "${3:company_name}"
+    contact_name = "${4:contact_name}"
+    email = "${5:email}"
+}

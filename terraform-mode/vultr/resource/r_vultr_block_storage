@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vultr_block_storage
+# key: r_vultr_block_storage
+# --
+
+resource "vultr_block_storage" "${1:this}" {
+    region = "${2:region}"
+    size_gb = "${3:size_gb}"
+}

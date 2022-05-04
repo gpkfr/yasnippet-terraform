@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_static_site_custom_domain
+# key: r_azurerm_static_site_custom_domain
+# --
+
+resource "azurerm_static_site_custom_domain" "${1:this}" {
+    domain_name = "${2:domain_name}"
+    static_site_id = "${3:static_site_id}"
+    validation_type = "${4:validation_type}"
+}

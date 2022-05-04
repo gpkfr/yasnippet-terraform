@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_esxi_console
+# key: d_intersight_virtualization_esxi_console
+# --
+
+data "intersight_virtualization_esxi_console" "${1:this}" {
+}

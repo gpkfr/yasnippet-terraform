@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_protection_backup_instance_blob_storage
+# key: r_azurerm_data_protection_backup_instance_blob_storage
+# --
+
+resource "azurerm_data_protection_backup_instance_blob_storage" "${1:this}" {
+    backup_policy_id = "${2:backup_policy_id}"
+    location = "${3:location}"
+    name = "${4:name}"
+    storage_account_id = "${5:storage_account_id}"
+    vault_id = "${6:vault_id}"
+}

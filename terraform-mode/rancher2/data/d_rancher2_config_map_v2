@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_rancher2_config_map_v2
+# key: d_rancher2_config_map_v2
+# --
+
+data "rancher2_config_map_v2" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    name = "${3:name}"
+}

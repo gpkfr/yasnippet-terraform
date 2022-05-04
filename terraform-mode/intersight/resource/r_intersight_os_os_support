@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_os_os_support
+# key: r_intersight_os_os_support
+# --
+
+resource "intersight_os_os_support" "${1:this}" {
+}

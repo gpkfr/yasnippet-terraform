@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_anchore_registry
+# key: r_anchore_registry
+# --
+
+resource "anchore_registry" "${1:this}" {
+    name = "${2:name}"
+    password = "${3:password}"
+    url = "${4:url}"
+    username = "${5:username}"
+}

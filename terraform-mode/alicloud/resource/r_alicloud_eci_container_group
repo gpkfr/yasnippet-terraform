@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_eci_container_group
+# key: r_alicloud_eci_container_group
+# --
+
+resource "alicloud_eci_container_group" "${1:this}" {
+    container_group_name = "${2:container_group_name}"
+    security_group_id = "${3:security_group_id}"
+    vswitch_id = "${4:vswitch_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_codeartifact_repository
+# key: r_awscc_codeartifact_repository
+# --
+
+resource "awscc_codeartifact_repository" "${1:this}" {
+    domain_name = "${2:domain_name}"
+    repository_name = "${3:repository_name}"
+}

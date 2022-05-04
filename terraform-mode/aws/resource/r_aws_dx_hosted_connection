@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_dx_hosted_connection
+# key: r_aws_dx_hosted_connection
+# --
+
+resource "aws_dx_hosted_connection" "${1:this}" {
+    bandwidth = "${2:bandwidth}"
+    connection_id = "${3:connection_id}"
+    name = "${4:name}"
+    owner_account_id = "${5:owner_account_id}"
+    vlan = "${6:vlan}"
+}

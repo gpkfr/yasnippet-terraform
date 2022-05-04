@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationepaaction
+# key: r_citrixadc_authenticationepaaction
+# --
+
+resource "citrixadc_authenticationepaaction" "${1:this}" {
+    csecexpr = "${2:csecexpr}"
+    name = "${3:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_buddy_profile_email
+# key: r_buddy_profile_email
+# --
+
+resource "buddy_profile_email" "${1:this}" {
+    email = "${2:email}"
+}

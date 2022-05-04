@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_ai_anomaly_detection_project
+# key: d_oci_ai_anomaly_detection_project
+# --
+
+data "oci_ai_anomaly_detection_project" "${1:this}" {
+    project_id = "${2:project_id}"
+}

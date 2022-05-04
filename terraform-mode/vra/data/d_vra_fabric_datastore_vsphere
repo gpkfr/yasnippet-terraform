@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vra_fabric_datastore_vsphere
+# key: d_vra_fabric_datastore_vsphere
+# --
+
+data "vra_fabric_datastore_vsphere" "${1:this}" {
+}

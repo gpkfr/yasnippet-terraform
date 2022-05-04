@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_google_monitoring_istio_canonical_service
+# key: d_google_monitoring_istio_canonical_service
+# --
+
+data "google_monitoring_istio_canonical_service" "${1:this}" {
+    canonical_service = "${2:canonical_service}"
+    canonical_service_namespace = "${3:canonical_service_namespace}"
+    mesh_uid = "${4:mesh_uid}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_app_image_config
+# key: r_aws_sagemaker_app_image_config
+# --
+
+resource "aws_sagemaker_app_image_config" "${1:this}" {
+    app_image_config_name = "${2:app_image_config_name}"
+}

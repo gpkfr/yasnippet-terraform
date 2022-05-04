@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_clustersynclist
+# key: d_fortios_system_clustersynclist
+# --
+
+data "fortios_system_clustersynclist" "${1:this}" {
+}

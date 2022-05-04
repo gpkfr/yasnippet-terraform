@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_config_delivery_channel
+# key: r_alicloud_config_delivery_channel
+# --
+
+resource "alicloud_config_delivery_channel" "${1:this}" {
+    delivery_channel_assume_role_arn = "${2:delivery_channel_assume_role_arn}"
+    delivery_channel_target_arn = "${3:delivery_channel_target_arn}"
+    delivery_channel_type = "${4:delivery_channel_type}"
+}

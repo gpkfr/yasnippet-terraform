@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_macpool_pool
+# key: r_intersight_macpool_pool
+# --
+
+resource "intersight_macpool_pool" "${1:this}" {
+}

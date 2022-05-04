@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_bastion_bastion
+# key: d_oci_bastion_bastion
+# --
+
+data "oci_bastion_bastion" "${1:this}" {
+    bastion_id = "${2:bastion_id}"
+}

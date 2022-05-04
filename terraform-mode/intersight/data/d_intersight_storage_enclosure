@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_enclosure
+# key: d_intersight_storage_enclosure
+# --
+
+data "intersight_storage_enclosure" "${1:this}" {
+}

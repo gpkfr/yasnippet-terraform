@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_show_objects
+# key: d_checkpoint_management_show_objects
+# --
+
+data "checkpoint_management_show_objects" "${1:this}" {
+}

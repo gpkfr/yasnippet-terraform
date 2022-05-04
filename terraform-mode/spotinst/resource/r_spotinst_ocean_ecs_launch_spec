@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_ocean_ecs_launch_spec
+# key: r_spotinst_ocean_ecs_launch_spec
+# --
+
+resource "spotinst_ocean_ecs_launch_spec" "${1:this}" {
+    name = "${2:name}"
+    ocean_id = "${3:ocean_id}"
+}

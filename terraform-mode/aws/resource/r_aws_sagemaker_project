@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_project
+# key: r_aws_sagemaker_project
+# --
+
+resource "aws_sagemaker_project" "${1:this}" {
+    project_name = "${2:project_name}"
+}

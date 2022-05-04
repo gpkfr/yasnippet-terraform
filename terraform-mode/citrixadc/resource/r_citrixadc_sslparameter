@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslparameter
+# key: r_citrixadc_sslparameter
+# --
+
+resource "citrixadc_sslparameter" "${1:this}" {
+}

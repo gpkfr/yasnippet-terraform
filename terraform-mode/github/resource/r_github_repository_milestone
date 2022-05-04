@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_github_repository_milestone
+# key: r_github_repository_milestone
+# --
+
+resource "github_repository_milestone" "${1:this}" {
+    owner = "${2:owner}"
+    repository = "${3:repository}"
+    title = "${4:title}"
+}

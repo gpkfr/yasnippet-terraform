@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gcore_lbpool
+# key: r_gcore_lbpool
+# --
+
+resource "gcore_lbpool" "${1:this}" {
+    lb_algorithm = "${2:lb_algorithm}"
+    name = "${3:name}"
+    protocol = "${4:protocol}"
+}

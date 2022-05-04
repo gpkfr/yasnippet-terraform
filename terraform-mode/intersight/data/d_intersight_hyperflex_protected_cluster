@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_protected_cluster
+# key: d_intersight_hyperflex_protected_cluster
+# --
+
+data "intersight_hyperflex_protected_cluster" "${1:this}" {
+}

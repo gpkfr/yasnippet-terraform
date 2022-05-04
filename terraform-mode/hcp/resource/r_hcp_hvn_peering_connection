@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_hcp_hvn_peering_connection
+# key: r_hcp_hvn_peering_connection
+# --
+
+resource "hcp_hvn_peering_connection" "${1:this}" {
+    hvn_1 = "${2:hvn_1}"
+    hvn_2 = "${3:hvn_2}"
+}

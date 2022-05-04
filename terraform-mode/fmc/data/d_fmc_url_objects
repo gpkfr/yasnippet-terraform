@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fmc_url_objects
+# key: d_fmc_url_objects
+# --
+
+data "fmc_url_objects" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_version
+# key: d_intersight_kubernetes_version
+# --
+
+data "intersight_kubernetes_version" "${1:this}" {
+}

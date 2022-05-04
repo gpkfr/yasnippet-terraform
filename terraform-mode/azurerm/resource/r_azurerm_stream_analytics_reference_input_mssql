@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_stream_analytics_reference_input_mssql
+# key: r_azurerm_stream_analytics_reference_input_mssql
+# --
+
+resource "azurerm_stream_analytics_reference_input_mssql" "${1:this}" {
+    database = "${2:database}"
+    full_snapshot_query = "${3:full_snapshot_query}"
+    name = "${4:name}"
+    password = "${5:password}"
+    refresh_type = "${6:refresh_type}"
+    resource_group_name = "${7:resource_group_name}"
+    server = "${8:server}"
+    stream_analytics_job_name = "${9:stream_analytics_job_name}"
+    username = "${10:username}"
+}

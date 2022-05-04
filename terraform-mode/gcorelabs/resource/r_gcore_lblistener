@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_gcore_lblistener
+# key: r_gcore_lblistener
+# --
+
+resource "gcore_lblistener" "${1:this}" {
+    loadbalancer_id = "${2:loadbalancer_id}"
+    name = "${3:name}"
+    protocol = "${4:protocol}"
+    protocol_port = "${5:protocol_port}"
+}

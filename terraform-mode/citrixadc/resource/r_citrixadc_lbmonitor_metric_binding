@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbmonitor_metric_binding
+# key: r_citrixadc_lbmonitor_metric_binding
+# --
+
+resource "citrixadc_lbmonitor_metric_binding" "${1:this}" {
+    metric = "${2:metric}"
+    monitorname = "${3:monitorname}"
+}

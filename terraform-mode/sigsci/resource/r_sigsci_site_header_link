@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_site_header_link
+# key: r_sigsci_site_header_link
+# --
+
+resource "sigsci_site_header_link" "${1:this}" {
+    link = "${2:link}"
+    name = "${3:name}"
+    site_short_name = "${4:site_short_name}"
+    type = "${5:type}"
+}

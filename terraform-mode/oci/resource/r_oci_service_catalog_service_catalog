@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_service_catalog_service_catalog
+# key: r_oci_service_catalog_service_catalog
+# --
+
+resource "oci_service_catalog_service_catalog" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+}

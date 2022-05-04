@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_anxcloud_vlans
+# key: d_anxcloud_vlans
+# --
+
+data "anxcloud_vlans" "${1:this}" {
+}

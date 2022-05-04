@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_adverity_datatype_mapping
+# key: r_adverity_datatype_mapping
+# --
+
+resource "adverity_datatype_mapping" "${1:this}" {
+    datastream_id = "${2:datastream_id}"
+    schema = "${3:schema}"
+}

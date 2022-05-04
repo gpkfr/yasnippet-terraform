@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_device_registration
+# key: r_aviatrix_device_registration
+# --
+
+resource "aviatrix_device_registration" "${1:this}" {
+    name = "${2:name}"
+    public_ip = "${3:public_ip}"
+    username = "${4:username}"
+}

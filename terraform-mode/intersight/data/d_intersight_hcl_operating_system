@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hcl_operating_system
+# key: d_intersight_hcl_operating_system
+# --
+
+data "intersight_hcl_operating_system" "${1:this}" {
+}

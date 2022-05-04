@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_quicksight_dashboard
+# key: d_awscc_quicksight_dashboard
+# --
+
+data "awscc_quicksight_dashboard" "${1:this}" {
+    id = "${2:id}"
+}

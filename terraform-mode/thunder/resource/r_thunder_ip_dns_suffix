@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ip_dns_suffix
+# key: r_thunder_ip_dns_suffix
+# --
+
+resource "thunder_ip_dns_suffix" "${1:this}" {
+}

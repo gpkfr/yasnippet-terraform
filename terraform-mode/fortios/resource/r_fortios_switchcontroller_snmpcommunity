@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_snmpcommunity
+# key: r_fortios_switchcontroller_snmpcommunity
+# --
+
+resource "fortios_switchcontroller_snmpcommunity" "${1:this}" {
+}

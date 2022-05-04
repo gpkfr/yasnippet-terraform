@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_gke_hub_feature_membership
+# key: r_google_gke_hub_feature_membership
+# --
+
+resource "google_gke_hub_feature_membership" "${1:this}" {
+    feature = "${2:feature}"
+    location = "${3:location}"
+    membership = "${4:membership}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_eks_addon
+# key: r_aws_eks_addon
+# --
+
+resource "aws_eks_addon" "${1:this}" {
+    addon_name = "${2:addon_name}"
+    cluster_name = "${3:cluster_name}"
+}

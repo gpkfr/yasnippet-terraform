@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_apgitlab_service_slack
+# key: r_apgitlab_service_slack
+# --
+
+resource "apgitlab_service_slack" "${1:this}" {
+    project = "${2:project}"
+    webhook = "${3:webhook}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_machine_learning_compute_cluster
+# key: r_azurerm_machine_learning_compute_cluster
+# --
+
+resource "azurerm_machine_learning_compute_cluster" "${1:this}" {
+    location = "${2:location}"
+    machine_learning_workspace_id = "${3:machine_learning_workspace_id}"
+    name = "${4:name}"
+    vm_priority = "${5:vm_priority}"
+    vm_size = "${6:vm_size}"
+}

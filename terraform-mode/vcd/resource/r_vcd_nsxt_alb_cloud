@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxt_alb_cloud
+# key: r_vcd_nsxt_alb_cloud
+# --
+
+resource "vcd_nsxt_alb_cloud" "${1:this}" {
+    controller_id = "${2:controller_id}"
+    importable_cloud_id = "${3:importable_cloud_id}"
+    name = "${4:name}"
+    network_pool_id = "${5:network_pool_id}"
+}

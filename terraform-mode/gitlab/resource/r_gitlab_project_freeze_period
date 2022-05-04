@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_project_freeze_period
+# key: r_gitlab_project_freeze_period
+# --
+
+resource "gitlab_project_freeze_period" "${1:this}" {
+    freeze_end = "${2:freeze_end}"
+    freeze_start = "${3:freeze_start}"
+    project_id = "${4:project_id}"
+}

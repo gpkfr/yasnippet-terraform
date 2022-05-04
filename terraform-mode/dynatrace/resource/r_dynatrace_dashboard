@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_dashboard
+# key: r_dynatrace_dashboard
+# --
+
+resource "dynatrace_dashboard" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_app_image_config
+# key: d_awscc_sagemaker_app_image_config
+# --
+
+data "awscc_sagemaker_app_image_config" "${1:this}" {
+    id = "${2:id}"
+}

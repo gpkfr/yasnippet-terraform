@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_backgroundssescan
+# key: r_fortimanager_object_system_npu_backgroundssescan
+# --
+
+resource "fortimanager_object_system_npu_backgroundssescan" "${1:this}" {
+}

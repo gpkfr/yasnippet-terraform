@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akamai_property_rules_template
+# key: d_akamai_property_rules_template
+# --
+
+data "akamai_property_rules_template" "${1:this}" {
+    template_file = "${2:template_file}"
+}

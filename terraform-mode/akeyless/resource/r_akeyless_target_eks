@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_target_eks
+# key: r_akeyless_target_eks
+# --
+
+resource "akeyless_target_eks" "${1:this}" {
+    eks_access_key_id = "${2:eks_access_key_id}"
+    eks_cluster_ca_cert = "${3:eks_cluster_ca_cert}"
+    eks_cluster_endpoint = "${4:eks_cluster_endpoint}"
+    eks_cluster_name = "${5:eks_cluster_name}"
+    eks_secret_access_key = "${6:eks_secret_access_key}"
+    name = "${7:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuread_service_principal_delegated_permission_grant
+# key: r_azuread_service_principal_delegated_permission_grant
+# --
+
+resource "azuread_service_principal_delegated_permission_grant" "${1:this}" {
+    claim_values = "${2:claim_values}"
+    resource_service_principal_object_id = "${3:resource_service_principal_object_id}"
+    service_principal_object_id = "${4:service_principal_object_id}"
+}

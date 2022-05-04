@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_share
+# key: r_profitbricks_share
+# --
+
+resource "profitbricks_share" "${1:this}" {
+    edit_privilege = "${2:edit_privilege}"
+    group_id = "${3:group_id}"
+    resource_id = "${4:resource_id}"
+    share_privilege = "${5:share_privilege}"
+}

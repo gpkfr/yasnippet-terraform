@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_serverspace_server
+# key: r_serverspace_server
+# --
+
+resource "serverspace_server" "${1:this}" {
+    boot_volume_size = "${2:boot_volume_size}"
+    cpu = "${3:cpu}"
+    image = "${4:image}"
+    location = "${5:location}"
+    name = "${6:name}"
+    ram = "${7:ram}"
+}

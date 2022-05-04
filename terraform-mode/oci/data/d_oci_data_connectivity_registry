@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_connectivity_registry
+# key: d_oci_data_connectivity_registry
+# --
+
+data "oci_data_connectivity_registry" "${1:this}" {
+    registry_id = "${2:registry_id}"
+}

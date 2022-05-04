@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_eks_identity_provider_config
+# key: r_aws_eks_identity_provider_config
+# --
+
+resource "aws_eks_identity_provider_config" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+}

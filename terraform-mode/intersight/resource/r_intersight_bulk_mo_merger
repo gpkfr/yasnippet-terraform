@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_bulk_mo_merger
+# key: r_intersight_bulk_mo_merger
+# --
+
+resource "intersight_bulk_mo_merger" "${1:this}" {
+}

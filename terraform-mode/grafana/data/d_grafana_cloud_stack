@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_grafana_cloud_stack
+# key: d_grafana_cloud_stack
+# --
+
+data "grafana_cloud_stack" "${1:this}" {
+    slug = "${2:slug}"
+}

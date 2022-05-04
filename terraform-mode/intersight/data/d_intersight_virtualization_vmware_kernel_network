@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_vmware_kernel_network
+# key: d_intersight_virtualization_vmware_kernel_network
+# --
+
+data "intersight_virtualization_vmware_kernel_network" "${1:this}" {
+}

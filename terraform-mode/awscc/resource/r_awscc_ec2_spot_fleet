@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_spot_fleet
+# key: r_awscc_ec2_spot_fleet
+# --
+
+resource "awscc_ec2_spot_fleet" "${1:this}" {
+    spot_fleet_request_config_data = "${2:spot_fleet_request_config_data}"
+}

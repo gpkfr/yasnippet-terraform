@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_evpn_tenant
+# key: r_nsxt_policy_evpn_tenant
+# --
+
+resource "nsxt_policy_evpn_tenant" "${1:this}" {
+    display_name = "${2:display_name}"
+    transport_zone_path = "${3:transport_zone_path}"
+    vni_pool_path = "${4:vni_pool_path}"
+}

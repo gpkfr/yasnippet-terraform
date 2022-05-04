@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_inventory_request
+# key: r_intersight_inventory_request
+# --
+
+resource "intersight_inventory_request" "${1:this}" {
+}

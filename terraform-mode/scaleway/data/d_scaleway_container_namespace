@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_container_namespace
+# key: d_scaleway_container_namespace
+# --
+
+data "scaleway_container_namespace" "${1:this}" {
+}

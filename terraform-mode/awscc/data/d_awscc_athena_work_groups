@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_athena_work_groups
+# key: d_awscc_athena_work_groups
+# --
+
+data "awscc_athena_work_groups" "${1:this}" {
+}

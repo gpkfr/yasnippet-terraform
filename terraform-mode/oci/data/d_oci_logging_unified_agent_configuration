@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_logging_unified_agent_configuration
+# key: d_oci_logging_unified_agent_configuration
+# --
+
+data "oci_logging_unified_agent_configuration" "${1:this}" {
+    unified_agent_configuration_id = "${2:unified_agent_configuration_id}"
+}

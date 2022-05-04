@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_container_runtime_policy
+# key: d_intersight_kubernetes_container_runtime_policy
+# --
+
+data "intersight_kubernetes_container_runtime_policy" "${1:this}" {
+}

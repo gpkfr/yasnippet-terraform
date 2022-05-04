@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vercel_deployment
+# key: r_vercel_deployment
+# --
+
+resource "vercel_deployment" "${1:this}" {
+    files = "${2:files}"
+    project_id = "${3:project_id}"
+}

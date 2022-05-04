@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_machine_learning_synapse_spark
+# key: r_azurerm_machine_learning_synapse_spark
+# --
+
+resource "azurerm_machine_learning_synapse_spark" "${1:this}" {
+    location = "${2:location}"
+    machine_learning_workspace_id = "${3:machine_learning_workspace_id}"
+    name = "${4:name}"
+    synapse_spark_pool_id = "${5:synapse_spark_pool_id}"
+}

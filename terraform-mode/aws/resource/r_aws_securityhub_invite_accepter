@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_securityhub_invite_accepter
+# key: r_aws_securityhub_invite_accepter
+# --
+
+resource "aws_securityhub_invite_accepter" "${1:this}" {
+    master_id = "${2:master_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_processautomation_trigger
+# key: d_genesyscloud_processautomation_trigger
+# --
+
+data "genesyscloud_processautomation_trigger" "${1:this}" {
+    name = "${2:name}"
+}

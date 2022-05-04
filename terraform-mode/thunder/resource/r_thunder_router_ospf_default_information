@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_router_ospf_default_information
+# key: r_thunder_router_ospf_default_information
+# --
+
+resource "thunder_router_ospf_default_information" "${1:this}" {
+}

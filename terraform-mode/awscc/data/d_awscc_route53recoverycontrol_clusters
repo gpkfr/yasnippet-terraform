@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53recoverycontrol_clusters
+# key: d_awscc_route53recoverycontrol_clusters
+# --
+
+data "awscc_route53recoverycontrol_clusters" "${1:this}" {
+}

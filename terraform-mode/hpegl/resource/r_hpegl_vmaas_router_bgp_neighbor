@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_hpegl_vmaas_router_bgp_neighbor
+# key: r_hpegl_vmaas_router_bgp_neighbor
+# --
+
+resource "hpegl_vmaas_router_bgp_neighbor" "${1:this}" {
+    bfd_enabled = "${2:bfd_enabled}"
+    bfd_interval = "${3:bfd_interval}"
+    hop_limit = "${4:hop_limit}"
+    ip_address = "${5:ip_address}"
+    remote_as = "${6:remote_as}"
+    router_id = "${7:router_id}"
+}

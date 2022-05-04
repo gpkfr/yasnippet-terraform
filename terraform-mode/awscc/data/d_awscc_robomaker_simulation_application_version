@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_robomaker_simulation_application_version
+# key: d_awscc_robomaker_simulation_application_version
+# --
+
+data "awscc_robomaker_simulation_application_version" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_quality_forms_evaluation
+# key: d_genesyscloud_quality_forms_evaluation
+# --
+
+data "genesyscloud_quality_forms_evaluation" "${1:this}" {
+    name = "${2:name}"
+}

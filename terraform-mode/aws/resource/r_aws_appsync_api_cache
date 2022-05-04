@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_appsync_api_cache
+# key: r_aws_appsync_api_cache
+# --
+
+resource "aws_appsync_api_cache" "${1:this}" {
+    api_caching_behavior = "${2:api_caching_behavior}"
+    api_id = "${3:api_id}"
+    ttl = "${4:ttl}"
+    type = "${5:type}"
+}

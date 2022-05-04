@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_csf
+# key: d_fortios_system_csf
+# --
+
+data "fortios_system_csf" "${1:this}" {
+}

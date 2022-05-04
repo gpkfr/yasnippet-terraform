@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_thermal_policy
+# key: r_intersight_thermal_policy
+# --
+
+resource "intersight_thermal_policy" "${1:this}" {
+}

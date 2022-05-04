@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_datadog_security_monitoring_filter
+# key: r_datadog_security_monitoring_filter
+# --
+
+resource "datadog_security_monitoring_filter" "${1:this}" {
+    is_enabled = "${2:is_enabled}"
+    name = "${3:name}"
+    query = "${4:query}"
+}

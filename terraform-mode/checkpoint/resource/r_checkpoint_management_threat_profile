@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_threat_profile
+# key: r_checkpoint_management_threat_profile
+# --
+
+resource "checkpoint_management_threat_profile" "${1:this}" {
+    name = "${2:name}"
+}

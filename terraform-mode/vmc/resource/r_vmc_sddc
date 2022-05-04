@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vmc_sddc
+# key: r_vmc_sddc
+# --
+
+resource "vmc_sddc" "${1:this}" {
+    num_host = "${2:num_host}"
+    region = "${3:region}"
+    sddc_name = "${4:sddc_name}"
+}

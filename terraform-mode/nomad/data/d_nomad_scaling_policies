@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nomad_scaling_policies
+# key: d_nomad_scaling_policies
+# --
+
+data "nomad_scaling_policies" "${1:this}" {
+}

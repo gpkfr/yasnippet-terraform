@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudwatch_event_api_destination
+# key: r_aws_cloudwatch_event_api_destination
+# --
+
+resource "aws_cloudwatch_event_api_destination" "${1:this}" {
+    connection_arn = "${2:connection_arn}"
+    http_method = "${3:http_method}"
+    invocation_endpoint = "${4:invocation_endpoint}"
+    name = "${5:name}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_astra_streaming_tenant
+# key: r_astra_streaming_tenant
+# --
+
+resource "astra_streaming_tenant" "${1:this}" {
+    cloud_provider = "${2:cloud_provider}"
+    region = "${3:region}"
+    tenant_name = "${4:tenant_name}"
+    topic = "${5:topic}"
+    user_email = "${6:user_email}"
+}

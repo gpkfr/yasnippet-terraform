@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_cvo_azure
+# key: r_netapp-cloudmanager_cvo_azure
+# --
+
+resource "netapp-cloudmanager_cvo_azure" "${1:this}" {
+    client_id = "${2:client_id}"
+    location = "${3:location}"
+    name = "${4:name}"
+    subnet_id = "${5:subnet_id}"
+    subscription_id = "${6:subscription_id}"
+    svm_password = "${7:svm_password}"
+    vnet_id = "${8:vnet_id}"
+}

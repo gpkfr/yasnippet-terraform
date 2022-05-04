@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_redshift_event_subscriptions
+# key: d_awscc_redshift_event_subscriptions
+# --
+
+data "awscc_redshift_event_subscriptions" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_applicationinsights_applications
+# key: d_awscc_applicationinsights_applications
+# --
+
+data "awscc_applicationinsights_applications" "${1:this}" {
+}

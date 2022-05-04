@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_billing_mpa_account_scope
+# key: d_azurerm_billing_mpa_account_scope
+# --
+
+data "azurerm_billing_mpa_account_scope" "${1:this}" {
+    billing_account_name = "${2:billing_account_name}"
+    customer_name = "${3:customer_name}"
+}

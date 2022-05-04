@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_quorum_bootstrap_network
+# key: r_quorum_bootstrap_network
+# --
+
+resource "quorum_bootstrap_network" "${1:this}" {
+    name = "${2:name}"
+}

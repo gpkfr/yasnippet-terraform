@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_okta_captcha_org_wide_settings
+# key: r_okta_captcha_org_wide_settings
+# --
+
+resource "okta_captcha_org_wide_settings" "${1:this}" {
+}

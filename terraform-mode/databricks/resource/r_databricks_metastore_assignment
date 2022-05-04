@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_databricks_metastore_assignment
+# key: r_databricks_metastore_assignment
+# --
+
+resource "databricks_metastore_assignment" "${1:this}" {
+    metastore_id = "${2:metastore_id}"
+    workspace_id = "${3:workspace_id}"
+}

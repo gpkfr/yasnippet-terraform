@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslcacertgroup
+# key: r_citrixadc_sslcacertgroup
+# --
+
+resource "citrixadc_sslcacertgroup" "${1:this}" {
+    cacertgroupname = "${2:cacertgroupname}"
+}

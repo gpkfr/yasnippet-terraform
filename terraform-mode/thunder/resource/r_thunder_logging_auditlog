@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_logging_auditlog
+# key: r_thunder_logging_auditlog
+# --
+
+resource "thunder_logging_auditlog" "${1:this}" {
+}

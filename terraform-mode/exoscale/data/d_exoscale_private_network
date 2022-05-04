@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_exoscale_private_network
+# key: d_exoscale_private_network
+# --
+
+data "exoscale_private_network" "${1:this}" {
+    zone = "${2:zone}"
+}

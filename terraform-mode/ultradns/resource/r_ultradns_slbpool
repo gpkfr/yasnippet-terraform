@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_slbpool
+# key: r_ultradns_slbpool
+# --
+
+resource "ultradns_slbpool" "${1:this}" {
+    owner_name = "${2:owner_name}"
+    record_type = "${3:record_type}"
+    region_failure_sensitivity = "${4:region_failure_sensitivity}"
+    response_method = "${5:response_method}"
+    serving_preference = "${6:serving_preference}"
+    zone_name = "${7:zone_name}"
+}

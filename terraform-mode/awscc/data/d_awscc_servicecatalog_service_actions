@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_servicecatalog_service_actions
+# key: d_awscc_servicecatalog_service_actions
+# --
+
+data "awscc_servicecatalog_service_actions" "${1:this}" {
+}

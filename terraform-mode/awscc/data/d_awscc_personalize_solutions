@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_personalize_solutions
+# key: d_awscc_personalize_solutions
+# --
+
+data "awscc_personalize_solutions" "${1:this}" {
+}

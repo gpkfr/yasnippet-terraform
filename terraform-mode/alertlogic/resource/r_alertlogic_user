@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alertlogic_user
+# key: r_alertlogic_user
+# --
+
+resource "alertlogic_user" "${1:this}" {
+    email = "${2:email}"
+    name = "${3:name}"
+}

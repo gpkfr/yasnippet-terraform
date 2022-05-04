@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_management_zone
+# key: r_dynatrace_management_zone
+# --
+
+resource "dynatrace_management_zone" "${1:this}" {
+    name = "${2:name}"
+}

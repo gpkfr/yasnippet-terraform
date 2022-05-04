@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_emr_release_labels
+# key: d_aws_emr_release_labels
+# --
+
+data "aws_emr_release_labels" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_spring_cloud_storage
+# key: r_azurerm_spring_cloud_storage
+# --
+
+resource "azurerm_spring_cloud_storage" "${1:this}" {
+    name = "${2:name}"
+    spring_cloud_service_id = "${3:spring_cloud_service_id}"
+    storage_account_key = "${4:storage_account_key}"
+    storage_account_name = "${5:storage_account_name}"
+}

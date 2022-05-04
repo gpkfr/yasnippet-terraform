@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kentik-synthetics_agents
+# key: d_kentik-synthetics_agents
+# --
+
+data "kentik-synthetics_agents" "${1:this}" {
+}

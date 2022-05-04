@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_vrrp_peer_group
+# key: r_thunder_vrrp_peer_group
+# --
+
+resource "thunder_vrrp_peer_group" "${1:this}" {
+}

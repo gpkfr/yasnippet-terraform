@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_target_ssh
+# key: r_akeyless_target_ssh
+# --
+
+resource "akeyless_target_ssh" "${1:this}" {
+    name = "${2:name}"
+}

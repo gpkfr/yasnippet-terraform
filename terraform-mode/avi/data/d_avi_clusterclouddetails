@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_clusterclouddetails
+# key: d_avi_clusterclouddetails
+# --
+
+data "avi_clusterclouddetails" "${1:this}" {
+}

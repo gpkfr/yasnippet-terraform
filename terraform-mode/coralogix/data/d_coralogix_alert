@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_coralogix_alert
+# key: d_coralogix_alert
+# --
+
+data "coralogix_alert" "${1:this}" {
+    alert_id = "${2:alert_id}"
+}

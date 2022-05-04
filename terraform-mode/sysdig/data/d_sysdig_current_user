@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_sysdig_current_user
+# key: d_sysdig_current_user
+# --
+
+data "sysdig_current_user" "${1:this}" {
+}

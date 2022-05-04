@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vlan_nsip_binding
+# key: r_citrixadc_vlan_nsip_binding
+# --
+
+resource "citrixadc_vlan_nsip_binding" "${1:this}" {
+    ipaddress = "${2:ipaddress}"
+    vlanid = "${3:vlanid}"
+}

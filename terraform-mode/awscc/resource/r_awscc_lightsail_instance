@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lightsail_instance
+# key: r_awscc_lightsail_instance
+# --
+
+resource "awscc_lightsail_instance" "${1:this}" {
+    blueprint_id = "${2:blueprint_id}"
+    bundle_id = "${3:bundle_id}"
+    instance_name = "${4:instance_name}"
+}

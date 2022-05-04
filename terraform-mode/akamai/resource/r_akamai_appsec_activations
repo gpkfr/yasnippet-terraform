@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_activations
+# key: r_akamai_appsec_activations
+# --
+
+resource "akamai_appsec_activations" "${1:this}" {
+    config_id = "${2:config_id}"
+    notification_emails = "${3:notification_emails}"
+    version = "${4:version}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_dhcp_relay_globalsettings
+# key: r_ciscoasa_dhcp_relay_globalsettings
+# --
+
+resource "ciscoasa_dhcp_relay_globalsettings" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_syslog_sys_msg_fac_filter
+# key: d_intersight_niatelemetry_syslog_sys_msg_fac_filter
+# --
+
+data "intersight_niatelemetry_syslog_sys_msg_fac_filter" "${1:this}" {
+}

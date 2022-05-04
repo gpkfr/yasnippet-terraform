@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_elastigroup_azure_v3
+# key: r_spotinst_elastigroup_azure_v3
+# --
+
+resource "spotinst_elastigroup_azure_v3" "${1:this}" {
+    name = "${2:name}"
+    od_sizes = "${3:od_sizes}"
+    os = "${4:os}"
+    region = "${5:region}"
+    resource_group_name = "${6:resource_group_name}"
+    spot_sizes = "${7:spot_sizes}"
+}

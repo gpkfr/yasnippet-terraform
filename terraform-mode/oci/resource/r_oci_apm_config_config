@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_apm_config_config
+# key: r_oci_apm_config_config
+# --
+
+resource "oci_apm_config_config" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+    config_type = "${3:config_type}"
+    display_name = "${4:display_name}"
+}

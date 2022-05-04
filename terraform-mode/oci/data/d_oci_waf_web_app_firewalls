@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_waf_web_app_firewalls
+# key: d_oci_waf_web_app_firewalls
+# --
+
+data "oci_waf_web_app_firewalls" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

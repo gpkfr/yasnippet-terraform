@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_awscc_appstream_application
+# key: r_awscc_appstream_application
+# --
+
+resource "awscc_appstream_application" "${1:this}" {
+    app_block_arn = "${2:app_block_arn}"
+    icon_s3_location = "${3:icon_s3_location}"
+    instance_families = "${4:instance_families}"
+    launch_path = "${5:launch_path}"
+    name = "${6:name}"
+    platforms = "${7:platforms}"
+}

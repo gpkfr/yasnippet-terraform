@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_boundary_host_catalog_plugin
+# key: r_boundary_host_catalog_plugin
+# --
+
+resource "boundary_host_catalog_plugin" "${1:this}" {
+    scope_id = "${2:scope_id}"
+}

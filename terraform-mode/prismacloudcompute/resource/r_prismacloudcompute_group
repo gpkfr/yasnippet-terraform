@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_prismacloudcompute_group
+# key: r_prismacloudcompute_group
+# --
+
+resource "prismacloudcompute_group" "${1:this}" {
+}

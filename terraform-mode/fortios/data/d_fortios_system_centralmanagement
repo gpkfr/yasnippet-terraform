@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_centralmanagement
+# key: d_fortios_system_centralmanagement
+# --
+
+data "fortios_system_centralmanagement" "${1:this}" {
+}

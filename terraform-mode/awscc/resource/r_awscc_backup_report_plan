@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_backup_report_plan
+# key: r_awscc_backup_report_plan
+# --
+
+resource "awscc_backup_report_plan" "${1:this}" {
+    report_delivery_channel = "${2:report_delivery_channel}"
+    report_setting = "${3:report_setting}"
+}

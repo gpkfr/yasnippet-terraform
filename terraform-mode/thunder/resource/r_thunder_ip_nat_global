@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ip_nat_global
+# key: r_thunder_ip_nat_global
+# --
+
+resource "thunder_ip_nat_global" "${1:this}" {
+}

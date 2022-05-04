@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_hcp_vault_cluster_admin_token
+# key: r_hcp_vault_cluster_admin_token
+# --
+
+resource "hcp_vault_cluster_admin_token" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+}

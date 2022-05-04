@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_anxcloud_nic_types
+# key: d_anxcloud_nic_types
+# --
+
+data "anxcloud_nic_types" "${1:this}" {
+}

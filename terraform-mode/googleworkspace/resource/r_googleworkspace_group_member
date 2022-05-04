@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_googleworkspace_group_member
+# key: r_googleworkspace_group_member
+# --
+
+resource "googleworkspace_group_member" "${1:this}" {
+    email = "${2:email}"
+    group_id = "${3:group_id}"
+}

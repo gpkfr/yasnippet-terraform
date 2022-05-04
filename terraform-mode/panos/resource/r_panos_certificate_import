@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_certificate_import
+# key: r_panos_certificate_import
+# --
+
+resource "panos_certificate_import" "${1:this}" {
+    name = "${2:name}"
+}

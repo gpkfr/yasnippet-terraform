@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_valtix_policy_rules
+# key: r_valtix_policy_rules
+# --
+
+resource "valtix_policy_rules" "${1:this}" {
+    rule_set_id = "${2:rule_set_id}"
+}

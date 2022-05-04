@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_project_ssh_key
+# key: r_equinix_metal_project_ssh_key
+# --
+
+resource "equinix_metal_project_ssh_key" "${1:this}" {
+    name = "${2:name}"
+    project_id = "${3:project_id}"
+    public_key = "${4:public_key}"
+}

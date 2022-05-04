@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_license
+# key: d_intersight_hyperflex_license
+# --
+
+data "intersight_hyperflex_license" "${1:this}" {
+}

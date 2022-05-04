@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_tasks
+# key: d_awscc_datasync_tasks
+# --
+
+data "awscc_datasync_tasks" "${1:this}" {
+}

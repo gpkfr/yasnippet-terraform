@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_commvault_vm_group
+# key: r_commvault_vm_group
+# --
+
+resource "commvault_vm_group" "${1:this}" {
+    client_id = "${2:client_id}"
+    plan_id = "${3:plan_id}"
+    vm_group_name = "${4:vm_group_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_foundation_central_imaged_nodes_list
+# key: d_nutanix_foundation_central_imaged_nodes_list
+# --
+
+data "nutanix_foundation_central_imaged_nodes_list" "${1:this}" {
+}

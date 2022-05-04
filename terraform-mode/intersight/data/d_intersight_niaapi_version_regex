@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niaapi_version_regex
+# key: d_intersight_niaapi_version_regex
+# --
+
+data "intersight_niaapi_version_regex" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_span_attribute
+# key: r_dynatrace_span_attribute
+# --
+
+resource "dynatrace_span_attribute" "${1:this}" {
+    key = "${2:key}"
+}

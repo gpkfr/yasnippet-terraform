@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_network_dns_servers
+# key: r_azurerm_virtual_network_dns_servers
+# --
+
+resource "azurerm_virtual_network_dns_servers" "${1:this}" {
+    virtual_network_id = "${2:virtual_network_id}"
+}

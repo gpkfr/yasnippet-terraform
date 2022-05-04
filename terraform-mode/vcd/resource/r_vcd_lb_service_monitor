@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_lb_service_monitor
+# key: r_vcd_lb_service_monitor
+# --
+
+resource "vcd_lb_service_monitor" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    name = "${3:name}"
+    type = "${4:type}"
+}

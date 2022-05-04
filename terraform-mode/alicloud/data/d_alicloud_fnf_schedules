@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_fnf_schedules
+# key: d_alicloud_fnf_schedules
+# --
+
+data "alicloud_fnf_schedules" "${1:this}" {
+    flow_name = "${2:flow_name}"
+}

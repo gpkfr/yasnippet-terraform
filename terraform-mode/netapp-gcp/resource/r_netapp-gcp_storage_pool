@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_netapp-gcp_storage_pool
+# key: r_netapp-gcp_storage_pool
+# --
+
+resource "netapp-gcp_storage_pool" "${1:this}" {
+    name = "${2:name}"
+    network = "${3:network}"
+    region = "${4:region}"
+    service_level = "${5:service_level}"
+    size = "${6:size}"
+}

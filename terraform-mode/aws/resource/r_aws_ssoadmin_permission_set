@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ssoadmin_permission_set
+# key: r_aws_ssoadmin_permission_set
+# --
+
+resource "aws_ssoadmin_permission_set" "${1:this}" {
+    instance_arn = "${2:instance_arn}"
+    name = "${3:name}"
+}

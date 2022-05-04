@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_forecast_dataset_group
+# key: d_awscc_forecast_dataset_group
+# --
+
+data "awscc_forecast_dataset_group" "${1:this}" {
+    id = "${2:id}"
+}

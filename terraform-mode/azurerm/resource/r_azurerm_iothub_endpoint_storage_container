@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_iothub_endpoint_storage_container
+# key: r_azurerm_iothub_endpoint_storage_container
+# --
+
+resource "azurerm_iothub_endpoint_storage_container" "${1:this}" {
+    container_name = "${2:container_name}"
+    iothub_id = "${3:iothub_id}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+}

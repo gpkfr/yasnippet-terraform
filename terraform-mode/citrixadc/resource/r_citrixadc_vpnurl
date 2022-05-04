@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnurl
+# key: r_citrixadc_vpnurl
+# --
+
+resource "citrixadc_vpnurl" "${1:this}" {
+    actualurl = "${2:actualurl}"
+    linkname = "${3:linkname}"
+    urlname = "${4:urlname}"
+}

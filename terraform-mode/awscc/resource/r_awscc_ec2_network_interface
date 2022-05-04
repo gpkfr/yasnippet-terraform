@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_network_interface
+# key: r_awscc_ec2_network_interface
+# --
+
+resource "awscc_ec2_network_interface" "${1:this}" {
+    subnet_id = "${2:subnet_id}"
+}

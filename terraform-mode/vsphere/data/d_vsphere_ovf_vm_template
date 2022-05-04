@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_vsphere_ovf_vm_template
+# key: d_vsphere_ovf_vm_template
+# --
+
+data "vsphere_ovf_vm_template" "${1:this}" {
+    host_system_id = "${2:host_system_id}"
+    name = "${3:name}"
+    resource_pool_id = "${4:resource_pool_id}"
+}

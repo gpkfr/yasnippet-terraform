@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_netris_acl
+# key: r_netris_acl
+# --
+
+resource "netris_acl" "${1:this}" {
+    action = "${2:action}"
+    dstprefix = "${3:dstprefix}"
+    name = "${4:name}"
+    proto = "${5:proto}"
+    srcprefix = "${6:srcprefix}"
+}

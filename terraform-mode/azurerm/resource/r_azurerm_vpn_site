@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_vpn_site
+# key: r_azurerm_vpn_site
+# --
+
+resource "azurerm_vpn_site" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+    virtual_wan_id = "${5:virtual_wan_id}"
+}

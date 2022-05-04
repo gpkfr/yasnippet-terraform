@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fabric_appliance_role
+# key: r_intersight_fabric_appliance_role
+# --
+
+resource "intersight_fabric_appliance_role" "${1:this}" {
+}

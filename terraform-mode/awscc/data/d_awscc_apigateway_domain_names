@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_apigateway_domain_names
+# key: d_awscc_apigateway_domain_names
+# --
+
+data "awscc_apigateway_domain_names" "${1:this}" {
+}

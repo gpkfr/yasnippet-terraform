@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_dnsimple_certificate
+# key: d_dnsimple_certificate
+# --
+
+data "dnsimple_certificate" "${1:this}" {
+    certificate_id = "${2:certificate_id}"
+    domain = "${3:domain}"
+}

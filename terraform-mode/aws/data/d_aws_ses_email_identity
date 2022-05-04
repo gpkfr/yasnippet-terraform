@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_ses_email_identity
+# key: d_aws_ses_email_identity
+# --
+
+data "aws_ses_email_identity" "${1:this}" {
+    email = "${2:email}"
+}

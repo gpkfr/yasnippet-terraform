@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_refactorspaces_service
+# key: r_awscc_refactorspaces_service
+# --
+
+resource "awscc_refactorspaces_service" "${1:this}" {
+    application_identifier = "${2:application_identifier}"
+    environment_identifier = "${3:environment_identifier}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_vnc_console
+# key: d_intersight_vnc_console
+# --
+
+data "intersight_vnc_console" "${1:this}" {
+}

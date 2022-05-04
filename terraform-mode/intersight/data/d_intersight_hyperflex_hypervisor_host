@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_hypervisor_host
+# key: d_intersight_hyperflex_hypervisor_host
+# --
+
+data "intersight_hyperflex_hypervisor_host" "${1:this}" {
+}

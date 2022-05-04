@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_golden_gate_deployment_upgrades
+# key: d_oci_golden_gate_deployment_upgrades
+# --
+
+data "oci_golden_gate_deployment_upgrades" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

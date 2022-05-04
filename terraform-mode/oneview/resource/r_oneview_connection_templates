@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneview_connection_templates
+# key: r_oneview_connection_templates
+# --
+
+resource "oneview_connection_templates" "${1:this}" {
+}

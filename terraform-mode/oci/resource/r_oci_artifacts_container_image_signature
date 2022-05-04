@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_oci_artifacts_container_image_signature
+# key: r_oci_artifacts_container_image_signature
+# --
+
+resource "oci_artifacts_container_image_signature" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    image_id = "${3:image_id}"
+    kms_key_id = "${4:kms_key_id}"
+    kms_key_version_id = "${5:kms_key_version_id}"
+    message = "${6:message}"
+    signature = "${7:signature}"
+    signing_algorithm = "${8:signing_algorithm}"
+}

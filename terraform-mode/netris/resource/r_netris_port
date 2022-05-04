@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_netris_port
+# key: r_netris_port
+# --
+
+resource "netris_port" "${1:this}" {
+    name = "${2:name}"
+    switchid = "${3:switchid}"
+    tenantid = "${4:tenantid}"
+}

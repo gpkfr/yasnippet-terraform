@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vercel_file
+# key: d_vercel_file
+# --
+
+data "vercel_file" "${1:this}" {
+    path = "${2:path}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iqnpool_pool
+# key: d_intersight_iqnpool_pool
+# --
+
+data "intersight_iqnpool_pool" "${1:this}" {
+}

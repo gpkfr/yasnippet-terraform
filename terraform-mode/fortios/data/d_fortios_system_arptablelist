@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_arptablelist
+# key: d_fortios_system_arptablelist
+# --
+
+data "fortios_system_arptablelist" "${1:this}" {
+}

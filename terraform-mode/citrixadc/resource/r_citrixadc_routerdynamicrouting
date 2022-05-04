@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_routerdynamicrouting
+# key: r_citrixadc_routerdynamicrouting
+# --
+
+resource "citrixadc_routerdynamicrouting" "${1:this}" {
+}

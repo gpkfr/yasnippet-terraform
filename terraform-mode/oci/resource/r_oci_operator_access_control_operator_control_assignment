@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_oci_operator_access_control_operator_control_assignment
+# key: r_oci_operator_access_control_operator_control_assignment
+# --
+
+resource "oci_operator_access_control_operator_control_assignment" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    is_enforced_always = "${3:is_enforced_always}"
+    operator_control_id = "${4:operator_control_id}"
+    resource_compartment_id = "${5:resource_compartment_id}"
+    resource_id = "${6:resource_id}"
+    resource_name = "${7:resource_name}"
+    resource_type = "${8:resource_type}"
+}

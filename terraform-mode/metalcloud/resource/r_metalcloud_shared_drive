@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_metalcloud_shared_drive
+# key: r_metalcloud_shared_drive
+# --
+
+resource "metalcloud_shared_drive" "${1:this}" {
+    infrastructure_id = "${2:infrastructure_id}"
+}

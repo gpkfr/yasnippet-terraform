@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_iothub_enrichment
+# key: r_azurerm_iothub_enrichment
+# --
+
+resource "azurerm_iothub_enrichment" "${1:this}" {
+    endpoint_names = "${2:endpoint_names}"
+    iothub_name = "${3:iothub_name}"
+    key = "${4:key}"
+    resource_group_name = "${5:resource_group_name}"
+    value = "${6:value}"
+}

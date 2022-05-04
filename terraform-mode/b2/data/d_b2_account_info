@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_b2_account_info
+# key: d_b2_account_info
+# --
+
+data "b2_account_info" "${1:this}" {
+}

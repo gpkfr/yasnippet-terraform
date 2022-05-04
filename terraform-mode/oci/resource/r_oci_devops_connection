@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_devops_connection
+# key: r_oci_devops_connection
+# --
+
+resource "oci_devops_connection" "${1:this}" {
+    access_token = "${2:access_token}"
+    connection_type = "${3:connection_type}"
+    project_id = "${4:project_id}"
+}

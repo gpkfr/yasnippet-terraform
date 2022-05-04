@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_devcycle_project
+# key: d_devcycle_project
+# --
+
+data "devcycle_project" "${1:this}" {
+    key = "${2:key}"
+}

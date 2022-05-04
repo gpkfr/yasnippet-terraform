@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_api_gateway_customer_domains
+# key: d_tencentcloud_api_gateway_customer_domains
+# --
+
+data "tencentcloud_api_gateway_customer_domains" "${1:this}" {
+    service_id = "${2:service_id}"
+}

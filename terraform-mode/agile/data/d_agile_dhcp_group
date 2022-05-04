@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_agile_dhcp_group
+# key: d_agile_dhcp_group
+# --
+
+data "agile_dhcp_group" "${1:this}" {
+    name = "${2:name}"
+}

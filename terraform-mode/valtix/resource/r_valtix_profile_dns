@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_dns
+# key: r_valtix_profile_dns
+# --
+
+resource "valtix_profile_dns" "${1:this}" {
+    csp_account_name = "${2:csp_account_name}"
+    name = "${3:name}"
+    service_type = "${4:service_type}"
+}

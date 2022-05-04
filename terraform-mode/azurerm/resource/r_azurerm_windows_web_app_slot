@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_windows_web_app_slot
+# key: r_azurerm_windows_web_app_slot
+# --
+
+resource "azurerm_windows_web_app_slot" "${1:this}" {
+    app_service_id = "${2:app_service_id}"
+    name = "${3:name}"
+}

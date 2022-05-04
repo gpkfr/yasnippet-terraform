@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_netprofile
+# key: r_citrixadc_netprofile
+# --
+
+resource "citrixadc_netprofile" "${1:this}" {
+}

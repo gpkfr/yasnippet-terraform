@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_transit_gateway_multicast_domain_association
+# key: r_awscc_ec2_transit_gateway_multicast_domain_association
+# --
+
+resource "awscc_ec2_transit_gateway_multicast_domain_association" "${1:this}" {
+    subnet_id = "${2:subnet_id}"
+    transit_gateway_attachment_id = "${3:transit_gateway_attachment_id}"
+    transit_gateway_multicast_domain_id = "${4:transit_gateway_multicast_domain_id}"
+}

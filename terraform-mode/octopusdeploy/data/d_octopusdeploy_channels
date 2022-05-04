@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_channels
+# key: d_octopusdeploy_channels
+# --
+
+data "octopusdeploy_channels" "${1:this}" {
+}

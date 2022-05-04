@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_multicastaddress6
+# key: r_fortimanager_object_firewall_multicastaddress6
+# --
+
+resource "fortimanager_object_firewall_multicastaddress6" "${1:this}" {
+}

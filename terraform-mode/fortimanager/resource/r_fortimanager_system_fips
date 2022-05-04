@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_fips
+# key: r_fortimanager_system_fips
+# --
+
+resource "fortimanager_system_fips" "${1:this}" {
+}

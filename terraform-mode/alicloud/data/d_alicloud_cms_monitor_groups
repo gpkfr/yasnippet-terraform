@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_cms_monitor_groups
+# key: d_alicloud_cms_monitor_groups
+# --
+
+data "alicloud_cms_monitor_groups" "${1:this}" {
+}

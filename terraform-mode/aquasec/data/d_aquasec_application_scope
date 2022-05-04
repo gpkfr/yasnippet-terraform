@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aquasec_application_scope
+# key: d_aquasec_application_scope
+# --
+
+data "aquasec_application_scope" "${1:this}" {
+    name = "${2:name}"
+}

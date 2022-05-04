@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_media_streaming_endpoint
+# key: r_azurerm_media_streaming_endpoint
+# --
+
+resource "azurerm_media_streaming_endpoint" "${1:this}" {
+    location = "${2:location}"
+    media_services_account_name = "${3:media_services_account_name}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+    scale_units = "${6:scale_units}"
+}

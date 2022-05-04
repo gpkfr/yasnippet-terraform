@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_robomaker_fleet
+# key: r_awscc_robomaker_fleet
+# --
+
+resource "awscc_robomaker_fleet" "${1:this}" {
+}

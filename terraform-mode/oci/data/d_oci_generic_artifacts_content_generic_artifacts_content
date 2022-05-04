@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_generic_artifacts_content_generic_artifacts_content
+# key: d_oci_generic_artifacts_content_generic_artifacts_content
+# --
+
+data "oci_generic_artifacts_content_generic_artifacts_content" "${1:this}" {
+    artifact_id = "${2:artifact_id}"
+}

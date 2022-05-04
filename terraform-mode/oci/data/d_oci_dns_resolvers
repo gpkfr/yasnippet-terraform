@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_dns_resolvers
+# key: d_oci_dns_resolvers
+# --
+
+data "oci_dns_resolvers" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    scope = "${3:scope}"
+}

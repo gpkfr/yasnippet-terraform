@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_servicegroup_lbmonitor_binding
+# key: r_citrixadc_servicegroup_lbmonitor_binding
+# --
+
+resource "citrixadc_servicegroup_lbmonitor_binding" "${1:this}" {
+    monitorname = "${2:monitorname}"
+    servicegroupname = "${3:servicegroupname}"
+}

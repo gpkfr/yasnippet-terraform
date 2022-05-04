@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_agile_logical_network
+# key: d_agile_logical_network
+# --
+
+data "agile_logical_network" "${1:this}" {
+    name = "${2:name}"
+}

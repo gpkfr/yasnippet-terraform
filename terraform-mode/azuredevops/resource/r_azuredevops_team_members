@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_team_members
+# key: r_azuredevops_team_members
+# --
+
+resource "azuredevops_team_members" "${1:this}" {
+    members = "${2:members}"
+    project_id = "${3:project_id}"
+    team_id = "${4:team_id}"
+}

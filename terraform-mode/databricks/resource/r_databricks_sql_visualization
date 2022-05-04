@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_databricks_sql_visualization
+# key: r_databricks_sql_visualization
+# --
+
+resource "databricks_sql_visualization" "${1:this}" {
+    name = "${2:name}"
+    options = "${3:options}"
+    query_id = "${4:query_id}"
+    type = "${5:type}"
+}

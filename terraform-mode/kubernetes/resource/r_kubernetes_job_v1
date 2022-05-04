@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_job_v1
+# key: r_kubernetes_job_v1
+# --
+
+resource "kubernetes_job_v1" "${1:this}" {
+}

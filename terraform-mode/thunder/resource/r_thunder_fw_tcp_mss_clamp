@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_tcp_mss_clamp
+# key: r_thunder_fw_tcp_mss_clamp
+# --
+
+resource "thunder_fw_tcp_mss_clamp" "${1:this}" {
+}

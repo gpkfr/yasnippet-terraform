@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_dome9_cloudaccount_kubernetes
+# key: r_dome9_cloudaccount_kubernetes
+# --
+
+resource "dome9_cloudaccount_kubernetes" "${1:this}" {
+    name = "${2:name}"
+}

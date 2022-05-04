@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_wafv2_logging_configuration
+# key: r_awscc_wafv2_logging_configuration
+# --
+
+resource "awscc_wafv2_logging_configuration" "${1:this}" {
+    log_destination_configs = "${2:log_destination_configs}"
+    resource_arn = "${3:resource_arn}"
+}

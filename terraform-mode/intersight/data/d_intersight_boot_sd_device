@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_boot_sd_device
+# key: d_intersight_boot_sd_device
+# --
+
+data "intersight_boot_sd_device" "${1:this}" {
+}

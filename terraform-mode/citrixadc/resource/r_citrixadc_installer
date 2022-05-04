@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_installer
+# key: r_citrixadc_installer
+# --
+
+resource "citrixadc_installer" "${1:this}" {
+    wait_until_reachable = "${2:wait_until_reachable}"
+}

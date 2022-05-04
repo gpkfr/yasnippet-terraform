@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_kentik-synthetics_agent
+# key: d_kentik-synthetics_agent
+# --
+
+data "kentik-synthetics_agent" "${1:this}" {
+    id = "${2:id}"
+}

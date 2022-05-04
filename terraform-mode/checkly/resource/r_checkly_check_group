@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_checkly_check_group
+# key: r_checkly_check_group
+# --
+
+resource "checkly_check_group" "${1:this}" {
+    activated = "${2:activated}"
+    concurrency = "${3:concurrency}"
+    locations = "${4:locations}"
+    name = "${5:name}"
+}

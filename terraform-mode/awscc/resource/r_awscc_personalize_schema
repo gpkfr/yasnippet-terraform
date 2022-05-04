@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_personalize_schema
+# key: r_awscc_personalize_schema
+# --
+
+resource "awscc_personalize_schema" "${1:this}" {
+    name = "${2:name}"
+    schema = "${3:schema}"
+}

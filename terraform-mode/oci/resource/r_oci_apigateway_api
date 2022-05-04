@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_apigateway_api
+# key: r_oci_apigateway_api
+# --
+
+resource "oci_apigateway_api" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

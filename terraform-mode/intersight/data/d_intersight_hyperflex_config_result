@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_config_result
+# key: d_intersight_hyperflex_config_result
+# --
+
+data "intersight_hyperflex_config_result" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_agile_external_gateway
+# key: d_agile_external_gateway
+# --
+
+data "agile_external_gateway" "${1:this}" {
+    name = "${2:name}"
+}

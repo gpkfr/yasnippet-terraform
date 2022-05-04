@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_multicastaddresslist
+# key: d_fortios_firewall_multicastaddresslist
+# --
+
+data "fortios_firewall_multicastaddresslist" "${1:this}" {
+}

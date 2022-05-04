@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rediscloud_database_modules
+# key: d_rediscloud_database_modules
+# --
+
+data "rediscloud_database_modules" "${1:this}" {
+}

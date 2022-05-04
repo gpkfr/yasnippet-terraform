@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cur_report_definitions
+# key: d_awscc_cur_report_definitions
+# --
+
+data "awscc_cur_report_definitions" "${1:this}" {
+}

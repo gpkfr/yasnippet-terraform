@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_teams_list
+# key: r_cloudflare_teams_list
+# --
+
+resource "cloudflare_teams_list" "${1:this}" {
+    account_id = "${2:account_id}"
+    name = "${3:name}"
+    type = "${4:type}"
+}

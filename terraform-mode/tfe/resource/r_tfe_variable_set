@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tfe_variable_set
+# key: r_tfe_variable_set
+# --
+
+resource "tfe_variable_set" "${1:this}" {
+    name = "${2:name}"
+    organization = "${3:organization}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_googleworkspace_users
+# key: d_googleworkspace_users
+# --
+
+data "googleworkspace_users" "${1:this}" {
+}

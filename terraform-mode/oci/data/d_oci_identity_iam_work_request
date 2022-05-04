@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_iam_work_request
+# key: d_oci_identity_iam_work_request
+# --
+
+data "oci_identity_iam_work_request" "${1:this}" {
+    iam_work_request_id = "${2:iam_work_request_id}"
+}

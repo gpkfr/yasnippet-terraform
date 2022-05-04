@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_emr_studios
+# key: d_awscc_emr_studios
+# --
+
+data "awscc_emr_studios" "${1:this}" {
+}

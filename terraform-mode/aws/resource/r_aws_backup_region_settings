@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_backup_region_settings
+# key: r_aws_backup_region_settings
+# --
+
+resource "aws_backup_region_settings" "${1:this}" {
+    resource_type_opt_in_preference = "${2:resource_type_opt_in_preference}"
+}

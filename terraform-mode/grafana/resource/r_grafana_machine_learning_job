@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_grafana_machine_learning_job
+# key: r_grafana_machine_learning_job
+# --
+
+resource "grafana_machine_learning_job" "${1:this}" {
+    datasource_id = "${2:datasource_id}"
+    datasource_type = "${3:datasource_type}"
+    metric = "${4:metric}"
+    name = "${5:name}"
+    query_params = "${6:query_params}"
+}

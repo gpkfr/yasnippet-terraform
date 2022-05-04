@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_stackbill_instance_snapshot
+# key: r_stackbill_instance_snapshot
+# --
+
+resource "stackbill_instance_snapshot" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+    snapshot_memory = "${4:snapshot_memory}"
+    virtual_machine_uuid = "${5:virtual_machine_uuid}"
+    zone_uuid = "${6:zone_uuid}"
+}

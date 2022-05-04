@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_pod_disruption_budget
+# key: r_kubernetes_pod_disruption_budget
+# --
+
+resource "kubernetes_pod_disruption_budget" "${1:this}" {
+}

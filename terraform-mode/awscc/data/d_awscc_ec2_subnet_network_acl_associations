@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_subnet_network_acl_associations
+# key: d_awscc_ec2_subnet_network_acl_associations
+# --
+
+data "awscc_ec2_subnet_network_acl_associations" "${1:this}" {
+}

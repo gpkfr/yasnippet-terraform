@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_virtual_host
+# key: r_volterra_virtual_host
+# --
+
+resource "volterra_virtual_host" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

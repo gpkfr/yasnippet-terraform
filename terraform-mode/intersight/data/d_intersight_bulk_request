@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_bulk_request
+# key: d_intersight_bulk_request
+# --
+
+data "intersight_bulk_request" "${1:this}" {
+}

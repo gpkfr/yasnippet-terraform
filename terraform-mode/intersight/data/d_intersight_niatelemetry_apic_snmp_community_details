@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_apic_snmp_community_details
+# key: d_intersight_niatelemetry_apic_snmp_community_details
+# --
+
+data "intersight_niatelemetry_apic_snmp_community_details" "${1:this}" {
+}

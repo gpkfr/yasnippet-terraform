@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cls_logset
+# key: r_tencentcloud_cls_logset
+# --
+
+resource "tencentcloud_cls_logset" "${1:this}" {
+    logset_name = "${2:logset_name}"
+}

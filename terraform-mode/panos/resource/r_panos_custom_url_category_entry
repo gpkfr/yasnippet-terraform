@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_panos_custom_url_category_entry
+# key: r_panos_custom_url_category_entry
+# --
+
+resource "panos_custom_url_category_entry" "${1:this}" {
+    custom_url_category = "${2:custom_url_category}"
+    site = "${3:site}"
+}

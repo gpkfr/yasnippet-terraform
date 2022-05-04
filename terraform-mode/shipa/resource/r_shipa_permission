@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_shipa_permission
+# key: r_shipa_permission
+# --
+
+resource "shipa_permission" "${1:this}" {
+    name = "${2:name}"
+    permission = "${3:permission}"
+}

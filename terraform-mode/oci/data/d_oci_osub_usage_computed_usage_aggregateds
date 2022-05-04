@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_oci_osub_usage_computed_usage_aggregateds
+# key: d_oci_osub_usage_computed_usage_aggregateds
+# --
+
+data "oci_osub_usage_computed_usage_aggregateds" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    subscription_id = "${3:subscription_id}"
+    time_from = "${4:time_from}"
+    time_to = "${5:time_to}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_jms_list_jre_usage
+# key: d_oci_jms_list_jre_usage
+# --
+
+data "oci_jms_list_jre_usage" "${1:this}" {
+}

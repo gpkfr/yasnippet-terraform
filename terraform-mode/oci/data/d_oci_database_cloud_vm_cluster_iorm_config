@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_cloud_vm_cluster_iorm_config
+# key: d_oci_database_cloud_vm_cluster_iorm_config
+# --
+
+data "oci_database_cloud_vm_cluster_iorm_config" "${1:this}" {
+    cloud_vm_cluster_id = "${2:cloud_vm_cluster_id}"
+}

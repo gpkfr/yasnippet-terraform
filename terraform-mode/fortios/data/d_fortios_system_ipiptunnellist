@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_ipiptunnellist
+# key: d_fortios_system_ipiptunnellist
+# --
+
+data "fortios_system_ipiptunnellist" "${1:this}" {
+}

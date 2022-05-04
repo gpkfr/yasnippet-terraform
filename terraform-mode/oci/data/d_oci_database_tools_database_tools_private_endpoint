@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_tools_database_tools_private_endpoint
+# key: d_oci_database_tools_database_tools_private_endpoint
+# --
+
+data "oci_database_tools_database_tools_private_endpoint" "${1:this}" {
+    database_tools_private_endpoint_id = "${2:database_tools_private_endpoint_id}"
+}

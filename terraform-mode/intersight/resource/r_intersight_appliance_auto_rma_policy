@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_appliance_auto_rma_policy
+# key: r_intersight_appliance_auto_rma_policy
+# --
+
+resource "intersight_appliance_auto_rma_policy" "${1:this}" {
+}

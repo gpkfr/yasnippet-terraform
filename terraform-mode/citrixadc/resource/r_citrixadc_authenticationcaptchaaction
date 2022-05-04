@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationcaptchaaction
+# key: r_citrixadc_authenticationcaptchaaction
+# --
+
+resource "citrixadc_authenticationcaptchaaction" "${1:this}" {
+    name = "${2:name}"
+    secretkey = "${3:secretkey}"
+    sitekey = "${4:sitekey}"
+}

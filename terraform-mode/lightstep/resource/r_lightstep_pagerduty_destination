@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lightstep_pagerduty_destination
+# key: r_lightstep_pagerduty_destination
+# --
+
+resource "lightstep_pagerduty_destination" "${1:this}" {
+    destination_name = "${2:destination_name}"
+    integration_key = "${3:integration_key}"
+    project_name = "${4:project_name}"
+}

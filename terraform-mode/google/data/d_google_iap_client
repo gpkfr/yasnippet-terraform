@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_google_iap_client
+# key: d_google_iap_client
+# --
+
+data "google_iap_client" "${1:this}" {
+    brand = "${2:brand}"
+    client_id = "${3:client_id}"
+}

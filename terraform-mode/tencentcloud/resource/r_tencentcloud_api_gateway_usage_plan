@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_api_gateway_usage_plan
+# key: r_tencentcloud_api_gateway_usage_plan
+# --
+
+resource "tencentcloud_api_gateway_usage_plan" "${1:this}" {
+    usage_plan_name = "${2:usage_plan_name}"
+}

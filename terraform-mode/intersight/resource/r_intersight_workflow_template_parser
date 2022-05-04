@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_template_parser
+# key: r_intersight_workflow_template_parser
+# --
+
+resource "intersight_workflow_template_parser" "${1:this}" {
+}

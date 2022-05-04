@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cohesity_job_vmware
+# key: r_cohesity_job_vmware
+# --
+
+resource "cohesity_job_vmware" "${1:this}" {
+    name = "${2:name}"
+    policy = "${3:policy}"
+    protection_source = "${4:protection_source}"
+    storage_domain = "${5:storage_domain}"
+}

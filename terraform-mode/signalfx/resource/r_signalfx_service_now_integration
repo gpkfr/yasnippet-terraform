@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_signalfx_service_now_integration
+# key: r_signalfx_service_now_integration
+# --
+
+resource "signalfx_service_now_integration" "${1:this}" {
+    enabled = "${2:enabled}"
+    instance_name = "${3:instance_name}"
+    issue_type = "${4:issue_type}"
+    name = "${5:name}"
+    password = "${6:password}"
+    username = "${7:username}"
+}

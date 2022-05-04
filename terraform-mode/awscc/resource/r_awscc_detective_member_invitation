@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_detective_member_invitation
+# key: r_awscc_detective_member_invitation
+# --
+
+resource "awscc_detective_member_invitation" "${1:this}" {
+    graph_arn = "${2:graph_arn}"
+    member_email_address = "${3:member_email_address}"
+    member_id = "${4:member_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_gcp_keyring
+# key: r_ciphertrust_gcp_keyring
+# --
+
+resource "ciphertrust_gcp_keyring" "${1:this}" {
+    gcp_connection = "${2:gcp_connection}"
+    name = "${3:name}"
+    project_id = "${4:project_id}"
+}

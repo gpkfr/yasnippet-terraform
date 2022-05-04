@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_betteruptime_policy
+# key: d_betteruptime_policy
+# --
+
+data "betteruptime_policy" "${1:this}" {
+    name = "${2:name}"
+}

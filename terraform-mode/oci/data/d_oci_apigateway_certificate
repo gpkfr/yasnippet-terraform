@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_apigateway_certificate
+# key: d_oci_apigateway_certificate
+# --
+
+data "oci_apigateway_certificate" "${1:this}" {
+    certificate_id = "${2:certificate_id}"
+}

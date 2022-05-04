@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationradiuspolicy
+# key: r_citrixadc_authenticationradiuspolicy
+# --
+
+resource "citrixadc_authenticationradiuspolicy" "${1:this}" {
+    name = "${2:name}"
+    rule = "${3:rule}"
+}

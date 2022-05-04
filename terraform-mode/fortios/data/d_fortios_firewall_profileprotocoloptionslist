@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_profileprotocoloptionslist
+# key: d_fortios_firewall_profileprotocoloptionslist
+# --
+
+data "fortios_firewall_profileprotocoloptionslist" "${1:this}" {
+}

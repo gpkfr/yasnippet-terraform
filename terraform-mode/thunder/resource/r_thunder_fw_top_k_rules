@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_top_k_rules
+# key: r_thunder_fw_top_k_rules
+# --
+
+resource "thunder_fw_top_k_rules" "${1:this}" {
+}

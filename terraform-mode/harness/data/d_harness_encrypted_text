@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_encrypted_text
+# key: d_harness_encrypted_text
+# --
+
+data "harness_encrypted_text" "${1:this}" {
+}

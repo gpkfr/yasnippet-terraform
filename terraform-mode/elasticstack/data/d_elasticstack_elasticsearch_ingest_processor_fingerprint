@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_fingerprint
+# key: d_elasticstack_elasticsearch_ingest_processor_fingerprint
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_fingerprint" "${1:this}" {
+    fields = "${2:fields}"
+}

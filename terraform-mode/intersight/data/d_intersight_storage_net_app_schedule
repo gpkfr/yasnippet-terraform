@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_net_app_schedule
+# key: d_intersight_storage_net_app_schedule
+# --
+
+data "intersight_storage_net_app_schedule" "${1:this}" {
+}

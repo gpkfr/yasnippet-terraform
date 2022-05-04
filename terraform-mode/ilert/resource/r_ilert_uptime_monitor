@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ilert_uptime_monitor
+# key: r_ilert_uptime_monitor
+# --
+
+resource "ilert_uptime_monitor" "${1:this}" {
+    check_type = "${2:check_type}"
+    escalation_policy = "${3:escalation_policy}"
+    name = "${4:name}"
+}

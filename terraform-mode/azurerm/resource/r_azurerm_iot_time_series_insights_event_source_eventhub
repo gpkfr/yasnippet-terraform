@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_iot_time_series_insights_event_source_eventhub
+# key: r_azurerm_iot_time_series_insights_event_source_eventhub
+# --
+
+resource "azurerm_iot_time_series_insights_event_source_eventhub" "${1:this}" {
+    consumer_group_name = "${2:consumer_group_name}"
+    environment_id = "${3:environment_id}"
+    event_source_resource_id = "${4:event_source_resource_id}"
+    eventhub_name = "${5:eventhub_name}"
+    location = "${6:location}"
+    name = "${7:name}"
+    namespace_name = "${8:namespace_name}"
+    shared_access_key = "${9:shared_access_key}"
+    shared_access_key_name = "${10:shared_access_key_name}"
+}

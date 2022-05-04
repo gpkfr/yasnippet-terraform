@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_port_group
+# key: d_intersight_port_group
+# --
+
+data "intersight_port_group" "${1:this}" {
+}

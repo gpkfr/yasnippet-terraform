@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_cname_record
+# key: r_bluecat_cname_record
+# --
+
+resource "bluecat_cname_record" "${1:this}" {
+    absolute_name = "${2:absolute_name}"
+    linked_record = "${3:linked_record}"
+}

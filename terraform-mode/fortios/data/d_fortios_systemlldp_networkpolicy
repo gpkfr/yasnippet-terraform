@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_systemlldp_networkpolicy
+# key: d_fortios_systemlldp_networkpolicy
+# --
+
+data "fortios_systemlldp_networkpolicy" "${1:this}" {
+    name = "${2:name}"
+}

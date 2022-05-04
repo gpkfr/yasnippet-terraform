@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationsamlidpprofile
+# key: r_citrixadc_authenticationsamlidpprofile
+# --
+
+resource "citrixadc_authenticationsamlidpprofile" "${1:this}" {
+    name = "${2:name}"
+}

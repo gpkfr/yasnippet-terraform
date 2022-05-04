@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cvprovider_data_inventory
+# key: d_cvprovider_data_inventory
+# --
+
+data "cvprovider_data_inventory" "${1:this}" {
+}

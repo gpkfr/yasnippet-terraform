@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_project
+# key: r_octopusdeploy_project
+# --
+
+resource "octopusdeploy_project" "${1:this}" {
+    lifecycle_id = "${2:lifecycle_id}"
+    name = "${3:name}"
+    project_group_id = "${4:project_group_id}"
+}

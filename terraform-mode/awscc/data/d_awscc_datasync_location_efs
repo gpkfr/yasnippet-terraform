@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_location_efs
+# key: d_awscc_datasync_location_efs
+# --
+
+data "awscc_datasync_location_efs" "${1:this}" {
+    id = "${2:id}"
+}

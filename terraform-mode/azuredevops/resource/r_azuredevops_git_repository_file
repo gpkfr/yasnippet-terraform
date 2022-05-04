@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_git_repository_file
+# key: r_azuredevops_git_repository_file
+# --
+
+resource "azuredevops_git_repository_file" "${1:this}" {
+    content = "${2:content}"
+    file = "${3:file}"
+    repository_id = "${4:repository_id}"
+}

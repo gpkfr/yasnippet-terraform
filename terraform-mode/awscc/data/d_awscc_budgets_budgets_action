@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_budgets_budgets_action
+# key: d_awscc_budgets_budgets_action
+# --
+
+data "awscc_budgets_budgets_action" "${1:this}" {
+    id = "${2:id}"
+}

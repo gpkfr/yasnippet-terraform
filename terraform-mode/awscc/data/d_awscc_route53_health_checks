@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53_health_checks
+# key: d_awscc_route53_health_checks
+# --
+
+data "awscc_route53_health_checks" "${1:this}" {
+}

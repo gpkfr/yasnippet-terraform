@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_codeartifact_repository_permissions_policy
+# key: r_aws_codeartifact_repository_permissions_policy
+# --
+
+resource "aws_codeartifact_repository_permissions_policy" "${1:this}" {
+    domain = "${2:domain}"
+    policy_document = "${3:policy_document}"
+    repository = "${4:repository}"
+}

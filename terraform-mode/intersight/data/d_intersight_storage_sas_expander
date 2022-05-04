@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_sas_expander
+# key: d_intersight_storage_sas_expander
+# --
+
+data "intersight_storage_sas_expander" "${1:this}" {
+}

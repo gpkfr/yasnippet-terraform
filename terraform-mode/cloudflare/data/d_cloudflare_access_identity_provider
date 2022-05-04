@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_cloudflare_access_identity_provider
+# key: d_cloudflare_access_identity_provider
+# --
+
+data "cloudflare_access_identity_provider" "${1:this}" {
+    name = "${2:name}"
+}

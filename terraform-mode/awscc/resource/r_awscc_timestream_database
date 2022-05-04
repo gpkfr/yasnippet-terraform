@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_timestream_database
+# key: r_awscc_timestream_database
+# --
+
+resource "awscc_timestream_database" "${1:this}" {
+}

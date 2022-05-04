@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53recoverycontrol_safety_rule
+# key: d_awscc_route53recoverycontrol_safety_rule
+# --
+
+data "awscc_route53recoverycontrol_safety_rule" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akamai_networklist_description
+# key: r_akamai_networklist_description
+# --
+
+resource "akamai_networklist_description" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+    network_list_id = "${4:network_list_id}"
+}

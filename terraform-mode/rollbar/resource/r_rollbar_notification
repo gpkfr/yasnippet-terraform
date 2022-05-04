@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rollbar_notification
+# key: r_rollbar_notification
+# --
+
+resource "rollbar_notification" "${1:this}" {
+    channel = "${2:channel}"
+}

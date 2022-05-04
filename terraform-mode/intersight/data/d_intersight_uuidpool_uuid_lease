@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_uuidpool_uuid_lease
+# key: d_intersight_uuidpool_uuid_lease
+# --
+
+data "intersight_uuidpool_uuid_lease" "${1:this}" {
+}

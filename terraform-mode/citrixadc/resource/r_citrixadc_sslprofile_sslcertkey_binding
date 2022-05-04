@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslprofile_sslcertkey_binding
+# key: r_citrixadc_sslprofile_sslcertkey_binding
+# --
+
+resource "citrixadc_sslprofile_sslcertkey_binding" "${1:this}" {
+    name = "${2:name}"
+    sslicacertkey = "${3:sslicacertkey}"
+}

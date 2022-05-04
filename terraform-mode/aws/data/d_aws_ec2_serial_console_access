@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ec2_serial_console_access
+# key: d_aws_ec2_serial_console_access
+# --
+
+data "aws_ec2_serial_console_access" "${1:this}" {
+}

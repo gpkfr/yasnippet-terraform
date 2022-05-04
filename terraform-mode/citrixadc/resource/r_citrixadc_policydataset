@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_policydataset
+# key: r_citrixadc_policydataset
+# --
+
+resource "citrixadc_policydataset" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

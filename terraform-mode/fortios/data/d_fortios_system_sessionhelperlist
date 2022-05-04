@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_sessionhelperlist
+# key: d_fortios_system_sessionhelperlist
+# --
+
+data "fortios_system_sessionhelperlist" "${1:this}" {
+}

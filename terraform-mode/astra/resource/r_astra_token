@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_astra_token
+# key: r_astra_token
+# --
+
+resource "astra_token" "${1:this}" {
+    roles = "${2:roles}"
+}

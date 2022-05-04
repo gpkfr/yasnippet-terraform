@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnglobal_authenticationsamlpolicy_binding
+# key: r_citrixadc_vpnglobal_authenticationsamlpolicy_binding
+# --
+
+resource "citrixadc_vpnglobal_authenticationsamlpolicy_binding" "${1:this}" {
+    policyname = "${2:policyname}"
+}

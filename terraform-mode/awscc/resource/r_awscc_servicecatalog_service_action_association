@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_servicecatalog_service_action_association
+# key: r_awscc_servicecatalog_service_action_association
+# --
+
+resource "awscc_servicecatalog_service_action_association" "${1:this}" {
+    product_id = "${2:product_id}"
+    provisioning_artifact_id = "${3:provisioning_artifact_id}"
+    service_action_id = "${4:service_action_id}"
+}

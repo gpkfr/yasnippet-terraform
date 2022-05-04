@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationloginschema
+# key: r_citrixadc_authenticationloginschema
+# --
+
+resource "citrixadc_authenticationloginschema" "${1:this}" {
+    authenticationschema = "${2:authenticationschema}"
+    name = "${3:name}"
+}

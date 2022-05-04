@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_b2_application_key
+# key: r_b2_application_key
+# --
+
+resource "b2_application_key" "${1:this}" {
+    capabilities = "${2:capabilities}"
+    key_name = "${3:key_name}"
+}

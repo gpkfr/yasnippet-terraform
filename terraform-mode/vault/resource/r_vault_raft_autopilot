@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_vault_raft_autopilot
+# key: r_vault_raft_autopilot
+# --
+
+resource "vault_raft_autopilot" "${1:this}" {
+}

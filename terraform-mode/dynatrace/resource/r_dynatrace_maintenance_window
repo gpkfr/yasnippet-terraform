@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_maintenance_window
+# key: r_dynatrace_maintenance_window
+# --
+
+resource "dynatrace_maintenance_window" "${1:this}" {
+    name = "${2:name}"
+    suppression = "${3:suppression}"
+    type = "${4:type}"
+}

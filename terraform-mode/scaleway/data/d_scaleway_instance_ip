@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_instance_ip
+# key: d_scaleway_instance_ip
+# --
+
+data "scaleway_instance_ip" "${1:this}" {
+}

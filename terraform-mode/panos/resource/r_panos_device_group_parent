@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_device_group_parent
+# key: r_panos_device_group_parent
+# --
+
+resource "panos_device_group_parent" "${1:this}" {
+    device_group = "${2:device_group}"
+}

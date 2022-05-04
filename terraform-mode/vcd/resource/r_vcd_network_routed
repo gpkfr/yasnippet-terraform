@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_network_routed
+# key: r_vcd_network_routed
+# --
+
+resource "vcd_network_routed" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    name = "${3:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lacework_integration_docker_hub
+# key: r_lacework_integration_docker_hub
+# --
+
+resource "lacework_integration_docker_hub" "${1:this}" {
+    name = "${2:name}"
+    password = "${3:password}"
+    username = "${4:username}"
+}

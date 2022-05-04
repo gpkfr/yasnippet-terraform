@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_webproxy_profile
+# key: r_fortimanager_object_webproxy_profile
+# --
+
+resource "fortimanager_object_webproxy_profile" "${1:this}" {
+}

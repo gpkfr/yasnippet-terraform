@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_gretunnel
+# key: d_fortios_system_gretunnel
+# --
+
+data "fortios_system_gretunnel" "${1:this}" {
+    name = "${2:name}"
+}

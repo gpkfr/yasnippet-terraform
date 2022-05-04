@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_macie_findings_filter
+# key: r_awscc_macie_findings_filter
+# --
+
+resource "awscc_macie_findings_filter" "${1:this}" {
+    finding_criteria = "${2:finding_criteria}"
+    name = "${3:name}"
+}

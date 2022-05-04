@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_data_catalog_encryption_settings
+# key: r_aws_glue_data_catalog_encryption_settings
+# --
+
+resource "aws_glue_data_catalog_encryption_settings" "${1:this}" {
+}

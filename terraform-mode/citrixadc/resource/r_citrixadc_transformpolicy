@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_transformpolicy
+# key: r_citrixadc_transformpolicy
+# --
+
+resource "citrixadc_transformpolicy" "${1:this}" {
+    name = "${2:name}"
+}

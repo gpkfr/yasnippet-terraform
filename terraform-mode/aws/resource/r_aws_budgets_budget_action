@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_budgets_budget_action
+# key: r_aws_budgets_budget_action
+# --
+
+resource "aws_budgets_budget_action" "${1:this}" {
+    action_type = "${2:action_type}"
+    approval_model = "${3:approval_model}"
+    budget_name = "${4:budget_name}"
+    execution_role_arn = "${5:execution_role_arn}"
+    notification_type = "${6:notification_type}"
+}

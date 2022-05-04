@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_appconfig_configuration_profile
+# key: r_aws_appconfig_configuration_profile
+# --
+
+resource "aws_appconfig_configuration_profile" "${1:this}" {
+    application_id = "${2:application_id}"
+    location_uri = "${3:location_uri}"
+    name = "${4:name}"
+}

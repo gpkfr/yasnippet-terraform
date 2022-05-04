@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationauthnprofile
+# key: r_citrixadc_authenticationauthnprofile
+# --
+
+resource "citrixadc_authenticationauthnprofile" "${1:this}" {
+    authnvsname = "${2:authnvsname}"
+    name = "${3:name}"
+}

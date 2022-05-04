@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_hcp_hvn_route
+# key: r_hcp_hvn_route
+# --
+
+resource "hcp_hvn_route" "${1:this}" {
+    destination_cidr = "${2:destination_cidr}"
+    hvn_link = "${3:hvn_link}"
+    hvn_route_id = "${4:hvn_route_id}"
+    target_link = "${5:target_link}"
+}

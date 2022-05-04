@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rafay_addon
+# key: r_rafay_addon
+# --
+
+resource "rafay_addon" "${1:this}" {
+}

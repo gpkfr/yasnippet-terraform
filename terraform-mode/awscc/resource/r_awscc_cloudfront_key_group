@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudfront_key_group
+# key: r_awscc_cloudfront_key_group
+# --
+
+resource "awscc_cloudfront_key_group" "${1:this}" {
+    key_group_config = "${2:key_group_config}"
+}

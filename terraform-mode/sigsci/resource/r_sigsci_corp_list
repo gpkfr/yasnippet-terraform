@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_corp_list
+# key: r_sigsci_corp_list
+# --
+
+resource "sigsci_corp_list" "${1:this}" {
+    entries = "${2:entries}"
+    name = "${3:name}"
+    type = "${4:type}"
+}

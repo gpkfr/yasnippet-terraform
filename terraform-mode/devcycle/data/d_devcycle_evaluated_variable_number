@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_devcycle_evaluated_variable_number
+# key: d_devcycle_evaluated_variable_number
+# --
+
+data "devcycle_evaluated_variable_number" "${1:this}" {
+    default_value = "${2:default_value}"
+    id = "${3:id}"
+    user = "${4:user}"
+}

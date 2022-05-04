@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_appstream_stack
+# key: r_aws_appstream_stack
+# --
+
+resource "aws_appstream_stack" "${1:this}" {
+    name = "${2:name}"
+}

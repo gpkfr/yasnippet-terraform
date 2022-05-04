@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_proxypolicy_sort
+# key: r_fortios_firewall_proxypolicy_sort
+# --
+
+resource "fortios_firewall_proxypolicy_sort" "${1:this}" {
+    sortby = "${2:sortby}"
+    sortdirection = "${3:sortdirection}"
+}

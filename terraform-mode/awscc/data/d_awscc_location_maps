@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_location_maps
+# key: d_awscc_location_maps
+# --
+
+data "awscc_location_maps" "${1:this}" {
+}

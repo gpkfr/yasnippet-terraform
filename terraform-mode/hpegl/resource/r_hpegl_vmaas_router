@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_hpegl_vmaas_router
+# key: r_hpegl_vmaas_router
+# --
+
+resource "hpegl_vmaas_router" "${1:this}" {
+    group_id = "${2:group_id}"
+    name = "${3:name}"
+}

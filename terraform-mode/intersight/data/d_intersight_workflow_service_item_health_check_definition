@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_workflow_service_item_health_check_definition
+# key: d_intersight_workflow_service_item_health_check_definition
+# --
+
+data "intersight_workflow_service_item_health_check_definition" "${1:this}" {
+}

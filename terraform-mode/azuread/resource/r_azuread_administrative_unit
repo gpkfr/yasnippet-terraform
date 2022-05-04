@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azuread_administrative_unit
+# key: r_azuread_administrative_unit
+# --
+
+resource "azuread_administrative_unit" "${1:this}" {
+    display_name = "${2:display_name}"
+}

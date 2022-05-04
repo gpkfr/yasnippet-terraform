@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudsigma_ip
+# key: d_cloudsigma_ip
+# --
+
+data "cloudsigma_ip" "${1:this}" {
+}

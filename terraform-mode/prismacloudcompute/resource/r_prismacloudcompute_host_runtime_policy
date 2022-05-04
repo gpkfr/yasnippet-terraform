@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_prismacloudcompute_host_runtime_policy
+# key: r_prismacloudcompute_host_runtime_policy
+# --
+
+resource "prismacloudcompute_host_runtime_policy" "${1:this}" {
+}

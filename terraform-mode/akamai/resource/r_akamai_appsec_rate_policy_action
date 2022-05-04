@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_rate_policy_action
+# key: r_akamai_appsec_rate_policy_action
+# --
+
+resource "akamai_appsec_rate_policy_action" "${1:this}" {
+    config_id = "${2:config_id}"
+    ipv4_action = "${3:ipv4_action}"
+    ipv6_action = "${4:ipv6_action}"
+    rate_policy_id = "${5:rate_policy_id}"
+    security_policy_id = "${6:security_policy_id}"
+    version = "${7:version}"
+}

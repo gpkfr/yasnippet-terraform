@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_certificates_management_certificate
+# key: d_oci_certificates_management_certificate
+# --
+
+data "oci_certificates_management_certificate" "${1:this}" {
+    certificate_id = "${2:certificate_id}"
+}

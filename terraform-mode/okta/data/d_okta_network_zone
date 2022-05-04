@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_okta_network_zone
+# key: d_okta_network_zone
+# --
+
+data "okta_network_zone" "${1:this}" {
+}

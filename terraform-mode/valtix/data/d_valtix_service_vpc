@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_valtix_service_vpc
+# key: d_valtix_service_vpc
+# --
+
+data "valtix_service_vpc" "${1:this}" {
+    csp_account_name = "${2:csp_account_name}"
+    region = "${3:region}"
+    vpc_id = "${4:vpc_id}"
+}

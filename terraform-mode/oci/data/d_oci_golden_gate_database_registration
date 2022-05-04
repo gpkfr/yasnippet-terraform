@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_golden_gate_database_registration
+# key: d_oci_golden_gate_database_registration
+# --
+
+data "oci_golden_gate_database_registration" "${1:this}" {
+    database_registration_id = "${2:database_registration_id}"
+}

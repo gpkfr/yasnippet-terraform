@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_locallog_setting
+# key: r_fortimanager_system_locallog_setting
+# --
+
+resource "fortimanager_system_locallog_setting" "${1:this}" {
+}

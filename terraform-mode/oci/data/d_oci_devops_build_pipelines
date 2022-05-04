@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_build_pipelines
+# key: d_oci_devops_build_pipelines
+# --
+
+data "oci_devops_build_pipelines" "${1:this}" {
+}

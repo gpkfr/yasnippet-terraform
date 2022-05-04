@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_user_certificate
+# key: r_fortios_user_certificate
+# --
+
+resource "fortios_user_certificate" "${1:this}" {
+}

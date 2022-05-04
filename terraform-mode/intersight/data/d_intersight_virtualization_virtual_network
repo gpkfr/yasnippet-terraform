@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_virtual_network
+# key: d_intersight_virtualization_virtual_network
+# --
+
+data "intersight_virtualization_virtual_network" "${1:this}" {
+}

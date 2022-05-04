@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_alert_channel_cisco_webex
+# key: r_lacework_alert_channel_cisco_webex
+# --
+
+resource "lacework_alert_channel_cisco_webex" "${1:this}" {
+    name = "${2:name}"
+    webhook_url = "${3:webhook_url}"
+}

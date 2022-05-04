@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_firehydrant_severity
+# key: r_firehydrant_severity
+# --
+
+resource "firehydrant_severity" "${1:this}" {
+    slug = "${2:slug}"
+}

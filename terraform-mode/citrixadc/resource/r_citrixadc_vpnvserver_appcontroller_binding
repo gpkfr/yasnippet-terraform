@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnvserver_appcontroller_binding
+# key: r_citrixadc_vpnvserver_appcontroller_binding
+# --
+
+resource "citrixadc_vpnvserver_appcontroller_binding" "${1:this}" {
+    appcontroller = "${2:appcontroller}"
+    name = "${3:name}"
+}

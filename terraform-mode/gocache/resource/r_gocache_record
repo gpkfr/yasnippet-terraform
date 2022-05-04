@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_gocache_record
+# key: r_gocache_record
+# --
+
+resource "gocache_record" "${1:this}" {
+    content = "${2:content}"
+    domain = "${3:domain}"
+    name = "${4:name}"
+    proxied = "${5:proxied}"
+    ttl = "${6:ttl}"
+    type = "${7:type}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_lightstep_stream
+# key: d_lightstep_stream
+# --
+
+data "lightstep_stream" "${1:this}" {
+    project_name = "${2:project_name}"
+    stream_id = "${3:stream_id}"
+}

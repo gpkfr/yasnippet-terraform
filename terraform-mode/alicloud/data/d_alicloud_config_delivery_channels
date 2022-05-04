@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_config_delivery_channels
+# key: d_alicloud_config_delivery_channels
+# --
+
+data "alicloud_config_delivery_channels" "${1:this}" {
+}

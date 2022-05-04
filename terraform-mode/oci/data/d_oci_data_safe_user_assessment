@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_user_assessment
+# key: d_oci_data_safe_user_assessment
+# --
+
+data "oci_data_safe_user_assessment" "${1:this}" {
+    user_assessment_id = "${2:user_assessment_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_logical_interconnect
+# key: d_oneview_logical_interconnect
+# --
+
+data "oneview_logical_interconnect" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_firewall_instance
+# key: r_aviatrix_firewall_instance
+# --
+
+resource "aviatrix_firewall_instance" "${1:this}" {
+    egress_subnet = "${2:egress_subnet}"
+    firewall_image = "${3:firewall_image}"
+    firewall_name = "${4:firewall_name}"
+    firewall_size = "${5:firewall_size}"
+    vpc_id = "${6:vpc_id}"
+}

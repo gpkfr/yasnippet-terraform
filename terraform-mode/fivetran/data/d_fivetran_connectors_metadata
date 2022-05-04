@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fivetran_connectors_metadata
+# key: d_fivetran_connectors_metadata
+# --
+
+data "fivetran_connectors_metadata" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_qldb_stream
+# key: d_awscc_qldb_stream
+# --
+
+data "awscc_qldb_stream" "${1:this}" {
+    id = "${2:id}"
+}

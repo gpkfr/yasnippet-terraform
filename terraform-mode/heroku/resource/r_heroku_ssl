@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_heroku_ssl
+# key: r_heroku_ssl
+# --
+
+resource "heroku_ssl" "${1:this}" {
+    app_id = "${2:app_id}"
+    certificate_chain = "${3:certificate_chain}"
+}

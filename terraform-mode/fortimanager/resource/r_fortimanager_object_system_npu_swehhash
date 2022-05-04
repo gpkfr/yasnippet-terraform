@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_swehhash
+# key: r_fortimanager_object_system_npu_swehhash
+# --
+
+resource "fortimanager_object_system_npu_swehhash" "${1:this}" {
+}

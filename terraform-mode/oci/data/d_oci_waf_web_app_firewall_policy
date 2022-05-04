@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_waf_web_app_firewall_policy
+# key: d_oci_waf_web_app_firewall_policy
+# --
+
+data "oci_waf_web_app_firewall_policy" "${1:this}" {
+    web_app_firewall_policy_id = "${2:web_app_firewall_policy_id}"
+}

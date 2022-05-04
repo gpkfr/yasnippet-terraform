@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_cloud_provider_access_authorization
+# key: r_mongodbatlas_cloud_provider_access_authorization
+# --
+
+resource "mongodbatlas_cloud_provider_access_authorization" "${1:this}" {
+    project_id = "${2:project_id}"
+    role_id = "${3:role_id}"
+}

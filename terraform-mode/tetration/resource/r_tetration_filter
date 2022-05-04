@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tetration_filter
+# key: r_tetration_filter
+# --
+
+resource "tetration_filter" "${1:this}" {
+    app_scope_id = "${2:app_scope_id}"
+    name = "${3:name}"
+    query = "${4:query}"
+}

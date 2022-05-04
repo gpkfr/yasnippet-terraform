@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_hcp_vault_cluster
+# key: d_hcp_vault_cluster
+# --
+
+data "hcp_vault_cluster" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+}

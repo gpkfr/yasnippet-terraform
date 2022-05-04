@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_spring_cloud_container_deployment
+# key: r_azurerm_spring_cloud_container_deployment
+# --
+
+resource "azurerm_spring_cloud_container_deployment" "${1:this}" {
+    image = "${2:image}"
+    name = "${3:name}"
+    server = "${4:server}"
+    spring_cloud_app_id = "${5:spring_cloud_app_id}"
+}

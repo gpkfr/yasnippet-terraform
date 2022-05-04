@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_log_forwarding
+# key: r_valtix_profile_log_forwarding
+# --
+
+resource "valtix_profile_log_forwarding" "${1:this}" {
+    name = "${2:name}"
+    siem_vendor = "${3:siem_vendor}"
+}

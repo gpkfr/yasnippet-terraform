@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_k8s_pool
+# key: d_scaleway_k8s_pool
+# --
+
+data "scaleway_k8s_pool" "${1:this}" {
+}

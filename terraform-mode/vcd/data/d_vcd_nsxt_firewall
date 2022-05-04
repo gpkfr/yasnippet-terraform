@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxt_firewall
+# key: d_vcd_nsxt_firewall
+# --
+
+data "vcd_nsxt_firewall" "${1:this}" {
+    edge_gateway_id = "${2:edge_gateway_id}"
+}

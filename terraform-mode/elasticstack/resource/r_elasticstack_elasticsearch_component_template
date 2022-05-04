@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_elasticstack_elasticsearch_component_template
+# key: r_elasticstack_elasticsearch_component_template
+# --
+
+resource "elasticstack_elasticsearch_component_template" "${1:this}" {
+    name = "${2:name}"
+}

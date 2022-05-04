@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_resource_group_container
+# key: r_lacework_resource_group_container
+# --
+
+resource "lacework_resource_group_container" "${1:this}" {
+    container_tags = "${2:container_tags}"
+    name = "${3:name}"
+}

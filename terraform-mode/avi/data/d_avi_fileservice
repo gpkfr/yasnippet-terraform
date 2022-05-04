@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_avi_fileservice
+# key: d_avi_fileservice
+# --
+
+data "avi_fileservice" "${1:this}" {
+    local_file = "${2:local_file}"
+    uri = "${3:uri}"
+}

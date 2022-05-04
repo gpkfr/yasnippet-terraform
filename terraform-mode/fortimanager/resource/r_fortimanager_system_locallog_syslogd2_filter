@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_locallog_syslogd2_filter
+# key: r_fortimanager_system_locallog_syslogd2_filter
+# --
+
+resource "fortimanager_system_locallog_syslogd2_filter" "${1:this}" {
+}

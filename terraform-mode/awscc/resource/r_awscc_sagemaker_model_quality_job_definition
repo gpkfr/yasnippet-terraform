@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sagemaker_model_quality_job_definition
+# key: r_awscc_sagemaker_model_quality_job_definition
+# --
+
+resource "awscc_sagemaker_model_quality_job_definition" "${1:this}" {
+    job_resources = "${2:job_resources}"
+    model_quality_app_specification = "${3:model_quality_app_specification}"
+    model_quality_job_input = "${4:model_quality_job_input}"
+    model_quality_job_output_config = "${5:model_quality_job_output_config}"
+    role_arn = "${6:role_arn}"
+}

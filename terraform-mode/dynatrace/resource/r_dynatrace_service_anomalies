@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_service_anomalies
+# key: r_dynatrace_service_anomalies
+# --
+
+resource "dynatrace_service_anomalies" "${1:this}" {
+}

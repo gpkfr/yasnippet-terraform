@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslservice_ecccurve_binding
+# key: r_citrixadc_sslservice_ecccurve_binding
+# --
+
+resource "citrixadc_sslservice_ecccurve_binding" "${1:this}" {
+}

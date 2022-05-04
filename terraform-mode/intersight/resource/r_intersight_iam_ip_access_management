@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_ip_access_management
+# key: r_intersight_iam_ip_access_management
+# --
+
+resource "intersight_iam_ip_access_management" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_consul_namespace_policy_attachment
+# key: r_consul_namespace_policy_attachment
+# --
+
+resource "consul_namespace_policy_attachment" "${1:this}" {
+    namespace = "${2:namespace}"
+    policy = "${3:policy}"
+}

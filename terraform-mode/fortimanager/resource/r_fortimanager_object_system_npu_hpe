@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_hpe
+# key: r_fortimanager_object_system_npu_hpe
+# --
+
+resource "fortimanager_object_system_npu_hpe" "${1:this}" {
+}

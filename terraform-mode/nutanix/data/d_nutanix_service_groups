@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_service_groups
+# key: d_nutanix_service_groups
+# --
+
+data "nutanix_service_groups" "${1:this}" {
+}

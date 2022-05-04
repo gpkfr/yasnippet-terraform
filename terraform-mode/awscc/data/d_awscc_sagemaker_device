@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_device
+# key: d_awscc_sagemaker_device
+# --
+
+data "awscc_sagemaker_device" "${1:this}" {
+    id = "${2:id}"
+}

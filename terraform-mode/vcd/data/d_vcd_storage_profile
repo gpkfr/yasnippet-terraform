@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_storage_profile
+# key: d_vcd_storage_profile
+# --
+
+data "vcd_storage_profile" "${1:this}" {
+    name = "${2:name}"
+}

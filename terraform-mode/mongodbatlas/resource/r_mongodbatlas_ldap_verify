@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_ldap_verify
+# key: r_mongodbatlas_ldap_verify
+# --
+
+resource "mongodbatlas_ldap_verify" "${1:this}" {
+    bind_password = "${2:bind_password}"
+    bind_username = "${3:bind_username}"
+    hostname = "${4:hostname}"
+    port = "${5:port}"
+    project_id = "${6:project_id}"
+}

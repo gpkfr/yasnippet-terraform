@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_dynamicdnsrecord
+# key: r_avi_dynamicdnsrecord
+# --
+
+resource "avi_dynamicdnsrecord" "${1:this}" {
+}

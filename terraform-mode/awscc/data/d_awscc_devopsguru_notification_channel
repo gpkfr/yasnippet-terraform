@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_devopsguru_notification_channel
+# key: d_awscc_devopsguru_notification_channel
+# --
+
+data "awscc_devopsguru_notification_channel" "${1:this}" {
+    id = "${2:id}"
+}

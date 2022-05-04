@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_anaml-operations_webhook
+# key: r_anaml-operations_webhook
+# --
+
+resource "anaml-operations_webhook" "${1:this}" {
+    name = "${2:name}"
+}

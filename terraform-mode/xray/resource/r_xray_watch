@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_xray_watch
+# key: r_xray_watch
+# --
+
+resource "xray_watch" "${1:this}" {
+    name = "${2:name}"
+}

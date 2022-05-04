@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_localinpolicy6_move
+# key: r_fortimanager_packages_firewall_localinpolicy6_move
+# --
+
+resource "fortimanager_packages_firewall_localinpolicy6_move" "${1:this}" {
+    local_in_policy6 = "${2:local_in_policy6}"
+    option = "${3:option}"
+    pkg = "${4:pkg}"
+    target = "${5:target}"
+}

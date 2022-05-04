@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwprofile
+# key: r_citrixadc_appfwprofile
+# --
+
+resource "citrixadc_appfwprofile" "${1:this}" {
+    name = "${2:name}"
+}

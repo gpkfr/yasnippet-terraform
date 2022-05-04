@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_web_category_proxy_server
+# key: r_thunder_web_category_proxy_server
+# --
+
+resource "thunder_web_category_proxy_server" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_quicksight_analysis
+# key: r_awscc_quicksight_analysis
+# --
+
+resource "awscc_quicksight_analysis" "${1:this}" {
+    analysis_id = "${2:analysis_id}"
+    aws_account_id = "${3:aws_account_id}"
+    source_entity = "${4:source_entity}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_mediaconnect_flow_vpc_interface
+# key: r_awscc_mediaconnect_flow_vpc_interface
+# --
+
+resource "awscc_mediaconnect_flow_vpc_interface" "${1:this}" {
+    flow_arn = "${2:flow_arn}"
+    name = "${3:name}"
+    role_arn = "${4:role_arn}"
+    security_group_ids = "${5:security_group_ids}"
+    subnet_id = "${6:subnet_id}"
+}

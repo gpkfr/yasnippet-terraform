@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_volterra_parse_aws_cgw_configuration
+# key: d_volterra_parse_aws_cgw_configuration
+# --
+
+data "volterra_parse_aws_cgw_configuration" "${1:this}" {
+    customer_gateway_configuration = "${2:customer_gateway_configuration}"
+}

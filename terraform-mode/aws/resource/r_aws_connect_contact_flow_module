@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_connect_contact_flow_module
+# key: r_aws_connect_contact_flow_module
+# --
+
+resource "aws_connect_contact_flow_module" "${1:this}" {
+    instance_id = "${2:instance_id}"
+    name = "${3:name}"
+}

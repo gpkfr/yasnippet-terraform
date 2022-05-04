@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_pki_cert_issuer
+# key: r_akeyless_pki_cert_issuer
+# --
+
+resource "akeyless_pki_cert_issuer" "${1:this}" {
+    name = "${2:name}"
+    signer_key_name = "${3:signer_key_name}"
+    ttl = "${4:ttl}"
+}

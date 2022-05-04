@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akamai_property_products
+# key: d_akamai_property_products
+# --
+
+data "akamai_property_products" "${1:this}" {
+    contract_id = "${2:contract_id}"
+}

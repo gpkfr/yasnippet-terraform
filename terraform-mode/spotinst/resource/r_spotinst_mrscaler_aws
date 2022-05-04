@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_mrscaler_aws
+# key: r_spotinst_mrscaler_aws
+# --
+
+resource "spotinst_mrscaler_aws" "${1:this}" {
+    name = "${2:name}"
+    strategy = "${3:strategy}"
+}

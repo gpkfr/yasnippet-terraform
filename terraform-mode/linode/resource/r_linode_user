@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_linode_user
+# key: r_linode_user
+# --
+
+resource "linode_user" "${1:this}" {
+    email = "${2:email}"
+    username = "${3:username}"
+}

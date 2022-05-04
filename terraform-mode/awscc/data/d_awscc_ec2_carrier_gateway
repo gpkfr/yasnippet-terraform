@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_carrier_gateway
+# key: d_awscc_ec2_carrier_gateway
+# --
+
+data "awscc_ec2_carrier_gateway" "${1:this}" {
+    id = "${2:id}"
+}

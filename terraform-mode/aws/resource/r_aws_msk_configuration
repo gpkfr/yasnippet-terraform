@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_msk_configuration
+# key: r_aws_msk_configuration
+# --
+
+resource "aws_msk_configuration" "${1:this}" {
+    name = "${2:name}"
+    server_properties = "${3:server_properties}"
+}

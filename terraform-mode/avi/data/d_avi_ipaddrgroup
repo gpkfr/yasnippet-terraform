@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_ipaddrgroup
+# key: d_avi_ipaddrgroup
+# --
+
+data "avi_ipaddrgroup" "${1:this}" {
+}

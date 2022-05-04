@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_cloudaccount_gcp
+# key: d_dome9_cloudaccount_gcp
+# --
+
+data "dome9_cloudaccount_gcp" "${1:this}" {
+    id = "${2:id}"
+}

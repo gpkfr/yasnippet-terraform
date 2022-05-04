@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_device_package_download_state
+# key: d_intersight_hyperflex_device_package_download_state
+# --
+
+data "intersight_hyperflex_device_package_download_state" "${1:this}" {
+}

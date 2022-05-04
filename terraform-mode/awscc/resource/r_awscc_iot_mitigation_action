@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_mitigation_action
+# key: r_awscc_iot_mitigation_action
+# --
+
+resource "awscc_iot_mitigation_action" "${1:this}" {
+    action_params = "${2:action_params}"
+    role_arn = "${3:role_arn}"
+}

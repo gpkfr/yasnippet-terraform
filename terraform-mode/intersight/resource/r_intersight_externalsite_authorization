@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_externalsite_authorization
+# key: r_intersight_externalsite_authorization
+# --
+
+resource "intersight_externalsite_authorization" "${1:this}" {
+}

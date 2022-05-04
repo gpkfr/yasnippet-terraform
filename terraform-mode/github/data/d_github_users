@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_github_users
+# key: d_github_users
+# --
+
+data "github_users" "${1:this}" {
+    usernames = "${2:usernames}"
+}

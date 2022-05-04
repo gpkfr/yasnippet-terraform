@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oneview_logical_enclosure
+# key: d_oneview_logical_enclosure
+# --
+
+data "oneview_logical_enclosure" "${1:this}" {
+    enclosure_group_uri = "${2:enclosure_group_uri}"
+    name = "${3:name}"
+}

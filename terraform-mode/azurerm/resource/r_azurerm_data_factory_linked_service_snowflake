@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_linked_service_snowflake
+# key: r_azurerm_data_factory_linked_service_snowflake
+# --
+
+resource "azurerm_data_factory_linked_service_snowflake" "${1:this}" {
+    connection_string = "${2:connection_string}"
+    data_factory_id = "${3:data_factory_id}"
+    name = "${4:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_label_group
+# key: r_illumio-core_label_group
+# --
+
+resource "illumio-core_label_group" "${1:this}" {
+    description = "${2:description}"
+    key = "${3:key}"
+    name = "${4:name}"
+}

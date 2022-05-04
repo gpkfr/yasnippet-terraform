@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_heroku_addon
+# key: r_heroku_addon
+# --
+
+resource "heroku_addon" "${1:this}" {
+    app_id = "${2:app_id}"
+    plan = "${3:plan}"
+}

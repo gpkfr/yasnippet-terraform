@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcp_consul_versions
+# key: d_hcp_consul_versions
+# --
+
+data "hcp_consul_versions" "${1:this}" {
+}

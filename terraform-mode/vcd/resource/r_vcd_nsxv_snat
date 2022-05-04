@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxv_snat
+# key: r_vcd_nsxv_snat
+# --
+
+resource "vcd_nsxv_snat" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    network_name = "${3:network_name}"
+    network_type = "${4:network_type}"
+    original_address = "${5:original_address}"
+}

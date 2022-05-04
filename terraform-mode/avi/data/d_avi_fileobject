@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_fileobject
+# key: d_avi_fileobject
+# --
+
+data "avi_fileobject" "${1:this}" {
+}

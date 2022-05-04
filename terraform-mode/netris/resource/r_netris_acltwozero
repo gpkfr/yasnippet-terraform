@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_netris_acltwozero
+# key: r_netris_acltwozero
+# --
+
+resource "netris_acltwozero" "${1:this}" {
+    name = "${2:name}"
+    privacy = "${3:privacy}"
+    tenantid = "${4:tenantid}"
+}

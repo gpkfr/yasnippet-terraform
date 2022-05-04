@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aci_rest
+# key: d_aci_rest
+# --
+
+data "aci_rest" "${1:this}" {
+    dn = "${2:dn}"
+}

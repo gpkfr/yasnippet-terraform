@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_software_distribution_component
+# key: r_intersight_hyperflex_software_distribution_component
+# --
+
+resource "intersight_hyperflex_software_distribution_component" "${1:this}" {
+}

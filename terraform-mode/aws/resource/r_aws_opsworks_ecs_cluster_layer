@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_opsworks_ecs_cluster_layer
+# key: r_aws_opsworks_ecs_cluster_layer
+# --
+
+resource "aws_opsworks_ecs_cluster_layer" "${1:this}" {
+    ecs_cluster_arn = "${2:ecs_cluster_arn}"
+    stack_id = "${3:stack_id}"
+}

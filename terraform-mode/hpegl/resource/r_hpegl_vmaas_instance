@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_hpegl_vmaas_instance
+# key: r_hpegl_vmaas_instance
+# --
+
+resource "hpegl_vmaas_instance" "${1:this}" {
+    cloud_id = "${2:cloud_id}"
+    group_id = "${3:group_id}"
+    instance_type_code = "${4:instance_type_code}"
+    layout_id = "${5:layout_id}"
+    name = "${6:name}"
+    plan_id = "${7:plan_id}"
+}

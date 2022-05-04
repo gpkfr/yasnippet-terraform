@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_dcnm_service_policy
+# key: r_dcnm_service_policy
+# --
+
+resource "dcnm_service_policy" "${1:this}" {
+    attached_fabric = "${2:attached_fabric}"
+    dest_network = "${3:dest_network}"
+    dest_vrf_name = "${4:dest_vrf_name}"
+    next_hop_ip = "${5:next_hop_ip}"
+    peering_name = "${6:peering_name}"
+    policy_name = "${7:policy_name}"
+    service_fabric = "${8:service_fabric}"
+    service_node_name = "${9:service_node_name}"
+    source_network = "${10:source_network}"
+    source_vrf_name = "${11:source_vrf_name}"
+}

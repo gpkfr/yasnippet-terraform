@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vxlanvlanmap_vxlan_binding
+# key: r_citrixadc_vxlanvlanmap_vxlan_binding
+# --
+
+resource "citrixadc_vxlanvlanmap_vxlan_binding" "${1:this}" {
+    name = "${2:name}"
+    vxlan = "${3:vxlan}"
+}

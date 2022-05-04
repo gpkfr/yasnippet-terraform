@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_multai_deployment
+# key: r_spotinst_multai_deployment
+# --
+
+resource "spotinst_multai_deployment" "${1:this}" {
+    name = "${2:name}"
+}

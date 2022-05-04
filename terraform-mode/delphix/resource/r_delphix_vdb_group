@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_delphix_vdb_group
+# key: r_delphix_vdb_group
+# --
+
+resource "delphix_vdb_group" "${1:this}" {
+    name = "${2:name}"
+    vdb_ids = "${3:vdb_ids}"
+}

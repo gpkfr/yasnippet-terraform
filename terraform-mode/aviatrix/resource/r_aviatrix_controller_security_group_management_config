@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_controller_security_group_management_config
+# key: r_aviatrix_controller_security_group_management_config
+# --
+
+resource "aviatrix_controller_security_group_management_config" "${1:this}" {
+    enable_security_group_management = "${2:enable_security_group_management}"
+}

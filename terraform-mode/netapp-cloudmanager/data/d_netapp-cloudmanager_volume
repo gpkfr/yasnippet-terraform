@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_netapp-cloudmanager_volume
+# key: d_netapp-cloudmanager_volume
+# --
+
+data "netapp-cloudmanager_volume" "${1:this}" {
+    client_id = "${2:client_id}"
+    name = "${3:name}"
+}

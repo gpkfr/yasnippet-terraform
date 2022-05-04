@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_vpn_gateway_route
+# key: r_tencentcloud_vpn_gateway_route
+# --
+
+resource "tencentcloud_vpn_gateway_route" "${1:this}" {
+    destination_cidr_block = "${2:destination_cidr_block}"
+    instance_id = "${3:instance_id}"
+    instance_type = "${4:instance_type}"
+    priority = "${5:priority}"
+    status = "${6:status}"
+    vpn_gateway_id = "${7:vpn_gateway_id}"
+}

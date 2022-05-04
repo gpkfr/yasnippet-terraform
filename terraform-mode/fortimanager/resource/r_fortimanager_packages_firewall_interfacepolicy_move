@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_interfacepolicy_move
+# key: r_fortimanager_packages_firewall_interfacepolicy_move
+# --
+
+resource "fortimanager_packages_firewall_interfacepolicy_move" "${1:this}" {
+    interface_policy = "${2:interface_policy}"
+    option = "${3:option}"
+    pkg = "${4:pkg}"
+    target = "${5:target}"
+}

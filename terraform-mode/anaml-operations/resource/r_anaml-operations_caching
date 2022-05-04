@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_anaml-operations_caching
+# key: r_anaml-operations_caching
+# --
+
+resource "anaml-operations_caching" "${1:this}" {
+    cluster = "${2:cluster}"
+    name = "${3:name}"
+    prefix_url = "${4:prefix_url}"
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_alkira_connector_aruba_edge
+# key: r_alkira_connector_aruba_edge
+# --
+
+resource "alkira_connector_aruba_edge" "${1:this}" {
+    cxp = "${2:cxp}"
+    gateway_gbp_asn = "${3:gateway_gbp_asn}"
+    name = "${4:name}"
+    segment_ids = "${5:segment_ids}"
+    size = "${6:size}"
+    version = "${7:version}"
+}

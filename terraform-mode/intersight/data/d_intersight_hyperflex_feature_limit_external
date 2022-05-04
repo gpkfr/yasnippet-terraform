@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_feature_limit_external
+# key: d_intersight_hyperflex_feature_limit_external
+# --
+
+data "intersight_hyperflex_feature_limit_external" "${1:this}" {
+}

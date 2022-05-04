@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_networksecuritypolicy
+# key: r_avi_networksecuritypolicy
+# --
+
+resource "avi_networksecuritypolicy" "${1:this}" {
+}

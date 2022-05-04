@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_admin_tacacs
+# key: r_fortimanager_system_admin_tacacs
+# --
+
+resource "fortimanager_system_admin_tacacs" "${1:this}" {
+}

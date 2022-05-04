@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationoauthaction
+# key: r_citrixadc_authenticationoauthaction
+# --
+
+resource "citrixadc_authenticationoauthaction" "${1:this}" {
+    authorizationendpoint = "${2:authorizationendpoint}"
+    clientid = "${3:clientid}"
+    clientsecret = "${4:clientsecret}"
+    name = "${5:name}"
+    tokenendpoint = "${6:tokenendpoint}"
+}

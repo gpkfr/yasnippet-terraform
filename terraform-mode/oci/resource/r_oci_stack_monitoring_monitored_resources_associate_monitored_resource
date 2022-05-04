@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_stack_monitoring_monitored_resources_associate_monitored_resource
+# key: r_oci_stack_monitoring_monitored_resources_associate_monitored_resource
+# --
+
+resource "oci_stack_monitoring_monitored_resources_associate_monitored_resource" "${1:this}" {
+    association_type = "${2:association_type}"
+    compartment_id = "${3:compartment_id}"
+    destination_resource_id = "${4:destination_resource_id}"
+    source_resource_id = "${5:source_resource_id}"
+}

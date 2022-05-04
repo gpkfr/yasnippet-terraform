@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_dsm_key
+# key: r_ciphertrust_dsm_key
+# --
+
+resource "ciphertrust_dsm_key" "${1:this}" {
+    algorithm = "${2:algorithm}"
+    domain = "${3:domain}"
+    name = "${4:name}"
+    object_type = "${5:object_type}"
+}

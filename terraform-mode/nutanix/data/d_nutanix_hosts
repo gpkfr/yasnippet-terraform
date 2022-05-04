@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_hosts
+# key: d_nutanix_hosts
+# --
+
+data "nutanix_hosts" "${1:this}" {
+}

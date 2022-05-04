@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_evidently_experiment
+# key: d_awscc_evidently_experiment
+# --
+
+data "awscc_evidently_experiment" "${1:this}" {
+    id = "${2:id}"
+}

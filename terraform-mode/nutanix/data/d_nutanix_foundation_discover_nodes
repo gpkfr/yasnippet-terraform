@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_foundation_discover_nodes
+# key: d_nutanix_foundation_discover_nodes
+# --
+
+data "nutanix_foundation_discover_nodes" "${1:this}" {
+}

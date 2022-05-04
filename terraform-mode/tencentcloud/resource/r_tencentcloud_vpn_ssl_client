@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_vpn_ssl_client
+# key: r_tencentcloud_vpn_ssl_client
+# --
+
+resource "tencentcloud_vpn_ssl_client" "${1:this}" {
+    ssl_vpn_client_name = "${2:ssl_vpn_client_name}"
+    ssl_vpn_server_id = "${3:ssl_vpn_server_id}"
+}

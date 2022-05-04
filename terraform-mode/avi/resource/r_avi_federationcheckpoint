@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_federationcheckpoint
+# key: r_avi_federationcheckpoint
+# --
+
+resource "avi_federationcheckpoint" "${1:this}" {
+    name = "${2:name}"
+}

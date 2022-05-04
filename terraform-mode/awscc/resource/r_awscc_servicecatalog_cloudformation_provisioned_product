@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_servicecatalog_cloudformation_provisioned_product
+# key: r_awscc_servicecatalog_cloudformation_provisioned_product
+# --
+
+resource "awscc_servicecatalog_cloudformation_provisioned_product" "${1:this}" {
+}

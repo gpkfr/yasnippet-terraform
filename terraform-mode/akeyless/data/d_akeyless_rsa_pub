@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akeyless_rsa_pub
+# key: d_akeyless_rsa_pub
+# --
+
+data "akeyless_rsa_pub" "${1:this}" {
+    name = "${2:name}"
+}

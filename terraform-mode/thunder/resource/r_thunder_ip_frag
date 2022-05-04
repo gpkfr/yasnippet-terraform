@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ip_frag
+# key: r_thunder_ip_frag
+# --
+
+resource "thunder_ip_frag" "${1:this}" {
+}

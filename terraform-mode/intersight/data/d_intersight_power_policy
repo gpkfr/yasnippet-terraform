@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_power_policy
+# key: d_intersight_power_policy
+# --
+
+data "intersight_power_policy" "${1:this}" {
+}

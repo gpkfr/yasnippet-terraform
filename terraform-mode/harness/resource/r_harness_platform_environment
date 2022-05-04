@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_environment
+# key: r_harness_platform_environment
+# --
+
+resource "harness_platform_environment" "${1:this}" {
+    identifier = "${2:identifier}"
+    name = "${3:name}"
+    org_id = "${4:org_id}"
+    project_id = "${5:project_id}"
+    type = "${6:type}"
+}

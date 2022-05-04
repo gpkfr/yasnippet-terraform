@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_coralogix_rule
+# key: r_coralogix_rule
+# --
+
+resource "coralogix_rule" "${1:this}" {
+    expression = "${2:expression}"
+    name = "${3:name}"
+    rules_group_id = "${4:rules_group_id}"
+    type = "${5:type}"
+}

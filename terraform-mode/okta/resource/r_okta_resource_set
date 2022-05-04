@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_resource_set
+# key: r_okta_resource_set
+# --
+
+resource "okta_resource_set" "${1:this}" {
+    description = "${2:description}"
+    label = "${3:label}"
+}

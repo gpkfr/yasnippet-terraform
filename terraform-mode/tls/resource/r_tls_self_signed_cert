@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tls_self_signed_cert
+# key: r_tls_self_signed_cert
+# --
+
+resource "tls_self_signed_cert" "${1:this}" {
+    allowed_uses = "${2:allowed_uses}"
+    private_key_pem = "${3:private_key_pem}"
+    validity_period_hours = "${4:validity_period_hours}"
+}

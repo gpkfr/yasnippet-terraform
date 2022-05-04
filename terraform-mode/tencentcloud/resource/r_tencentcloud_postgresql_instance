@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_postgresql_instance
+# key: r_tencentcloud_postgresql_instance
+# --
+
+resource "tencentcloud_postgresql_instance" "${1:this}" {
+    availability_zone = "${2:availability_zone}"
+    memory = "${3:memory}"
+    name = "${4:name}"
+    root_password = "${5:root_password}"
+    storage = "${6:storage}"
+}

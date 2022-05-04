@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_desktop_scaling_plan
+# key: r_azurerm_virtual_desktop_scaling_plan
+# --
+
+resource "azurerm_virtual_desktop_scaling_plan" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+    time_zone = "${5:time_zone}"
+}

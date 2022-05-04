@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_wirelesscontroller_ssidpolicy
+# key: r_fortios_wirelesscontroller_ssidpolicy
+# --
+
+resource "fortios_wirelesscontroller_ssidpolicy" "${1:this}" {
+}

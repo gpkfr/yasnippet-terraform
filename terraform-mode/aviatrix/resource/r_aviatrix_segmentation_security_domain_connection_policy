@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_segmentation_security_domain_connection_policy
+# key: r_aviatrix_segmentation_security_domain_connection_policy
+# --
+
+resource "aviatrix_segmentation_security_domain_connection_policy" "${1:this}" {
+    domain_name_1 = "${2:domain_name_1}"
+    domain_name_2 = "${3:domain_name_2}"
+}

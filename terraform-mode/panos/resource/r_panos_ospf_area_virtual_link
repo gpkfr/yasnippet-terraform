@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_panos_ospf_area_virtual_link
+# key: r_panos_ospf_area_virtual_link
+# --
+
+resource "panos_ospf_area_virtual_link" "${1:this}" {
+    name = "${2:name}"
+    neighbor_id = "${3:neighbor_id}"
+    ospf_area = "${4:ospf_area}"
+    transit_area_id = "${5:transit_area_id}"
+    virtual_router = "${6:virtual_router}"
+}

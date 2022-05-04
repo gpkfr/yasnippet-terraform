@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudsigma_drive
+# key: r_cloudsigma_drive
+# --
+
+resource "cloudsigma_drive" "${1:this}" {
+    media = "${2:media}"
+    name = "${3:name}"
+    size = "${4:size}"
+}

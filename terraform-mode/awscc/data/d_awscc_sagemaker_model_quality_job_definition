@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_model_quality_job_definition
+# key: d_awscc_sagemaker_model_quality_job_definition
+# --
+
+data "awscc_sagemaker_model_quality_job_definition" "${1:this}" {
+    id = "${2:id}"
+}

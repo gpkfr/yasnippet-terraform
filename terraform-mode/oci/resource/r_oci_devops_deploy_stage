@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_devops_deploy_stage
+# key: r_oci_devops_deploy_stage
+# --
+
+resource "oci_devops_deploy_stage" "${1:this}" {
+    deploy_pipeline_id = "${2:deploy_pipeline_id}"
+    deploy_stage_type = "${3:deploy_stage_type}"
+}

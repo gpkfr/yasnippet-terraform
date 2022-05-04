@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nutanixkps_vm_cloud_config
+# key: r_nutanixkps_vm_cloud_config
+# --
+
+resource "nutanixkps_vm_cloud_config" "${1:this}" {
+    cloud_fqdn = "${2:cloud_fqdn}"
+    public_ip_address = "${3:public_ip_address}"
+}

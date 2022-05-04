@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_repository_file
+# key: r_gitlab_repository_file
+# --
+
+resource "gitlab_repository_file" "${1:this}" {
+    branch = "${2:branch}"
+    commit_message = "${3:commit_message}"
+    content = "${4:content}"
+    file_path = "${5:file_path}"
+    project = "${6:project}"
+}

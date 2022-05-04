@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_spring_cloud_custom_domain
+# key: r_azurerm_spring_cloud_custom_domain
+# --
+
+resource "azurerm_spring_cloud_custom_domain" "${1:this}" {
+    name = "${2:name}"
+    spring_cloud_app_id = "${3:spring_cloud_app_id}"
+}

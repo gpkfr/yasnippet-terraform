@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotsitewise_asset
+# key: d_awscc_iotsitewise_asset
+# --
+
+data "awscc_iotsitewise_asset" "${1:this}" {
+    id = "${2:id}"
+}

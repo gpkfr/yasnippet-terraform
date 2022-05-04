@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_shipa_role
+# key: r_shipa_role
+# --
+
+resource "shipa_role" "${1:this}" {
+    context = "${2:context}"
+    name = "${3:name}"
+}

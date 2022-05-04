@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_pure_host
+# key: d_intersight_storage_pure_host
+# --
+
+data "intersight_storage_pure_host" "${1:this}" {
+}

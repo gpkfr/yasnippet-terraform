@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_harness_environment
+# key: d_harness_environment
+# --
+
+data "harness_environment" "${1:this}" {
+    app_id = "${2:app_id}"
+}

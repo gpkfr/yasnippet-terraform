@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_civo_region
+# key: d_civo_region
+# --
+
+data "civo_region" "${1:this}" {
+}

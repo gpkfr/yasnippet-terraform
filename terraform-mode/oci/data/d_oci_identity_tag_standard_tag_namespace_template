@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_tag_standard_tag_namespace_template
+# key: d_oci_identity_tag_standard_tag_namespace_template
+# --
+
+data "oci_identity_tag_standard_tag_namespace_template" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    standard_tag_namespace_name = "${3:standard_tag_namespace_name}"
+}

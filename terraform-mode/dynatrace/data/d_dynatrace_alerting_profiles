@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_dynatrace_alerting_profiles
+# key: d_dynatrace_alerting_profiles
+# --
+
+data "dynatrace_alerting_profiles" "${1:this}" {
+}

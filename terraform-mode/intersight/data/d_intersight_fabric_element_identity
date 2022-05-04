@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_element_identity
+# key: d_intersight_fabric_element_identity
+# --
+
+data "intersight_fabric_element_identity" "${1:this}" {
+}

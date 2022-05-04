@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_rate_limiting
+# key: r_okta_rate_limiting
+# --
+
+resource "okta_rate_limiting" "${1:this}" {
+    authorize = "${2:authorize}"
+    login = "${3:login}"
+}

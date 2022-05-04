@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_local_network_gateway
+# key: d_azurerm_local_network_gateway
+# --
+
+data "azurerm_local_network_gateway" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+}

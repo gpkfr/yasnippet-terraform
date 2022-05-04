@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwconfidfield
+# key: r_citrixadc_appfwconfidfield
+# --
+
+resource "citrixadc_appfwconfidfield" "${1:this}" {
+    fieldname = "${2:fieldname}"
+    url = "${3:url}"
+}

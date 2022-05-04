@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_project
+# key: r_equinix_metal_project
+# --
+
+resource "equinix_metal_project" "${1:this}" {
+    name = "${2:name}"
+}

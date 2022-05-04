@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_domain_name_info
+# key: r_intersight_iam_domain_name_info
+# --
+
+resource "intersight_iam_domain_name_info" "${1:this}" {
+}

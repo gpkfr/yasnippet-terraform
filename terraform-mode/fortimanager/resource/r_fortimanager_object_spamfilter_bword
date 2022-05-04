@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_spamfilter_bword
+# key: r_fortimanager_object_spamfilter_bword
+# --
+
+resource "fortimanager_object_spamfilter_bword" "${1:this}" {
+}

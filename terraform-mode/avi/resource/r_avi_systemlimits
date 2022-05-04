@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_systemlimits
+# key: r_avi_systemlimits
+# --
+
+resource "avi_systemlimits" "${1:this}" {
+}

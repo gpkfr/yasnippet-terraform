@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_robomaker_simulation_applications
+# key: d_awscc_robomaker_simulation_applications
+# --
+
+data "awscc_robomaker_simulation_applications" "${1:this}" {
+}

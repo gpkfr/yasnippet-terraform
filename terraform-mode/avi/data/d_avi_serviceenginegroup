@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_serviceenginegroup
+# key: d_avi_serviceenginegroup
+# --
+
+data "avi_serviceenginegroup" "${1:this}" {
+}

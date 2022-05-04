@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oneview_hypervisor_manager
+# key: r_oneview_hypervisor_manager
+# --
+
+resource "oneview_hypervisor_manager" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

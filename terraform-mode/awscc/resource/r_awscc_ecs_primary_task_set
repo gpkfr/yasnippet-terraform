@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ecs_primary_task_set
+# key: r_awscc_ecs_primary_task_set
+# --
+
+resource "awscc_ecs_primary_task_set" "${1:this}" {
+    cluster = "${2:cluster}"
+    service = "${3:service}"
+    task_set_id = "${4:task_set_id}"
+}

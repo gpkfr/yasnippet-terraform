@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_valtix_service_vpc
+# key: r_valtix_service_vpc
+# --
+
+resource "valtix_service_vpc" "${1:this}" {
+    availability_zones = "${2:availability_zones}"
+    cidr = "${3:cidr}"
+    csp_account_name = "${4:csp_account_name}"
+    name = "${5:name}"
+    region = "${6:region}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_tagging_permissions
+# key: r_azuredevops_tagging_permissions
+# --
+
+resource "azuredevops_tagging_permissions" "${1:this}" {
+    permissions = "${2:permissions}"
+    principal = "${3:principal}"
+}

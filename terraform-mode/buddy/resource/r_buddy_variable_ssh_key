@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_buddy_variable_ssh_key
+# key: r_buddy_variable_ssh_key
+# --
+
+resource "buddy_variable_ssh_key" "${1:this}" {
+    display_name = "${2:display_name}"
+    domain = "${3:domain}"
+    file_chmod = "${4:file_chmod}"
+    file_path = "${5:file_path}"
+    file_place = "${6:file_place}"
+    key = "${7:key}"
+    value = "${8:value}"
+}

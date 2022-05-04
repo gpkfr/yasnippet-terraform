@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_gretunnellist
+# key: d_fortios_system_gretunnellist
+# --
+
+data "fortios_system_gretunnellist" "${1:this}" {
+}

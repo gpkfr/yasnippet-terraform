@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_memorydb_user
+# key: r_awscc_memorydb_user
+# --
+
+resource "awscc_memorydb_user" "${1:this}" {
+    access_string = "${2:access_string}"
+    authentication_mode = "${3:authentication_mode}"
+    user_name = "${4:user_name}"
+}

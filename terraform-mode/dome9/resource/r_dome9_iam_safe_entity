@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_dome9_iam_safe_entity
+# key: r_dome9_iam_safe_entity
+# --
+
+resource "dome9_iam_safe_entity" "${1:this}" {
+    aws_cloud_account_id = "${2:aws_cloud_account_id}"
+    entity_name = "${3:entity_name}"
+    entity_type = "${4:entity_type}"
+    protection_mode = "${5:protection_mode}"
+}

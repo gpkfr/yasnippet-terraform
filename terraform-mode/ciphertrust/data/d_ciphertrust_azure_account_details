@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ciphertrust_azure_account_details
+# key: d_ciphertrust_azure_account_details
+# --
+
+data "ciphertrust_azure_account_details" "${1:this}" {
+    azure_connection = "${2:azure_connection}"
+}

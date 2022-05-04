@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_wanopt_profile
+# key: r_fortimanager_object_wanopt_profile
+# --
+
+resource "fortimanager_object_wanopt_profile" "${1:this}" {
+}

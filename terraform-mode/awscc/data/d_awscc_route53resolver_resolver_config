@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53resolver_resolver_config
+# key: d_awscc_route53resolver_resolver_config
+# --
+
+data "awscc_route53resolver_resolver_config" "${1:this}" {
+    id = "${2:id}"
+}

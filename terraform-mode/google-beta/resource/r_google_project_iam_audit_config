@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_project_iam_audit_config
+# key: r_google_project_iam_audit_config
+# --
+
+resource "google_project_iam_audit_config" "${1:this}" {
+    project = "${2:project}"
+    service = "${3:service}"
+}

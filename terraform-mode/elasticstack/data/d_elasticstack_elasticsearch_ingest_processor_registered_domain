@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_registered_domain
+# key: d_elasticstack_elasticsearch_ingest_processor_registered_domain
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_registered_domain" "${1:this}" {
+    field = "${2:field}"
+}

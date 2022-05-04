@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_interface_loopback
+# key: r_thunder_interface_loopback
+# --
+
+resource "thunder_interface_loopback" "${1:this}" {
+    ifnum = "${2:ifnum}"
+}

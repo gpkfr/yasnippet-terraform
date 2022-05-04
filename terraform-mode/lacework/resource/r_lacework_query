@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_query
+# key: r_lacework_query
+# --
+
+resource "lacework_query" "${1:this}" {
+    query = "${2:query}"
+    query_id = "${3:query_id}"
+}

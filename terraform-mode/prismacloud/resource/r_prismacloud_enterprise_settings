@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_prismacloud_enterprise_settings
+# key: r_prismacloud_enterprise_settings
+# --
+
+resource "prismacloud_enterprise_settings" "${1:this}" {
+    access_key_max_validity = "${2:access_key_max_validity}"
+}

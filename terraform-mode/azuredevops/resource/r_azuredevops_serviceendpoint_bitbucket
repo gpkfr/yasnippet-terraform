@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_bitbucket
+# key: r_azuredevops_serviceendpoint_bitbucket
+# --
+
+resource "azuredevops_serviceendpoint_bitbucket" "${1:this}" {
+    password = "${2:password}"
+    project_id = "${3:project_id}"
+    service_endpoint_name = "${4:service_endpoint_name}"
+    username = "${5:username}"
+}

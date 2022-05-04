@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gcore_instance
+# key: r_gcore_instance
+# --
+
+resource "gcore_instance" "${1:this}" {
+    flavor_id = "${2:flavor_id}"
+}

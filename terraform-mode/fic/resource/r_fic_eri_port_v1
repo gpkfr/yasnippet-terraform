@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fic_eri_port_v1
+# key: r_fic_eri_port_v1
+# --
+
+resource "fic_eri_port_v1" "${1:this}" {
+    name = "${2:name}"
+    switch_name = "${3:switch_name}"
+}

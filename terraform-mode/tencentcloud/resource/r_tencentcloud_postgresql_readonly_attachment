@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_postgresql_readonly_attachment
+# key: r_tencentcloud_postgresql_readonly_attachment
+# --
+
+resource "tencentcloud_postgresql_readonly_attachment" "${1:this}" {
+    db_instance_id = "${2:db_instance_id}"
+    read_only_group_id = "${3:read_only_group_id}"
+}

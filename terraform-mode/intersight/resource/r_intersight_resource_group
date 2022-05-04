@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_resource_group
+# key: r_intersight_resource_group
+# --
+
+resource "intersight_resource_group" "${1:this}" {
+}

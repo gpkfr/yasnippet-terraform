@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_dcnm_rest
+# key: r_dcnm_rest
+# --
+
+resource "dcnm_rest" "${1:this}" {
+    path = "${2:path}"
+}

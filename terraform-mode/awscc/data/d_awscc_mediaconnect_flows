@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_mediaconnect_flows
+# key: d_awscc_mediaconnect_flows
+# --
+
+data "awscc_mediaconnect_flows" "${1:this}" {
+}

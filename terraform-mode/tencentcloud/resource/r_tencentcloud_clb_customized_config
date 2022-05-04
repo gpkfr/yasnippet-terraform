@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_clb_customized_config
+# key: r_tencentcloud_clb_customized_config
+# --
+
+resource "tencentcloud_clb_customized_config" "${1:this}" {
+    config_content = "${2:config_content}"
+    config_name = "${3:config_name}"
+}

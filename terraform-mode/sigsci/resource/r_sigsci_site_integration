@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_site_integration
+# key: r_sigsci_site_integration
+# --
+
+resource "sigsci_site_integration" "${1:this}" {
+    site_short_name = "${2:site_short_name}"
+    type = "${3:type}"
+    url = "${4:url}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_aws
+# key: r_azuredevops_serviceendpoint_aws
+# --
+
+resource "azuredevops_serviceendpoint_aws" "${1:this}" {
+    access_key_id = "${2:access_key_id}"
+    project_id = "${3:project_id}"
+    secret_access_key = "${4:secret_access_key}"
+    service_endpoint_name = "${5:service_endpoint_name}"
+}

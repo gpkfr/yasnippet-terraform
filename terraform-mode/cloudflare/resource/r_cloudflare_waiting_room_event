@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_waiting_room_event
+# key: r_cloudflare_waiting_room_event
+# --
+
+resource "cloudflare_waiting_room_event" "${1:this}" {
+    event_end_time = "${2:event_end_time}"
+    event_start_time = "${3:event_start_time}"
+    name = "${4:name}"
+    waiting_room_id = "${5:waiting_room_id}"
+    zone_id = "${6:zone_id}"
+}

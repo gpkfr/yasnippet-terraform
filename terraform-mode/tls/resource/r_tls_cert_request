@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tls_cert_request
+# key: r_tls_cert_request
+# --
+
+resource "tls_cert_request" "${1:this}" {
+    private_key_pem = "${2:private_key_pem}"
+}

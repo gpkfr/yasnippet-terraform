@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_emr_studio_session_mappings
+# key: d_awscc_emr_studio_session_mappings
+# --
+
+data "awscc_emr_studio_session_mappings" "${1:this}" {
+}

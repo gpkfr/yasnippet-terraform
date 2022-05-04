@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_graphics_card
+# key: d_intersight_graphics_card
+# --
+
+data "intersight_graphics_card" "${1:this}" {
+}

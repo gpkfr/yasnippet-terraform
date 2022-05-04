@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_oauth_authorization
+# key: d_intersight_oauth_authorization
+# --
+
+data "intersight_oauth_authorization" "${1:this}" {
+}

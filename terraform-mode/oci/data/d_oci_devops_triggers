@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_triggers
+# key: d_oci_devops_triggers
+# --
+
+data "oci_devops_triggers" "${1:this}" {
+}

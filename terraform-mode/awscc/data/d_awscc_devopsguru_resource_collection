@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_devopsguru_resource_collection
+# key: d_awscc_devopsguru_resource_collection
+# --
+
+data "awscc_devopsguru_resource_collection" "${1:this}" {
+    id = "${2:id}"
+}

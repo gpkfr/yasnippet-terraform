@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_memorydb_subnet_groups
+# key: d_awscc_memorydb_subnet_groups
+# --
+
+data "awscc_memorydb_subnet_groups" "${1:this}" {
+}

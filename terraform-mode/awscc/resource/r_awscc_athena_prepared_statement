@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_athena_prepared_statement
+# key: r_awscc_athena_prepared_statement
+# --
+
+resource "awscc_athena_prepared_statement" "${1:this}" {
+    query_statement = "${2:query_statement}"
+    statement_name = "${3:statement_name}"
+    work_group = "${4:work_group}"
+}

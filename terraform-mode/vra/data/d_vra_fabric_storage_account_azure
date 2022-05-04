@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vra_fabric_storage_account_azure
+# key: d_vra_fabric_storage_account_azure
+# --
+
+data "vra_fabric_storage_account_azure" "${1:this}" {
+}

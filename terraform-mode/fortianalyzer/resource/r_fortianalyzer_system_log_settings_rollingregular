@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_log_settings_rollingregular
+# key: r_fortianalyzer_system_log_settings_rollingregular
+# --
+
+resource "fortianalyzer_system_log_settings_rollingregular" "${1:this}" {
+}

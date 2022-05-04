@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_aws_kms
+# key: r_ciphertrust_aws_kms
+# --
+
+resource "ciphertrust_aws_kms" "${1:this}" {
+    account_id = "${2:account_id}"
+    aws_connection = "${3:aws_connection}"
+    name = "${4:name}"
+    regions = "${5:regions}"
+}

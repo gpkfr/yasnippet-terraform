@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_cloudaccount_alibaba
+# key: d_dome9_cloudaccount_alibaba
+# --
+
+data "dome9_cloudaccount_alibaba" "${1:this}" {
+    id = "${2:id}"
+}

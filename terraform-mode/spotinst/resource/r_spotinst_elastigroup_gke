@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_elastigroup_gke
+# key: r_spotinst_elastigroup_gke
+# --
+
+resource "spotinst_elastigroup_gke" "${1:this}" {
+    cluster_zone_name = "${2:cluster_zone_name}"
+    desired_capacity = "${3:desired_capacity}"
+    name = "${4:name}"
+}

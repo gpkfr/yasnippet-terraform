@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vault_mfa_totp
+# key: r_vault_mfa_totp
+# --
+
+resource "vault_mfa_totp" "${1:this}" {
+    issuer = "${2:issuer}"
+    name = "${3:name}"
+}

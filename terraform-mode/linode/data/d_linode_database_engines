@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_linode_database_engines
+# key: d_linode_database_engines
+# --
+
+data "linode_database_engines" "${1:this}" {
+}

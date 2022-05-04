@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudwatch_composite_alarms
+# key: d_awscc_cloudwatch_composite_alarms
+# --
+
+data "awscc_cloudwatch_composite_alarms" "${1:this}" {
+}

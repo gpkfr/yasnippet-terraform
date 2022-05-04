@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_frauddetector_detectors
+# key: d_awscc_frauddetector_detectors
+# --
+
+data "awscc_frauddetector_detectors" "${1:this}" {
+}

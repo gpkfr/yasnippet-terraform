@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nsxt_policy_group
+# key: d_nsxt_policy_group
+# --
+
+data "nsxt_policy_group" "${1:this}" {
+}

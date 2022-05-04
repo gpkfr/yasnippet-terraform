@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_custom_rules
+# key: d_akamai_appsec_custom_rules
+# --
+
+data "akamai_appsec_custom_rules" "${1:this}" {
+    config_id = "${2:config_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwsettings
+# key: r_citrixadc_appfwsettings
+# --
+
+resource "citrixadc_appfwsettings" "${1:this}" {
+}

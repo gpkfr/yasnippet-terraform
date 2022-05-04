@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_privatecloudgateway_ippool
+# key: r_spectrocloud_privatecloudgateway_ippool
+# --
+
+resource "spectrocloud_privatecloudgateway_ippool" "${1:this}" {
+    gateway = "${2:gateway}"
+    name = "${3:name}"
+    network_type = "${4:network_type}"
+    prefix = "${5:prefix}"
+    private_cloud_gateway_id = "${6:private_cloud_gateway_id}"
+}

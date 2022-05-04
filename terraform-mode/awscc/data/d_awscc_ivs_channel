@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ivs_channel
+# key: d_awscc_ivs_channel
+# --
+
+data "awscc_ivs_channel" "${1:this}" {
+    id = "${2:id}"
+}

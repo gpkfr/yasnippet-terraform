@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_lacework_agent_access_token
+# key: d_lacework_agent_access_token
+# --
+
+data "lacework_agent_access_token" "${1:this}" {
+    name = "${2:name}"
+}

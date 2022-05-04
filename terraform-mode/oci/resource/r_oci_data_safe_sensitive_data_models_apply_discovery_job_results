@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_sensitive_data_models_apply_discovery_job_results
+# key: r_oci_data_safe_sensitive_data_models_apply_discovery_job_results
+# --
+
+resource "oci_data_safe_sensitive_data_models_apply_discovery_job_results" "${1:this}" {
+    discovery_job_id = "${2:discovery_job_id}"
+    sensitive_data_model_id = "${3:sensitive_data_model_id}"
+}

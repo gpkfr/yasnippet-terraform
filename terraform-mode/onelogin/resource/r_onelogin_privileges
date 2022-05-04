@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_onelogin_privileges
+# key: r_onelogin_privileges
+# --
+
+resource "onelogin_privileges" "${1:this}" {
+    name = "${2:name}"
+}

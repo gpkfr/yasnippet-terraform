@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_ai_anomaly_detection_ai_private_endpoint
+# key: d_oci_ai_anomaly_detection_ai_private_endpoint
+# --
+
+data "oci_ai_anomaly_detection_ai_private_endpoint" "${1:this}" {
+    ai_private_endpoint_id = "${2:ai_private_endpoint_id}"
+}

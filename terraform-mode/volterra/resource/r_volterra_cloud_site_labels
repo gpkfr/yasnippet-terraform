@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_cloud_site_labels
+# key: r_volterra_cloud_site_labels
+# --
+
+resource "volterra_cloud_site_labels" "${1:this}" {
+    labels = "${2:labels}"
+    name = "${3:name}"
+    site_type = "${4:site_type}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_connect_user_hierarchy_group
+# key: r_awscc_connect_user_hierarchy_group
+# --
+
+resource "awscc_connect_user_hierarchy_group" "${1:this}" {
+    instance_arn = "${2:instance_arn}"
+    name = "${3:name}"
+}

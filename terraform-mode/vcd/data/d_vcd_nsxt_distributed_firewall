@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxt_distributed_firewall
+# key: d_vcd_nsxt_distributed_firewall
+# --
+
+data "vcd_nsxt_distributed_firewall" "${1:this}" {
+    vdc_group_id = "${2:vdc_group_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_netflow
+# key: d_fortios_system_netflow
+# --
+
+data "fortios_system_netflow" "${1:this}" {
+}

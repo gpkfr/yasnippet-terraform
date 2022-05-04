@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_vultr_firewall_rule
+# key: r_vultr_firewall_rule
+# --
+
+resource "vultr_firewall_rule" "${1:this}" {
+    firewall_group_id = "${2:firewall_group_id}"
+    ip_type = "${3:ip_type}"
+    protocol = "${4:protocol}"
+    subnet = "${5:subnet}"
+    subnet_size = "${6:subnet_size}"
+}

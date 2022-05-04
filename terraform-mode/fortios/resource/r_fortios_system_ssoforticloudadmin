@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_ssoforticloudadmin
+# key: r_fortios_system_ssoforticloudadmin
+# --
+
+resource "fortios_system_ssoforticloudadmin" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_machine_learning_compute_instance
+# key: r_azurerm_machine_learning_compute_instance
+# --
+
+resource "azurerm_machine_learning_compute_instance" "${1:this}" {
+    location = "${2:location}"
+    machine_learning_workspace_id = "${3:machine_learning_workspace_id}"
+    name = "${4:name}"
+    virtual_machine_size = "${5:virtual_machine_size}"
+}

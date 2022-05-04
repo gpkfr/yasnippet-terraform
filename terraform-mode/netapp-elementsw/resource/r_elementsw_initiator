@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_elementsw_initiator
+# key: r_elementsw_initiator
+# --
+
+resource "elementsw_initiator" "${1:this}" {
+    name = "${2:name}"
+}

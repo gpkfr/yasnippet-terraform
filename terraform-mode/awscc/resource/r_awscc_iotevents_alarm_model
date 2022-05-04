@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotevents_alarm_model
+# key: r_awscc_iotevents_alarm_model
+# --
+
+resource "awscc_iotevents_alarm_model" "${1:this}" {
+    alarm_rule = "${2:alarm_rule}"
+    role_arn = "${3:role_arn}"
+}

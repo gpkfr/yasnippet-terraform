@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lightsail_static_ip
+# key: r_awscc_lightsail_static_ip
+# --
+
+resource "awscc_lightsail_static_ip" "${1:this}" {
+    static_ip_name = "${2:static_ip_name}"
+}

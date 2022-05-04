@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_cluster_type_oke
+# key: r_nirmata_cluster_type_oke
+# --
+
+resource "nirmata_cluster_type_oke" "${1:this}" {
+    credentials = "${2:credentials}"
+    name = "${3:name}"
+    region = "${4:region}"
+    version = "${5:version}"
+    vm_shape = "${6:vm_shape}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_asset_device_registration
+# key: d_intersight_asset_device_registration
+# --
+
+data "intersight_asset_device_registration" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_domain_record
+# key: d_scaleway_domain_record
+# --
+
+data "scaleway_domain_record" "${1:this}" {
+}

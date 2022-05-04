@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ecl_imagestorages_image_v2
+# key: r_ecl_imagestorages_image_v2
+# --
+
+resource "ecl_imagestorages_image_v2" "${1:this}" {
+    container_format = "${2:container_format}"
+    disk_format = "${3:disk_format}"
+    local_file_path = "${4:local_file_path}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_session_limits
+# key: r_intersight_iam_session_limits
+# --
+
+resource "intersight_iam_session_limits" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_security_profile
+# key: r_awscc_iot_security_profile
+# --
+
+resource "awscc_iot_security_profile" "${1:this}" {
+}

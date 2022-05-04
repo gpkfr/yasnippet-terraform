@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aquasec_integration_registries
+# key: d_aquasec_integration_registries
+# --
+
+data "aquasec_integration_registries" "${1:this}" {
+    name = "${2:name}"
+}

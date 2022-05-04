@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_repository_policy_max_file_size
+# key: r_azuredevops_repository_policy_max_file_size
+# --
+
+resource "azuredevops_repository_policy_max_file_size" "${1:this}" {
+    max_file_size = "${2:max_file_size}"
+    project_id = "${3:project_id}"
+}

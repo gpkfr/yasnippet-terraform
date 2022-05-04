@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotevents_alarm_models
+# key: d_awscc_iotevents_alarm_models
+# --
+
+data "awscc_iotevents_alarm_models" "${1:this}" {
+}

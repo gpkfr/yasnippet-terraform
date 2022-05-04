@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_netris_vnet
+# key: r_netris_vnet
+# --
+
+resource "netris_vnet" "${1:this}" {
+    name = "${2:name}"
+    tenantid = "${3:tenantid}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_rproxy_reverse_proxy
+# key: r_intersight_rproxy_reverse_proxy
+# --
+
+resource "intersight_rproxy_reverse_proxy" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_sol_policy_inventory
+# key: d_intersight_sol_policy_inventory
+# --
+
+data "intersight_sol_policy_inventory" "${1:this}" {
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_sdwan_device_template
+# key: r_sdwan_device_template
+# --
+
+resource "sdwan_device_template" "${1:this}" {
+    config_type = "${2:config_type}"
+    device_role = "${3:device_role}"
+    device_type = "${4:device_type}"
+    factory_default = "${5:factory_default}"
+    template_description = "${6:template_description}"
+    template_name = "${7:template_name}"
+}

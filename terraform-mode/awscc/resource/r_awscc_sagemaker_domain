@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sagemaker_domain
+# key: r_awscc_sagemaker_domain
+# --
+
+resource "awscc_sagemaker_domain" "${1:this}" {
+    auth_mode = "${2:auth_mode}"
+    default_user_settings = "${3:default_user_settings}"
+    domain_name = "${4:domain_name}"
+    subnet_ids = "${5:subnet_ids}"
+    vpc_id = "${6:vpc_id}"
+}

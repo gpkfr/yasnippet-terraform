@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_enforcement_boundary
+# key: r_illumio-core_enforcement_boundary
+# --
+
+resource "illumio-core_enforcement_boundary" "${1:this}" {
+    name = "${2:name}"
+}

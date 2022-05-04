@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_stackbill_instance_iso_actions
+# key: r_stackbill_instance_iso_actions
+# --
+
+resource "stackbill_instance_iso_actions" "${1:this}" {
+    action = "${2:action}"
+    iso_uuid = "${3:iso_uuid}"
+    uuid = "${4:uuid}"
+}

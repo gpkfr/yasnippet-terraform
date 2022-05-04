@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_network_supervisor_card
+# key: d_intersight_network_supervisor_card
+# --
+
+data "intersight_network_supervisor_card" "${1:this}" {
+}

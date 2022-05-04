@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_gamelift_alias
+# key: d_awscc_gamelift_alias
+# --
+
+data "awscc_gamelift_alias" "${1:this}" {
+    id = "${2:id}"
+}

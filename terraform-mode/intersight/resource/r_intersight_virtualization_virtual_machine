@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_virtualization_virtual_machine
+# key: r_intersight_virtualization_virtual_machine
+# --
+
+resource "intersight_virtualization_virtual_machine" "${1:this}" {
+}

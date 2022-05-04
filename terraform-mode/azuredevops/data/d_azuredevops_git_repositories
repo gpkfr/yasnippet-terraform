@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azuredevops_git_repositories
+# key: d_azuredevops_git_repositories
+# --
+
+data "azuredevops_git_repositories" "${1:this}" {
+}

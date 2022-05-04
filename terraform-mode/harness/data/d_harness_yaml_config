@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_harness_yaml_config
+# key: d_harness_yaml_config
+# --
+
+data "harness_yaml_config" "${1:this}" {
+    path = "${2:path}"
+}

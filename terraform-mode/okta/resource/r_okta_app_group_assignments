@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_okta_app_group_assignments
+# key: r_okta_app_group_assignments
+# --
+
+resource "okta_app_group_assignments" "${1:this}" {
+    app_id = "${2:app_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_redshift_scheduled_action
+# key: d_awscc_redshift_scheduled_action
+# --
+
+data "awscc_redshift_scheduled_action" "${1:this}" {
+    id = "${2:id}"
+}

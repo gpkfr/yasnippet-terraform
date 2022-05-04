@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_site_templated_rule
+# key: r_sigsci_site_templated_rule
+# --
+
+resource "sigsci_site_templated_rule" "${1:this}" {
+    name = "${2:name}"
+    site_short_name = "${3:site_short_name}"
+}

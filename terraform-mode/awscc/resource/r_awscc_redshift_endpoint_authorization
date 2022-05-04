@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_redshift_endpoint_authorization
+# key: r_awscc_redshift_endpoint_authorization
+# --
+
+resource "awscc_redshift_endpoint_authorization" "${1:this}" {
+    account = "${2:account}"
+    cluster_identifier = "${3:cluster_identifier}"
+}

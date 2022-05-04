@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_cloudflare_zone_dnssec
+# key: d_cloudflare_zone_dnssec
+# --
+
+data "cloudflare_zone_dnssec" "${1:this}" {
+    zone_id = "${2:zone_id}"
+}

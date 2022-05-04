@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oneview_task
+# key: d_oneview_task
+# --
+
+data "oneview_task" "${1:this}" {
+}

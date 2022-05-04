@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_confluent_role_binding
+# key: r_confluent_role_binding
+# --
+
+resource "confluent_role_binding" "${1:this}" {
+    crn_pattern = "${2:crn_pattern}"
+    principal = "${3:principal}"
+    role_name = "${4:role_name}"
+}

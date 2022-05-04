@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_copilot_association
+# key: r_aviatrix_copilot_association
+# --
+
+resource "aviatrix_copilot_association" "${1:this}" {
+    copilot_address = "${2:copilot_address}"
+}

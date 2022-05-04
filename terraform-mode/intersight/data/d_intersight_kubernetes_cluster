@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_cluster
+# key: d_intersight_kubernetes_cluster
+# --
+
+data "intersight_kubernetes_cluster" "${1:this}" {
+}

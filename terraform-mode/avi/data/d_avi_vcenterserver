@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_vcenterserver
+# key: d_avi_vcenterserver
+# --
+
+data "avi_vcenterserver" "${1:this}" {
+}

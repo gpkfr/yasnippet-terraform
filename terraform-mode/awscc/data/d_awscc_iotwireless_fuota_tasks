@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotwireless_fuota_tasks
+# key: d_awscc_iotwireless_fuota_tasks
+# --
+
+data "awscc_iotwireless_fuota_tasks" "${1:this}" {
+}

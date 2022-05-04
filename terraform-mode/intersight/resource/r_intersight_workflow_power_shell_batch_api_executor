@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_power_shell_batch_api_executor
+# key: r_intersight_workflow_power_shell_batch_api_executor
+# --
+
+resource "intersight_workflow_power_shell_batch_api_executor" "${1:this}" {
+}

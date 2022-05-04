@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_visual_builder_vb_instance
+# key: r_oci_visual_builder_vb_instance
+# --
+
+resource "oci_visual_builder_vb_instance" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+    node_count = "${4:node_count}"
+}

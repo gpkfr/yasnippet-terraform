@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_autoscaling_group_tag
+# key: r_aws_autoscaling_group_tag
+# --
+
+resource "aws_autoscaling_group_tag" "${1:this}" {
+    autoscaling_group_name = "${2:autoscaling_group_name}"
+}

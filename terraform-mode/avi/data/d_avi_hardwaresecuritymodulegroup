@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_hardwaresecuritymodulegroup
+# key: d_avi_hardwaresecuritymodulegroup
+# --
+
+data "avi_hardwaresecuritymodulegroup" "${1:this}" {
+}

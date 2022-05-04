@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_data_lake_gen2_path
+# key: r_azurerm_storage_data_lake_gen2_path
+# --
+
+resource "azurerm_storage_data_lake_gen2_path" "${1:this}" {
+    filesystem_name = "${2:filesystem_name}"
+    path = "${3:path}"
+    resource = "${4:resource}"
+    storage_account_id = "${5:storage_account_id}"
+}

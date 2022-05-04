@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53resolver_resolver_rule
+# key: r_awscc_route53resolver_resolver_rule
+# --
+
+resource "awscc_route53resolver_resolver_rule" "${1:this}" {
+    domain_name = "${2:domain_name}"
+    rule_type = "${3:rule_type}"
+}

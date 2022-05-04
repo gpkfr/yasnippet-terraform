@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_sumologic_admin_recommended_folder
+# key: d_sumologic_admin_recommended_folder
+# --
+
+data "sumologic_admin_recommended_folder" "${1:this}" {
+}

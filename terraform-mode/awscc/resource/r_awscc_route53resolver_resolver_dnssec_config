@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53resolver_resolver_dnssec_config
+# key: r_awscc_route53resolver_resolver_dnssec_config
+# --
+
+resource "awscc_route53resolver_resolver_dnssec_config" "${1:this}" {
+}

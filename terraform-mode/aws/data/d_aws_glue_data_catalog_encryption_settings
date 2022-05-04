@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_glue_data_catalog_encryption_settings
+# key: d_aws_glue_data_catalog_encryption_settings
+# --
+
+data "aws_glue_data_catalog_encryption_settings" "${1:this}" {
+    catalog_id = "${2:catalog_id}"
+}

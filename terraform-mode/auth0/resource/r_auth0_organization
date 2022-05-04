@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_auth0_organization
+# key: r_auth0_organization
+# --
+
+resource "auth0_organization" "${1:this}" {
+    name = "${2:name}"
+}

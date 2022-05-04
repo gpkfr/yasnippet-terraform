@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_zone_cache_variants
+# key: r_cloudflare_zone_cache_variants
+# --
+
+resource "cloudflare_zone_cache_variants" "${1:this}" {
+    zone_id = "${2:zone_id}"
+}

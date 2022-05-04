@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_anxcloud_template
+# key: d_anxcloud_template
+# --
+
+data "anxcloud_template" "${1:this}" {
+    location_id = "${2:location_id}"
+}

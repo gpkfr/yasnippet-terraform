@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_launchdarkly_destination
+# key: r_launchdarkly_destination
+# --
+
+resource "launchdarkly_destination" "${1:this}" {
+    config = "${2:config}"
+    env_key = "${3:env_key}"
+    kind = "${4:kind}"
+    name = "${5:name}"
+    project_key = "${6:project_key}"
+}

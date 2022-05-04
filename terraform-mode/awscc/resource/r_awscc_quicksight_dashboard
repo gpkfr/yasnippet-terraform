@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_quicksight_dashboard
+# key: r_awscc_quicksight_dashboard
+# --
+
+resource "awscc_quicksight_dashboard" "${1:this}" {
+    aws_account_id = "${2:aws_account_id}"
+    dashboard_id = "${3:dashboard_id}"
+    source_entity = "${4:source_entity}"
+}

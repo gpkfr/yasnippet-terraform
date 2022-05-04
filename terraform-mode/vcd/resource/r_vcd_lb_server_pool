@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_lb_server_pool
+# key: r_vcd_lb_server_pool
+# --
+
+resource "vcd_lb_server_pool" "${1:this}" {
+    algorithm = "${2:algorithm}"
+    edge_gateway = "${3:edge_gateway}"
+    name = "${4:name}"
+}

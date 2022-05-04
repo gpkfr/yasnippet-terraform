@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_global
+# key: r_fortimanager_system_global
+# --
+
+resource "fortimanager_system_global" "${1:this}" {
+}

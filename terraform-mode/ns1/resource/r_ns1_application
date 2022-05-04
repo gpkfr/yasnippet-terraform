@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ns1_application
+# key: r_ns1_application
+# --
+
+resource "ns1_application" "${1:this}" {
+    name = "${2:name}"
+}

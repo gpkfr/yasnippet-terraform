@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3_object_copy
+# key: r_aws_s3_object_copy
+# --
+
+resource "aws_s3_object_copy" "${1:this}" {
+    bucket = "${2:bucket}"
+    key = "${3:key}"
+    source = "${4:source}"
+}

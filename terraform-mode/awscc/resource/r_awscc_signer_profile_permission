@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_signer_profile_permission
+# key: r_awscc_signer_profile_permission
+# --
+
+resource "awscc_signer_profile_permission" "${1:this}" {
+    action = "${2:action}"
+    principal = "${3:principal}"
+    profile_name = "${4:profile_name}"
+    statement_id = "${5:statement_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_metalcloud_network_profile
+# key: r_metalcloud_network_profile
+# --
+
+resource "metalcloud_network_profile" "${1:this}" {
+    datacenter_name = "${2:datacenter_name}"
+    network_profile_label = "${3:network_profile_label}"
+    network_type = "${4:network_type}"
+}

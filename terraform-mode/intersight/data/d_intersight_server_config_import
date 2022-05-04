@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_server_config_import
+# key: d_intersight_server_config_import
+# --
+
+data "intersight_server_config_import" "${1:this}" {
+}

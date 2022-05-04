@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_servicecatalog_portfolio_constraints
+# key: d_aws_servicecatalog_portfolio_constraints
+# --
+
+data "aws_servicecatalog_portfolio_constraints" "${1:this}" {
+    portfolio_id = "${2:portfolio_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_customipamdnsprofile
+# key: r_avi_customipamdnsprofile
+# --
+
+resource "avi_customipamdnsprofile" "${1:this}" {
+    name = "${2:name}"
+    script_uri = "${3:script_uri}"
+}

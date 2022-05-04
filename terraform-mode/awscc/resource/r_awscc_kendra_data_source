@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_kendra_data_source
+# key: r_awscc_kendra_data_source
+# --
+
+resource "awscc_kendra_data_source" "${1:this}" {
+    index_id = "${2:index_id}"
+    name = "${3:name}"
+    type = "${4:type}"
+}

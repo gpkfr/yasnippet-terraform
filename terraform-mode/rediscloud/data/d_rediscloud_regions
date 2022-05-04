@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rediscloud_regions
+# key: d_rediscloud_regions
+# --
+
+data "rediscloud_regions" "${1:this}" {
+}

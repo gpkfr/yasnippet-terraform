@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_session
+# key: d_intersight_iam_session
+# --
+
+data "intersight_iam_session" "${1:this}" {
+}

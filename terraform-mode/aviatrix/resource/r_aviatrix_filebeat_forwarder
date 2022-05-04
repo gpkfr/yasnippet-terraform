@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_filebeat_forwarder
+# key: r_aviatrix_filebeat_forwarder
+# --
+
+resource "aviatrix_filebeat_forwarder" "${1:this}" {
+    port = "${2:port}"
+    server = "${3:server}"
+}

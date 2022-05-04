@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudscale_network
+# key: d_cloudscale_network
+# --
+
+data "cloudscale_network" "${1:this}" {
+}

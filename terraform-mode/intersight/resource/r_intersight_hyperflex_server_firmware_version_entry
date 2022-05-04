@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_server_firmware_version_entry
+# key: r_intersight_hyperflex_server_firmware_version_entry
+# --
+
+resource "intersight_hyperflex_server_firmware_version_entry" "${1:this}" {
+}

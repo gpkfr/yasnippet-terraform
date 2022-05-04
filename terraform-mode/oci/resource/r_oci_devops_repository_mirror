@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_devops_repository_mirror
+# key: r_oci_devops_repository_mirror
+# --
+
+resource "oci_devops_repository_mirror" "${1:this}" {
+    repository_id = "${2:repository_id}"
+}

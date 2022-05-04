@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_ha_full_sync
+# key: r_checkpoint_management_ha_full_sync
+# --
+
+resource "checkpoint_management_ha_full_sync" "${1:this}" {
+}

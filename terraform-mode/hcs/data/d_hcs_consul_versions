@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcs_consul_versions
+# key: d_hcs_consul_versions
+# --
+
+data "hcs_consul_versions" "${1:this}" {
+}

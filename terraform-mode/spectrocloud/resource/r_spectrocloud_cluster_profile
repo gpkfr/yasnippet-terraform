@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_cluster_profile
+# key: r_spectrocloud_cluster_profile
+# --
+
+resource "spectrocloud_cluster_profile" "${1:this}" {
+    name = "${2:name}"
+}

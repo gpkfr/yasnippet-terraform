@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslservice_sslcertkey_binding
+# key: r_citrixadc_sslservice_sslcertkey_binding
+# --
+
+resource "citrixadc_sslservice_sslcertkey_binding" "${1:this}" {
+    certkeyname = "${2:certkeyname}"
+    servicename = "${3:servicename}"
+}

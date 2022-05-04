@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_apic_ui_page_counts
+# key: d_intersight_niatelemetry_apic_ui_page_counts
+# --
+
+data "intersight_niatelemetry_apic_ui_page_counts" "${1:this}" {
+}

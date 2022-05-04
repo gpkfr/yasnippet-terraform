@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_net_app_volume
+# key: d_intersight_storage_net_app_volume
+# --
+
+data "intersight_storage_net_app_volume" "${1:this}" {
+}

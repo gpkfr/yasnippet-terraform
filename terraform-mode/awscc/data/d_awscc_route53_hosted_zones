@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53_hosted_zones
+# key: d_awscc_route53_hosted_zones
+# --
+
+data "awscc_route53_hosted_zones" "${1:this}" {
+}

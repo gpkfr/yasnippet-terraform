@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_tgw_vpc_ip_prefixes
+# key: r_volterra_tgw_vpc_ip_prefixes
+# --
+
+resource "volterra_tgw_vpc_ip_prefixes" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_telephony_providers_edges_trunkbasesettings
+# key: r_genesyscloud_telephony_providers_edges_trunkbasesettings
+# --
+
+resource "genesyscloud_telephony_providers_edges_trunkbasesettings" "${1:this}" {
+    name = "${2:name}"
+    trunk_meta_base_id = "${3:trunk_meta_base_id}"
+    trunk_type = "${4:trunk_type}"
+}

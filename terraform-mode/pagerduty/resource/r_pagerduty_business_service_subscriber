@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_business_service_subscriber
+# key: r_pagerduty_business_service_subscriber
+# --
+
+resource "pagerduty_business_service_subscriber" "${1:this}" {
+    business_service_id = "${2:business_service_id}"
+    subscriber_id = "${3:subscriber_id}"
+    subscriber_type = "${4:subscriber_type}"
+}

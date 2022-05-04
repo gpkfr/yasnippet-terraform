@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_firmware_eula
+# key: r_intersight_firmware_eula
+# --
+
+resource "intersight_firmware_eula" "${1:this}" {
+}

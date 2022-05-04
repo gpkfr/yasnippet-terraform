@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_pnap_rancher_cluster
+# key: d_pnap_rancher_cluster
+# --
+
+data "pnap_rancher_cluster" "${1:this}" {
+}

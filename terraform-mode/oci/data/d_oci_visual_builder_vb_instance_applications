@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_visual_builder_vb_instance_applications
+# key: d_oci_visual_builder_vb_instance_applications
+# --
+
+data "oci_visual_builder_vb_instance_applications" "${1:this}" {
+    vb_instance_id = "${2:vb_instance_id}"
+}

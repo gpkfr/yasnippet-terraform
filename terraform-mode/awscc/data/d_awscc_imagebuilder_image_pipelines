@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_imagebuilder_image_pipelines
+# key: d_awscc_imagebuilder_image_pipelines
+# --
+
+data "awscc_imagebuilder_image_pipelines" "${1:this}" {
+}

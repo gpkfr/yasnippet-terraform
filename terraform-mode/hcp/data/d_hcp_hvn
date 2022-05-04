@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_hcp_hvn
+# key: d_hcp_hvn
+# --
+
+data "hcp_hvn" "${1:this}" {
+    hvn_id = "${2:hvn_id}"
+}

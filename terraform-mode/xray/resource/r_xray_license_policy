@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_xray_license_policy
+# key: r_xray_license_policy
+# --
+
+resource "xray_license_policy" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

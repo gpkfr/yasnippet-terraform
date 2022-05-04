@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_application_scope
+# key: r_aquasec_application_scope
+# --
+
+resource "aquasec_application_scope" "${1:this}" {
+    name = "${2:name}"
+}

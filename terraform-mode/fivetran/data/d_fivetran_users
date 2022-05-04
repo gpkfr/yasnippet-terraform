@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fivetran_users
+# key: d_fivetran_users
+# --
+
+data "fivetran_users" "${1:this}" {
+}

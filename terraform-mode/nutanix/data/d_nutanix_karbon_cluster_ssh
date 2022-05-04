@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_karbon_cluster_ssh
+# key: d_nutanix_karbon_cluster_ssh
+# --
+
+data "nutanix_karbon_cluster_ssh" "${1:this}" {
+}

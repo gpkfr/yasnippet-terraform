@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_license_renewid
+# key: r_ciscoasa_license_renewid
+# --
+
+resource "ciscoasa_license_renewid" "${1:this}" {
+}

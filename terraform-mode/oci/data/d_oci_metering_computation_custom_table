@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_metering_computation_custom_table
+# key: d_oci_metering_computation_custom_table
+# --
+
+data "oci_metering_computation_custom_table" "${1:this}" {
+    custom_table_id = "${2:custom_table_id}"
+}

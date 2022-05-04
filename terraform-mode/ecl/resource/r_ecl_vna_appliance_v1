@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ecl_vna_appliance_v1
+# key: r_ecl_vna_appliance_v1
+# --
+
+resource "ecl_vna_appliance_v1" "${1:this}" {
+    virtual_network_appliance_plan_id = "${2:virtual_network_appliance_plan_id}"
+}

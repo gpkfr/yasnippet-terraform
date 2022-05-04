@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_authentication_setting
+# key: r_fortimanager_packages_authentication_setting
+# --
+
+resource "fortimanager_packages_authentication_setting" "${1:this}" {
+    pkg = "${2:pkg}"
+}

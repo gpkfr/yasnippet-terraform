@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_kion_user_group
+# key: r_kion_user_group
+# --
+
+resource "kion_user_group" "${1:this}" {
+    idms_id = "${2:idms_id}"
+    name = "${3:name}"
+}

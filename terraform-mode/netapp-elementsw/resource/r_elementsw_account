@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_elementsw_account
+# key: r_elementsw_account
+# --
+
+resource "elementsw_account" "${1:this}" {
+    username = "${2:username}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_launchdarkly_relay_proxy_configuration
+# key: d_launchdarkly_relay_proxy_configuration
+# --
+
+data "launchdarkly_relay_proxy_configuration" "${1:this}" {
+    id = "${2:id}"
+}

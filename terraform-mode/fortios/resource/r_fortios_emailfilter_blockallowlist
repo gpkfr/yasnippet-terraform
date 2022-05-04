@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_emailfilter_blockallowlist
+# key: r_fortios_emailfilter_blockallowlist
+# --
+
+resource "fortios_emailfilter_blockallowlist" "${1:this}" {
+}

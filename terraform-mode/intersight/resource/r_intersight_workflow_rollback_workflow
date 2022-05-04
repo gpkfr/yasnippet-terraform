@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_rollback_workflow
+# key: r_intersight_workflow_rollback_workflow
+# --
+
+resource "intersight_workflow_rollback_workflow" "${1:this}" {
+}

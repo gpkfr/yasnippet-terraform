@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_accprofilelist
+# key: d_fortios_system_accprofilelist
+# --
+
+data "fortios_system_accprofilelist" "${1:this}" {
+}

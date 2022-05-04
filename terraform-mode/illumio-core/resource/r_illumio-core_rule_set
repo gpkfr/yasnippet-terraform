@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_rule_set
+# key: r_illumio-core_rule_set
+# --
+
+resource "illumio-core_rule_set" "${1:this}" {
+    name = "${2:name}"
+}

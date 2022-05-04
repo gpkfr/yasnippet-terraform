@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_datastore_statistic
+# key: d_intersight_hyperflex_datastore_statistic
+# --
+
+data "intersight_hyperflex_datastore_statistic" "${1:this}" {
+}

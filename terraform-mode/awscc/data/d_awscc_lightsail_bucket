@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lightsail_bucket
+# key: d_awscc_lightsail_bucket
+# --
+
+data "awscc_lightsail_bucket" "${1:this}" {
+    id = "${2:id}"
+}

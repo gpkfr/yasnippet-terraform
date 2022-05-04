@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_labeling_service_annotation_format
+# key: d_oci_data_labeling_service_annotation_format
+# --
+
+data "oci_data_labeling_service_annotation_format" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

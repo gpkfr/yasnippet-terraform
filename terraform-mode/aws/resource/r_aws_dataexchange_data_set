@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_dataexchange_data_set
+# key: r_aws_dataexchange_data_set
+# --
+
+resource "aws_dataexchange_data_set" "${1:this}" {
+    asset_type = "${2:asset_type}"
+    description = "${3:description}"
+    name = "${4:name}"
+}

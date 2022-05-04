@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_panorama_package
+# key: d_awscc_panorama_package
+# --
+
+data "awscc_panorama_package" "${1:this}" {
+    id = "${2:id}"
+}

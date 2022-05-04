@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cvprovider_cv_configlet
+# key: r_cvprovider_cv_configlet
+# --
+
+resource "cvprovider_cv_configlet" "${1:this}" {
+    configletdata = "${2:configletdata}"
+    configletname = "${3:configletname}"
+}

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_pg_cluster
+# key: r_ionoscloud_pg_cluster
+# --
+
+resource "ionoscloud_pg_cluster" "${1:this}" {
+    cores = "${2:cores}"
+    display_name = "${3:display_name}"
+    instances = "${4:instances}"
+    location = "${5:location}"
+    postgres_version = "${6:postgres_version}"
+    ram = "${7:ram}"
+    storage_size = "${8:storage_size}"
+    storage_type = "${9:storage_type}"
+    synchronization_mode = "${10:synchronization_mode}"
+}

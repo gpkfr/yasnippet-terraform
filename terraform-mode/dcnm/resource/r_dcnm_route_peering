@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_dcnm_route_peering
+# key: r_dcnm_route_peering
+# --
+
+resource "dcnm_route_peering" "${1:this}" {
+    attached_fabric = "${2:attached_fabric}"
+    deployment_mode = "${3:deployment_mode}"
+    name = "${4:name}"
+    option = "${5:option}"
+    service_fabric = "${6:service_fabric}"
+    service_node_name = "${7:service_node_name}"
+    service_node_type = "${8:service_node_type}"
+}

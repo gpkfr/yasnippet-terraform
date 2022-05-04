@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ses_configuration_set_event_destination
+# key: r_awscc_ses_configuration_set_event_destination
+# --
+
+resource "awscc_ses_configuration_set_event_destination" "${1:this}" {
+    configuration_set_name = "${2:configuration_set_name}"
+    event_destination = "${3:event_destination}"
+}

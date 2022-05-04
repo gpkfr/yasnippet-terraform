@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_monitor_private_link_scoped_service
+# key: r_azurerm_monitor_private_link_scoped_service
+# --
+
+resource "azurerm_monitor_private_link_scoped_service" "${1:this}" {
+    linked_resource_id = "${2:linked_resource_id}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+    scope_name = "${5:scope_name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_databox_edge_order
+# key: r_azurerm_databox_edge_order
+# --
+
+resource "azurerm_databox_edge_order" "${1:this}" {
+    device_name = "${2:device_name}"
+    resource_group_name = "${3:resource_group_name}"
+}

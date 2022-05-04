@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_alkira_connector_azure_vnet
+# key: r_alkira_connector_azure_vnet
+# --
+
+resource "alkira_connector_azure_vnet" "${1:this}" {
+    azure_vnet_id = "${2:azure_vnet_id}"
+    credential_id = "${3:credential_id}"
+    cxp = "${4:cxp}"
+    name = "${5:name}"
+    segment_id = "${6:segment_id}"
+    size = "${7:size}"
+}

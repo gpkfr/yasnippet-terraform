@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_kinesis_stream_consumer
+# key: d_aws_kinesis_stream_consumer
+# --
+
+data "aws_kinesis_stream_consumer" "${1:this}" {
+    stream_arn = "${2:stream_arn}"
+}

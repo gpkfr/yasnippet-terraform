@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_configcat_setting_tag
+# key: r_configcat_setting_tag
+# --
+
+resource "configcat_setting_tag" "${1:this}" {
+    setting_id = "${2:setting_id}"
+    tag_id = "${3:tag_id}"
+}

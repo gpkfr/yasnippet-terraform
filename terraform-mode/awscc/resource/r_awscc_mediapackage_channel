@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_mediapackage_channel
+# key: r_awscc_mediapackage_channel
+# --
+
+resource "awscc_mediapackage_channel" "${1:this}" {
+    id = "${2:id}"
+}

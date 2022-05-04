@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_pipeline
+# key: d_elasticstack_elasticsearch_ingest_processor_pipeline
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_pipeline" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_customerprofiles_domains
+# key: d_awscc_customerprofiles_domains
+# --
+
+data "awscc_customerprofiles_domains" "${1:this}" {
+}

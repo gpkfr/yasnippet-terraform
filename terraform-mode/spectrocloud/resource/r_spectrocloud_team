@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_team
+# key: r_spectrocloud_team
+# --
+
+resource "spectrocloud_team" "${1:this}" {
+    name = "${2:name}"
+}

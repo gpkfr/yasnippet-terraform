@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudsigma_drive
+# key: d_cloudsigma_drive
+# --
+
+data "cloudsigma_drive" "${1:this}" {
+}

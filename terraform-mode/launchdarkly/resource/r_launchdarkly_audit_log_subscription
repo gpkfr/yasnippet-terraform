@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_launchdarkly_audit_log_subscription
+# key: r_launchdarkly_audit_log_subscription
+# --
+
+resource "launchdarkly_audit_log_subscription" "${1:this}" {
+    config = "${2:config}"
+    integration_key = "${3:integration_key}"
+    name = "${4:name}"
+    on = "${5:on}"
+}

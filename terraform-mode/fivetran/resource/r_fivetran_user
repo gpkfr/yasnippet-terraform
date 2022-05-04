@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fivetran_user
+# key: r_fivetran_user
+# --
+
+resource "fivetran_user" "${1:this}" {
+    email = "${2:email}"
+    family_name = "${3:family_name}"
+    given_name = "${4:given_name}"
+    role = "${5:role}"
+}

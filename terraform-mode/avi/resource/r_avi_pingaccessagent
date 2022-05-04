@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_avi_pingaccessagent
+# key: r_avi_pingaccessagent
+# --
+
+resource "avi_pingaccessagent" "${1:this}" {
+    name = "${2:name}"
+    pingaccess_pool_ref = "${3:pingaccess_pool_ref}"
+    properties_file_data = "${4:properties_file_data}"
+}

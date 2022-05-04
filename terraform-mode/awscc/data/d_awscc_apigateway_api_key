@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_apigateway_api_key
+# key: d_awscc_apigateway_api_key
+# --
+
+data "awscc_apigateway_api_key" "${1:this}" {
+    id = "${2:id}"
+}

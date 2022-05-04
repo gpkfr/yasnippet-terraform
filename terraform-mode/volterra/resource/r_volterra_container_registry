@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_volterra_container_registry
+# key: r_volterra_container_registry
+# --
+
+resource "volterra_container_registry" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+    registry = "${4:registry}"
+    user_name = "${5:user_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_speedtestserver
+# key: r_fortios_system_speedtestserver
+# --
+
+resource "fortios_system_speedtestserver" "${1:this}" {
+}

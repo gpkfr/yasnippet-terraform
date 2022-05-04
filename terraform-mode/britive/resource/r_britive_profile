@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_britive_profile
+# key: r_britive_profile
+# --
+
+resource "britive_profile" "${1:this}" {
+    app_container_id = "${2:app_container_id}"
+    expiration_duration = "${3:expiration_duration}"
+    name = "${4:name}"
+}

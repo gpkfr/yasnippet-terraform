@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_s3outposts_bucket
+# key: r_awscc_s3outposts_bucket
+# --
+
+resource "awscc_s3outposts_bucket" "${1:this}" {
+    bucket_name = "${2:bucket_name}"
+    outpost_id = "${3:outpost_id}"
+}

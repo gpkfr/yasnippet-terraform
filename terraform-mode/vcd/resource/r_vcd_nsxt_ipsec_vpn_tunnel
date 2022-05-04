@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxt_ipsec_vpn_tunnel
+# key: r_vcd_nsxt_ipsec_vpn_tunnel
+# --
+
+resource "vcd_nsxt_ipsec_vpn_tunnel" "${1:this}" {
+    edge_gateway_id = "${2:edge_gateway_id}"
+    local_ip_address = "${3:local_ip_address}"
+    local_networks = "${4:local_networks}"
+    name = "${5:name}"
+    pre_shared_key = "${6:pre_shared_key}"
+    remote_ip_address = "${7:remote_ip_address}"
+}

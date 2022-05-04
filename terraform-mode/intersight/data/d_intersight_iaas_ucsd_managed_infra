@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iaas_ucsd_managed_infra
+# key: d_intersight_iaas_ucsd_managed_infra
+# --
+
+data "intersight_iaas_ucsd_managed_infra" "${1:this}" {
+}

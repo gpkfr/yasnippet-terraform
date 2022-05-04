@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alteon_real_server
+# key: d_alteon_real_server
+# --
+
+data "alteon_real_server" "${1:this}" {
+    index = "${2:index}"
+}

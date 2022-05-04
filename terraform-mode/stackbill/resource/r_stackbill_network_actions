@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_stackbill_network_actions
+# key: r_stackbill_network_actions
+# --
+
+resource "stackbill_network_actions" "${1:this}" {
+    action = "${2:action}"
+    network_uuid = "${3:network_uuid}"
+    virutal_machine_uuid = "${4:virutal_machine_uuid}"
+}

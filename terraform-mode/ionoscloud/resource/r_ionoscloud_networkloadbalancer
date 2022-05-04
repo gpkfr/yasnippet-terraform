@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_networkloadbalancer
+# key: r_ionoscloud_networkloadbalancer
+# --
+
+resource "ionoscloud_networkloadbalancer" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    listener_lan = "${3:listener_lan}"
+    name = "${4:name}"
+    target_lan = "${5:target_lan}"
+}

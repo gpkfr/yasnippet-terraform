@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_valtix_profile_urlfilter
+# key: d_valtix_profile_urlfilter
+# --
+
+data "valtix_profile_urlfilter" "${1:this}" {
+}

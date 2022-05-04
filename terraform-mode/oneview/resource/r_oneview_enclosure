@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneview_enclosure
+# key: r_oneview_enclosure
+# --
+
+resource "oneview_enclosure" "${1:this}" {
+}

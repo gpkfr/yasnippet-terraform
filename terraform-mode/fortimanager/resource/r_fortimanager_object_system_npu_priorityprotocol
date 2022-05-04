@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_priorityprotocol
+# key: r_fortimanager_object_system_npu_priorityprotocol
+# --
+
+resource "fortimanager_object_system_npu_priorityprotocol" "${1:this}" {
+}

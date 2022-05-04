@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_library_masking_format
+# key: r_oci_data_safe_library_masking_format
+# --
+
+resource "oci_data_safe_library_masking_format" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

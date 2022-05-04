@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_ipblock
+# key: r_ionoscloud_ipblock
+# --
+
+resource "ionoscloud_ipblock" "${1:this}" {
+    location = "${2:location}"
+    size = "${3:size}"
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_netris_site
+# key: r_netris_site
+# --
+
+resource "netris_site" "${1:this}" {
+    acldefaultpolicy = "${2:acldefaultpolicy}"
+    name = "${3:name}"
+    publicasn = "${4:publicasn}"
+    rohasn = "${5:rohasn}"
+    rohroutingprofile = "${6:rohroutingprofile}"
+    sitemesh = "${7:sitemesh}"
+    vmasn = "${8:vmasn}"
+}

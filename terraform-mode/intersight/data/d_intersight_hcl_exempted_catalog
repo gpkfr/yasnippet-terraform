@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hcl_exempted_catalog
+# key: d_intersight_hcl_exempted_catalog
+# --
+
+data "intersight_hcl_exempted_catalog" "${1:this}" {
+}

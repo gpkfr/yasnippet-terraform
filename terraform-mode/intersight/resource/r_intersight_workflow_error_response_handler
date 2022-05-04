@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_error_response_handler
+# key: r_intersight_workflow_error_response_handler
+# --
+
+resource "intersight_workflow_error_response_handler" "${1:this}" {
+}

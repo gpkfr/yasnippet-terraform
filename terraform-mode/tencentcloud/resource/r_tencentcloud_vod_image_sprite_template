@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_vod_image_sprite_template
+# key: r_tencentcloud_vod_image_sprite_template
+# --
+
+resource "tencentcloud_vod_image_sprite_template" "${1:this}" {
+    column_count = "${2:column_count}"
+    name = "${3:name}"
+    row_count = "${4:row_count}"
+    sample_interval = "${5:sample_interval}"
+    sample_type = "${6:sample_type}"
+}

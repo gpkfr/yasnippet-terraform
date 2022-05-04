@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_application_objects
+# key: d_panos_application_objects
+# --
+
+data "panos_application_objects" "${1:this}" {
+}

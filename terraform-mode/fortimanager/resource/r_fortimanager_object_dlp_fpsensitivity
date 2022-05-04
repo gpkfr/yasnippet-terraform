@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_dlp_fpsensitivity
+# key: r_fortimanager_object_dlp_fpsensitivity
+# --
+
+resource "fortimanager_object_dlp_fpsensitivity" "${1:this}" {
+}

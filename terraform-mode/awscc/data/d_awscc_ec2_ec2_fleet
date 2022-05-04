@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_ec2_fleet
+# key: d_awscc_ec2_ec2_fleet
+# --
+
+data "awscc_ec2_ec2_fleet" "${1:this}" {
+    id = "${2:id}"
+}

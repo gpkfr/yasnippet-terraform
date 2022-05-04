@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_network_set
+# key: d_oneview_network_set
+# --
+
+data "oneview_network_set" "${1:this}" {
+    name = "${2:name}"
+}

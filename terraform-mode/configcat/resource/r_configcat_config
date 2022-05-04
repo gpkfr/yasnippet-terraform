@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_configcat_config
+# key: r_configcat_config
+# --
+
+resource "configcat_config" "${1:this}" {
+    name = "${2:name}"
+    product_id = "${3:product_id}"
+}

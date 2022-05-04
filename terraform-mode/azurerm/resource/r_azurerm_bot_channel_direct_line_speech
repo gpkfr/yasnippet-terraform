@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_bot_channel_direct_line_speech
+# key: r_azurerm_bot_channel_direct_line_speech
+# --
+
+resource "azurerm_bot_channel_direct_line_speech" "${1:this}" {
+    bot_name = "${2:bot_name}"
+    cognitive_service_access_key = "${3:cognitive_service_access_key}"
+    cognitive_service_location = "${4:cognitive_service_location}"
+    location = "${5:location}"
+    resource_group_name = "${6:resource_group_name}"
+}

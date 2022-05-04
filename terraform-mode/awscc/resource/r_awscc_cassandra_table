@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cassandra_table
+# key: r_awscc_cassandra_table
+# --
+
+resource "awscc_cassandra_table" "${1:this}" {
+    keyspace_name = "${2:keyspace_name}"
+    partition_key_columns = "${3:partition_key_columns}"
+}

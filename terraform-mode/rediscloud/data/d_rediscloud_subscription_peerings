@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_rediscloud_subscription_peerings
+# key: d_rediscloud_subscription_peerings
+# --
+
+data "rediscloud_subscription_peerings" "${1:this}" {
+    subscription_id = "${2:subscription_id}"
+}

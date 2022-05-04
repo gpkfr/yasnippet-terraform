@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_aws_security_group
+# key: d_intersight_cloud_aws_security_group
+# --
+
+data "intersight_cloud_aws_security_group" "${1:this}" {
+}

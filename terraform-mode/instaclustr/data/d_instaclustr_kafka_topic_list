@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_instaclustr_kafka_topic_list
+# key: d_instaclustr_kafka_topic_list
+# --
+
+data "instaclustr_kafka_topic_list" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+}

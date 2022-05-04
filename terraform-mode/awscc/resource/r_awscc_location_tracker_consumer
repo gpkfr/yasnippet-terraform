@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_location_tracker_consumer
+# key: r_awscc_location_tracker_consumer
+# --
+
+resource "awscc_location_tracker_consumer" "${1:this}" {
+    consumer_arn = "${2:consumer_arn}"
+    tracker_name = "${3:tracker_name}"
+}

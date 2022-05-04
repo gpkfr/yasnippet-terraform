@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_vmrc_console
+# key: r_intersight_vmrc_console
+# --
+
+resource "intersight_vmrc_console" "${1:this}" {
+}

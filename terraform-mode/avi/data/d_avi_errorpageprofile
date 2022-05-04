@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_errorpageprofile
+# key: d_avi_errorpageprofile
+# --
+
+data "avi_errorpageprofile" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_cifs_domaincontroller
+# key: r_fortios_cifs_domaincontroller
+# --
+
+resource "fortios_cifs_domaincontroller" "${1:this}" {
+}

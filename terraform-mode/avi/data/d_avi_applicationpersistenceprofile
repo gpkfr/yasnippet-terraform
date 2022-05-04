@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_applicationpersistenceprofile
+# key: d_avi_applicationpersistenceprofile
+# --
+
+data "avi_applicationpersistenceprofile" "${1:this}" {
+}

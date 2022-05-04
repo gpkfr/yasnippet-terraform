@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_okta_user_type
+# key: d_okta_user_type
+# --
+
+data "okta_user_type" "${1:this}" {
+    name = "${2:name}"
+}

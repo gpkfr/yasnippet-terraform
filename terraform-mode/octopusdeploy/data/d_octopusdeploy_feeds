@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_feeds
+# key: d_octopusdeploy_feeds
+# --
+
+data "octopusdeploy_feeds" "${1:this}" {
+}

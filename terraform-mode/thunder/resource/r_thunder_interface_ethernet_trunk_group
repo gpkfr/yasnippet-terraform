@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_interface_ethernet_trunk_group
+# key: r_thunder_interface_ethernet_trunk_group
+# --
+
+resource "thunder_interface_ethernet_trunk_group" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azuread_application_published_app_ids
+# key: d_azuread_application_published_app_ids
+# --
+
+data "azuread_application_published_app_ids" "${1:this}" {
+}

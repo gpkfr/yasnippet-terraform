@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_gslbservice
+# key: r_citrixadc_gslbservice
+# --
+
+resource "citrixadc_gslbservice" "${1:this}" {
+}

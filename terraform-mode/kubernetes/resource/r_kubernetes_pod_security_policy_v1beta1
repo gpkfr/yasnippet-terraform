@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_pod_security_policy_v1beta1
+# key: r_kubernetes_pod_security_policy_v1beta1
+# --
+
+resource "kubernetes_pod_security_policy_v1beta1" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnalwaysonprofile
+# key: r_citrixadc_vpnalwaysonprofile
+# --
+
+resource "citrixadc_vpnalwaysonprofile" "${1:this}" {
+    name = "${2:name}"
+}

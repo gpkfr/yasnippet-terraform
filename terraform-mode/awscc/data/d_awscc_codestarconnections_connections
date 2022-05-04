@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_codestarconnections_connections
+# key: d_awscc_codestarconnections_connections
+# --
+
+data "awscc_codestarconnections_connections" "${1:this}" {
+}

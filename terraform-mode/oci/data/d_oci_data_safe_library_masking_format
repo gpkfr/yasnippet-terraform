@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_library_masking_format
+# key: d_oci_data_safe_library_masking_format
+# --
+
+data "oci_data_safe_library_masking_format" "${1:this}" {
+    library_masking_format_id = "${2:library_masking_format_id}"
+}

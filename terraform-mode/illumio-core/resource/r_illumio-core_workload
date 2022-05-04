@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_workload
+# key: r_illumio-core_workload
+# --
+
+resource "illumio-core_workload" "${1:this}" {
+}

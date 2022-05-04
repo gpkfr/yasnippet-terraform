@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_connection
+# key: r_equinix_metal_connection
+# --
+
+resource "equinix_metal_connection" "${1:this}" {
+    name = "${2:name}"
+    organization_id = "${3:organization_id}"
+    redundancy = "${4:redundancy}"
+    type = "${5:type}"
+}

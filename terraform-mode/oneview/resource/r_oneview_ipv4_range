@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneview_ipv4_range
+# key: r_oneview_ipv4_range
+# --
+
+resource "oneview_ipv4_range" "${1:this}" {
+}

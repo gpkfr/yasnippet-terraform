@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_securitypolicy
+# key: r_fortios_firewall_securitypolicy
+# --
+
+resource "fortios_firewall_securitypolicy" "${1:this}" {
+}

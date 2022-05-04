@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_topic_rule_destinations
+# key: d_awscc_iot_topic_rule_destinations
+# --
+
+data "awscc_iot_topic_rule_destinations" "${1:this}" {
+}

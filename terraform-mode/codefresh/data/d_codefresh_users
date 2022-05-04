@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_codefresh_users
+# key: d_codefresh_users
+# --
+
+data "codefresh_users" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_container_registry_agent_pool
+# key: r_azurerm_container_registry_agent_pool
+# --
+
+resource "azurerm_container_registry_agent_pool" "${1:this}" {
+    container_registry_name = "${2:container_registry_name}"
+    location = "${3:location}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+}

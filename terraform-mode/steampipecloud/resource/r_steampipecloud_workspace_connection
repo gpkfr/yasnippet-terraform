@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_steampipecloud_workspace_connection
+# key: r_steampipecloud_workspace_connection
+# --
+
+resource "steampipecloud_workspace_connection" "${1:this}" {
+    connection_handle = "${2:connection_handle}"
+    workspace_handle = "${3:workspace_handle}"
+}

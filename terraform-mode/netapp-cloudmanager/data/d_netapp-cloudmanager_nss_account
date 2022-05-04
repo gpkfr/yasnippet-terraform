@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_netapp-cloudmanager_nss_account
+# key: d_netapp-cloudmanager_nss_account
+# --
+
+data "netapp-cloudmanager_nss_account" "${1:this}" {
+    client_id = "${2:client_id}"
+    username = "${3:username}"
+}

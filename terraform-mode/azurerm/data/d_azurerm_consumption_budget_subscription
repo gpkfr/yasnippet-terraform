@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_consumption_budget_subscription
+# key: d_azurerm_consumption_budget_subscription
+# --
+
+data "azurerm_consumption_budget_subscription" "${1:this}" {
+    name = "${2:name}"
+    subscription_id = "${3:subscription_id}"
+}

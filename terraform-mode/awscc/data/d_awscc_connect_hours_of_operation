@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_connect_hours_of_operation
+# key: d_awscc_connect_hours_of_operation
+# --
+
+data "awscc_connect_hours_of_operation" "${1:this}" {
+    id = "${2:id}"
+}

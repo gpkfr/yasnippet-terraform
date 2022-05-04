@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_launchdarkly_flag_trigger
+# key: r_launchdarkly_flag_trigger
+# --
+
+resource "launchdarkly_flag_trigger" "${1:this}" {
+    enabled = "${2:enabled}"
+    env_key = "${3:env_key}"
+    flag_key = "${4:flag_key}"
+    integration_key = "${5:integration_key}"
+    project_key = "${6:project_key}"
+}

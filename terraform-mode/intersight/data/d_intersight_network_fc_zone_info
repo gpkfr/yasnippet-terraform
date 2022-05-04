@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_network_fc_zone_info
+# key: d_intersight_network_fc_zone_info
+# --
+
+data "intersight_network_fc_zone_info" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_images
+# key: d_azurerm_images
+# --
+
+data "azurerm_images" "${1:this}" {
+    resource_group_name = "${2:resource_group_name}"
+}

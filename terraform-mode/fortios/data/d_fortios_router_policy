@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_policy
+# key: d_fortios_router_policy
+# --
+
+data "fortios_router_policy" "${1:this}" {
+    seq_num = "${2:seq_num}"
+}

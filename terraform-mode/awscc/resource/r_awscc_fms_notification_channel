@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_fms_notification_channel
+# key: r_awscc_fms_notification_channel
+# --
+
+resource "awscc_fms_notification_channel" "${1:this}" {
+    sns_role_name = "${2:sns_role_name}"
+    sns_topic_arn = "${3:sns_topic_arn}"
+}

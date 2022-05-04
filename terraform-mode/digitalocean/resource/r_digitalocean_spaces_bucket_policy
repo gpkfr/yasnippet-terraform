@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_digitalocean_spaces_bucket_policy
+# key: r_digitalocean_spaces_bucket_policy
+# --
+
+resource "digitalocean_spaces_bucket_policy" "${1:this}" {
+    bucket = "${2:bucket}"
+    policy = "${3:policy}"
+    region = "${4:region}"
+}

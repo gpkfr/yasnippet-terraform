@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_netris_site
+# key: d_netris_site
+# --
+
+data "netris_site" "${1:this}" {
+    name = "${2:name}"
+}

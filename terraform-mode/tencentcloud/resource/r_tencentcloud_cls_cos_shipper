@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cls_cos_shipper
+# key: r_tencentcloud_cls_cos_shipper
+# --
+
+resource "tencentcloud_cls_cos_shipper" "${1:this}" {
+    bucket = "${2:bucket}"
+    prefix = "${3:prefix}"
+    shipper_name = "${4:shipper_name}"
+    topic_id = "${5:topic_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_events_archives
+# key: d_awscc_events_archives
+# --
+
+data "awscc_events_archives" "${1:this}" {
+}

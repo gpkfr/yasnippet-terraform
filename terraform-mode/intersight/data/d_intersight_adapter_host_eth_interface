@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_adapter_host_eth_interface
+# key: d_intersight_adapter_host_eth_interface
+# --
+
+data "intersight_adapter_host_eth_interface" "${1:this}" {
+}

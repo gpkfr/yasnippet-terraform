@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_albservicesfileupload
+# key: r_avi_albservicesfileupload
+# --
+
+resource "avi_albservicesfileupload" "${1:this}" {
+    file_path = "${2:file_path}"
+    name = "${3:name}"
+}

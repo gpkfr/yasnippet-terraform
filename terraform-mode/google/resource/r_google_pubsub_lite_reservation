@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_pubsub_lite_reservation
+# key: r_google_pubsub_lite_reservation
+# --
+
+resource "google_pubsub_lite_reservation" "${1:this}" {
+    name = "${2:name}"
+    throughput_capacity = "${3:throughput_capacity}"
+}

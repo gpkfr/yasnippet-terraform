@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_overlay_tunnel_options
+# key: r_thunder_overlay_tunnel_options
+# --
+
+resource "thunder_overlay_tunnel_options" "${1:this}" {
+}

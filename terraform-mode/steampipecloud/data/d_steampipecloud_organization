@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_steampipecloud_organization
+# key: d_steampipecloud_organization
+# --
+
+data "steampipecloud_organization" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_ssh_version_two
+# key: d_intersight_niatelemetry_ssh_version_two
+# --
+
+data "intersight_niatelemetry_ssh_version_two" "${1:this}" {
+}

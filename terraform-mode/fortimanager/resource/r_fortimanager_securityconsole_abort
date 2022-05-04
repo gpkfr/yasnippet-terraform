@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_securityconsole_abort
+# key: r_fortimanager_securityconsole_abort
+# --
+
+resource "fortimanager_securityconsole_abort" "${1:this}" {
+}

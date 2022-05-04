@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_systemautoupdate_pushupdate
+# key: d_fortios_systemautoupdate_pushupdate
+# --
+
+data "fortios_systemautoupdate_pushupdate" "${1:this}" {
+}

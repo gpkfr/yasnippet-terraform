@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_transit_gateway_multicast_domain
+# key: r_aws_ec2_transit_gateway_multicast_domain
+# --
+
+resource "aws_ec2_transit_gateway_multicast_domain" "${1:this}" {
+    transit_gateway_id = "${2:transit_gateway_id}"
+}

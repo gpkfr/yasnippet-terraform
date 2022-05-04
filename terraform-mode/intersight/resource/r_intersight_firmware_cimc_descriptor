@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_firmware_cimc_descriptor
+# key: r_intersight_firmware_cimc_descriptor
+# --
+
+resource "intersight_firmware_cimc_descriptor" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_okta_user_type
+# key: r_okta_user_type
+# --
+
+resource "okta_user_type" "${1:this}" {
+    description = "${2:description}"
+    display_name = "${3:display_name}"
+    name = "${4:name}"
+}

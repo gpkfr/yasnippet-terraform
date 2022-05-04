@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_upcloud_networks
+# key: d_upcloud_networks
+# --
+
+data "upcloud_networks" "${1:this}" {
+}

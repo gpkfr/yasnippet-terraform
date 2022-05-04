@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cms_group_metric_rule
+# key: r_alicloud_cms_group_metric_rule
+# --
+
+resource "alicloud_cms_group_metric_rule" "${1:this}" {
+    category = "${2:category}"
+    group_id = "${3:group_id}"
+    group_metric_rule_name = "${4:group_metric_rule_name}"
+    metric_name = "${5:metric_name}"
+    namespace = "${6:namespace}"
+    rule_id = "${7:rule_id}"
+}

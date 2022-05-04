@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_snmp_server_enable_traps_routing_bgp
+# key: r_thunder_snmp_server_enable_traps_routing_bgp
+# --
+
+resource "thunder_snmp_server_enable_traps_routing_bgp" "${1:this}" {
+}

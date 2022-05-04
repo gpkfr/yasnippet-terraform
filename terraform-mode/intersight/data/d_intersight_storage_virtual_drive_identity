@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_virtual_drive_identity
+# key: d_intersight_storage_virtual_drive_identity
+# --
+
+data "intersight_storage_virtual_drive_identity" "${1:this}" {
+}

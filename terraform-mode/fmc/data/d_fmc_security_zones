@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fmc_security_zones
+# key: d_fmc_security_zones
+# --
+
+data "fmc_security_zones" "${1:this}" {
+    name = "${2:name}"
+}

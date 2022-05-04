@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_apigateway_apis
+# key: d_oci_apigateway_apis
+# --
+
+data "oci_apigateway_apis" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

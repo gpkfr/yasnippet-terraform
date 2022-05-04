@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ec2_transit_gateway_vpc_attachments
+# key: d_aws_ec2_transit_gateway_vpc_attachments
+# --
+
+data "aws_ec2_transit_gateway_vpc_attachments" "${1:this}" {
+}

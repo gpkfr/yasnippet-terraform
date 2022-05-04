@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_access_mutual_tls_certificate
+# key: r_cloudflare_access_mutual_tls_certificate
+# --
+
+resource "cloudflare_access_mutual_tls_certificate" "${1:this}" {
+    name = "${2:name}"
+}

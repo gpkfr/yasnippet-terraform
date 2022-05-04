@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_evidently_feature
+# key: d_awscc_evidently_feature
+# --
+
+data "awscc_evidently_feature" "${1:this}" {
+    id = "${2:id}"
+}

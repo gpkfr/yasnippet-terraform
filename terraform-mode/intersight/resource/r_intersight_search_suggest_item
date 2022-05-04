@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_search_suggest_item
+# key: r_intersight_search_suggest_item
+# --
+
+resource "intersight_search_suggest_item" "${1:this}" {
+}

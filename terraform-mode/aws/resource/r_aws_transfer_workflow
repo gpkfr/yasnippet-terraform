@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_transfer_workflow
+# key: r_aws_transfer_workflow
+# --
+
+resource "aws_transfer_workflow" "${1:this}" {
+}

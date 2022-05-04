@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_managed_license
+# key: r_gitlab_managed_license
+# --
+
+resource "gitlab_managed_license" "${1:this}" {
+    approval_status = "${2:approval_status}"
+    name = "${3:name}"
+    project = "${4:project}"
+}

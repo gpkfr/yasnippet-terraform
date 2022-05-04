@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_natgateway
+# key: d_ionoscloud_natgateway
+# --
+
+data "ionoscloud_natgateway" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+}

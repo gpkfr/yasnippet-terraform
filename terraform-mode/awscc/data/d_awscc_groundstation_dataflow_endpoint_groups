@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_groundstation_dataflow_endpoint_groups
+# key: d_awscc_groundstation_dataflow_endpoint_groups
+# --
+
+data "awscc_groundstation_dataflow_endpoint_groups" "${1:this}" {
+}

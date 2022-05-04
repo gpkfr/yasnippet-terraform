@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_ros_templates
+# key: d_alicloud_ros_templates
+# --
+
+data "alicloud_ros_templates" "${1:this}" {
+}

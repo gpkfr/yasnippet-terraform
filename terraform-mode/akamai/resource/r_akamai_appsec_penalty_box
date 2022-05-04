@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_penalty_box
+# key: r_akamai_appsec_penalty_box
+# --
+
+resource "akamai_appsec_penalty_box" "${1:this}" {
+    config_id = "${2:config_id}"
+    penalty_box_action = "${3:penalty_box_action}"
+    penalty_box_protection = "${4:penalty_box_protection}"
+    security_policy_id = "${5:security_policy_id}"
+    version = "${6:version}"
+}

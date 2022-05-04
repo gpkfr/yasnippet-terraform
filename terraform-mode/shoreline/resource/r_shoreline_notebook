@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_shoreline_notebook
+# key: r_shoreline_notebook
+# --
+
+resource "shoreline_notebook" "${1:this}" {
+    cells = "${2:cells}"
+    name = "${3:name}"
+}

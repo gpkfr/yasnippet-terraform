@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_endpoint
+# key: r_volterra_endpoint
+# --
+
+resource "volterra_endpoint" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

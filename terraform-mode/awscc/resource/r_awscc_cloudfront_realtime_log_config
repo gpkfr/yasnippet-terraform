@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudfront_realtime_log_config
+# key: r_awscc_cloudfront_realtime_log_config
+# --
+
+resource "awscc_cloudfront_realtime_log_config" "${1:this}" {
+    end_points = "${2:end_points}"
+    fields = "${3:fields}"
+    name = "${4:name}"
+    sampling_rate = "${5:sampling_rate}"
+}

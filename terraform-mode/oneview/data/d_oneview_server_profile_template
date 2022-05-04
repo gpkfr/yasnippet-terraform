@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_server_profile_template
+# key: d_oneview_server_profile_template
+# --
+
+data "oneview_server_profile_template" "${1:this}" {
+    name = "${2:name}"
+}

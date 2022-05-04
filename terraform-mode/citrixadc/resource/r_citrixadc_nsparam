@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nsparam
+# key: r_citrixadc_nsparam
+# --
+
+resource "citrixadc_nsparam" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vultr_kubernetes
+# key: d_vultr_kubernetes
+# --
+
+data "vultr_kubernetes" "${1:this}" {
+}

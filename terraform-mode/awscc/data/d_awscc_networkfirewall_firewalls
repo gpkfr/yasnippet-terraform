@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_networkfirewall_firewalls
+# key: d_awscc_networkfirewall_firewalls
+# --
+
+data "awscc_networkfirewall_firewalls" "${1:this}" {
+}

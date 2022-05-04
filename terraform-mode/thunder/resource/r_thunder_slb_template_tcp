@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_tcp
+# key: r_thunder_slb_template_tcp
+# --
+
+resource "thunder_slb_template_tcp" "${1:this}" {
+}

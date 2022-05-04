@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_astra_database
+# key: d_astra_database
+# --
+
+data "astra_database" "${1:this}" {
+    database_id = "${2:database_id}"
+}

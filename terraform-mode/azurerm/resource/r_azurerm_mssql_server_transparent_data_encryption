@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_mssql_server_transparent_data_encryption
+# key: r_azurerm_mssql_server_transparent_data_encryption
+# --
+
+resource "azurerm_mssql_server_transparent_data_encryption" "${1:this}" {
+    server_id = "${2:server_id}"
+}

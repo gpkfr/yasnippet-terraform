@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_magic_firewall_ruleset
+# key: r_cloudflare_magic_firewall_ruleset
+# --
+
+resource "cloudflare_magic_firewall_ruleset" "${1:this}" {
+    account_id = "${2:account_id}"
+    name = "${3:name}"
+}

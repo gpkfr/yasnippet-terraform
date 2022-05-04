@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alexaskills_skill_resource
+# key: r_alexaskills_skill_resource
+# --
+
+resource "alexaskills_skill_resource" "${1:this}" {
+}

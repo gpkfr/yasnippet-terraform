@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_commvault_amazon_hypervisor
+# key: r_commvault_amazon_hypervisor
+# --
+
+resource "commvault_amazon_hypervisor" "${1:this}" {
+    access_nodes = "${2:access_nodes}"
+    client_name = "${3:client_name}"
+    use_iam_role = "${4:use_iam_role}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_function_app_hybrid_connection
+# key: r_azurerm_function_app_hybrid_connection
+# --
+
+resource "azurerm_function_app_hybrid_connection" "${1:this}" {
+    function_app_id = "${2:function_app_id}"
+    hostname = "${3:hostname}"
+    port = "${4:port}"
+    relay_id = "${5:relay_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vercel_project_directory
+# key: d_vercel_project_directory
+# --
+
+data "vercel_project_directory" "${1:this}" {
+    path = "${2:path}"
+}

@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_kusto_eventgrid_data_connection
+# key: r_azurerm_kusto_eventgrid_data_connection
+# --
+
+resource "azurerm_kusto_eventgrid_data_connection" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    database_name = "${3:database_name}"
+    eventhub_consumer_group_name = "${4:eventhub_consumer_group_name}"
+    eventhub_id = "${5:eventhub_id}"
+    location = "${6:location}"
+    name = "${7:name}"
+    resource_group_name = "${8:resource_group_name}"
+    storage_account_id = "${9:storage_account_id}"
+}

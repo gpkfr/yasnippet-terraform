@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_events_endpoints
+# key: d_awscc_events_endpoints
+# --
+
+data "awscc_events_endpoints" "${1:this}" {
+}

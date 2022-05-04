@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_migration_connection
+# key: d_oci_database_migration_connection
+# --
+
+data "oci_database_migration_connection" "${1:this}" {
+    connection_id = "${2:connection_id}"
+}

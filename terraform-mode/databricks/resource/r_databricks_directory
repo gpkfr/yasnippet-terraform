@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_databricks_directory
+# key: r_databricks_directory
+# --
+
+resource "databricks_directory" "${1:this}" {
+    path = "${2:path}"
+}

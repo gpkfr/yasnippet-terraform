@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_gitlab_repository_file
+# key: d_gitlab_repository_file
+# --
+
+data "gitlab_repository_file" "${1:this}" {
+    file_path = "${2:file_path}"
+    project = "${3:project}"
+    ref = "${4:ref}"
+}

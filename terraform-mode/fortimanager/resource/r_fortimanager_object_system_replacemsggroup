@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_replacemsggroup
+# key: r_fortimanager_object_system_replacemsggroup
+# --
+
+resource "fortimanager_object_system_replacemsggroup" "${1:this}" {
+}

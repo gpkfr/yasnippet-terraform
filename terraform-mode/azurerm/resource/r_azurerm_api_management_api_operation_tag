@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_api_management_api_operation_tag
+# key: r_azurerm_api_management_api_operation_tag
+# --
+
+resource "azurerm_api_management_api_operation_tag" "${1:this}" {
+    api_operation_id = "${2:api_operation_id}"
+    display_name = "${3:display_name}"
+    name = "${4:name}"
+}

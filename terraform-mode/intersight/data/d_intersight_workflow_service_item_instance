@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_workflow_service_item_instance
+# key: d_intersight_workflow_service_item_instance
+# --
+
+data "intersight_workflow_service_item_instance" "${1:this}" {
+}

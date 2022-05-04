@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_rancher2_global_dns_provider
+# key: r_rancher2_global_dns_provider
+# --
+
+resource "rancher2_global_dns_provider" "${1:this}" {
+    name = "${2:name}"
+    root_domain = "${3:root_domain}"
+}

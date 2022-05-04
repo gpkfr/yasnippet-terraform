@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_chassis_profile
+# key: r_intersight_chassis_profile
+# --
+
+resource "intersight_chassis_profile" "${1:this}" {
+}

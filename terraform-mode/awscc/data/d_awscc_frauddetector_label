@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_frauddetector_label
+# key: d_awscc_frauddetector_label
+# --
+
+data "awscc_frauddetector_label" "${1:this}" {
+    id = "${2:id}"
+}

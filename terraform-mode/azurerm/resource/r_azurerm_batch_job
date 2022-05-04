@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_batch_job
+# key: r_azurerm_batch_job
+# --
+
+resource "azurerm_batch_job" "${1:this}" {
+    batch_pool_id = "${2:batch_pool_id}"
+    name = "${3:name}"
+}

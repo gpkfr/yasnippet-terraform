@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_dataproc_metastore_service
+# key: r_google_dataproc_metastore_service
+# --
+
+resource "google_dataproc_metastore_service" "${1:this}" {
+    service_id = "${2:service_id}"
+}

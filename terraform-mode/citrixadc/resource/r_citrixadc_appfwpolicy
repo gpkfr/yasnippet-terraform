@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwpolicy
+# key: r_citrixadc_appfwpolicy
+# --
+
+resource "citrixadc_appfwpolicy" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_join
+# key: d_elasticstack_elasticsearch_ingest_processor_join
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_join" "${1:this}" {
+    field = "${2:field}"
+    separator = "${3:separator}"
+}

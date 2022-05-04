@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_privateca_certificate_template_iam_policy
+# key: r_google_privateca_certificate_template_iam_policy
+# --
+
+resource "google_privateca_certificate_template_iam_policy" "${1:this}" {
+    certificate_template = "${2:certificate_template}"
+    policy_data = "${3:policy_data}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_backup_backup_plan
+# key: r_awscc_backup_backup_plan
+# --
+
+resource "awscc_backup_backup_plan" "${1:this}" {
+    backup_plan = "${2:backup_plan}"
+}

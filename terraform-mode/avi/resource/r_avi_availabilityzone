@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_availabilityzone
+# key: r_avi_availabilityzone
+# --
+
+resource "avi_availabilityzone" "${1:this}" {
+    name = "${2:name}"
+    vcenter_refs = "${3:vcenter_refs}"
+}

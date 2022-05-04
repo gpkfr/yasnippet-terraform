@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_iam_contact_types
+# key: d_akamai_iam_contact_types
+# --
+
+data "akamai_iam_contact_types" "${1:this}" {
+}

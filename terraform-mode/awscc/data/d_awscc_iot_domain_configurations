@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_domain_configurations
+# key: d_awscc_iot_domain_configurations
+# --
+
+data "awscc_iot_domain_configurations" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_internet_gateways
+# key: d_awscc_ec2_internet_gateways
+# --
+
+data "awscc_ec2_internet_gateways" "${1:this}" {
+}

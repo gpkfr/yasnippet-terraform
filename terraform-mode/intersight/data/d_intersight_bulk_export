@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_bulk_export
+# key: d_intersight_bulk_export
+# --
+
+data "intersight_bulk_export" "${1:this}" {
+}

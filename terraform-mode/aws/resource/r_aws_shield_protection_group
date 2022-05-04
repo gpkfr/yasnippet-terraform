@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_shield_protection_group
+# key: r_aws_shield_protection_group
+# --
+
+resource "aws_shield_protection_group" "${1:this}" {
+    aggregation = "${2:aggregation}"
+    pattern = "${3:pattern}"
+    protection_group_id = "${4:protection_group_id}"
+}

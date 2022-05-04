@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_appstream_image_builder
+# key: r_aws_appstream_image_builder
+# --
+
+resource "aws_appstream_image_builder" "${1:this}" {
+    instance_type = "${2:instance_type}"
+    name = "${3:name}"
+}

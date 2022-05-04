@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_logfetch_serversettings
+# key: r_fortimanager_system_logfetch_serversettings
+# --
+
+resource "fortimanager_system_logfetch_serversettings" "${1:this}" {
+}

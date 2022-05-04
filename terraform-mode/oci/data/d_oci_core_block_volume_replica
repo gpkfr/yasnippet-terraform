@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_block_volume_replica
+# key: d_oci_core_block_volume_replica
+# --
+
+data "oci_core_block_volume_replica" "${1:this}" {
+    block_volume_replica_id = "${2:block_volume_replica_id}"
+}

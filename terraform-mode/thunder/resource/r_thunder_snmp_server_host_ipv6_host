@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_thunder_snmp_server_host_ipv6_host
+# key: r_thunder_snmp_server_host_ipv6_host
+# --
+
+resource "thunder_snmp_server_host_ipv6_host" "${1:this}" {
+    ipv6_addr = "${2:ipv6_addr}"
+    version = "${3:version}"
+}

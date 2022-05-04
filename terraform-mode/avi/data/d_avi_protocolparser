@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_protocolparser
+# key: d_avi_protocolparser
+# --
+
+data "avi_protocolparser" "${1:this}" {
+}

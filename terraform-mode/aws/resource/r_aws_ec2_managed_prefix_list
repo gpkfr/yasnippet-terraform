@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_managed_prefix_list
+# key: r_aws_ec2_managed_prefix_list
+# --
+
+resource "aws_ec2_managed_prefix_list" "${1:this}" {
+    address_family = "${2:address_family}"
+    max_entries = "${3:max_entries}"
+    name = "${4:name}"
+}

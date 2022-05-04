@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iaas_custom_task_info
+# key: d_intersight_iaas_custom_task_info
+# --
+
+data "intersight_iaas_custom_task_info" "${1:this}" {
+}

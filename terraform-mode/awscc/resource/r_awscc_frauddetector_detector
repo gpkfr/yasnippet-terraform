@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_frauddetector_detector
+# key: r_awscc_frauddetector_detector
+# --
+
+resource "awscc_frauddetector_detector" "${1:this}" {
+    detector_id = "${2:detector_id}"
+    event_type = "${3:event_type}"
+    rules = "${4:rules}"
+}

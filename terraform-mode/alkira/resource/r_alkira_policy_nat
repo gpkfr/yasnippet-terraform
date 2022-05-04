@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_alkira_policy_nat
+# key: r_alkira_policy_nat
+# --
+
+resource "alkira_policy_nat" "${1:this}" {
+    included_group_ids = "${2:included_group_ids}"
+    name = "${3:name}"
+    nat_rule_ids = "${4:nat_rule_ids}"
+    segment_id = "${5:segment_id}"
+    type = "${6:type}"
+}

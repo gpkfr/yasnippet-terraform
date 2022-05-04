@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ansible-tower_inventory_script
+# key: r_ansible-tower_inventory_script
+# --
+
+resource "ansible-tower_inventory_script" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+    organization_id = "${4:organization_id}"
+    script = "${5:script}"
+}

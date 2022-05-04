@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_carrierendpointbwl
+# key: r_fortimanager_object_firewall_carrierendpointbwl
+# --
+
+resource "fortimanager_object_firewall_carrierendpointbwl" "${1:this}" {
+}

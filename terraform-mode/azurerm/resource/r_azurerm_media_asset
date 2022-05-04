@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_media_asset
+# key: r_azurerm_media_asset
+# --
+
+resource "azurerm_media_asset" "${1:this}" {
+    media_services_account_name = "${2:media_services_account_name}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+}

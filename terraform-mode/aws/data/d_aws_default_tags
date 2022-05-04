@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_default_tags
+# key: d_aws_default_tags
+# --
+
+data "aws_default_tags" "${1:this}" {
+}

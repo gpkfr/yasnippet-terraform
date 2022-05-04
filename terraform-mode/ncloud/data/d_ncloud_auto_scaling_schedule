@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_auto_scaling_schedule
+# key: d_ncloud_auto_scaling_schedule
+# --
+
+data "ncloud_auto_scaling_schedule" "${1:this}" {
+    auto_scaling_group_no = "${2:auto_scaling_group_no}"
+}

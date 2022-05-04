@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_web_category_category_list
+# key: r_thunder_web_category_category_list
+# --
+
+resource "thunder_web_category_category_list" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_disk_access
+# key: d_azurerm_disk_access
+# --
+
+data "azurerm_disk_access" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+}

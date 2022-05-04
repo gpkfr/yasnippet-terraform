@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_rdb_instance
+# key: d_scaleway_rdb_instance
+# --
+
+data "scaleway_rdb_instance" "${1:this}" {
+}

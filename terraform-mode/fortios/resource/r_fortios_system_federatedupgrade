@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_federatedupgrade
+# key: r_fortios_system_federatedupgrade
+# --
+
+resource "fortios_system_federatedupgrade" "${1:this}" {
+}

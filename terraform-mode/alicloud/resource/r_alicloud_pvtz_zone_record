@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_pvtz_zone_record
+# key: r_alicloud_pvtz_zone_record
+# --
+
+resource "alicloud_pvtz_zone_record" "${1:this}" {
+    type = "${2:type}"
+    value = "${3:value}"
+    zone_id = "${4:zone_id}"
+}

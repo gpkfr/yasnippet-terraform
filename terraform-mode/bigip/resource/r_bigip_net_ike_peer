@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_bigip_net_ike_peer
+# key: r_bigip_net_ike_peer
+# --
+
+resource "bigip_net_ike_peer" "${1:this}" {
+    name = "${2:name}"
+    remote_address = "${3:remote_address}"
+}

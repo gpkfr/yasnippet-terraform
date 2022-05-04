@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_flex_flash_controller_props
+# key: d_intersight_storage_flex_flash_controller_props
+# --
+
+data "intersight_storage_flex_flash_controller_props" "${1:this}" {
+}

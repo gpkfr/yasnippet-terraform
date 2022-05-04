@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aliyun_cr_user_info_auth
+# key: r_aliyun_cr_user_info_auth
+# --
+
+resource "aliyun_cr_user_info_auth" "${1:this}" {
+    access_key = "${2:access_key}"
+    password = "${3:password}"
+    region = "${4:region}"
+    secret_key = "${5:secret_key}"
+}

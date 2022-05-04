@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_logging_console
+# key: r_thunder_logging_console
+# --
+
+resource "thunder_logging_console" "${1:this}" {
+    console_levelname = "${2:console_levelname}"
+}

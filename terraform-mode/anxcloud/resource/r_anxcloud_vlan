@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_anxcloud_vlan
+# key: r_anxcloud_vlan
+# --
+
+resource "anxcloud_vlan" "${1:this}" {
+    location_id = "${2:location_id}"
+}

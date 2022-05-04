@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tfe_variables
+# key: d_tfe_variables
+# --
+
+data "tfe_variables" "${1:this}" {
+}

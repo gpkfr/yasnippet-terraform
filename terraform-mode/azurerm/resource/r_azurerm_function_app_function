@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_function_app_function
+# key: r_azurerm_function_app_function
+# --
+
+resource "azurerm_function_app_function" "${1:this}" {
+    config_json = "${2:config_json}"
+    function_app_id = "${3:function_app_id}"
+    name = "${4:name}"
+}

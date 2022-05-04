@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_confluentcloud_kafka_topic
+# key: r_confluentcloud_kafka_topic
+# --
+
+resource "confluentcloud_kafka_topic" "${1:this}" {
+    http_endpoint = "${2:http_endpoint}"
+    kafka_cluster = "${3:kafka_cluster}"
+    topic_name = "${4:topic_name}"
+}

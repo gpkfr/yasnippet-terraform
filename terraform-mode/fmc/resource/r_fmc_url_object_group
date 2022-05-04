@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fmc_url_object_group
+# key: r_fmc_url_object_group
+# --
+
+resource "fmc_url_object_group" "${1:this}" {
+    name = "${2:name}"
+}

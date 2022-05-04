@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_honeycombio_datasets
+# key: d_honeycombio_datasets
+# --
+
+data "honeycombio_datasets" "${1:this}" {
+}

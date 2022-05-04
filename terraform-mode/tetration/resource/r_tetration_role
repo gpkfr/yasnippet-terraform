@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tetration_role
+# key: r_tetration_role
+# --
+
+resource "tetration_role" "${1:this}" {
+    access_app_scope_id = "${2:access_app_scope_id}"
+    access_type = "${3:access_type}"
+    app_scope_id = "${4:app_scope_id}"
+    description = "${5:description}"
+}

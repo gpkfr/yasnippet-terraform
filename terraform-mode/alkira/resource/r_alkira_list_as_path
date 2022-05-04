@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alkira_list_as_path
+# key: r_alkira_list_as_path
+# --
+
+resource "alkira_list_as_path" "${1:this}" {
+    name = "${2:name}"
+    values = "${3:values}"
+}

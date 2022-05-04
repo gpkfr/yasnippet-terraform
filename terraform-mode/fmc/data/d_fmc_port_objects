@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fmc_port_objects
+# key: d_fmc_port_objects
+# --
+
+data "fmc_port_objects" "${1:this}" {
+}

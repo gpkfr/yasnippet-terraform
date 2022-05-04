@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_google_vertex_ai_featurestore
+# key: r_google_vertex_ai_featurestore
+# --
+
+resource "google_vertex_ai_featurestore" "${1:this}" {
+}

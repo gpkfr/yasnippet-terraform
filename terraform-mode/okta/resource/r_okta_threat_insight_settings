@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_okta_threat_insight_settings
+# key: r_okta_threat_insight_settings
+# --
+
+resource "okta_threat_insight_settings" "${1:this}" {
+    action = "${2:action}"
+}

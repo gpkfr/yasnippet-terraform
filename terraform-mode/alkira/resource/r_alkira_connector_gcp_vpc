@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_alkira_connector_gcp_vpc
+# key: r_alkira_connector_gcp_vpc
+# --
+
+resource "alkira_connector_gcp_vpc" "${1:this}" {
+    credential_id = "${2:credential_id}"
+    cxp = "${3:cxp}"
+    gcp_region = "${4:gcp_region}"
+    gcp_vpc_id = "${5:gcp_vpc_id}"
+    gcp_vpc_name = "${6:gcp_vpc_name}"
+    name = "${7:name}"
+    segment_id = "${8:segment_id}"
+    size = "${9:size}"
+}

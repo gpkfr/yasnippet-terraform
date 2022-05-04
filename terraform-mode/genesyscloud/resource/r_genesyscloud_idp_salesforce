@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_idp_salesforce
+# key: r_genesyscloud_idp_salesforce
+# --
+
+resource "genesyscloud_idp_salesforce" "${1:this}" {
+    certificates = "${2:certificates}"
+    issuer_uri = "${3:issuer_uri}"
+}

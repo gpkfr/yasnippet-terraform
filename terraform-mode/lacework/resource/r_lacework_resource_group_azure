@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lacework_resource_group_azure
+# key: r_lacework_resource_group_azure
+# --
+
+resource "lacework_resource_group_azure" "${1:this}" {
+    name = "${2:name}"
+    subscriptions = "${3:subscriptions}"
+    tenant = "${4:tenant}"
+}

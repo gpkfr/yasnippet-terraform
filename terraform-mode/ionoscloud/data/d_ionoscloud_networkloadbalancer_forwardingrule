@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_networkloadbalancer_forwardingrule
+# key: d_ionoscloud_networkloadbalancer_forwardingrule
+# --
+
+data "ionoscloud_networkloadbalancer_forwardingrule" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    networkloadbalancer_id = "${3:networkloadbalancer_id}"
+}

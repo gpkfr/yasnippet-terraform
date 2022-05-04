@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ah_ips
+# key: d_ah_ips
+# --
+
+data "ah_ips" "${1:this}" {
+}

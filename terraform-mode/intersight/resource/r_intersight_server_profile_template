@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_server_profile_template
+# key: r_intersight_server_profile_template
+# --
+
+resource "intersight_server_profile_template" "${1:this}" {
+}

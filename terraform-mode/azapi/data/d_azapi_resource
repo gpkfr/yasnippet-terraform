@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_azapi_resource
+# key: d_azapi_resource
+# --
+
+data "azapi_resource" "${1:this}" {
+    name = "${2:name}"
+    parent_id = "${3:parent_id}"
+    type = "${4:type}"
+}

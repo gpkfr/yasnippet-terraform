@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_codefresh_step_types
+# key: r_codefresh_step_types
+# --
+
+resource "codefresh_step_types" "${1:this}" {
+    name = "${2:name}"
+    version = "${3:version}"
+}

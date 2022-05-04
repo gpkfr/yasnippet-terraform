@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_switchcontroller_qos_dot1pmap
+# key: r_fortimanager_object_switchcontroller_qos_dot1pmap
+# --
+
+resource "fortimanager_object_switchcontroller_qos_dot1pmap" "${1:this}" {
+}

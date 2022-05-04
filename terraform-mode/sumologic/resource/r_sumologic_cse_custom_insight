@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_custom_insight
+# key: r_sumologic_cse_custom_insight
+# --
+
+resource "sumologic_cse_custom_insight" "${1:this}" {
+    description = "${2:description}"
+    enabled = "${3:enabled}"
+    name = "${4:name}"
+    ordered = "${5:ordered}"
+    severity = "${6:severity}"
+    tags = "${7:tags}"
+}

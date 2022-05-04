@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_prometheus
+# key: r_harness_platform_connector_prometheus
+# --
+
+resource "harness_platform_connector_prometheus" "${1:this}" {
+    identifier = "${2:identifier}"
+    name = "${3:name}"
+    url = "${4:url}"
+}

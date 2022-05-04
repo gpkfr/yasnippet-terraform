@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_appliance
+# key: r_spectrocloud_appliance
+# --
+
+resource "spectrocloud_appliance" "${1:this}" {
+    uid = "${2:uid}"
+}

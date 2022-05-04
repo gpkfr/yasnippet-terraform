@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_codecommit_approval_rule_template_association
+# key: r_aws_codecommit_approval_rule_template_association
+# --
+
+resource "aws_codecommit_approval_rule_template_association" "${1:this}" {
+    approval_rule_template_name = "${2:approval_rule_template_name}"
+    repository_name = "${3:repository_name}"
+}

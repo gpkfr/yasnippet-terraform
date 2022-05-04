@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_ros_stack_groups
+# key: d_alicloud_ros_stack_groups
+# --
+
+data "alicloud_ros_stack_groups" "${1:this}" {
+}

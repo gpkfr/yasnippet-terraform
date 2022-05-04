@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nslicense
+# key: r_citrixadc_nslicense
+# --
+
+resource "citrixadc_nslicense" "${1:this}" {
+    license_file = "${2:license_file}"
+    ssh_host_pubkey = "${3:ssh_host_pubkey}"
+}

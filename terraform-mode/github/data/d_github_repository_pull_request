@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_github_repository_pull_request
+# key: d_github_repository_pull_request
+# --
+
+data "github_repository_pull_request" "${1:this}" {
+    base_repository = "${2:base_repository}"
+    number = "${3:number}"
+}

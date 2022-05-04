@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_health_gateway
+# key: r_thunder_slb_health_gateway
+# --
+
+resource "thunder_slb_health_gateway" "${1:this}" {
+}

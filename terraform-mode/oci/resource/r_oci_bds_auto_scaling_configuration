@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_bds_auto_scaling_configuration
+# key: r_oci_bds_auto_scaling_configuration
+# --
+
+resource "oci_bds_auto_scaling_configuration" "${1:this}" {
+    bds_instance_id = "${2:bds_instance_id}"
+    cluster_admin_password = "${3:cluster_admin_password}"
+    is_enabled = "${4:is_enabled}"
+    node_type = "${5:node_type}"
+}

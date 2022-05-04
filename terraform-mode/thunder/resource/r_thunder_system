@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_system
+# key: r_thunder_system
+# --
+
+resource "thunder_system" "${1:this}" {
+}

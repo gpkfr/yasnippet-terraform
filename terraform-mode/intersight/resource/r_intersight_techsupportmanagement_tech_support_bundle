@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_techsupportmanagement_tech_support_bundle
+# key: r_intersight_techsupportmanagement_tech_support_bundle
+# --
+
+resource "intersight_techsupportmanagement_tech_support_bundle" "${1:this}" {
+}

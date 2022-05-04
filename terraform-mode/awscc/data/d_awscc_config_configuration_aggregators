@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_config_configuration_aggregators
+# key: d_awscc_config_configuration_aggregators
+# --
+
+data "awscc_config_configuration_aggregators" "${1:this}" {
+}

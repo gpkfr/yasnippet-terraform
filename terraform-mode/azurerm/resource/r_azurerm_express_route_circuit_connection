@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_express_route_circuit_connection
+# key: r_azurerm_express_route_circuit_connection
+# --
+
+resource "azurerm_express_route_circuit_connection" "${1:this}" {
+    address_prefix_ipv4 = "${2:address_prefix_ipv4}"
+    name = "${3:name}"
+    peer_peering_id = "${4:peer_peering_id}"
+    peering_id = "${5:peering_id}"
+}

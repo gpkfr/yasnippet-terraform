@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_datadog_logs_archive_order
+# key: r_datadog_logs_archive_order
+# --
+
+resource "datadog_logs_archive_order" "${1:this}" {
+}

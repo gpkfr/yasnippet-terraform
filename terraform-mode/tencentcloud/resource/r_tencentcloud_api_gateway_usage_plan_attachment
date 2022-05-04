@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_api_gateway_usage_plan_attachment
+# key: r_tencentcloud_api_gateway_usage_plan_attachment
+# --
+
+resource "tencentcloud_api_gateway_usage_plan_attachment" "${1:this}" {
+    environment = "${2:environment}"
+    service_id = "${3:service_id}"
+    usage_plan_id = "${4:usage_plan_id}"
+}

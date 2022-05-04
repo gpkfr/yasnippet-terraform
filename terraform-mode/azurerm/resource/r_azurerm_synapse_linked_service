@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_linked_service
+# key: r_azurerm_synapse_linked_service
+# --
+
+resource "azurerm_synapse_linked_service" "${1:this}" {
+    name = "${2:name}"
+    synapse_workspace_id = "${3:synapse_workspace_id}"
+    type = "${4:type}"
+    type_properties_json = "${5:type_properties_json}"
+}

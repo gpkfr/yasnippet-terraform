@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ga_endpoint_group
+# key: r_alicloud_ga_endpoint_group
+# --
+
+resource "alicloud_ga_endpoint_group" "${1:this}" {
+    accelerator_id = "${2:accelerator_id}"
+    endpoint_group_region = "${3:endpoint_group_region}"
+    listener_id = "${4:listener_id}"
+}

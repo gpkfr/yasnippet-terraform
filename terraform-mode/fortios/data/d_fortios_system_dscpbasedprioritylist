@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_dscpbasedprioritylist
+# key: d_fortios_system_dscpbasedprioritylist
+# --
+
+data "fortios_system_dscpbasedprioritylist" "${1:this}" {
+}

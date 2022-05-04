@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_mysql_heat_wave_cluster
+# key: d_oci_mysql_heat_wave_cluster
+# --
+
+data "oci_mysql_heat_wave_cluster" "${1:this}" {
+    db_system_id = "${2:db_system_id}"
+}

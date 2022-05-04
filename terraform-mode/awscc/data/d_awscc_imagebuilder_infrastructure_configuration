@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_imagebuilder_infrastructure_configuration
+# key: d_awscc_imagebuilder_infrastructure_configuration
+# --
+
+data "awscc_imagebuilder_infrastructure_configuration" "${1:this}" {
+    id = "${2:id}"
+}

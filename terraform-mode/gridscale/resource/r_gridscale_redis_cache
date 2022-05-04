@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gridscale_redis_cache
+# key: r_gridscale_redis_cache
+# --
+
+resource "gridscale_redis_cache" "${1:this}" {
+    name = "${2:name}"
+    performance_class = "${3:performance_class}"
+    release = "${4:release}"
+}

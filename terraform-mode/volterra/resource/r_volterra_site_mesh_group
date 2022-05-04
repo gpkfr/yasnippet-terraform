@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_volterra_site_mesh_group
+# key: r_volterra_site_mesh_group
+# --
+
+resource "volterra_site_mesh_group" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+    tunnel_type = "${4:tunnel_type}"
+    type = "${5:type}"
+}

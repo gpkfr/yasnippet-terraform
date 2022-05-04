@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_logs_query_definition
+# key: r_awscc_logs_query_definition
+# --
+
+resource "awscc_logs_query_definition" "${1:this}" {
+    name = "${2:name}"
+    query_string = "${3:query_string}"
+}

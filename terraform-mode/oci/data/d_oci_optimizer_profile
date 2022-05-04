@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_optimizer_profile
+# key: d_oci_optimizer_profile
+# --
+
+data "oci_optimizer_profile" "${1:this}" {
+    profile_id = "${2:profile_id}"
+}

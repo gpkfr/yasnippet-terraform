@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_quorum_bootstrap_data_dir
+# key: r_quorum_bootstrap_data_dir
+# --
+
+resource "quorum_bootstrap_data_dir" "${1:this}" {
+    data_dir = "${2:data_dir}"
+    genesis = "${3:genesis}"
+}

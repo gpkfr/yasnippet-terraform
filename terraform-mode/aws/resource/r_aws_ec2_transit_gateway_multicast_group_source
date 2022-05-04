@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_transit_gateway_multicast_group_source
+# key: r_aws_ec2_transit_gateway_multicast_group_source
+# --
+
+resource "aws_ec2_transit_gateway_multicast_group_source" "${1:this}" {
+    group_ip_address = "${2:group_ip_address}"
+    network_interface_id = "${3:network_interface_id}"
+    transit_gateway_multicast_domain_id = "${4:transit_gateway_multicast_domain_id}"
+}

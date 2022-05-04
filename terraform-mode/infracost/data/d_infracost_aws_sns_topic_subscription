@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_infracost_aws_sns_topic_subscription
+# key: d_infracost_aws_sns_topic_subscription
+# --
+
+data "infracost_aws_sns_topic_subscription" "${1:this}" {
+    resources = "${2:resources}"
+}

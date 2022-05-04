@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akc_key_value
+# key: r_akc_key_value
+# --
+
+resource "akc_key_value" "${1:this}" {
+    endpoint = "${2:endpoint}"
+    key = "${3:key}"
+    value = "${4:value}"
+}

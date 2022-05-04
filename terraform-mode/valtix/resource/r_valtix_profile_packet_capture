@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_packet_capture
+# key: r_valtix_profile_packet_capture
+# --
+
+resource "valtix_profile_packet_capture" "${1:this}" {
+    csp_account = "${2:csp_account}"
+    name = "${3:name}"
+}

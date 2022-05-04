@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_appstream_entitlement
+# key: d_awscc_appstream_entitlement
+# --
+
+data "awscc_appstream_entitlement" "${1:this}" {
+    id = "${2:id}"
+}

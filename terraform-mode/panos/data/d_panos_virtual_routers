@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_virtual_routers
+# key: d_panos_virtual_routers
+# --
+
+data "panos_virtual_routers" "${1:this}" {
+}

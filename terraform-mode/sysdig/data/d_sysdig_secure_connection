@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_sysdig_secure_connection
+# key: d_sysdig_secure_connection
+# --
+
+data "sysdig_secure_connection" "${1:this}" {
+}

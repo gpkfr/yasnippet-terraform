@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudformation_stack_set
+# key: r_awscc_cloudformation_stack_set
+# --
+
+resource "awscc_cloudformation_stack_set" "${1:this}" {
+    permission_model = "${2:permission_model}"
+    stack_set_name = "${3:stack_set_name}"
+}

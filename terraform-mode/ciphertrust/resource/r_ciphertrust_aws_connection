@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_aws_connection
+# key: r_ciphertrust_aws_connection
+# --
+
+resource "ciphertrust_aws_connection" "${1:this}" {
+    name = "${2:name}"
+}

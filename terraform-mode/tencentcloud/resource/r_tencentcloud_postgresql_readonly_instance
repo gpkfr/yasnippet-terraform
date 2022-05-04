@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_postgresql_readonly_instance
+# key: r_tencentcloud_postgresql_readonly_instance
+# --
+
+resource "tencentcloud_postgresql_readonly_instance" "${1:this}" {
+    db_version = "${2:db_version}"
+    master_db_instance_id = "${3:master_db_instance_id}"
+    memory = "${4:memory}"
+    name = "${5:name}"
+    project_id = "${6:project_id}"
+    security_groups_ids = "${7:security_groups_ids}"
+    storage = "${8:storage}"
+    subnet_id = "${9:subnet_id}"
+    vpc_id = "${10:vpc_id}"
+    zone = "${11:zone}"
+}

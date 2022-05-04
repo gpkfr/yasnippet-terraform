@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_speedtestschedule
+# key: r_fortios_system_speedtestschedule
+# --
+
+resource "fortios_system_speedtestschedule" "${1:this}" {
+}

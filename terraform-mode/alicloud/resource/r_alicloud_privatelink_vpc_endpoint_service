@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_privatelink_vpc_endpoint_service
+# key: r_alicloud_privatelink_vpc_endpoint_service
+# --
+
+resource "alicloud_privatelink_vpc_endpoint_service" "${1:this}" {
+}

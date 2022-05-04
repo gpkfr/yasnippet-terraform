@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nomad_volume
+# key: r_nomad_volume
+# --
+
+resource "nomad_volume" "${1:this}" {
+    external_id = "${2:external_id}"
+    name = "${3:name}"
+    plugin_id = "${4:plugin_id}"
+    volume_id = "${5:volume_id}"
+}

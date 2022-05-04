@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_virtual_services
+# key: d_illumio-core_virtual_services
+# --
+
+data "illumio-core_virtual_services" "${1:this}" {
+}

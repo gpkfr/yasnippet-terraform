@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneview_id_pools_ipv4_subnets
+# key: r_oneview_id_pools_ipv4_subnets
+# --
+
+resource "oneview_id_pools_ipv4_subnets" "${1:this}" {
+}

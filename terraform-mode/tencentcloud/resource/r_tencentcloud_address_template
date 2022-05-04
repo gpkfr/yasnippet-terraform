@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_address_template
+# key: r_tencentcloud_address_template
+# --
+
+resource "tencentcloud_address_template" "${1:this}" {
+    addresses = "${2:addresses}"
+    name = "${3:name}"
+}

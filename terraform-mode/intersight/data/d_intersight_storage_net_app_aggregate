@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_net_app_aggregate
+# key: d_intersight_storage_net_app_aggregate
+# --
+
+data "intersight_storage_net_app_aggregate" "${1:this}" {
+}

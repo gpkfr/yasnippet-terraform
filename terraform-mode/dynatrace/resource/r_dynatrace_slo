@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_slo
+# key: r_dynatrace_slo
+# --
+
+resource "dynatrace_slo" "${1:this}" {
+    evaluation = "${2:evaluation}"
+    name = "${3:name}"
+    target = "${4:target}"
+    timeframe = "${5:timeframe}"
+    warning = "${6:warning}"
+}

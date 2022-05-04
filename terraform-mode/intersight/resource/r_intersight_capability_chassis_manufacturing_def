@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_capability_chassis_manufacturing_def
+# key: r_intersight_capability_chassis_manufacturing_def
+# --
+
+resource "intersight_capability_chassis_manufacturing_def" "${1:this}" {
+}

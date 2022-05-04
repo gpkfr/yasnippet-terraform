@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_hcp_packer_image
+# key: d_hcp_packer_image
+# --
+
+data "hcp_packer_image" "${1:this}" {
+    bucket_name = "${2:bucket_name}"
+    cloud_provider = "${3:cloud_provider}"
+    iteration_id = "${4:iteration_id}"
+    region = "${5:region}"
+}

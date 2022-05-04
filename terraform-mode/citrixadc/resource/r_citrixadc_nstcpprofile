@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nstcpprofile
+# key: r_citrixadc_nstcpprofile
+# --
+
+resource "citrixadc_nstcpprofile" "${1:this}" {
+    name = "${2:name}"
+}

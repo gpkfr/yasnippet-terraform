@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_api_gateway_service
+# key: r_tencentcloud_api_gateway_service
+# --
+
+resource "tencentcloud_api_gateway_service" "${1:this}" {
+    net_type = "${2:net_type}"
+    protocol = "${3:protocol}"
+    service_name = "${4:service_name}"
+}

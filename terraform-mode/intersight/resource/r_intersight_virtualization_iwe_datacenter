@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_virtualization_iwe_datacenter
+# key: r_intersight_virtualization_iwe_datacenter
+# --
+
+resource "intersight_virtualization_iwe_datacenter" "${1:this}" {
+}

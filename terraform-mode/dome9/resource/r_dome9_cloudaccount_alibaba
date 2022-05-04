@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dome9_cloudaccount_alibaba
+# key: r_dome9_cloudaccount_alibaba
+# --
+
+resource "dome9_cloudaccount_alibaba" "${1:this}" {
+    credentials = "${2:credentials}"
+    name = "${3:name}"
+}

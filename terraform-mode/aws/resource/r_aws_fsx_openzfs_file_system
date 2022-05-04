@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_fsx_openzfs_file_system
+# key: r_aws_fsx_openzfs_file_system
+# --
+
+resource "aws_fsx_openzfs_file_system" "${1:this}" {
+    deployment_type = "${2:deployment_type}"
+    subnet_ids = "${3:subnet_ids}"
+    throughput_capacity = "${4:throughput_capacity}"
+}

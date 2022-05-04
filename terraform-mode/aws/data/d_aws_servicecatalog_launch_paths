@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_servicecatalog_launch_paths
+# key: d_aws_servicecatalog_launch_paths
+# --
+
+data "aws_servicecatalog_launch_paths" "${1:this}" {
+    product_id = "${2:product_id}"
+}

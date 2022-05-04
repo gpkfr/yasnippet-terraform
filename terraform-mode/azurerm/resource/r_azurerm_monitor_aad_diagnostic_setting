@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_monitor_aad_diagnostic_setting
+# key: r_azurerm_monitor_aad_diagnostic_setting
+# --
+
+resource "azurerm_monitor_aad_diagnostic_setting" "${1:this}" {
+    name = "${2:name}"
+}

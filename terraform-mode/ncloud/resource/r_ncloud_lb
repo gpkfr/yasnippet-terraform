@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_lb
+# key: r_ncloud_lb
+# --
+
+resource "ncloud_lb" "${1:this}" {
+    subnet_no_list = "${2:subnet_no_list}"
+    type = "${3:type}"
+}

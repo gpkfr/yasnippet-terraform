@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_volterra_namespace
+# key: d_volterra_namespace
+# --
+
+data "volterra_namespace" "${1:this}" {
+    name = "${2:name}"
+}

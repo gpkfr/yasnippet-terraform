@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ns_autogen_subdomain
+# key: r_ns_autogen_subdomain
+# --
+
+resource "ns_autogen_subdomain" "${1:this}" {
+    env_id = "${2:env_id}"
+    subdomain_id = "${3:subdomain_id}"
+}

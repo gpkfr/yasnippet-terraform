@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_infracost_aws_sqs_queue
+# key: d_infracost_aws_sqs_queue
+# --
+
+data "infracost_aws_sqs_queue" "${1:this}" {
+    resources = "${2:resources}"
+}

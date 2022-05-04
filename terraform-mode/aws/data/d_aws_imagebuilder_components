@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_imagebuilder_components
+# key: d_aws_imagebuilder_components
+# --
+
+data "aws_imagebuilder_components" "${1:this}" {
+}

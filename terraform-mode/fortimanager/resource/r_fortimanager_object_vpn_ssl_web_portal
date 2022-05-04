@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_vpn_ssl_web_portal
+# key: r_fortimanager_object_vpn_ssl_web_portal
+# --
+
+resource "fortimanager_object_vpn_ssl_web_portal" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alkira_segment
+# key: d_alkira_segment
+# --
+
+data "alkira_segment" "${1:this}" {
+    name = "${2:name}"
+}

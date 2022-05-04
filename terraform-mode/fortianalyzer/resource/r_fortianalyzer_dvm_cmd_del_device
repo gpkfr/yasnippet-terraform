@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_dvm_cmd_del_device
+# key: r_fortianalyzer_dvm_cmd_del_device
+# --
+
+resource "fortianalyzer_dvm_cmd_del_device" "${1:this}" {
+}

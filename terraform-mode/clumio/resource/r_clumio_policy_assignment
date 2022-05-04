@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_clumio_policy_assignment
+# key: r_clumio_policy_assignment
+# --
+
+resource "clumio_policy_assignment" "${1:this}" {
+    entity_id = "${2:entity_id}"
+    entity_type = "${3:entity_type}"
+    policy_id = "${4:policy_id}"
+}

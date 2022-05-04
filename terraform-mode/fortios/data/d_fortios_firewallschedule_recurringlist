@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewallschedule_recurringlist
+# key: d_fortios_firewallschedule_recurringlist
+# --
+
+data "fortios_firewallschedule_recurringlist" "${1:this}" {
+}

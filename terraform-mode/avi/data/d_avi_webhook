@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_webhook
+# key: d_avi_webhook
+# --
+
+data "avi_webhook" "${1:this}" {
+}

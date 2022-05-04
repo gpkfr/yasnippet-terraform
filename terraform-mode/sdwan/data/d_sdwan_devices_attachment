@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_sdwan_devices_attachment
+# key: d_sdwan_devices_attachment
+# --
+
+data "sdwan_devices_attachment" "${1:this}" {
+    device_template_id = "${2:device_template_id}"
+}

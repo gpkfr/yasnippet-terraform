@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_lightstep_alerting_rule
+# key: r_lightstep_alerting_rule
+# --
+
+resource "lightstep_alerting_rule" "${1:this}" {
+    condition_id = "${2:condition_id}"
+    destination_id = "${3:destination_id}"
+    project_name = "${4:project_name}"
+    update_interval = "${5:update_interval}"
+}

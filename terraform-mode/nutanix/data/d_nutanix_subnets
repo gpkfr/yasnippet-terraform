@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_subnets
+# key: d_nutanix_subnets
+# --
+
+data "nutanix_subnets" "${1:this}" {
+}

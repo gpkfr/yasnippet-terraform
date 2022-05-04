@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_aws_tgw_connect_peer
+# key: r_aviatrix_aws_tgw_connect_peer
+# --
+
+resource "aviatrix_aws_tgw_connect_peer" "${1:this}" {
+    bgp_inside_cidrs = "${2:bgp_inside_cidrs}"
+    connect_attachment_id = "${3:connect_attachment_id}"
+    connect_peer_name = "${4:connect_peer_name}"
+    connection_name = "${5:connection_name}"
+    peer_as_number = "${6:peer_as_number}"
+    peer_gre_address = "${7:peer_gre_address}"
+    tgw_name = "${8:tgw_name}"
+}

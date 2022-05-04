@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_efs_file_system
+# key: r_awscc_efs_file_system
+# --
+
+resource "awscc_efs_file_system" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_akamai_properties
+# key: d_akamai_properties
+# --
+
+data "akamai_properties" "${1:this}" {
+    contract_id = "${2:contract_id}"
+    group_id = "${3:group_id}"
+}

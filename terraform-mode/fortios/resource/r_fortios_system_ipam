@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_ipam
+# key: r_fortios_system_ipam
+# --
+
+resource "fortios_system_ipam" "${1:this}" {
+}

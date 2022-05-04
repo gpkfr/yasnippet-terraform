@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_host_assurance_policy
+# key: r_aquasec_host_assurance_policy
+# --
+
+resource "aquasec_host_assurance_policy" "${1:this}" {
+    application_scopes = "${2:application_scopes}"
+    name = "${3:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_networkmanager_transit_gateway_registration
+# key: d_awscc_networkmanager_transit_gateway_registration
+# --
+
+data "awscc_networkmanager_transit_gateway_registration" "${1:this}" {
+    id = "${2:id}"
+}

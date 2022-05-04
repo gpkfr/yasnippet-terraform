@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_teams_location
+# key: r_cloudflare_teams_location
+# --
+
+resource "cloudflare_teams_location" "${1:this}" {
+    account_id = "${2:account_id}"
+    name = "${3:name}"
+}

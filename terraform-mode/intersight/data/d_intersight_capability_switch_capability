@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_capability_switch_capability
+# key: d_intersight_capability_switch_capability
+# --
+
+data "intersight_capability_switch_capability" "${1:this}" {
+}

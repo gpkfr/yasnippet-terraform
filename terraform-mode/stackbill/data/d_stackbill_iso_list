@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_stackbill_iso_list
+# key: d_stackbill_iso_list
+# --
+
+data "stackbill_iso_list" "${1:this}" {
+    zone_uuid = "${2:zone_uuid}"
+}

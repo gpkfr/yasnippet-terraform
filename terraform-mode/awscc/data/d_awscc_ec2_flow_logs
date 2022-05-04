@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_flow_logs
+# key: d_awscc_ec2_flow_logs
+# --
+
+data "awscc_ec2_flow_logs" "${1:this}" {
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_adverity_destination
+# key: r_adverity_destination
+# --
+
+resource "adverity_destination" "${1:this}" {
+    auth = "${2:auth}"
+    dataset_id = "${3:dataset_id}"
+    destination_type = "${4:destination_type}"
+    name = "${5:name}"
+    project_id = "${6:project_id}"
+    schema_mapping = "${7:schema_mapping}"
+    stack = "${8:stack}"
+}

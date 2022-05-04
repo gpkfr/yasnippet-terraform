@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_vnic_iscsi_static_target_policy
+# key: r_intersight_vnic_iscsi_static_target_policy
+# --
+
+resource "intersight_vnic_iscsi_static_target_policy" "${1:this}" {
+}

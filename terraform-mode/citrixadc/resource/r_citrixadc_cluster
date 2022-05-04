@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_cluster
+# key: r_citrixadc_cluster
+# --
+
+resource "citrixadc_cluster" "${1:this}" {
+    clid = "${2:clid}"
+    clip = "${3:clip}"
+}

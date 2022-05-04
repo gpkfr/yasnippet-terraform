@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_iplist
+# key: d_dome9_iplist
+# --
+
+data "dome9_iplist" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_elastigroup_aws_suspension
+# key: r_spotinst_elastigroup_aws_suspension
+# --
+
+resource "spotinst_elastigroup_aws_suspension" "${1:this}" {
+    group_id = "${2:group_id}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_trigger_blob_event
+# key: r_azurerm_data_factory_trigger_blob_event
+# --
+
+resource "azurerm_data_factory_trigger_blob_event" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    events = "${3:events}"
+    name = "${4:name}"
+    storage_account_id = "${5:storage_account_id}"
+}

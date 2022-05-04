@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_network_policy
+# key: d_intersight_kubernetes_network_policy
+# --
+
+data "intersight_kubernetes_network_policy" "${1:this}" {
+}

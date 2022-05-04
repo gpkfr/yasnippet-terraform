@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_uuidpool_pool
+# key: r_intersight_uuidpool_pool
+# --
+
+resource "intersight_uuidpool_pool" "${1:this}" {
+}

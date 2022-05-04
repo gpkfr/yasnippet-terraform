@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_eks_cluster
+# key: r_awscc_eks_cluster
+# --
+
+resource "awscc_eks_cluster" "${1:this}" {
+    resources_vpc_config = "${2:resources_vpc_config}"
+    role_arn = "${3:role_arn}"
+}

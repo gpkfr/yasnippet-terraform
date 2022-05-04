@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lookoutvision_project
+# key: r_awscc_lookoutvision_project
+# --
+
+resource "awscc_lookoutvision_project" "${1:this}" {
+    project_name = "${2:project_name}"
+}

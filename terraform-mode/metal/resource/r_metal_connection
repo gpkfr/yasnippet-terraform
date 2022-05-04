@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_metal_connection
+# key: r_metal_connection
+# --
+
+resource "metal_connection" "${1:this}" {
+    name = "${2:name}"
+    project_id = "${3:project_id}"
+    redundancy = "${4:redundancy}"
+    speed = "${5:speed}"
+    type = "${6:type}"
+}

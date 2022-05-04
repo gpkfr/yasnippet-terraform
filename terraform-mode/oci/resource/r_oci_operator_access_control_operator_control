@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oci_operator_access_control_operator_control
+# key: r_oci_operator_access_control_operator_control
+# --
+
+resource "oci_operator_access_control_operator_control" "${1:this}" {
+    approver_groups_list = "${2:approver_groups_list}"
+    compartment_id = "${3:compartment_id}"
+    is_fully_pre_approved = "${4:is_fully_pre_approved}"
+    operator_control_name = "${5:operator_control_name}"
+    resource_type = "${6:resource_type}"
+}

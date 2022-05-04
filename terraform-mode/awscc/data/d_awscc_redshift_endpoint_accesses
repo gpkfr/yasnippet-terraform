@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_redshift_endpoint_accesses
+# key: d_awscc_redshift_endpoint_accesses
+# --
+
+data "awscc_redshift_endpoint_accesses" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_firewall_settings
+# key: d_illumio-core_firewall_settings
+# --
+
+data "illumio-core_firewall_settings" "${1:this}" {
+    href = "${2:href}"
+}

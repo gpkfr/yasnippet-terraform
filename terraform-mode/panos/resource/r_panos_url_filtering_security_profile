@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_url_filtering_security_profile
+# key: r_panos_url_filtering_security_profile
+# --
+
+resource "panos_url_filtering_security_profile" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudscale_custom_image
+# key: d_cloudscale_custom_image
+# --
+
+data "cloudscale_custom_image" "${1:this}" {
+}

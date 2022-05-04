@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_memorydb_cluster
+# key: r_aws_memorydb_cluster
+# --
+
+resource "aws_memorydb_cluster" "${1:this}" {
+    acl_name = "${2:acl_name}"
+    node_type = "${3:node_type}"
+}

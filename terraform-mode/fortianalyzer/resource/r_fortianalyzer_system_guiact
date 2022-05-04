@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_guiact
+# key: r_fortianalyzer_system_guiact
+# --
+
+resource "fortianalyzer_system_guiact" "${1:this}" {
+}

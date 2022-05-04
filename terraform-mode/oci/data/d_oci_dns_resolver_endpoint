@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_oci_dns_resolver_endpoint
+# key: d_oci_dns_resolver_endpoint
+# --
+
+data "oci_dns_resolver_endpoint" "${1:this}" {
+    resolver_endpoint_name = "${2:resolver_endpoint_name}"
+    resolver_id = "${3:resolver_id}"
+    scope = "${4:scope}"
+}

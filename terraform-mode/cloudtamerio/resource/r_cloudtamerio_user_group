@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudtamerio_user_group
+# key: r_cloudtamerio_user_group
+# --
+
+resource "cloudtamerio_user_group" "${1:this}" {
+    idms_id = "${2:idms_id}"
+    name = "${3:name}"
+}

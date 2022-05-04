@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_wavefront_maintenance_window
+# key: r_wavefront_maintenance_window
+# --
+
+resource "wavefront_maintenance_window" "${1:this}" {
+    end_time_in_seconds = "${2:end_time_in_seconds}"
+    reason = "${3:reason}"
+    start_time_in_seconds = "${4:start_time_in_seconds}"
+    title = "${5:title}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_certificatemanagementprofile
+# key: r_avi_certificatemanagementprofile
+# --
+
+resource "avi_certificatemanagementprofile" "${1:this}" {
+    name = "${2:name}"
+    run_script_ref = "${3:run_script_ref}"
+}

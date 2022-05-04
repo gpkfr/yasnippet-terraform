@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_role
+# key: r_akeyless_role
+# --
+
+resource "akeyless_role" "${1:this}" {
+    name = "${2:name}"
+}

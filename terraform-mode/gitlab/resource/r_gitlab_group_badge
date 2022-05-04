@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_group_badge
+# key: r_gitlab_group_badge
+# --
+
+resource "gitlab_group_badge" "${1:this}" {
+    group = "${2:group}"
+    image_url = "${3:image_url}"
+    link_url = "${4:link_url}"
+}

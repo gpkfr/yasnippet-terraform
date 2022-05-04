@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_bigip_fast_template
+# key: r_bigip_fast_template
+# --
+
+resource "bigip_fast_template" "${1:this}" {
+    md5_hash = "${2:md5_hash}"
+    source = "${3:source}"
+}

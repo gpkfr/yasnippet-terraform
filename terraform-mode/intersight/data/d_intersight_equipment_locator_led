@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_equipment_locator_led
+# key: d_intersight_equipment_locator_led
+# --
+
+data "intersight_equipment_locator_led" "${1:this}" {
+}

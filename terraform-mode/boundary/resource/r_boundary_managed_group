@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_boundary_managed_group
+# key: r_boundary_managed_group
+# --
+
+resource "boundary_managed_group" "${1:this}" {
+    auth_method_id = "${2:auth_method_id}"
+    filter = "${3:filter}"
+}

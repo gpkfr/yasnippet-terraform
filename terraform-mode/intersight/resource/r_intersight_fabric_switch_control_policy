@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fabric_switch_control_policy
+# key: r_intersight_fabric_switch_control_policy
+# --
+
+resource "intersight_fabric_switch_control_policy" "${1:this}" {
+}

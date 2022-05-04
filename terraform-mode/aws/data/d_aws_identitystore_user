@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_identitystore_user
+# key: d_aws_identitystore_user
+# --
+
+data "aws_identitystore_user" "${1:this}" {
+    identity_store_id = "${2:identity_store_id}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_cloud_database_management
+# key: r_oci_database_cloud_database_management
+# --
+
+resource "oci_database_cloud_database_management" "${1:this}" {
+    database_id = "${2:database_id}"
+    management_type = "${3:management_type}"
+    private_end_point_id = "${4:private_end_point_id}"
+    service_name = "${5:service_name}"
+}

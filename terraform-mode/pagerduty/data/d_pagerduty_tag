@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_pagerduty_tag
+# key: d_pagerduty_tag
+# --
+
+data "pagerduty_tag" "${1:this}" {
+    label = "${2:label}"
+}

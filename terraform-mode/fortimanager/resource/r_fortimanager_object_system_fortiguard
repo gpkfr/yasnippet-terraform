@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_fortiguard
+# key: r_fortimanager_object_system_fortiguard
+# --
+
+resource "fortimanager_object_system_fortiguard" "${1:this}" {
+}

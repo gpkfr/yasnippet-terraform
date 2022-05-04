@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_target_web
+# key: r_akeyless_target_web
+# --
+
+resource "akeyless_target_web" "${1:this}" {
+    name = "${2:name}"
+    url = "${3:url}"
+}

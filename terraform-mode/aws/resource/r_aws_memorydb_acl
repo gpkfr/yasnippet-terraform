@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_memorydb_acl
+# key: r_aws_memorydb_acl
+# --
+
+resource "aws_memorydb_acl" "${1:this}" {
+}

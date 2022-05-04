@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_location_map
+# key: r_awscc_location_map
+# --
+
+resource "awscc_location_map" "${1:this}" {
+    configuration = "${2:configuration}"
+    map_name = "${3:map_name}"
+}

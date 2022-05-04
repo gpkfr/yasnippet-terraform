@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_britive_tag
+# key: r_britive_tag
+# --
+
+resource "britive_tag" "${1:this}" {
+    identity_provider_id = "${2:identity_provider_id}"
+    name = "${3:name}"
+}

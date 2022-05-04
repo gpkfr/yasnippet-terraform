@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_lacework_resource_group_machine
+# key: r_lacework_resource_group_machine
+# --
+
+resource "lacework_resource_group_machine" "${1:this}" {
+    name = "${2:name}"
+}

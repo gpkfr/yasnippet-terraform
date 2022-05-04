@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_billingconductor_pricing_rule
+# key: d_awscc_billingconductor_pricing_rule
+# --
+
+data "awscc_billingconductor_pricing_rule" "${1:this}" {
+    id = "${2:id}"
+}

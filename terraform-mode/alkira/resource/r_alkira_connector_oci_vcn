@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_alkira_connector_oci_vcn
+# key: r_alkira_connector_oci_vcn
+# --
+
+resource "alkira_connector_oci_vcn" "${1:this}" {
+    credential_id = "${2:credential_id}"
+    cxp = "${3:cxp}"
+    name = "${4:name}"
+    oci_region = "${5:oci_region}"
+    primary = "${6:primary}"
+    segment_id = "${7:segment_id}"
+    size = "${8:size}"
+    vcn_id = "${9:vcn_id}"
+}

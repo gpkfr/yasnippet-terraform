@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_bigquery_routine
+# key: r_google_bigquery_routine
+# --
+
+resource "google_bigquery_routine" "${1:this}" {
+    dataset_id = "${2:dataset_id}"
+    definition_body = "${3:definition_body}"
+    routine_id = "${4:routine_id}"
+}

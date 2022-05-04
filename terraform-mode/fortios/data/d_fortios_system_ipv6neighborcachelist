@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_ipv6neighborcachelist
+# key: d_fortios_system_ipv6neighborcachelist
+# --
+
+data "fortios_system_ipv6neighborcachelist" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_equinix_ecx_l2_sellerprofile
+# key: d_equinix_ecx_l2_sellerprofile
+# --
+
+data "equinix_ecx_l2_sellerprofile" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_dnsimple_domain
+# key: r_dnsimple_domain
+# --
+
+resource "dnsimple_domain" "${1:this}" {
+    name = "${2:name}"
+}

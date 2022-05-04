@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationsamlpolicy
+# key: r_citrixadc_authenticationsamlpolicy
+# --
+
+resource "citrixadc_authenticationsamlpolicy" "${1:this}" {
+    name = "${2:name}"
+    reqaction = "${3:reqaction}"
+    rule = "${4:rule}"
+}

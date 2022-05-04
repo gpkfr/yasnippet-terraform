@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_fastly_tls_platform_certificate
+# key: r_fastly_tls_platform_certificate
+# --
+
+resource "fastly_tls_platform_certificate" "${1:this}" {
+    certificate_body = "${2:certificate_body}"
+    configuration_id = "${3:configuration_id}"
+    intermediates_blob = "${4:intermediates_blob}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_compute_blade_identity
+# key: d_intersight_compute_blade_identity
+# --
+
+data "intersight_compute_blade_identity" "${1:this}" {
+}

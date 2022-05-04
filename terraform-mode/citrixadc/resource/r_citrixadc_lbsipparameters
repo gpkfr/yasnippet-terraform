@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbsipparameters
+# key: r_citrixadc_lbsipparameters
+# --
+
+resource "citrixadc_lbsipparameters" "${1:this}" {
+}

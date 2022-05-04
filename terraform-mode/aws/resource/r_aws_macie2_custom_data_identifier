@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_macie2_custom_data_identifier
+# key: r_aws_macie2_custom_data_identifier
+# --
+
+resource "aws_macie2_custom_data_identifier" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_log_topology
+# key: r_fortimanager_system_log_topology
+# --
+
+resource "fortimanager_system_log_topology" "${1:this}" {
+}

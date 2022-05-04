@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ecs_services
+# key: d_awscc_ecs_services
+# --
+
+data "awscc_ecs_services" "${1:this}" {
+}

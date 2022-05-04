@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ovh_dbaas_logs_output_graylog_stream
+# key: r_ovh_dbaas_logs_output_graylog_stream
+# --
+
+resource "ovh_dbaas_logs_output_graylog_stream" "${1:this}" {
+    description = "${2:description}"
+    service_name = "${3:service_name}"
+    title = "${4:title}"
+}

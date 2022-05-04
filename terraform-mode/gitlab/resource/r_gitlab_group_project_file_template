@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_group_project_file_template
+# key: r_gitlab_group_project_file_template
+# --
+
+resource "gitlab_group_project_file_template" "${1:this}" {
+    file_template_project_id = "${2:file_template_project_id}"
+    group_id = "${3:group_id}"
+}

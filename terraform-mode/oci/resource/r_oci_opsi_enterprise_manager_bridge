@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_opsi_enterprise_manager_bridge
+# key: r_oci_opsi_enterprise_manager_bridge
+# --
+
+resource "oci_opsi_enterprise_manager_bridge" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+    object_storage_bucket_name = "${4:object_storage_bucket_name}"
+}

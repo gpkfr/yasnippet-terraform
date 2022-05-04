@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_eks_identity_provider_config
+# key: d_awscc_eks_identity_provider_config
+# --
+
+data "awscc_eks_identity_provider_config" "${1:this}" {
+    id = "${2:id}"
+}

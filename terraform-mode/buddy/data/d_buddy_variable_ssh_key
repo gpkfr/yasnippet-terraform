@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_buddy_variable_ssh_key
+# key: d_buddy_variable_ssh_key
+# --
+
+data "buddy_variable_ssh_key" "${1:this}" {
+    domain = "${2:domain}"
+}

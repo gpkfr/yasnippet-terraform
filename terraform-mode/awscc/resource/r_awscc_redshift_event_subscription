@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_redshift_event_subscription
+# key: r_awscc_redshift_event_subscription
+# --
+
+resource "awscc_redshift_event_subscription" "${1:this}" {
+    subscription_name = "${2:subscription_name}"
+}

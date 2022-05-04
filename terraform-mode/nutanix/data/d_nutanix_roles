@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_roles
+# key: d_nutanix_roles
+# --
+
+data "nutanix_roles" "${1:this}" {
+}

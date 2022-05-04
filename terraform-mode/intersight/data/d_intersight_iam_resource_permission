@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_resource_permission
+# key: d_intersight_iam_resource_permission
+# --
+
+data "intersight_iam_resource_permission" "${1:this}" {
+}

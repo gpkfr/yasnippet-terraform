@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_platform_connector_pagerduty
+# key: d_harness_platform_connector_pagerduty
+# --
+
+data "harness_platform_connector_pagerduty" "${1:this}" {
+}

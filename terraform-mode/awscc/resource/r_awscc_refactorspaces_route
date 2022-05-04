@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_refactorspaces_route
+# key: r_awscc_refactorspaces_route
+# --
+
+resource "awscc_refactorspaces_route" "${1:this}" {
+    application_identifier = "${2:application_identifier}"
+    environment_identifier = "${3:environment_identifier}"
+    service_identifier = "${4:service_identifier}"
+}

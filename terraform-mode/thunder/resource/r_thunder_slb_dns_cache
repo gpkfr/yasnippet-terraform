@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_dns_cache
+# key: r_thunder_slb_dns_cache
+# --
+
+resource "thunder_slb_dns_cache" "${1:this}" {
+}

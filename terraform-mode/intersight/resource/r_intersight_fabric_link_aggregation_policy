@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fabric_link_aggregation_policy
+# key: r_intersight_fabric_link_aggregation_policy
+# --
+
+resource "intersight_fabric_link_aggregation_policy" "${1:this}" {
+}

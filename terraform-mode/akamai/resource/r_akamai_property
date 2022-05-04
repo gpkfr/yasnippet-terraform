@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_akamai_property
+# key: r_akamai_property
+# --
+
+resource "akamai_property" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_vlan
+# key: d_intersight_fabric_vlan
+# --
+
+data "intersight_fabric_vlan" "${1:this}" {
+}

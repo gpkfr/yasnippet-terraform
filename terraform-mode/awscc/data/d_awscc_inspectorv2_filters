@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_inspectorv2_filters
+# key: d_awscc_inspectorv2_filters
+# --
+
+data "awscc_inspectorv2_filters" "${1:this}" {
+}

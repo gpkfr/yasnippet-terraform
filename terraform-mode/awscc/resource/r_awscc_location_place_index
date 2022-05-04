@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_location_place_index
+# key: r_awscc_location_place_index
+# --
+
+resource "awscc_location_place_index" "${1:this}" {
+    data_source = "${2:data_source}"
+    index_name = "${3:index_name}"
+}

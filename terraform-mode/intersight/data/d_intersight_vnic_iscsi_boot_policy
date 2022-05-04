@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_vnic_iscsi_boot_policy
+# key: d_intersight_vnic_iscsi_boot_policy
+# --
+
+data "intersight_vnic_iscsi_boot_policy" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwprofile_denyurl_binding
+# key: r_citrixadc_appfwprofile_denyurl_binding
+# --
+
+resource "citrixadc_appfwprofile_denyurl_binding" "${1:this}" {
+    denyurl = "${2:denyurl}"
+    name = "${3:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_inventory_device_info
+# key: d_intersight_inventory_device_info
+# --
+
+data "intersight_inventory_device_info" "${1:this}" {
+}

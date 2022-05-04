@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_ipv4_range
+# key: d_oneview_ipv4_range
+# --
+
+data "oneview_ipv4_range" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iam_server_certificates
+# key: d_awscc_iam_server_certificates
+# --
+
+data "awscc_iam_server_certificates" "${1:this}" {
+}

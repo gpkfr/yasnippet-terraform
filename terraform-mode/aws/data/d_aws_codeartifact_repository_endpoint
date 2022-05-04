@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_aws_codeartifact_repository_endpoint
+# key: d_aws_codeartifact_repository_endpoint
+# --
+
+data "aws_codeartifact_repository_endpoint" "${1:this}" {
+    domain = "${2:domain}"
+    format = "${3:format}"
+    repository = "${4:repository}"
+}

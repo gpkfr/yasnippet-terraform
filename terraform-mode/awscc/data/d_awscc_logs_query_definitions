@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_logs_query_definitions
+# key: d_awscc_logs_query_definitions
+# --
+
+data "awscc_logs_query_definitions" "${1:this}" {
+}

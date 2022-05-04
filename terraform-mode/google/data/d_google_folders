@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_google_folders
+# key: d_google_folders
+# --
+
+data "google_folders" "${1:this}" {
+    parent_id = "${2:parent_id}"
+}

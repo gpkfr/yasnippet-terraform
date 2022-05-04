@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_inspectorv2_filter
+# key: d_awscc_inspectorv2_filter
+# --
+
+data "awscc_inspectorv2_filter" "${1:this}" {
+    id = "${2:id}"
+}

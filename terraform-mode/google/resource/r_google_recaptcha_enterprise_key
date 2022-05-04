@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_recaptcha_enterprise_key
+# key: r_google_recaptcha_enterprise_key
+# --
+
+resource "google_recaptcha_enterprise_key" "${1:this}" {
+    display_name = "${2:display_name}"
+}

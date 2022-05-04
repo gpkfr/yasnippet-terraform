@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_identitybasedroute
+# key: r_fortimanager_object_firewall_identitybasedroute
+# --
+
+resource "fortimanager_object_firewall_identitybasedroute" "${1:this}" {
+}

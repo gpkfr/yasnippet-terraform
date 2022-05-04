@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_event_trigger
+# key: r_mongodbatlas_event_trigger
+# --
+
+resource "mongodbatlas_event_trigger" "${1:this}" {
+    app_id = "${2:app_id}"
+    name = "${3:name}"
+    project_id = "${4:project_id}"
+    type = "${5:type}"
+}

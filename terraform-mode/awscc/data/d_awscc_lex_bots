@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lex_bots
+# key: d_awscc_lex_bots
+# --
+
+data "awscc_lex_bots" "${1:this}" {
+}

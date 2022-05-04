@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_azure_vng_conn
+# key: r_aviatrix_azure_vng_conn
+# --
+
+resource "aviatrix_azure_vng_conn" "${1:this}" {
+    connection_name = "${2:connection_name}"
+    primary_gateway_name = "${3:primary_gateway_name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ecl_network_static_route_v2
+# key: r_ecl_network_static_route_v2
+# --
+
+resource "ecl_network_static_route_v2" "${1:this}" {
+    destination = "${2:destination}"
+    nexthop = "${3:nexthop}"
+    service_type = "${4:service_type}"
+}

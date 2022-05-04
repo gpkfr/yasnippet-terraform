@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_hitachi_parity_group
+# key: d_intersight_storage_hitachi_parity_group
+# --
+
+data "intersight_storage_hitachi_parity_group" "${1:this}" {
+}

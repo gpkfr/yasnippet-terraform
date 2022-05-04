@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_daemonset
+# key: r_kubernetes_daemonset
+# --
+
+resource "kubernetes_daemonset" "${1:this}" {
+}

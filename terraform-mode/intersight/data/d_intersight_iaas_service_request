@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iaas_service_request
+# key: d_intersight_iaas_service_request
+# --
+
+data "intersight_iaas_service_request" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_dynamicportpolicy
+# key: r_fortios_switchcontroller_dynamicportpolicy
+# --
+
+resource "fortios_switchcontroller_dynamicportpolicy" "${1:this}" {
+}

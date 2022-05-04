@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_dns_response_rate_limiting
+# key: r_thunder_slb_dns_response_rate_limiting
+# --
+
+resource "thunder_slb_dns_response_rate_limiting" "${1:this}" {
+}

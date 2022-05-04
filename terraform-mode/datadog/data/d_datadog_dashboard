@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_datadog_dashboard
+# key: d_datadog_dashboard
+# --
+
+data "datadog_dashboard" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_servicegroup_servicegroupmember_binding
+# key: r_citrixadc_servicegroup_servicegroupmember_binding
+# --
+
+resource "citrixadc_servicegroup_servicegroupmember_binding" "${1:this}" {
+    servicegroupname = "${2:servicegroupname}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_connectorpack_connector_pack_upgrade
+# key: r_intersight_connectorpack_connector_pack_upgrade
+# --
+
+resource "intersight_connectorpack_connector_pack_upgrade" "${1:this}" {
+}

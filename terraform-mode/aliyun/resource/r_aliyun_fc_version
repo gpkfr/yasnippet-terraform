@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aliyun_fc_version
+# key: r_aliyun_fc_version
+# --
+
+resource "aliyun_fc_version" "${1:this}" {
+    service_name = "${2:service_name}"
+}

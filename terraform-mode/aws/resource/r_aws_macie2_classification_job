@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_macie2_classification_job
+# key: r_aws_macie2_classification_job
+# --
+
+resource "aws_macie2_classification_job" "${1:this}" {
+    job_type = "${2:job_type}"
+}

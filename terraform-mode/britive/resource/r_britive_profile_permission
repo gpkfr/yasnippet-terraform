@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_britive_profile_permission
+# key: r_britive_profile_permission
+# --
+
+resource "britive_profile_permission" "${1:this}" {
+    permission_name = "${2:permission_name}"
+    permission_type = "${3:permission_type}"
+    profile_id = "${4:profile_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_nimblestudio_studio_component
+# key: r_awscc_nimblestudio_studio_component
+# --
+
+resource "awscc_nimblestudio_studio_component" "${1:this}" {
+    name = "${2:name}"
+    studio_id = "${3:studio_id}"
+    type = "${4:type}"
+}

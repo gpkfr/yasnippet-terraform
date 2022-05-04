@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_elementsw_volume
+# key: r_elementsw_volume
+# --
+
+resource "elementsw_volume" "${1:this}" {
+    account = "${2:account}"
+    enable512e = "${3:enable512e}"
+    name = "${4:name}"
+    total_size = "${5:total_size}"
+}

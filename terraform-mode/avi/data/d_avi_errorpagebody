@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_errorpagebody
+# key: d_avi_errorpagebody
+# --
+
+data "avi_errorpagebody" "${1:this}" {
+}

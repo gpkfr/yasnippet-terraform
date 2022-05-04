@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_alkira_connector_aws_vpc
+# key: r_alkira_connector_aws_vpc
+# --
+
+resource "alkira_connector_aws_vpc" "${1:this}" {
+    aws_account_id = "${2:aws_account_id}"
+    aws_region = "${3:aws_region}"
+    credential_id = "${4:credential_id}"
+    cxp = "${5:cxp}"
+    name = "${6:name}"
+    segment_id = "${7:segment_id}"
+    size = "${8:size}"
+    vpc_id = "${9:vpc_id}"
+}

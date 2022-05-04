@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_asset_cluster_member
+# key: d_intersight_asset_cluster_member
+# --
+
+data "intersight_asset_cluster_member" "${1:this}" {
+}

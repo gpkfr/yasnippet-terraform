@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_resourcegroupstaggingapi_resources
+# key: d_aws_resourcegroupstaggingapi_resources
+# --
+
+data "aws_resourcegroupstaggingapi_resources" "${1:this}" {
+}

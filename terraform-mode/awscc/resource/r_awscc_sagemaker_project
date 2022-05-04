@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sagemaker_project
+# key: r_awscc_sagemaker_project
+# --
+
+resource "awscc_sagemaker_project" "${1:this}" {
+    project_name = "${2:project_name}"
+    service_catalog_provisioning_details = "${3:service_catalog_provisioning_details}"
+}

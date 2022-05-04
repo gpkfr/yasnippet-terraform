@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_platform_current_user
+# key: d_harness_platform_current_user
+# --
+
+data "harness_platform_current_user" "${1:this}" {
+}

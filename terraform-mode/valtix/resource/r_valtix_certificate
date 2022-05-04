@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_valtix_certificate
+# key: r_valtix_certificate
+# --
+
+resource "valtix_certificate" "${1:this}" {
+    certificate_body = "${2:certificate_body}"
+    certificate_type = "${3:certificate_type}"
+    name = "${4:name}"
+}

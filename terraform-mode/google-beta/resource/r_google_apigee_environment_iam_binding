@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_apigee_environment_iam_binding
+# key: r_google_apigee_environment_iam_binding
+# --
+
+resource "google_apigee_environment_iam_binding" "${1:this}" {
+    env_id = "${2:env_id}"
+    members = "${3:members}"
+    org_id = "${4:org_id}"
+    role = "${5:role}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_pop3
+# key: r_fortimanager_object_user_pop3
+# --
+
+resource "fortimanager_object_user_pop3" "${1:this}" {
+}

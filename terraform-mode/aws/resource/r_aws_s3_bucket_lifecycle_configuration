@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3_bucket_lifecycle_configuration
+# key: r_aws_s3_bucket_lifecycle_configuration
+# --
+
+resource "aws_s3_bucket_lifecycle_configuration" "${1:this}" {
+    bucket = "${2:bucket}"
+}

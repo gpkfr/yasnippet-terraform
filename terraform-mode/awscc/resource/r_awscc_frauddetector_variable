@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_frauddetector_variable
+# key: r_awscc_frauddetector_variable
+# --
+
+resource "awscc_frauddetector_variable" "${1:this}" {
+    data_source = "${2:data_source}"
+    data_type = "${3:data_type}"
+    default_value = "${4:default_value}"
+    name = "${5:name}"
+}

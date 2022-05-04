@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_ucsm_config_policy
+# key: d_intersight_hyperflex_ucsm_config_policy
+# --
+
+data "intersight_hyperflex_ucsm_config_policy" "${1:this}" {
+}

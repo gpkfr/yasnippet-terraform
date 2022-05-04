@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_appflow_connector_profile
+# key: r_awscc_appflow_connector_profile
+# --
+
+resource "awscc_appflow_connector_profile" "${1:this}" {
+    connection_mode = "${2:connection_mode}"
+    connector_profile_name = "${3:connector_profile_name}"
+    connector_type = "${4:connector_type}"
+}

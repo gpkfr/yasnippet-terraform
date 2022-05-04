@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_network_interface
+# key: d_awscc_ec2_network_interface
+# --
+
+data "awscc_ec2_network_interface" "${1:this}" {
+    id = "${2:id}"
+}

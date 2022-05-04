@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslvserver_sslpolicy_binding
+# key: r_citrixadc_sslvserver_sslpolicy_binding
+# --
+
+resource "citrixadc_sslvserver_sslpolicy_binding" "${1:this}" {
+    policyname = "${2:policyname}"
+    vservername = "${3:vservername}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gcore_volume
+# key: r_gcore_volume
+# --
+
+resource "gcore_volume" "${1:this}" {
+    name = "${2:name}"
+}

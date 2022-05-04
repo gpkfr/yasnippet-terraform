@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_grafana_cloud_plugin_installation
+# key: r_grafana_cloud_plugin_installation
+# --
+
+resource "grafana_cloud_plugin_installation" "${1:this}" {
+    slug = "${2:slug}"
+    stack_slug = "${3:stack_slug}"
+    version = "${4:version}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_exoscale_anti_affinity_group
+# key: r_exoscale_anti_affinity_group
+# --
+
+resource "exoscale_anti_affinity_group" "${1:this}" {
+    name = "${2:name}"
+}

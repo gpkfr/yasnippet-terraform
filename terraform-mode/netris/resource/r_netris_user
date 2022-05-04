@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_netris_user
+# key: r_netris_user
+# --
+
+resource "netris_user" "${1:this}" {
+    email = "${2:email}"
+    username = "${3:username}"
+    userrole = "${4:userrole}"
+}

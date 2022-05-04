@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_dcnm_service_node
+# key: r_dcnm_service_node
+# --
+
+resource "dcnm_service_node" "${1:this}" {
+    attached_fabric = "${2:attached_fabric}"
+    attached_switch_interface_name = "${3:attached_switch_interface_name}"
+    interface_name = "${4:interface_name}"
+    name = "${5:name}"
+    node_type = "${6:node_type}"
+    service_fabric = "${7:service_fabric}"
+    switches = "${8:switches}"
+}

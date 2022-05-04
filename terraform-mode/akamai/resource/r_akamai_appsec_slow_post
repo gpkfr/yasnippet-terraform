@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_slow_post
+# key: r_akamai_appsec_slow_post
+# --
+
+resource "akamai_appsec_slow_post" "${1:this}" {
+    config_id = "${2:config_id}"
+    security_policy_id = "${3:security_policy_id}"
+    slow_rate_action = "${4:slow_rate_action}"
+    slow_rate_threshold_period = "${5:slow_rate_threshold_period}"
+    slow_rate_threshold_rate = "${6:slow_rate_threshold_rate}"
+    version = "${7:version}"
+}

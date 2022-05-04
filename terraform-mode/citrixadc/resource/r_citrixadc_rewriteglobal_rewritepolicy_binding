@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_rewriteglobal_rewritepolicy_binding
+# key: r_citrixadc_rewriteglobal_rewritepolicy_binding
+# --
+
+resource "citrixadc_rewriteglobal_rewritepolicy_binding" "${1:this}" {
+    policyname = "${2:policyname}"
+    priority = "${3:priority}"
+    type = "${4:type}"
+}

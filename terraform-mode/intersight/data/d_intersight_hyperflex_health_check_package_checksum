@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_health_check_package_checksum
+# key: d_intersight_hyperflex_health_check_package_checksum
+# --
+
+data "intersight_hyperflex_health_check_package_checksum" "${1:this}" {
+}

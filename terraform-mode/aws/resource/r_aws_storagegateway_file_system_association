@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_storagegateway_file_system_association
+# key: r_aws_storagegateway_file_system_association
+# --
+
+resource "aws_storagegateway_file_system_association" "${1:this}" {
+    gateway_arn = "${2:gateway_arn}"
+    location_arn = "${3:location_arn}"
+    password = "${4:password}"
+    username = "${5:username}"
+}

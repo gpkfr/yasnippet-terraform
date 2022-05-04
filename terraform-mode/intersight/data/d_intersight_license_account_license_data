@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_license_account_license_data
+# key: d_intersight_license_account_license_data
+# --
+
+data "intersight_license_account_license_data" "${1:this}" {
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_ovh_cloud_project_network_private_subnet
+# key: r_ovh_cloud_project_network_private_subnet
+# --
+
+resource "ovh_cloud_project_network_private_subnet" "${1:this}" {
+    end = "${2:end}"
+    network = "${3:network}"
+    network_id = "${4:network_id}"
+    region = "${5:region}"
+    service_name = "${6:service_name}"
+    start = "${7:start}"
+}

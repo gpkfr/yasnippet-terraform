@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_servicebus_subscription_rule
+# key: r_azurerm_servicebus_subscription_rule
+# --
+
+resource "azurerm_servicebus_subscription_rule" "${1:this}" {
+    filter_type = "${2:filter_type}"
+    name = "${3:name}"
+    subscription_id = "${4:subscription_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_macie_session
+# key: d_awscc_macie_session
+# --
+
+data "awscc_macie_session" "${1:this}" {
+    id = "${2:id}"
+}

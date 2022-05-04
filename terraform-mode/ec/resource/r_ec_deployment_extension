@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ec_deployment_extension
+# key: r_ec_deployment_extension
+# --
+
+resource "ec_deployment_extension" "${1:this}" {
+    extension_type = "${2:extension_type}"
+    name = "${3:name}"
+    version = "${4:version}"
+}

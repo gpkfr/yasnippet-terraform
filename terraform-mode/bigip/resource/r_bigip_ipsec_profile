@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bigip_ipsec_profile
+# key: r_bigip_ipsec_profile
+# --
+
+resource "bigip_ipsec_profile" "${1:this}" {
+    name = "${2:name}"
+}

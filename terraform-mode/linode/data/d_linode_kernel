@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_linode_kernel
+# key: d_linode_kernel
+# --
+
+data "linode_kernel" "${1:this}" {
+    id = "${2:id}"
+}

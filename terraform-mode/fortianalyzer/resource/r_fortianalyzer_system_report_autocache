@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_report_autocache
+# key: r_fortianalyzer_system_report_autocache
+# --
+
+resource "fortianalyzer_system_report_autocache" "${1:this}" {
+}

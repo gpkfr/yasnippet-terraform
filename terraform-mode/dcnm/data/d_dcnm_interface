@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_dcnm_interface
+# key: d_dcnm_interface
+# --
+
+data "dcnm_interface" "${1:this}" {
+    name = "${2:name}"
+    serial_number = "${3:serial_number}"
+    type = "${4:type}"
+}

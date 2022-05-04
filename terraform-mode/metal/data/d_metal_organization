@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_metal_organization
+# key: d_metal_organization
+# --
+
+data "metal_organization" "${1:this}" {
+}

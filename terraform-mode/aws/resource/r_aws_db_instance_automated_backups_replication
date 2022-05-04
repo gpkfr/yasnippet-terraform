@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_db_instance_automated_backups_replication
+# key: r_aws_db_instance_automated_backups_replication
+# --
+
+resource "aws_db_instance_automated_backups_replication" "${1:this}" {
+    source_db_instance_arn = "${2:source_db_instance_arn}"
+}

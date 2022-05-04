@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_okta_behavior
+# key: d_okta_behavior
+# --
+
+data "okta_behavior" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_dev_endpoint
+# key: r_aws_glue_dev_endpoint
+# --
+
+resource "aws_glue_dev_endpoint" "${1:this}" {
+    name = "${2:name}"
+    role_arn = "${3:role_arn}"
+}

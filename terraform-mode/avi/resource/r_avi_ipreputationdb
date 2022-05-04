@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_ipreputationdb
+# key: r_avi_ipreputationdb
+# --
+
+resource "avi_ipreputationdb" "${1:this}" {
+    name = "${2:name}"
+    vendor = "${3:vendor}"
+}

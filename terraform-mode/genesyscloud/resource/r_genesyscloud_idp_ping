@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_idp_ping
+# key: r_genesyscloud_idp_ping
+# --
+
+resource "genesyscloud_idp_ping" "${1:this}" {
+    certificates = "${2:certificates}"
+    issuer_uri = "${3:issuer_uri}"
+}

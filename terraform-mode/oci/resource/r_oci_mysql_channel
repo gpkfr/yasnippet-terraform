@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_mysql_channel
+# key: r_oci_mysql_channel
+# --
+
+resource "oci_mysql_channel" "${1:this}" {
+}

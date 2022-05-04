@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_hcs_agent_helm_config
+# key: d_hcs_agent_helm_config
+# --
+
+data "hcs_agent_helm_config" "${1:this}" {
+    aks_cluster_name = "${2:aks_cluster_name}"
+    managed_application_name = "${3:managed_application_name}"
+    resource_group_name = "${4:resource_group_name}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_securitypolicy_move
+# key: r_fortimanager_packages_firewall_securitypolicy_move
+# --
+
+resource "fortimanager_packages_firewall_securitypolicy_move" "${1:this}" {
+    option = "${2:option}"
+    pkg = "${3:pkg}"
+    security_policy = "${4:security_policy}"
+    target = "${5:target}"
+}

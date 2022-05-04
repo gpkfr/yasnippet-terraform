@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_management_group_template_deployment
+# key: r_azurerm_management_group_template_deployment
+# --
+
+resource "azurerm_management_group_template_deployment" "${1:this}" {
+    location = "${2:location}"
+    management_group_id = "${3:management_group_id}"
+    name = "${4:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ses_contact_lists
+# key: d_awscc_ses_contact_lists
+# --
+
+data "awscc_ses_contact_lists" "${1:this}" {
+}

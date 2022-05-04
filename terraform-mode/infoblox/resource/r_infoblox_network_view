@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_infoblox_network_view
+# key: r_infoblox_network_view
+# --
+
+resource "infoblox_network_view" "${1:this}" {
+    name = "${2:name}"
+}

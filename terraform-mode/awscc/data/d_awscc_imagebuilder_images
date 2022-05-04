@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_imagebuilder_images
+# key: d_awscc_imagebuilder_images
+# --
+
+data "awscc_imagebuilder_images" "${1:this}" {
+}

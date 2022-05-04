@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_lb_app_profile
+# key: d_vcd_lb_app_profile
+# --
+
+data "vcd_lb_app_profile" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    name = "${3:name}"
+}

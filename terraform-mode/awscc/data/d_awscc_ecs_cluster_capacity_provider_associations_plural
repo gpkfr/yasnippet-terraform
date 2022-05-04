@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ecs_cluster_capacity_provider_associations_plural
+# key: d_awscc_ecs_cluster_capacity_provider_associations_plural
+# --
+
+data "awscc_ecs_cluster_capacity_provider_associations_plural" "${1:this}" {
+}

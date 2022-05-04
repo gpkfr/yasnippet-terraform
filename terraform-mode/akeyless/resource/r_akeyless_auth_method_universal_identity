@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_auth_method_universal_identity
+# key: r_akeyless_auth_method_universal_identity
+# --
+
+resource "akeyless_auth_method_universal_identity" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oci_marketplace_publication
+# key: r_oci_marketplace_publication
+# --
+
+resource "oci_marketplace_publication" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    is_agreement_acknowledged = "${3:is_agreement_acknowledged}"
+    listing_type = "${4:listing_type}"
+    name = "${5:name}"
+    short_description = "${6:short_description}"
+}

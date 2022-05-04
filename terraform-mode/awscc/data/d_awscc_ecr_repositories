@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ecr_repositories
+# key: d_awscc_ecr_repositories
+# --
+
+data "awscc_ecr_repositories" "${1:this}" {
+}

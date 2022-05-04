@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_multai_balancer
+# key: r_spotinst_multai_balancer
+# --
+
+resource "spotinst_multai_balancer" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_nat_gateway_snat
+# key: r_tencentcloud_nat_gateway_snat
+# --
+
+resource "tencentcloud_nat_gateway_snat" "${1:this}" {
+    description = "${2:description}"
+    nat_gateway_id = "${3:nat_gateway_id}"
+    public_ip_addr = "${4:public_ip_addr}"
+    resource_type = "${5:resource_type}"
+}

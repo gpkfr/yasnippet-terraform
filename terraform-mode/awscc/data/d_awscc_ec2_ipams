@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_ipams
+# key: d_awscc_ec2_ipams
+# --
+
+data "awscc_ec2_ipams" "${1:this}" {
+}

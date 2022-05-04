@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ovh_cloud_project_capabilities_containerregistry
+# key: d_ovh_cloud_project_capabilities_containerregistry
+# --
+
+data "ovh_cloud_project_capabilities_containerregistry" "${1:this}" {
+    service_name = "${2:service_name}"
+}

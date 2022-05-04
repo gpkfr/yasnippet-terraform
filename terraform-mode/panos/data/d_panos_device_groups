@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_device_groups
+# key: d_panos_device_groups
+# --
+
+data "panos_device_groups" "${1:this}" {
+}

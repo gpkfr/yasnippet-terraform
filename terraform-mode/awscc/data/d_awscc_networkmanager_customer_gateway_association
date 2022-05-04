@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_networkmanager_customer_gateway_association
+# key: d_awscc_networkmanager_customer_gateway_association
+# --
+
+data "awscc_networkmanager_customer_gateway_association" "${1:this}" {
+    id = "${2:id}"
+}

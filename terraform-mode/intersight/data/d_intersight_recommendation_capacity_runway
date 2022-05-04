@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_recommendation_capacity_runway
+# key: d_intersight_recommendation_capacity_runway
+# --
+
+data "intersight_recommendation_capacity_runway" "${1:this}" {
+}

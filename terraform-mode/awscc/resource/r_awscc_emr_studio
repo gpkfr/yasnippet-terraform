@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_awscc_emr_studio
+# key: r_awscc_emr_studio
+# --
+
+resource "awscc_emr_studio" "${1:this}" {
+    auth_mode = "${2:auth_mode}"
+    default_s3_location = "${3:default_s3_location}"
+    engine_security_group_id = "${4:engine_security_group_id}"
+    name = "${5:name}"
+    service_role = "${6:service_role}"
+    subnet_ids = "${7:subnet_ids}"
+    vpc_id = "${8:vpc_id}"
+    workspace_security_group_id = "${9:workspace_security_group_id}"
+}

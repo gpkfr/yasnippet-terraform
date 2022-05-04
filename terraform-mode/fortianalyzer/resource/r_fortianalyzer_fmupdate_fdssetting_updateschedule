@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_fdssetting_updateschedule
+# key: r_fortianalyzer_fmupdate_fdssetting_updateschedule
+# --
+
+resource "fortianalyzer_fmupdate_fdssetting_updateschedule" "${1:this}" {
+}

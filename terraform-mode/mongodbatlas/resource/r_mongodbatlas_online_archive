@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_online_archive
+# key: r_mongodbatlas_online_archive
+# --
+
+resource "mongodbatlas_online_archive" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    coll_name = "${3:coll_name}"
+    db_name = "${4:db_name}"
+    project_id = "${5:project_id}"
+}

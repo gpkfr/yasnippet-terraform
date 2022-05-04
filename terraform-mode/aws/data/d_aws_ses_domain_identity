@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_ses_domain_identity
+# key: d_aws_ses_domain_identity
+# --
+
+data "aws_ses_domain_identity" "${1:this}" {
+    domain = "${2:domain}"
+}

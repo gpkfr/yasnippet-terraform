@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_account_audit_configuration
+# key: r_awscc_iot_account_audit_configuration
+# --
+
+resource "awscc_iot_account_audit_configuration" "${1:this}" {
+    account_id = "${2:account_id}"
+    audit_check_configurations = "${3:audit_check_configurations}"
+    role_arn = "${4:role_arn}"
+}

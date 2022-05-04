@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_vdomsflow
+# key: d_fortios_system_vdomsflow
+# --
+
+data "fortios_system_vdomsflow" "${1:this}" {
+}

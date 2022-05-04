@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gridscale_sqlserver
+# key: r_gridscale_sqlserver
+# --
+
+resource "gridscale_sqlserver" "${1:this}" {
+    name = "${2:name}"
+    performance_class = "${3:performance_class}"
+    release = "${4:release}"
+}

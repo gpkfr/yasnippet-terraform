@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_k8s_cluster
+# key: r_profitbricks_k8s_cluster
+# --
+
+resource "profitbricks_k8s_cluster" "${1:this}" {
+    name = "${2:name}"
+}

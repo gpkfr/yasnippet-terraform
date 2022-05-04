@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_anypoint_team
+# key: r_anypoint_team
+# --
+
+resource "anypoint_team" "${1:this}" {
+    org_id = "${2:org_id}"
+    parent_team_id = "${3:parent_team_id}"
+    team_name = "${4:team_name}"
+}

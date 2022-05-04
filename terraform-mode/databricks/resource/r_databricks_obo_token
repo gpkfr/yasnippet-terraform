@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_databricks_obo_token
+# key: r_databricks_obo_token
+# --
+
+resource "databricks_obo_token" "${1:this}" {
+    application_id = "${2:application_id}"
+    comment = "${3:comment}"
+    lifetime_seconds = "${4:lifetime_seconds}"
+}

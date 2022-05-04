@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_datasync_location_efs
+# key: r_awscc_datasync_location_efs
+# --
+
+resource "awscc_datasync_location_efs" "${1:this}" {
+    ec_2_config = "${2:ec_2_config}"
+    efs_filesystem_arn = "${3:efs_filesystem_arn}"
+}

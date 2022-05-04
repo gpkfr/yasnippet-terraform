@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_logs_log_group
+# key: d_awscc_logs_log_group
+# --
+
+data "awscc_logs_log_group" "${1:this}" {
+    id = "${2:id}"
+}

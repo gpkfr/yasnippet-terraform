@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_amplify_domain
+# key: r_awscc_amplify_domain
+# --
+
+resource "awscc_amplify_domain" "${1:this}" {
+    app_id = "${2:app_id}"
+    domain_name = "${3:domain_name}"
+    sub_domain_settings = "${4:sub_domain_settings}"
+}

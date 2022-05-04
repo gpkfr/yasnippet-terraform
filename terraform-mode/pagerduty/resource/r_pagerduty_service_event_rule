@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_service_event_rule
+# key: r_pagerduty_service_event_rule
+# --
+
+resource "pagerduty_service_event_rule" "${1:this}" {
+    service = "${2:service}"
+}

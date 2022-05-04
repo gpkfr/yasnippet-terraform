@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_greengrassv2_component_version
+# key: d_awscc_greengrassv2_component_version
+# --
+
+data "awscc_greengrassv2_component_version" "${1:this}" {
+    id = "${2:id}"
+}

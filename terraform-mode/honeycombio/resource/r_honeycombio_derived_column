@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_honeycombio_derived_column
+# key: r_honeycombio_derived_column
+# --
+
+resource "honeycombio_derived_column" "${1:this}" {
+    alias = "${2:alias}"
+    dataset = "${3:dataset}"
+    expression = "${4:expression}"
+}

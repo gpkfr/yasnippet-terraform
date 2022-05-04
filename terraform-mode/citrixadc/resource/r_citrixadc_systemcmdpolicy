@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_systemcmdpolicy
+# key: r_citrixadc_systemcmdpolicy
+# --
+
+resource "citrixadc_systemcmdpolicy" "${1:this}" {
+    action = "${2:action}"
+    cmdspec = "${3:cmdspec}"
+    policyname = "${4:policyname}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_forecast_datasets
+# key: d_awscc_forecast_datasets
+# --
+
+data "awscc_forecast_datasets" "${1:this}" {
+}

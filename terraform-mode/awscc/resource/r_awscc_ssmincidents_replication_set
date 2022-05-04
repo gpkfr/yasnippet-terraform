@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ssmincidents_replication_set
+# key: r_awscc_ssmincidents_replication_set
+# --
+
+resource "awscc_ssmincidents_replication_set" "${1:this}" {
+    regions = "${2:regions}"
+}

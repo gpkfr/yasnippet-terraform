@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_anypoint_rolegroups
+# key: d_anypoint_rolegroups
+# --
+
+data "anypoint_rolegroups" "${1:this}" {
+    org_id = "${2:org_id}"
+}

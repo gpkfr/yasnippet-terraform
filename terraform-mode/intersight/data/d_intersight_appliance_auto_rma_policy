@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_auto_rma_policy
+# key: d_intersight_appliance_auto_rma_policy
+# --
+
+data "intersight_appliance_auto_rma_policy" "${1:this}" {
+}

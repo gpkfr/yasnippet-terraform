@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_rancher2_app_v2
+# key: r_rancher2_app_v2
+# --
+
+resource "rancher2_app_v2" "${1:this}" {
+    chart_name = "${2:chart_name}"
+    cluster_id = "${3:cluster_id}"
+    name = "${4:name}"
+    namespace = "${5:namespace}"
+    repo_name = "${6:repo_name}"
+}

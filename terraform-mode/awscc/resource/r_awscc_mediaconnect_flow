@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_mediaconnect_flow
+# key: r_awscc_mediaconnect_flow
+# --
+
+resource "awscc_mediaconnect_flow" "${1:this}" {
+    name = "${2:name}"
+    source = "${3:source}"
+}

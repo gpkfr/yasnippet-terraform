@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_statuscake_ssl_check
+# key: r_statuscake_ssl_check
+# --
+
+resource "statuscake_ssl_check" "${1:this}" {
+    check_interval = "${2:check_interval}"
+}

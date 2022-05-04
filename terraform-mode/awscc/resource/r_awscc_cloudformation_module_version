@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudformation_module_version
+# key: r_awscc_cloudformation_module_version
+# --
+
+resource "awscc_cloudformation_module_version" "${1:this}" {
+    module_name = "${2:module_name}"
+    module_package = "${3:module_package}"
+}

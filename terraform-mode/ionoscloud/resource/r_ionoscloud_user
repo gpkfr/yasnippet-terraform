@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_user
+# key: r_ionoscloud_user
+# --
+
+resource "ionoscloud_user" "${1:this}" {
+    email = "${2:email}"
+    first_name = "${3:first_name}"
+    last_name = "${4:last_name}"
+    password = "${5:password}"
+}

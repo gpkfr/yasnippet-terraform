@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_nat_gateway
+# key: r_ncloud_nat_gateway
+# --
+
+resource "ncloud_nat_gateway" "${1:this}" {
+    vpc_no = "${2:vpc_no}"
+    zone = "${3:zone}"
+}

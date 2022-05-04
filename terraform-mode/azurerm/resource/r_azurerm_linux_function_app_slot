@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_linux_function_app_slot
+# key: r_azurerm_linux_function_app_slot
+# --
+
+resource "azurerm_linux_function_app_slot" "${1:this}" {
+    function_app_id = "${2:function_app_id}"
+    name = "${3:name}"
+}

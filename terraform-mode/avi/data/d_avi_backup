@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_backup
+# key: d_avi_backup
+# --
+
+data "avi_backup" "${1:this}" {
+}

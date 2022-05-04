@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_shoreline_file
+# key: r_shoreline_file
+# --
+
+resource "shoreline_file" "${1:this}" {
+    destination_path = "${2:destination_path}"
+    input_file = "${3:input_file}"
+    name = "${4:name}"
+    resource_query = "${5:resource_query}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_clb_target_groups
+# key: d_tencentcloud_clb_target_groups
+# --
+
+data "tencentcloud_clb_target_groups" "${1:this}" {
+}

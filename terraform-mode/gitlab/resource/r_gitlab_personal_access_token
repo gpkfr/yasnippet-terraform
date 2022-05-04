@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_personal_access_token
+# key: r_gitlab_personal_access_token
+# --
+
+resource "gitlab_personal_access_token" "${1:this}" {
+    name = "${2:name}"
+    scopes = "${3:scopes}"
+    user_id = "${4:user_id}"
+}

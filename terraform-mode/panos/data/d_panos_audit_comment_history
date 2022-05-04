@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_panos_audit_comment_history
+# key: d_panos_audit_comment_history
+# --
+
+data "panos_audit_comment_history" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_metalcloud_external_connection
+# key: d_metalcloud_external_connection
+# --
+
+data "metalcloud_external_connection" "${1:this}" {
+    datacenter_name = "${2:datacenter_name}"
+    external_connection_label = "${3:external_connection_label}"
+}

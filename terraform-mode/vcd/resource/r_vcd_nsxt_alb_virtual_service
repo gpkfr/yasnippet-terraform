@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxt_alb_virtual_service
+# key: r_vcd_nsxt_alb_virtual_service
+# --
+
+resource "vcd_nsxt_alb_virtual_service" "${1:this}" {
+    application_profile_type = "${2:application_profile_type}"
+    edge_gateway_id = "${3:edge_gateway_id}"
+    name = "${4:name}"
+    pool_id = "${5:pool_id}"
+    service_engine_group_id = "${6:service_engine_group_id}"
+    virtual_ip_address = "${7:virtual_ip_address}"
+}

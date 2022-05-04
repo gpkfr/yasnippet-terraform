@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gcore_cdn_sslcert
+# key: r_gcore_cdn_sslcert
+# --
+
+resource "gcore_cdn_sslcert" "${1:this}" {
+    cert = "${2:cert}"
+    name = "${3:name}"
+    private_key = "${4:private_key}"
+}

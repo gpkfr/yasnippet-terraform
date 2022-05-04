@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_repositories
+# key: d_oci_devops_repositories
+# --
+
+data "oci_devops_repositories" "${1:this}" {
+}

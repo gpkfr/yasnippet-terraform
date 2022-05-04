@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_management_db_management_private_endpoint_associated_database
+# key: d_oci_database_management_db_management_private_endpoint_associated_database
+# --
+
+data "oci_database_management_db_management_private_endpoint_associated_database" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    db_management_private_endpoint_id = "${3:db_management_private_endpoint_id}"
+}

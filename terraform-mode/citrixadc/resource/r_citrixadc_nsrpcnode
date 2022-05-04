@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nsrpcnode
+# key: r_citrixadc_nsrpcnode
+# --
+
+resource "citrixadc_nsrpcnode" "${1:this}" {
+    ipaddress = "${2:ipaddress}"
+}

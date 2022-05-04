@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_batch_compute_environment
+# key: r_awscc_batch_compute_environment
+# --
+
+resource "awscc_batch_compute_environment" "${1:this}" {
+    type = "${2:type}"
+}

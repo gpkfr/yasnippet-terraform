@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_eval_protect_host
+# key: r_akamai_appsec_eval_protect_host
+# --
+
+resource "akamai_appsec_eval_protect_host" "${1:this}" {
+    config_id = "${2:config_id}"
+    hostnames = "${3:hostnames}"
+    version = "${4:version}"
+}

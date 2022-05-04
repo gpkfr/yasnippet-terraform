@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_vcenter
+# key: d_vcd_vcenter
+# --
+
+data "vcd_vcenter" "${1:this}" {
+    name = "${2:name}"
+}

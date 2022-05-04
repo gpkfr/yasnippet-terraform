@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_lex_intent
+# key: d_aws_lex_intent
+# --
+
+data "aws_lex_intent" "${1:this}" {
+    name = "${2:name}"
+}

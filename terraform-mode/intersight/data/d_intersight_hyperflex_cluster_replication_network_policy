@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_cluster_replication_network_policy
+# key: d_intersight_hyperflex_cluster_replication_network_policy
+# --
+
+data "intersight_hyperflex_cluster_replication_network_policy" "${1:this}" {
+}

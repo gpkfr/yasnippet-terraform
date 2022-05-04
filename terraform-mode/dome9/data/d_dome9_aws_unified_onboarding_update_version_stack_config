@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_aws_unified_onboarding_update_version_stack_config
+# key: d_dome9_aws_unified_onboarding_update_version_stack_config
+# --
+
+data "dome9_aws_unified_onboarding_update_version_stack_config" "${1:this}" {
+    onboarding_id = "${2:onboarding_id}"
+}

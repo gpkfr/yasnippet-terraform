@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_autoscriptlist
+# key: d_fortios_system_autoscriptlist
+# --
+
+data "fortios_system_autoscriptlist" "${1:this}" {
+}

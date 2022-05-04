@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_statuscake_maintenance_window
+# key: r_statuscake_maintenance_window
+# --
+
+resource "statuscake_maintenance_window" "${1:this}" {
+    end = "${2:end}"
+    name = "${3:name}"
+    start = "${4:start}"
+    timezone = "${5:timezone}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_pnap_events
+# key: d_pnap_events
+# --
+
+data "pnap_events" "${1:this}" {
+}

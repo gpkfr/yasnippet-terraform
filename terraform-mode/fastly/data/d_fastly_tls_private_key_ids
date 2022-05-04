@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fastly_tls_private_key_ids
+# key: d_fastly_tls_private_key_ids
+# --
+
+data "fastly_tls_private_key_ids" "${1:this}" {
+}

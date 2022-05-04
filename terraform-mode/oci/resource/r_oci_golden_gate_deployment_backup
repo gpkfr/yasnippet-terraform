@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_oci_golden_gate_deployment_backup
+# key: r_oci_golden_gate_deployment_backup
+# --
+
+resource "oci_golden_gate_deployment_backup" "${1:this}" {
+    bucket = "${2:bucket}"
+    compartment_id = "${3:compartment_id}"
+    deployment_id = "${4:deployment_id}"
+    display_name = "${5:display_name}"
+    namespace = "${6:namespace}"
+    object = "${7:object}"
+}

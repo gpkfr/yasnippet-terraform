@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_pnap_ip_block
+# key: d_pnap_ip_block
+# --
+
+data "pnap_ip_block" "${1:this}" {
+    cidr = "${2:cidr}"
+}

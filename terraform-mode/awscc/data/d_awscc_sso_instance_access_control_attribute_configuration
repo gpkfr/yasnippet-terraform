@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sso_instance_access_control_attribute_configuration
+# key: d_awscc_sso_instance_access_control_attribute_configuration
+# --
+
+data "awscc_sso_instance_access_control_attribute_configuration" "${1:this}" {
+    id = "${2:id}"
+}

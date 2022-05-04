@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_grafana_synthetic_monitoring_installation
+# key: r_grafana_synthetic_monitoring_installation
+# --
+
+resource "grafana_synthetic_monitoring_installation" "${1:this}" {
+    logs_instance_id = "${2:logs_instance_id}"
+    metrics_instance_id = "${3:metrics_instance_id}"
+    metrics_publisher_key = "${4:metrics_publisher_key}"
+    stack_id = "${5:stack_id}"
+}

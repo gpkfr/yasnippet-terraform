@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_imagebuilder_infrastructure_configuration
+# key: r_awscc_imagebuilder_infrastructure_configuration
+# --
+
+resource "awscc_imagebuilder_infrastructure_configuration" "${1:this}" {
+    instance_profile_name = "${2:instance_profile_name}"
+    name = "${3:name}"
+}

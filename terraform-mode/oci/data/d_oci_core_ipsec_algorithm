@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_ipsec_algorithm
+# key: d_oci_core_ipsec_algorithm
+# --
+
+data "oci_core_ipsec_algorithm" "${1:this}" {
+}

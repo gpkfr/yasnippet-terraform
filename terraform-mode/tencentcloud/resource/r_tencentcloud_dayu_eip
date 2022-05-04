@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_dayu_eip
+# key: r_tencentcloud_dayu_eip
+# --
+
+resource "tencentcloud_dayu_eip" "${1:this}" {
+    bind_resource_id = "${2:bind_resource_id}"
+    bind_resource_region = "${3:bind_resource_region}"
+    bind_resource_type = "${4:bind_resource_type}"
+    eip = "${5:eip}"
+    resource_id = "${6:resource_id}"
+}

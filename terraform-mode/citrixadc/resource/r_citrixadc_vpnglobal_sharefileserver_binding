@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnglobal_sharefileserver_binding
+# key: r_citrixadc_vpnglobal_sharefileserver_binding
+# --
+
+resource "citrixadc_vpnglobal_sharefileserver_binding" "${1:this}" {
+    sharefile = "${2:sharefile}"
+}

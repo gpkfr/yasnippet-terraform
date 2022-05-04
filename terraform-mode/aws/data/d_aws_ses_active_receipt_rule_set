@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ses_active_receipt_rule_set
+# key: d_aws_ses_active_receipt_rule_set
+# --
+
+data "aws_ses_active_receipt_rule_set" "${1:this}" {
+}

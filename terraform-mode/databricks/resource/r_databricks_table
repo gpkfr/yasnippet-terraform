@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_databricks_table
+# key: r_databricks_table
+# --
+
+resource "databricks_table" "${1:this}" {
+    catalog_name = "${2:catalog_name}"
+    data_source_format = "${3:data_source_format}"
+    name = "${4:name}"
+    schema_name = "${5:schema_name}"
+    table_type = "${6:table_type}"
+}

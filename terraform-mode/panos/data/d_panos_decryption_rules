@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_decryption_rules
+# key: d_panos_decryption_rules
+# --
+
+data "panos_decryption_rules" "${1:this}" {
+}

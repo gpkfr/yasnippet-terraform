@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_polaris_azure_permissions
+# key: d_polaris_azure_permissions
+# --
+
+data "polaris_azure_permissions" "${1:this}" {
+    features = "${2:features}"
+}

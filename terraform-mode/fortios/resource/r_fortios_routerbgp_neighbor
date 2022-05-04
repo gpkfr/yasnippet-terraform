@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortios_routerbgp_neighbor
+# key: r_fortios_routerbgp_neighbor
+# --
+
+resource "fortios_routerbgp_neighbor" "${1:this}" {
+    ip = "${2:ip}"
+}

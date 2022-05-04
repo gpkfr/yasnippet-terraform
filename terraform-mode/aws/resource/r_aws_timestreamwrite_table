@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_timestreamwrite_table
+# key: r_aws_timestreamwrite_table
+# --
+
+resource "aws_timestreamwrite_table" "${1:this}" {
+    database_name = "${2:database_name}"
+    table_name = "${3:table_name}"
+}

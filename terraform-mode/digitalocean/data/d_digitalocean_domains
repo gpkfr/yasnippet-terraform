@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_digitalocean_domains
+# key: d_digitalocean_domains
+# --
+
+data "digitalocean_domains" "${1:this}" {
+}

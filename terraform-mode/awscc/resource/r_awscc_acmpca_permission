@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_acmpca_permission
+# key: r_awscc_acmpca_permission
+# --
+
+resource "awscc_acmpca_permission" "${1:this}" {
+    actions = "${2:actions}"
+    certificate_authority_arn = "${3:certificate_authority_arn}"
+    principal = "${4:principal}"
+}

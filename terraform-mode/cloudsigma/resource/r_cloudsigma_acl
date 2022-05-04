@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudsigma_acl
+# key: r_cloudsigma_acl
+# --
+
+resource "cloudsigma_acl" "${1:this}" {
+    name = "${2:name}"
+}

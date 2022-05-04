@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_git_connector
+# key: d_harness_git_connector
+# --
+
+data "harness_git_connector" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_log_ioc
+# key: r_fortianalyzer_system_log_ioc
+# --
+
+resource "fortianalyzer_system_log_ioc" "${1:this}" {
+}

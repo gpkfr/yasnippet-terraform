@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_network_acl_rule
+# key: r_ncloud_network_acl_rule
+# --
+
+resource "ncloud_network_acl_rule" "${1:this}" {
+    network_acl_no = "${2:network_acl_no}"
+}

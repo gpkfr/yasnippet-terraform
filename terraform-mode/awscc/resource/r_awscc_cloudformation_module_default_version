@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudformation_module_default_version
+# key: r_awscc_cloudformation_module_default_version
+# --
+
+resource "awscc_cloudformation_module_default_version" "${1:this}" {
+}

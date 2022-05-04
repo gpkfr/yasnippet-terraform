@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_sonarqube
+# key: r_azuredevops_serviceendpoint_sonarqube
+# --
+
+resource "azuredevops_serviceendpoint_sonarqube" "${1:this}" {
+    project_id = "${2:project_id}"
+    service_endpoint_name = "${3:service_endpoint_name}"
+    token = "${4:token}"
+    url = "${5:url}"
+}

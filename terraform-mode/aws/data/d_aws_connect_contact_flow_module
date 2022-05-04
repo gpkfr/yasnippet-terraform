@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_connect_contact_flow_module
+# key: d_aws_connect_contact_flow_module
+# --
+
+data "aws_connect_contact_flow_module" "${1:this}" {
+    instance_id = "${2:instance_id}"
+}

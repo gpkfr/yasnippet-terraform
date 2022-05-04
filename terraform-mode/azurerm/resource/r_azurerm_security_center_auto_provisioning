@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_security_center_auto_provisioning
+# key: r_azurerm_security_center_auto_provisioning
+# --
+
+resource "azurerm_security_center_auto_provisioning" "${1:this}" {
+    auto_provision = "${2:auto_provision}"
+}

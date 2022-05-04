@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_management_managed_databases_database_parameter
+# key: d_oci_database_management_managed_databases_database_parameter
+# --
+
+data "oci_database_management_managed_databases_database_parameter" "${1:this}" {
+    managed_database_id = "${2:managed_database_id}"
+}

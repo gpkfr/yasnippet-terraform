@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_metal_port
+# key: r_metal_port
+# --
+
+resource "metal_port" "${1:this}" {
+    bonded = "${2:bonded}"
+    port_id = "${3:port_id}"
+}

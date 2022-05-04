@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_connect_user
+# key: r_awscc_connect_user
+# --
+
+resource "awscc_connect_user" "${1:this}" {
+    instance_arn = "${2:instance_arn}"
+    phone_config = "${3:phone_config}"
+    routing_profile_arn = "${4:routing_profile_arn}"
+    security_profile_arns = "${5:security_profile_arns}"
+    username = "${6:username}"
+}

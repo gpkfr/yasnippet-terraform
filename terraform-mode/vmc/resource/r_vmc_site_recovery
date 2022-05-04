@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vmc_site_recovery
+# key: r_vmc_site_recovery
+# --
+
+resource "vmc_site_recovery" "${1:this}" {
+    sddc_id = "${2:sddc_id}"
+}

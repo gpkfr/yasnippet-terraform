@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_disk_anomalies
+# key: r_dynatrace_disk_anomalies
+# --
+
+resource "dynatrace_disk_anomalies" "${1:this}" {
+    enabled = "${2:enabled}"
+    metric = "${3:metric}"
+    name = "${4:name}"
+    samples = "${5:samples}"
+    threshold = "${6:threshold}"
+    violating_samples = "${7:violating_samples}"
+}

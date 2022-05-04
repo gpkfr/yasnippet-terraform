@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_snapshot
+# key: r_ionoscloud_snapshot
+# --
+
+resource "ionoscloud_snapshot" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    name = "${3:name}"
+    volume_id = "${4:volume_id}"
+}

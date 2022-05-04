@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_metro
+# key: d_equinix_metal_metro
+# --
+
+data "equinix_metal_metro" "${1:this}" {
+    code = "${2:code}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_meta
+# key: r_fortimanager_object_system_meta
+# --
+
+resource "fortimanager_object_system_meta" "${1:this}" {
+}

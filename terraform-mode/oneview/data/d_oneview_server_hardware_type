@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oneview_server_hardware_type
+# key: d_oneview_server_hardware_type
+# --
+
+data "oneview_server_hardware_type" "${1:this}" {
+    name = "${2:name}"
+    platform = "${3:platform}"
+}

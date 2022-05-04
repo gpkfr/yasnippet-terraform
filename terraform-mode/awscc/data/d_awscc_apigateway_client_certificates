@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_apigateway_client_certificates
+# key: d_awscc_apigateway_client_certificates
+# --
+
+data "awscc_apigateway_client_certificates" "${1:this}" {
+}

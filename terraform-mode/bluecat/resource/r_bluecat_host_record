@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_host_record
+# key: r_bluecat_host_record
+# --
+
+resource "bluecat_host_record" "${1:this}" {
+    absolute_name = "${2:absolute_name}"
+    ip4_address = "${3:ip4_address}"
+}

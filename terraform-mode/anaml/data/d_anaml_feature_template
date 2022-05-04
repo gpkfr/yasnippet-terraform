@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_anaml_feature_template
+# key: d_anaml_feature_template
+# --
+
+data "anaml_feature_template" "${1:this}" {
+    name = "${2:name}"
+}

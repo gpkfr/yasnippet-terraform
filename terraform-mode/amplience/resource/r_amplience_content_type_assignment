@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_amplience_content_type_assignment
+# key: r_amplience_content_type_assignment
+# --
+
+resource "amplience_content_type_assignment" "${1:this}" {
+    content_type_id = "${2:content_type_id}"
+    repository_id = "${3:repository_id}"
+}

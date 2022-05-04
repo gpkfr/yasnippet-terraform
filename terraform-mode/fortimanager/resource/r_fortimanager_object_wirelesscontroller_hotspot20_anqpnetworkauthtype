@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_wirelesscontroller_hotspot20_anqpnetworkauthtype
+# key: r_fortimanager_object_wirelesscontroller_hotspot20_anqpnetworkauthtype
+# --
+
+resource "fortimanager_object_wirelesscontroller_hotspot20_anqpnetworkauthtype" "${1:this}" {
+}

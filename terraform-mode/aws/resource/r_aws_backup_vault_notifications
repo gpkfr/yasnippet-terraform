@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_backup_vault_notifications
+# key: r_aws_backup_vault_notifications
+# --
+
+resource "aws_backup_vault_notifications" "${1:this}" {
+    backup_vault_events = "${2:backup_vault_events}"
+    backup_vault_name = "${3:backup_vault_name}"
+    sns_topic_arn = "${4:sns_topic_arn}"
+}

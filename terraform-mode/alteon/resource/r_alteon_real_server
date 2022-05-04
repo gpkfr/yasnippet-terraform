@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alteon_real_server
+# key: r_alteon_real_server
+# --
+
+resource "alteon_real_server" "${1:this}" {
+    index = "${2:index}"
+}

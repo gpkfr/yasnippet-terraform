@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cse_insights_status
+# key: r_sumologic_cse_insights_status
+# --
+
+resource "sumologic_cse_insights_status" "${1:this}" {
+    name = "${2:name}"
+}

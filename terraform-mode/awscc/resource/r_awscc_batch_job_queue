@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_batch_job_queue
+# key: r_awscc_batch_job_queue
+# --
+
+resource "awscc_batch_job_queue" "${1:this}" {
+    compute_environment_order = "${2:compute_environment_order}"
+    priority = "${3:priority}"
+}

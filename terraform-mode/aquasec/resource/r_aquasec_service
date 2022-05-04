@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_service
+# key: r_aquasec_service
+# --
+
+resource "aquasec_service" "${1:this}" {
+    application_scopes = "${2:application_scopes}"
+    name = "${3:name}"
+    policies = "${4:policies}"
+    scope_expression = "${5:scope_expression}"
+    target = "${6:target}"
+}

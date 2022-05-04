@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_grafana_data_source_permission
+# key: r_grafana_data_source_permission
+# --
+
+resource "grafana_data_source_permission" "${1:this}" {
+    datasource_id = "${2:datasource_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ns1_pulsarjob
+# key: r_ns1_pulsarjob
+# --
+
+resource "ns1_pulsarjob" "${1:this}" {
+    app_id = "${2:app_id}"
+    name = "${3:name}"
+    type_id = "${4:type_id}"
+}

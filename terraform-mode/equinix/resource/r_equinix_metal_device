@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_device
+# key: r_equinix_metal_device
+# --
+
+resource "equinix_metal_device" "${1:this}" {
+    operating_system = "${2:operating_system}"
+    plan = "${3:plan}"
+    project_id = "${4:project_id}"
+}

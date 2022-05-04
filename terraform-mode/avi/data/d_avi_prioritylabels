@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_prioritylabels
+# key: d_avi_prioritylabels
+# --
+
+data "avi_prioritylabels" "${1:this}" {
+}

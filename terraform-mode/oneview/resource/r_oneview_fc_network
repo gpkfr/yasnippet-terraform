@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oneview_fc_network
+# key: r_oneview_fc_network
+# --
+
+resource "oneview_fc_network" "${1:this}" {
+    fabric_type = "${2:fabric_type}"
+    name = "${3:name}"
+}

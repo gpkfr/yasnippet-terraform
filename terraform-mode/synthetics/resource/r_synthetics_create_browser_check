@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_synthetics_create_browser_check
+# key: r_synthetics_create_browser_check
+# --
+
+resource "synthetics_create_browser_check" "${1:this}" {
+    frequency = "${2:frequency}"
+    name = "${3:name}"
+    url = "${4:url}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_private_crossconnect
+# key: d_ionoscloud_private_crossconnect
+# --
+
+data "ionoscloud_private_crossconnect" "${1:this}" {
+}

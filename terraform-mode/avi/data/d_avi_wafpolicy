@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_wafpolicy
+# key: d_avi_wafpolicy
+# --
+
+data "avi_wafpolicy" "${1:this}" {
+}

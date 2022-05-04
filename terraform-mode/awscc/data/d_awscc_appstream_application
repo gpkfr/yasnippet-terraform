@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_appstream_application
+# key: d_awscc_appstream_application
+# --
+
+data "awscc_appstream_application" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: r_cbs_array_aws
+# key: r_cbs_array_aws
+# --
+
+resource "cbs_array_aws" "${1:this}" {
+    array_model = "${2:array_model}"
+    array_name = "${3:array_name}"
+    deployment_role_arn = "${4:deployment_role_arn}"
+    deployment_template_url = "${5:deployment_template_url}"
+    iscsi_security_group = "${6:iscsi_security_group}"
+    iscsi_subnet = "${7:iscsi_subnet}"
+    license_key = "${8:license_key}"
+    log_sender_domain = "${9:log_sender_domain}"
+    management_security_group = "${10:management_security_group}"
+    management_subnet = "${11:management_subnet}"
+    pureuser_key_pair_name = "${12:pureuser_key_pair_name}"
+    replication_security_group = "${13:replication_security_group}"
+    replication_subnet = "${14:replication_subnet}"
+    system_subnet = "${15:system_subnet}"
+}

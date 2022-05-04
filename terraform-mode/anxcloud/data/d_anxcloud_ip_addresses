@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_anxcloud_ip_addresses
+# key: d_anxcloud_ip_addresses
+# --
+
+data "anxcloud_ip_addresses" "${1:this}" {
+}

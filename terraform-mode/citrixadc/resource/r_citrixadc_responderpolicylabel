@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_responderpolicylabel
+# key: r_citrixadc_responderpolicylabel
+# --
+
+resource "citrixadc_responderpolicylabel" "${1:this}" {
+}

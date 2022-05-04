@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_panos_ospf_auth_profiles
+# key: d_panos_ospf_auth_profiles
+# --
+
+data "panos_ospf_auth_profiles" "${1:this}" {
+    virtual_router = "${2:virtual_router}"
+}

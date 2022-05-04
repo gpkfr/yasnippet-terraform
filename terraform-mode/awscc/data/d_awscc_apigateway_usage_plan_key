@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_apigateway_usage_plan_key
+# key: d_awscc_apigateway_usage_plan_key
+# --
+
+data "awscc_apigateway_usage_plan_key" "${1:this}" {
+    id = "${2:id}"
+}

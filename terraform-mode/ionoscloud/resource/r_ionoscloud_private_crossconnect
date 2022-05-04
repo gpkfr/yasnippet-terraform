@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_private_crossconnect
+# key: r_ionoscloud_private_crossconnect
+# --
+
+resource "ionoscloud_private_crossconnect" "${1:this}" {
+    name = "${2:name}"
+}

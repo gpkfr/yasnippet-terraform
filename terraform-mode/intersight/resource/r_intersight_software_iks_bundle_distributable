@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_software_iks_bundle_distributable
+# key: r_intersight_software_iks_bundle_distributable
+# --
+
+resource "intersight_software_iks_bundle_distributable" "${1:this}" {
+}

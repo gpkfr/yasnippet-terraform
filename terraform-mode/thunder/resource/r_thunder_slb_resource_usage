@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_resource_usage
+# key: r_thunder_slb_resource_usage
+# --
+
+resource "thunder_slb_resource_usage" "${1:this}" {
+}

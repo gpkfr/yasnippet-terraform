@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_predefined_tdb_file_type
+# key: d_panos_predefined_tdb_file_type
+# --
+
+data "panos_predefined_tdb_file_type" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_api_management_redis_cache
+# key: r_azurerm_api_management_redis_cache
+# --
+
+resource "azurerm_api_management_redis_cache" "${1:this}" {
+    api_management_id = "${2:api_management_id}"
+    connection_string = "${3:connection_string}"
+    name = "${4:name}"
+}

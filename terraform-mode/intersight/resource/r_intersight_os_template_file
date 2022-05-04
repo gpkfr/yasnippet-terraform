@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_os_template_file
+# key: r_intersight_os_template_file
+# --
+
+resource "intersight_os_template_file" "${1:this}" {
+}

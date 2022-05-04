@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_locallog_disk_filter
+# key: r_fortianalyzer_system_locallog_disk_filter
+# --
+
+resource "fortianalyzer_system_locallog_disk_filter" "${1:this}" {
+}

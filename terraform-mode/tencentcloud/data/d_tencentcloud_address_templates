@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_address_templates
+# key: d_tencentcloud_address_templates
+# --
+
+data "tencentcloud_address_templates" "${1:this}" {
+}

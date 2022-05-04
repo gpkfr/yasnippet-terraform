@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_service_catalog_service_catalog_association
+# key: r_oci_service_catalog_service_catalog_association
+# --
+
+resource "oci_service_catalog_service_catalog_association" "${1:this}" {
+    entity_id = "${2:entity_id}"
+    service_catalog_id = "${3:service_catalog_id}"
+}

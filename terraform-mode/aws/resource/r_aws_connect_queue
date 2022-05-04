@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_connect_queue
+# key: r_aws_connect_queue
+# --
+
+resource "aws_connect_queue" "${1:this}" {
+    hours_of_operation_id = "${2:hours_of_operation_id}"
+    instance_id = "${3:instance_id}"
+    name = "${4:name}"
+}

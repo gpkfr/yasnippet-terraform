@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_astra_private_link_endpoint
+# key: r_astra_private_link_endpoint
+# --
+
+resource "astra_private_link_endpoint" "${1:this}" {
+    database_id = "${2:database_id}"
+    datacenter_id = "${3:datacenter_id}"
+    endpoint_id = "${4:endpoint_id}"
+}

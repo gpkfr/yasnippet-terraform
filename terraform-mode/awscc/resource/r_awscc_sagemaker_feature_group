@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sagemaker_feature_group
+# key: r_awscc_sagemaker_feature_group
+# --
+
+resource "awscc_sagemaker_feature_group" "${1:this}" {
+    event_time_feature_name = "${2:event_time_feature_name}"
+    feature_definitions = "${3:feature_definitions}"
+    feature_group_name = "${4:feature_group_name}"
+    record_identifier_feature_name = "${5:record_identifier_feature_name}"
+}

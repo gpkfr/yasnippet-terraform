@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_ipmioverlan_policy
+# key: d_intersight_ipmioverlan_policy
+# --
+
+data "intersight_ipmioverlan_policy" "${1:this}" {
+}

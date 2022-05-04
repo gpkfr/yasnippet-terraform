@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_googleworkspace_schema
+# key: d_googleworkspace_schema
+# --
+
+data "googleworkspace_schema" "${1:this}" {
+}

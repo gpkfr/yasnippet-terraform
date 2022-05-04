@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_netris_switch
+# key: r_netris_switch
+# --
+
+resource "netris_switch" "${1:this}" {
+    asnumber = "${2:asnumber}"
+    mainip = "${3:mainip}"
+    mgmtip = "${4:mgmtip}"
+    name = "${5:name}"
+    nos = "${6:nos}"
+    portcount = "${7:portcount}"
+    siteid = "${8:siteid}"
+    tenantid = "${9:tenantid}"
+}

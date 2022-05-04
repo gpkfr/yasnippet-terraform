@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_appconfig_deployment
+# key: r_aws_appconfig_deployment
+# --
+
+resource "aws_appconfig_deployment" "${1:this}" {
+    application_id = "${2:application_id}"
+    configuration_profile_id = "${3:configuration_profile_id}"
+    configuration_version = "${4:configuration_version}"
+    deployment_strategy_id = "${5:deployment_strategy_id}"
+    environment_id = "${6:environment_id}"
+}

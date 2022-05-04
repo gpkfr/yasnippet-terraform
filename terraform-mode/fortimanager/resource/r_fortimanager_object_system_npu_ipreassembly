@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_ipreassembly
+# key: r_fortimanager_object_system_npu_ipreassembly
+# --
+
+resource "fortimanager_object_system_npu_ipreassembly" "${1:this}" {
+}

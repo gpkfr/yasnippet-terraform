@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_fortisandbox
+# key: d_fortios_system_fortisandbox
+# --
+
+data "fortios_system_fortisandbox" "${1:this}" {
+}

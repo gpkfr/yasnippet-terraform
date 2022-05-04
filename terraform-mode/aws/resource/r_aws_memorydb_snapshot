@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_memorydb_snapshot
+# key: r_aws_memorydb_snapshot
+# --
+
+resource "aws_memorydb_snapshot" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+}

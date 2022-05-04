@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_capability_fex_descriptor
+# key: r_intersight_capability_fex_descriptor
+# --
+
+resource "intersight_capability_fex_descriptor" "${1:this}" {
+}

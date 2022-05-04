@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_fmc_time_range_object
+# key: r_fmc_time_range_object
+# --
+
+resource "fmc_time_range_object" "${1:this}" {
+    effective_end_date = "${2:effective_end_date}"
+    effective_start_date = "${3:effective_start_date}"
+    name = "${4:name}"
+}

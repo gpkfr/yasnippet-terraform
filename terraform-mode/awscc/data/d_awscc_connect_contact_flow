@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_connect_contact_flow
+# key: d_awscc_connect_contact_flow
+# --
+
+data "awscc_connect_contact_flow" "${1:this}" {
+    id = "${2:id}"
+}

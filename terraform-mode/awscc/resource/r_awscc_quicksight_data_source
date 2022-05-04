@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_quicksight_data_source
+# key: r_awscc_quicksight_data_source
+# --
+
+resource "awscc_quicksight_data_source" "${1:this}" {
+}

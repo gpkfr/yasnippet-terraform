@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_hsm_server
+# key: r_ciphertrust_hsm_server
+# --
+
+resource "ciphertrust_hsm_server" "${1:this}" {
+    hostname = "${2:hostname}"
+    hsm_certificate = "${3:hsm_certificate}"
+}

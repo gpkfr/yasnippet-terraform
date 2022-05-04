@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_amplience_content_repository
+# key: d_amplience_content_repository
+# --
+
+data "amplience_content_repository" "${1:this}" {
+    id = "${2:id}"
+}

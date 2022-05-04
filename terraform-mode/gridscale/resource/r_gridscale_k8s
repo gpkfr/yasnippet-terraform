@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gridscale_k8s
+# key: r_gridscale_k8s
+# --
+
+resource "gridscale_k8s" "${1:this}" {
+    name = "${2:name}"
+    release = "${3:release}"
+}

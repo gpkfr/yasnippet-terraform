@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_sigsci_corp_integration
+# key: r_sigsci_corp_integration
+# --
+
+resource "sigsci_corp_integration" "${1:this}" {
+    type = "${2:type}"
+    url = "${3:url}"
+}

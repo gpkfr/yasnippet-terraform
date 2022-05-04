@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_vm_import_operation
+# key: d_intersight_hyperflex_vm_import_operation
+# --
+
+data "intersight_hyperflex_vm_import_operation" "${1:this}" {
+}

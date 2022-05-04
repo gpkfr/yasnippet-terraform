@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_controllerportalregistration
+# key: r_avi_controllerportalregistration
+# --
+
+resource "avi_controllerportalregistration" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3control_bucket
+# key: r_aws_s3control_bucket
+# --
+
+resource "aws_s3control_bucket" "${1:this}" {
+    bucket = "${2:bucket}"
+    outpost_id = "${3:outpost_id}"
+}

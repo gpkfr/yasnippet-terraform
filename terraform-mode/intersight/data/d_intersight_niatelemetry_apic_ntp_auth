@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_apic_ntp_auth
+# key: d_intersight_niatelemetry_apic_ntp_auth
+# --
+
+data "intersight_niatelemetry_apic_ntp_auth" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_robomaker_robot
+# key: r_awscc_robomaker_robot
+# --
+
+resource "awscc_robomaker_robot" "${1:this}" {
+    architecture = "${2:architecture}"
+    greengrass_group_id = "${3:greengrass_group_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_googleworkspace_group_member
+# key: d_googleworkspace_group_member
+# --
+
+data "googleworkspace_group_member" "${1:this}" {
+    group_id = "${2:group_id}"
+}

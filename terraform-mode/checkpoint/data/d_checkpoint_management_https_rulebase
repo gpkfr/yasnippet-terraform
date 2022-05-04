@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_https_rulebase
+# key: d_checkpoint_management_https_rulebase
+# --
+
+data "checkpoint_management_https_rulebase" "${1:this}" {
+    name = "${2:name}"
+}

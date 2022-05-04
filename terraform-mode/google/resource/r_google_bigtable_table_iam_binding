@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_bigtable_table_iam_binding
+# key: r_google_bigtable_table_iam_binding
+# --
+
+resource "google_bigtable_table_iam_binding" "${1:this}" {
+    instance = "${2:instance}"
+    members = "${3:members}"
+    role = "${4:role}"
+    table = "${5:table}"
+}

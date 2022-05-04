@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_ldap_configuration
+# key: r_mongodbatlas_ldap_configuration
+# --
+
+resource "mongodbatlas_ldap_configuration" "${1:this}" {
+    authentication_enabled = "${2:authentication_enabled}"
+    bind_password = "${3:bind_password}"
+    bind_username = "${4:bind_username}"
+    hostname = "${5:hostname}"
+    project_id = "${6:project_id}"
+}

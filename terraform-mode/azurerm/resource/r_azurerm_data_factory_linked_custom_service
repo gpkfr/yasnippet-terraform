@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_linked_custom_service
+# key: r_azurerm_data_factory_linked_custom_service
+# --
+
+resource "azurerm_data_factory_linked_custom_service" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    name = "${3:name}"
+    type = "${4:type}"
+    type_properties_json = "${5:type_properties_json}"
+}

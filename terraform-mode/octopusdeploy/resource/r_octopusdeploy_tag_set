@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_tag_set
+# key: r_octopusdeploy_tag_set
+# --
+
+resource "octopusdeploy_tag_set" "${1:this}" {
+    name = "${2:name}"
+}

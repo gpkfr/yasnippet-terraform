@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_natgateway_rule
+# key: r_ionoscloud_natgateway_rule
+# --
+
+resource "ionoscloud_natgateway_rule" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    name = "${3:name}"
+    natgateway_id = "${4:natgateway_id}"
+    public_ip = "${5:public_ip}"
+    source_subnet = "${6:source_subnet}"
+}

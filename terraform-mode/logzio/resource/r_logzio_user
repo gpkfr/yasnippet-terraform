@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_logzio_user
+# key: r_logzio_user
+# --
+
+resource "logzio_user" "${1:this}" {
+    account_id = "${2:account_id}"
+    fullname = "${3:fullname}"
+    roles = "${4:roles}"
+    username = "${5:username}"
+}

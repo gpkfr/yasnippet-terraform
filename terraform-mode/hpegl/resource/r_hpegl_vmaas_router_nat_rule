@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_hpegl_vmaas_router_nat_rule
+# key: r_hpegl_vmaas_router_nat_rule
+# --
+
+resource "hpegl_vmaas_router_nat_rule" "${1:this}" {
+    name = "${2:name}"
+    router_id = "${3:router_id}"
+    translated_network = "${4:translated_network}"
+}

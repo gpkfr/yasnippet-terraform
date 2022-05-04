@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iaas_most_run_tasks
+# key: d_intersight_iaas_most_run_tasks
+# --
+
+data "intersight_iaas_most_run_tasks" "${1:this}" {
+}

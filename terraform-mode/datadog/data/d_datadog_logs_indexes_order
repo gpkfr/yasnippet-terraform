@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_datadog_logs_indexes_order
+# key: d_datadog_logs_indexes_order
+# --
+
+data "datadog_logs_indexes_order" "${1:this}" {
+}

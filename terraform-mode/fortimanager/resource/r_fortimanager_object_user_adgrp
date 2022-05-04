@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_adgrp
+# key: r_fortimanager_object_user_adgrp
+# --
+
+resource "fortimanager_object_user_adgrp" "${1:this}" {
+}

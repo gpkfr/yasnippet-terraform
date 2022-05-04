@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_skytap_network
+# key: r_skytap_network
+# --
+
+resource "skytap_network" "${1:this}" {
+    domain = "${2:domain}"
+    environment_id = "${3:environment_id}"
+    name = "${4:name}"
+    subnet = "${5:subnet}"
+}

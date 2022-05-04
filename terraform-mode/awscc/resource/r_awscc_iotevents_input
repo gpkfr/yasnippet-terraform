@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotevents_input
+# key: r_awscc_iotevents_input
+# --
+
+resource "awscc_iotevents_input" "${1:this}" {
+    input_definition = "${2:input_definition}"
+}

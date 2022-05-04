@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_ha
+# key: d_fortios_system_ha
+# --
+
+data "fortios_system_ha" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_netris_bgp
+# key: r_netris_bgp
+# --
+
+resource "netris_bgp" "${1:this}" {
+    localip = "${2:localip}"
+    name = "${3:name}"
+    remoteip = "${4:remoteip}"
+    siteid = "${5:siteid}"
+}

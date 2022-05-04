@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ecl_provider_connectivity_tenant_connection_request_v2
+# key: r_ecl_provider_connectivity_tenant_connection_request_v2
+# --
+
+resource "ecl_provider_connectivity_tenant_connection_request_v2" "${1:this}" {
+    network_id = "${2:network_id}"
+    tenant_id_other = "${3:tenant_id_other}"
+}

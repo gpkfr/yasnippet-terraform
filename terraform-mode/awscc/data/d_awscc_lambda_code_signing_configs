@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lambda_code_signing_configs
+# key: d_awscc_lambda_code_signing_configs
+# --
+
+data "awscc_lambda_code_signing_configs" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_linode_nodebalancer_node
+# key: d_linode_nodebalancer_node
+# --
+
+data "linode_nodebalancer_node" "${1:this}" {
+    config_id = "${2:config_id}"
+    id = "${3:id}"
+    nodebalancer_id = "${4:nodebalancer_id}"
+}

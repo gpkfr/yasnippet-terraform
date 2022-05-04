@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_billing_mca_account_scope
+# key: d_azurerm_billing_mca_account_scope
+# --
+
+data "azurerm_billing_mca_account_scope" "${1:this}" {
+    billing_account_name = "${2:billing_account_name}"
+    billing_profile_name = "${3:billing_profile_name}"
+    invoice_section_name = "${4:invoice_section_name}"
+}

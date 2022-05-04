@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcloud_certificates
+# key: d_hcloud_certificates
+# --
+
+data "hcloud_certificates" "${1:this}" {
+}

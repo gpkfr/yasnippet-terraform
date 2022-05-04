@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_elasticstack_elasticsearch_security_user
+# key: r_elasticstack_elasticsearch_security_user
+# --
+
+resource "elasticstack_elasticsearch_security_user" "${1:this}" {
+    roles = "${2:roles}"
+    username = "${3:username}"
+}

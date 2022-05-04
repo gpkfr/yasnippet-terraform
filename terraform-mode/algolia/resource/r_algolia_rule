@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_algolia_rule
+# key: r_algolia_rule
+# --
+
+resource "algolia_rule" "${1:this}" {
+    consequence = "${2:consequence}"
+    index = "${3:index}"
+}

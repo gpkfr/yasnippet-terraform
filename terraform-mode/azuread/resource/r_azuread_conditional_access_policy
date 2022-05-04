@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuread_conditional_access_policy
+# key: r_azuread_conditional_access_policy
+# --
+
+resource "azuread_conditional_access_policy" "${1:this}" {
+    display_name = "${2:display_name}"
+    state = "${3:state}"
+}

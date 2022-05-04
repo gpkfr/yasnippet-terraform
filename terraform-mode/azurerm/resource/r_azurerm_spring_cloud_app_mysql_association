@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_spring_cloud_app_mysql_association
+# key: r_azurerm_spring_cloud_app_mysql_association
+# --
+
+resource "azurerm_spring_cloud_app_mysql_association" "${1:this}" {
+    database_name = "${2:database_name}"
+    mysql_server_id = "${3:mysql_server_id}"
+    name = "${4:name}"
+    password = "${5:password}"
+    spring_cloud_app_id = "${6:spring_cloud_app_id}"
+    username = "${7:username}"
+}

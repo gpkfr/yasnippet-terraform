@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_lb_listener
+# key: r_ncloud_lb_listener
+# --
+
+resource "ncloud_lb_listener" "${1:this}" {
+    load_balancer_no = "${2:load_balancer_no}"
+    port = "${3:port}"
+    protocol = "${4:protocol}"
+    target_group_no = "${5:target_group_no}"
+}

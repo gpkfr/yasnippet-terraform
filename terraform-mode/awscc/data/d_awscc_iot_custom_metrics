@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_custom_metrics
+# key: d_awscc_iot_custom_metrics
+# --
+
+data "awscc_iot_custom_metrics" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_globalaccelerator_listener
+# key: r_awscc_globalaccelerator_listener
+# --
+
+resource "awscc_globalaccelerator_listener" "${1:this}" {
+    accelerator_arn = "${2:accelerator_arn}"
+    port_ranges = "${3:port_ranges}"
+}

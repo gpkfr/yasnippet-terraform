@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_prismacloud_rql_search
+# key: r_prismacloud_rql_search
+# --
+
+resource "prismacloud_rql_search" "${1:this}" {
+    query = "${2:query}"
+}

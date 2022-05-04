@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_admin_role_custom_assignments
+# key: r_okta_admin_role_custom_assignments
+# --
+
+resource "okta_admin_role_custom_assignments" "${1:this}" {
+    custom_role_id = "${2:custom_role_id}"
+    resource_set_id = "${3:resource_set_id}"
+}

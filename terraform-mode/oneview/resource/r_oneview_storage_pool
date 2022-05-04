@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oneview_storage_pool
+# key: r_oneview_storage_pool
+# --
+
+resource "oneview_storage_pool" "${1:this}" {
+    name = "${2:name}"
+}

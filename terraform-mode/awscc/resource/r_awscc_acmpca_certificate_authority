@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_acmpca_certificate_authority
+# key: r_awscc_acmpca_certificate_authority
+# --
+
+resource "awscc_acmpca_certificate_authority" "${1:this}" {
+    key_algorithm = "${2:key_algorithm}"
+    signing_algorithm = "${3:signing_algorithm}"
+    subject = "${4:subject}"
+    type = "${5:type}"
+}

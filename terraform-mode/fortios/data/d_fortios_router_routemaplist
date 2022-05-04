@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_routemaplist
+# key: d_fortios_router_routemaplist
+# --
+
+data "fortios_router_routemaplist" "${1:this}" {
+}

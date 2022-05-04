@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_s3objectlambda_access_point_policy
+# key: r_awscc_s3objectlambda_access_point_policy
+# --
+
+resource "awscc_s3objectlambda_access_point_policy" "${1:this}" {
+    object_lambda_access_point = "${2:object_lambda_access_point}"
+    policy_document = "${3:policy_document}"
+}

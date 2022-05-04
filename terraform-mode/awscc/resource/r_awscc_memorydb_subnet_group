@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_memorydb_subnet_group
+# key: r_awscc_memorydb_subnet_group
+# --
+
+resource "awscc_memorydb_subnet_group" "${1:this}" {
+    subnet_group_name = "${2:subnet_group_name}"
+    subnet_ids = "${3:subnet_ids}"
+}

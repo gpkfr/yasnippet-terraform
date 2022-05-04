@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_hpc_cache_access_policy
+# key: r_azurerm_hpc_cache_access_policy
+# --
+
+resource "azurerm_hpc_cache_access_policy" "${1:this}" {
+    hpc_cache_id = "${2:hpc_cache_id}"
+    name = "${3:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_routing_skill
+# key: d_genesyscloud_routing_skill
+# --
+
+data "genesyscloud_routing_skill" "${1:this}" {
+    name = "${2:name}"
+}

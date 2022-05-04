@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_launchdarkly_audit_log_subscription
+# key: d_launchdarkly_audit_log_subscription
+# --
+
+data "launchdarkly_audit_log_subscription" "${1:this}" {
+    id = "${2:id}"
+    integration_key = "${3:integration_key}"
+}

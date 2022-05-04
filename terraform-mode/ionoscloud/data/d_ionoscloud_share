@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_share
+# key: d_ionoscloud_share
+# --
+
+data "ionoscloud_share" "${1:this}" {
+    group_id = "${2:group_id}"
+    id = "${3:id}"
+    resource_id = "${4:resource_id}"
+}

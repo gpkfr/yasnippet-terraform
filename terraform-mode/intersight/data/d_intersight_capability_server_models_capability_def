@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_capability_server_models_capability_def
+# key: d_intersight_capability_server_models_capability_def
+# --
+
+data "intersight_capability_server_models_capability_def" "${1:this}" {
+}

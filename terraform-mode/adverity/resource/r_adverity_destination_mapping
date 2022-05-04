@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_adverity_destination_mapping
+# key: r_adverity_destination_mapping
+# --
+
+resource "adverity_destination_mapping" "${1:this}" {
+    datastream_id = "${2:datastream_id}"
+    destination_id = "${3:destination_id}"
+    destination_type = "${4:destination_type}"
+    table_name = "${5:table_name}"
+}

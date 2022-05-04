@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_ipam_allocation
+# key: d_awscc_ec2_ipam_allocation
+# --
+
+data "awscc_ec2_ipam_allocation" "${1:this}" {
+    id = "${2:id}"
+}

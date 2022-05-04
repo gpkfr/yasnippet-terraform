@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_appconfig_environment
+# key: r_aws_appconfig_environment
+# --
+
+resource "aws_appconfig_environment" "${1:this}" {
+    application_id = "${2:application_id}"
+    name = "${3:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_frauddetector_outcome
+# key: r_awscc_frauddetector_outcome
+# --
+
+resource "awscc_frauddetector_outcome" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_alertsyslogconfig
+# key: r_avi_alertsyslogconfig
+# --
+
+resource "avi_alertsyslogconfig" "${1:this}" {
+    name = "${2:name}"
+}

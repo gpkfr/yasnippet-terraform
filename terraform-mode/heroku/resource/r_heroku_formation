@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_heroku_formation
+# key: r_heroku_formation
+# --
+
+resource "heroku_formation" "${1:this}" {
+    app_id = "${2:app_id}"
+    quantity = "${3:quantity}"
+    size = "${4:size}"
+    type = "${5:type}"
+}

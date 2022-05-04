@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_ip_list
+# key: d_illumio-core_ip_list
+# --
+
+data "illumio-core_ip_list" "${1:this}" {
+    href = "${2:href}"
+}

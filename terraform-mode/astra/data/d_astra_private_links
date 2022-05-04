@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_astra_private_links
+# key: d_astra_private_links
+# --
+
+data "astra_private_links" "${1:this}" {
+    database_id = "${2:database_id}"
+    datacenter_id = "${3:datacenter_id}"
+}

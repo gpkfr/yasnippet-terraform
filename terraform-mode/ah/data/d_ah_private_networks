@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ah_private_networks
+# key: d_ah_private_networks
+# --
+
+data "ah_private_networks" "${1:this}" {
+}

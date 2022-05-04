@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudtrail_event_data_store
+# key: r_aws_cloudtrail_event_data_store
+# --
+
+resource "aws_cloudtrail_event_data_store" "${1:this}" {
+    name = "${2:name}"
+}

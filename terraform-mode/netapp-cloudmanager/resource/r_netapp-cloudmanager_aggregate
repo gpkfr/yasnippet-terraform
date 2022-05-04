@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_aggregate
+# key: r_netapp-cloudmanager_aggregate
+# --
+
+resource "netapp-cloudmanager_aggregate" "${1:this}" {
+    client_id = "${2:client_id}"
+    name = "${3:name}"
+    number_of_disks = "${4:number_of_disks}"
+}

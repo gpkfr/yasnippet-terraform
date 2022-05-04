@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_databricks_sql_permissions
+# key: r_databricks_sql_permissions
+# --
+
+resource "databricks_sql_permissions" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_infoblox_ip_allocation
+# key: r_infoblox_ip_allocation
+# --
+
+resource "infoblox_ip_allocation" "${1:this}" {
+    fqdn = "${2:fqdn}"
+}

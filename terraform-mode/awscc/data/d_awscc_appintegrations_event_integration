@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_appintegrations_event_integration
+# key: d_awscc_appintegrations_event_integration
+# --
+
+data "awscc_appintegrations_event_integration" "${1:this}" {
+    id = "${2:id}"
+}

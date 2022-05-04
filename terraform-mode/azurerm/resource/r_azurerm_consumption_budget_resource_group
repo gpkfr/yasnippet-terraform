@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_consumption_budget_resource_group
+# key: r_azurerm_consumption_budget_resource_group
+# --
+
+resource "azurerm_consumption_budget_resource_group" "${1:this}" {
+    amount = "${2:amount}"
+    name = "${3:name}"
+    resource_group_id = "${4:resource_group_id}"
+}

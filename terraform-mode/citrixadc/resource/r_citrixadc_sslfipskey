@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslfipskey
+# key: r_citrixadc_sslfipskey
+# --
+
+resource "citrixadc_sslfipskey" "${1:this}" {
+    fipskeyname = "${2:fipskeyname}"
+    keytype = "${3:keytype}"
+}

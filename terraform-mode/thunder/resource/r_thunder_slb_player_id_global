@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_player_id_global
+# key: r_thunder_slb_player_id_global
+# --
+
+resource "thunder_slb_player_id_global" "${1:this}" {
+}

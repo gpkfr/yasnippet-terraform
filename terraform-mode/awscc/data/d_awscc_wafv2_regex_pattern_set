@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_wafv2_regex_pattern_set
+# key: d_awscc_wafv2_regex_pattern_set
+# --
+
+data "awscc_wafv2_regex_pattern_set" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_lb_target_group
+# key: d_ncloud_lb_target_group
+# --
+
+data "ncloud_lb_target_group" "${1:this}" {
+}

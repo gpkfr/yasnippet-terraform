@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_netflow_agent
+# key: r_aviatrix_netflow_agent
+# --
+
+resource "aviatrix_netflow_agent" "${1:this}" {
+    port = "${2:port}"
+    server_ip = "${3:server_ip}"
+}

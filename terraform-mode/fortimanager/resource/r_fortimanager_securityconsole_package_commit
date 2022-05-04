@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_securityconsole_package_commit
+# key: r_fortimanager_securityconsole_package_commit
+# --
+
+resource "fortimanager_securityconsole_package_commit" "${1:this}" {
+}

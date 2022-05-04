@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_azuredevops
+# key: r_azuredevops_serviceendpoint_azuredevops
+# --
+
+resource "azuredevops_serviceendpoint_azuredevops" "${1:this}" {
+    personal_access_token = "${2:personal_access_token}"
+    project_id = "${3:project_id}"
+    service_endpoint_name = "${4:service_endpoint_name}"
+}

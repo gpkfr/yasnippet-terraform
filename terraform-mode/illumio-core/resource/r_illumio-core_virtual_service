@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_virtual_service
+# key: r_illumio-core_virtual_service
+# --
+
+resource "illumio-core_virtual_service" "${1:this}" {
+    apply_to = "${2:apply_to}"
+    name = "${3:name}"
+}

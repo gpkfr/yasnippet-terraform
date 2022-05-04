@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_machine_learning_inference_cluster
+# key: r_azurerm_machine_learning_inference_cluster
+# --
+
+resource "azurerm_machine_learning_inference_cluster" "${1:this}" {
+    kubernetes_cluster_id = "${2:kubernetes_cluster_id}"
+    location = "${3:location}"
+    machine_learning_workspace_id = "${4:machine_learning_workspace_id}"
+    name = "${5:name}"
+}

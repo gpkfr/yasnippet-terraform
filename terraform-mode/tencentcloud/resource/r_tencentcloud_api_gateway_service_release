@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_api_gateway_service_release
+# key: r_tencentcloud_api_gateway_service_release
+# --
+
+resource "tencentcloud_api_gateway_service_release" "${1:this}" {
+    environment_name = "${2:environment_name}"
+    release_desc = "${3:release_desc}"
+    service_id = "${4:service_id}"
+}

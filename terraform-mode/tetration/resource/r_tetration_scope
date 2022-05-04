@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_tetration_scope
+# key: r_tetration_scope
+# --
+
+resource "tetration_scope" "${1:this}" {
+    parent_app_scope_id = "${2:parent_app_scope_id}"
+    short_name = "${3:short_name}"
+    short_query_field = "${4:short_query_field}"
+    short_query_type = "${5:short_query_type}"
+    short_query_value = "${6:short_query_value}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_pingaccessagent
+# key: d_avi_pingaccessagent
+# --
+
+data "avi_pingaccessagent" "${1:this}" {
+}

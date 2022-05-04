@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_ipiptunnel
+# key: d_fortios_system_ipiptunnel
+# --
+
+data "fortios_system_ipiptunnel" "${1:this}" {
+    name = "${2:name}"
+}

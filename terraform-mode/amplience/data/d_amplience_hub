@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_amplience_hub
+# key: d_amplience_hub
+# --
+
+data "amplience_hub" "${1:this}" {
+    id = "${2:id}"
+}

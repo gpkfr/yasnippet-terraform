@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_grafana_workspace
+# key: r_aws_grafana_workspace
+# --
+
+resource "aws_grafana_workspace" "${1:this}" {
+    account_access_type = "${2:account_access_type}"
+    authentication_providers = "${3:authentication_providers}"
+    permission_type = "${4:permission_type}"
+}

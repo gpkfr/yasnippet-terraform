@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_edls
+# key: d_panos_edls
+# --
+
+data "panos_edls" "${1:this}" {
+}

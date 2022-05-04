@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_healthmonitor
+# key: d_avi_healthmonitor
+# --
+
+data "avi_healthmonitor" "${1:this}" {
+}

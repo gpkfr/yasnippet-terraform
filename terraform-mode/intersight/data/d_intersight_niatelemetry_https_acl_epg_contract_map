@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_https_acl_epg_contract_map
+# key: d_intersight_niatelemetry_https_acl_epg_contract_map
+# --
+
+data "intersight_niatelemetry_https_acl_epg_contract_map" "${1:this}" {
+}

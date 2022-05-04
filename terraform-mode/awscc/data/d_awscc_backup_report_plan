@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_backup_report_plan
+# key: d_awscc_backup_report_plan
+# --
+
+data "awscc_backup_report_plan" "${1:this}" {
+    id = "${2:id}"
+}

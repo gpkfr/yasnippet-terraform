@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_databricks_views
+# key: d_databricks_views
+# --
+
+data "databricks_views" "${1:this}" {
+    catalog_name = "${2:catalog_name}"
+    schema_name = "${3:schema_name}"
+}

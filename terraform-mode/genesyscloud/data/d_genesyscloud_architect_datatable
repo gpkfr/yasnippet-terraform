@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_architect_datatable
+# key: d_genesyscloud_architect_datatable
+# --
+
+data "genesyscloud_architect_datatable" "${1:this}" {
+    name = "${2:name}"
+}

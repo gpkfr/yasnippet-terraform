@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_server
+# key: d_ionoscloud_server
+# --
+
+data "ionoscloud_server" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+}

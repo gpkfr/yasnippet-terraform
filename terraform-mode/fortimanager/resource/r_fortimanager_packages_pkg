@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_pkg
+# key: r_fortimanager_packages_pkg
+# --
+
+resource "fortimanager_packages_pkg" "${1:this}" {
+}

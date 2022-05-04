@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_spectrocloud_user
+# key: d_spectrocloud_user
+# --
+
+data "spectrocloud_user" "${1:this}" {
+}

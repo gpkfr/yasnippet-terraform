@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vcd_nsxt_network_imported
+# key: r_vcd_nsxt_network_imported
+# --
+
+resource "vcd_nsxt_network_imported" "${1:this}" {
+    gateway = "${2:gateway}"
+    name = "${3:name}"
+    nsxt_logical_switch_name = "${4:nsxt_logical_switch_name}"
+    prefix_length = "${5:prefix_length}"
+}

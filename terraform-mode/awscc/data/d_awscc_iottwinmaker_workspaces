@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iottwinmaker_workspaces
+# key: d_awscc_iottwinmaker_workspaces
+# --
+
+data "awscc_iottwinmaker_workspaces" "${1:this}" {
+}

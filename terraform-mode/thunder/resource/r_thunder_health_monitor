@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_health_monitor
+# key: r_thunder_health_monitor
+# --
+
+resource "thunder_health_monitor" "${1:this}" {
+    name = "${2:name}"
+}

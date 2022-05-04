@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_postgresql_flexible_server_database
+# key: r_azurerm_postgresql_flexible_server_database
+# --
+
+resource "azurerm_postgresql_flexible_server_database" "${1:this}" {
+    name = "${2:name}"
+    server_id = "${3:server_id}"
+}

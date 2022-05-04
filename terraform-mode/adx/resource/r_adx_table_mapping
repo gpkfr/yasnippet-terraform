@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_adx_table_mapping
+# key: r_adx_table_mapping
+# --
+
+resource "adx_table_mapping" "${1:this}" {
+    database_name = "${2:database_name}"
+    kind = "${3:kind}"
+    name = "${4:name}"
+    table_name = "${5:table_name}"
+}

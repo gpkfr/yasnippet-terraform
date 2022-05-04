@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_ssldhparam
+# key: r_citrixadc_ssldhparam
+# --
+
+resource "citrixadc_ssldhparam" "${1:this}" {
+    bits = "${2:bits}"
+    dhfile = "${3:dhfile}"
+}

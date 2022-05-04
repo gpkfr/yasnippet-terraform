@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_auth_method_oidc
+# key: r_akeyless_auth_method_oidc
+# --
+
+resource "akeyless_auth_method_oidc" "${1:this}" {
+    name = "${2:name}"
+    unique_identifier = "${3:unique_identifier}"
+}

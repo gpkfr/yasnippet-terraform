@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_virtual_machine_instance_type
+# key: d_intersight_kubernetes_virtual_machine_instance_type
+# --
+
+data "intersight_kubernetes_virtual_machine_instance_type" "${1:this}" {
+}

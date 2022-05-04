@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_external_container_database
+# key: r_oci_database_external_container_database
+# --
+
+resource "oci_database_external_container_database" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+}

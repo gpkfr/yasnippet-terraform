@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_domain
+# key: d_awscc_sagemaker_domain
+# --
+
+data "awscc_sagemaker_domain" "${1:this}" {
+    id = "${2:id}"
+}

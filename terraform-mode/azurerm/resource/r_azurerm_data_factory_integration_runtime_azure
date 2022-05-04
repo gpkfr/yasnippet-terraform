@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_integration_runtime_azure
+# key: r_azurerm_data_factory_integration_runtime_azure
+# --
+
+resource "azurerm_data_factory_integration_runtime_azure" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    location = "${3:location}"
+    name = "${4:name}"
+}

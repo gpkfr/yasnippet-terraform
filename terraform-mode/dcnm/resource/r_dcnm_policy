@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dcnm_policy
+# key: r_dcnm_policy
+# --
+
+resource "dcnm_policy" "${1:this}" {
+    serial_number = "${2:serial_number}"
+    template_name = "${3:template_name}"
+    template_props = "${4:template_props}"
+}

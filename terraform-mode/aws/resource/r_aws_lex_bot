@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_lex_bot
+# key: r_aws_lex_bot
+# --
+
+resource "aws_lex_bot" "${1:this}" {
+    child_directed = "${2:child_directed}"
+    name = "${3:name}"
+}

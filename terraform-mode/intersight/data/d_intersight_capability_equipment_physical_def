@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_capability_equipment_physical_def
+# key: d_intersight_capability_equipment_physical_def
+# --
+
+data "intersight_capability_equipment_physical_def" "${1:this}" {
+}

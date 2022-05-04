@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_migration_connection
+# key: r_oci_database_migration_connection
+# --
+
+resource "oci_database_migration_connection" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    database_type = "${3:database_type}"
+}

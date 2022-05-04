@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53resolver_resolver_config
+# key: r_awscc_route53resolver_resolver_config
+# --
+
+resource "awscc_route53resolver_resolver_config" "${1:this}" {
+    autodefined_reverse_flag = "${2:autodefined_reverse_flag}"
+    resource_id = "${3:resource_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_router_prefixlist
+# key: r_fortimanager_object_router_prefixlist
+# --
+
+resource "fortimanager_object_router_prefixlist" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudfront_key_groups
+# key: d_awscc_cloudfront_key_groups
+# --
+
+data "awscc_cloudfront_key_groups" "${1:this}" {
+}

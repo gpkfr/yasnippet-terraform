@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudtrail_trail
+# key: r_awscc_cloudtrail_trail
+# --
+
+resource "awscc_cloudtrail_trail" "${1:this}" {
+    is_logging = "${2:is_logging}"
+    s3_bucket_name = "${3:s3_bucket_name}"
+}

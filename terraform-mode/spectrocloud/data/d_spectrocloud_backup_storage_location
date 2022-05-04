@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_spectrocloud_backup_storage_location
+# key: d_spectrocloud_backup_storage_location
+# --
+
+data "spectrocloud_backup_storage_location" "${1:this}" {
+}

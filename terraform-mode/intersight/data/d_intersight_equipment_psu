@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_equipment_psu
+# key: d_intersight_equipment_psu
+# --
+
+data "intersight_equipment_psu" "${1:this}" {
+}

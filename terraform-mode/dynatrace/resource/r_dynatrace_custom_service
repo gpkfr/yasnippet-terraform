@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_custom_service
+# key: r_dynatrace_custom_service
+# --
+
+resource "dynatrace_custom_service" "${1:this}" {
+    enabled = "${2:enabled}"
+    name = "${3:name}"
+    technology = "${4:technology}"
+}

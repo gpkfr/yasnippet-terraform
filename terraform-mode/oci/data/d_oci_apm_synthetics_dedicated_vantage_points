@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_apm_synthetics_dedicated_vantage_points
+# key: d_oci_apm_synthetics_dedicated_vantage_points
+# --
+
+data "oci_apm_synthetics_dedicated_vantage_points" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+}

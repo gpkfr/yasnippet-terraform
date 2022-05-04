@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_sip
+# key: r_thunder_slb_template_sip
+# --
+
+resource "thunder_slb_template_sip" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_memorydb_acl
+# key: d_awscc_memorydb_acl
+# --
+
+data "awscc_memorydb_acl" "${1:this}" {
+    id = "${2:id}"
+}

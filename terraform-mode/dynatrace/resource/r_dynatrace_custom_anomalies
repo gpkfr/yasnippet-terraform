@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_custom_anomalies
+# key: r_dynatrace_custom_anomalies
+# --
+
+resource "dynatrace_custom_anomalies" "${1:this}" {
+    description = "${2:description}"
+    enabled = "${3:enabled}"
+    name = "${4:name}"
+}

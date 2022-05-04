@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudfront_cache_policy
+# key: d_aws_cloudfront_cache_policy
+# --
+
+data "aws_cloudfront_cache_policy" "${1:this}" {
+}

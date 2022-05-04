@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ssm_document
+# key: d_awscc_ssm_document
+# --
+
+data "awscc_ssm_document" "${1:this}" {
+    id = "${2:id}"
+}

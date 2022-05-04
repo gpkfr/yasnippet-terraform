@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_mediaconnect_flow_entitlement
+# key: d_awscc_mediaconnect_flow_entitlement
+# --
+
+data "awscc_mediaconnect_flow_entitlement" "${1:this}" {
+    id = "${2:id}"
+}

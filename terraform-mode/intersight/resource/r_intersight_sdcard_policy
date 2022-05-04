@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_sdcard_policy
+# key: r_intersight_sdcard_policy
+# --
+
+resource "intersight_sdcard_policy" "${1:this}" {
+}

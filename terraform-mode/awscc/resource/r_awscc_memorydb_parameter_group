@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_memorydb_parameter_group
+# key: r_awscc_memorydb_parameter_group
+# --
+
+resource "awscc_memorydb_parameter_group" "${1:this}" {
+    family = "${2:family}"
+    parameter_group_name = "${3:parameter_group_name}"
+}

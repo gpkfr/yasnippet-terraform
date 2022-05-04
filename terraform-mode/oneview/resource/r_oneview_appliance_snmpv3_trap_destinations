@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oneview_appliance_snmpv3_trap_destinations
+# key: r_oneview_appliance_snmpv3_trap_destinations
+# --
+
+resource "oneview_appliance_snmpv3_trap_destinations" "${1:this}" {
+}

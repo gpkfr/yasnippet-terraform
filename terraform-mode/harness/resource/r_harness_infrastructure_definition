@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_harness_infrastructure_definition
+# key: r_harness_infrastructure_definition
+# --
+
+resource "harness_infrastructure_definition" "${1:this}" {
+    app_id = "${2:app_id}"
+    cloud_provider_type = "${3:cloud_provider_type}"
+    deployment_type = "${4:deployment_type}"
+    env_id = "${5:env_id}"
+    name = "${6:name}"
+}

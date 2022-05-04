@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_rate_limiter
+# key: r_volterra_rate_limiter
+# --
+
+resource "volterra_rate_limiter" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

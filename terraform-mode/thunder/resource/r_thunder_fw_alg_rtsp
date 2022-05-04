@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_alg_rtsp
+# key: r_thunder_fw_alg_rtsp
+# --
+
+resource "thunder_fw_alg_rtsp" "${1:this}" {
+}

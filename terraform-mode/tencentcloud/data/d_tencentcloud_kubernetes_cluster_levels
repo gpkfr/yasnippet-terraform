@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_kubernetes_cluster_levels
+# key: d_tencentcloud_kubernetes_cluster_levels
+# --
+
+data "tencentcloud_kubernetes_cluster_levels" "${1:this}" {
+}

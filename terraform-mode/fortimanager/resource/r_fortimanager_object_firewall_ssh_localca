@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_ssh_localca
+# key: r_fortimanager_object_firewall_ssh_localca
+# --
+
+resource "fortimanager_object_firewall_ssh_localca" "${1:this}" {
+}

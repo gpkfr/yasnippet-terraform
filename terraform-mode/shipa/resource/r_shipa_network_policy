@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_shipa_network_policy
+# key: r_shipa_network_policy
+# --
+
+resource "shipa_network_policy" "${1:this}" {
+}

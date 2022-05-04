@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_natgateway
+# key: r_ionoscloud_natgateway
+# --
+
+resource "ionoscloud_natgateway" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    name = "${3:name}"
+    public_ips = "${4:public_ips}"
+}

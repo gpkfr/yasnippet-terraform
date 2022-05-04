@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_git_application
+# key: r_nirmata_git_application
+# --
+
+resource "nirmata_git_application" "${1:this}" {
+    catalog = "${2:catalog}"
+    git_branch = "${3:git_branch}"
+    git_credentials = "${4:git_credentials}"
+    git_repository = "${5:git_repository}"
+    name = "${6:name}"
+}

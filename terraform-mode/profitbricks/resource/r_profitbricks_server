@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_server
+# key: r_profitbricks_server
+# --
+
+resource "profitbricks_server" "${1:this}" {
+    cores = "${2:cores}"
+    datacenter_id = "${3:datacenter_id}"
+    name = "${4:name}"
+    ram = "${5:ram}"
+}

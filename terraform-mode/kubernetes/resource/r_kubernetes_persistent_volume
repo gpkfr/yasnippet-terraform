@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_persistent_volume
+# key: r_kubernetes_persistent_volume
+# --
+
+resource "kubernetes_persistent_volume" "${1:this}" {
+}

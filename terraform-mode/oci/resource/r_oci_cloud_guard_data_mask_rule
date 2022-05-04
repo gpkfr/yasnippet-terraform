@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_cloud_guard_data_mask_rule
+# key: r_oci_cloud_guard_data_mask_rule
+# --
+
+resource "oci_cloud_guard_data_mask_rule" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    data_mask_categories = "${3:data_mask_categories}"
+    display_name = "${4:display_name}"
+    iam_group_id = "${5:iam_group_id}"
+}

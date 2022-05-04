@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_servicefabric
+# key: r_azuredevops_serviceendpoint_servicefabric
+# --
+
+resource "azuredevops_serviceendpoint_servicefabric" "${1:this}" {
+    cluster_endpoint = "${2:cluster_endpoint}"
+    project_id = "${3:project_id}"
+    service_endpoint_name = "${4:service_endpoint_name}"
+}

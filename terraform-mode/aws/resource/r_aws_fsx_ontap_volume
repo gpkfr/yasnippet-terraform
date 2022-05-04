@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aws_fsx_ontap_volume
+# key: r_aws_fsx_ontap_volume
+# --
+
+resource "aws_fsx_ontap_volume" "${1:this}" {
+    junction_path = "${2:junction_path}"
+    name = "${3:name}"
+    size_in_megabytes = "${4:size_in_megabytes}"
+    storage_efficiency_enabled = "${5:storage_efficiency_enabled}"
+    storage_virtual_machine_id = "${6:storage_virtual_machine_id}"
+}

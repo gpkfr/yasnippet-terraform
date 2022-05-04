@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnsessionpolicy
+# key: r_citrixadc_vpnsessionpolicy
+# --
+
+resource "citrixadc_vpnsessionpolicy" "${1:this}" {
+    action = "${2:action}"
+    name = "${3:name}"
+    rule = "${4:rule}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_recovery_config_result_entry
+# key: d_intersight_recovery_config_result_entry
+# --
+
+data "intersight_recovery_config_result_entry" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_linode_instance_backups
+# key: d_linode_instance_backups
+# --
+
+data "linode_instance_backups" "${1:this}" {
+    linode_id = "${2:linode_id}"
+}

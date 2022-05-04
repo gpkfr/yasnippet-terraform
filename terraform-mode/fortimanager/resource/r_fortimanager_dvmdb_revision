@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_dvmdb_revision
+# key: r_fortimanager_dvmdb_revision
+# --
+
+resource "fortimanager_dvmdb_revision" "${1:this}" {
+}

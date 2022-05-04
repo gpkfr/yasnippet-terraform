@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lacework_integration_ghcr
+# key: r_lacework_integration_ghcr
+# --
+
+resource "lacework_integration_ghcr" "${1:this}" {
+    name = "${2:name}"
+    password = "${3:password}"
+    username = "${4:username}"
+}

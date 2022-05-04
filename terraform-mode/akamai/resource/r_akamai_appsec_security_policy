@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_security_policy
+# key: r_akamai_appsec_security_policy
+# --
+
+resource "akamai_appsec_security_policy" "${1:this}" {
+    config_id = "${2:config_id}"
+    security_policy_name = "${3:security_policy_name}"
+    security_policy_prefix = "${4:security_policy_prefix}"
+    version = "${5:version}"
+}

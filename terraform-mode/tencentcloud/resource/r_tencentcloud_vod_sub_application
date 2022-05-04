@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_vod_sub_application
+# key: r_tencentcloud_vod_sub_application
+# --
+
+resource "tencentcloud_vod_sub_application" "${1:this}" {
+    name = "${2:name}"
+    status = "${3:status}"
+}

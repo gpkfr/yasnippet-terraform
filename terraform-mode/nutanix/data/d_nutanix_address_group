@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_address_group
+# key: d_nutanix_address_group
+# --
+
+data "nutanix_address_group" "${1:this}" {
+    uuid = "${2:uuid}"
+}

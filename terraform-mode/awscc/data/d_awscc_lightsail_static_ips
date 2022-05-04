@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lightsail_static_ips
+# key: d_awscc_lightsail_static_ips
+# --
+
+data "awscc_lightsail_static_ips" "${1:this}" {
+}

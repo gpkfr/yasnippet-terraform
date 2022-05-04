@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akeyless_target
+# key: d_akeyless_target
+# --
+
+data "akeyless_target" "${1:this}" {
+    name = "${2:name}"
+}

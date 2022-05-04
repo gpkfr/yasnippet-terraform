@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_ftp_ctl
+# key: r_thunder_slb_ftp_ctl
+# --
+
+resource "thunder_slb_ftp_ctl" "${1:this}" {
+}

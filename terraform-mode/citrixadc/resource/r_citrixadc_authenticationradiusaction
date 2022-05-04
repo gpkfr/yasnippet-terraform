@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationradiusaction
+# key: r_citrixadc_authenticationradiusaction
+# --
+
+resource "citrixadc_authenticationradiusaction" "${1:this}" {
+    name = "${2:name}"
+    radkey = "${3:radkey}"
+}

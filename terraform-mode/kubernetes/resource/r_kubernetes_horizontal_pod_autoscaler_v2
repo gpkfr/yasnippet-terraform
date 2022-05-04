@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_horizontal_pod_autoscaler_v2
+# key: r_kubernetes_horizontal_pod_autoscaler_v2
+# --
+
+resource "kubernetes_horizontal_pod_autoscaler_v2" "${1:this}" {
+}

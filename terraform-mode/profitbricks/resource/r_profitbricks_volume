@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_volume
+# key: r_profitbricks_volume
+# --
+
+resource "profitbricks_volume" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    disk_type = "${3:disk_type}"
+    server_id = "${4:server_id}"
+    size = "${5:size}"
+}

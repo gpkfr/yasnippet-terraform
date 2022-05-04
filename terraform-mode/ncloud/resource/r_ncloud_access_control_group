@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_access_control_group
+# key: r_ncloud_access_control_group
+# --
+
+resource "ncloud_access_control_group" "${1:this}" {
+    vpc_no = "${2:vpc_no}"
+}

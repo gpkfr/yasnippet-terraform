@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_dns
+# key: r_thunder_slb_template_dns
+# --
+
+resource "thunder_slb_template_dns" "${1:this}" {
+    name = "${2:name}"
+}

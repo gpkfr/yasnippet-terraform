@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_google_compute_health_check
+# key: d_google_compute_health_check
+# --
+
+data "google_compute_health_check" "${1:this}" {
+    name = "${2:name}"
+}

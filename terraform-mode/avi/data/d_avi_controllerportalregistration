@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_controllerportalregistration
+# key: d_avi_controllerportalregistration
+# --
+
+data "avi_controllerportalregistration" "${1:this}" {
+}

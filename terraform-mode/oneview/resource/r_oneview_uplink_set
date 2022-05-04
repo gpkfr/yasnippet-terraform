@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_oneview_uplink_set
+# key: r_oneview_uplink_set
+# --
+
+resource "oneview_uplink_set" "${1:this}" {
+    connection_mode = "${2:connection_mode}"
+    ethernet_network_type = "${3:ethernet_network_type}"
+    fc_network_uris = "${4:fc_network_uris}"
+    fcoe_network_uris = "${5:fcoe_network_uris}"
+    logical_interconnect_uri = "${6:logical_interconnect_uri}"
+    manual_login_redistribution_state = "${7:manual_login_redistribution_state}"
+    name = "${8:name}"
+    network_type = "${9:network_type}"
+    network_uris = "${10:network_uris}"
+}

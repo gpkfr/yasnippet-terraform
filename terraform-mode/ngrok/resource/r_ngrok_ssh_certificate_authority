@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_ssh_certificate_authority
+# key: r_ngrok_ssh_certificate_authority
+# --
+
+resource "ngrok_ssh_certificate_authority" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_backup
+# key: r_ciscoasa_backup
+# --
+
+resource "ciscoasa_backup" "${1:this}" {
+}

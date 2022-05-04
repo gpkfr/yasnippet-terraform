@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_panos_local_user_db_group
+# key: d_panos_local_user_db_group
+# --
+
+data "panos_local_user_db_group" "${1:this}" {
+    name = "${2:name}"
+}

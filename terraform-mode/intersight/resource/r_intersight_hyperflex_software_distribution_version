@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_software_distribution_version
+# key: r_intersight_hyperflex_software_distribution_version
+# --
+
+resource "intersight_hyperflex_software_distribution_version" "${1:this}" {
+}

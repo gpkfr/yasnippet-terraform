@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ovh_cloud_project_kube
+# key: r_ovh_cloud_project_kube
+# --
+
+resource "ovh_cloud_project_kube" "${1:this}" {
+    region = "${2:region}"
+    service_name = "${3:service_name}"
+}

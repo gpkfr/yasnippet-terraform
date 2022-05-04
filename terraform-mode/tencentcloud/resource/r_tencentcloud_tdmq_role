@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_tdmq_role
+# key: r_tencentcloud_tdmq_role
+# --
+
+resource "tencentcloud_tdmq_role" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    remark = "${3:remark}"
+    role_name = "${4:role_name}"
+}

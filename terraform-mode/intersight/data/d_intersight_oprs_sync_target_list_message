@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_oprs_sync_target_list_message
+# key: d_intersight_oprs_sync_target_list_message
+# --
+
+data "intersight_oprs_sync_target_list_message" "${1:this}" {
+}

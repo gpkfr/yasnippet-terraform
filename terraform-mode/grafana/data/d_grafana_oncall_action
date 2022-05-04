@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_grafana_oncall_action
+# key: d_grafana_oncall_action
+# --
+
+data "grafana_oncall_action" "${1:this}" {
+    name = "${2:name}"
+}

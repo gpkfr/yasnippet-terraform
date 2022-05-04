@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_apigateway_certificate
+# key: r_oci_apigateway_certificate
+# --
+
+resource "oci_apigateway_certificate" "${1:this}" {
+    certificate = "${2:certificate}"
+    compartment_id = "${3:compartment_id}"
+    private_key = "${4:private_key}"
+}

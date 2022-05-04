@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_privateca_ca_pool_iam_member
+# key: r_google_privateca_ca_pool_iam_member
+# --
+
+resource "google_privateca_ca_pool_iam_member" "${1:this}" {
+    ca_pool = "${2:ca_pool}"
+    member = "${3:member}"
+    role = "${4:role}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_okta_org_support
+# key: r_okta_org_support
+# --
+
+resource "okta_org_support" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnsessionaction
+# key: r_citrixadc_vpnsessionaction
+# --
+
+resource "citrixadc_vpnsessionaction" "${1:this}" {
+    name = "${2:name}"
+}

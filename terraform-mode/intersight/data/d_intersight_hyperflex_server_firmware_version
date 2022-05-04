@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_server_firmware_version
+# key: d_intersight_hyperflex_server_firmware_version
+# --
+
+data "intersight_hyperflex_server_firmware_version" "${1:this}" {
+}

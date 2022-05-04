@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_opennebula_security_group
+# key: r_opennebula_security_group
+# --
+
+resource "opennebula_security_group" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_dayu_eip
+# key: d_tencentcloud_dayu_eip
+# --
+
+data "tencentcloud_dayu_eip" "${1:this}" {
+    resource_id = "${2:resource_id}"
+}

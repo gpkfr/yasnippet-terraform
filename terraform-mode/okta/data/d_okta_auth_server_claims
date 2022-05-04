@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_okta_auth_server_claims
+# key: d_okta_auth_server_claims
+# --
+
+data "okta_auth_server_claims" "${1:this}" {
+    auth_server_id = "${2:auth_server_id}"
+}

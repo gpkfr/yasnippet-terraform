@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_amplify_webhook
+# key: r_aws_amplify_webhook
+# --
+
+resource "aws_amplify_webhook" "${1:this}" {
+    app_id = "${2:app_id}"
+    branch_name = "${3:branch_name}"
+}

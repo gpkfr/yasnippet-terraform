@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_virtual_machine_infrastructure_provider
+# key: d_intersight_kubernetes_virtual_machine_infrastructure_provider
+# --
+
+data "intersight_kubernetes_virtual_machine_infrastructure_provider" "${1:this}" {
+}

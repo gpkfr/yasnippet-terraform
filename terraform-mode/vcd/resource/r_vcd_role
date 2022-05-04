@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_role
+# key: r_vcd_role
+# --
+
+resource "vcd_role" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+}

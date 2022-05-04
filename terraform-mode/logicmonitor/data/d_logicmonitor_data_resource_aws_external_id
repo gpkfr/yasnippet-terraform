@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logicmonitor_data_resource_aws_external_id
+# key: d_logicmonitor_data_resource_aws_external_id
+# --
+
+data "logicmonitor_data_resource_aws_external_id" "${1:this}" {
+}

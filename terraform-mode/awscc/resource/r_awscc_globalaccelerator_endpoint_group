@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_globalaccelerator_endpoint_group
+# key: r_awscc_globalaccelerator_endpoint_group
+# --
+
+resource "awscc_globalaccelerator_endpoint_group" "${1:this}" {
+    endpoint_group_region = "${2:endpoint_group_region}"
+    listener_arn = "${3:listener_arn}"
+}

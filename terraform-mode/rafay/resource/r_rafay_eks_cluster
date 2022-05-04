@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rafay_eks_cluster
+# key: r_rafay_eks_cluster
+# --
+
+resource "rafay_eks_cluster" "${1:this}" {
+}

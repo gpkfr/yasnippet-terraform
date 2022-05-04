@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_steampipecloud_user
+# key: d_steampipecloud_user
+# --
+
+data "steampipecloud_user" "${1:this}" {
+}

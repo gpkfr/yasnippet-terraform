@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_pnap_reservation
+# key: d_pnap_reservation
+# --
+
+data "pnap_reservation" "${1:this}" {
+}

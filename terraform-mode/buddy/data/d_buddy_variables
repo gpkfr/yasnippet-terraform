@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_buddy_variables
+# key: d_buddy_variables
+# --
+
+data "buddy_variables" "${1:this}" {
+    domain = "${2:domain}"
+}

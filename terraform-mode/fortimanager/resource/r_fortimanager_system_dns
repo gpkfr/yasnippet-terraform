@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_dns
+# key: r_fortimanager_system_dns
+# --
+
+resource "fortimanager_system_dns" "${1:this}" {
+}

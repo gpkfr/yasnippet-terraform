@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_logzio_log_shipping_token
+# key: r_logzio_log_shipping_token
+# --
+
+resource "logzio_log_shipping_token" "${1:this}" {
+    name = "${2:name}"
+}

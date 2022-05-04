@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_certificate_remote
+# key: r_fortimanager_system_certificate_remote
+# --
+
+resource "fortimanager_system_certificate_remote" "${1:this}" {
+}

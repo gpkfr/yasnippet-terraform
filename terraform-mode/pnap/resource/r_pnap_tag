@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_pnap_tag
+# key: r_pnap_tag
+# --
+
+resource "pnap_tag" "${1:this}" {
+    is_billing_tag = "${2:is_billing_tag}"
+    name = "${3:name}"
+}

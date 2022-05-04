@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_tech_support_file
+# key: d_panos_tech_support_file
+# --
+
+data "panos_tech_support_file" "${1:this}" {
+}

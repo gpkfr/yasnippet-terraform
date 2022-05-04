@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iottwinmaker_workspace
+# key: r_awscc_iottwinmaker_workspace
+# --
+
+resource "awscc_iottwinmaker_workspace" "${1:this}" {
+    role = "${2:role}"
+    s3_location = "${3:s3_location}"
+    workspace_id = "${4:workspace_id}"
+}

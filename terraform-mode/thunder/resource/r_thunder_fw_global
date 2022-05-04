@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_global
+# key: r_thunder_fw_global
+# --
+
+resource "thunder_fw_global" "${1:this}" {
+}

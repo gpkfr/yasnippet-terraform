@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nshttpprofile
+# key: r_citrixadc_nshttpprofile
+# --
+
+resource "citrixadc_nshttpprofile" "${1:this}" {
+    name = "${2:name}"
+}

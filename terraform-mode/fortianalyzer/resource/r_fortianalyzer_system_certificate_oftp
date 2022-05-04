@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_certificate_oftp
+# key: r_fortianalyzer_system_certificate_oftp
+# --
+
+resource "fortianalyzer_system_certificate_oftp" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_thunder_file_csr
+# key: r_thunder_file_csr
+# --
+
+resource "thunder_file_csr" "${1:this}" {
+    common_name = "${2:common_name}"
+    country = "${3:country}"
+    name = "${4:name}"
+}

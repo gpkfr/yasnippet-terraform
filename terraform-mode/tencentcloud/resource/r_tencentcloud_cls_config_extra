@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cls_config_extra
+# key: r_tencentcloud_cls_config_extra
+# --
+
+resource "tencentcloud_cls_config_extra" "${1:this}" {
+    config_flag = "${2:config_flag}"
+    log_type = "${3:log_type}"
+    logset_id = "${4:logset_id}"
+    logset_name = "${5:logset_name}"
+    name = "${6:name}"
+    topic_id = "${7:topic_id}"
+    topic_name = "${8:topic_name}"
+    type = "${9:type}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_backup_backup_selection
+# key: r_awscc_backup_backup_selection
+# --
+
+resource "awscc_backup_backup_selection" "${1:this}" {
+    backup_plan_id = "${2:backup_plan_id}"
+    backup_selection = "${3:backup_selection}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_dsm_connection
+# key: r_ciphertrust_dsm_connection
+# --
+
+resource "ciphertrust_dsm_connection" "${1:this}" {
+    name = "${2:name}"
+    password = "${3:password}"
+    username = "${4:username}"
+}

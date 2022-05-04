@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ecr_registry_policies
+# key: d_awscc_ecr_registry_policies
+# --
+
+data "awscc_ecr_registry_policies" "${1:this}" {
+}

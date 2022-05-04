@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_protocol_template_groups
+# key: d_tencentcloud_protocol_template_groups
+# --
+
+data "tencentcloud_protocol_template_groups" "${1:this}" {
+}

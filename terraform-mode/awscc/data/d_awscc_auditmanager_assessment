@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_auditmanager_assessment
+# key: d_awscc_auditmanager_assessment
+# --
+
+data "awscc_auditmanager_assessment" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_upgrade_impact_status
+# key: d_intersight_firmware_upgrade_impact_status
+# --
+
+data "intersight_firmware_upgrade_impact_status" "${1:this}" {
+}

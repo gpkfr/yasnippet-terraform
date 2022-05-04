@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ivs_recording_configurations
+# key: d_awscc_ivs_recording_configurations
+# --
+
+data "awscc_ivs_recording_configurations" "${1:this}" {
+}

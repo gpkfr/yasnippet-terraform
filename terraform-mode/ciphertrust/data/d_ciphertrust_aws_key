@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ciphertrust_aws_key
+# key: d_ciphertrust_aws_key
+# --
+
+data "ciphertrust_aws_key" "${1:this}" {
+}

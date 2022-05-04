@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_loggings
+# key: d_awscc_iot_loggings
+# --
+
+data "awscc_iot_loggings" "${1:this}" {
+}

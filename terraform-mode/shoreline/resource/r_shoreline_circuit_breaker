@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_shoreline_circuit_breaker
+# key: r_shoreline_circuit_breaker
+# --
+
+resource "shoreline_circuit_breaker" "${1:this}" {
+    blackout_limit = "${2:blackout_limit}"
+    breaker_type = "${3:breaker_type}"
+    command = "${4:command}"
+    duration = "${5:duration}"
+    fail_over = "${6:fail_over}"
+    name = "${7:name}"
+}

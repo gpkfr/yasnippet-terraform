@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_metering_computation_query
+# key: r_oci_metering_computation_query
+# --
+
+resource "oci_metering_computation_query" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

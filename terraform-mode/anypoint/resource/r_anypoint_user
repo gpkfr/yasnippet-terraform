@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_anypoint_user
+# key: r_anypoint_user
+# --
+
+resource "anypoint_user" "${1:this}" {
+    email = "${2:email}"
+    first_name = "${3:first_name}"
+    last_name = "${4:last_name}"
+    org_id = "${5:org_id}"
+    password = "${6:password}"
+    phone_number = "${7:phone_number}"
+    username = "${8:username}"
+}

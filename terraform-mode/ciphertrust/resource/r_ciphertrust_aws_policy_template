@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_aws_policy_template
+# key: r_ciphertrust_aws_policy_template
+# --
+
+resource "ciphertrust_aws_policy_template" "${1:this}" {
+    kms = "${2:kms}"
+}

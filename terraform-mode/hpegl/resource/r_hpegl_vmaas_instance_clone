@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_hpegl_vmaas_instance_clone
+# key: r_hpegl_vmaas_instance_clone
+# --
+
+resource "hpegl_vmaas_instance_clone" "${1:this}" {
+    name = "${2:name}"
+    source_instance_id = "${3:source_instance_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_glue_schema_version
+# key: r_awscc_glue_schema_version
+# --
+
+resource "awscc_glue_schema_version" "${1:this}" {
+    schema = "${2:schema}"
+    schema_definition = "${3:schema_definition}"
+}

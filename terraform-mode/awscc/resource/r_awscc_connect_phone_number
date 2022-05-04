@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_connect_phone_number
+# key: r_awscc_connect_phone_number
+# --
+
+resource "awscc_connect_phone_number" "${1:this}" {
+    country_code = "${2:country_code}"
+    target_arn = "${3:target_arn}"
+    type = "${4:type}"
+}

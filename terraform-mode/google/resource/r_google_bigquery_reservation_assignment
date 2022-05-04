@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_bigquery_reservation_assignment
+# key: r_google_bigquery_reservation_assignment
+# --
+
+resource "google_bigquery_reservation_assignment" "${1:this}" {
+    assignee = "${2:assignee}"
+    job_type = "${3:job_type}"
+    reservation = "${4:reservation}"
+}

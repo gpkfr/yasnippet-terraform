@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_betteruptime_heartbeat
+# key: r_betteruptime_heartbeat
+# --
+
+resource "betteruptime_heartbeat" "${1:this}" {
+    grace = "${2:grace}"
+    name = "${3:name}"
+    period = "${4:period}"
+}

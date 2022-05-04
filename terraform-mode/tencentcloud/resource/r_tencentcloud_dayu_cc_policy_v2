@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_dayu_cc_policy_v2
+# key: r_tencentcloud_dayu_cc_policy_v2
+# --
+
+resource "tencentcloud_dayu_cc_policy_v2" "${1:this}" {
+    business = "${2:business}"
+    resource_id = "${3:resource_id}"
+}

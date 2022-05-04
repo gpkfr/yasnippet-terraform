@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_timestream_scheduled_queries
+# key: d_awscc_timestream_scheduled_queries
+# --
+
+data "awscc_timestream_scheduled_queries" "${1:this}" {
+}

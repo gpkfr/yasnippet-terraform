@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_okta_captcha
+# key: r_okta_captcha
+# --
+
+resource "okta_captcha" "${1:this}" {
+    name = "${2:name}"
+    secret_key = "${3:secret_key}"
+    site_key = "${4:site_key}"
+    type = "${5:type}"
+}

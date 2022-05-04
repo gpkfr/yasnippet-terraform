@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_kubernetes_cluster_profile
+# key: r_intersight_kubernetes_cluster_profile
+# --
+
+resource "intersight_kubernetes_cluster_profile" "${1:this}" {
+}

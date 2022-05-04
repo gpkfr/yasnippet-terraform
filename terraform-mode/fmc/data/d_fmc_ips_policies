@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fmc_ips_policies
+# key: d_fmc_ips_policies
+# --
+
+data "fmc_ips_policies" "${1:this}" {
+    name = "${2:name}"
+}

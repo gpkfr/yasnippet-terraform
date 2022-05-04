@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_metering_computation_schedule
+# key: r_oci_metering_computation_schedule
+# --
+
+resource "oci_metering_computation_schedule" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    name = "${3:name}"
+    schedule_recurrences = "${4:schedule_recurrences}"
+    time_scheduled = "${5:time_scheduled}"
+}

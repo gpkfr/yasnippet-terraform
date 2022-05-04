@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_user_group
+# key: r_site24x7_user_group
+# --
+
+resource "site24x7_user_group" "${1:this}" {
+    attribute_group_id = "${2:attribute_group_id}"
+    display_name = "${3:display_name}"
+    users = "${4:users}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_global_sslciphersuites
+# key: r_fortimanager_system_global_sslciphersuites
+# --
+
+resource "fortimanager_system_global_sslciphersuites" "${1:this}" {
+}

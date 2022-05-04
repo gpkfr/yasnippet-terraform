@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_hpegl_vmaas_network
+# key: r_hpegl_vmaas_network
+# --
+
+resource "hpegl_vmaas_network" "${1:this}" {
+    cidr = "${2:cidr}"
+    group_id = "${3:group_id}"
+    name = "${4:name}"
+    scope_id = "${5:scope_id}"
+}

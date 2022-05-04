@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_harness_git_connector
+# key: r_harness_git_connector
+# --
+
+resource "harness_git_connector" "${1:this}" {
+    name = "${2:name}"
+    url = "${3:url}"
+    url_type = "${4:url_type}"
+}

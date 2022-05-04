@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_workflow_approvalmatrix
+# key: r_fortimanager_system_workflow_approvalmatrix
+# --
+
+resource "fortimanager_system_workflow_approvalmatrix" "${1:this}" {
+}

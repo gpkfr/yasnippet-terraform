@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_sku_container_type
+# key: d_intersight_cloud_sku_container_type
+# --
+
+data "intersight_cloud_sku_container_type" "${1:this}" {
+}

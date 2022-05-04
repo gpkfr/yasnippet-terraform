@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_dns_logging
+# key: r_thunder_slb_template_dns_logging
+# --
+
+resource "thunder_slb_template_dns_logging" "${1:this}" {
+    name = "${2:name}"
+}

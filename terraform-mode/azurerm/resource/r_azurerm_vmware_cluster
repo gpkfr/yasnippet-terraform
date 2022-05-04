@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_vmware_cluster
+# key: r_azurerm_vmware_cluster
+# --
+
+resource "azurerm_vmware_cluster" "${1:this}" {
+    cluster_node_count = "${2:cluster_node_count}"
+    name = "${3:name}"
+    sku_name = "${4:sku_name}"
+    vmware_cloud_id = "${5:vmware_cloud_id}"
+}

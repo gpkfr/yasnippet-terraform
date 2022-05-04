@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_identitystore_group
+# key: d_aws_identitystore_group
+# --
+
+data "aws_identitystore_group" "${1:this}" {
+    identity_store_id = "${2:identity_store_id}"
+}

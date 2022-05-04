@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_console_console_config
+# key: d_intersight_console_console_config
+# --
+
+data "intersight_console_console_config" "${1:this}" {
+}

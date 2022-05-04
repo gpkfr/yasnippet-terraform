@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_aps_rule_groups_namespace
+# key: r_awscc_aps_rule_groups_namespace
+# --
+
+resource "awscc_aps_rule_groups_namespace" "${1:this}" {
+    data = "${2:data}"
+    name = "${3:name}"
+    workspace = "${4:workspace}"
+}

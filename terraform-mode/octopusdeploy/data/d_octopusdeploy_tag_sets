@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_tag_sets
+# key: d_octopusdeploy_tag_sets
+# --
+
+data "octopusdeploy_tag_sets" "${1:this}" {
+}

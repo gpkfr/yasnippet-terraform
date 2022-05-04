@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ga_ip_set
+# key: r_alicloud_ga_ip_set
+# --
+
+resource "alicloud_ga_ip_set" "${1:this}" {
+    accelerate_region_id = "${2:accelerate_region_id}"
+    accelerator_id = "${3:accelerator_id}"
+}

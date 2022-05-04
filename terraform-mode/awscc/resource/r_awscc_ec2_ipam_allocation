@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_ipam_allocation
+# key: r_awscc_ec2_ipam_allocation
+# --
+
+resource "awscc_ec2_ipam_allocation" "${1:this}" {
+    ipam_pool_id = "${2:ipam_pool_id}"
+}

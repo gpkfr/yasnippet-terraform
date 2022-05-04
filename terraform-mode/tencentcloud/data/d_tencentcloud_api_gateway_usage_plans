@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_api_gateway_usage_plans
+# key: d_tencentcloud_api_gateway_usage_plans
+# --
+
+data "tencentcloud_api_gateway_usage_plans" "${1:this}" {
+}

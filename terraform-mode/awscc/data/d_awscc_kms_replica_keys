@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_kms_replica_keys
+# key: d_awscc_kms_replica_keys
+# --
+
+data "awscc_kms_replica_keys" "${1:this}" {
+}

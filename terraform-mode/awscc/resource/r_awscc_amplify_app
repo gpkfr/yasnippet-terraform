@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_amplify_app
+# key: r_awscc_amplify_app
+# --
+
+resource "awscc_amplify_app" "${1:this}" {
+    name = "${2:name}"
+}

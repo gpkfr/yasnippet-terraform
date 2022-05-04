@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_shoreline_resource
+# key: r_shoreline_resource
+# --
+
+resource "shoreline_resource" "${1:this}" {
+    name = "${2:name}"
+    value = "${3:value}"
+}

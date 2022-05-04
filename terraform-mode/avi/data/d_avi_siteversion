@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_siteversion
+# key: d_avi_siteversion
+# --
+
+data "avi_siteversion" "${1:this}" {
+}

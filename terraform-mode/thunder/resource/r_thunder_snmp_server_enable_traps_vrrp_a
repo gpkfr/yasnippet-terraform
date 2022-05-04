@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_snmp_server_enable_traps_vrrp_a
+# key: r_thunder_snmp_server_enable_traps_vrrp_a
+# --
+
+resource "thunder_snmp_server_enable_traps_vrrp_a" "${1:this}" {
+}

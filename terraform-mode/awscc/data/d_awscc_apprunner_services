@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_apprunner_services
+# key: d_awscc_apprunner_services
+# --
+
+data "awscc_apprunner_services" "${1:this}" {
+}

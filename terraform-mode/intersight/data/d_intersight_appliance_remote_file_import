@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_remote_file_import
+# key: d_intersight_appliance_remote_file_import
+# --
+
+data "intersight_appliance_remote_file_import" "${1:this}" {
+}

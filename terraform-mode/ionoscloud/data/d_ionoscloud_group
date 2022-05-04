@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_group
+# key: d_ionoscloud_group
+# --
+
+data "ionoscloud_group" "${1:this}" {
+}

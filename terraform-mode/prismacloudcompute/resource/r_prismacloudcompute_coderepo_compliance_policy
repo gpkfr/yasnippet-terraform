@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_prismacloudcompute_coderepo_compliance_policy
+# key: r_prismacloudcompute_coderepo_compliance_policy
+# --
+
+resource "prismacloudcompute_coderepo_compliance_policy" "${1:this}" {
+}

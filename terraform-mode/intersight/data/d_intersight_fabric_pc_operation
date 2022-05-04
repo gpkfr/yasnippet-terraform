@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_pc_operation
+# key: d_intersight_fabric_pc_operation
+# --
+
+data "intersight_fabric_pc_operation" "${1:this}" {
+}

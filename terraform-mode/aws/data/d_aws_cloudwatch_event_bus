@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudwatch_event_bus
+# key: d_aws_cloudwatch_event_bus
+# --
+
+data "aws_cloudwatch_event_bus" "${1:this}" {
+    name = "${2:name}"
+}

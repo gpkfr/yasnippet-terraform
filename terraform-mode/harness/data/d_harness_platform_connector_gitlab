@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_platform_connector_gitlab
+# key: d_harness_platform_connector_gitlab
+# --
+
+data "harness_platform_connector_gitlab" "${1:this}" {
+}

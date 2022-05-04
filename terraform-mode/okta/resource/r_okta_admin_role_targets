@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_admin_role_targets
+# key: r_okta_admin_role_targets
+# --
+
+resource "okta_admin_role_targets" "${1:this}" {
+    role_type = "${2:role_type}"
+    user_id = "${3:user_id}"
+}

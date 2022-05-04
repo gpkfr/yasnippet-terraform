@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_global_role
+# key: r_vcd_global_role
+# --
+
+resource "vcd_global_role" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+    publish_to_all_tenants = "${4:publish_to_all_tenants}"
+}

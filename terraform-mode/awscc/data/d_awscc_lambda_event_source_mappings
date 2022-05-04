@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lambda_event_source_mappings
+# key: d_awscc_lambda_event_source_mappings
+# --
+
+data "awscc_lambda_event_source_mappings" "${1:this}" {
+}

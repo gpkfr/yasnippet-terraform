@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_dnspod_record
+# key: r_tencentcloud_dnspod_record
+# --
+
+resource "tencentcloud_dnspod_record" "${1:this}" {
+    domain = "${2:domain}"
+    record_line = "${3:record_line}"
+    record_type = "${4:record_type}"
+    value = "${5:value}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_certificates_management_ca_bundles
+# key: d_oci_certificates_management_ca_bundles
+# --
+
+data "oci_certificates_management_ca_bundles" "${1:this}" {
+}

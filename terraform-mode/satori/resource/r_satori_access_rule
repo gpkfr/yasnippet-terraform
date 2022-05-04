@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_satori_access_rule
+# key: r_satori_access_rule
+# --
+
+resource "satori_access_rule" "${1:this}" {
+    access_level = "${2:access_level}"
+    parent_data_policy = "${3:parent_data_policy}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tfe_agent_pool
+# key: r_tfe_agent_pool
+# --
+
+resource "tfe_agent_pool" "${1:this}" {
+    name = "${2:name}"
+    organization = "${3:organization}"
+}

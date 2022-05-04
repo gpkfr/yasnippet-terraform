@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_databricks_dbfs_file
+# key: r_databricks_dbfs_file
+# --
+
+resource "databricks_dbfs_file" "${1:this}" {
+    path = "${2:path}"
+}

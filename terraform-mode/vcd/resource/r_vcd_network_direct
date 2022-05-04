@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_network_direct
+# key: r_vcd_network_direct
+# --
+
+resource "vcd_network_direct" "${1:this}" {
+    external_network = "${2:external_network}"
+    name = "${3:name}"
+}

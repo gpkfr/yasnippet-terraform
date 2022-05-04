@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_vm_cluster_add_virtual_machine
+# key: r_oci_database_vm_cluster_add_virtual_machine
+# --
+
+resource "oci_database_vm_cluster_add_virtual_machine" "${1:this}" {
+    vm_cluster_id = "${2:vm_cluster_id}"
+}

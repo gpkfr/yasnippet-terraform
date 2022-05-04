@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationpolicylabel
+# key: r_citrixadc_authenticationpolicylabel
+# --
+
+resource "citrixadc_authenticationpolicylabel" "${1:this}" {
+    labelname = "${2:labelname}"
+}

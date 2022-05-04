@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dome9_continuous_compliance_policy
+# key: r_dome9_continuous_compliance_policy
+# --
+
+resource "dome9_continuous_compliance_policy" "${1:this}" {
+    notification_ids = "${2:notification_ids}"
+    target_id = "${3:target_id}"
+    target_type = "${4:target_type}"
+}

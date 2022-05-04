@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_ocean_aks_virtual_node_group
+# key: r_spotinst_ocean_aks_virtual_node_group
+# --
+
+resource "spotinst_ocean_aks_virtual_node_group" "${1:this}" {
+    name = "${2:name}"
+    ocean_id = "${3:ocean_id}"
+}

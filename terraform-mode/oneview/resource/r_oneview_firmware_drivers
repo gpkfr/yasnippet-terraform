@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oneview_firmware_drivers
+# key: r_oneview_firmware_drivers
+# --
+
+resource "oneview_firmware_drivers" "${1:this}" {
+    baseline_uri = "${2:baseline_uri}"
+    custom_baseline_name = "${3:custom_baseline_name}"
+    hotfix_uris = "${4:hotfix_uris}"
+}

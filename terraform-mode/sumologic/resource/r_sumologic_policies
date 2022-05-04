@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_policies
+# key: r_sumologic_policies
+# --
+
+resource "sumologic_policies" "${1:this}" {
+    audit = "${2:audit}"
+    data_access_level = "${3:data_access_level}"
+    max_user_session_timeout = "${4:max_user_session_timeout}"
+    search_audit = "${5:search_audit}"
+    share_dashboards_outside_organization = "${6:share_dashboards_outside_organization}"
+}

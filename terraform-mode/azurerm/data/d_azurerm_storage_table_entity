@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_storage_table_entity
+# key: d_azurerm_storage_table_entity
+# --
+
+data "azurerm_storage_table_entity" "${1:this}" {
+    partition_key = "${2:partition_key}"
+    row_key = "${3:row_key}"
+    storage_account_name = "${4:storage_account_name}"
+    table_name = "${5:table_name}"
+}

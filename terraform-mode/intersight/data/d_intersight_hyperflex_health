@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_health
+# key: d_intersight_hyperflex_health
+# --
+
+data "intersight_hyperflex_health" "${1:this}" {
+}

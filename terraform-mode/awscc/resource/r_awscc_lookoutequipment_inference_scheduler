@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lookoutequipment_inference_scheduler
+# key: r_awscc_lookoutequipment_inference_scheduler
+# --
+
+resource "awscc_lookoutequipment_inference_scheduler" "${1:this}" {
+    data_input_configuration = "${2:data_input_configuration}"
+    data_output_configuration = "${3:data_output_configuration}"
+    data_upload_frequency = "${4:data_upload_frequency}"
+    model_name = "${5:model_name}"
+    role_arn = "${6:role_arn}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_metal_reserved_ip_block
+# key: d_metal_reserved_ip_block
+# --
+
+data "metal_reserved_ip_block" "${1:this}" {
+}

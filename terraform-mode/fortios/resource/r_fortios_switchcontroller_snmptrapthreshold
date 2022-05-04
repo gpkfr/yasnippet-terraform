@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_snmptrapthreshold
+# key: r_fortios_switchcontroller_snmptrapthreshold
+# --
+
+resource "fortios_switchcontroller_snmptrapthreshold" "${1:this}" {
+}

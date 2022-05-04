@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_fallback_domain
+# key: r_cloudflare_fallback_domain
+# --
+
+resource "cloudflare_fallback_domain" "${1:this}" {
+    account_id = "${2:account_id}"
+}

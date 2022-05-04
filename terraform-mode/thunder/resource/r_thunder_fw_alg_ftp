@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_alg_ftp
+# key: r_thunder_fw_alg_ftp
+# --
+
+resource "thunder_fw_alg_ftp" "${1:this}" {
+}

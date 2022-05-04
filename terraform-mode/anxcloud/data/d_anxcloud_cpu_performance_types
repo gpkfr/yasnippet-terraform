@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_anxcloud_cpu_performance_types
+# key: d_anxcloud_cpu_performance_types
+# --
+
+data "anxcloud_cpu_performance_types" "${1:this}" {
+}

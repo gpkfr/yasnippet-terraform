@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_datadog_agent
+# key: r_aviatrix_datadog_agent
+# --
+
+resource "aviatrix_datadog_agent" "${1:this}" {
+    api_key = "${2:api_key}"
+}

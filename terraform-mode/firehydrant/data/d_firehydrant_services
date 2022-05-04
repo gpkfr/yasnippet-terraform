@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_firehydrant_services
+# key: d_firehydrant_services
+# --
+
+data "firehydrant_services" "${1:this}" {
+}

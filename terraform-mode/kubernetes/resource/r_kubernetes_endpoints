@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_endpoints
+# key: r_kubernetes_endpoints
+# --
+
+resource "kubernetes_endpoints" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_discovery_job
+# key: d_oci_data_safe_discovery_job
+# --
+
+data "oci_data_safe_discovery_job" "${1:this}" {
+    discovery_job_id = "${2:discovery_job_id}"
+}

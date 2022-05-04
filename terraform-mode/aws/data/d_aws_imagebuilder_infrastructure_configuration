@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_imagebuilder_infrastructure_configuration
+# key: d_aws_imagebuilder_infrastructure_configuration
+# --
+
+data "aws_imagebuilder_infrastructure_configuration" "${1:this}" {
+    arn = "${2:arn}"
+}

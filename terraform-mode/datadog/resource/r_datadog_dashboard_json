@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_datadog_dashboard_json
+# key: r_datadog_dashboard_json
+# --
+
+resource "datadog_dashboard_json" "${1:this}" {
+    dashboard = "${2:dashboard}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_cloudfunctions2_function
+# key: r_google_cloudfunctions2_function
+# --
+
+resource "google_cloudfunctions2_function" "${1:this}" {
+    name = "${2:name}"
+}

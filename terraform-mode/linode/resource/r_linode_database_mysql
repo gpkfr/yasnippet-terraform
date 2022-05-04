@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_linode_database_mysql
+# key: r_linode_database_mysql
+# --
+
+resource "linode_database_mysql" "${1:this}" {
+    engine_id = "${2:engine_id}"
+    label = "${3:label}"
+    region = "${4:region}"
+    type = "${5:type}"
+}

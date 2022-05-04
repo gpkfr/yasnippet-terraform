@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_limelight_delivery
+# key: r_limelight_delivery
+# --
+
+resource "limelight_delivery" "${1:this}" {
+    published_hostname = "${2:published_hostname}"
+    published_path = "${3:published_path}"
+    shortname = "${4:shortname}"
+    source_hostname = "${5:source_hostname}"
+    source_path = "${6:source_path}"
+}

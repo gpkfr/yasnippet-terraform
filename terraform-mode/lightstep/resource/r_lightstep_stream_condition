@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_lightstep_stream_condition
+# key: r_lightstep_stream_condition
+# --
+
+resource "lightstep_stream_condition" "${1:this}" {
+    condition_name = "${2:condition_name}"
+    evaluation_window_ms = "${3:evaluation_window_ms}"
+    expression = "${4:expression}"
+    project_name = "${5:project_name}"
+    stream_id = "${6:stream_id}"
+}

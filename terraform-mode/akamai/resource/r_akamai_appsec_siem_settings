@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_siem_settings
+# key: r_akamai_appsec_siem_settings
+# --
+
+resource "akamai_appsec_siem_settings" "${1:this}" {
+    config_id = "${2:config_id}"
+    enable_for_all_policies = "${3:enable_for_all_policies}"
+    enable_siem = "${4:enable_siem}"
+    security_policy_ids = "${5:security_policy_ids}"
+    siem_id = "${6:siem_id}"
+    version = "${7:version}"
+}

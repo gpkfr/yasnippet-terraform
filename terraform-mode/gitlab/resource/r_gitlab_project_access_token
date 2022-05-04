@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_project_access_token
+# key: r_gitlab_project_access_token
+# --
+
+resource "gitlab_project_access_token" "${1:this}" {
+    name = "${2:name}"
+    project = "${3:project}"
+    scopes = "${4:scopes}"
+}

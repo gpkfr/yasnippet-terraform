@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_bulk_sub_request_obj
+# key: d_intersight_bulk_sub_request_obj
+# --
+
+data "intersight_bulk_sub_request_obj" "${1:this}" {
+}

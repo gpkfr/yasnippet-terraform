@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_linked_service_odata
+# key: r_azurerm_data_factory_linked_service_odata
+# --
+
+resource "azurerm_data_factory_linked_service_odata" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    name = "${3:name}"
+    url = "${4:url}"
+}

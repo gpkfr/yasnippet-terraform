@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_helper_sessions
+# key: r_thunder_fw_helper_sessions
+# --
+
+resource "thunder_fw_helper_sessions" "${1:this}" {
+}

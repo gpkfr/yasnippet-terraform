@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_vrf_vrf
+# key: r_intersight_vrf_vrf
+# --
+
+resource "intersight_vrf_vrf" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_sysdig_secure_benchmark_task
+# key: r_sysdig_secure_benchmark_task
+# --
+
+resource "sysdig_secure_benchmark_task" "${1:this}" {
+    name = "${2:name}"
+    schedule = "${3:schedule}"
+    schema = "${4:schema}"
+    scope = "${5:scope}"
+}

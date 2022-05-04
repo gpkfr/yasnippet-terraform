@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_appflow_flows
+# key: d_awscc_appflow_flows
+# --
+
+data "awscc_appflow_flows" "${1:this}" {
+}

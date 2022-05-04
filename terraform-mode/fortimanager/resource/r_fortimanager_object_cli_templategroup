@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_cli_templategroup
+# key: r_fortimanager_object_cli_templategroup
+# --
+
+resource "fortimanager_object_cli_templategroup" "${1:this}" {
+}

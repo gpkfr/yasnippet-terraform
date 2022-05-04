@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_lb
+# key: r_scaleway_lb
+# --
+
+resource "scaleway_lb" "${1:this}" {
+    ip_id = "${2:ip_id}"
+    type = "${3:type}"
+}

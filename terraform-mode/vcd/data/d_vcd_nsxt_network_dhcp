@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxt_network_dhcp
+# key: d_vcd_nsxt_network_dhcp
+# --
+
+data "vcd_nsxt_network_dhcp" "${1:this}" {
+    org_network_id = "${2:org_network_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_systemconfiguration
+# key: r_avi_systemconfiguration
+# --
+
+resource "avi_systemconfiguration" "${1:this}" {
+}

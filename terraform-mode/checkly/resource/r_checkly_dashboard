@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_checkly_dashboard
+# key: r_checkly_dashboard
+# --
+
+resource "checkly_dashboard" "${1:this}" {
+    custom_domain = "${2:custom_domain}"
+    custom_url = "${3:custom_url}"
+    header = "${4:header}"
+    hide_tags = "${5:hide_tags}"
+    logo = "${6:logo}"
+    paginate = "${7:paginate}"
+    pagination_rate = "${8:pagination_rate}"
+    refresh_rate = "${9:refresh_rate}"
+}

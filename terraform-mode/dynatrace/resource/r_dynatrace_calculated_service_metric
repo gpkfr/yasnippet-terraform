@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_calculated_service_metric
+# key: r_dynatrace_calculated_service_metric
+# --
+
+resource "dynatrace_calculated_service_metric" "${1:this}" {
+    metric_key = "${2:metric_key}"
+    name = "${3:name}"
+    unit = "${4:unit}"
+}

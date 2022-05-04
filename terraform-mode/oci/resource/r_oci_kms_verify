@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_oci_kms_verify
+# key: r_oci_kms_verify
+# --
+
+resource "oci_kms_verify" "${1:this}" {
+    crypto_endpoint = "${2:crypto_endpoint}"
+    key_id = "${3:key_id}"
+    key_version_id = "${4:key_version_id}"
+    message = "${5:message}"
+    signature = "${6:signature}"
+    signing_algorithm = "${7:signing_algorithm}"
+}

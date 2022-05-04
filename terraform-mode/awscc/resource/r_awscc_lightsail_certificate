@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lightsail_certificate
+# key: r_awscc_lightsail_certificate
+# --
+
+resource "awscc_lightsail_certificate" "${1:this}" {
+    certificate_name = "${2:certificate_name}"
+    domain_name = "${3:domain_name}"
+}

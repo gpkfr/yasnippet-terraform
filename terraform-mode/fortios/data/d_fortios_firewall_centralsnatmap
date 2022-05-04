@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_centralsnatmap
+# key: d_fortios_firewall_centralsnatmap
+# --
+
+data "fortios_firewall_centralsnatmap" "${1:this}" {
+    policyid = "${2:policyid}"
+}

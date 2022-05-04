@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_alkira_cloudvisor_account
+# key: r_alkira_cloudvisor_account
+# --
+
+resource "alkira_cloudvisor_account" "${1:this}" {
+    auto_sync = "${2:auto_sync}"
+    cloud_provider = "${3:cloud_provider}"
+    credential_id = "${4:credential_id}"
+    name = "${5:name}"
+}

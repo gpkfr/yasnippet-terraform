@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_codeguruprofiler_profiling_groups
+# key: d_awscc_codeguruprofiler_profiling_groups
+# --
+
+data "awscc_codeguruprofiler_profiling_groups" "${1:this}" {
+}

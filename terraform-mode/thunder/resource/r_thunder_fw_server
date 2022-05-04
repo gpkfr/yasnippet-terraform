@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_server
+# key: r_thunder_fw_server
+# --
+
+resource "thunder_fw_server" "${1:this}" {
+}

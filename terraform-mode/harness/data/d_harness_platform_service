@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_harness_platform_service
+# key: d_harness_platform_service
+# --
+
+data "harness_platform_service" "${1:this}" {
+    org_id = "${2:org_id}"
+    project_id = "${3:project_id}"
+}

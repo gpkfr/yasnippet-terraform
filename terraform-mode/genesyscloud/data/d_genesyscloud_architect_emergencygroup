@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_architect_emergencygroup
+# key: d_genesyscloud_architect_emergencygroup
+# --
+
+data "genesyscloud_architect_emergencygroup" "${1:this}" {
+    name = "${2:name}"
+}

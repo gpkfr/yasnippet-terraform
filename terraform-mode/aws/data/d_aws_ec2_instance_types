@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ec2_instance_types
+# key: d_aws_ec2_instance_types
+# --
+
+data "aws_ec2_instance_types" "${1:this}" {
+}

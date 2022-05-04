@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_avips_advancedlog
+# key: r_fortianalyzer_fmupdate_avips_advancedlog
+# --
+
+resource "fortianalyzer_fmupdate_avips_advancedlog" "${1:this}" {
+}

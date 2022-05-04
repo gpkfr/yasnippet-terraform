@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_lacework_alert_channel_jira_server
+# key: r_lacework_alert_channel_jira_server
+# --
+
+resource "lacework_alert_channel_jira_server" "${1:this}" {
+    issue_type = "${2:issue_type}"
+    jira_url = "${3:jira_url}"
+    name = "${4:name}"
+    password = "${5:password}"
+    project_key = "${6:project_key}"
+    username = "${7:username}"
+}

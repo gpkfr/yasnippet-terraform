@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_agile_logical_network
+# key: r_agile_logical_network
+# --
+
+resource "agile_logical_network" "${1:this}" {
+    name = "${2:name}"
+}

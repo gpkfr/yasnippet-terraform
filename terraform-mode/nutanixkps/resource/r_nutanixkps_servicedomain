@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nutanixkps_servicedomain
+# key: r_nutanixkps_servicedomain
+# --
+
+resource "nutanixkps_servicedomain" "${1:this}" {
+    description = "${2:description}"
+    name = "${3:name}"
+}

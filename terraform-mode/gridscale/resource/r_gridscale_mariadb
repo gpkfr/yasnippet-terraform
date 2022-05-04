@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gridscale_mariadb
+# key: r_gridscale_mariadb
+# --
+
+resource "gridscale_mariadb" "${1:this}" {
+    name = "${2:name}"
+    performance_class = "${3:performance_class}"
+    release = "${4:release}"
+}

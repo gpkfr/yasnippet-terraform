@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_file_system_status
+# key: d_intersight_appliance_file_system_status
+# --
+
+data "intersight_appliance_file_system_status" "${1:this}" {
+}

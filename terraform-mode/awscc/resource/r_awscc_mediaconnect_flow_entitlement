@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_mediaconnect_flow_entitlement
+# key: r_awscc_mediaconnect_flow_entitlement
+# --
+
+resource "awscc_mediaconnect_flow_entitlement" "${1:this}" {
+    description = "${2:description}"
+    flow_arn = "${3:flow_arn}"
+    name = "${4:name}"
+    subscribers = "${5:subscribers}"
+}

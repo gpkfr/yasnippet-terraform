@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_ipv6_route_rib
+# key: r_thunder_ipv6_route_rib
+# --
+
+resource "thunder_ipv6_route_rib" "${1:this}" {
+    ipv6_address = "${2:ipv6_address}"
+}

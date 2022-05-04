@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_script_module
+# key: r_octopusdeploy_script_module
+# --
+
+resource "octopusdeploy_script_module" "${1:this}" {
+    name = "${2:name}"
+}

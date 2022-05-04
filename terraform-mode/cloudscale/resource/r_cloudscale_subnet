@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudscale_subnet
+# key: r_cloudscale_subnet
+# --
+
+resource "cloudscale_subnet" "${1:this}" {
+    cidr = "${2:cidr}"
+}

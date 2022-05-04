@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudsearch_domain
+# key: r_aws_cloudsearch_domain
+# --
+
+resource "aws_cloudsearch_domain" "${1:this}" {
+    name = "${2:name}"
+}

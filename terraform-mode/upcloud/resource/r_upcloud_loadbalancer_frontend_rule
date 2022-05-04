@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_loadbalancer_frontend_rule
+# key: r_upcloud_loadbalancer_frontend_rule
+# --
+
+resource "upcloud_loadbalancer_frontend_rule" "${1:this}" {
+    frontend = "${2:frontend}"
+    name = "${3:name}"
+    priority = "${4:priority}"
+}

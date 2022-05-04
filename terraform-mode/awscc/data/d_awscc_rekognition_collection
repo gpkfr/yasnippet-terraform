@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_rekognition_collection
+# key: d_awscc_rekognition_collection
+# --
+
+data "awscc_rekognition_collection" "${1:this}" {
+    id = "${2:id}"
+}

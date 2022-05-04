@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_circle
+# key: d_elasticstack_elasticsearch_ingest_processor_circle
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_circle" "${1:this}" {
+    error_distance = "${2:error_distance}"
+    field = "${3:field}"
+    shape_type = "${4:shape_type}"
+}

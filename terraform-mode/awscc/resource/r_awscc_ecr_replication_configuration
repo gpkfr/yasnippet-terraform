@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ecr_replication_configuration
+# key: r_awscc_ecr_replication_configuration
+# --
+
+resource "awscc_ecr_replication_configuration" "${1:this}" {
+    replication_configuration = "${2:replication_configuration}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_oci_computeinstanceagent_instance_agent_plugin
+# key: d_oci_computeinstanceagent_instance_agent_plugin
+# --
+
+data "oci_computeinstanceagent_instance_agent_plugin" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    instanceagent_id = "${3:instanceagent_id}"
+    plugin_name = "${4:plugin_name}"
+}

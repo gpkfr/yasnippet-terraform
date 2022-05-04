@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_syslog
+# key: r_fortianalyzer_system_syslog
+# --
+
+resource "fortianalyzer_system_syslog" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nslicenseserver
+# key: r_citrixadc_nslicenseserver
+# --
+
+resource "citrixadc_nslicenseserver" "${1:this}" {
+    servername = "${2:servername}"
+}

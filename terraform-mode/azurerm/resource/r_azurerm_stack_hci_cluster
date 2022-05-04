@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_stack_hci_cluster
+# key: r_azurerm_stack_hci_cluster
+# --
+
+resource "azurerm_stack_hci_cluster" "${1:this}" {
+    client_id = "${2:client_id}"
+    location = "${3:location}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+}

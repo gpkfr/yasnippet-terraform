@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_osub_subscription_ratecards
+# key: d_oci_osub_subscription_ratecards
+# --
+
+data "oci_osub_subscription_ratecards" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    subscription_id = "${3:subscription_id}"
+}

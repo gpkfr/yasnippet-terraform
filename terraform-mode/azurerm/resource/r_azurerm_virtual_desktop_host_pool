@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_desktop_host_pool
+# key: r_azurerm_virtual_desktop_host_pool
+# --
+
+resource "azurerm_virtual_desktop_host_pool" "${1:this}" {
+    load_balancer_type = "${2:load_balancer_type}"
+    location = "${3:location}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+    type = "${6:type}"
+}

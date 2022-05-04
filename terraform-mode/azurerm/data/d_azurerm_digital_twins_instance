@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_digital_twins_instance
+# key: d_azurerm_digital_twins_instance
+# --
+
+data "azurerm_digital_twins_instance" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+}

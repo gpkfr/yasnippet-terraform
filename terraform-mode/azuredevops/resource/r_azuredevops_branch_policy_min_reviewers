@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_branch_policy_min_reviewers
+# key: r_azuredevops_branch_policy_min_reviewers
+# --
+
+resource "azuredevops_branch_policy_min_reviewers" "${1:this}" {
+    project_id = "${2:project_id}"
+}

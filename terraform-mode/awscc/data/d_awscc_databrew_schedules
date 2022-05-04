@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_databrew_schedules
+# key: d_awscc_databrew_schedules
+# --
+
+data "awscc_databrew_schedules" "${1:this}" {
+}

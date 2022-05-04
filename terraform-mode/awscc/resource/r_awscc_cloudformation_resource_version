@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudformation_resource_version
+# key: r_awscc_cloudformation_resource_version
+# --
+
+resource "awscc_cloudformation_resource_version" "${1:this}" {
+    schema_handler_package = "${2:schema_handler_package}"
+    type_name = "${3:type_name}"
+}

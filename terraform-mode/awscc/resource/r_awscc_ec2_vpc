@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_vpc
+# key: r_awscc_ec2_vpc
+# --
+
+resource "awscc_ec2_vpc" "${1:this}" {
+}

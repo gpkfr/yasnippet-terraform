@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_repository_object
+# key: d_oci_devops_repository_object
+# --
+
+data "oci_devops_repository_object" "${1:this}" {
+    repository_id = "${2:repository_id}"
+}

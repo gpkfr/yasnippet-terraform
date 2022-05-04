@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_sync_group
+# key: r_azurerm_storage_sync_group
+# --
+
+resource "azurerm_storage_sync_group" "${1:this}" {
+    name = "${2:name}"
+    storage_sync_id = "${3:storage_sync_id}"
+}

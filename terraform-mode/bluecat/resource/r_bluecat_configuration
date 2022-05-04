@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_configuration
+# key: r_bluecat_configuration
+# --
+
+resource "bluecat_configuration" "${1:this}" {
+    name = "${2:name}"
+}

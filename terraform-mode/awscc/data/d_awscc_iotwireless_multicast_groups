@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotwireless_multicast_groups
+# key: d_awscc_iotwireless_multicast_groups
+# --
+
+data "awscc_iotwireless_multicast_groups" "${1:this}" {
+}

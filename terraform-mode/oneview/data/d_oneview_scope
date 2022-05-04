@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_scope
+# key: d_oneview_scope
+# --
+
+data "oneview_scope" "${1:this}" {
+    name = "${2:name}"
+}

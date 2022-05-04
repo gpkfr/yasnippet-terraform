@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_ec2_fleet
+# key: r_awscc_ec2_ec2_fleet
+# --
+
+resource "awscc_ec2_ec2_fleet" "${1:this}" {
+    launch_template_configs = "${2:launch_template_configs}"
+    target_capacity_specification = "${3:target_capacity_specification}"
+}

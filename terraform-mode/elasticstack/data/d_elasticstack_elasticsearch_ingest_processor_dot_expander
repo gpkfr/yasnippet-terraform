@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_dot_expander
+# key: d_elasticstack_elasticsearch_ingest_processor_dot_expander
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_dot_expander" "${1:this}" {
+    field = "${2:field}"
+}

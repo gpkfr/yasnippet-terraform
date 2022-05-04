@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vm_affinity_rule
+# key: r_vcd_vm_affinity_rule
+# --
+
+resource "vcd_vm_affinity_rule" "${1:this}" {
+    name = "${2:name}"
+    polarity = "${3:polarity}"
+    vm_ids = "${4:vm_ids}"
+}

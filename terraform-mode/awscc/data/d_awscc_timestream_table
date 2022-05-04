@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_timestream_table
+# key: d_awscc_timestream_table
+# --
+
+data "awscc_timestream_table" "${1:this}" {
+    id = "${2:id}"
+}

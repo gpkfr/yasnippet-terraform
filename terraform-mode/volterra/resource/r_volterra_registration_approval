@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_registration_approval
+# key: r_volterra_registration_approval
+# --
+
+resource "volterra_registration_approval" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    cluster_size = "${3:cluster_size}"
+    hostname = "${4:hostname}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akeyless_kube_exec_creds
+# key: d_akeyless_kube_exec_creds
+# --
+
+data "akeyless_kube_exec_creds" "${1:this}" {
+    cert_issuer_name = "${2:cert_issuer_name}"
+}

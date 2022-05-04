@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_management_controller
+# key: d_intersight_management_controller
+# --
+
+data "intersight_management_controller" "${1:this}" {
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_reputation_profile_analysis
+# key: r_akamai_appsec_reputation_profile_analysis
+# --
+
+resource "akamai_appsec_reputation_profile_analysis" "${1:this}" {
+    config_id = "${2:config_id}"
+    forward_shared_ip_to_http_header_siem = "${3:forward_shared_ip_to_http_header_siem}"
+    forward_to_http_header = "${4:forward_to_http_header}"
+    security_policy_id = "${5:security_policy_id}"
+    version = "${6:version}"
+}

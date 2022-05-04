@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotfleethub_application
+# key: r_awscc_iotfleethub_application
+# --
+
+resource "awscc_iotfleethub_application" "${1:this}" {
+    application_name = "${2:application_name}"
+    role_arn = "${3:role_arn}"
+}

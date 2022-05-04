@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_vmware_data_center_server
+# key: d_checkpoint_management_vmware_data_center_server
+# --
+
+data "checkpoint_management_vmware_data_center_server" "${1:this}" {
+}

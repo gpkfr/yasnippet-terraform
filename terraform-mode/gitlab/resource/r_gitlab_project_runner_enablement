@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gitlab_project_runner_enablement
+# key: r_gitlab_project_runner_enablement
+# --
+
+resource "gitlab_project_runner_enablement" "${1:this}" {
+    project = "${2:project}"
+    runner_id = "${3:runner_id}"
+}

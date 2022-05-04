@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fmc_ftd_manualnat_rules
+# key: r_fmc_ftd_manualnat_rules
+# --
+
+resource "fmc_ftd_manualnat_rules" "${1:this}" {
+    nat_policy = "${2:nat_policy}"
+    nat_type = "${3:nat_type}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_ip_address
+# key: r_intersight_iam_ip_address
+# --
+
+resource "intersight_iam_ip_address" "${1:this}" {
+}

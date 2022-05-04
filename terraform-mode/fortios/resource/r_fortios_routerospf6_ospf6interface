@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_routerospf6_ospf6interface
+# key: r_fortios_routerospf6_ospf6interface
+# --
+
+resource "fortios_routerospf6_ospf6interface" "${1:this}" {
+}

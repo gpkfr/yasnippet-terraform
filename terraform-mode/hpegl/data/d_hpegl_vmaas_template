@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_hpegl_vmaas_template
+# key: d_hpegl_vmaas_template
+# --
+
+data "hpegl_vmaas_template" "${1:this}" {
+    name = "${2:name}"
+}

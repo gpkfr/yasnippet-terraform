@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_sql_pool_workload_classifier
+# key: r_azurerm_synapse_sql_pool_workload_classifier
+# --
+
+resource "azurerm_synapse_sql_pool_workload_classifier" "${1:this}" {
+    member_name = "${2:member_name}"
+    name = "${3:name}"
+    workload_group_id = "${4:workload_group_id}"
+}

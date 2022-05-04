@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotwireless_task_definition
+# key: r_awscc_iotwireless_task_definition
+# --
+
+resource "awscc_iotwireless_task_definition" "${1:this}" {
+    auto_create_tasks = "${2:auto_create_tasks}"
+}

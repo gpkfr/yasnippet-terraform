@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_cifs_server
+# key: r_netapp-cloudmanager_cifs_server
+# --
+
+resource "netapp-cloudmanager_cifs_server" "${1:this}" {
+    client_id = "${2:client_id}"
+}

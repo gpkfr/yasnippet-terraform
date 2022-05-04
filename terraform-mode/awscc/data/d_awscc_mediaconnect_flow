@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_mediaconnect_flow
+# key: d_awscc_mediaconnect_flow
+# --
+
+data "awscc_mediaconnect_flow" "${1:this}" {
+    id = "${2:id}"
+}

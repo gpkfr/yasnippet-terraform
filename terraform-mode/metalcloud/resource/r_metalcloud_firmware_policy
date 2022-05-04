@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_metalcloud_firmware_policy
+# key: r_metalcloud_firmware_policy
+# --
+
+resource "metalcloud_firmware_policy" "${1:this}" {
+    server_firmware_upgrade_policy_label = "${2:server_firmware_upgrade_policy_label}"
+}

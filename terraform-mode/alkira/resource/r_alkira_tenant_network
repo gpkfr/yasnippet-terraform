@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_alkira_tenant_network
+# key: r_alkira_tenant_network
+# --
+
+resource "alkira_tenant_network" "${1:this}" {
+}

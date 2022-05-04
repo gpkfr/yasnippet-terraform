@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_metal_connection
+# key: d_metal_connection
+# --
+
+data "metal_connection" "${1:this}" {
+    connection_id = "${2:connection_id}"
+}

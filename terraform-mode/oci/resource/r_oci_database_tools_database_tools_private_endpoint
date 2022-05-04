@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_database_tools_database_tools_private_endpoint
+# key: r_oci_database_tools_database_tools_private_endpoint
+# --
+
+resource "oci_database_tools_database_tools_private_endpoint" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+    endpoint_service_id = "${4:endpoint_service_id}"
+    subnet_id = "${5:subnet_id}"
+}

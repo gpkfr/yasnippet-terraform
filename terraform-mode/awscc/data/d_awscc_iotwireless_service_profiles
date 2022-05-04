@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iotwireless_service_profiles
+# key: d_awscc_iotwireless_service_profiles
+# --
+
+data "awscc_iotwireless_service_profiles" "${1:this}" {
+}

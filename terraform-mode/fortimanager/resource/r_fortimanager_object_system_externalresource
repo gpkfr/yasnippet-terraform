@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_externalresource
+# key: r_fortimanager_object_system_externalresource
+# --
+
+resource "fortimanager_object_system_externalresource" "${1:this}" {
+}

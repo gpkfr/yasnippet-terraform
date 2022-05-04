@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_astra_role
+# key: d_astra_role
+# --
+
+data "astra_role" "${1:this}" {
+    role_id = "${2:role_id}"
+}

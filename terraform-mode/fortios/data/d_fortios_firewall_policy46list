@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_policy46list
+# key: d_fortios_firewall_policy46list
+# --
+
+data "fortios_firewall_policy46list" "${1:this}" {
+}

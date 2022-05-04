@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_accessanalyzer_analyzer
+# key: r_awscc_accessanalyzer_analyzer
+# --
+
+resource "awscc_accessanalyzer_analyzer" "${1:this}" {
+    type = "${2:type}"
+}

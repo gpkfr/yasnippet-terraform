@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_confluentcloud_kafka_acl
+# key: r_confluentcloud_kafka_acl
+# --
+
+resource "confluentcloud_kafka_acl" "${1:this}" {
+    http_endpoint = "${2:http_endpoint}"
+    kafka_cluster = "${3:kafka_cluster}"
+    operation = "${4:operation}"
+    pattern_type = "${5:pattern_type}"
+    permission = "${6:permission}"
+    principal = "${7:principal}"
+    resource_name = "${8:resource_name}"
+    resource_type = "${9:resource_type}"
+}

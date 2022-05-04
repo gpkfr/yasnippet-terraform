@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ovh_cloud_project_kube_nodepool
+# key: r_ovh_cloud_project_kube_nodepool
+# --
+
+resource "ovh_cloud_project_kube_nodepool" "${1:this}" {
+    flavor_name = "${2:flavor_name}"
+    kube_id = "${3:kube_id}"
+    service_name = "${4:service_name}"
+}

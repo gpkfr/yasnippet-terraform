@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ansible-tower_project
+# key: r_ansible-tower_project
+# --
+
+resource "ansible-tower_project" "${1:this}" {
+    name = "${2:name}"
+    organisation_id = "${3:organisation_id}"
+    scm_type = "${4:scm_type}"
+}

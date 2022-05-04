@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_media_job
+# key: r_azurerm_media_job
+# --
+
+resource "azurerm_media_job" "${1:this}" {
+    media_services_account_name = "${2:media_services_account_name}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+    transform_name = "${5:transform_name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aidbox_box
+# key: r_aidbox_box
+# --
+
+resource "aidbox_box" "${1:this}" {
+    fhir_version = "${2:fhir_version}"
+    name = "${3:name}"
+}

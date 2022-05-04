@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_xray_settings
+# key: r_xray_settings
+# --
+
+resource "xray_settings" "${1:this}" {
+    db_sync_updates_time = "${2:db_sync_updates_time}"
+}

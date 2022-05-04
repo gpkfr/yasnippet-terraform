@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53recoveryreadiness_resource_set
+# key: r_aws_route53recoveryreadiness_resource_set
+# --
+
+resource "aws_route53recoveryreadiness_resource_set" "${1:this}" {
+    resource_set_name = "${2:resource_set_name}"
+    resource_set_type = "${3:resource_set_type}"
+}

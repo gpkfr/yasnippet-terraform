@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_opennebula_image
+# key: r_opennebula_image
+# --
+
+resource "opennebula_image" "${1:this}" {
+    datastore_id = "${2:datastore_id}"
+    name = "${3:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_ssllogprofile
+# key: r_citrixadc_ssllogprofile
+# --
+
+resource "citrixadc_ssllogprofile" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_workflow_approvalmatrix
+# key: r_fortianalyzer_system_workflow_approvalmatrix
+# --
+
+resource "fortianalyzer_system_workflow_approvalmatrix" "${1:this}" {
+}

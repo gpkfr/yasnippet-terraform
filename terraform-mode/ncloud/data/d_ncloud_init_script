@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_init_script
+# key: d_ncloud_init_script
+# --
+
+data "ncloud_init_script" "${1:this}" {
+}

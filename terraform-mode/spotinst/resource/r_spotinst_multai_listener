@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_multai_listener
+# key: r_spotinst_multai_listener
+# --
+
+resource "spotinst_multai_listener" "${1:this}" {
+    balancer_id = "${2:balancer_id}"
+    port = "${3:port}"
+    protocol = "${4:protocol}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_labelgroup
+# key: d_avi_labelgroup
+# --
+
+data "avi_labelgroup" "${1:this}" {
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_managed_instance_aws
+# key: r_spotinst_managed_instance_aws
+# --
+
+resource "spotinst_managed_instance_aws" "${1:this}" {
+    image_id = "${2:image_id}"
+    instance_types = "${3:instance_types}"
+    name = "${4:name}"
+    persist_block_devices = "${5:persist_block_devices}"
+    product = "${6:product}"
+    subnet_ids = "${7:subnet_ids}"
+    vpc_id = "${8:vpc_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslservicegroup
+# key: r_citrixadc_sslservicegroup
+# --
+
+resource "citrixadc_sslservicegroup" "${1:this}" {
+    servicegroupname = "${2:servicegroupname}"
+}

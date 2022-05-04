@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_forecast_catalog
+# key: d_intersight_forecast_catalog
+# --
+
+data "intersight_forecast_catalog" "${1:this}" {
+}

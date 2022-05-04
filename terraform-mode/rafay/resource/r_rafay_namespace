@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rafay_namespace
+# key: r_rafay_namespace
+# --
+
+resource "rafay_namespace" "${1:this}" {
+}

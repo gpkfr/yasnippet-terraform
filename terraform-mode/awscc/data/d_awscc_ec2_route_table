@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_route_table
+# key: d_awscc_ec2_route_table
+# --
+
+data "awscc_ec2_route_table" "${1:this}" {
+    id = "${2:id}"
+}

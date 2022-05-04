@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_urldecode
+# key: d_elasticstack_elasticsearch_ingest_processor_urldecode
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_urldecode" "${1:this}" {
+    field = "${2:field}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_okta_security_notification_emails
+# key: r_okta_security_notification_emails
+# --
+
+resource "okta_security_notification_emails" "${1:this}" {
+}

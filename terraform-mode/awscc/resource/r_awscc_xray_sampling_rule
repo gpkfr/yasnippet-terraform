@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_xray_sampling_rule
+# key: r_awscc_xray_sampling_rule
+# --
+
+resource "awscc_xray_sampling_rule" "${1:this}" {
+}

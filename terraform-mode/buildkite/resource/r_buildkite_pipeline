@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_buildkite_pipeline
+# key: r_buildkite_pipeline
+# --
+
+resource "buildkite_pipeline" "${1:this}" {
+    name = "${2:name}"
+    repository = "${3:repository}"
+    steps = "${4:steps}"
+}

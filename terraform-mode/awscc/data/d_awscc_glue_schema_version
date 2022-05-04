@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_glue_schema_version
+# key: d_awscc_glue_schema_version
+# --
+
+data "awscc_glue_schema_version" "${1:this}" {
+    id = "${2:id}"
+}

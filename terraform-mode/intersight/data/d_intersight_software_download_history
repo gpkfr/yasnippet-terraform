@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_software_download_history
+# key: d_intersight_software_download_history
+# --
+
+data "intersight_software_download_history" "${1:this}" {
+}

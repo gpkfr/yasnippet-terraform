@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_gateway
+# key: d_equinix_metal_gateway
+# --
+
+data "equinix_metal_gateway" "${1:this}" {
+    gateway_id = "${2:gateway_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_databrew_dataset
+# key: r_awscc_databrew_dataset
+# --
+
+resource "awscc_databrew_dataset" "${1:this}" {
+    input = "${2:input}"
+    name = "${3:name}"
+}

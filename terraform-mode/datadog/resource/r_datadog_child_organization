@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_datadog_child_organization
+# key: r_datadog_child_organization
+# --
+
+resource "datadog_child_organization" "${1:this}" {
+    name = "${2:name}"
+}

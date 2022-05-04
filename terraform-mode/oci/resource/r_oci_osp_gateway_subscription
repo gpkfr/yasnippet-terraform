@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_osp_gateway_subscription
+# key: r_oci_osp_gateway_subscription
+# --
+
+resource "oci_osp_gateway_subscription" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    email = "${3:email}"
+    osp_home_region = "${4:osp_home_region}"
+    subscription_id = "${5:subscription_id}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_connect_routing_profile
+# key: r_aws_connect_routing_profile
+# --
+
+resource "aws_connect_routing_profile" "${1:this}" {
+    default_outbound_queue_id = "${2:default_outbound_queue_id}"
+    description = "${3:description}"
+    instance_id = "${4:instance_id}"
+    name = "${5:name}"
+}

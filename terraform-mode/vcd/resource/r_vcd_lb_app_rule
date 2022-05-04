@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_lb_app_rule
+# key: r_vcd_lb_app_rule
+# --
+
+resource "vcd_lb_app_rule" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    name = "${3:name}"
+    script = "${4:script}"
+}

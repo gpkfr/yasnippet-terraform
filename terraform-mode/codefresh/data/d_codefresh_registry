@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_codefresh_registry
+# key: d_codefresh_registry
+# --
+
+data "codefresh_registry" "${1:this}" {
+    name = "${2:name}"
+}

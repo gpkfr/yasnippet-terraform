@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudfront_origin_access_identities
+# key: d_aws_cloudfront_origin_access_identities
+# --
+
+data "aws_cloudfront_origin_access_identities" "${1:this}" {
+}

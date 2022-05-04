@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_automationtriggerlist
+# key: d_fortios_system_automationtriggerlist
+# --
+
+data "fortios_system_automationtriggerlist" "${1:this}" {
+}

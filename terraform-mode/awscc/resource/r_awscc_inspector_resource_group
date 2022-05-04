@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_inspector_resource_group
+# key: r_awscc_inspector_resource_group
+# --
+
+resource "awscc_inspector_resource_group" "${1:this}" {
+    resource_group_tags = "${2:resource_group_tags}"
+}

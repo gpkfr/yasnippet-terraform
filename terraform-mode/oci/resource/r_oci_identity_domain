@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oci_identity_domain
+# key: r_oci_identity_domain
+# --
+
+resource "oci_identity_domain" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    description = "${3:description}"
+    display_name = "${4:display_name}"
+    home_region = "${5:home_region}"
+    license_type = "${6:license_type}"
+}

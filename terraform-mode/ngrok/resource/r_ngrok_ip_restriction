@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_ip_restriction
+# key: r_ngrok_ip_restriction
+# --
+
+resource "ngrok_ip_restriction" "${1:this}" {
+    ip_policy_ids = "${2:ip_policy_ids}"
+    type = "${3:type}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_artifacts_generic_artifact
+# key: r_oci_artifacts_generic_artifact
+# --
+
+resource "oci_artifacts_generic_artifact" "${1:this}" {
+    artifact_id = "${2:artifact_id}"
+}

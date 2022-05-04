@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_fmupdate_avips_webproxy
+# key: r_fortimanager_fmupdate_avips_webproxy
+# --
+
+resource "fortimanager_fmupdate_avips_webproxy" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gridscale_memcached
+# key: r_gridscale_memcached
+# --
+
+resource "gridscale_memcached" "${1:this}" {
+    name = "${2:name}"
+    performance_class = "${3:performance_class}"
+    release = "${4:release}"
+}

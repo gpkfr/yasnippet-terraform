@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_databricks_mlflow_webhook
+# key: r_databricks_mlflow_webhook
+# --
+
+resource "databricks_mlflow_webhook" "${1:this}" {
+    events = "${2:events}"
+}

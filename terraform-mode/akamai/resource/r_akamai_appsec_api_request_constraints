@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_api_request_constraints
+# key: r_akamai_appsec_api_request_constraints
+# --
+
+resource "akamai_appsec_api_request_constraints" "${1:this}" {
+    action = "${2:action}"
+    config_id = "${3:config_id}"
+    security_policy_id = "${4:security_policy_id}"
+    version = "${5:version}"
+}

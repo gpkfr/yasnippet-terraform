@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_adverity_lookup
+# key: d_adverity_lookup
+# --
+
+data "adverity_lookup" "${1:this}" {
+    expect_string = "${2:expect_string}"
+    url = "${3:url}"
+}

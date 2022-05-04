@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_device_posture_rule
+# key: r_cloudflare_device_posture_rule
+# --
+
+resource "cloudflare_device_posture_rule" "${1:this}" {
+    account_id = "${2:account_id}"
+    type = "${3:type}"
+}

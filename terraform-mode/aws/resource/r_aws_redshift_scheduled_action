@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_redshift_scheduled_action
+# key: r_aws_redshift_scheduled_action
+# --
+
+resource "aws_redshift_scheduled_action" "${1:this}" {
+    iam_role = "${2:iam_role}"
+    name = "${3:name}"
+    schedule = "${4:schedule}"
+}

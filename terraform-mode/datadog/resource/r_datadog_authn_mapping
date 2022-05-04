@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_datadog_authn_mapping
+# key: r_datadog_authn_mapping
+# --
+
+resource "datadog_authn_mapping" "${1:this}" {
+    key = "${2:key}"
+    role = "${3:role}"
+    value = "${4:value}"
+}

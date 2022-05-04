@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_volterra_vpc_k8s_hostnames
+# key: r_volterra_vpc_k8s_hostnames
+# --
+
+resource "volterra_vpc_k8s_hostnames" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+    node_names = "${4:node_names}"
+}

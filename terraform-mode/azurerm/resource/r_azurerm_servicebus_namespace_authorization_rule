@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_servicebus_namespace_authorization_rule
+# key: r_azurerm_servicebus_namespace_authorization_rule
+# --
+
+resource "azurerm_servicebus_namespace_authorization_rule" "${1:this}" {
+    name = "${2:name}"
+    namespace_id = "${3:namespace_id}"
+}

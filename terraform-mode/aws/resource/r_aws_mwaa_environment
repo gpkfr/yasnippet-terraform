@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_mwaa_environment
+# key: r_aws_mwaa_environment
+# --
+
+resource "aws_mwaa_environment" "${1:this}" {
+    dag_s3_path = "${2:dag_s3_path}"
+    execution_role_arn = "${3:execution_role_arn}"
+    name = "${4:name}"
+    source_bucket_arn = "${5:source_bucket_arn}"
+}

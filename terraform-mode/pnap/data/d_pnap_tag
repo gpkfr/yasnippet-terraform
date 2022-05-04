@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_pnap_tag
+# key: d_pnap_tag
+# --
+
+data "pnap_tag" "${1:this}" {
+    name = "${2:name}"
+}

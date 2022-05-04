@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_promote_version
+# key: r_nirmata_promote_version
+# --
+
+resource "nirmata_promote_version" "${1:this}" {
+    application = "${2:application}"
+    catalog = "${3:catalog}"
+    channel = "${4:channel}"
+    rollout_name = "${5:rollout_name}"
+    version = "${6:version}"
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_checkly_maintenance_windows
+# key: r_checkly_maintenance_windows
+# --
+
+resource "checkly_maintenance_windows" "${1:this}" {
+    ends_at = "${2:ends_at}"
+    name = "${3:name}"
+    repeat_ends_at = "${4:repeat_ends_at}"
+    repeat_interval = "${5:repeat_interval}"
+    repeat_unit = "${6:repeat_unit}"
+    starts_at = "${7:starts_at}"
+}

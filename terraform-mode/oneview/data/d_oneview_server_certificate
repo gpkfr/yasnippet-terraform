@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oneview_server_certificate
+# key: d_oneview_server_certificate
+# --
+
+data "oneview_server_certificate" "${1:this}" {
+}

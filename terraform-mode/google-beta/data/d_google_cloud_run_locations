@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_google_cloud_run_locations
+# key: d_google_cloud_run_locations
+# --
+
+data "google_cloud_run_locations" "${1:this}" {
+}

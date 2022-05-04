@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_vpc_ipam_scope
+# key: r_aws_vpc_ipam_scope
+# --
+
+resource "aws_vpc_ipam_scope" "${1:this}" {
+    ipam_id = "${2:ipam_id}"
+}

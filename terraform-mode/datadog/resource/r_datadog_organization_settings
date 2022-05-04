@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_datadog_organization_settings
+# key: r_datadog_organization_settings
+# --
+
+resource "datadog_organization_settings" "${1:this}" {
+}

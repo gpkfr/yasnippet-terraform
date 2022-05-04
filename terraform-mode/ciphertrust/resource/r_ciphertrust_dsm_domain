@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_dsm_domain
+# key: r_ciphertrust_dsm_domain
+# --
+
+resource "ciphertrust_dsm_domain" "${1:this}" {
+    domain_id = "${2:domain_id}"
+    dsm_connection = "${3:dsm_connection}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_aws_lex_bot_alias
+# key: d_aws_lex_bot_alias
+# --
+
+data "aws_lex_bot_alias" "${1:this}" {
+    bot_name = "${2:bot_name}"
+    name = "${3:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotwireless_wireless_gateway
+# key: r_awscc_iotwireless_wireless_gateway
+# --
+
+resource "awscc_iotwireless_wireless_gateway" "${1:this}" {
+    lo_ra_wan = "${2:lo_ra_wan}"
+}

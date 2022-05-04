@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_vod_procedure_template
+# key: r_tencentcloud_vod_procedure_template
+# --
+
+resource "tencentcloud_vod_procedure_template" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_alkira_service_zscaler
+# key: r_alkira_service_zscaler
+# --
+
+resource "alkira_service_zscaler" "${1:this}" {
+    connector_internet_exit_id = "${2:connector_internet_exit_id}"
+    cxp = "${3:cxp}"
+    name = "${4:name}"
+    primary_public_edge_ip = "${5:primary_public_edge_ip}"
+    secondary_public_edge_ip = "${6:secondary_public_edge_ip}"
+    segment_ids = "${7:segment_ids}"
+    size = "${8:size}"
+}

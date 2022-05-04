@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_kendra_index
+# key: r_awscc_kendra_index
+# --
+
+resource "awscc_kendra_index" "${1:this}" {
+    edition = "${2:edition}"
+    name = "${3:name}"
+    role_arn = "${4:role_arn}"
+}

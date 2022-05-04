@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_kion_aws_iam_policy
+# key: r_kion_aws_iam_policy
+# --
+
+resource "kion_aws_iam_policy" "${1:this}" {
+    name = "${2:name}"
+    policy = "${3:policy}"
+}

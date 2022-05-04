@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_metal_spot_market_request
+# key: r_metal_spot_market_request
+# --
+
+resource "metal_spot_market_request" "${1:this}" {
+    devices_max = "${2:devices_max}"
+    devices_min = "${3:devices_min}"
+    max_bid_price = "${4:max_bid_price}"
+    project_id = "${5:project_id}"
+}

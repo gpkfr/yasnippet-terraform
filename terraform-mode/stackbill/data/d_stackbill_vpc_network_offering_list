@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_stackbill_vpc_network_offering_list
+# key: d_stackbill_vpc_network_offering_list
+# --
+
+data "stackbill_vpc_network_offering_list" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_lambda_function_url
+# key: r_aws_lambda_function_url
+# --
+
+resource "aws_lambda_function_url" "${1:this}" {
+    authorization_type = "${2:authorization_type}"
+    function_name = "${3:function_name}"
+}

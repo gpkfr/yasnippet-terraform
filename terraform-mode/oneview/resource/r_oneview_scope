@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oneview_scope
+# key: r_oneview_scope
+# --
+
+resource "oneview_scope" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

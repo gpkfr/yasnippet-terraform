@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_amazon_monitor
+# key: r_site24x7_amazon_monitor
+# --
+
+resource "site24x7_amazon_monitor" "${1:this}" {
+    aws_access_key = "${2:aws_access_key}"
+    aws_secret_key = "${3:aws_secret_key}"
+    display_name = "${4:display_name}"
+}

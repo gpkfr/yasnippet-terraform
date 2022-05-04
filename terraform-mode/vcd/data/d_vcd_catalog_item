@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_catalog_item
+# key: d_vcd_catalog_item
+# --
+
+data "vcd_catalog_item" "${1:this}" {
+    catalog = "${2:catalog}"
+}

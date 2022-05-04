@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_subnet
+# key: d_awscc_ec2_subnet
+# --
+
+data "awscc_ec2_subnet" "${1:this}" {
+    id = "${2:id}"
+}

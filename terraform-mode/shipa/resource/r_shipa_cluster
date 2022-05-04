@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_shipa_cluster
+# key: r_shipa_cluster
+# --
+
+resource "shipa_cluster" "${1:this}" {
+}

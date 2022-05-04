@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_foundation_nos_packages
+# key: d_nutanix_foundation_nos_packages
+# --
+
+data "nutanix_foundation_nos_packages" "${1:this}" {
+}

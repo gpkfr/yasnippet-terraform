@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_softwarerepository_operating_system_file
+# key: d_intersight_softwarerepository_operating_system_file
+# --
+
+data "intersight_softwarerepository_operating_system_file" "${1:this}" {
+}

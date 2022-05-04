@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_management_dashboard_management_dashboards_export
+# key: d_oci_management_dashboard_management_dashboards_export
+# --
+
+data "oci_management_dashboard_management_dashboards_export" "${1:this}" {
+    export_dashboard_id = "${2:export_dashboard_id}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_traffic_manager_external_endpoint
+# key: r_azurerm_traffic_manager_external_endpoint
+# --
+
+resource "azurerm_traffic_manager_external_endpoint" "${1:this}" {
+    name = "${2:name}"
+    profile_id = "${3:profile_id}"
+    target = "${4:target}"
+    weight = "${5:weight}"
+}

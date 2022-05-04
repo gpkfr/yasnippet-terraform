@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nomad_scheduler_config
+# key: d_nomad_scheduler_config
+# --
+
+data "nomad_scheduler_config" "${1:this}" {
+}

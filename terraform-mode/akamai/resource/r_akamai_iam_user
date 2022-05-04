@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_akamai_iam_user
+# key: r_akamai_iam_user
+# --
+
+resource "akamai_iam_user" "${1:this}" {
+    auth_grants_json = "${2:auth_grants_json}"
+    country = "${3:country}"
+    email = "${4:email}"
+    enable_tfa = "${5:enable_tfa}"
+    first_name = "${6:first_name}"
+    last_name = "${7:last_name}"
+    phone = "${8:phone}"
+}

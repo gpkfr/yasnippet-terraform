@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_billingconductor_pricing_plan
+# key: r_awscc_billingconductor_pricing_plan
+# --
+
+resource "awscc_billingconductor_pricing_plan" "${1:this}" {
+    name = "${2:name}"
+}

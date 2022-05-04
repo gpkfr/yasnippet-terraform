@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_instaclustr_clusters
+# key: d_instaclustr_clusters
+# --
+
+data "instaclustr_clusters" "${1:this}" {
+}

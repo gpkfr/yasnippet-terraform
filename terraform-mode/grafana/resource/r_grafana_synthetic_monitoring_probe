@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_grafana_synthetic_monitoring_probe
+# key: r_grafana_synthetic_monitoring_probe
+# --
+
+resource "grafana_synthetic_monitoring_probe" "${1:this}" {
+    latitude = "${2:latitude}"
+    longitude = "${3:longitude}"
+    name = "${4:name}"
+    region = "${5:region}"
+}

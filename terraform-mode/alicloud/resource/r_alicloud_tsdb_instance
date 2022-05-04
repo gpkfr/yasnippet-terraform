@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_tsdb_instance
+# key: r_alicloud_tsdb_instance
+# --
+
+resource "alicloud_tsdb_instance" "${1:this}" {
+    instance_class = "${2:instance_class}"
+    instance_storage = "${3:instance_storage}"
+    payment_type = "${4:payment_type}"
+    vswitch_id = "${5:vswitch_id}"
+}

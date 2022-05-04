@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_cloudaccount_tencent
+# key: r_spectrocloud_cloudaccount_tencent
+# --
+
+resource "spectrocloud_cloudaccount_tencent" "${1:this}" {
+    name = "${2:name}"
+}

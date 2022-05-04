@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_tenant
+# key: r_octopusdeploy_tenant
+# --
+
+resource "octopusdeploy_tenant" "${1:this}" {
+    name = "${2:name}"
+}

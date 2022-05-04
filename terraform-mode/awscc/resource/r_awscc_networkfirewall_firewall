@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_networkfirewall_firewall
+# key: r_awscc_networkfirewall_firewall
+# --
+
+resource "awscc_networkfirewall_firewall" "${1:this}" {
+    firewall_name = "${2:firewall_name}"
+    firewall_policy_arn = "${3:firewall_policy_arn}"
+    subnet_mappings = "${4:subnet_mappings}"
+    vpc_id = "${5:vpc_id}"
+}

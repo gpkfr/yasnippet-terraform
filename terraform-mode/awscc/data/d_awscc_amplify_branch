@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_amplify_branch
+# key: d_awscc_amplify_branch
+# --
+
+data "awscc_amplify_branch" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslprofile_sslcipher_binding
+# key: r_citrixadc_sslprofile_sslcipher_binding
+# --
+
+resource "citrixadc_sslprofile_sslcipher_binding" "${1:this}" {
+    ciphername = "${2:ciphername}"
+    cipherpriority = "${3:cipherpriority}"
+    name = "${4:name}"
+}

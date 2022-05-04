@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logzio_restore_logs
+# key: d_logzio_restore_logs
+# --
+
+data "logzio_restore_logs" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_tanzu-mission-control_cluster_node_pool
+# key: d_tanzu-mission-control_cluster_node_pool
+# --
+
+data "tanzu-mission-control_cluster_node_pool" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    management_cluster_name = "${3:management_cluster_name}"
+    name = "${4:name}"
+    provisioner_name = "${5:provisioner_name}"
+}

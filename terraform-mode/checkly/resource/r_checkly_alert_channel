@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_checkly_alert_channel
+# key: r_checkly_alert_channel
+# --
+
+resource "checkly_alert_channel" "${1:this}" {
+}

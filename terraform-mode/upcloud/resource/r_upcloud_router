@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_router
+# key: r_upcloud_router
+# --
+
+resource "upcloud_router" "${1:this}" {
+    name = "${2:name}"
+}

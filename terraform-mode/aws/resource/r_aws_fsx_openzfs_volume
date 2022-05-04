@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_fsx_openzfs_volume
+# key: r_aws_fsx_openzfs_volume
+# --
+
+resource "aws_fsx_openzfs_volume" "${1:this}" {
+    name = "${2:name}"
+    parent_volume_id = "${3:parent_volume_id}"
+}

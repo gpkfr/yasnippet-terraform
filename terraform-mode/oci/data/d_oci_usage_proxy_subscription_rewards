@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_usage_proxy_subscription_rewards
+# key: d_oci_usage_proxy_subscription_rewards
+# --
+
+data "oci_usage_proxy_subscription_rewards" "${1:this}" {
+    subscription_id = "${2:subscription_id}"
+    tenancy_id = "${3:tenancy_id}"
+}

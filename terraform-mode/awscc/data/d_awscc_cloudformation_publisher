@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudformation_publisher
+# key: d_awscc_cloudformation_publisher
+# --
+
+data "awscc_cloudformation_publisher" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cms_alarm_contact
+# key: r_alicloud_cms_alarm_contact
+# --
+
+resource "alicloud_cms_alarm_contact" "${1:this}" {
+    alarm_contact_name = "${2:alarm_contact_name}"
+    describe = "${3:describe}"
+}

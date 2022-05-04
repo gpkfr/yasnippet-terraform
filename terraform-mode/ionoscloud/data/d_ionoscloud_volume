@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_volume
+# key: d_ionoscloud_volume
+# --
+
+data "ionoscloud_volume" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+}

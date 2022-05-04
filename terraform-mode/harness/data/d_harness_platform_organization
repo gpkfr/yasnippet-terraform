@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_platform_organization
+# key: d_harness_platform_organization
+# --
+
+data "harness_platform_organization" "${1:this}" {
+}

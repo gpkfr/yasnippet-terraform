@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ah_cloud_images
+# key: d_ah_cloud_images
+# --
+
+data "ah_cloud_images" "${1:this}" {
+}

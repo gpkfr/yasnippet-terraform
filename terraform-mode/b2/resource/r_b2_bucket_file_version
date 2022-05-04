@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_b2_bucket_file_version
+# key: r_b2_bucket_file_version
+# --
+
+resource "b2_bucket_file_version" "${1:this}" {
+    bucket_id = "${2:bucket_id}"
+    file_name = "${3:file_name}"
+    source = "${4:source}"
+}

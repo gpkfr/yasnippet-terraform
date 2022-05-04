@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aviatrix_firewall_instance_images
+# key: d_aviatrix_firewall_instance_images
+# --
+
+data "aviatrix_firewall_instance_images" "${1:this}" {
+    vpc_id = "${2:vpc_id}"
+}

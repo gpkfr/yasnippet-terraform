@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_vpnmgr_node
+# key: r_fortimanager_object_vpnmgr_node
+# --
+
+resource "fortimanager_object_vpnmgr_node" "${1:this}" {
+}

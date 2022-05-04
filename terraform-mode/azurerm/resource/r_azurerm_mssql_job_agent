@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_mssql_job_agent
+# key: r_azurerm_mssql_job_agent
+# --
+
+resource "azurerm_mssql_job_agent" "${1:this}" {
+    database_id = "${2:database_id}"
+    location = "${3:location}"
+    name = "${4:name}"
+}

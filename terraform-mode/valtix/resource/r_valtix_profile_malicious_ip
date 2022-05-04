@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_malicious_ip
+# key: r_valtix_profile_malicious_ip
+# --
+
+resource "valtix_profile_malicious_ip" "${1:this}" {
+    name = "${2:name}"
+}

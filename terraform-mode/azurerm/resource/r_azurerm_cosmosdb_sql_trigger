@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cosmosdb_sql_trigger
+# key: r_azurerm_cosmosdb_sql_trigger
+# --
+
+resource "azurerm_cosmosdb_sql_trigger" "${1:this}" {
+    body = "${2:body}"
+    container_id = "${3:container_id}"
+    name = "${4:name}"
+    operation = "${5:operation}"
+    type = "${6:type}"
+}

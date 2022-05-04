@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_log_analytics_cluster_customer_managed_key
+# key: r_azurerm_log_analytics_cluster_customer_managed_key
+# --
+
+resource "azurerm_log_analytics_cluster_customer_managed_key" "${1:this}" {
+    key_vault_key_id = "${2:key_vault_key_id}"
+    log_analytics_cluster_id = "${3:log_analytics_cluster_id}"
+}

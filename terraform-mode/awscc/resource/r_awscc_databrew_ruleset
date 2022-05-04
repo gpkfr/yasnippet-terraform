@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_databrew_ruleset
+# key: r_awscc_databrew_ruleset
+# --
+
+resource "awscc_databrew_ruleset" "${1:this}" {
+    name = "${2:name}"
+    rules = "${3:rules}"
+    target_arn = "${4:target_arn}"
+}

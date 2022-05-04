@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_wirelesscontrollerhotspot20_anqpvenueurl
+# key: r_fortios_wirelesscontrollerhotspot20_anqpvenueurl
+# --
+
+resource "fortios_wirelesscontrollerhotspot20_anqpvenueurl" "${1:this}" {
+}

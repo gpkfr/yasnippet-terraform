@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_apigee_organization
+# key: r_google_apigee_organization
+# --
+
+resource "google_apigee_organization" "${1:this}" {
+    project_id = "${2:project_id}"
+}

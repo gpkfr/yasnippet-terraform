@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alkira_list_community
+# key: r_alkira_list_community
+# --
+
+resource "alkira_list_community" "${1:this}" {
+    name = "${2:name}"
+    values = "${3:values}"
+}

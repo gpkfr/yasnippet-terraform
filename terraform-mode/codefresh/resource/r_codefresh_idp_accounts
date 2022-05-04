@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_codefresh_idp_accounts
+# key: r_codefresh_idp_accounts
+# --
+
+resource "codefresh_idp_accounts" "${1:this}" {
+    account_ids = "${2:account_ids}"
+    idp_id = "${3:idp_id}"
+}

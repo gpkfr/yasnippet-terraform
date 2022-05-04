@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_privatelink_endpoint_service_adl
+# key: d_mongodbatlas_privatelink_endpoint_service_adl
+# --
+
+data "mongodbatlas_privatelink_endpoint_service_adl" "${1:this}" {
+    endpoint_id = "${2:endpoint_id}"
+    project_id = "${3:project_id}"
+}

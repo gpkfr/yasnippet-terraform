@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_audit_profile
+# key: d_oci_data_safe_audit_profile
+# --
+
+data "oci_data_safe_audit_profile" "${1:this}" {
+    audit_profile_id = "${2:audit_profile_id}"
+}

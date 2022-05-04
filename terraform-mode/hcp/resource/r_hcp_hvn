@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_hcp_hvn
+# key: r_hcp_hvn
+# --
+
+resource "hcp_hvn" "${1:this}" {
+    cloud_provider = "${2:cloud_provider}"
+    hvn_id = "${3:hvn_id}"
+    region = "${4:region}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_ipv6s
+# key: d_oci_core_ipv6s
+# --
+
+data "oci_core_ipv6s" "${1:this}" {
+}

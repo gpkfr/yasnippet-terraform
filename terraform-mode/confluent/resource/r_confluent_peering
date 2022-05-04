@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_confluent_peering
+# key: r_confluent_peering
+# --
+
+resource "confluent_peering" "${1:this}" {
+}

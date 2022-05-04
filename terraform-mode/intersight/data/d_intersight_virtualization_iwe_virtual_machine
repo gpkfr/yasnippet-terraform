@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_iwe_virtual_machine
+# key: d_intersight_virtualization_iwe_virtual_machine
+# --
+
+data "intersight_virtualization_iwe_virtual_machine" "${1:this}" {
+}

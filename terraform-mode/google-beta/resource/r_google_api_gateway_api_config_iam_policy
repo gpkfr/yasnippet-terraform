@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_api_gateway_api_config_iam_policy
+# key: r_google_api_gateway_api_config_iam_policy
+# --
+
+resource "google_api_gateway_api_config_iam_policy" "${1:this}" {
+    api = "${2:api}"
+    api_config = "${3:api_config}"
+    policy_data = "${4:policy_data}"
+}

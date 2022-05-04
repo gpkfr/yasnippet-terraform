@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_registry_oci
+# key: r_spectrocloud_registry_oci
+# --
+
+resource "spectrocloud_registry_oci" "${1:this}" {
+    endpoint = "${2:endpoint}"
+    is_private = "${3:is_private}"
+    name = "${4:name}"
+    type = "${5:type}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_instance
+# key: r_aws_instance
+# --
+
+resource "aws_instance" "${1:this}" {
+}

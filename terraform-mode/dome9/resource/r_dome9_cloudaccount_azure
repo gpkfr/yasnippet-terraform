@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_dome9_cloudaccount_azure
+# key: r_dome9_cloudaccount_azure
+# --
+
+resource "dome9_cloudaccount_azure" "${1:this}" {
+    client_id = "${2:client_id}"
+    client_password = "${3:client_password}"
+    name = "${4:name}"
+    operation_mode = "${5:operation_mode}"
+    subscription_id = "${6:subscription_id}"
+    tenant_id = "${7:tenant_id}"
+}

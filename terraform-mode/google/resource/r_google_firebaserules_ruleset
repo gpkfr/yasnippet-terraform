@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_google_firebaserules_ruleset
+# key: r_google_firebaserules_ruleset
+# --
+
+resource "google_firebaserules_ruleset" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_macie_custom_data_identifier
+# key: d_awscc_macie_custom_data_identifier
+# --
+
+data "awscc_macie_custom_data_identifier" "${1:this}" {
+    id = "${2:id}"
+}

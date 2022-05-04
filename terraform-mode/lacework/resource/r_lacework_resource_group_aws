@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_resource_group_aws
+# key: r_lacework_resource_group_aws
+# --
+
+resource "lacework_resource_group_aws" "${1:this}" {
+    accounts = "${2:accounts}"
+    name = "${3:name}"
+}

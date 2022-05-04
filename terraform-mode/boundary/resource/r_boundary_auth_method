@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_boundary_auth_method
+# key: r_boundary_auth_method
+# --
+
+resource "boundary_auth_method" "${1:this}" {
+    scope_id = "${2:scope_id}"
+    type = "${3:type}"
+}

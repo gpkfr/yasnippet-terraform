@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_migration_migrations
+# key: d_oci_database_migration_migrations
+# --
+
+data "oci_database_migration_migrations" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

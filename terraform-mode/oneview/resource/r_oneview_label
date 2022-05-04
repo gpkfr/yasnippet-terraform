@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oneview_label
+# key: r_oneview_label
+# --
+
+resource "oneview_label" "${1:this}" {
+    resource_uri = "${2:resource_uri}"
+}

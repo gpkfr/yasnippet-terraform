@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_civo_firewall
+# key: d_civo_firewall
+# --
+
+data "civo_firewall" "${1:this}" {
+}

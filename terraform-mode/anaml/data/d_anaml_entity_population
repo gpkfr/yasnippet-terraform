@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_anaml_entity_population
+# key: d_anaml_entity_population
+# --
+
+data "anaml_entity_population" "${1:this}" {
+    name = "${2:name}"
+}

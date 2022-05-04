@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_applicationprofile
+# key: r_avi_applicationprofile
+# --
+
+resource "avi_applicationprofile" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

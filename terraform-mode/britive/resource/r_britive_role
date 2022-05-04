@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_britive_role
+# key: r_britive_role
+# --
+
+resource "britive_role" "${1:this}" {
+    name = "${2:name}"
+    permissions = "${3:permissions}"
+}

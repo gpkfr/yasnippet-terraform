@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_switchcontroller_qos_queuepolicy
+# key: r_fortimanager_object_switchcontroller_qos_queuepolicy
+# --
+
+resource "fortimanager_object_switchcontroller_qos_queuepolicy" "${1:this}" {
+}

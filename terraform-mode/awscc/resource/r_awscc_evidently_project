@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_evidently_project
+# key: r_awscc_evidently_project
+# --
+
+resource "awscc_evidently_project" "${1:this}" {
+    name = "${2:name}"
+}

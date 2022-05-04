@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_iam_supported_langs
+# key: d_akamai_iam_supported_langs
+# --
+
+data "akamai_iam_supported_langs" "${1:this}" {
+}

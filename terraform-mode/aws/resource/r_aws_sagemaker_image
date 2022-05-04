@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_image
+# key: r_aws_sagemaker_image
+# --
+
+resource "aws_sagemaker_image" "${1:this}" {
+    image_name = "${2:image_name}"
+    role_arn = "${3:role_arn}"
+}

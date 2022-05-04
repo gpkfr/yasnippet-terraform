@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vlan
+# key: r_citrixadc_vlan
+# --
+
+resource "citrixadc_vlan" "${1:this}" {
+    vlanid = "${2:vlanid}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_databricks_sql_endpoint
+# key: r_databricks_sql_endpoint
+# --
+
+resource "databricks_sql_endpoint" "${1:this}" {
+    cluster_size = "${2:cluster_size}"
+    name = "${3:name}"
+}

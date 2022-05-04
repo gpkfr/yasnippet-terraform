@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_rest_api_monitor
+# key: r_site24x7_rest_api_monitor
+# --
+
+resource "site24x7_rest_api_monitor" "${1:this}" {
+    display_name = "${2:display_name}"
+    website = "${3:website}"
+}

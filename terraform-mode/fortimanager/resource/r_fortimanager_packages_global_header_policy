@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_global_header_policy
+# key: r_fortimanager_packages_global_header_policy
+# --
+
+resource "fortimanager_packages_global_header_policy" "${1:this}" {
+    pkg = "${2:pkg}"
+}

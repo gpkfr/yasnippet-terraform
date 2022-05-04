@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_lightsail_instance_public_ports
+# key: r_aws_lightsail_instance_public_ports
+# --
+
+resource "aws_lightsail_instance_public_ports" "${1:this}" {
+    instance_name = "${2:instance_name}"
+}

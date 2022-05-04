@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_eventgrid_system_topic
+# key: r_azurerm_eventgrid_system_topic
+# --
+
+resource "azurerm_eventgrid_system_topic" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+    source_arm_resource_id = "${5:source_arm_resource_id}"
+    topic_type = "${6:topic_type}"
+}

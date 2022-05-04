@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_alert
+# key: d_oci_data_safe_alert
+# --
+
+data "oci_data_safe_alert" "${1:this}" {
+    alert_id = "${2:alert_id}"
+}

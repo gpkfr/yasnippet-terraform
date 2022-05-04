@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_turbot_ldap_directory
+# key: r_turbot_ldap_directory
+# --
+
+resource "turbot_ldap_directory" "${1:this}" {
+    base = "${2:base}"
+    distinguished_name = "${3:distinguished_name}"
+    parent = "${4:parent}"
+    password = "${5:password}"
+    profile_id_template = "${6:profile_id_template}"
+    reject_unauthorized = "${7:reject_unauthorized}"
+    title = "${8:title}"
+    tls_enabled = "${9:tls_enabled}"
+    url = "${10:url}"
+}

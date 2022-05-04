@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_datasync_location_fsx_open_zfs
+# key: r_awscc_datasync_location_fsx_open_zfs
+# --
+
+resource "awscc_datasync_location_fsx_open_zfs" "${1:this}" {
+    fsx_filesystem_arn = "${2:fsx_filesystem_arn}"
+    protocol = "${3:protocol}"
+    security_group_arns = "${4:security_group_arns}"
+}

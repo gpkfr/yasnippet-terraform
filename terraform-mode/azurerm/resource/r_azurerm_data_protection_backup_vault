@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_protection_backup_vault
+# key: r_azurerm_data_protection_backup_vault
+# --
+
+resource "azurerm_data_protection_backup_vault" "${1:this}" {
+    datastore_type = "${2:datastore_type}"
+    location = "${3:location}"
+    name = "${4:name}"
+    redundancy = "${5:redundancy}"
+    resource_group_name = "${6:resource_group_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_wccplist
+# key: d_fortios_system_wccplist
+# --
+
+data "fortios_system_wccplist" "${1:this}" {
+}

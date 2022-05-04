@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuread_claims_mapping_policy
+# key: r_azuread_claims_mapping_policy
+# --
+
+resource "azuread_claims_mapping_policy" "${1:this}" {
+    definition = "${2:definition}"
+    display_name = "${3:display_name}"
+}

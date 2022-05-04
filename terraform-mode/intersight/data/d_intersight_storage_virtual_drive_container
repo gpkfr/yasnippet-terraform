@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_virtual_drive_container
+# key: d_intersight_storage_virtual_drive_container
+# --
+
+data "intersight_storage_virtual_drive_container" "${1:this}" {
+}

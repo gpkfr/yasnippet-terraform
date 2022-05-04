@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_registry_helm
+# key: r_spectrocloud_registry_helm
+# --
+
+resource "spectrocloud_registry_helm" "${1:this}" {
+    endpoint = "${2:endpoint}"
+    is_private = "${3:is_private}"
+    name = "${4:name}"
+}

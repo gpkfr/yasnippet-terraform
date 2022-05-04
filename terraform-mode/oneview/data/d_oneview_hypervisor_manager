@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_hypervisor_manager
+# key: d_oneview_hypervisor_manager
+# --
+
+data "oneview_hypervisor_manager" "${1:this}" {
+    name = "${2:name}"
+}

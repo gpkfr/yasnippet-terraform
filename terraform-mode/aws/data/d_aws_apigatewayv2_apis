@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_apigatewayv2_apis
+# key: d_aws_apigatewayv2_apis
+# --
+
+data "aws_apigatewayv2_apis" "${1:this}" {
+}

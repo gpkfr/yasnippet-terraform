@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aidbox_access_policy
+# key: r_aidbox_access_policy
+# --
+
+resource "aidbox_access_policy" "${1:this}" {
+    engine = "${2:engine}"
+}

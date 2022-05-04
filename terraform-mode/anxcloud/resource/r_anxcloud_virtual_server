@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_anxcloud_virtual_server
+# key: r_anxcloud_virtual_server
+# --
+
+resource "anxcloud_virtual_server" "${1:this}" {
+    cpus = "${2:cpus}"
+    hostname = "${3:hostname}"
+    location_id = "${4:location_id}"
+    memory = "${5:memory}"
+    template_id = "${6:template_id}"
+    template_type = "${7:template_type}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_cloudscale_custom_image
+# key: r_cloudscale_custom_image
+# --
+
+resource "cloudscale_custom_image" "${1:this}" {
+    import_source_format = "${2:import_source_format}"
+    import_url = "${3:import_url}"
+    name = "${4:name}"
+    user_data_handling = "${5:user_data_handling}"
+    zone_slugs = "${6:zone_slugs}"
+}

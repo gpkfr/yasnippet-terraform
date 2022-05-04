@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_personalize_dataset_group
+# key: r_awscc_personalize_dataset_group
+# --
+
+resource "awscc_personalize_dataset_group" "${1:this}" {
+    name = "${2:name}"
+}

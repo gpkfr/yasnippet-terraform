@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_user_group_memberships
+# key: r_okta_user_group_memberships
+# --
+
+resource "okta_user_group_memberships" "${1:this}" {
+    groups = "${2:groups}"
+    user_id = "${3:user_id}"
+}

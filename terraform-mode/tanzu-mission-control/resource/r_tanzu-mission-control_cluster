@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tanzu-mission-control_cluster
+# key: r_tanzu-mission-control_cluster
+# --
+
+resource "tanzu-mission-control_cluster" "${1:this}" {
+    name = "${2:name}"
+}

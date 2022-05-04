@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_registry_namespace
+# key: r_scaleway_registry_namespace
+# --
+
+resource "scaleway_registry_namespace" "${1:this}" {
+    name = "${2:name}"
+}

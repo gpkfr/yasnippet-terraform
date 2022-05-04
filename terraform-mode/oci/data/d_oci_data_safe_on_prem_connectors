@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_on_prem_connectors
+# key: d_oci_data_safe_on_prem_connectors
+# --
+
+data "oci_data_safe_on_prem_connectors" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

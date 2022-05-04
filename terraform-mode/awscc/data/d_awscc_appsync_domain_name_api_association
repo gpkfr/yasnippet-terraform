@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_appsync_domain_name_api_association
+# key: d_awscc_appsync_domain_name_api_association
+# --
+
+data "awscc_appsync_domain_name_api_association" "${1:this}" {
+    id = "${2:id}"
+}

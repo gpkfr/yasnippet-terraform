@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuread_application_pre_authorized
+# key: r_azuread_application_pre_authorized
+# --
+
+resource "azuread_application_pre_authorized" "${1:this}" {
+    application_object_id = "${2:application_object_id}"
+    authorized_app_id = "${3:authorized_app_id}"
+    permission_ids = "${4:permission_ids}"
+}

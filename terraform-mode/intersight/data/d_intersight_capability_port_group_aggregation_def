@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_capability_port_group_aggregation_def
+# key: d_intersight_capability_port_group_aggregation_def
+# --
+
+data "intersight_capability_port_group_aggregation_def" "${1:this}" {
+}

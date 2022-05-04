@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_akeyless_producer_tmp_creds
+# key: d_akeyless_producer_tmp_creds
+# --
+
+data "akeyless_producer_tmp_creds" "${1:this}" {
+    name = "${2:name}"
+}

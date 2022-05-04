@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_bds_bds_instance_api_key
+# key: r_oci_bds_bds_instance_api_key
+# --
+
+resource "oci_bds_bds_instance_api_key" "${1:this}" {
+    bds_instance_id = "${2:bds_instance_id}"
+    key_alias = "${3:key_alias}"
+    passphrase = "${4:passphrase}"
+    user_id = "${5:user_id}"
+}

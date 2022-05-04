@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_anypoint_rolegroup_roles
+# key: r_anypoint_rolegroup_roles
+# --
+
+resource "anypoint_rolegroup_roles" "${1:this}" {
+    org_id = "${2:org_id}"
+    role_group_id = "${3:role_group_id}"
+}

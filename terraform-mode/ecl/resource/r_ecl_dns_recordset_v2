@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_ecl_dns_recordset_v2
+# key: r_ecl_dns_recordset_v2
+# --
+
+resource "ecl_dns_recordset_v2" "${1:this}" {
+    name = "${2:name}"
+    record = "${3:record}"
+    ttl = "${4:ttl}"
+    type = "${5:type}"
+    zone_id = "${6:zone_id}"
+}

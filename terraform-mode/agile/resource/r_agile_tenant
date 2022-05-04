@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_agile_tenant
+# key: r_agile_tenant
+# --
+
+resource "agile_tenant" "${1:this}" {
+    name = "${2:name}"
+    quota = "${3:quota}"
+}

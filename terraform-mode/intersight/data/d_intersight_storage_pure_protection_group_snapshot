@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_pure_protection_group_snapshot
+# key: d_intersight_storage_pure_protection_group_snapshot
+# --
+
+data "intersight_storage_pure_protection_group_snapshot" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_asset_target
+# key: d_intersight_asset_target
+# --
+
+data "intersight_asset_target" "${1:this}" {
+}

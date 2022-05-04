@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ivs_stream_keys
+# key: d_awscc_ivs_stream_keys
+# --
+
+data "awscc_ivs_stream_keys" "${1:this}" {
+}

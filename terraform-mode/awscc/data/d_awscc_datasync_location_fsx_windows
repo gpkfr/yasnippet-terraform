@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_location_fsx_windows
+# key: d_awscc_datasync_location_fsx_windows
+# --
+
+data "awscc_datasync_location_fsx_windows" "${1:this}" {
+    id = "${2:id}"
+}

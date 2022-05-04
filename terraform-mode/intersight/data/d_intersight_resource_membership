@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_resource_membership
+# key: d_intersight_resource_membership
+# --
+
+data "intersight_resource_membership" "${1:this}" {
+}

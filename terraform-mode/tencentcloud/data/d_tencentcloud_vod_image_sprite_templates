@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_vod_image_sprite_templates
+# key: d_tencentcloud_vod_image_sprite_templates
+# --
+
+data "tencentcloud_vod_image_sprite_templates" "${1:this}" {
+}

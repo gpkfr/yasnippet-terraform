@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_netris_bgp_object
+# key: r_netris_bgp_object
+# --
+
+resource "netris_bgp_object" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+    value = "${4:value}"
+}

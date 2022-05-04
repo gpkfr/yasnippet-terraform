@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_databricks_external_location
+# key: r_databricks_external_location
+# --
+
+resource "databricks_external_location" "${1:this}" {
+    credential_name = "${2:credential_name}"
+    name = "${3:name}"
+    url = "${4:url}"
+}

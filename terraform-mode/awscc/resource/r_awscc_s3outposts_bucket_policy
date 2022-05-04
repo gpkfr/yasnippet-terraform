@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_s3outposts_bucket_policy
+# key: r_awscc_s3outposts_bucket_policy
+# --
+
+resource "awscc_s3outposts_bucket_policy" "${1:this}" {
+    bucket = "${2:bucket}"
+    policy_document = "${3:policy_document}"
+}

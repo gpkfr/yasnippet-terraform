@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_event_trigger
+# key: d_mongodbatlas_event_trigger
+# --
+
+data "mongodbatlas_event_trigger" "${1:this}" {
+    app_id = "${2:app_id}"
+    project_id = "${3:project_id}"
+    trigger_id = "${4:trigger_id}"
+}

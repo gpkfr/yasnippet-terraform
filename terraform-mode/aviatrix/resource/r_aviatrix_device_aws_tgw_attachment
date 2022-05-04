@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_device_aws_tgw_attachment
+# key: r_aviatrix_device_aws_tgw_attachment
+# --
+
+resource "aviatrix_device_aws_tgw_attachment" "${1:this}" {
+    aws_tgw_name = "${2:aws_tgw_name}"
+    connection_name = "${3:connection_name}"
+    device_bgp_asn = "${4:device_bgp_asn}"
+    device_name = "${5:device_name}"
+    security_domain_name = "${6:security_domain_name}"
+}

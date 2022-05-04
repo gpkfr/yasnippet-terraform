@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_onelogin_app_role_attachments
+# key: r_onelogin_app_role_attachments
+# --
+
+resource "onelogin_app_role_attachments" "${1:this}" {
+    app_id = "${2:app_id}"
+    role_id = "${3:role_id}"
+}

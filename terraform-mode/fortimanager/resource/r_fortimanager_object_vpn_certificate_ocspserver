@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_vpn_certificate_ocspserver
+# key: r_fortimanager_object_vpn_certificate_ocspserver
+# --
+
+resource "fortimanager_object_vpn_certificate_ocspserver" "${1:this}" {
+}

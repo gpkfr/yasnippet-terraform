@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_logzio_endpoint
+# key: r_logzio_endpoint
+# --
+
+resource "logzio_endpoint" "${1:this}" {
+    endpoint_type = "${2:endpoint_type}"
+    title = "${3:title}"
+}

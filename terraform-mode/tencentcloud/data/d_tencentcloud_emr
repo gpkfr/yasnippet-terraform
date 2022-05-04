@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_emr
+# key: d_tencentcloud_emr
+# --
+
+data "tencentcloud_emr" "${1:this}" {
+    display_strategy = "${2:display_strategy}"
+}

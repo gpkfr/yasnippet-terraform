@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbgroup_lbvserver_binding
+# key: r_citrixadc_lbgroup_lbvserver_binding
+# --
+
+resource "citrixadc_lbgroup_lbvserver_binding" "${1:this}" {
+    name = "${2:name}"
+    vservername = "${3:vservername}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_network_direction
+# key: d_elasticstack_elasticsearch_ingest_processor_network_direction
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_network_direction" "${1:this}" {
+}

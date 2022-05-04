@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_switch_cluster_profile
+# key: d_intersight_fabric_switch_cluster_profile
+# --
+
+data "intersight_fabric_switch_cluster_profile" "${1:this}" {
+}

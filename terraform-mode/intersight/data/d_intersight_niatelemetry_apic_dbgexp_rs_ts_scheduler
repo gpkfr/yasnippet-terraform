@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_apic_dbgexp_rs_ts_scheduler
+# key: d_intersight_niatelemetry_apic_dbgexp_rs_ts_scheduler
+# --
+
+data "intersight_niatelemetry_apic_dbgexp_rs_ts_scheduler" "${1:this}" {
+}

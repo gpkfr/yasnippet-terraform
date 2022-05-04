@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslvserver_sslciphersuite_binding
+# key: r_citrixadc_sslvserver_sslciphersuite_binding
+# --
+
+resource "citrixadc_sslvserver_sslciphersuite_binding" "${1:this}" {
+    ciphername = "${2:ciphername}"
+    vservername = "${3:vservername}"
+}

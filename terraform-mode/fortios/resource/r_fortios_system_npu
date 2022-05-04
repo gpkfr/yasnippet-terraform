@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_npu
+# key: r_fortios_system_npu
+# --
+
+resource "fortios_system_npu" "${1:this}" {
+}

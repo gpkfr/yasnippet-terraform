@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_securityhub_finding_aggregator
+# key: r_aws_securityhub_finding_aggregator
+# --
+
+resource "aws_securityhub_finding_aggregator" "${1:this}" {
+    linking_mode = "${2:linking_mode}"
+}

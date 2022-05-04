@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_betteruptime_monitor_group
+# key: r_betteruptime_monitor_group
+# --
+
+resource "betteruptime_monitor_group" "${1:this}" {
+}

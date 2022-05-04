@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_botsettings
+# key: r_citrixadc_botsettings
+# --
+
+resource "citrixadc_botsettings" "${1:this}" {
+}

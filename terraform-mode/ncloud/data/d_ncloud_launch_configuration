@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_launch_configuration
+# key: d_ncloud_launch_configuration
+# --
+
+data "ncloud_launch_configuration" "${1:this}" {
+}

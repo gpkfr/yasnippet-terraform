@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_exoscale_compute_instance
+# key: d_exoscale_compute_instance
+# --
+
+data "exoscale_compute_instance" "${1:this}" {
+    zone = "${2:zone}"
+}

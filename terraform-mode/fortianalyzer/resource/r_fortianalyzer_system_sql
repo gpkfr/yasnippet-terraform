@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_sql
+# key: r_fortianalyzer_system_sql
+# --
+
+resource "fortianalyzer_system_sql" "${1:this}" {
+}

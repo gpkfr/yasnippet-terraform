@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_subnet
+# key: r_ncloud_subnet
+# --
+
+resource "ncloud_subnet" "${1:this}" {
+    network_acl_no = "${2:network_acl_no}"
+    subnet = "${3:subnet}"
+    subnet_type = "${4:subnet_type}"
+    vpc_no = "${5:vpc_no}"
+    zone = "${6:zone}"
+}

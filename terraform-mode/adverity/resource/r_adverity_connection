@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_adverity_connection
+# key: r_adverity_connection
+# --
+
+resource "adverity_connection" "${1:this}" {
+    connection_type_id = "${2:connection_type_id}"
+    name = "${3:name}"
+    stack = "${4:stack}"
+}

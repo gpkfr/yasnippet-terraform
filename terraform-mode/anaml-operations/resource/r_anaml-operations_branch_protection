@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_anaml-operations_branch_protection
+# key: r_anaml-operations_branch_protection
+# --
+
+resource "anaml-operations_branch_protection" "${1:this}" {
+    allow_branch_deletion = "${2:allow_branch_deletion}"
+    apply_to_admins = "${3:apply_to_admins}"
+    protection_pattern = "${4:protection_pattern}"
+}

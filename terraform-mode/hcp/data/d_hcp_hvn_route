@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_hcp_hvn_route
+# key: d_hcp_hvn_route
+# --
+
+data "hcp_hvn_route" "${1:this}" {
+    hvn_link = "${2:hvn_link}"
+    hvn_route_id = "${3:hvn_route_id}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_delphix_environment
+# key: r_delphix_environment
+# --
+
+resource "delphix_environment" "${1:this}" {
+    engine_id = "${2:engine_id}"
+    hostname = "${3:hostname}"
+    os_name = "${4:os_name}"
+    password = "${5:password}"
+    username = "${6:username}"
+}

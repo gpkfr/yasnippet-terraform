@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_version_notes
+# key: r_akamai_appsec_version_notes
+# --
+
+resource "akamai_appsec_version_notes" "${1:this}" {
+    config_id = "${2:config_id}"
+    version = "${3:version}"
+    version_notes = "${4:version_notes}"
+}

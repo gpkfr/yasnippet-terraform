@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_lb_service_monitor
+# key: d_vcd_lb_service_monitor
+# --
+
+data "vcd_lb_service_monitor" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    name = "${3:name}"
+}

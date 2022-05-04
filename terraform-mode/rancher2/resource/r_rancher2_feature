@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rancher2_feature
+# key: r_rancher2_feature
+# --
+
+resource "rancher2_feature" "${1:this}" {
+    name = "${2:name}"
+}

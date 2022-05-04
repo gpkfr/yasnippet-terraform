@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_networkmanager_link_association
+# key: r_awscc_networkmanager_link_association
+# --
+
+resource "awscc_networkmanager_link_association" "${1:this}" {
+    device_id = "${2:device_id}"
+    global_network_id = "${3:global_network_id}"
+    link_id = "${4:link_id}"
+}

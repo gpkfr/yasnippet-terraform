@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_xray_sampling_rule
+# key: d_awscc_xray_sampling_rule
+# --
+
+data "awscc_xray_sampling_rule" "${1:this}" {
+    id = "${2:id}"
+}

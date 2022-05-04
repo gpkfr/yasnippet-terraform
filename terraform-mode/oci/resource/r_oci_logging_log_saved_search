@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_logging_log_saved_search
+# key: r_oci_logging_log_saved_search
+# --
+
+resource "oci_logging_log_saved_search" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    name = "${3:name}"
+    query = "${4:query}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_citrixadc_nsversion
+# key: d_citrixadc_nsversion
+# --
+
+data "citrixadc_nsversion" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_internetservicename
+# key: r_fortimanager_object_firewall_internetservicename
+# --
+
+resource "fortimanager_object_firewall_internetservicename" "${1:this}" {
+}

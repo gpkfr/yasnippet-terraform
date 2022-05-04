@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_iwe_dvswitch
+# key: d_intersight_virtualization_iwe_dvswitch
+# --
+
+data "intersight_virtualization_iwe_dvswitch" "${1:this}" {
+}

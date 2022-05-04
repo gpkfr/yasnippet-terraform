@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontroller_fortilinksettings
+# key: r_fortios_switchcontroller_fortilinksettings
+# --
+
+resource "fortios_switchcontroller_fortilinksettings" "${1:this}" {
+}

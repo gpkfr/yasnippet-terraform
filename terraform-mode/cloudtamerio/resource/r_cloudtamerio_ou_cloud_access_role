@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudtamerio_ou_cloud_access_role
+# key: r_cloudtamerio_ou_cloud_access_role
+# --
+
+resource "cloudtamerio_ou_cloud_access_role" "${1:this}" {
+    aws_iam_role_name = "${2:aws_iam_role_name}"
+    name = "${3:name}"
+    ou_id = "${4:ou_id}"
+}

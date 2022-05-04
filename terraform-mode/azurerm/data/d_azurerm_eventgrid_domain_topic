@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_eventgrid_domain_topic
+# key: d_azurerm_eventgrid_domain_topic
+# --
+
+data "azurerm_eventgrid_domain_topic" "${1:this}" {
+    domain_name = "${2:domain_name}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azuread_administrative_unit
+# key: d_azuread_administrative_unit
+# --
+
+data "azuread_administrative_unit" "${1:this}" {
+}

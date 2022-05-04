@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_aaa_retention_config
+# key: d_intersight_aaa_retention_config
+# --
+
+data "intersight_aaa_retention_config" "${1:this}" {
+}

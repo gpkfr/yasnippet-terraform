@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_ipv4block
+# key: r_bluecat_ipv4block
+# --
+
+resource "bluecat_ipv4block" "${1:this}" {
+    address = "${2:address}"
+    cidr = "${3:cidr}"
+    name = "${4:name}"
+}

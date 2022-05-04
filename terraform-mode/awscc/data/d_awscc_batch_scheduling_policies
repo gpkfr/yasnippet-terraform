@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_batch_scheduling_policies
+# key: d_awscc_batch_scheduling_policies
+# --
+
+data "awscc_batch_scheduling_policies" "${1:this}" {
+}

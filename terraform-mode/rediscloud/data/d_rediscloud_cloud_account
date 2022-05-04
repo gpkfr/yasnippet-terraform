@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rediscloud_cloud_account
+# key: d_rediscloud_cloud_account
+# --
+
+data "rediscloud_cloud_account" "${1:this}" {
+}

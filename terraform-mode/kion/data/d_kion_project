@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kion_project
+# key: d_kion_project
+# --
+
+data "kion_project" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_gateway_route_table_association
+# key: r_awscc_ec2_gateway_route_table_association
+# --
+
+resource "awscc_ec2_gateway_route_table_association" "${1:this}" {
+    gateway_id = "${2:gateway_id}"
+    route_table_id = "${3:route_table_id}"
+}

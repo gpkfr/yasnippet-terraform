@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_azure_web_app_deployment_targets
+# key: d_octopusdeploy_azure_web_app_deployment_targets
+# --
+
+data "octopusdeploy_azure_web_app_deployment_targets" "${1:this}" {
+}

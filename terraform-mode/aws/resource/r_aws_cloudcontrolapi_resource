@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudcontrolapi_resource
+# key: r_aws_cloudcontrolapi_resource
+# --
+
+resource "aws_cloudcontrolapi_resource" "${1:this}" {
+    desired_state = "${2:desired_state}"
+    type_name = "${3:type_name}"
+}

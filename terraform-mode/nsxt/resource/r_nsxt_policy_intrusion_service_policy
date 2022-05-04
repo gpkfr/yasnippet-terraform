@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_intrusion_service_policy
+# key: r_nsxt_policy_intrusion_service_policy
+# --
+
+resource "nsxt_policy_intrusion_service_policy" "${1:this}" {
+    display_name = "${2:display_name}"
+}

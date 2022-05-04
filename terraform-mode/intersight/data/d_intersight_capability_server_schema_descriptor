@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_capability_server_schema_descriptor
+# key: d_intersight_capability_server_schema_descriptor
+# --
+
+data "intersight_capability_server_schema_descriptor" "${1:this}" {
+}

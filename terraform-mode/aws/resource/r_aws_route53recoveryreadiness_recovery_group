@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53recoveryreadiness_recovery_group
+# key: r_aws_route53recoveryreadiness_recovery_group
+# --
+
+resource "aws_route53recoveryreadiness_recovery_group" "${1:this}" {
+    recovery_group_name = "${2:recovery_group_name}"
+}

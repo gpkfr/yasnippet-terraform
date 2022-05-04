@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_webfilter_ftgdlocalrating
+# key: r_fortimanager_object_webfilter_ftgdlocalrating
+# --
+
+resource "fortimanager_object_webfilter_ftgdlocalrating" "${1:this}" {
+}

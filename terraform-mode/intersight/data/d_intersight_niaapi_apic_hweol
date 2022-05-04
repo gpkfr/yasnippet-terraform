@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niaapi_apic_hweol
+# key: d_intersight_niaapi_apic_hweol
+# --
+
+data "intersight_niaapi_apic_hweol" "${1:this}" {
+}

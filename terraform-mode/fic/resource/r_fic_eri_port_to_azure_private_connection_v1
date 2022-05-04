@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: r_fic_eri_port_to_azure_private_connection_v1
+# key: r_fic_eri_port_to_azure_private_connection_v1
+# --
+
+resource "fic_eri_port_to_azure_private_connection_v1" "${1:this}" {
+    bandwidth = "${2:bandwidth}"
+    destination_interconnect = "${3:destination_interconnect}"
+    destination_qos_type = "${4:destination_qos_type}"
+    destination_service_key = "${5:destination_service_key}"
+    name = "${6:name}"
+    primary_connected_network_address = "${7:primary_connected_network_address}"
+    secondary_connected_network_address = "${8:secondary_connected_network_address}"
+    source_asn = "${9:source_asn}"
+    source_primary_port_id = "${10:source_primary_port_id}"
+    source_primary_vlan = "${11:source_primary_vlan}"
+    source_secondary_port_id = "${12:source_secondary_port_id}"
+    source_secondary_vlan = "${13:source_secondary_vlan}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ns_subdomain
+# key: d_ns_subdomain
+# --
+
+data "ns_subdomain" "${1:this}" {
+    block_id = "${2:block_id}"
+    stack_id = "${3:stack_id}"
+}

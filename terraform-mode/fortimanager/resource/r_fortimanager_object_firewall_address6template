@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_address6template
+# key: r_fortimanager_object_firewall_address6template
+# --
+
+resource "fortimanager_object_firewall_address6template" "${1:this}" {
+}

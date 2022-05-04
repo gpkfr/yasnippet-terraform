@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_linode_instances
+# key: d_linode_instances
+# --
+
+data "linode_instances" "${1:this}" {
+}

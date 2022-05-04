@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotsitewise_project
+# key: r_awscc_iotsitewise_project
+# --
+
+resource "awscc_iotsitewise_project" "${1:this}" {
+    portal_id = "${2:portal_id}"
+    project_name = "${3:project_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_access_policy
+# key: d_intersight_access_policy
+# --
+
+data "intersight_access_policy" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_data_lake
+# key: r_mongodbatlas_data_lake
+# --
+
+resource "mongodbatlas_data_lake" "${1:this}" {
+    name = "${2:name}"
+    project_id = "${3:project_id}"
+}

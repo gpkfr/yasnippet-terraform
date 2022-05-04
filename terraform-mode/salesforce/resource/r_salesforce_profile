@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_salesforce_profile
+# key: r_salesforce_profile
+# --
+
+resource "salesforce_profile" "${1:this}" {
+    name = "${2:name}"
+    user_license_id = "${3:user_license_id}"
+}

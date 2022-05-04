@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_macie_custom_data_identifier
+# key: r_awscc_macie_custom_data_identifier
+# --
+
+resource "awscc_macie_custom_data_identifier" "${1:this}" {
+    name = "${2:name}"
+    regex = "${3:regex}"
+}

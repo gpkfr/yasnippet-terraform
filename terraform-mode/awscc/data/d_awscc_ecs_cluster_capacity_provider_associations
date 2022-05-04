@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ecs_cluster_capacity_provider_associations
+# key: d_awscc_ecs_cluster_capacity_provider_associations
+# --
+
+data "awscc_ecs_cluster_capacity_provider_associations" "${1:this}" {
+    id = "${2:id}"
+}

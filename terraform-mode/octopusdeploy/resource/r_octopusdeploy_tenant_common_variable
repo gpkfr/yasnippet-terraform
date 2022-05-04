@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_tenant_common_variable
+# key: r_octopusdeploy_tenant_common_variable
+# --
+
+resource "octopusdeploy_tenant_common_variable" "${1:this}" {
+    library_variable_set_id = "${2:library_variable_set_id}"
+    template_id = "${3:template_id}"
+    tenant_id = "${4:tenant_id}"
+}

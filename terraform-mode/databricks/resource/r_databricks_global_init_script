@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_databricks_global_init_script
+# key: r_databricks_global_init_script
+# --
+
+resource "databricks_global_init_script" "${1:this}" {
+    name = "${2:name}"
+}

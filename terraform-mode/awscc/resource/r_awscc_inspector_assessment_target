@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_inspector_assessment_target
+# key: r_awscc_inspector_assessment_target
+# --
+
+resource "awscc_inspector_assessment_target" "${1:this}" {
+}

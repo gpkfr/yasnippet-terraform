@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwfieldtype
+# key: r_citrixadc_appfwfieldtype
+# --
+
+resource "citrixadc_appfwfieldtype" "${1:this}" {
+    name = "${2:name}"
+    regex = "${3:regex}"
+}

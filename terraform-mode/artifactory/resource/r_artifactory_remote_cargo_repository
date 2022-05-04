@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_remote_cargo_repository
+# key: r_artifactory_remote_cargo_repository
+# --
+
+resource "artifactory_remote_cargo_repository" "${1:this}" {
+    git_registry_url = "${2:git_registry_url}"
+    key = "${3:key}"
+    url = "${4:url}"
+}

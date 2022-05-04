@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_virtualization_virtual_network
+# key: r_intersight_virtualization_virtual_network
+# --
+
+resource "intersight_virtualization_virtual_network" "${1:this}" {
+}

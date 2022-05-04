@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gcore_securitygroup
+# key: r_gcore_securitygroup
+# --
+
+resource "gcore_securitygroup" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_workloads_unpair
+# key: r_illumio-core_workloads_unpair
+# --
+
+resource "illumio-core_workloads_unpair" "${1:this}" {
+}

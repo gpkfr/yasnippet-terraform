@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_centralsnatmap
+# key: r_fortimanager_packages_firewall_centralsnatmap
+# --
+
+resource "fortimanager_packages_firewall_centralsnatmap" "${1:this}" {
+    pkg = "${2:pkg}"
+}

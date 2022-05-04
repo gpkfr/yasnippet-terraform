@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationwebauthaction
+# key: r_citrixadc_authenticationwebauthaction
+# --
+
+resource "citrixadc_authenticationwebauthaction" "${1:this}" {
+    name = "${2:name}"
+    scheme = "${3:scheme}"
+    serverip = "${4:serverip}"
+    serverport = "${5:serverport}"
+    successrule = "${6:successrule}"
+}

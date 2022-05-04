@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_security_center_assessment_policy
+# key: r_azurerm_security_center_assessment_policy
+# --
+
+resource "azurerm_security_center_assessment_policy" "${1:this}" {
+    description = "${2:description}"
+    display_name = "${3:display_name}"
+}

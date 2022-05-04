@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_wisdom_knowledge_base
+# key: r_awscc_wisdom_knowledge_base
+# --
+
+resource "awscc_wisdom_knowledge_base" "${1:this}" {
+    knowledge_base_type = "${2:knowledge_base_type}"
+    name = "${3:name}"
+}

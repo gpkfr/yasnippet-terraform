@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_cluster_addons
+# key: r_nirmata_cluster_addons
+# --
+
+resource "nirmata_cluster_addons" "${1:this}" {
+    application = "${2:application}"
+    catalog = "${3:catalog}"
+    cluster = "${4:cluster}"
+    name = "${5:name}"
+}

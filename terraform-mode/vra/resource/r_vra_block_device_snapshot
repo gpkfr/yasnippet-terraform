@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vra_block_device_snapshot
+# key: r_vra_block_device_snapshot
+# --
+
+resource "vra_block_device_snapshot" "${1:this}" {
+    block_device_id = "${2:block_device_id}"
+}

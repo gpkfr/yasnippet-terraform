@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lightsail_instances
+# key: d_awscc_lightsail_instances
+# --
+
+data "awscc_lightsail_instances" "${1:this}" {
+}

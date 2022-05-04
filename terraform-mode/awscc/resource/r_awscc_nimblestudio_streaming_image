@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_nimblestudio_streaming_image
+# key: r_awscc_nimblestudio_streaming_image
+# --
+
+resource "awscc_nimblestudio_streaming_image" "${1:this}" {
+    ec_2_image_id = "${2:ec_2_image_id}"
+    name = "${3:name}"
+    studio_id = "${4:studio_id}"
+}

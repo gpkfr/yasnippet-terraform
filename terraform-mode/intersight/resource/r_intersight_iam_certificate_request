@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_iam_certificate_request
+# key: r_intersight_iam_certificate_request
+# --
+
+resource "intersight_iam_certificate_request" "${1:this}" {
+}

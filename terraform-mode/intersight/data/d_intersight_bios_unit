@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_bios_unit
+# key: d_intersight_bios_unit
+# --
+
+data "intersight_bios_unit" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_log_analytics_log_analytics_preferences_management
+# key: r_oci_log_analytics_log_analytics_preferences_management
+# --
+
+resource "oci_log_analytics_log_analytics_preferences_management" "${1:this}" {
+    namespace = "${2:namespace}"
+}

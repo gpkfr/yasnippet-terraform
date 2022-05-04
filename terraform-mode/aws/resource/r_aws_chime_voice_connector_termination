@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_chime_voice_connector_termination
+# key: r_aws_chime_voice_connector_termination
+# --
+
+resource "aws_chime_voice_connector_termination" "${1:this}" {
+    calling_regions = "${2:calling_regions}"
+    cidr_allow_list = "${3:cidr_allow_list}"
+    voice_connector_id = "${4:voice_connector_id}"
+}

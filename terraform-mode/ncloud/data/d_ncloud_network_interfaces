@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_network_interfaces
+# key: d_ncloud_network_interfaces
+# --
+
+data "ncloud_network_interfaces" "${1:this}" {
+}

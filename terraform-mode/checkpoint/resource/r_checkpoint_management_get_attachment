@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_get_attachment
+# key: r_checkpoint_management_get_attachment
+# --
+
+resource "checkpoint_management_get_attachment" "${1:this}" {
+}

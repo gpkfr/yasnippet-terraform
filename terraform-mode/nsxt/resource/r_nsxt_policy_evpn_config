@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_evpn_config
+# key: r_nsxt_policy_evpn_config
+# --
+
+resource "nsxt_policy_evpn_config" "${1:this}" {
+    display_name = "${2:display_name}"
+    gateway_path = "${3:gateway_path}"
+    mode = "${4:mode}"
+}

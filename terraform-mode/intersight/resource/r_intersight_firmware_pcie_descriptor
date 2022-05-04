@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_firmware_pcie_descriptor
+# key: r_intersight_firmware_pcie_descriptor
+# --
+
+resource "intersight_firmware_pcie_descriptor" "${1:this}" {
+}

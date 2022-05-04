@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_sentinel_data_connector_aws_cloud_trail
+# key: r_azurerm_sentinel_data_connector_aws_cloud_trail
+# --
+
+resource "azurerm_sentinel_data_connector_aws_cloud_trail" "${1:this}" {
+    aws_role_arn = "${2:aws_role_arn}"
+    log_analytics_workspace_id = "${3:log_analytics_workspace_id}"
+    name = "${4:name}"
+}

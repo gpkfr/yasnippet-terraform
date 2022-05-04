@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxt_alb_importable_cloud
+# key: d_vcd_nsxt_alb_importable_cloud
+# --
+
+data "vcd_nsxt_alb_importable_cloud" "${1:this}" {
+    controller_id = "${2:controller_id}"
+    name = "${3:name}"
+}

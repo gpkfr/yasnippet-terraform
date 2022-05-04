@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kion_service_control_policy
+# key: d_kion_service_control_policy
+# --
+
+data "kion_service_control_policy" "${1:this}" {
+}

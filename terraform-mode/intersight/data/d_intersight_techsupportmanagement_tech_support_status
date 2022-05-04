@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_techsupportmanagement_tech_support_status
+# key: d_intersight_techsupportmanagement_tech_support_status
+# --
+
+data "intersight_techsupportmanagement_tech_support_status" "${1:this}" {
+}

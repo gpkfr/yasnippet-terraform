@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_grafana_oncall_escalation
+# key: r_grafana_oncall_escalation
+# --
+
+resource "grafana_oncall_escalation" "${1:this}" {
+    escalation_chain_id = "${2:escalation_chain_id}"
+    position = "${3:position}"
+}

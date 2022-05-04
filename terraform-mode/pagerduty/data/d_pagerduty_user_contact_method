@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_pagerduty_user_contact_method
+# key: d_pagerduty_user_contact_method
+# --
+
+data "pagerduty_user_contact_method" "${1:this}" {
+    label = "${2:label}"
+    type = "${3:type}"
+    user_id = "${4:user_id}"
+}

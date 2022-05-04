@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nsxt_management_cluster
+# key: d_nsxt_management_cluster
+# --
+
+data "nsxt_management_cluster" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_okta_idp_saml
+# key: r_okta_idp_saml
+# --
+
+resource "okta_idp_saml" "${1:this}" {
+    issuer = "${2:issuer}"
+    kid = "${3:kid}"
+    name = "${4:name}"
+    sso_url = "${5:sso_url}"
+}

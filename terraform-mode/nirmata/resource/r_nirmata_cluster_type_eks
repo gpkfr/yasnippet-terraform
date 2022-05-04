@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_cluster_type_eks
+# key: r_nirmata_cluster_type_eks
+# --
+
+resource "nirmata_cluster_type_eks" "${1:this}" {
+    auto_sync_namespaces = "${2:auto_sync_namespaces}"
+    cluster_role_arn = "${3:cluster_role_arn}"
+    credentials = "${4:credentials}"
+    name = "${5:name}"
+    region = "${6:region}"
+    security_groups = "${7:security_groups}"
+    subnet_id = "${8:subnet_id}"
+    version = "${9:version}"
+    vpc_id = "${10:vpc_id}"
+}

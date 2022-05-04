@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_portpathoption
+# key: r_fortimanager_object_system_npu_portpathoption
+# --
+
+resource "fortimanager_object_system_npu_portpathoption" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_recovery_plan
+# key: r_nutanix_recovery_plan
+# --
+
+resource "nutanix_recovery_plan" "${1:this}" {
+    name = "${2:name}"
+}

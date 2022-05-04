@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_switchcontrollerinitialconfig_template
+# key: r_fortios_switchcontrollerinitialconfig_template
+# --
+
+resource "fortios_switchcontrollerinitialconfig_template" "${1:this}" {
+}

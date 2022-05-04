@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotwireless_wireless_device
+# key: r_awscc_iotwireless_wireless_device
+# --
+
+resource "awscc_iotwireless_wireless_device" "${1:this}" {
+    destination_name = "${2:destination_name}"
+    type = "${3:type}"
+}

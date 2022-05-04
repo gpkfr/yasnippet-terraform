@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_sslkeyandcertificate
+# key: r_avi_sslkeyandcertificate
+# --
+
+resource "avi_sslkeyandcertificate" "${1:this}" {
+    name = "${2:name}"
+}

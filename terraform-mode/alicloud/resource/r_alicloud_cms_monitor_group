@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_cms_monitor_group
+# key: r_alicloud_cms_monitor_group
+# --
+
+resource "alicloud_cms_monitor_group" "${1:this}" {
+    monitor_group_name = "${2:monitor_group_name}"
+}

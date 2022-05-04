@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_local_user_db_user
+# key: r_panos_local_user_db_user
+# --
+
+resource "panos_local_user_db_user" "${1:this}" {
+    name = "${2:name}"
+}

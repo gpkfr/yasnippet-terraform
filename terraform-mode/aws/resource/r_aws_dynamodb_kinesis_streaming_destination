@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_dynamodb_kinesis_streaming_destination
+# key: r_aws_dynamodb_kinesis_streaming_destination
+# --
+
+resource "aws_dynamodb_kinesis_streaming_destination" "${1:this}" {
+    stream_arn = "${2:stream_arn}"
+    table_name = "${3:table_name}"
+}

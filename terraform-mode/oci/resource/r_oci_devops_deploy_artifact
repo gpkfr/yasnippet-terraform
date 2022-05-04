@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_devops_deploy_artifact
+# key: r_oci_devops_deploy_artifact
+# --
+
+resource "oci_devops_deploy_artifact" "${1:this}" {
+    argument_substitution_mode = "${2:argument_substitution_mode}"
+    deploy_artifact_type = "${3:deploy_artifact_type}"
+    project_id = "${4:project_id}"
+}

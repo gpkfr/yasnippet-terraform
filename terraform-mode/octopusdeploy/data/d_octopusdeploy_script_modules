@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_script_modules
+# key: d_octopusdeploy_script_modules
+# --
+
+data "octopusdeploy_script_modules" "${1:this}" {
+}

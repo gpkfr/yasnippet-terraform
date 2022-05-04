@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_kvstore_connection
+# key: r_alicloud_kvstore_connection
+# --
+
+resource "alicloud_kvstore_connection" "${1:this}" {
+    connection_string_prefix = "${2:connection_string_prefix}"
+    instance_id = "${3:instance_id}"
+    port = "${4:port}"
+}

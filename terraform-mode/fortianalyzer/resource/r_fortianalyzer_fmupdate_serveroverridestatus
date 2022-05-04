@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_serveroverridestatus
+# key: r_fortianalyzer_fmupdate_serveroverridestatus
+# --
+
+resource "fortianalyzer_fmupdate_serveroverridestatus" "${1:this}" {
+}

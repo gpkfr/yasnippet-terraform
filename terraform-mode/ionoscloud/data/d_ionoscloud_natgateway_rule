@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_natgateway_rule
+# key: d_ionoscloud_natgateway_rule
+# --
+
+data "ionoscloud_natgateway_rule" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    natgateway_id = "${3:natgateway_id}"
+}

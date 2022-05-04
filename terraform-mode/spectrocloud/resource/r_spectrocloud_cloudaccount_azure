@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_cloudaccount_azure
+# key: r_spectrocloud_cloudaccount_azure
+# --
+
+resource "spectrocloud_cloudaccount_azure" "${1:this}" {
+    azure_client_id = "${2:azure_client_id}"
+    azure_client_secret = "${3:azure_client_secret}"
+    azure_tenant_id = "${4:azure_tenant_id}"
+    name = "${5:name}"
+}

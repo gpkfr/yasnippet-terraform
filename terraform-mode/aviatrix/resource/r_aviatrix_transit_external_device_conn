@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_transit_external_device_conn
+# key: r_aviatrix_transit_external_device_conn
+# --
+
+resource "aviatrix_transit_external_device_conn" "${1:this}" {
+    connection_name = "${2:connection_name}"
+    gw_name = "${3:gw_name}"
+    vpc_id = "${4:vpc_id}"
+}

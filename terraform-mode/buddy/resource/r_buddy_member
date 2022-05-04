@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_buddy_member
+# key: r_buddy_member
+# --
+
+resource "buddy_member" "${1:this}" {
+    domain = "${2:domain}"
+    email = "${3:email}"
+}

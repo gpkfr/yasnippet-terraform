@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_lb_certificate
+# key: d_scaleway_lb_certificate
+# --
+
+data "scaleway_lb_certificate" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_rebooter
+# key: r_citrixadc_rebooter
+# --
+
+resource "citrixadc_rebooter" "${1:this}" {
+    timestamp = "${2:timestamp}"
+    wait_until_reachable = "${3:wait_until_reachable}"
+    warm = "${4:warm}"
+}

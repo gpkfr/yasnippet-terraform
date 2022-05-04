@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_iosxe_rest
+# key: d_iosxe_rest
+# --
+
+data "iosxe_rest" "${1:this}" {
+    path = "${2:path}"
+}

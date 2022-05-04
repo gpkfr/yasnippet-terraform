@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vault_identity_oidc_openid_config
+# key: d_vault_identity_oidc_openid_config
+# --
+
+data "vault_identity_oidc_openid_config" "${1:this}" {
+    name = "${2:name}"
+}

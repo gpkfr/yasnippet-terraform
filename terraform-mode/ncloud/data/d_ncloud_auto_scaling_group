@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_auto_scaling_group
+# key: d_ncloud_auto_scaling_group
+# --
+
+data "ncloud_auto_scaling_group" "${1:this}" {
+}

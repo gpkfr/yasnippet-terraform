@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_transfer_access
+# key: r_aws_transfer_access
+# --
+
+resource "aws_transfer_access" "${1:this}" {
+    external_id = "${2:external_id}"
+    server_id = "${3:server_id}"
+}

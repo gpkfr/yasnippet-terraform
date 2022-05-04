@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_commvault_security_association
+# key: r_commvault_security_association
+# --
+
+resource "commvault_security_association" "${1:this}" {
+    client_list = "${2:client_list}"
+    permissions_list = "${3:permissions_list}"
+    user_group_name = "${4:user_group_name}"
+}

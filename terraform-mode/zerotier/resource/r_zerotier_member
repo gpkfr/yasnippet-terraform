@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_zerotier_member
+# key: r_zerotier_member
+# --
+
+resource "zerotier_member" "${1:this}" {
+    member_id = "${2:member_id}"
+    network_id = "${3:network_id}"
+}

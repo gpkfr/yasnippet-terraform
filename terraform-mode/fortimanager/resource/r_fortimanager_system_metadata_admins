@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_metadata_admins
+# key: r_fortimanager_system_metadata_admins
+# --
+
+resource "fortimanager_system_metadata_admins" "${1:this}" {
+}

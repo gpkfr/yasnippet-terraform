@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_eventgrid_system_topic_event_subscription
+# key: r_azurerm_eventgrid_system_topic_event_subscription
+# --
+
+resource "azurerm_eventgrid_system_topic_event_subscription" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+    system_topic = "${4:system_topic}"
+}

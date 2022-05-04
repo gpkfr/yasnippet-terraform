@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_certificatemanagementprofile
+# key: d_avi_certificatemanagementprofile
+# --
+
+data "avi_certificatemanagementprofile" "${1:this}" {
+}

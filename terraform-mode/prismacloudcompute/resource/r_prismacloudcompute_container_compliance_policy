@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_prismacloudcompute_container_compliance_policy
+# key: r_prismacloudcompute_container_compliance_policy
+# --
+
+resource "prismacloudcompute_container_compliance_policy" "${1:this}" {
+}

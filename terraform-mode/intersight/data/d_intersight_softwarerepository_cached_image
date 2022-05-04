@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_softwarerepository_cached_image
+# key: d_intersight_softwarerepository_cached_image
+# --
+
+data "intersight_softwarerepository_cached_image" "${1:this}" {
+}

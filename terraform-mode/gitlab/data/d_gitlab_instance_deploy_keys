@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_gitlab_instance_deploy_keys
+# key: d_gitlab_instance_deploy_keys
+# --
+
+data "gitlab_instance_deploy_keys" "${1:this}" {
+}

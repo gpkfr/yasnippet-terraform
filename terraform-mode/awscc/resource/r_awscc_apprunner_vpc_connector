@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_apprunner_vpc_connector
+# key: r_awscc_apprunner_vpc_connector
+# --
+
+resource "awscc_apprunner_vpc_connector" "${1:this}" {
+    subnets = "${2:subnets}"
+}

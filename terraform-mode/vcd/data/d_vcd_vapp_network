@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_vapp_network
+# key: d_vcd_vapp_network
+# --
+
+data "vcd_vapp_network" "${1:this}" {
+    name = "${2:name}"
+    vapp_name = "${3:vapp_name}"
+}

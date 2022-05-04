@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ses_template
+# key: r_awscc_ses_template
+# --
+
+resource "awscc_ses_template" "${1:this}" {
+}

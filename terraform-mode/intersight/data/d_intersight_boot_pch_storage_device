@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_boot_pch_storage_device
+# key: d_intersight_boot_pch_storage_device
+# --
+
+data "intersight_boot_pch_storage_device" "${1:this}" {
+}

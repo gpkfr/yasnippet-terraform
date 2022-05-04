@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_vnic_lan_connectivity_policy
+# key: d_intersight_vnic_lan_connectivity_policy
+# --
+
+data "intersight_vnic_lan_connectivity_policy" "${1:this}" {
+}

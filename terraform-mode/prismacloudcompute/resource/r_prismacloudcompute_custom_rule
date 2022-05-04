@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_prismacloudcompute_custom_rule
+# key: r_prismacloudcompute_custom_rule
+# --
+
+resource "prismacloudcompute_custom_rule" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

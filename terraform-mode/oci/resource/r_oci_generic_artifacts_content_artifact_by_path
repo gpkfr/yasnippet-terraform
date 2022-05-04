@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_generic_artifacts_content_artifact_by_path
+# key: r_oci_generic_artifacts_content_artifact_by_path
+# --
+
+resource "oci_generic_artifacts_content_artifact_by_path" "${1:this}" {
+    artifact_path = "${2:artifact_path}"
+    repository_id = "${3:repository_id}"
+    version = "${4:version}"
+}

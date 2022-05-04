@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudwatch_query_definition
+# key: r_aws_cloudwatch_query_definition
+# --
+
+resource "aws_cloudwatch_query_definition" "${1:this}" {
+    name = "${2:name}"
+    query_string = "${3:query_string}"
+}

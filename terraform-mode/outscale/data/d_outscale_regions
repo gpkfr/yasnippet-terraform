@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_outscale_regions
+# key: d_outscale_regions
+# --
+
+data "outscale_regions" "${1:this}" {
+}

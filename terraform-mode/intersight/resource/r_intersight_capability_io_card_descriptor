@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_capability_io_card_descriptor
+# key: r_intersight_capability_io_card_descriptor
+# --
+
+resource "intersight_capability_io_card_descriptor" "${1:this}" {
+}

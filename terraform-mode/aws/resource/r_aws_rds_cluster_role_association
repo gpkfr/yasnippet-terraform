@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_rds_cluster_role_association
+# key: r_aws_rds_cluster_role_association
+# --
+
+resource "aws_rds_cluster_role_association" "${1:this}" {
+    db_cluster_identifier = "${2:db_cluster_identifier}"
+    feature_name = "${3:feature_name}"
+    role_arn = "${4:role_arn}"
+}

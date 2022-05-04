@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_software_solution_distributable
+# key: r_intersight_software_solution_distributable
+# --
+
+resource "intersight_software_solution_distributable" "${1:this}" {
+}

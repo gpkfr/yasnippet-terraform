@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_privilege_set
+# key: d_intersight_iam_privilege_set
+# --
+
+data "intersight_iam_privilege_set" "${1:this}" {
+}

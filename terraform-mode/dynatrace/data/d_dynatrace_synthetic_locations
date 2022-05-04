@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_dynatrace_synthetic_locations
+# key: d_dynatrace_synthetic_locations
+# --
+
+data "dynatrace_synthetic_locations" "${1:this}" {
+}

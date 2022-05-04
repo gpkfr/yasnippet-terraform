@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_workflow_solution_action_definition
+# key: d_intersight_workflow_solution_action_definition
+# --
+
+data "intersight_workflow_solution_action_definition" "${1:this}" {
+}

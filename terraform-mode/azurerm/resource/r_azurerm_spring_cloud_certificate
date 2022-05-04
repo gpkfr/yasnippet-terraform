@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_spring_cloud_certificate
+# key: r_azurerm_spring_cloud_certificate
+# --
+
+resource "azurerm_spring_cloud_certificate" "${1:this}" {
+    name = "${2:name}"
+    resource_group_name = "${3:resource_group_name}"
+    service_name = "${4:service_name}"
+}

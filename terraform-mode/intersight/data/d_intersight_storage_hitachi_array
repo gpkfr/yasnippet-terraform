@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_hitachi_array
+# key: d_intersight_storage_hitachi_array
+# --
+
+data "intersight_storage_hitachi_array" "${1:this}" {
+}

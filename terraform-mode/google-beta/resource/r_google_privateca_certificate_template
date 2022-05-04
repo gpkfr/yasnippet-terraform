@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_privateca_certificate_template
+# key: r_google_privateca_certificate_template
+# --
+
+resource "google_privateca_certificate_template" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+}

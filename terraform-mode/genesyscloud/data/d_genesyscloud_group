@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_group
+# key: d_genesyscloud_group
+# --
+
+data "genesyscloud_group" "${1:this}" {
+    name = "${2:name}"
+}

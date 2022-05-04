@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_controller_gateway_keepalive_config
+# key: r_aviatrix_controller_gateway_keepalive_config
+# --
+
+resource "aviatrix_controller_gateway_keepalive_config" "${1:this}" {
+    keepalive_speed = "${2:keepalive_speed}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_rafay_blueprint
+# key: r_rafay_blueprint
+# --
+
+resource "rafay_blueprint" "${1:this}" {
+}

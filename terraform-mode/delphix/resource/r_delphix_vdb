@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_delphix_vdb
+# key: r_delphix_vdb
+# --
+
+resource "delphix_vdb" "${1:this}" {
+    source_data_id = "${2:source_data_id}"
+}

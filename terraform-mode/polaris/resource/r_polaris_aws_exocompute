@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_polaris_aws_exocompute
+# key: r_polaris_aws_exocompute
+# --
+
+resource "polaris_aws_exocompute" "${1:this}" {
+    account_id = "${2:account_id}"
+    region = "${3:region}"
+    subnets = "${4:subnets}"
+    vpc_id = "${5:vpc_id}"
+}

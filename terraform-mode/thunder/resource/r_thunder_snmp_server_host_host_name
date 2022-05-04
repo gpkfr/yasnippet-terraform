@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_snmp_server_host_host_name
+# key: r_thunder_snmp_server_host_host_name
+# --
+
+resource "thunder_snmp_server_host_host_name" "${1:this}" {
+    hostname = "${2:hostname}"
+}

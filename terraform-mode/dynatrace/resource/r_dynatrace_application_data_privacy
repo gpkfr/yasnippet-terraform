@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_application_data_privacy
+# key: r_dynatrace_application_data_privacy
+# --
+
+resource "dynatrace_application_data_privacy" "${1:this}" {
+    do_not_track_behaviour = "${2:do_not_track_behaviour}"
+    web_application_id = "${3:web_application_id}"
+}

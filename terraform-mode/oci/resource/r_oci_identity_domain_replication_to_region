@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_identity_domain_replication_to_region
+# key: r_oci_identity_domain_replication_to_region
+# --
+
+resource "oci_identity_domain_replication_to_region" "${1:this}" {
+    domain_id = "${2:domain_id}"
+}

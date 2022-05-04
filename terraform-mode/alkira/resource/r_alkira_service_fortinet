@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_alkira_service_fortinet
+# key: r_alkira_service_fortinet
+# --
+
+resource "alkira_service_fortinet" "${1:this}" {
+    credential_id = "${2:credential_id}"
+    cxp = "${3:cxp}"
+    license_type = "${4:license_type}"
+    management_server_ip = "${5:management_server_ip}"
+    management_server_segment = "${6:management_server_segment}"
+    max_instance_count = "${7:max_instance_count}"
+    name = "${8:name}"
+    segment_names = "${9:segment_names}"
+    size = "${10:size}"
+    version = "${11:version}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_overlay_tunnel_vtep
+# key: r_thunder_overlay_tunnel_vtep
+# --
+
+resource "thunder_overlay_tunnel_vtep" "${1:this}" {
+}

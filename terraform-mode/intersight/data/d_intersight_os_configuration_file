@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_os_configuration_file
+# key: d_intersight_os_configuration_file
+# --
+
+data "intersight_os_configuration_file" "${1:this}" {
+}

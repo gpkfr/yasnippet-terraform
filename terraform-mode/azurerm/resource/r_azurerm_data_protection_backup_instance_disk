@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_protection_backup_instance_disk
+# key: r_azurerm_data_protection_backup_instance_disk
+# --
+
+resource "azurerm_data_protection_backup_instance_disk" "${1:this}" {
+    backup_policy_id = "${2:backup_policy_id}"
+    disk_id = "${3:disk_id}"
+    location = "${4:location}"
+    name = "${5:name}"
+    snapshot_resource_group_name = "${6:snapshot_resource_group_name}"
+    vault_id = "${7:vault_id}"
+}

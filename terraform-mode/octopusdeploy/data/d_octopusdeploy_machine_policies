@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_machine_policies
+# key: d_octopusdeploy_machine_policies
+# --
+
+data "octopusdeploy_machine_policies" "${1:this}" {
+}

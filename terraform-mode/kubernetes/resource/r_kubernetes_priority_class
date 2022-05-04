@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_priority_class
+# key: r_kubernetes_priority_class
+# --
+
+resource "kubernetes_priority_class" "${1:this}" {
+    value = "${2:value}"
+}

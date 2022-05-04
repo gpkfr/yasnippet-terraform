@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_ipsurlfilterdns6
+# key: r_fortios_system_ipsurlfilterdns6
+# --
+
+resource "fortios_system_ipsurlfilterdns6" "${1:this}" {
+}

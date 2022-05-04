@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_network_acl_deny_allow_groups
+# key: d_ncloud_network_acl_deny_allow_groups
+# --
+
+data "ncloud_network_acl_deny_allow_groups" "${1:this}" {
+}

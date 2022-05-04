@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vcd_network_direct
+# key: d_vcd_network_direct
+# --
+
+data "vcd_network_direct" "${1:this}" {
+}

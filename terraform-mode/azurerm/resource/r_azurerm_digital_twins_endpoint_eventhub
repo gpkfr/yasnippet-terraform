@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_digital_twins_endpoint_eventhub
+# key: r_azurerm_digital_twins_endpoint_eventhub
+# --
+
+resource "azurerm_digital_twins_endpoint_eventhub" "${1:this}" {
+    digital_twins_id = "${2:digital_twins_id}"
+    eventhub_primary_connection_string = "${3:eventhub_primary_connection_string}"
+    eventhub_secondary_connection_string = "${4:eventhub_secondary_connection_string}"
+    name = "${5:name}"
+}

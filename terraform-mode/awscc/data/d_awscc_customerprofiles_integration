@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_customerprofiles_integration
+# key: d_awscc_customerprofiles_integration
+# --
+
+data "awscc_customerprofiles_integration" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ilert_alert_source
+# key: r_ilert_alert_source
+# --
+
+resource "ilert_alert_source" "${1:this}" {
+    escalation_policy = "${2:escalation_policy}"
+    integration_type = "${3:integration_type}"
+    name = "${4:name}"
+}

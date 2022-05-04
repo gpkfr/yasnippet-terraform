@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_sql_managed_database
+# key: r_azurerm_sql_managed_database
+# --
+
+resource "azurerm_sql_managed_database" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    sql_managed_instance_id = "${4:sql_managed_instance_id}"
+}

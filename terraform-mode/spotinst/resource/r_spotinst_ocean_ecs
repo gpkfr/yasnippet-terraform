@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_ocean_ecs
+# key: r_spotinst_ocean_ecs
+# --
+
+resource "spotinst_ocean_ecs" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    name = "${3:name}"
+    region = "${4:region}"
+    security_group_ids = "${5:security_group_ids}"
+    subnet_ids = "${6:subnet_ids}"
+}

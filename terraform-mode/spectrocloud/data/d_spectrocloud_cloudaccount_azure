@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_spectrocloud_cloudaccount_azure
+# key: d_spectrocloud_cloudaccount_azure
+# --
+
+data "spectrocloud_cloudaccount_azure" "${1:this}" {
+}

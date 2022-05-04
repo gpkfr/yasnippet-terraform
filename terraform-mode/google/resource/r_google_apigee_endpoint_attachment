@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_google_apigee_endpoint_attachment
+# key: r_google_apigee_endpoint_attachment
+# --
+
+resource "google_apigee_endpoint_attachment" "${1:this}" {
+    endpoint_attachment_id = "${2:endpoint_attachment_id}"
+    location = "${3:location}"
+    org_id = "${4:org_id}"
+    service_attachment = "${5:service_attachment}"
+}

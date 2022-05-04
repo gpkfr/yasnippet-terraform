@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_template_mqtt
+# key: r_thunder_slb_template_mqtt
+# --
+
+resource "thunder_slb_template_mqtt" "${1:this}" {
+}

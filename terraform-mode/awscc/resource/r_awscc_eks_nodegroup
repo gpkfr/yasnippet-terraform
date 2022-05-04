@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_eks_nodegroup
+# key: r_awscc_eks_nodegroup
+# --
+
+resource "awscc_eks_nodegroup" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    node_role = "${3:node_role}"
+    subnets = "${4:subnets}"
+}

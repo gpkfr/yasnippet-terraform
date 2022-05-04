@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ec_deployments
+# key: d_ec_deployments
+# --
+
+data "ec_deployments" "${1:this}" {
+}

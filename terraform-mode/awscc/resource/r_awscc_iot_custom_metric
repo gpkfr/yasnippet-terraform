@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_custom_metric
+# key: r_awscc_iot_custom_metric
+# --
+
+resource "awscc_iot_custom_metric" "${1:this}" {
+    metric_type = "${2:metric_type}"
+}

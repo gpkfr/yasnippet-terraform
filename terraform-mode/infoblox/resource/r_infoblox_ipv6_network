@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_infoblox_ipv6_network
+# key: r_infoblox_ipv6_network
+# --
+
+resource "infoblox_ipv6_network" "${1:this}" {
+}

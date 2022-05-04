@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_function_namespace
+# key: r_scaleway_function_namespace
+# --
+
+resource "scaleway_function_namespace" "${1:this}" {
+}

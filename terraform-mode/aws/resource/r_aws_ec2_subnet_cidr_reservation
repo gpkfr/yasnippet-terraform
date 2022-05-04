@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_ec2_subnet_cidr_reservation
+# key: r_aws_ec2_subnet_cidr_reservation
+# --
+
+resource "aws_ec2_subnet_cidr_reservation" "${1:this}" {
+    cidr_block = "${2:cidr_block}"
+    reservation_type = "${3:reservation_type}"
+    subnet_id = "${4:subnet_id}"
+}

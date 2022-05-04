@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_listening_tentacle_deployment_target
+# key: r_octopusdeploy_listening_tentacle_deployment_target
+# --
+
+resource "octopusdeploy_listening_tentacle_deployment_target" "${1:this}" {
+    environments = "${2:environments}"
+    name = "${3:name}"
+    roles = "${4:roles}"
+    tentacle_url = "${5:tentacle_url}"
+    thumbprint = "${6:thumbprint}"
+}

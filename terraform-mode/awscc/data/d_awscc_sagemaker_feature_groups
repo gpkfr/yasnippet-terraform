@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_feature_groups
+# key: d_awscc_sagemaker_feature_groups
+# --
+
+data "awscc_sagemaker_feature_groups" "${1:this}" {
+}

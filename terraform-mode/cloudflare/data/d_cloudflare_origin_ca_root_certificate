@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_cloudflare_origin_ca_root_certificate
+# key: d_cloudflare_origin_ca_root_certificate
+# --
+
+data "cloudflare_origin_ca_root_certificate" "${1:this}" {
+    algorithm = "${2:algorithm}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_controller_private_oob
+# key: r_aviatrix_controller_private_oob
+# --
+
+resource "aviatrix_controller_private_oob" "${1:this}" {
+}

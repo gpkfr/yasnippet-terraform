@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuread_user
+# key: r_azuread_user
+# --
+
+resource "azuread_user" "${1:this}" {
+    display_name = "${2:display_name}"
+    user_principal_name = "${3:user_principal_name}"
+}

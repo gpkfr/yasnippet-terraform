@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_botprofile_trapinsertionurl_binding
+# key: r_citrixadc_botprofile_trapinsertionurl_binding
+# --
+
+resource "citrixadc_botprofile_trapinsertionurl_binding" "${1:this}" {
+    bot_trap_url = "${2:bot_trap_url}"
+    name = "${3:name}"
+}

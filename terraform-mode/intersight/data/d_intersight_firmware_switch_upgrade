@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_switch_upgrade
+# key: d_intersight_firmware_switch_upgrade
+# --
+
+data "intersight_firmware_switch_upgrade" "${1:this}" {
+}

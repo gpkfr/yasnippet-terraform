@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_timestream_scheduled_query
+# key: r_awscc_timestream_scheduled_query
+# --
+
+resource "awscc_timestream_scheduled_query" "${1:this}" {
+    error_report_configuration = "${2:error_report_configuration}"
+    notification_configuration = "${3:notification_configuration}"
+    query_string = "${4:query_string}"
+    schedule_configuration = "${5:schedule_configuration}"
+    scheduled_query_execution_role_arn = "${6:scheduled_query_execution_role_arn}"
+}

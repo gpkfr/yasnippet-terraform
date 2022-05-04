@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_cloud_provider_access
+# key: d_mongodbatlas_cloud_provider_access
+# --
+
+data "mongodbatlas_cloud_provider_access" "${1:this}" {
+    project_id = "${2:project_id}"
+}

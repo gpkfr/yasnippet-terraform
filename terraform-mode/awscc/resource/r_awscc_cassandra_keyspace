@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cassandra_keyspace
+# key: r_awscc_cassandra_keyspace
+# --
+
+resource "awscc_cassandra_keyspace" "${1:this}" {
+}

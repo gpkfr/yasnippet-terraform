@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_service_auth_token
+# key: r_intersight_hyperflex_service_auth_token
+# --
+
+resource "intersight_hyperflex_service_auth_token" "${1:this}" {
+}

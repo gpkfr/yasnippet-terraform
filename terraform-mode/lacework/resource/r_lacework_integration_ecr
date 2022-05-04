@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_integration_ecr
+# key: r_lacework_integration_ecr
+# --
+
+resource "lacework_integration_ecr" "${1:this}" {
+    name = "${2:name}"
+    registry_domain = "${3:registry_domain}"
+}

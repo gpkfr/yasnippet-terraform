@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_workspaces_workspace
+# key: d_aws_workspaces_workspace
+# --
+
+data "aws_workspaces_workspace" "${1:this}" {
+}

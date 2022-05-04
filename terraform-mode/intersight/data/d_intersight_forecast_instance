@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_forecast_instance
+# key: d_intersight_forecast_instance
+# --
+
+data "intersight_forecast_instance" "${1:this}" {
+}

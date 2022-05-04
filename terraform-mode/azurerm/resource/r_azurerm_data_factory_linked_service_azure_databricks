@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_linked_service_azure_databricks
+# key: r_azurerm_data_factory_linked_service_azure_databricks
+# --
+
+resource "azurerm_data_factory_linked_service_azure_databricks" "${1:this}" {
+    adb_domain = "${2:adb_domain}"
+    data_factory_id = "${3:data_factory_id}"
+    name = "${4:name}"
+}

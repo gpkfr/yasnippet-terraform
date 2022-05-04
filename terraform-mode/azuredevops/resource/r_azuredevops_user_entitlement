@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_user_entitlement
+# key: r_azuredevops_user_entitlement
+# --
+
+resource "azuredevops_user_entitlement" "${1:this}" {
+}

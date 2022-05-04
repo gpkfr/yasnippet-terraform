@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tfe_organization_module_sharing
+# key: r_tfe_organization_module_sharing
+# --
+
+resource "tfe_organization_module_sharing" "${1:this}" {
+    module_consumers = "${2:module_consumers}"
+    organization = "${3:organization}"
+}

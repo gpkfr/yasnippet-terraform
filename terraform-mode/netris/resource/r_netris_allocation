@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_netris_allocation
+# key: r_netris_allocation
+# --
+
+resource "netris_allocation" "${1:this}" {
+    name = "${2:name}"
+    prefix = "${3:prefix}"
+    tenantid = "${4:tenantid}"
+}

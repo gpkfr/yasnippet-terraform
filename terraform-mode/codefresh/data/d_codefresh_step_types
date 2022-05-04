@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_codefresh_step_types
+# key: d_codefresh_step_types
+# --
+
+data "codefresh_step_types" "${1:this}" {
+    name = "${2:name}"
+}

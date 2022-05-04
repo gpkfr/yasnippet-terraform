@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_metal_facility
+# key: d_metal_facility
+# --
+
+data "metal_facility" "${1:this}" {
+    code = "${2:code}"
+}

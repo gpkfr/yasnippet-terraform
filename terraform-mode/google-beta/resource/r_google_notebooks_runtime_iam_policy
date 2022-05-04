@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_notebooks_runtime_iam_policy
+# key: r_google_notebooks_runtime_iam_policy
+# --
+
+resource "google_notebooks_runtime_iam_policy" "${1:this}" {
+    policy_data = "${2:policy_data}"
+    runtime_name = "${3:runtime_name}"
+}

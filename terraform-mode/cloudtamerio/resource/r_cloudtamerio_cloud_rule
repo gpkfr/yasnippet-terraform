@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudtamerio_cloud_rule
+# key: r_cloudtamerio_cloud_rule
+# --
+
+resource "cloudtamerio_cloud_rule" "${1:this}" {
+    name = "${2:name}"
+}

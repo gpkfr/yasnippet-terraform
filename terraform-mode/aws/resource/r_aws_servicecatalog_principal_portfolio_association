@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_servicecatalog_principal_portfolio_association
+# key: r_aws_servicecatalog_principal_portfolio_association
+# --
+
+resource "aws_servicecatalog_principal_portfolio_association" "${1:this}" {
+    portfolio_id = "${2:portfolio_id}"
+    principal_arn = "${3:principal_arn}"
+}

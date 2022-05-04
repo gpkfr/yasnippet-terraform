@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_labeling_service_dataset
+# key: r_oci_data_labeling_service_dataset
+# --
+
+resource "oci_data_labeling_service_dataset" "${1:this}" {
+    annotation_format = "${2:annotation_format}"
+    compartment_id = "${3:compartment_id}"
+}

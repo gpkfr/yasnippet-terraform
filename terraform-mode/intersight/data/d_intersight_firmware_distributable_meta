@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_distributable_meta
+# key: d_intersight_firmware_distributable_meta
+# --
+
+data "intersight_firmware_distributable_meta" "${1:this}" {
+}

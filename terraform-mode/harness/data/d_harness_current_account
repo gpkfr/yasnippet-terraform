@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_current_account
+# key: d_harness_current_account
+# --
+
+data "harness_current_account" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_services
+# key: d_illumio-core_services
+# --
+
+data "illumio-core_services" "${1:this}" {
+}

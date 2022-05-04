@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_zedcloud_edgeapp
+# key: d_zedcloud_edgeapp
+# --
+
+data "zedcloud_edgeapp" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_redshift_scheduled_action
+# key: r_awscc_redshift_scheduled_action
+# --
+
+resource "awscc_redshift_scheduled_action" "${1:this}" {
+    scheduled_action_name = "${2:scheduled_action_name}"
+}

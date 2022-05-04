@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hyperflex_vm_backup_info
+# key: d_intersight_hyperflex_vm_backup_info
+# --
+
+data "intersight_hyperflex_vm_backup_info" "${1:this}" {
+}

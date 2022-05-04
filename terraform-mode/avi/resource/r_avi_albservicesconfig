@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_albservicesconfig
+# key: r_avi_albservicesconfig
+# --
+
+resource "avi_albservicesconfig" "${1:this}" {
+    portal_url = "${2:portal_url}"
+}

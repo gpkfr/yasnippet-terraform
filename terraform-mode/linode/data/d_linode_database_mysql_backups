@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_linode_database_mysql_backups
+# key: d_linode_database_mysql_backups
+# --
+
+data "linode_database_mysql_backups" "${1:this}" {
+    database_id = "${2:database_id}"
+}

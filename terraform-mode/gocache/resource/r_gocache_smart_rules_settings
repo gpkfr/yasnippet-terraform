@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gocache_smart_rules_settings
+# key: r_gocache_smart_rules_settings
+# --
+
+resource "gocache_smart_rules_settings" "${1:this}" {
+    domain = "${2:domain}"
+}

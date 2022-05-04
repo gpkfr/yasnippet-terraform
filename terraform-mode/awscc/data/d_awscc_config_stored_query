@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_config_stored_query
+# key: d_awscc_config_stored_query
+# --
+
+data "awscc_config_stored_query" "${1:this}" {
+    id = "${2:id}"
+}

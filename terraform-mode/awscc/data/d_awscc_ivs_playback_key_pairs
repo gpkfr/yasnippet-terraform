@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ivs_playback_key_pairs
+# key: d_awscc_ivs_playback_key_pairs
+# --
+
+data "awscc_ivs_playback_key_pairs" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3_bucket_logging
+# key: r_aws_s3_bucket_logging
+# --
+
+resource "aws_s3_bucket_logging" "${1:this}" {
+    bucket = "${2:bucket}"
+    target_bucket = "${3:target_bucket}"
+    target_prefix = "${4:target_prefix}"
+}

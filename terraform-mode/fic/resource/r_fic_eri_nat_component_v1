@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_fic_eri_nat_component_v1
+# key: r_fic_eri_nat_component_v1
+# --
+
+resource "fic_eri_nat_component_v1" "${1:this}" {
+    nat_id = "${2:nat_id}"
+    router_id = "${3:router_id}"
+    user_ip_addresses = "${4:user_ip_addresses}"
+}

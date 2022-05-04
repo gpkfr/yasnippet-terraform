@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_infoblox_ipv4_association
+# key: r_infoblox_ipv4_association
+# --
+
+resource "infoblox_ipv4_association" "${1:this}" {
+    fqdn = "${2:fqdn}"
+    ip_addr = "${3:ip_addr}"
+}

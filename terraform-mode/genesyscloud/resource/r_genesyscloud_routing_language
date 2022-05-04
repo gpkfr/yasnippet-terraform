@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_routing_language
+# key: r_genesyscloud_routing_language
+# --
+
+resource "genesyscloud_routing_language" "${1:this}" {
+    name = "${2:name}"
+}

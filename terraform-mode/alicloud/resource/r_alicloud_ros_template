@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ros_template
+# key: r_alicloud_ros_template
+# --
+
+resource "alicloud_ros_template" "${1:this}" {
+    template_name = "${2:template_name}"
+}

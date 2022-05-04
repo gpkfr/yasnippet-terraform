@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_exoscale_elastic_ip
+# key: d_exoscale_elastic_ip
+# --
+
+data "exoscale_elastic_ip" "${1:this}" {
+    zone = "${2:zone}"
+}

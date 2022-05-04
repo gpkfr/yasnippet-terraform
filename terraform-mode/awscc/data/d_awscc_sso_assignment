@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sso_assignment
+# key: d_awscc_sso_assignment
+# --
+
+data "awscc_sso_assignment" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_azuread_administrative_unit_member
+# key: r_azuread_administrative_unit_member
+# --
+
+resource "azuread_administrative_unit_member" "${1:this}" {
+}

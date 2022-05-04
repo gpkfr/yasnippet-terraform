@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_microservicegroup
+# key: d_avi_microservicegroup
+# --
+
+data "avi_microservicegroup" "${1:this}" {
+}

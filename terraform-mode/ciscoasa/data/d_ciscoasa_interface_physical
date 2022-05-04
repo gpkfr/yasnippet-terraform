@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ciscoasa_interface_physical
+# key: d_ciscoasa_interface_physical
+# --
+
+data "ciscoasa_interface_physical" "${1:this}" {
+    hardware_id = "${2:hardware_id}"
+}

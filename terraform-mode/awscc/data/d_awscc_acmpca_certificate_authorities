@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_acmpca_certificate_authorities
+# key: d_awscc_acmpca_certificate_authorities
+# --
+
+data "awscc_acmpca_certificate_authorities" "${1:this}" {
+}

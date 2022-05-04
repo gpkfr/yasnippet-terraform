@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_vtaps
+# key: d_oci_core_vtaps
+# --
+
+data "oci_core_vtaps" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

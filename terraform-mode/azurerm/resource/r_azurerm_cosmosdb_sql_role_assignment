@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cosmosdb_sql_role_assignment
+# key: r_azurerm_cosmosdb_sql_role_assignment
+# --
+
+resource "azurerm_cosmosdb_sql_role_assignment" "${1:this}" {
+    account_name = "${2:account_name}"
+    principal_id = "${3:principal_id}"
+    resource_group_name = "${4:resource_group_name}"
+    role_definition_id = "${5:role_definition_id}"
+    scope = "${6:scope}"
+}

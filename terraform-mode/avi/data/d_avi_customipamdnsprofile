@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_customipamdnsprofile
+# key: d_avi_customipamdnsprofile
+# --
+
+data "avi_customipamdnsprofile" "${1:this}" {
+}

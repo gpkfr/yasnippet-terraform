@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_masking_policy
+# key: r_oci_data_safe_masking_policy
+# --
+
+resource "oci_data_safe_masking_policy" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

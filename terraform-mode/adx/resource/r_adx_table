@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_adx_table
+# key: r_adx_table
+# --
+
+resource "adx_table" "${1:this}" {
+    database_name = "${2:database_name}"
+    name = "${3:name}"
+}

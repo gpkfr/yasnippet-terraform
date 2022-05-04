@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_catalog_application
+# key: r_nirmata_catalog_application
+# --
+
+resource "nirmata_catalog_application" "${1:this}" {
+    catalog = "${2:catalog}"
+    name = "${3:name}"
+    yamls = "${4:yamls}"
+}

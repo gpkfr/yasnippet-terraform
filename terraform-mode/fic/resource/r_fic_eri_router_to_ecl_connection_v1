@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: r_fic_eri_router_to_ecl_connection_v1
+# key: r_fic_eri_router_to_ecl_connection_v1
+# --
+
+resource "fic_eri_router_to_ecl_connection_v1" "${1:this}" {
+    bandwidth = "${2:bandwidth}"
+    destination_ecl_api_key = "${3:destination_ecl_api_key}"
+    destination_ecl_api_secret_key = "${4:destination_ecl_api_secret_key}"
+    destination_ecl_tenant_id = "${5:destination_ecl_tenant_id}"
+    destination_interconnect = "${6:destination_interconnect}"
+    destination_qos_type = "${7:destination_qos_type}"
+    name = "${8:name}"
+    primary_connected_network_address = "${9:primary_connected_network_address}"
+    secondary_connected_network_address = "${10:secondary_connected_network_address}"
+    source_group_name = "${11:source_group_name}"
+    source_route_filter_in = "${12:source_route_filter_in}"
+    source_route_filter_out = "${13:source_route_filter_out}"
+    source_router_id = "${14:source_router_id}"
+}

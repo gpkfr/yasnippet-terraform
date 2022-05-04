@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_datadog_monitor_json
+# key: r_datadog_monitor_json
+# --
+
+resource "datadog_monitor_json" "${1:this}" {
+    monitor = "${2:monitor}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudscale_floating_ip
+# key: d_cloudscale_floating_ip
+# --
+
+data "cloudscale_floating_ip" "${1:this}" {
+}

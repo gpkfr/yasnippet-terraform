@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_securitymanagerdata
+# key: r_avi_securitymanagerdata
+# --
+
+resource "avi_securitymanagerdata" "${1:this}" {
+    name = "${2:name}"
+}

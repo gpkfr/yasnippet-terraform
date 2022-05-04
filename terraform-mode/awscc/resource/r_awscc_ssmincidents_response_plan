@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ssmincidents_response_plan
+# key: r_awscc_ssmincidents_response_plan
+# --
+
+resource "awscc_ssmincidents_response_plan" "${1:this}" {
+    incident_template = "${2:incident_template}"
+    name = "${3:name}"
+}

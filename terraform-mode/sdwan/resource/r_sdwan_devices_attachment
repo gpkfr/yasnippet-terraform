@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_sdwan_devices_attachment
+# key: r_sdwan_devices_attachment
+# --
+
+resource "sdwan_devices_attachment" "${1:this}" {
+    device_template_id = "${2:device_template_id}"
+    file = "${3:file}"
+}

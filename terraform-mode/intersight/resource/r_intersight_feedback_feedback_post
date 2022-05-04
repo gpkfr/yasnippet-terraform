@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_feedback_feedback_post
+# key: r_intersight_feedback_feedback_post
+# --
+
+resource "intersight_feedback_feedback_post" "${1:this}" {
+}

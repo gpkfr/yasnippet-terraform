@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oneview_enclosure_group
+# key: r_oneview_enclosure_group
+# --
+
+resource "oneview_enclosure_group" "${1:this}" {
+    name = "${2:name}"
+}

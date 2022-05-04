@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_nsxt_setting
+# key: r_fortios_nsxt_setting
+# --
+
+resource "fortios_nsxt_setting" "${1:this}" {
+}

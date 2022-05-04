@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_comm_http_proxy_policy
+# key: r_intersight_comm_http_proxy_policy
+# --
+
+resource "intersight_comm_http_proxy_policy" "${1:this}" {
+}

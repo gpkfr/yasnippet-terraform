@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_security_unit
+# key: d_intersight_security_unit
+# --
+
+data "intersight_security_unit" "${1:this}" {
+}

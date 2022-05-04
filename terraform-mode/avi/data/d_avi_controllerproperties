@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_controllerproperties
+# key: d_avi_controllerproperties
+# --
+
+data "avi_controllerproperties" "${1:this}" {
+}

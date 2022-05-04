@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_systemsnmp_communitylist
+# key: d_fortios_systemsnmp_communitylist
+# --
+
+data "fortios_systemsnmp_communitylist" "${1:this}" {
+}

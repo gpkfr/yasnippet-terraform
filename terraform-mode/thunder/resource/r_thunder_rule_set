@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_rule_set
+# key: r_thunder_rule_set
+# --
+
+resource "thunder_rule_set" "${1:this}" {
+}

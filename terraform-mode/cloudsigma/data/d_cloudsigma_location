@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudsigma_location
+# key: d_cloudsigma_location
+# --
+
+data "cloudsigma_location" "${1:this}" {
+}

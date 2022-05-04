@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_vertex_ai_dataset
+# key: r_google_vertex_ai_dataset
+# --
+
+resource "google_vertex_ai_dataset" "${1:this}" {
+    display_name = "${2:display_name}"
+    metadata_schema_uri = "${3:metadata_schema_uri}"
+}

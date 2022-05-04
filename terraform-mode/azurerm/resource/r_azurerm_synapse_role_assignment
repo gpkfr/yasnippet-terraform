@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_role_assignment
+# key: r_azurerm_synapse_role_assignment
+# --
+
+resource "azurerm_synapse_role_assignment" "${1:this}" {
+    principal_id = "${2:principal_id}"
+    role_name = "${3:role_name}"
+}

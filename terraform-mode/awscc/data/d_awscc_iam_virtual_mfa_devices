@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iam_virtual_mfa_devices
+# key: d_awscc_iam_virtual_mfa_devices
+# --
+
+data "awscc_iam_virtual_mfa_devices" "${1:this}" {
+}

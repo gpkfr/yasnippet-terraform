@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_wirelesscontroller_address
+# key: r_fortios_wirelesscontroller_address
+# --
+
+resource "fortios_wirelesscontroller_address" "${1:this}" {
+}

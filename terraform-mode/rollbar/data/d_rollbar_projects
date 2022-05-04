@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rollbar_projects
+# key: d_rollbar_projects
+# --
+
+data "rollbar_projects" "${1:this}" {
+}

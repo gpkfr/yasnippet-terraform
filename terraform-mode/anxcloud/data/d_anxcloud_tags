@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_anxcloud_tags
+# key: d_anxcloud_tags
+# --
+
+data "anxcloud_tags" "${1:this}" {
+}

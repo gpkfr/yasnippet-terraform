@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_opsi_host_insights
+# key: d_oci_opsi_host_insights
+# --
+
+data "oci_opsi_host_insights" "${1:this}" {
+}

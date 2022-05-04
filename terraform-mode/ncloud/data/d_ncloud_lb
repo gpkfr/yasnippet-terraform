@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_lb
+# key: d_ncloud_lb
+# --
+
+data "ncloud_lb" "${1:this}" {
+}

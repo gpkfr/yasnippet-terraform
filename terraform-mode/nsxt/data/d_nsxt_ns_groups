@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nsxt_ns_groups
+# key: d_nsxt_ns_groups
+# --
+
+data "nsxt_ns_groups" "${1:this}" {
+}

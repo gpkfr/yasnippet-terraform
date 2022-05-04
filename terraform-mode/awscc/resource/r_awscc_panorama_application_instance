@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_panorama_application_instance
+# key: r_awscc_panorama_application_instance
+# --
+
+resource "awscc_panorama_application_instance" "${1:this}" {
+    default_runtime_context_device = "${2:default_runtime_context_device}"
+    manifest_payload = "${3:manifest_payload}"
+}

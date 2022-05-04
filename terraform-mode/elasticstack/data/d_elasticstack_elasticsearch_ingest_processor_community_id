@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_community_id
+# key: d_elasticstack_elasticsearch_ingest_processor_community_id
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_community_id" "${1:this}" {
+}

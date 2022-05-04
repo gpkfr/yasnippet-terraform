@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_pnap_private_network
+# key: r_pnap_private_network
+# --
+
+resource "pnap_private_network" "${1:this}" {
+    cidr = "${2:cidr}"
+    location = "${3:location}"
+    name = "${4:name}"
+}

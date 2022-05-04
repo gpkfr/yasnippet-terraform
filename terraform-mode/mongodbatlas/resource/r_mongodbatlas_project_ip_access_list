@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_mongodbatlas_project_ip_access_list
+# key: r_mongodbatlas_project_ip_access_list
+# --
+
+resource "mongodbatlas_project_ip_access_list" "${1:this}" {
+    project_id = "${2:project_id}"
+}

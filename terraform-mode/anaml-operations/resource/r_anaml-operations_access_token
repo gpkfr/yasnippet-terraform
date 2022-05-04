@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_anaml-operations_access_token
+# key: r_anaml-operations_access_token
+# --
+
+resource "anaml-operations_access_token" "${1:this}" {
+    description = "${2:description}"
+    owner = "${3:owner}"
+}

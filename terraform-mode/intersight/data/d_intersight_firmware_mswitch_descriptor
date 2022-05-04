@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_mswitch_descriptor
+# key: d_intersight_firmware_mswitch_descriptor
+# --
+
+data "intersight_firmware_mswitch_descriptor" "${1:this}" {
+}

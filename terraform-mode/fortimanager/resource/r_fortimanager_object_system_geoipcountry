@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_geoipcountry
+# key: r_fortimanager_object_system_geoipcountry
+# --
+
+resource "fortimanager_object_system_geoipcountry" "${1:this}" {
+}

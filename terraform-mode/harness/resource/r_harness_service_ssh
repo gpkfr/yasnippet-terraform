@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_harness_service_ssh
+# key: r_harness_service_ssh
+# --
+
+resource "harness_service_ssh" "${1:this}" {
+    app_id = "${2:app_id}"
+    artifact_type = "${3:artifact_type}"
+    name = "${4:name}"
+}

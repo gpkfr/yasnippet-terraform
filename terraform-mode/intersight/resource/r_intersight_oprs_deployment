@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_oprs_deployment
+# key: r_intersight_oprs_deployment
+# --
+
+resource "intersight_oprs_deployment" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oneview_appliance_snmp_v1_trap_destinations
+# key: d_oneview_appliance_snmp_v1_trap_destinations
+# --
+
+data "oneview_appliance_snmp_v1_trap_destinations" "${1:this}" {
+    destination_id = "${2:destination_id}"
+}

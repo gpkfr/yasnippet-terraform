@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_pagerduty_service_integration
+# key: d_pagerduty_service_integration
+# --
+
+data "pagerduty_service_integration" "${1:this}" {
+    integration_summary = "${2:integration_summary}"
+    service_name = "${3:service_name}"
+}

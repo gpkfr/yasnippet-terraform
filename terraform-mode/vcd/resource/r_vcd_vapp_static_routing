@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vapp_static_routing
+# key: r_vcd_vapp_static_routing
+# --
+
+resource "vcd_vapp_static_routing" "${1:this}" {
+    network_id = "${2:network_id}"
+    vapp_id = "${3:vapp_id}"
+}

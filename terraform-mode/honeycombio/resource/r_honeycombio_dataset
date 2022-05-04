@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_honeycombio_dataset
+# key: r_honeycombio_dataset
+# --
+
+resource "honeycombio_dataset" "${1:this}" {
+    name = "${2:name}"
+}

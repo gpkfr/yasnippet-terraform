@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_management_managed_databases_asm_properties
+# key: d_oci_database_management_managed_databases_asm_properties
+# --
+
+data "oci_database_management_managed_databases_asm_properties" "${1:this}" {
+    managed_database_id = "${2:managed_database_id}"
+}

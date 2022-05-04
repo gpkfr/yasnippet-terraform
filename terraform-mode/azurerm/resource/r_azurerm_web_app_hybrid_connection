@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_web_app_hybrid_connection
+# key: r_azurerm_web_app_hybrid_connection
+# --
+
+resource "azurerm_web_app_hybrid_connection" "${1:this}" {
+    hostname = "${2:hostname}"
+    port = "${3:port}"
+    relay_id = "${4:relay_id}"
+    web_app_id = "${5:web_app_id}"
+}

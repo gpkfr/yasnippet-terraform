@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_inspectorv2_filter
+# key: r_awscc_inspectorv2_filter
+# --
+
+resource "awscc_inspectorv2_filter" "${1:this}" {
+    filter_action = "${2:filter_action}"
+    filter_criteria = "${3:filter_criteria}"
+    name = "${4:name}"
+}

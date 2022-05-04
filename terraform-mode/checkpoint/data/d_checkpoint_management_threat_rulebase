@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_threat_rulebase
+# key: d_checkpoint_management_threat_rulebase
+# --
+
+data "checkpoint_management_threat_rulebase" "${1:this}" {
+}

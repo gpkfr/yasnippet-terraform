@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_gitlab
+# key: r_harness_platform_connector_gitlab
+# --
+
+resource "harness_platform_connector_gitlab" "${1:this}" {
+    connection_type = "${2:connection_type}"
+    identifier = "${3:identifier}"
+    name = "${4:name}"
+    url = "${5:url}"
+}

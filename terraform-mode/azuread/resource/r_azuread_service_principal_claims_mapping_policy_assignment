@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuread_service_principal_claims_mapping_policy_assignment
+# key: r_azuread_service_principal_claims_mapping_policy_assignment
+# --
+
+resource "azuread_service_principal_claims_mapping_policy_assignment" "${1:this}" {
+    claims_mapping_policy_id = "${2:claims_mapping_policy_id}"
+    service_principal_id = "${3:service_principal_id}"
+}

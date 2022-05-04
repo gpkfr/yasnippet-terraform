@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_banner_message
+# key: d_intersight_iam_banner_message
+# --
+
+data "intersight_iam_banner_message" "${1:this}" {
+}

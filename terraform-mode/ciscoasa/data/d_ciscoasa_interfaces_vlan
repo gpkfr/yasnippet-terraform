@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ciscoasa_interfaces_vlan
+# key: d_ciscoasa_interfaces_vlan
+# --
+
+data "ciscoasa_interfaces_vlan" "${1:this}" {
+}

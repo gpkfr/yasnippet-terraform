@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_rediscloud_data_persistence
+# key: d_rediscloud_data_persistence
+# --
+
+data "rediscloud_data_persistence" "${1:this}" {
+}

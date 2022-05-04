@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cloudformation_public_type_versions
+# key: d_awscc_cloudformation_public_type_versions
+# --
+
+data "awscc_cloudformation_public_type_versions" "${1:this}" {
+}

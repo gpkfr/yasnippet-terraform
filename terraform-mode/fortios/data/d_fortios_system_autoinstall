@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_autoinstall
+# key: d_fortios_system_autoinstall
+# --
+
+data "fortios_system_autoinstall" "${1:this}" {
+}

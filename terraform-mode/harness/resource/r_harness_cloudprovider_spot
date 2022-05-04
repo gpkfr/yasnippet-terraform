@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_harness_cloudprovider_spot
+# key: r_harness_cloudprovider_spot
+# --
+
+resource "harness_cloudprovider_spot" "${1:this}" {
+    account_id = "${2:account_id}"
+    name = "${3:name}"
+    token_secret_name = "${4:token_secret_name}"
+}

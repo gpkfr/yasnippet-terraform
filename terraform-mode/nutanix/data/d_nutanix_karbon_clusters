@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_karbon_clusters
+# key: d_nutanix_karbon_clusters
+# --
+
+data "nutanix_karbon_clusters" "${1:this}" {
+}

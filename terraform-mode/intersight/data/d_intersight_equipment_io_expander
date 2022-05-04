@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_equipment_io_expander
+# key: d_intersight_equipment_io_expander
+# --
+
+data "intersight_equipment_io_expander" "${1:this}" {
+}

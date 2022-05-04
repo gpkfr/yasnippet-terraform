@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_glue_schema
+# key: r_awscc_glue_schema
+# --
+
+resource "awscc_glue_schema" "${1:this}" {
+    compatibility = "${2:compatibility}"
+    data_format = "${3:data_format}"
+    name = "${4:name}"
+    schema_definition = "${5:schema_definition}"
+}

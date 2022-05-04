@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_apic_dbgexp_rs_export_dest
+# key: d_intersight_niatelemetry_apic_dbgexp_rs_export_dest
+# --
+
+data "intersight_niatelemetry_apic_dbgexp_rs_export_dest" "${1:this}" {
+}

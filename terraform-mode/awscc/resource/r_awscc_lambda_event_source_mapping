@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lambda_event_source_mapping
+# key: r_awscc_lambda_event_source_mapping
+# --
+
+resource "awscc_lambda_event_source_mapping" "${1:this}" {
+    function_name = "${2:function_name}"
+}

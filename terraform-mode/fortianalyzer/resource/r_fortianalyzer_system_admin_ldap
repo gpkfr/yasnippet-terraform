@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_admin_ldap
+# key: r_fortianalyzer_system_admin_ldap
+# --
+
+resource "fortianalyzer_system_admin_ldap" "${1:this}" {
+}

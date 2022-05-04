@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_ldap_configuration
+# key: d_mongodbatlas_ldap_configuration
+# --
+
+data "mongodbatlas_ldap_configuration" "${1:this}" {
+    project_id = "${2:project_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_cur_report_definition
+# key: d_awscc_cur_report_definition
+# --
+
+data "awscc_cur_report_definition" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_compute_mapping
+# key: d_intersight_compute_mapping
+# --
+
+data "intersight_compute_mapping" "${1:this}" {
+}

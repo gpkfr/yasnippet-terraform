@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_route53_traffic_policy_document
+# key: d_aws_route53_traffic_policy_document
+# --
+
+data "aws_route53_traffic_policy_document" "${1:this}" {
+}

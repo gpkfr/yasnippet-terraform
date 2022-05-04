@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_ocean_aks
+# key: r_spotinst_ocean_aks
+# --
+
+resource "spotinst_ocean_aks" "${1:this}" {
+    acd_identifier = "${2:acd_identifier}"
+    aks_name = "${3:aks_name}"
+    aks_resource_group_name = "${4:aks_resource_group_name}"
+    name = "${5:name}"
+    ssh_public_key = "${6:ssh_public_key}"
+}

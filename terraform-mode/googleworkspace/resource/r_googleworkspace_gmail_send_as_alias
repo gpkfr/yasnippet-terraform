@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_googleworkspace_gmail_send_as_alias
+# key: r_googleworkspace_gmail_send_as_alias
+# --
+
+resource "googleworkspace_gmail_send_as_alias" "${1:this}" {
+    primary_email = "${2:primary_email}"
+    send_as_email = "${3:send_as_email}"
+}

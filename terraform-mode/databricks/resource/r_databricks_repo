@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_databricks_repo
+# key: r_databricks_repo
+# --
+
+resource "databricks_repo" "${1:this}" {
+    url = "${2:url}"
+}

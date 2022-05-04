@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_subscription
+# key: r_azurerm_subscription
+# --
+
+resource "azurerm_subscription" "${1:this}" {
+    subscription_name = "${2:subscription_name}"
+}

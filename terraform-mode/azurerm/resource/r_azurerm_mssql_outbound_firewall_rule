@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_mssql_outbound_firewall_rule
+# key: r_azurerm_mssql_outbound_firewall_rule
+# --
+
+resource "azurerm_mssql_outbound_firewall_rule" "${1:this}" {
+    name = "${2:name}"
+    server_id = "${3:server_id}"
+}

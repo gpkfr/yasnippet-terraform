@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_snmp_server_snmpv1_v2c_user
+# key: r_thunder_snmp_server_snmpv1_v2c_user
+# --
+
+resource "thunder_snmp_server_snmpv1_v2c_user" "${1:this}" {
+}

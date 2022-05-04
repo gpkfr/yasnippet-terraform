@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_prismacloud_user_profile
+# key: r_prismacloud_user_profile
+# --
+
+resource "prismacloud_user_profile" "${1:this}" {
+    default_role_id = "${2:default_role_id}"
+    role_ids = "${3:role_ids}"
+    time_zone = "${4:time_zone}"
+    username = "${5:username}"
+}

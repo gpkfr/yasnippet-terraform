@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_hsm_connection
+# key: r_ciphertrust_hsm_connection
+# --
+
+resource "ciphertrust_hsm_connection" "${1:this}" {
+    hostname = "${2:hostname}"
+    name = "${3:name}"
+    partition_password = "${4:partition_password}"
+    server_id = "${5:server_id}"
+}

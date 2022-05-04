@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_workload_settings
+# key: d_illumio-core_workload_settings
+# --
+
+data "illumio-core_workload_settings" "${1:this}" {
+}

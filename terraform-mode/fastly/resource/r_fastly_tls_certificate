@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fastly_tls_certificate
+# key: r_fastly_tls_certificate
+# --
+
+resource "fastly_tls_certificate" "${1:this}" {
+    certificate_body = "${2:certificate_body}"
+}

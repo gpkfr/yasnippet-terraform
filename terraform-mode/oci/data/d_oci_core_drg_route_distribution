@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_drg_route_distribution
+# key: d_oci_core_drg_route_distribution
+# --
+
+data "oci_core_drg_route_distribution" "${1:this}" {
+    drg_route_distribution_id = "${2:drg_route_distribution_id}"
+}

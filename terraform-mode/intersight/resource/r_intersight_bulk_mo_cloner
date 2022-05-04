@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_bulk_mo_cloner
+# key: r_intersight_bulk_mo_cloner
+# --
+
+resource "intersight_bulk_mo_cloner" "${1:this}" {
+}

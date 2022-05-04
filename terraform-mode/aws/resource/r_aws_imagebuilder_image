@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_imagebuilder_image
+# key: r_aws_imagebuilder_image
+# --
+
+resource "aws_imagebuilder_image" "${1:this}" {
+    infrastructure_configuration_arn = "${2:infrastructure_configuration_arn}"
+}

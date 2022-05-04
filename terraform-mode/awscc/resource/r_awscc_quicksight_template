@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_quicksight_template
+# key: r_awscc_quicksight_template
+# --
+
+resource "awscc_quicksight_template" "${1:this}" {
+    aws_account_id = "${2:aws_account_id}"
+    source_entity = "${3:source_entity}"
+    template_id = "${4:template_id}"
+}

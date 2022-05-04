@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_s3_bucket
+# key: d_awscc_s3_bucket
+# --
+
+data "awscc_s3_bucket" "${1:this}" {
+    id = "${2:id}"
+}

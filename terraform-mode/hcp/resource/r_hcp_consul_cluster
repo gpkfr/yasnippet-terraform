@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_hcp_consul_cluster
+# key: r_hcp_consul_cluster
+# --
+
+resource "hcp_consul_cluster" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    hvn_id = "${3:hvn_id}"
+    tier = "${4:tier}"
+}

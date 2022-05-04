@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_grafana_license_association
+# key: r_aws_grafana_license_association
+# --
+
+resource "aws_grafana_license_association" "${1:this}" {
+    license_type = "${2:license_type}"
+    workspace_id = "${3:workspace_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_networkfirewall_firewall_policies
+# key: d_awscc_networkfirewall_firewall_policies
+# --
+
+data "awscc_networkfirewall_firewall_policies" "${1:this}" {
+}

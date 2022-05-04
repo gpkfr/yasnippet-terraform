@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_task_notification
+# key: r_intersight_workflow_task_notification
+# --
+
+resource "intersight_workflow_task_notification" "${1:this}" {
+}

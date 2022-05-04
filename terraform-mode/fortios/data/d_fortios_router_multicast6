@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_multicast6
+# key: d_fortios_router_multicast6
+# --
+
+data "fortios_router_multicast6" "${1:this}" {
+}

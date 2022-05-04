@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_dnspolicy
+# key: d_avi_dnspolicy
+# --
+
+data "avi_dnspolicy" "${1:this}" {
+}

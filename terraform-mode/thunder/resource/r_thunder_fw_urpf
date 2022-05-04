@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_urpf
+# key: r_thunder_fw_urpf
+# --
+
+resource "thunder_fw_urpf" "${1:this}" {
+}

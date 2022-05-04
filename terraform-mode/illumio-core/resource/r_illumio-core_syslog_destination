@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_illumio-core_syslog_destination
+# key: r_illumio-core_syslog_destination
+# --
+
+resource "illumio-core_syslog_destination" "${1:this}" {
+    description = "${2:description}"
+    pce_scope = "${3:pce_scope}"
+    type = "${4:type}"
+}

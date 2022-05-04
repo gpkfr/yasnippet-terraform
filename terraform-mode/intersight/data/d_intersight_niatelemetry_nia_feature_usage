@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_nia_feature_usage
+# key: d_intersight_niatelemetry_nia_feature_usage
+# --
+
+data "intersight_niatelemetry_nia_feature_usage" "${1:this}" {
+}

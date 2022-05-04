@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_stackpath_compute_vpc_network
+# key: r_stackpath_compute_vpc_network
+# --
+
+resource "stackpath_compute_vpc_network" "${1:this}" {
+    name = "${2:name}"
+    root_subnet = "${3:root_subnet}"
+    slug = "${4:slug}"
+}

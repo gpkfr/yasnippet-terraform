@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_lb
+# key: d_scaleway_lb
+# --
+
+data "scaleway_lb" "${1:this}" {
+}

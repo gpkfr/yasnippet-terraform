@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rundeck_public_key
+# key: r_rundeck_public_key
+# --
+
+resource "rundeck_public_key" "${1:this}" {
+    path = "${2:path}"
+}

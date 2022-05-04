@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_capture_filter
+# key: r_oci_core_capture_filter
+# --
+
+resource "oci_core_capture_filter" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    filter_type = "${3:filter_type}"
+}

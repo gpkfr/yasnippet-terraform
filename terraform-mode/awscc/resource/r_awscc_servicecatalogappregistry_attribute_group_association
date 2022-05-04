@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_servicecatalogappregistry_attribute_group_association
+# key: r_awscc_servicecatalogappregistry_attribute_group_association
+# --
+
+resource "awscc_servicecatalogappregistry_attribute_group_association" "${1:this}" {
+    application = "${2:application}"
+    attribute_group = "${3:attribute_group}"
+}

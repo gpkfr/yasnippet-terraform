@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_vdomexception
+# key: d_fortios_system_vdomexception
+# --
+
+data "fortios_system_vdomexception" "${1:this}" {
+    fosid = "${2:fosid}"
+}

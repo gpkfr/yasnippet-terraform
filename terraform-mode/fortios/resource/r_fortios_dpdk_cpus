@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_dpdk_cpus
+# key: r_fortios_dpdk_cpus
+# --
+
+resource "fortios_dpdk_cpus" "${1:this}" {
+}

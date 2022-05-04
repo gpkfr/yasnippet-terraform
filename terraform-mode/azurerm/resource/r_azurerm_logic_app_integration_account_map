@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_logic_app_integration_account_map
+# key: r_azurerm_logic_app_integration_account_map
+# --
+
+resource "azurerm_logic_app_integration_account_map" "${1:this}" {
+    content = "${2:content}"
+    integration_account_name = "${3:integration_account_name}"
+    map_type = "${4:map_type}"
+    name = "${5:name}"
+    resource_group_name = "${6:resource_group_name}"
+}

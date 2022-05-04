@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationpushservice
+# key: r_citrixadc_authenticationpushservice
+# --
+
+resource "citrixadc_authenticationpushservice" "${1:this}" {
+    name = "${2:name}"
+}

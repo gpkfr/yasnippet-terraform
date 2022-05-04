@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_saml_settings
+# key: r_artifactory_saml_settings
+# --
+
+resource "artifactory_saml_settings" "${1:this}" {
+    login_url = "${2:login_url}"
+    logout_url = "${3:logout_url}"
+    service_provider_name = "${4:service_provider_name}"
+}

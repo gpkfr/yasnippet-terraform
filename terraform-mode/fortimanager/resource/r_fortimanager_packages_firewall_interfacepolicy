@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_firewall_interfacepolicy
+# key: r_fortimanager_packages_firewall_interfacepolicy
+# --
+
+resource "fortimanager_packages_firewall_interfacepolicy" "${1:this}" {
+    pkg = "${2:pkg}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_vod_adaptive_dynamic_streaming_template
+# key: r_tencentcloud_vod_adaptive_dynamic_streaming_template
+# --
+
+resource "tencentcloud_vod_adaptive_dynamic_streaming_template" "${1:this}" {
+    format = "${2:format}"
+    name = "${3:name}"
+}

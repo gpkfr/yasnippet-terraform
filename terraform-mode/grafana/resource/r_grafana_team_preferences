@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_grafana_team_preferences
+# key: r_grafana_team_preferences
+# --
+
+resource "grafana_team_preferences" "${1:this}" {
+    team_id = "${2:team_id}"
+}

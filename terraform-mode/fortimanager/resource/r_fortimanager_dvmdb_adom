@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_dvmdb_adom
+# key: r_fortimanager_dvmdb_adom
+# --
+
+resource "fortimanager_dvmdb_adom" "${1:this}" {
+}

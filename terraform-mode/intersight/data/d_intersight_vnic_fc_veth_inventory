@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_vnic_fc_veth_inventory
+# key: d_intersight_vnic_fc_veth_inventory
+# --
+
+data "intersight_vnic_fc_veth_inventory" "${1:this}" {
+}

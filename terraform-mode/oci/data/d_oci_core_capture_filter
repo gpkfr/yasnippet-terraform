@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_capture_filter
+# key: d_oci_core_capture_filter
+# --
+
+data "oci_core_capture_filter" "${1:this}" {
+    capture_filter_id = "${2:capture_filter_id}"
+}

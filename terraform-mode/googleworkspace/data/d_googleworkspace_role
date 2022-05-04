@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_googleworkspace_role
+# key: d_googleworkspace_role
+# --
+
+data "googleworkspace_role" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_logging
+# key: r_awscc_iot_logging
+# --
+
+resource "awscc_iot_logging" "${1:this}" {
+    account_id = "${2:account_id}"
+    default_log_level = "${3:default_log_level}"
+    role_arn = "${4:role_arn}"
+}

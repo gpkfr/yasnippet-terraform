@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_waf_protection_capability_group_tags
+# key: d_oci_waf_protection_capability_group_tags
+# --
+
+data "oci_waf_protection_capability_group_tags" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

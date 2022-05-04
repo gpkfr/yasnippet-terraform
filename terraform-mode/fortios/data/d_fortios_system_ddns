@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_ddns
+# key: d_fortios_system_ddns
+# --
+
+data "fortios_system_ddns" "${1:this}" {
+    ddnsid = "${2:ddnsid}"
+}

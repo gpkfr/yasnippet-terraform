@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_idp_generic
+# key: r_genesyscloud_idp_generic
+# --
+
+resource "genesyscloud_idp_generic" "${1:this}" {
+    certificates = "${2:certificates}"
+    issuer_uri = "${3:issuer_uri}"
+    name = "${4:name}"
+}

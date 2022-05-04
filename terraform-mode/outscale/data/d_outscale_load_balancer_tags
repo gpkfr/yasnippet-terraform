@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_outscale_load_balancer_tags
+# key: d_outscale_load_balancer_tags
+# --
+
+data "outscale_load_balancer_tags" "${1:this}" {
+}

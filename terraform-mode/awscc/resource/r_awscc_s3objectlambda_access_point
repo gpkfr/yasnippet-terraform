@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_s3objectlambda_access_point
+# key: r_awscc_s3objectlambda_access_point
+# --
+
+resource "awscc_s3objectlambda_access_point" "${1:this}" {
+    object_lambda_configuration = "${2:object_lambda_configuration}"
+}

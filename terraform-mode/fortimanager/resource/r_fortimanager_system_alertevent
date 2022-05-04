@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_alertevent
+# key: r_fortimanager_system_alertevent
+# --
+
+resource "fortimanager_system_alertevent" "${1:this}" {
+}

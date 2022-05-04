@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_opennebula_virtual_data_center
+# key: d_opennebula_virtual_data_center
+# --
+
+data "opennebula_virtual_data_center" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vultr_kubernetes_node_pools
+# key: r_vultr_kubernetes_node_pools
+# --
+
+resource "vultr_kubernetes_node_pools" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    label = "${3:label}"
+    node_quantity = "${4:node_quantity}"
+    plan = "${5:plan}"
+}

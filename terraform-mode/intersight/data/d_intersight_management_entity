@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_management_entity
+# key: d_intersight_management_entity
+# --
+
+data "intersight_management_entity" "${1:this}" {
+}

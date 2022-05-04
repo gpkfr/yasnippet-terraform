@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_virtualization_cisco_hypervisor_manager
+# key: d_intersight_virtualization_cisco_hypervisor_manager
+# --
+
+data "intersight_virtualization_cisco_hypervisor_manager" "${1:this}" {
+}

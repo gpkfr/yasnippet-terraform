@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_certificate_signing_request
+# key: r_kubernetes_certificate_signing_request
+# --
+
+resource "kubernetes_certificate_signing_request" "${1:this}" {
+}

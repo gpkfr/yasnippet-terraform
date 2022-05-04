@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_panos_dos_protection_profile
+# key: d_panos_dos_protection_profile
+# --
+
+data "panos_dos_protection_profile" "${1:this}" {
+    name = "${2:name}"
+}

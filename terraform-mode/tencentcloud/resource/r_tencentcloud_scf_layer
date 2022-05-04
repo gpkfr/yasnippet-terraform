@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_scf_layer
+# key: r_tencentcloud_scf_layer
+# --
+
+resource "tencentcloud_scf_layer" "${1:this}" {
+    compatible_runtimes = "${2:compatible_runtimes}"
+    layer_name = "${3:layer_name}"
+}

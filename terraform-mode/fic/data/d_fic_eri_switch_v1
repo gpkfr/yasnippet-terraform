@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fic_eri_switch_v1
+# key: d_fic_eri_switch_v1
+# --
+
+data "fic_eri_switch_v1" "${1:this}" {
+    port_type = "${2:port_type}"
+}

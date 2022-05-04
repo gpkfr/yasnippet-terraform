@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ce_anomaly_monitors
+# key: d_awscc_ce_anomaly_monitors
+# --
+
+data "awscc_ce_anomaly_monitors" "${1:this}" {
+}

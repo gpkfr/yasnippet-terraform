@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_splunk_admin_saml_groups
+# key: r_splunk_admin_saml_groups
+# --
+
+resource "splunk_admin_saml_groups" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_thunder_file_class_list_convert
+# key: r_thunder_file_class_list_convert
+# --
+
+resource "thunder_file_class_list_convert" "${1:this}" {
+    class_list_type = "${2:class_list_type}"
+    host = "${3:host}"
+    name = "${4:name}"
+    path = "${5:path}"
+    protocol = "${6:protocol}"
+}

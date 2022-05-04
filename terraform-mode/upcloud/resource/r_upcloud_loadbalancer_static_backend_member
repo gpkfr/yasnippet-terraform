@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_loadbalancer_static_backend_member
+# key: r_upcloud_loadbalancer_static_backend_member
+# --
+
+resource "upcloud_loadbalancer_static_backend_member" "${1:this}" {
+    backend = "${2:backend}"
+    ip = "${3:ip}"
+    max_sessions = "${4:max_sessions}"
+    name = "${5:name}"
+    port = "${6:port}"
+    weight = "${7:weight}"
+}

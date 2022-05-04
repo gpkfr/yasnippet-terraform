@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_autodelete_quarantinefilesautodeletion
+# key: r_fortianalyzer_system_autodelete_quarantinefilesautodeletion
+# --
+
+resource "fortianalyzer_system_autodelete_quarantinefilesautodeletion" "${1:this}" {
+}

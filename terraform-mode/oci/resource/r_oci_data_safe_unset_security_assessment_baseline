@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_unset_security_assessment_baseline
+# key: r_oci_data_safe_unset_security_assessment_baseline
+# --
+
+resource "oci_data_safe_unset_security_assessment_baseline" "${1:this}" {
+    security_assessment_id = "${2:security_assessment_id}"
+}

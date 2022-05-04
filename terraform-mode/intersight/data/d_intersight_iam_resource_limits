@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_resource_limits
+# key: d_intersight_iam_resource_limits
+# --
+
+data "intersight_iam_resource_limits" "${1:this}" {
+}

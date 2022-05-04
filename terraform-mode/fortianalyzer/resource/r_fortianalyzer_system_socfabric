@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_socfabric
+# key: r_fortianalyzer_system_socfabric
+# --
+
+resource "fortianalyzer_system_socfabric" "${1:this}" {
+}

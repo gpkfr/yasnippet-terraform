@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_alertconsole
+# key: r_fortianalyzer_system_alertconsole
+# --
+
+resource "fortianalyzer_system_alertconsole" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_certificates
+# key: d_octopusdeploy_certificates
+# --
+
+data "octopusdeploy_certificates" "${1:this}" {
+}

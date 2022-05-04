@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aquasec_firewall_policy
+# key: d_aquasec_firewall_policy
+# --
+
+data "aquasec_firewall_policy" "${1:this}" {
+    name = "${2:name}"
+}

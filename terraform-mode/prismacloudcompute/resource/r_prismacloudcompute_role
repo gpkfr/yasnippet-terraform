@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_prismacloudcompute_role
+# key: r_prismacloudcompute_role
+# --
+
+resource "prismacloudcompute_role" "${1:this}" {
+}

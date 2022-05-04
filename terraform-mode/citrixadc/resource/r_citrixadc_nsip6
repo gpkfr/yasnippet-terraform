@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nsip6
+# key: r_citrixadc_nsip6
+# --
+
+resource "citrixadc_nsip6" "${1:this}" {
+    ipv6address = "${2:ipv6address}"
+}

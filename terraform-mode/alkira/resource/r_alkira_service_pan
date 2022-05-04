@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: r_alkira_service_pan
+# key: r_alkira_service_pan
+# --
+
+resource "alkira_service_pan" "${1:this}" {
+    credential_id = "${2:credential_id}"
+    cxp = "${3:cxp}"
+    license_type = "${4:license_type}"
+    management_segment_id = "${5:management_segment_id}"
+    max_instance_count = "${6:max_instance_count}"
+    name = "${7:name}"
+    segment_ids = "${8:segment_ids}"
+    size = "${9:size}"
+    type = "${10:type}"
+    version = "${11:version}"
+}

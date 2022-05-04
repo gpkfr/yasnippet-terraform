@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_s3_bucket_policy
+# key: d_aws_s3_bucket_policy
+# --
+
+data "aws_s3_bucket_policy" "${1:this}" {
+    bucket = "${2:bucket}"
+}

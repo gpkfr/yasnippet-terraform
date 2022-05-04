@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_response_play
+# key: r_pagerduty_response_play
+# --
+
+resource "pagerduty_response_play" "${1:this}" {
+    from = "${2:from}"
+    name = "${3:name}"
+}

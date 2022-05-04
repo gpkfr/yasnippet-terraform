@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_meta_definition
+# key: d_intersight_meta_definition
+# --
+
+data "intersight_meta_definition" "${1:this}" {
+}

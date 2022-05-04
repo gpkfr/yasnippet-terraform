@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_fsp_vlan
+# key: r_fortimanager_object_fsp_vlan
+# --
+
+resource "fortimanager_object_fsp_vlan" "${1:this}" {
+}

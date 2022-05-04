@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ilert_connector
+# key: r_ilert_connector
+# --
+
+resource "ilert_connector" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

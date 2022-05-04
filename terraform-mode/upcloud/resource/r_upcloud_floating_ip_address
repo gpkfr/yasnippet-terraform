@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_floating_ip_address
+# key: r_upcloud_floating_ip_address
+# --
+
+resource "upcloud_floating_ip_address" "${1:this}" {
+}

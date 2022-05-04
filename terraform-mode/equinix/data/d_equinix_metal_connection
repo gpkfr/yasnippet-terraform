@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_connection
+# key: d_equinix_metal_connection
+# --
+
+data "equinix_metal_connection" "${1:this}" {
+    connection_id = "${2:connection_id}"
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_trigger_tumbling_window
+# key: r_azurerm_data_factory_trigger_tumbling_window
+# --
+
+resource "azurerm_data_factory_trigger_tumbling_window" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    frequency = "${3:frequency}"
+    interval = "${4:interval}"
+    name = "${5:name}"
+    start_time = "${6:start_time}"
+}

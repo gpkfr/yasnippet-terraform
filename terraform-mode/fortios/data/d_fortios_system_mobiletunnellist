@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_mobiletunnellist
+# key: d_fortios_system_mobiletunnellist
+# --
+
+data "fortios_system_mobiletunnellist" "${1:this}" {
+}

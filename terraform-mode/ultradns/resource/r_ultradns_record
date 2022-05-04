@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ultradns_record
+# key: r_ultradns_record
+# --
+
+resource "ultradns_record" "${1:this}" {
+    owner_name = "${2:owner_name}"
+    record_data = "${3:record_data}"
+    record_type = "${4:record_type}"
+    zone_name = "${5:zone_name}"
+}

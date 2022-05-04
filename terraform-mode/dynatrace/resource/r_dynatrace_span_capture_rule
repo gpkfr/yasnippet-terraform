@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_span_capture_rule
+# key: r_dynatrace_span_capture_rule
+# --
+
+resource "dynatrace_span_capture_rule" "${1:this}" {
+    action = "${2:action}"
+    name = "${3:name}"
+}

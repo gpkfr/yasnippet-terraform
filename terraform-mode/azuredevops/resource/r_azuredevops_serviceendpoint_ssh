@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_ssh
+# key: r_azuredevops_serviceendpoint_ssh
+# --
+
+resource "azuredevops_serviceendpoint_ssh" "${1:this}" {
+    host = "${2:host}"
+    project_id = "${3:project_id}"
+    service_endpoint_name = "${4:service_endpoint_name}"
+    username = "${5:username}"
+}

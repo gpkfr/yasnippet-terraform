@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudfront_distribution
+# key: r_awscc_cloudfront_distribution
+# --
+
+resource "awscc_cloudfront_distribution" "${1:this}" {
+    distribution_config = "${2:distribution_config}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ecl_vna_appliance_v1
+# key: d_ecl_vna_appliance_v1
+# --
+
+data "ecl_vna_appliance_v1" "${1:this}" {
+}

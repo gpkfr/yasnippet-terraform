@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_system_ve_mac_scheme
+# key: r_thunder_system_ve_mac_scheme
+# --
+
+resource "thunder_system_ve_mac_scheme" "${1:this}" {
+}

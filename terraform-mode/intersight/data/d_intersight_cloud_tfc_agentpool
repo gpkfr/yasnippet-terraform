@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_tfc_agentpool
+# key: d_intersight_cloud_tfc_agentpool
+# --
+
+data "intersight_cloud_tfc_agentpool" "${1:this}" {
+}

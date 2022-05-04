@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_equinix_ecx_l2_connection
+# key: r_equinix_ecx_l2_connection
+# --
+
+resource "equinix_ecx_l2_connection" "${1:this}" {
+    name = "${2:name}"
+    notifications = "${3:notifications}"
+    speed = "${4:speed}"
+    speed_unit = "${5:speed_unit}"
+}

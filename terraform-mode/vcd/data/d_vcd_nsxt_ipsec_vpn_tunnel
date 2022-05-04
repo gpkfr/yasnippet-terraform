@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxt_ipsec_vpn_tunnel
+# key: d_vcd_nsxt_ipsec_vpn_tunnel
+# --
+
+data "vcd_nsxt_ipsec_vpn_tunnel" "${1:this}" {
+    edge_gateway_id = "${2:edge_gateway_id}"
+    name = "${3:name}"
+}

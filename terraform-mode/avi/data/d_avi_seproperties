@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_seproperties
+# key: d_avi_seproperties
+# --
+
+data "avi_seproperties" "${1:this}" {
+}

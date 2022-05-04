@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_volterra_network_connector
+# key: r_volterra_network_connector
+# --
+
+resource "volterra_network_connector" "${1:this}" {
+    name = "${2:name}"
+    namespace = "${3:namespace}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_firewall
+# key: r_ionoscloud_firewall
+# --
+
+resource "ionoscloud_firewall" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    nic_id = "${3:nic_id}"
+    protocol = "${4:protocol}"
+    server_id = "${5:server_id}"
+}

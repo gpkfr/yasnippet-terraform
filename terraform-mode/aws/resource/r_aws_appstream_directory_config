@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_appstream_directory_config
+# key: r_aws_appstream_directory_config
+# --
+
+resource "aws_appstream_directory_config" "${1:this}" {
+    directory_name = "${2:directory_name}"
+    organizational_unit_distinguished_names = "${3:organizational_unit_distinguished_names}"
+}

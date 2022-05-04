@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_prismacloud_user_role
+# key: d_prismacloud_user_role
+# --
+
+data "prismacloud_user_role" "${1:this}" {
+}

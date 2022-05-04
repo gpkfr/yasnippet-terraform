@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ivs_playback_key_pair
+# key: d_awscc_ivs_playback_key_pair
+# --
+
+data "awscc_ivs_playback_key_pair" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_steampipecloud_organization
+# key: r_steampipecloud_organization
+# --
+
+resource "steampipecloud_organization" "${1:this}" {
+    handle = "${2:handle}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_valtix_external_id
+# key: r_valtix_external_id
+# --
+
+resource "valtix_external_id" "${1:this}" {
+    name = "${2:name}"
+}

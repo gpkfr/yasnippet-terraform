@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lacework_alert_channel_newrelic
+# key: r_lacework_alert_channel_newrelic
+# --
+
+resource "lacework_alert_channel_newrelic" "${1:this}" {
+    account_id = "${2:account_id}"
+    insert_key = "${3:insert_key}"
+    name = "${4:name}"
+}

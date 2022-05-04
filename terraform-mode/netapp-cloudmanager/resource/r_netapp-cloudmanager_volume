@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_volume
+# key: r_netapp-cloudmanager_volume
+# --
+
+resource "netapp-cloudmanager_volume" "${1:this}" {
+    client_id = "${2:client_id}"
+    name = "${3:name}"
+    provider_volume_type = "${4:provider_volume_type}"
+    size = "${5:size}"
+    unit = "${6:unit}"
+}

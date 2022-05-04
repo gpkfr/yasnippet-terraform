@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnglobal_staserver_binding
+# key: r_citrixadc_vpnglobal_staserver_binding
+# --
+
+resource "citrixadc_vpnglobal_staserver_binding" "${1:this}" {
+    staserver = "${2:staserver}"
+}

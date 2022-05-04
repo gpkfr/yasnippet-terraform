@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_hostname_coverage_overlapping
+# key: d_akamai_appsec_hostname_coverage_overlapping
+# --
+
+data "akamai_appsec_hostname_coverage_overlapping" "${1:this}" {
+    config_id = "${2:config_id}"
+    hostname = "${3:hostname}"
+    version = "${4:version}"
+}

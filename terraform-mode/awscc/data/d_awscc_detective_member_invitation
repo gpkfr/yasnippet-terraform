@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_detective_member_invitation
+# key: d_awscc_detective_member_invitation
+# --
+
+data "awscc_detective_member_invitation" "${1:this}" {
+    id = "${2:id}"
+}

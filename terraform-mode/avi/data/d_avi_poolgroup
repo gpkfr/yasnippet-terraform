@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_poolgroup
+# key: d_avi_poolgroup
+# --
+
+data "avi_poolgroup" "${1:this}" {
+}

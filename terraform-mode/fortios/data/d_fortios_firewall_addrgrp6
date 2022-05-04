@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_addrgrp6
+# key: d_fortios_firewall_addrgrp6
+# --
+
+data "fortios_firewall_addrgrp6" "${1:this}" {
+    name = "${2:name}"
+}

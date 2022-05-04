@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_vpn_gateway_connection
+# key: r_azurerm_vpn_gateway_connection
+# --
+
+resource "azurerm_vpn_gateway_connection" "${1:this}" {
+    name = "${2:name}"
+    remote_vpn_site_id = "${3:remote_vpn_site_id}"
+    vpn_gateway_id = "${4:vpn_gateway_id}"
+}

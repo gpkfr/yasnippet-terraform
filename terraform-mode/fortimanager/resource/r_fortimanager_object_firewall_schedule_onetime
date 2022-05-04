@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_schedule_onetime
+# key: r_fortimanager_object_firewall_schedule_onetime
+# --
+
+resource "fortimanager_object_firewall_schedule_onetime" "${1:this}" {
+}

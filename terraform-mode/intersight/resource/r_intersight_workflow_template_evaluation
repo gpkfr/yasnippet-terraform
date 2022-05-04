@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_workflow_template_evaluation
+# key: r_intersight_workflow_template_evaluation
+# --
+
+resource "intersight_workflow_template_evaluation" "${1:this}" {
+}

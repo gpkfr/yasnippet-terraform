@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_events_api_destination
+# key: r_awscc_events_api_destination
+# --
+
+resource "awscc_events_api_destination" "${1:this}" {
+    connection_arn = "${2:connection_arn}"
+    http_method = "${3:http_method}"
+    invocation_endpoint = "${4:invocation_endpoint}"
+}

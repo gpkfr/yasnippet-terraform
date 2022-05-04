@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_subnet_route_table_association
+# key: d_awscc_ec2_subnet_route_table_association
+# --
+
+data "awscc_ec2_subnet_route_table_association" "${1:this}" {
+    id = "${2:id}"
+}

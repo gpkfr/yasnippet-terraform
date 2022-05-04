@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oci_apm_synthetics_monitor
+# key: r_oci_apm_synthetics_monitor
+# --
+
+resource "oci_apm_synthetics_monitor" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+    display_name = "${3:display_name}"
+    monitor_type = "${4:monitor_type}"
+    repeat_interval_in_seconds = "${5:repeat_interval_in_seconds}"
+    vantage_points = "${6:vantage_points}"
+}

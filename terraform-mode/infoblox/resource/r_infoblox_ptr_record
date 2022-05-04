@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_infoblox_ptr_record
+# key: r_infoblox_ptr_record
+# --
+
+resource "infoblox_ptr_record" "${1:this}" {
+    ptrdname = "${2:ptrdname}"
+}

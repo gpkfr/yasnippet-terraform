@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_metal_organization
+# key: r_metal_organization
+# --
+
+resource "metal_organization" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_satori_custom_taxonomy_category
+# key: r_satori_custom_taxonomy_category
+# --
+
+resource "satori_custom_taxonomy_category" "${1:this}" {
+    color = "${2:color}"
+    name = "${3:name}"
+}

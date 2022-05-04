@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_application_custom
+# key: r_fortimanager_object_application_custom
+# --
+
+resource "fortimanager_object_application_custom" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_gcore_cdn_origingroup
+# key: r_gcore_cdn_origingroup
+# --
+
+resource "gcore_cdn_origingroup" "${1:this}" {
+    name = "${2:name}"
+    use_next = "${3:use_next}"
+}

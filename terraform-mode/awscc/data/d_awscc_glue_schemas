@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_glue_schemas
+# key: d_awscc_glue_schemas
+# --
+
+data "awscc_glue_schemas" "${1:this}" {
+}

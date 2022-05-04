@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_tag_assignment
+# key: r_pagerduty_tag_assignment
+# --
+
+resource "pagerduty_tag_assignment" "${1:this}" {
+    entity_id = "${2:entity_id}"
+    entity_type = "${3:entity_type}"
+    tag_id = "${4:tag_id}"
+}

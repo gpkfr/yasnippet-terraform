@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_location_geofence_collection
+# key: r_awscc_location_geofence_collection
+# --
+
+resource "awscc_location_geofence_collection" "${1:this}" {
+    collection_name = "${2:collection_name}"
+}

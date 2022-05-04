@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_account_experience
+# key: d_intersight_iam_account_experience
+# --
+
+data "intersight_iam_account_experience" "${1:this}" {
+}

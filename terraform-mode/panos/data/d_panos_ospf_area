@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_panos_ospf_area
+# key: d_panos_ospf_area
+# --
+
+data "panos_ospf_area" "${1:this}" {
+    name = "${2:name}"
+    virtual_router = "${3:virtual_router}"
+}

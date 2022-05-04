@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_annotations
+# key: r_kubernetes_annotations
+# --
+
+resource "kubernetes_annotations" "${1:this}" {
+    annotations = "${2:annotations}"
+    api_version = "${3:api_version}"
+    kind = "${4:kind}"
+}

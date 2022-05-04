@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotsitewise_dashboard
+# key: r_awscc_iotsitewise_dashboard
+# --
+
+resource "awscc_iotsitewise_dashboard" "${1:this}" {
+    dashboard_definition = "${2:dashboard_definition}"
+    dashboard_description = "${3:dashboard_description}"
+    dashboard_name = "${4:dashboard_name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_apigateway_deployment
+# key: r_awscc_apigateway_deployment
+# --
+
+resource "awscc_apigateway_deployment" "${1:this}" {
+    rest_api_id = "${2:rest_api_id}"
+}

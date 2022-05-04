@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_anypoint_dlbs
+# key: d_anypoint_dlbs
+# --
+
+data "anypoint_dlbs" "${1:this}" {
+    org_id = "${2:org_id}"
+    vpc_id = "${3:vpc_id}"
+}

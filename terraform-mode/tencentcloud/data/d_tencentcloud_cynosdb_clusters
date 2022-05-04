@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_cynosdb_clusters
+# key: d_tencentcloud_cynosdb_clusters
+# --
+
+data "tencentcloud_cynosdb_clusters" "${1:this}" {
+}

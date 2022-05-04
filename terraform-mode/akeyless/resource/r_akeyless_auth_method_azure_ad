@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_auth_method_azure_ad
+# key: r_akeyless_auth_method_azure_ad
+# --
+
+resource "akeyless_auth_method_azure_ad" "${1:this}" {
+    bound_tenant_id = "${2:bound_tenant_id}"
+    name = "${3:name}"
+}

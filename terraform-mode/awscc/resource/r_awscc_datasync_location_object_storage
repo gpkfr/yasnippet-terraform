@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_datasync_location_object_storage
+# key: r_awscc_datasync_location_object_storage
+# --
+
+resource "awscc_datasync_location_object_storage" "${1:this}" {
+    agent_arns = "${2:agent_arns}"
+    bucket_name = "${3:bucket_name}"
+    server_hostname = "${4:server_hostname}"
+}

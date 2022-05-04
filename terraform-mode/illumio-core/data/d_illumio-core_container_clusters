@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_container_clusters
+# key: d_illumio-core_container_clusters
+# --
+
+data "illumio-core_container_clusters" "${1:this}" {
+}

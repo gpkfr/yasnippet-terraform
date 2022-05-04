@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_aws_volume
+# key: d_intersight_cloud_aws_volume
+# --
+
+data "intersight_cloud_aws_volume" "${1:this}" {
+}

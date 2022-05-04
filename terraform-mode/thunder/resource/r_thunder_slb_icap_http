@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_icap_http
+# key: r_thunder_slb_icap_http
+# --
+
+resource "thunder_slb_icap_http" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_auth_division
+# key: r_genesyscloud_auth_division
+# --
+
+resource "genesyscloud_auth_division" "${1:this}" {
+    name = "${2:name}"
+}

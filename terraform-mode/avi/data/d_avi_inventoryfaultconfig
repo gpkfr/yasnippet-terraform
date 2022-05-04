@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_inventoryfaultconfig
+# key: d_avi_inventoryfaultconfig
+# --
+
+data "avi_inventoryfaultconfig" "${1:this}" {
+}

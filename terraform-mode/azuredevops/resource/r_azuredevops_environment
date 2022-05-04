@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_environment
+# key: r_azuredevops_environment
+# --
+
+resource "azuredevops_environment" "${1:this}" {
+    name = "${2:name}"
+    project_id = "${3:project_id}"
+}

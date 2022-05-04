@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_aws_tgw_intra_domain_inspection
+# key: r_aviatrix_aws_tgw_intra_domain_inspection
+# --
+
+resource "aviatrix_aws_tgw_intra_domain_inspection" "${1:this}" {
+    firewall_domain_name = "${2:firewall_domain_name}"
+    route_domain_name = "${3:route_domain_name}"
+    tgw_name = "${4:tgw_name}"
+}

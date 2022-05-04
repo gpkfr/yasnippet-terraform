@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotsitewise_asset_model
+# key: r_awscc_iotsitewise_asset_model
+# --
+
+resource "awscc_iotsitewise_asset_model" "${1:this}" {
+    asset_model_name = "${2:asset_model_name}"
+}

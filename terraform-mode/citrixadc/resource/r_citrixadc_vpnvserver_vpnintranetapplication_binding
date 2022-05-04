@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnvserver_vpnintranetapplication_binding
+# key: r_citrixadc_vpnvserver_vpnintranetapplication_binding
+# --
+
+resource "citrixadc_vpnvserver_vpnintranetapplication_binding" "${1:this}" {
+    intranetapplication = "${2:intranetapplication}"
+    name = "${3:name}"
+}

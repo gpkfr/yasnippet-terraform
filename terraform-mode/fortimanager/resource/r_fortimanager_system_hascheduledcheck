@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_hascheduledcheck
+# key: r_fortimanager_system_hascheduledcheck
+# --
+
+resource "fortimanager_system_hascheduledcheck" "${1:this}" {
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_share
+# key: r_azurerm_storage_share
+# --
+
+resource "azurerm_storage_share" "${1:this}" {
+    name = "${2:name}"
+    quota = "${3:quota}"
+    storage_account_name = "${4:storage_account_name}"
+}

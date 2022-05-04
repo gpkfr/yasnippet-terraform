@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_alexaskills_skill_resource
+# key: d_alexaskills_skill_resource
+# --
+
+data "alexaskills_skill_resource" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_firewall_vendormac
+# key: r_fortios_firewall_vendormac
+# --
+
+resource "fortios_firewall_vendormac" "${1:this}" {
+}

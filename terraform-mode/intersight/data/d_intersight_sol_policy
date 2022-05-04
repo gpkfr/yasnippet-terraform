@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_sol_policy
+# key: d_intersight_sol_policy
+# --
+
+data "intersight_sol_policy" "${1:this}" {
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_kentik-cloudexport_item
+# key: r_kentik-cloudexport_item
+# --
+
+resource "kentik-cloudexport_item" "${1:this}" {
+    cloud_provider = "${2:cloud_provider}"
+    enabled = "${3:enabled}"
+    name = "${4:name}"
+    plan_id = "${5:plan_id}"
+    type = "${6:type}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_postgresql_xlogs
+# key: d_tencentcloud_postgresql_xlogs
+# --
+
+data "tencentcloud_postgresql_xlogs" "${1:this}" {
+    instance_id = "${2:instance_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vercel_project
+# key: d_vercel_project
+# --
+
+data "vercel_project" "${1:this}" {
+    name = "${2:name}"
+}

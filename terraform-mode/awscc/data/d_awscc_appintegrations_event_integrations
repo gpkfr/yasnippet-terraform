@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_appintegrations_event_integrations
+# key: d_awscc_appintegrations_event_integrations
+# --
+
+data "awscc_appintegrations_event_integrations" "${1:this}" {
+}

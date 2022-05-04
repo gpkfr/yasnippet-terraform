@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_webhook_integration
+# key: r_site24x7_webhook_integration
+# --
+
+resource "site24x7_webhook_integration" "${1:this}" {
+    name = "${2:name}"
+    url = "${3:url}"
+}

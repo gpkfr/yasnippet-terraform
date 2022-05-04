@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_access_policy
+# key: r_intersight_access_policy
+# --
+
+resource "intersight_access_policy" "${1:this}" {
+}

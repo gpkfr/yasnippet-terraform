@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53recoverycontrolconfig_safety_rule
+# key: r_aws_route53recoverycontrolconfig_safety_rule
+# --
+
+resource "aws_route53recoverycontrolconfig_safety_rule" "${1:this}" {
+    control_panel_arn = "${2:control_panel_arn}"
+    name = "${3:name}"
+    wait_period_ms = "${4:wait_period_ms}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_botprofile_whitelist_binding
+# key: r_citrixadc_botprofile_whitelist_binding
+# --
+
+resource "citrixadc_botprofile_whitelist_binding" "${1:this}" {
+    bot_whitelist_value = "${2:bot_whitelist_value}"
+    name = "${3:name}"
+}

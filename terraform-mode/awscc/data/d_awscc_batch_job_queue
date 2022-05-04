@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_batch_job_queue
+# key: d_awscc_batch_job_queue
+# --
+
+data "awscc_batch_job_queue" "${1:this}" {
+    id = "${2:id}"
+}

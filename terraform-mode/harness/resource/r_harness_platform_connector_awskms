@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_awskms
+# key: r_harness_platform_connector_awskms
+# --
+
+resource "harness_platform_connector_awskms" "${1:this}" {
+    arn_ref = "${2:arn_ref}"
+    identifier = "${3:identifier}"
+    name = "${4:name}"
+    region = "${5:region}"
+}

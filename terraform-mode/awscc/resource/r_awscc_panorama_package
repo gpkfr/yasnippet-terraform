@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_panorama_package
+# key: r_awscc_panorama_package
+# --
+
+resource "awscc_panorama_package" "${1:this}" {
+    package_name = "${2:package_name}"
+}

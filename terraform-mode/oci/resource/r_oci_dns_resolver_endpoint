@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_oci_dns_resolver_endpoint
+# key: r_oci_dns_resolver_endpoint
+# --
+
+resource "oci_dns_resolver_endpoint" "${1:this}" {
+    is_forwarding = "${2:is_forwarding}"
+    is_listening = "${3:is_listening}"
+    name = "${4:name}"
+    resolver_id = "${5:resolver_id}"
+    scope = "${6:scope}"
+    subnet_id = "${7:subnet_id}"
+}

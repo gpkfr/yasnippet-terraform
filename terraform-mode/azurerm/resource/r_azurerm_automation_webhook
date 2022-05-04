@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_automation_webhook
+# key: r_azurerm_automation_webhook
+# --
+
+resource "azurerm_automation_webhook" "${1:this}" {
+    automation_account_name = "${2:automation_account_name}"
+    expiry_time = "${3:expiry_time}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+    runbook_name = "${6:runbook_name}"
+}

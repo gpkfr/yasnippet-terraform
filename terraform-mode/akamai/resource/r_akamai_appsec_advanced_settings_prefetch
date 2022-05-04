@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_advanced_settings_prefetch
+# key: r_akamai_appsec_advanced_settings_prefetch
+# --
+
+resource "akamai_appsec_advanced_settings_prefetch" "${1:this}" {
+    all_extensions = "${2:all_extensions}"
+    config_id = "${3:config_id}"
+    enable_app_layer = "${4:enable_app_layer}"
+    enable_rate_controls = "${5:enable_rate_controls}"
+    extensions = "${6:extensions}"
+    version = "${7:version}"
+}

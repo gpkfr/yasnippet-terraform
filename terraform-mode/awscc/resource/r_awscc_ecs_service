@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ecs_service
+# key: r_awscc_ecs_service
+# --
+
+resource "awscc_ecs_service" "${1:this}" {
+}

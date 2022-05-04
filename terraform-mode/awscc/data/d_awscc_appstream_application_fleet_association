@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_appstream_application_fleet_association
+# key: d_awscc_appstream_application_fleet_association
+# --
+
+data "awscc_appstream_application_fleet_association" "${1:this}" {
+    id = "${2:id}"
+}

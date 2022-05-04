@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_domain_name_info
+# key: d_intersight_iam_domain_name_info
+# --
+
+data "intersight_iam_domain_name_info" "${1:this}" {
+}

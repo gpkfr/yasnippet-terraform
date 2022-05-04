@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_api_management_gateway
+# key: d_azurerm_api_management_gateway
+# --
+
+data "azurerm_api_management_gateway" "${1:this}" {
+    api_management_id = "${2:api_management_id}"
+    name = "${3:name}"
+}

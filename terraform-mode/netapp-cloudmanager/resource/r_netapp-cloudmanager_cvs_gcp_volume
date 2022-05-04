@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_cvs_gcp_volume
+# key: r_netapp-cloudmanager_cvs_gcp_volume
+# --
+
+resource "netapp-cloudmanager_cvs_gcp_volume" "${1:this}" {
+    client_id = "${2:client_id}"
+    name = "${3:name}"
+    network = "${4:network}"
+    protocol_types = "${5:protocol_types}"
+    region = "${6:region}"
+    size = "${7:size}"
+    size_unit = "${8:size_unit}"
+    working_environment_name = "${9:working_environment_name}"
+}

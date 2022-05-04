@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_service
+# key: r_harness_platform_service
+# --
+
+resource "harness_platform_service" "${1:this}" {
+    identifier = "${2:identifier}"
+    name = "${3:name}"
+    org_id = "${4:org_id}"
+    project_id = "${5:project_id}"
+}

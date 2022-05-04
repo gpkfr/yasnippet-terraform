@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_vod_super_player_config
+# key: r_tencentcloud_vod_super_player_config
+# --
+
+resource "tencentcloud_vod_super_player_config" "${1:this}" {
+    name = "${2:name}"
+}

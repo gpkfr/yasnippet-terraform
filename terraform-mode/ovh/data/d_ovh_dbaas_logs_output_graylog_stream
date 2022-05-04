@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_ovh_dbaas_logs_output_graylog_stream
+# key: d_ovh_dbaas_logs_output_graylog_stream
+# --
+
+data "ovh_dbaas_logs_output_graylog_stream" "${1:this}" {
+    service_name = "${2:service_name}"
+    title = "${3:title}"
+}

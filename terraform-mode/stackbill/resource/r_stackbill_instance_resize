@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_stackbill_instance_resize
+# key: r_stackbill_instance_resize
+# --
+
+resource "stackbill_instance_resize" "${1:this}" {
+    compute_offering_uuid = "${2:compute_offering_uuid}"
+    cpu_core = "${3:cpu_core}"
+    memory = "${4:memory}"
+    uuid = "${5:uuid}"
+}

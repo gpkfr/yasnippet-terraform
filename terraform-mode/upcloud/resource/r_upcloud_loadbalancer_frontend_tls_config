@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_loadbalancer_frontend_tls_config
+# key: r_upcloud_loadbalancer_frontend_tls_config
+# --
+
+resource "upcloud_loadbalancer_frontend_tls_config" "${1:this}" {
+    certificate_bundle = "${2:certificate_bundle}"
+    frontend = "${3:frontend}"
+    name = "${4:name}"
+}

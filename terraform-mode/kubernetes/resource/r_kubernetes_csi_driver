@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_csi_driver
+# key: r_kubernetes_csi_driver
+# --
+
+resource "kubernetes_csi_driver" "${1:this}" {
+}

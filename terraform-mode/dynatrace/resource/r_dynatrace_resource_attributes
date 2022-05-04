@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_resource_attributes
+# key: r_dynatrace_resource_attributes
+# --
+
+resource "dynatrace_resource_attributes" "${1:this}" {
+}

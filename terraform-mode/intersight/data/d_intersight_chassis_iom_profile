@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_chassis_iom_profile
+# key: d_intersight_chassis_iom_profile
+# --
+
+data "intersight_chassis_iom_profile" "${1:this}" {
+}

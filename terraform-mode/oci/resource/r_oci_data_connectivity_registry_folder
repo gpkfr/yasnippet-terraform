@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_connectivity_registry_folder
+# key: r_oci_data_connectivity_registry_folder
+# --
+
+resource "oci_data_connectivity_registry_folder" "${1:this}" {
+    identifier = "${2:identifier}"
+    name = "${3:name}"
+    registry_id = "${4:registry_id}"
+}

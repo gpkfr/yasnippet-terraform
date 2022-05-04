@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nutanixkps_project
+# key: r_nutanixkps_project
+# --
+
+resource "nutanixkps_project" "${1:this}" {
+    edge_ids = "${2:edge_ids}"
+    name = "${3:name}"
+}

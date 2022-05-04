@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_kion_project
+# key: r_kion_project
+# --
+
+resource "kion_project" "${1:this}" {
+    name = "${2:name}"
+    ou_id = "${3:ou_id}"
+    permission_scheme_id = "${4:permission_scheme_id}"
+}

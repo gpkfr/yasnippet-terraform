@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_sentinel_data_connector_microsoft_defender_advanced_threat_protection
+# key: r_azurerm_sentinel_data_connector_microsoft_defender_advanced_threat_protection
+# --
+
+resource "azurerm_sentinel_data_connector_microsoft_defender_advanced_threat_protection" "${1:this}" {
+    log_analytics_workspace_id = "${2:log_analytics_workspace_id}"
+    name = "${3:name}"
+}

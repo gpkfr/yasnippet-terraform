@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_netris_l4lb
+# key: r_netris_l4lb
+# --
+
+resource "netris_l4lb" "${1:this}" {
+    name = "${2:name}"
+}

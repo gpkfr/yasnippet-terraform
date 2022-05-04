@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_logtail_source
+# key: d_logtail_source
+# --
+
+data "logtail_source" "${1:this}" {
+    table_name = "${2:table_name}"
+}

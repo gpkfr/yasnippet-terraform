@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_bluecat_host_record
+# key: d_bluecat_host_record
+# --
+
+data "bluecat_host_record" "${1:this}" {
+    fqdn = "${2:fqdn}"
+    ip_address = "${3:ip_address}"
+}

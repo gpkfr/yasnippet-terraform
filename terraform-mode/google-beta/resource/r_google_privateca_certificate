@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_privateca_certificate
+# key: r_google_privateca_certificate
+# --
+
+resource "google_privateca_certificate" "${1:this}" {
+    location = "${2:location}"
+    name = "${3:name}"
+    pool = "${4:pool}"
+}

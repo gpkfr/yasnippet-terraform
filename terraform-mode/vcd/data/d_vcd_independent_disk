@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vcd_independent_disk
+# key: d_vcd_independent_disk
+# --
+
+data "vcd_independent_disk" "${1:this}" {
+}

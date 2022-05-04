@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ce_cost_category
+# key: d_awscc_ce_cost_category
+# --
+
+data "awscc_ce_cost_category" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_branch_policy_status_check
+# key: r_azuredevops_branch_policy_status_check
+# --
+
+resource "azuredevops_branch_policy_status_check" "${1:this}" {
+    project_id = "${2:project_id}"
+}

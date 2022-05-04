@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niatelemetry_apic_snmp_trap_fwd_server_details
+# key: d_intersight_niatelemetry_apic_snmp_trap_fwd_server_details
+# --
+
+data "intersight_niatelemetry_apic_snmp_trap_fwd_server_details" "${1:this}" {
+}

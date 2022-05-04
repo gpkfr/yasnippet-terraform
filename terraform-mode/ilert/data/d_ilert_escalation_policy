@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ilert_escalation_policy
+# key: d_ilert_escalation_policy
+# --
+
+data "ilert_escalation_policy" "${1:this}" {
+    name = "${2:name}"
+}

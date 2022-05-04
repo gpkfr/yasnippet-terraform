@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_virtualization_virtual_disk
+# key: r_intersight_virtualization_virtual_disk
+# --
+
+resource "intersight_virtualization_virtual_disk" "${1:this}" {
+}

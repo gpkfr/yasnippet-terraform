@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_detective_member
+# key: r_aws_detective_member
+# --
+
+resource "aws_detective_member" "${1:this}" {
+    account_id = "${2:account_id}"
+    email_address = "${3:email_address}"
+    graph_arn = "${4:graph_arn}"
+}

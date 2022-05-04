@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_selectable_hostnames
+# key: d_akamai_appsec_selectable_hostnames
+# --
+
+data "akamai_appsec_selectable_hostnames" "${1:this}" {
+}

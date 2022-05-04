@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_hcl_hyperflex_software_compatibility_info
+# key: d_intersight_hcl_hyperflex_software_compatibility_info
+# --
+
+data "intersight_hcl_hyperflex_software_compatibility_info" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_certificatemanager_account
+# key: r_awscc_certificatemanager_account
+# --
+
+resource "awscc_certificatemanager_account" "${1:this}" {
+    expiry_events_configuration = "${2:expiry_events_configuration}"
+}

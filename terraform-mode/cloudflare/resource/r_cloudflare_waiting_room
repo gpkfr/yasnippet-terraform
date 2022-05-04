@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_waiting_room
+# key: r_cloudflare_waiting_room
+# --
+
+resource "cloudflare_waiting_room" "${1:this}" {
+    host = "${2:host}"
+    name = "${3:name}"
+    new_users_per_minute = "${4:new_users_per_minute}"
+    total_active_users = "${5:total_active_users}"
+    zone_id = "${6:zone_id}"
+}

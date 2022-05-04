@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_databrew_job
+# key: r_awscc_databrew_job
+# --
+
+resource "awscc_databrew_job" "${1:this}" {
+    name = "${2:name}"
+    role_arn = "${3:role_arn}"
+    type = "${4:type}"
+}

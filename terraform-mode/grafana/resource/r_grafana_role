@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_grafana_role
+# key: r_grafana_role
+# --
+
+resource "grafana_role" "${1:this}" {
+    name = "${2:name}"
+    version = "${3:version}"
+}

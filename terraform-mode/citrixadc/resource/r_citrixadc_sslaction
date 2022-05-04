@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_sslaction
+# key: r_citrixadc_sslaction
+# --
+
+resource "citrixadc_sslaction" "${1:this}" {
+    name = "${2:name}"
+}

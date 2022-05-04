@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_api_management_notification_recipient_user
+# key: r_azurerm_api_management_notification_recipient_user
+# --
+
+resource "azurerm_api_management_notification_recipient_user" "${1:this}" {
+    api_management_id = "${2:api_management_id}"
+    notification_type = "${3:notification_type}"
+    user_id = "${4:user_id}"
+}

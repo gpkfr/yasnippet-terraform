@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_vrf
+# key: d_equinix_metal_vrf
+# --
+
+data "equinix_metal_vrf" "${1:this}" {
+    vrf_id = "${2:vrf_id}"
+}

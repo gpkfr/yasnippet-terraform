@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_s3_multi_region_access_point_policy
+# key: r_awscc_s3_multi_region_access_point_policy
+# --
+
+resource "awscc_s3_multi_region_access_point_policy" "${1:this}" {
+    mrap_name = "${2:mrap_name}"
+    policy = "${3:policy}"
+}

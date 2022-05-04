@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_awscc_nimblestudio_launch_profile
+# key: r_awscc_nimblestudio_launch_profile
+# --
+
+resource "awscc_nimblestudio_launch_profile" "${1:this}" {
+    ec_2_subnet_ids = "${2:ec_2_subnet_ids}"
+    launch_profile_protocol_versions = "${3:launch_profile_protocol_versions}"
+    name = "${4:name}"
+    stream_configuration = "${5:stream_configuration}"
+    studio_component_ids = "${6:studio_component_ids}"
+    studio_id = "${7:studio_id}"
+}

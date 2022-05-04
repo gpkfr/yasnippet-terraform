@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_systemautoupdate_schedule
+# key: d_fortios_systemautoupdate_schedule
+# --
+
+data "fortios_systemautoupdate_schedule" "${1:this}" {
+}

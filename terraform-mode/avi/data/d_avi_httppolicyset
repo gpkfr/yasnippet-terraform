@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_httppolicyset
+# key: d_avi_httppolicyset
+# --
+
+data "avi_httppolicyset" "${1:this}" {
+}

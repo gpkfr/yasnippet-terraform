@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_s3_access_point
+# key: d_awscc_s3_access_point
+# --
+
+data "awscc_s3_access_point" "${1:this}" {
+    id = "${2:id}"
+}

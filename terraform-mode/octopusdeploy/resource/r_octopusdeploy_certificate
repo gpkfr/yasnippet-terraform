@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_certificate
+# key: r_octopusdeploy_certificate
+# --
+
+resource "octopusdeploy_certificate" "${1:this}" {
+    certificate_data = "${2:certificate_data}"
+    name = "${3:name}"
+    password = "${4:password}"
+}

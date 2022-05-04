@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_oci_management_dashboard_management_dashboards_import
+# key: r_oci_management_dashboard_management_dashboards_import
+# --
+
+resource "oci_management_dashboard_management_dashboards_import" "${1:this}" {
+}

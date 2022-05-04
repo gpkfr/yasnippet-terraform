@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_fivetran_destination
+# key: r_fivetran_destination
+# --
+
+resource "fivetran_destination" "${1:this}" {
+    group_id = "${2:group_id}"
+    region = "${3:region}"
+    run_setup_tests = "${4:run_setup_tests}"
+    service = "${5:service}"
+    time_zone_offset = "${6:time_zone_offset}"
+}

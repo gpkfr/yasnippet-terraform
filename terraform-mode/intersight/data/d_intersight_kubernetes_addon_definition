@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_addon_definition
+# key: d_intersight_kubernetes_addon_definition
+# --
+
+data "intersight_kubernetes_addon_definition" "${1:this}" {
+}

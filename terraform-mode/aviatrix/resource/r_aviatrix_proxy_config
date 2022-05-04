@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_proxy_config
+# key: r_aviatrix_proxy_config
+# --
+
+resource "aviatrix_proxy_config" "${1:this}" {
+    http_proxy = "${2:http_proxy}"
+    https_proxy = "${3:https_proxy}"
+}

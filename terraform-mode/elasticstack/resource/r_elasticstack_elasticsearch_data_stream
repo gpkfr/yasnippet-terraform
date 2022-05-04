@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_elasticstack_elasticsearch_data_stream
+# key: r_elasticstack_elasticsearch_data_stream
+# --
+
+resource "elasticstack_elasticsearch_data_stream" "${1:this}" {
+    name = "${2:name}"
+}

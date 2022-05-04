@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_servicebus_subscription
+# key: d_azurerm_servicebus_subscription
+# --
+
+data "azurerm_servicebus_subscription" "${1:this}" {
+    name = "${2:name}"
+}

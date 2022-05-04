@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_core_volume_group_replicas
+# key: d_oci_core_volume_group_replicas
+# --
+
+data "oci_core_volume_group_replicas" "${1:this}" {
+    availability_domain = "${2:availability_domain}"
+    compartment_id = "${3:compartment_id}"
+}

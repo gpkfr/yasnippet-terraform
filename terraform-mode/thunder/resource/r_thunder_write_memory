@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_write_memory
+# key: r_thunder_write_memory
+# --
+
+resource "thunder_write_memory" "${1:this}" {
+}

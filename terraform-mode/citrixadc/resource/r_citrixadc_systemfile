@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_systemfile
+# key: r_citrixadc_systemfile
+# --
+
+resource "citrixadc_systemfile" "${1:this}" {
+    filecontent = "${2:filecontent}"
+    filelocation = "${3:filelocation}"
+    filename = "${4:filename}"
+}

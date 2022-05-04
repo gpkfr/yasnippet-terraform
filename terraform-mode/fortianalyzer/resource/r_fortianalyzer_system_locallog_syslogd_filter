@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_locallog_syslogd_filter
+# key: r_fortianalyzer_system_locallog_syslogd_filter
+# --
+
+resource "fortianalyzer_system_locallog_syslogd_filter" "${1:this}" {
+}

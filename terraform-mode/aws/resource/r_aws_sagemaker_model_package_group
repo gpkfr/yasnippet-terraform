@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_sagemaker_model_package_group
+# key: r_aws_sagemaker_model_package_group
+# --
+
+resource "aws_sagemaker_model_package_group" "${1:this}" {
+    model_package_group_name = "${2:model_package_group_name}"
+}

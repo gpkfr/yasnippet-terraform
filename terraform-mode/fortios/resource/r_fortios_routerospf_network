@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_routerospf_network
+# key: r_fortios_routerospf_network
+# --
+
+resource "fortios_routerospf_network" "${1:this}" {
+}

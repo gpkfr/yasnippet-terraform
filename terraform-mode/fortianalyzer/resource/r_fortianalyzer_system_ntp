@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_ntp
+# key: r_fortianalyzer_system_ntp
+# --
+
+resource "fortianalyzer_system_ntp" "${1:this}" {
+}

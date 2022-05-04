@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_aws_subnet
+# key: d_intersight_cloud_aws_subnet
+# --
+
+data "intersight_cloud_aws_subnet" "${1:this}" {
+}

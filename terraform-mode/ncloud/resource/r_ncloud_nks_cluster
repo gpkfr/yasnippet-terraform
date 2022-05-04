@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_nks_cluster
+# key: r_ncloud_nks_cluster
+# --
+
+resource "ncloud_nks_cluster" "${1:this}" {
+    cluster_type = "${2:cluster_type}"
+    lb_private_subnet_no = "${3:lb_private_subnet_no}"
+    login_key_name = "${4:login_key_name}"
+    name = "${5:name}"
+    subnet_no_list = "${6:subnet_no_list}"
+    vpc_no = "${7:vpc_no}"
+    zone = "${8:zone}"
+}

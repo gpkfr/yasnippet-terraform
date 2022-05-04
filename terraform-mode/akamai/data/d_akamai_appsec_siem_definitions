@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_siem_definitions
+# key: d_akamai_appsec_siem_definitions
+# --
+
+data "akamai_appsec_siem_definitions" "${1:this}" {
+}

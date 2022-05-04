@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_kentik-synthetics_test
+# key: r_kentik-synthetics_test
+# --
+
+resource "kentik-synthetics_test" "${1:this}" {
+    name = "${2:name}"
+    status = "${3:status}"
+    type = "${4:type}"
+}

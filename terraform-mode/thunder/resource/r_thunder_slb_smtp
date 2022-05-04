@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_slb_smtp
+# key: r_thunder_slb_smtp
+# --
+
+resource "thunder_slb_smtp" "${1:this}" {
+}

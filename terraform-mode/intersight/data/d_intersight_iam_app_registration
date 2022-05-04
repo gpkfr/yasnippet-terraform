@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_app_registration
+# key: d_intersight_iam_app_registration
+# --
+
+data "intersight_iam_app_registration" "${1:this}" {
+}

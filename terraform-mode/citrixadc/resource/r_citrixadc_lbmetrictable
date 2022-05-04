@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbmetrictable
+# key: r_citrixadc_lbmetrictable
+# --
+
+resource "citrixadc_lbmetrictable" "${1:this}" {
+    metrictable = "${2:metrictable}"
+}

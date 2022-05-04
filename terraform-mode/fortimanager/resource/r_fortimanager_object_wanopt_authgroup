@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_wanopt_authgroup
+# key: r_fortimanager_object_wanopt_authgroup
+# --
+
+resource "fortimanager_object_wanopt_authgroup" "${1:this}" {
+}

@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: r_nirmata_cluster_type_aks
+# key: r_nirmata_cluster_type_aks
+# --
+
+resource "nirmata_cluster_type_aks" "${1:this}" {
+    auto_sync_namespaces = "${2:auto_sync_namespaces}"
+    credentials = "${3:credentials}"
+    dns_service_ip = "${4:dns_service_ip}"
+    docker_bridge_cidr = "${5:docker_bridge_cidr}"
+    enable_private_cluster = "${6:enable_private_cluster}"
+    https_application_routing = "${7:https_application_routing}"
+    monitoring = "${8:monitoring}"
+    name = "${9:name}"
+    network_policy = "${10:network_policy}"
+    network_profile = "${11:network_profile}"
+    region = "${12:region}"
+    resource_group = "${13:resource_group}"
+    service_cidr = "${14:service_cidr}"
+    version = "${15:version}"
+    workspace_id = "${16:workspace_id}"
+}

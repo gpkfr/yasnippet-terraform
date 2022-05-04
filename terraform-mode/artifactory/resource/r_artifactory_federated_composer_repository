@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_artifactory_federated_composer_repository
+# key: r_artifactory_federated_composer_repository
+# --
+
+resource "artifactory_federated_composer_repository" "${1:this}" {
+    key = "${2:key}"
+}

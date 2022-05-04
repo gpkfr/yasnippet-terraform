@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_artifacts_container_image
+# key: d_oci_artifacts_container_image
+# --
+
+data "oci_artifacts_container_image" "${1:this}" {
+    image_id = "${2:image_id}"
+}

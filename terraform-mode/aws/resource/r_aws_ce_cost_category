@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_ce_cost_category
+# key: r_aws_ce_cost_category
+# --
+
+resource "aws_ce_cost_category" "${1:this}" {
+    name = "${2:name}"
+    rule_version = "${3:rule_version}"
+}

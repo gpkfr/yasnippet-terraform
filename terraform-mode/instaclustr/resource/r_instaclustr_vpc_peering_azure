@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_instaclustr_vpc_peering_azure
+# key: r_instaclustr_vpc_peering_azure
+# --
+
+resource "instaclustr_vpc_peering_azure" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    peer_resource_group = "${3:peer_resource_group}"
+    peer_subnets = "${4:peer_subnets}"
+    peer_subscription_id = "${5:peer_subscription_id}"
+    peer_vpc_net = "${6:peer_vpc_net}"
+}

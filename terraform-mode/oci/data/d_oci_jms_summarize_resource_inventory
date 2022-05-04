@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_jms_summarize_resource_inventory
+# key: d_oci_jms_summarize_resource_inventory
+# --
+
+data "oci_jms_summarize_resource_inventory" "${1:this}" {
+}

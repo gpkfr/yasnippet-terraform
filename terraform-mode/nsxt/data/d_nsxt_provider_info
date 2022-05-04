@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nsxt_provider_info
+# key: d_nsxt_provider_info
+# --
+
+data "nsxt_provider_info" "${1:this}" {
+}

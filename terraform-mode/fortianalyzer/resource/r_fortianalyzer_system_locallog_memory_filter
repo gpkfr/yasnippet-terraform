@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_locallog_memory_filter
+# key: r_fortianalyzer_system_locallog_memory_filter
+# --
+
+resource "fortianalyzer_system_locallog_memory_filter" "${1:this}" {
+}

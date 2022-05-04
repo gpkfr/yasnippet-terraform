@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_akcauth_api_resource
+# key: r_akcauth_api_resource
+# --
+
+resource "akcauth_api_resource" "${1:this}" {
+    display_name = "${2:display_name}"
+    name = "${3:name}"
+}

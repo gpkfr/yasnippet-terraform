@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_profitbricks_server
+# key: d_profitbricks_server
+# --
+
+data "profitbricks_server" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+}

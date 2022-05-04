@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_google_compute_service_attachment
+# key: r_google_compute_service_attachment
+# --
+
+resource "google_compute_service_attachment" "${1:this}" {
+    connection_preference = "${2:connection_preference}"
+    enable_proxy_protocol = "${3:enable_proxy_protocol}"
+    name = "${4:name}"
+    nat_subnets = "${5:nat_subnets}"
+    target_service = "${6:target_service}"
+}

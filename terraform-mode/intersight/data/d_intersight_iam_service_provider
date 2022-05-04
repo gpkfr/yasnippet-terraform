@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_service_provider
+# key: d_intersight_iam_service_provider
+# --
+
+data "intersight_iam_service_provider" "${1:this}" {
+}

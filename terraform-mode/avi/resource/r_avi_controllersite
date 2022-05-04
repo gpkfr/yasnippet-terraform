@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_controllersite
+# key: r_avi_controllersite
+# --
+
+resource "avi_controllersite" "${1:this}" {
+    address = "${2:address}"
+    name = "${3:name}"
+}

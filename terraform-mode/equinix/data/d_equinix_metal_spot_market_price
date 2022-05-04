@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_spot_market_price
+# key: d_equinix_metal_spot_market_price
+# --
+
+data "equinix_metal_spot_market_price" "${1:this}" {
+    plan = "${2:plan}"
+}

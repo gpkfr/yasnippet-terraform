@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_metal_virtual_circuit
+# key: d_equinix_metal_virtual_circuit
+# --
+
+data "equinix_metal_virtual_circuit" "${1:this}" {
+    virtual_circuit_id = "${2:virtual_circuit_id}"
+}

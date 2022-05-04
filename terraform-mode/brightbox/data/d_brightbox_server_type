@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_brightbox_server_type
+# key: d_brightbox_server_type
+# --
+
+data "brightbox_server_type" "${1:this}" {
+}

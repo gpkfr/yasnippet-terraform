@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_ga_bandwidth_package_attachment
+# key: r_alicloud_ga_bandwidth_package_attachment
+# --
+
+resource "alicloud_ga_bandwidth_package_attachment" "${1:this}" {
+    accelerator_id = "${2:accelerator_id}"
+    bandwidth_package_id = "${3:bandwidth_package_id}"
+}

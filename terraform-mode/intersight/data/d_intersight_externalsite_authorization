@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_externalsite_authorization
+# key: d_intersight_externalsite_authorization
+# --
+
+data "intersight_externalsite_authorization" "${1:this}" {
+}

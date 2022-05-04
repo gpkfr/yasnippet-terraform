@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_checkpoint_management_threat_exception
+# key: d_checkpoint_management_threat_exception
+# --
+
+data "checkpoint_management_threat_exception" "${1:this}" {
+    layer = "${2:layer}"
+}

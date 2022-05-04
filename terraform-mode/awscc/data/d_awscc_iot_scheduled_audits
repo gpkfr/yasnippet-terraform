@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_iot_scheduled_audits
+# key: d_awscc_iot_scheduled_audits
+# --
+
+data "awscc_iot_scheduled_audits" "${1:this}" {
+}

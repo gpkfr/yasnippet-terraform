@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_gcore_k8s
+# key: r_gcore_k8s
+# --
+
+resource "gcore_k8s" "${1:this}" {
+    fixed_network = "${2:fixed_network}"
+    fixed_subnet = "${3:fixed_subnet}"
+    keypair = "${4:keypair}"
+    name = "${5:name}"
+}

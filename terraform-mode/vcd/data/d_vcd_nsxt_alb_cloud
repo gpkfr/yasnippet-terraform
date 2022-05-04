@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_nsxt_alb_cloud
+# key: d_vcd_nsxt_alb_cloud
+# --
+
+data "vcd_nsxt_alb_cloud" "${1:this}" {
+    name = "${2:name}"
+}

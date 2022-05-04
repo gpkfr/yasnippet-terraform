@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_vpn_ocvpn
+# key: r_fortios_vpn_ocvpn
+# --
+
+resource "fortios_vpn_ocvpn" "${1:this}" {
+}

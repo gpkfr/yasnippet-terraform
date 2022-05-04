@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_tcr_token
+# key: r_tencentcloud_tcr_token
+# --
+
+resource "tencentcloud_tcr_token" "${1:this}" {
+    instance_id = "${2:instance_id}"
+}

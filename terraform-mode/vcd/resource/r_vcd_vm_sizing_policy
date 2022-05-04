@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vm_sizing_policy
+# key: r_vcd_vm_sizing_policy
+# --
+
+resource "vcd_vm_sizing_policy" "${1:this}" {
+    name = "${2:name}"
+}

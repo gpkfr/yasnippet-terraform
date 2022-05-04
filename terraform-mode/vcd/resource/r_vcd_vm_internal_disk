@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_vcd_vm_internal_disk
+# key: r_vcd_vm_internal_disk
+# --
+
+resource "vcd_vm_internal_disk" "${1:this}" {
+    bus_number = "${2:bus_number}"
+    bus_type = "${3:bus_type}"
+    size_in_mb = "${4:size_in_mb}"
+    unit_number = "${5:unit_number}"
+    vapp_name = "${6:vapp_name}"
+    vm_name = "${7:vm_name}"
+}

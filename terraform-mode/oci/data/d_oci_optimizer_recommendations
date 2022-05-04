@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_oci_optimizer_recommendations
+# key: d_oci_optimizer_recommendations
+# --
+
+data "oci_optimizer_recommendations" "${1:this}" {
+    category_id = "${2:category_id}"
+    compartment_id = "${3:compartment_id}"
+    compartment_id_in_subtree = "${4:compartment_id_in_subtree}"
+}

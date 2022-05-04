@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_thunder_vrrp_a_vrid
+# key: r_thunder_vrrp_a_vrid
+# --
+
+resource "thunder_vrrp_a_vrid" "${1:this}" {
+    vrid_val = "${2:vrid_val}"
+}

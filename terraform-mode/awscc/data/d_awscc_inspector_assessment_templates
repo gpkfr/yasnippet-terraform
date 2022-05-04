@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_inspector_assessment_templates
+# key: d_awscc_inspector_assessment_templates
+# --
+
+data "awscc_inspector_assessment_templates" "${1:this}" {
+}

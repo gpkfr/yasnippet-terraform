@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_stackbill_volume
+# key: r_stackbill_volume
+# --
+
+resource "stackbill_volume" "${1:this}" {
+    disk_size = "${2:disk_size}"
+    name = "${3:name}"
+    storage_offering_uuid = "${4:storage_offering_uuid}"
+    zone_uuid = "${5:zone_uuid}"
+}

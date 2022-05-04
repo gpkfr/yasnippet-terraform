@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_natpolicy
+# key: d_avi_natpolicy
+# --
+
+data "avi_natpolicy" "${1:this}" {
+}

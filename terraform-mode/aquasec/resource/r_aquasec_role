@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_role
+# key: r_aquasec_role
+# --
+
+resource "aquasec_role" "${1:this}" {
+    permission = "${2:permission}"
+    role_name = "${3:role_name}"
+    scopes = "${4:scopes}"
+}

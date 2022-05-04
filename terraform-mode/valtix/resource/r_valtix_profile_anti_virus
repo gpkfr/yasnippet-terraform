@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_anti_virus
+# key: r_valtix_profile_anti_virus
+# --
+
+resource "valtix_profile_anti_virus" "${1:this}" {
+    action = "${2:action}"
+    name = "${3:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_macie_session
+# key: r_awscc_macie_session
+# --
+
+resource "awscc_macie_session" "${1:this}" {
+}

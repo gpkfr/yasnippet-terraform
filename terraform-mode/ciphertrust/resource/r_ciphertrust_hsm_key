@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_hsm_key
+# key: r_ciphertrust_hsm_key
+# --
+
+resource "ciphertrust_hsm_key" "${1:this}" {
+    attributes = "${2:attributes}"
+    key_size = "${3:key_size}"
+    mechanism = "${4:mechanism}"
+    partition_id = "${5:partition_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_syslog
+# key: r_fortimanager_system_syslog
+# --
+
+resource "fortimanager_system_syslog" "${1:this}" {
+}

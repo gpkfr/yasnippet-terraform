@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lambda_functions
+# key: d_awscc_lambda_functions
+# --
+
+data "awscc_lambda_functions" "${1:this}" {
+}

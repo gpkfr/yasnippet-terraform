@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_buddy_workspace
+# key: d_buddy_workspace
+# --
+
+data "buddy_workspace" "${1:this}" {
+}

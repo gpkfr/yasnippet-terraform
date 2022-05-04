@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_tags_tag_key_iam_policy
+# key: r_google_tags_tag_key_iam_policy
+# --
+
+resource "google_tags_tag_key_iam_policy" "${1:this}" {
+    policy_data = "${2:policy_data}"
+    tag_key = "${3:tag_key}"
+}

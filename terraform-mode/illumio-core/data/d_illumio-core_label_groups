@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_label_groups
+# key: d_illumio-core_label_groups
+# --
+
+data "illumio-core_label_groups" "${1:this}" {
+}

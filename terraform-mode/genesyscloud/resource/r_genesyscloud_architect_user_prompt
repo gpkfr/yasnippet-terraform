@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_genesyscloud_architect_user_prompt
+# key: r_genesyscloud_architect_user_prompt
+# --
+
+resource "genesyscloud_architect_user_prompt" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_log_analytics_log_analytics_categories_list
+# key: d_oci_log_analytics_log_analytics_categories_list
+# --
+
+data "oci_log_analytics_log_analytics_categories_list" "${1:this}" {
+    namespace = "${2:namespace}"
+}

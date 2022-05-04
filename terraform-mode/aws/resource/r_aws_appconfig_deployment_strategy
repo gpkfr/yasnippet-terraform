@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_appconfig_deployment_strategy
+# key: r_aws_appconfig_deployment_strategy
+# --
+
+resource "aws_appconfig_deployment_strategy" "${1:this}" {
+    deployment_duration_in_minutes = "${2:deployment_duration_in_minutes}"
+    growth_factor = "${3:growth_factor}"
+    name = "${4:name}"
+    replicate_to = "${5:replicate_to}"
+}

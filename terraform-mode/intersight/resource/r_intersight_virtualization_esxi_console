@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_virtualization_esxi_console
+# key: r_intersight_virtualization_esxi_console
+# --
+
+resource "intersight_virtualization_esxi_console" "${1:this}" {
+}

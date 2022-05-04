@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_buildkite_agent_token
+# key: r_buildkite_agent_token
+# --
+
+resource "buildkite_agent_token" "${1:this}" {
+}

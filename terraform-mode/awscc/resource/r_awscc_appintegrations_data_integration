@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_appintegrations_data_integration
+# key: r_awscc_appintegrations_data_integration
+# --
+
+resource "awscc_appintegrations_data_integration" "${1:this}" {
+    kms_key = "${2:kms_key}"
+    name = "${3:name}"
+    schedule_config = "${4:schedule_config}"
+    source_uri = "${5:source_uri}"
+}

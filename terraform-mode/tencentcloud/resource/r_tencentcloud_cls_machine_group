@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cls_machine_group
+# key: r_tencentcloud_cls_machine_group
+# --
+
+resource "tencentcloud_cls_machine_group" "${1:this}" {
+    group_name = "${2:group_name}"
+}

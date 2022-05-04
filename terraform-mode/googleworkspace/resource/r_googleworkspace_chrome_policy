@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_googleworkspace_chrome_policy
+# key: r_googleworkspace_chrome_policy
+# --
+
+resource "googleworkspace_chrome_policy" "${1:this}" {
+    org_unit_id = "${2:org_unit_id}"
+}

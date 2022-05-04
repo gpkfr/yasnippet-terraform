@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_log_analytics_namespace_scheduled_task
+# key: r_oci_log_analytics_namespace_scheduled_task
+# --
+
+resource "oci_log_analytics_namespace_scheduled_task" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    kind = "${3:kind}"
+    namespace = "${4:namespace}"
+    task_type = "${5:task_type}"
+}

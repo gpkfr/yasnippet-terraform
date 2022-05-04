@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_betteruptime_status_page
+# key: r_betteruptime_status_page
+# --
+
+resource "betteruptime_status_page" "${1:this}" {
+    company_name = "${2:company_name}"
+    company_url = "${3:company_url}"
+    subdomain = "${4:subdomain}"
+    timezone = "${5:timezone}"
+}

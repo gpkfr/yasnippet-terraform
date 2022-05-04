@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_geoipoverride
+# key: r_fortimanager_object_system_geoipoverride
+# --
+
+resource "fortimanager_object_system_geoipoverride" "${1:this}" {
+}

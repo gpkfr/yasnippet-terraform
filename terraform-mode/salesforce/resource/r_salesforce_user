@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_salesforce_user
+# key: r_salesforce_user
+# --
+
+resource "salesforce_user" "${1:this}" {
+    alias = "${2:alias}"
+    email = "${3:email}"
+    last_name = "${4:last_name}"
+    profile_id = "${5:profile_id}"
+    username = "${6:username}"
+}

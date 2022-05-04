@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_firewall_vipgrp46
+# key: r_fortimanager_object_firewall_vipgrp46
+# --
+
+resource "fortimanager_object_firewall_vipgrp46" "${1:this}" {
+}

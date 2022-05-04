@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_bigip_ltm_datagroup
+# key: d_bigip_ltm_datagroup
+# --
+
+data "bigip_ltm_datagroup" "${1:this}" {
+    name = "${2:name}"
+    partition = "${3:partition}"
+}

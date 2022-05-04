@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_location_fsx_lustre
+# key: d_awscc_datasync_location_fsx_lustre
+# --
+
+data "awscc_datasync_location_fsx_lustre" "${1:this}" {
+    id = "${2:id}"
+}

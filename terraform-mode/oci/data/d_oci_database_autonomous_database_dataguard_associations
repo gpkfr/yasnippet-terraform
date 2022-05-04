@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_autonomous_database_dataguard_associations
+# key: d_oci_database_autonomous_database_dataguard_associations
+# --
+
+data "oci_database_autonomous_database_dataguard_associations" "${1:this}" {
+    autonomous_database_id = "${2:autonomous_database_id}"
+}

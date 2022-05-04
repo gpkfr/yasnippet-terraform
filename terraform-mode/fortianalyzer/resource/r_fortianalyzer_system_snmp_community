@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_snmp_community
+# key: r_fortianalyzer_system_snmp_community
+# --
+
+resource "fortianalyzer_system_snmp_community" "${1:this}" {
+}

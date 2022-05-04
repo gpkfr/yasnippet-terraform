@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_stackbill_instance_reset_sshkey
+# key: r_stackbill_instance_reset_sshkey
+# --
+
+resource "stackbill_instance_reset_sshkey" "${1:this}" {
+    ssh_key_uuid = "${2:ssh_key_uuid}"
+    uuid = "${3:uuid}"
+}

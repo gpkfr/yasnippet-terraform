@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ivs_channel
+# key: r_awscc_ivs_channel
+# --
+
+resource "awscc_ivs_channel" "${1:this}" {
+}

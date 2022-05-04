@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudfront_response_headers_policy
+# key: d_aws_cloudfront_response_headers_policy
+# --
+
+data "aws_cloudfront_response_headers_policy" "${1:this}" {
+}

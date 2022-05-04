@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_net_app_fc_interface
+# key: d_intersight_storage_net_app_fc_interface
+# --
+
+data "intersight_storage_net_app_fc_interface" "${1:this}" {
+}

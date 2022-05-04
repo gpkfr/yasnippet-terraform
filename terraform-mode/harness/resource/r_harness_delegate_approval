@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_harness_delegate_approval
+# key: r_harness_delegate_approval
+# --
+
+resource "harness_delegate_approval" "${1:this}" {
+    approve = "${2:approve}"
+    delegate_id = "${3:delegate_id}"
+}

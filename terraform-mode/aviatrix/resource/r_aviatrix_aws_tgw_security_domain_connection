@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_aws_tgw_security_domain_connection
+# key: r_aviatrix_aws_tgw_security_domain_connection
+# --
+
+resource "aviatrix_aws_tgw_security_domain_connection" "${1:this}" {
+    domain_name1 = "${2:domain_name1}"
+    domain_name2 = "${3:domain_name2}"
+    tgw_name = "${4:tgw_name}"
+}

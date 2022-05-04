@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_vcd_org_user
+# key: r_vcd_org_user
+# --
+
+resource "vcd_org_user" "${1:this}" {
+    name = "${2:name}"
+    role = "${3:role}"
+}

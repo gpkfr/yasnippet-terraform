@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_mediapackage_origin_endpoint
+# key: r_awscc_mediapackage_origin_endpoint
+# --
+
+resource "awscc_mediapackage_origin_endpoint" "${1:this}" {
+    channel_id = "${2:channel_id}"
+    id = "${3:id}"
+}

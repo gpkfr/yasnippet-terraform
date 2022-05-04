@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_interfacelist
+# key: d_fortios_system_interfacelist
+# --
+
+data "fortios_system_interfacelist" "${1:this}" {
+}

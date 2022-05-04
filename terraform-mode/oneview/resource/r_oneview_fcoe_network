@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oneview_fcoe_network
+# key: r_oneview_fcoe_network
+# --
+
+resource "oneview_fcoe_network" "${1:this}" {
+    name = "${2:name}"
+    vlanid = "${3:vlanid}"
+}

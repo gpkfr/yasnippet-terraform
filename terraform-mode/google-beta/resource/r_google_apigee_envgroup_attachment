@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_apigee_envgroup_attachment
+# key: r_google_apigee_envgroup_attachment
+# --
+
+resource "google_apigee_envgroup_attachment" "${1:this}" {
+    envgroup_id = "${2:envgroup_id}"
+    environment = "${3:environment}"
+}

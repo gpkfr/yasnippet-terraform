@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_spectrocloud_appliance
+# key: d_spectrocloud_appliance
+# --
+
+data "spectrocloud_appliance" "${1:this}" {
+    name = "${2:name}"
+}

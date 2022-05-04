@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_jms_fleets
+# key: d_oci_jms_fleets
+# --
+
+data "oci_jms_fleets" "${1:this}" {
+}

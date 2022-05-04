@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_ruleset
+# key: d_dome9_ruleset
+# --
+
+data "dome9_ruleset" "${1:this}" {
+    id = "${2:id}"
+}

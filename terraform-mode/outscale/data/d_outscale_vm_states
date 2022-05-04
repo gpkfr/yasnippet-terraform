@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_outscale_vm_states
+# key: d_outscale_vm_states
+# --
+
+data "outscale_vm_states" "${1:this}" {
+}

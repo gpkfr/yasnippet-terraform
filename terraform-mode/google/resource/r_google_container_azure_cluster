@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_google_container_azure_cluster
+# key: r_google_container_azure_cluster
+# --
+
+resource "google_container_azure_cluster" "${1:this}" {
+    azure_region = "${2:azure_region}"
+    client = "${3:client}"
+    location = "${4:location}"
+    name = "${5:name}"
+    resource_group_id = "${6:resource_group_id}"
+}

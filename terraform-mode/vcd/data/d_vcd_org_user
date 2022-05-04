@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vcd_org_user
+# key: d_vcd_org_user
+# --
+
+data "vcd_org_user" "${1:this}" {
+}

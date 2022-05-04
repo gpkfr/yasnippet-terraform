@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_kion_cloud_rule
+# key: d_kion_cloud_rule
+# --
+
+data "kion_cloud_rule" "${1:this}" {
+}

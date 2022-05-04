@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_segmentation_security_domain
+# key: r_aviatrix_segmentation_security_domain
+# --
+
+resource "aviatrix_segmentation_security_domain" "${1:this}" {
+    domain_name = "${2:domain_name}"
+}

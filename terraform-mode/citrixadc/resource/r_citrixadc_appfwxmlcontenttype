@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwxmlcontenttype
+# key: r_citrixadc_appfwxmlcontenttype
+# --
+
+resource "citrixadc_appfwxmlcontenttype" "${1:this}" {
+}

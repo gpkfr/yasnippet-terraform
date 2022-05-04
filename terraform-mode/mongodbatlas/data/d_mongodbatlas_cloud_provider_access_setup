@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_cloud_provider_access_setup
+# key: d_mongodbatlas_cloud_provider_access_setup
+# --
+
+data "mongodbatlas_cloud_provider_access_setup" "${1:this}" {
+    project_id = "${2:project_id}"
+    provider_name = "${3:provider_name}"
+    role_id = "${4:role_id}"
+}

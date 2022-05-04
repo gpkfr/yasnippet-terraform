@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudscale_network
+# key: r_cloudscale_network
+# --
+
+resource "cloudscale_network" "${1:this}" {
+    name = "${2:name}"
+}

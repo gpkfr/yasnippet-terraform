@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_gslb
+# key: d_avi_gslb
+# --
+
+data "avi_gslb" "${1:this}" {
+}

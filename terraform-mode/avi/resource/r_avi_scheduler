@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_scheduler
+# key: r_avi_scheduler
+# --
+
+resource "avi_scheduler" "${1:this}" {
+    name = "${2:name}"
+}

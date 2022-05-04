@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_teams_proxy_endpoint
+# key: r_cloudflare_teams_proxy_endpoint
+# --
+
+resource "cloudflare_teams_proxy_endpoint" "${1:this}" {
+    account_id = "${2:account_id}"
+    ips = "${3:ips}"
+    name = "${4:name}"
+}

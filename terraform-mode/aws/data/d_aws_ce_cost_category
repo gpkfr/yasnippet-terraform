@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_ce_cost_category
+# key: d_aws_ce_cost_category
+# --
+
+data "aws_ce_cost_category" "${1:this}" {
+    cost_category_arn = "${2:cost_category_arn}"
+}

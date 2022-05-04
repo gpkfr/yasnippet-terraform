@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ecl_compute_volume_attach_v2
+# key: r_ecl_compute_volume_attach_v2
+# --
+
+resource "ecl_compute_volume_attach_v2" "${1:this}" {
+    server_id = "${2:server_id}"
+    volume_id = "${3:volume_id}"
+}

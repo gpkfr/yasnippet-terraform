@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vmc_connected_accounts
+# key: d_vmc_connected_accounts
+# --
+
+data "vmc_connected_accounts" "${1:this}" {
+    account_number = "${2:account_number}"
+}

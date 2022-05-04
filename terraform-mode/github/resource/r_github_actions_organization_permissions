@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_github_actions_organization_permissions
+# key: r_github_actions_organization_permissions
+# --
+
+resource "github_actions_organization_permissions" "${1:this}" {
+    enabled_repositories = "${2:enabled_repositories}"
+}

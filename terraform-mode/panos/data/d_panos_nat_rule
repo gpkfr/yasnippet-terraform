@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_panos_nat_rule
+# key: d_panos_nat_rule
+# --
+
+data "panos_nat_rule" "${1:this}" {
+    name = "${2:name}"
+}

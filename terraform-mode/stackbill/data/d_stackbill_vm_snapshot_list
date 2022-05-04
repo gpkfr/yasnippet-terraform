@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_stackbill_vm_snapshot_list
+# key: d_stackbill_vm_snapshot_list
+# --
+
+data "stackbill_vm_snapshot_list" "${1:this}" {
+    zone_uuid = "${2:zone_uuid}"
+}

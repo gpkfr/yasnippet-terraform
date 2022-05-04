@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_vpc_public_gateway_dhcp
+# key: d_scaleway_vpc_public_gateway_dhcp
+# --
+
+data "scaleway_vpc_public_gateway_dhcp" "${1:this}" {
+    dhcp_id = "${2:dhcp_id}"
+}

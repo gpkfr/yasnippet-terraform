@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_schemas_discoverer
+# key: r_aws_schemas_discoverer
+# --
+
+resource "aws_schemas_discoverer" "${1:this}" {
+    source_arn = "${2:source_arn}"
+}

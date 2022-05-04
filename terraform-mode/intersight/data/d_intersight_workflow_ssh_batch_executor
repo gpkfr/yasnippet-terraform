@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_workflow_ssh_batch_executor
+# key: d_intersight_workflow_ssh_batch_executor
+# --
+
+data "intersight_workflow_ssh_batch_executor" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_authprofile
+# key: r_avi_authprofile
+# --
+
+resource "avi_authprofile" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

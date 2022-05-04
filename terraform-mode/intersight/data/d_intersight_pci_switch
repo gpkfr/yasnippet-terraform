@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_pci_switch
+# key: d_intersight_pci_switch
+# --
+
+data "intersight_pci_switch" "${1:this}" {
+}

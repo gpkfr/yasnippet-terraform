@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spectrocloud_cluster_import
+# key: r_spectrocloud_cluster_import
+# --
+
+resource "spectrocloud_cluster_import" "${1:this}" {
+    cloud = "${2:cloud}"
+    name = "${3:name}"
+}

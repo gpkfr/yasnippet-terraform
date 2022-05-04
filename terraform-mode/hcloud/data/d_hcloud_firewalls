@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcloud_firewalls
+# key: d_hcloud_firewalls
+# --
+
+data "hcloud_firewalls" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbprofile
+# key: r_citrixadc_lbprofile
+# --
+
+resource "citrixadc_lbprofile" "${1:this}" {
+    lbprofilename = "${2:lbprofilename}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudscale_objects_user
+# key: d_cloudscale_objects_user
+# --
+
+data "cloudscale_objects_user" "${1:this}" {
+}

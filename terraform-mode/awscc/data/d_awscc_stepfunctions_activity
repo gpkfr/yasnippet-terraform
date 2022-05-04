@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_stepfunctions_activity
+# key: d_awscc_stepfunctions_activity
+# --
+
+data "awscc_stepfunctions_activity" "${1:this}" {
+    id = "${2:id}"
+}

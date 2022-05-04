@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_cognito_identity_pool_provider_principal_tag
+# key: r_aws_cognito_identity_pool_provider_principal_tag
+# --
+
+resource "aws_cognito_identity_pool_provider_principal_tag" "${1:this}" {
+    identity_pool_id = "${2:identity_pool_id}"
+    identity_provider_name = "${3:identity_provider_name}"
+}

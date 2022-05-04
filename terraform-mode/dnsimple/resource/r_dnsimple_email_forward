@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dnsimple_email_forward
+# key: r_dnsimple_email_forward
+# --
+
+resource "dnsimple_email_forward" "${1:this}" {
+    alias_name = "${2:alias_name}"
+    destination_email = "${3:destination_email}"
+    domain = "${4:domain}"
+}

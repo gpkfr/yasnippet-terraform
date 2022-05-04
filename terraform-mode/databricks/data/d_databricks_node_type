@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_databricks_node_type
+# key: d_databricks_node_type
+# --
+
+data "databricks_node_type" "${1:this}" {
+}

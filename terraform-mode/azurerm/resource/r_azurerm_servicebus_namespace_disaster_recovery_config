@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_servicebus_namespace_disaster_recovery_config
+# key: r_azurerm_servicebus_namespace_disaster_recovery_config
+# --
+
+resource "azurerm_servicebus_namespace_disaster_recovery_config" "${1:this}" {
+    name = "${2:name}"
+    partner_namespace_id = "${3:partner_namespace_id}"
+    primary_namespace_id = "${4:primary_namespace_id}"
+}

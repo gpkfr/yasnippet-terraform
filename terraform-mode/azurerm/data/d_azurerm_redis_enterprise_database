@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_azurerm_redis_enterprise_database
+# key: d_azurerm_redis_enterprise_database
+# --
+
+data "azurerm_redis_enterprise_database" "${1:this}" {
+    cluster_id = "${2:cluster_id}"
+    name = "${3:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_healthmonitor
+# key: r_avi_healthmonitor
+# --
+
+resource "avi_healthmonitor" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

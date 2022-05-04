@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_user_api_key
+# key: r_equinix_metal_user_api_key
+# --
+
+resource "equinix_metal_user_api_key" "${1:this}" {
+    description = "${2:description}"
+    read_only = "${3:read_only}"
+}

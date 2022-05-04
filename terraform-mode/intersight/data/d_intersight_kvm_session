@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kvm_session
+# key: d_intersight_kvm_session
+# --
+
+data "intersight_kvm_session" "${1:this}" {
+}

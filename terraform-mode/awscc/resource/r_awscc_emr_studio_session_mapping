@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_emr_studio_session_mapping
+# key: r_awscc_emr_studio_session_mapping
+# --
+
+resource "awscc_emr_studio_session_mapping" "${1:this}" {
+    identity_name = "${2:identity_name}"
+    identity_type = "${3:identity_type}"
+    session_policy_arn = "${4:session_policy_arn}"
+    studio_id = "${5:studio_id}"
+}

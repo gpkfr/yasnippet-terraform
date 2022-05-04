@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_database_pluggable_database
+# key: d_oci_database_pluggable_database
+# --
+
+data "oci_database_pluggable_database" "${1:this}" {
+    pluggable_database_id = "${2:pluggable_database_id}"
+}

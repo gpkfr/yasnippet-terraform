@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_volterra_gcp_vpc_site
+# key: r_volterra_gcp_vpc_site
+# --
+
+resource "volterra_gcp_vpc_site" "${1:this}" {
+    gcp_region = "${2:gcp_region}"
+    instance_type = "${3:instance_type}"
+    name = "${4:name}"
+    namespace = "${5:namespace}"
+}

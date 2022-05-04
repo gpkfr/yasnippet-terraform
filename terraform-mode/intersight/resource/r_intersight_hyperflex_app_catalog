@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_app_catalog
+# key: r_intersight_hyperflex_app_catalog
+# --
+
+resource "intersight_hyperflex_app_catalog" "${1:this}" {
+}

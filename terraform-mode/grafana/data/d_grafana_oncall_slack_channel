@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_grafana_oncall_slack_channel
+# key: d_grafana_oncall_slack_channel
+# --
+
+data "grafana_oncall_slack_channel" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_config_configuration_recorders
+# key: d_alicloud_config_configuration_recorders
+# --
+
+data "alicloud_config_configuration_recorders" "${1:this}" {
+}

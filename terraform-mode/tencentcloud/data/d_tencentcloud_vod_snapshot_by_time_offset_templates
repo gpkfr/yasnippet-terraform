@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_vod_snapshot_by_time_offset_templates
+# key: d_tencentcloud_vod_snapshot_by_time_offset_templates
+# --
+
+data "tencentcloud_vod_snapshot_by_time_offset_templates" "${1:this}" {
+}

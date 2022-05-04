@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_carvel_kbld
+# key: r_carvel_kbld
+# --
+
+resource "carvel_kbld" "${1:this}" {
+}

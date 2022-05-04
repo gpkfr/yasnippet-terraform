@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_linked_service_azure_search
+# key: r_azurerm_data_factory_linked_service_azure_search
+# --
+
+resource "azurerm_data_factory_linked_service_azure_search" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    name = "${3:name}"
+    search_service_key = "${4:search_service_key}"
+    url = "${5:url}"
+}

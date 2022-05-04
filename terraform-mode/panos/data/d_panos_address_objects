@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_panos_address_objects
+# key: d_panos_address_objects
+# --
+
+data "panos_address_objects" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_apprunner_connection
+# key: r_aws_apprunner_connection
+# --
+
+resource "aws_apprunner_connection" "${1:this}" {
+    connection_name = "${2:connection_name}"
+    provider_type = "${3:provider_type}"
+}

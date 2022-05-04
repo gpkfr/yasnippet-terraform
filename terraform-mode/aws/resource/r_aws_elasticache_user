@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_elasticache_user
+# key: r_aws_elasticache_user
+# --
+
+resource "aws_elasticache_user" "${1:this}" {
+    access_string = "${2:access_string}"
+    engine = "${3:engine}"
+    user_id = "${4:user_id}"
+    user_name = "${5:user_name}"
+}

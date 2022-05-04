@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_valtix_address_object
+# key: r_valtix_address_object
+# --
+
+resource "valtix_address_object" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_cls_config_attachment
+# key: r_tencentcloud_cls_config_attachment
+# --
+
+resource "tencentcloud_cls_config_attachment" "${1:this}" {
+    config_id = "${2:config_id}"
+    group_id = "${3:group_id}"
+}

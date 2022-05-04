@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_service_manager_proxy_service_environments
+# key: d_oci_service_manager_proxy_service_environments
+# --
+
+data "oci_service_manager_proxy_service_environments" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

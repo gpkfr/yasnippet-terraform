@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_policyhttpcallout
+# key: r_citrixadc_policyhttpcallout
+# --
+
+resource "citrixadc_policyhttpcallout" "${1:this}" {
+    name = "${2:name}"
+}

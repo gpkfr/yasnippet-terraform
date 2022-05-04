@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: d_launchdarkly_flag_trigger
+# key: d_launchdarkly_flag_trigger
+# --
+
+data "launchdarkly_flag_trigger" "${1:this}" {
+    env_key = "${2:env_key}"
+    flag_key = "${3:flag_key}"
+    id = "${4:id}"
+    project_key = "${5:project_key}"
+}

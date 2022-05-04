@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_elasticache_global_replication_group
+# key: r_awscc_elasticache_global_replication_group
+# --
+
+resource "awscc_elasticache_global_replication_group" "${1:this}" {
+    members = "${2:members}"
+}

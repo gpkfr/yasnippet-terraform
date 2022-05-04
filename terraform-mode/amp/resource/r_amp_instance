@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: r_amp_instance
+# key: r_amp_instance
+# --
+
+resource "amp_instance" "${1:this}" {
+    auto_configure = "${2:auto_configure}"
+    friendly_name = "${3:friendly_name}"
+    instance_name = "${4:instance_name}"
+    module = "${5:module}"
+    new_instance_id = "${6:new_instance_id}"
+    port_number = "${7:port_number}"
+    provision_setting = "${8:provision_setting}"
+    target_ads_instance = "${9:target_ads_instance}"
+}

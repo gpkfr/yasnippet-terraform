@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_botpolicy
+# key: r_citrixadc_botpolicy
+# --
+
+resource "citrixadc_botpolicy" "${1:this}" {
+    name = "${2:name}"
+    profilename = "${3:profilename}"
+    rule = "${4:rule}"
+}

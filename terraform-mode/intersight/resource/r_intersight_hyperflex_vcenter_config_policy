@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_vcenter_config_policy
+# key: r_intersight_hyperflex_vcenter_config_policy
+# --
+
+resource "intersight_hyperflex_vcenter_config_policy" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_applicationpersistenceprofile
+# key: r_avi_applicationpersistenceprofile
+# --
+
+resource "avi_applicationpersistenceprofile" "${1:this}" {
+    name = "${2:name}"
+    persistence_type = "${3:persistence_type}"
+}

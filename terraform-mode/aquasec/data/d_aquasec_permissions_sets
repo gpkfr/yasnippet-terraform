@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aquasec_permissions_sets
+# key: d_aquasec_permissions_sets
+# --
+
+data "aquasec_permissions_sets" "${1:this}" {
+}

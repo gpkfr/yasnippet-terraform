@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_ssh_key_account
+# key: r_octopusdeploy_ssh_key_account
+# --
+
+resource "octopusdeploy_ssh_key_account" "${1:this}" {
+    name = "${2:name}"
+    private_key_file = "${3:private_key_file}"
+    username = "${4:username}"
+}

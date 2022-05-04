@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_sql
+# key: r_fortimanager_system_sql
+# --
+
+resource "fortimanager_system_sql" "${1:this}" {
+}

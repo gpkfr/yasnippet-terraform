@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ce_anomaly_subscription
+# key: r_awscc_ce_anomaly_subscription
+# --
+
+resource "awscc_ce_anomaly_subscription" "${1:this}" {
+    frequency = "${2:frequency}"
+    monitor_arn_list = "${3:monitor_arn_list}"
+    subscribers = "${4:subscribers}"
+    subscription_name = "${5:subscription_name}"
+    threshold = "${6:threshold}"
+}

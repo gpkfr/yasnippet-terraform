@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_connections
+# key: d_oci_devops_connections
+# --
+
+data "oci_devops_connections" "${1:this}" {
+}

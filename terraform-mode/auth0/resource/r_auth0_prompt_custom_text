@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_auth0_prompt_custom_text
+# key: r_auth0_prompt_custom_text
+# --
+
+resource "auth0_prompt_custom_text" "${1:this}" {
+    body = "${2:body}"
+    language = "${3:language}"
+    prompt = "${4:prompt}"
+}

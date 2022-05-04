@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_stack_monitoring_monitored_resources_search
+# key: r_oci_stack_monitoring_monitored_resources_search
+# --
+
+resource "oci_stack_monitoring_monitored_resources_search" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

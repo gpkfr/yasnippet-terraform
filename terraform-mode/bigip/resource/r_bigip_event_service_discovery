@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_bigip_event_service_discovery
+# key: r_bigip_event_service_discovery
+# --
+
+resource "bigip_event_service_discovery" "${1:this}" {
+    taskid = "${2:taskid}"
+}

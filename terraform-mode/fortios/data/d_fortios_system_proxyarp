@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_proxyarp
+# key: d_fortios_system_proxyarp
+# --
+
+data "fortios_system_proxyarp" "${1:this}" {
+    fosid = "${2:fosid}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53_dnssec
+# key: r_awscc_route53_dnssec
+# --
+
+resource "awscc_route53_dnssec" "${1:this}" {
+    hosted_zone_id = "${2:hosted_zone_id}"
+}

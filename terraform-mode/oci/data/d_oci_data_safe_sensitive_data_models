@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_sensitive_data_models
+# key: d_oci_data_safe_sensitive_data_models
+# --
+
+data "oci_data_safe_sensitive_data_models" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

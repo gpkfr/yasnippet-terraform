@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_clustersync
+# key: d_fortios_system_clustersync
+# --
+
+data "fortios_system_clustersync" "${1:this}" {
+    sync_id = "${2:sync_id}"
+}

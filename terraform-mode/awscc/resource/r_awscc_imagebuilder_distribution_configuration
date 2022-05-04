@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_imagebuilder_distribution_configuration
+# key: r_awscc_imagebuilder_distribution_configuration
+# --
+
+resource "awscc_imagebuilder_distribution_configuration" "${1:this}" {
+    distributions = "${2:distributions}"
+    name = "${3:name}"
+}

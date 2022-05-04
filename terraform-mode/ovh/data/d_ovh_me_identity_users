@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ovh_me_identity_users
+# key: d_ovh_me_identity_users
+# --
+
+data "ovh_me_identity_users" "${1:this}" {
+}

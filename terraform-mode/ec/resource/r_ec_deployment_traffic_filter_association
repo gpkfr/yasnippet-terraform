@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ec_deployment_traffic_filter_association
+# key: r_ec_deployment_traffic_filter_association
+# --
+
+resource "ec_deployment_traffic_filter_association" "${1:this}" {
+    deployment_id = "${2:deployment_id}"
+    traffic_filter_id = "${3:traffic_filter_id}"
+}

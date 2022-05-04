@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_logic_app_integration_account_assembly
+# key: r_azurerm_logic_app_integration_account_assembly
+# --
+
+resource "azurerm_logic_app_integration_account_assembly" "${1:this}" {
+    assembly_name = "${2:assembly_name}"
+    integration_account_name = "${3:integration_account_name}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+}

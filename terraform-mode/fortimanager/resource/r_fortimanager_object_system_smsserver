@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_smsserver
+# key: r_fortimanager_object_system_smsserver
+# --
+
+resource "fortimanager_object_system_smsserver" "${1:this}" {
+}

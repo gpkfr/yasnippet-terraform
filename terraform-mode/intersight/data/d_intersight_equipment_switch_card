@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_equipment_switch_card
+# key: d_intersight_equipment_switch_card
+# --
+
+data "intersight_equipment_switch_card" "${1:this}" {
+}

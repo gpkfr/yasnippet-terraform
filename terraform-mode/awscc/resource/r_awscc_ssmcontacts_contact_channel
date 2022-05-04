@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ssmcontacts_contact_channel
+# key: r_awscc_ssmcontacts_contact_channel
+# --
+
+resource "awscc_ssmcontacts_contact_channel" "${1:this}" {
+}

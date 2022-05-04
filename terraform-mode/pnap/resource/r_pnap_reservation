@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_pnap_reservation
+# key: r_pnap_reservation
+# --
+
+resource "pnap_reservation" "${1:this}" {
+    sku = "${2:sku}"
+}

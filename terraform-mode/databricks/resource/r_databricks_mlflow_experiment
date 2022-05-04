@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_databricks_mlflow_experiment
+# key: r_databricks_mlflow_experiment
+# --
+
+resource "databricks_mlflow_experiment" "${1:this}" {
+    name = "${2:name}"
+}

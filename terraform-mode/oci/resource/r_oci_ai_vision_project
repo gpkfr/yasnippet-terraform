@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_ai_vision_project
+# key: r_oci_ai_vision_project
+# --
+
+resource "oci_ai_vision_project" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

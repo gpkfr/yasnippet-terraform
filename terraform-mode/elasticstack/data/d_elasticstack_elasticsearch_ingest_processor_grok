@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_grok
+# key: d_elasticstack_elasticsearch_ingest_processor_grok
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_grok" "${1:this}" {
+    field = "${2:field}"
+    patterns = "${3:patterns}"
+}

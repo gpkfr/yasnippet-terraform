@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_glue_partition_index
+# key: r_aws_glue_partition_index
+# --
+
+resource "aws_glue_partition_index" "${1:this}" {
+    database_name = "${2:database_name}"
+    table_name = "${3:table_name}"
+}

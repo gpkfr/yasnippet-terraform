@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_netris_routemap
+# key: d_netris_routemap
+# --
+
+data "netris_routemap" "${1:this}" {
+    name = "${2:name}"
+}

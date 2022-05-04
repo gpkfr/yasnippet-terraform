@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_jwtserverprofile
+# key: d_avi_jwtserverprofile
+# --
+
+data "avi_jwtserverprofile" "${1:this}" {
+}

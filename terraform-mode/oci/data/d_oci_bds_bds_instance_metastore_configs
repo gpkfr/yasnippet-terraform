@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_bds_bds_instance_metastore_configs
+# key: d_oci_bds_bds_instance_metastore_configs
+# --
+
+data "oci_bds_bds_instance_metastore_configs" "${1:this}" {
+    bds_instance_id = "${2:bds_instance_id}"
+}

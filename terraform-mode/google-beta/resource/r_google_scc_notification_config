@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_google_scc_notification_config
+# key: r_google_scc_notification_config
+# --
+
+resource "google_scc_notification_config" "${1:this}" {
+    config_id = "${2:config_id}"
+    organization = "${3:organization}"
+    pubsub_topic = "${4:pubsub_topic}"
+}

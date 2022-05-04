@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_license_license_reservation_op
+# key: r_intersight_license_license_reservation_op
+# --
+
+resource "intersight_license_license_reservation_op" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53_dnssecs
+# key: d_awscc_route53_dnssecs
+# --
+
+data "awscc_route53_dnssecs" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_block_storage_snapshot
+# key: d_ncloud_block_storage_snapshot
+# --
+
+data "ncloud_block_storage_snapshot" "${1:this}" {
+}

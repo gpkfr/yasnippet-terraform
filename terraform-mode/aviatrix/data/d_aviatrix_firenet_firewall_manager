@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_aviatrix_firenet_firewall_manager
+# key: d_aviatrix_firenet_firewall_manager
+# --
+
+data "aviatrix_firenet_firewall_manager" "${1:this}" {
+    gateway_name = "${2:gateway_name}"
+    vendor_type = "${3:vendor_type}"
+    vpc_id = "${4:vpc_id}"
+}

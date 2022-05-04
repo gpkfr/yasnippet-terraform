@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ngrok_api_key
+# key: r_ngrok_api_key
+# --
+
+resource "ngrok_api_key" "${1:this}" {
+}

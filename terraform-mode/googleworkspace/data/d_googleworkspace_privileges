@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_googleworkspace_privileges
+# key: d_googleworkspace_privileges
+# --
+
+data "googleworkspace_privileges" "${1:this}" {
+}

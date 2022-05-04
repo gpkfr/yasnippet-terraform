@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_opsi_operations_insights_warehouse_users
+# key: d_oci_opsi_operations_insights_warehouse_users
+# --
+
+data "oci_opsi_operations_insights_warehouse_users" "${1:this}" {
+    operations_insights_warehouse_id = "${2:operations_insights_warehouse_id}"
+}

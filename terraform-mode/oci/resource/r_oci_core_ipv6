@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_oci_core_ipv6
+# key: r_oci_core_ipv6
+# --
+
+resource "oci_core_ipv6" "${1:this}" {
+    vnic_id = "${2:vnic_id}"
+}

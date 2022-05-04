@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_cluster
+# key: r_ciphertrust_cluster
+# --
+
+resource "ciphertrust_cluster" "${1:this}" {
+}

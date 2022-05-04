@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_equipment_fan_control
+# key: d_intersight_equipment_fan_control
+# --
+
+data "intersight_equipment_fan_control" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_groundstation_mission_profile
+# key: r_awscc_groundstation_mission_profile
+# --
+
+resource "awscc_groundstation_mission_profile" "${1:this}" {
+    dataflow_edges = "${2:dataflow_edges}"
+    minimum_viable_contact_duration_seconds = "${3:minimum_viable_contact_duration_seconds}"
+    name = "${4:name}"
+    tracking_config_arn = "${5:tracking_config_arn}"
+}

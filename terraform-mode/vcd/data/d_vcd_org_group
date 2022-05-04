@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_vcd_org_group
+# key: d_vcd_org_group
+# --
+
+data "vcd_org_group" "${1:this}" {
+    name = "${2:name}"
+}

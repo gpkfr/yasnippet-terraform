@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_cloudtamerio_azure_policy
+# key: r_cloudtamerio_azure_policy
+# --
+
+resource "cloudtamerio_azure_policy" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_groundstation_dataflow_endpoint_group
+# key: d_awscc_groundstation_dataflow_endpoint_group
+# --
+
+data "awscc_groundstation_dataflow_endpoint_group" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_metalcloud_infrastructure
+# key: d_metalcloud_infrastructure
+# --
+
+data "metalcloud_infrastructure" "${1:this}" {
+    datacenter_name = "${2:datacenter_name}"
+    infrastructure_label = "${3:infrastructure_label}"
+}

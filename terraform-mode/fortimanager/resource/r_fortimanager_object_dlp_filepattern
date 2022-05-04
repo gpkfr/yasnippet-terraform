@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_dlp_filepattern
+# key: r_fortimanager_object_dlp_filepattern
+# --
+
+resource "fortimanager_object_dlp_filepattern" "${1:this}" {
+}

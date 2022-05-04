@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_thunder_file_ssl_cert_key
+# key: r_thunder_file_ssl_cert_key
+# --
+
+resource "thunder_file_ssl_cert_key" "${1:this}" {
+    host = "${2:host}"
+    name = "${3:name}"
+    path = "${4:path}"
+    protocol = "${5:protocol}"
+}

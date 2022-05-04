@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_detective_graph
+# key: r_aws_detective_graph
+# --
+
+resource "aws_detective_graph" "${1:this}" {
+}

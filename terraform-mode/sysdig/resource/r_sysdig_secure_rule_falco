@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_sysdig_secure_rule_falco
+# key: r_sysdig_secure_rule_falco
+# --
+
+resource "sysdig_secure_rule_falco" "${1:this}" {
+    condition = "${2:condition}"
+    name = "${3:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_checkly_snippet
+# key: r_checkly_snippet
+# --
+
+resource "checkly_snippet" "${1:this}" {
+    name = "${2:name}"
+    script = "${3:script}"
+}

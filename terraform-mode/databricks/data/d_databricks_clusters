@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_databricks_clusters
+# key: d_databricks_clusters
+# --
+
+data "databricks_clusters" "${1:this}" {
+}

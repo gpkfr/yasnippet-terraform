@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_eks_fargate_profile
+# key: r_awscc_eks_fargate_profile
+# --
+
+resource "awscc_eks_fargate_profile" "${1:this}" {
+    cluster_name = "${2:cluster_name}"
+    pod_execution_role_arn = "${3:pod_execution_role_arn}"
+    selectors = "${4:selectors}"
+}

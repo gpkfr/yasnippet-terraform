@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logzio_subaccount
+# key: d_logzio_subaccount
+# --
+
+data "logzio_subaccount" "${1:this}" {
+}

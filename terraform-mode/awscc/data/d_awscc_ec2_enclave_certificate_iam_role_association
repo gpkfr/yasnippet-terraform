@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_enclave_certificate_iam_role_association
+# key: d_awscc_ec2_enclave_certificate_iam_role_association
+# --
+
+data "awscc_ec2_enclave_certificate_iam_role_association" "${1:this}" {
+    id = "${2:id}"
+}

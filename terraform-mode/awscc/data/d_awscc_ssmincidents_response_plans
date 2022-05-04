@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ssmincidents_response_plans
+# key: d_awscc_ssmincidents_response_plans
+# --
+
+data "awscc_ssmincidents_response_plans" "${1:this}" {
+}

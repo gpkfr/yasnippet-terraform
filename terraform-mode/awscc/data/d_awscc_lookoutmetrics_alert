@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lookoutmetrics_alert
+# key: d_awscc_lookoutmetrics_alert
+# --
+
+data "awscc_lookoutmetrics_alert" "${1:this}" {
+    id = "${2:id}"
+}

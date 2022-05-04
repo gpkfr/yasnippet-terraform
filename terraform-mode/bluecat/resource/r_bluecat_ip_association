@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_ip_association
+# key: r_bluecat_ip_association
+# --
+
+resource "bluecat_ip_association" "${1:this}" {
+    ip4_address = "${2:ip4_address}"
+    mac_address = "${3:mac_address}"
+    name = "${4:name}"
+    network = "${5:network}"
+}

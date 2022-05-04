@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_dashboard
+# key: r_sumologic_dashboard
+# --
+
+resource "sumologic_dashboard" "${1:this}" {
+    title = "${2:title}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_metal_project_api_key
+# key: r_metal_project_api_key
+# --
+
+resource "metal_project_api_key" "${1:this}" {
+    description = "${2:description}"
+    project_id = "${3:project_id}"
+    read_only = "${4:read_only}"
+}

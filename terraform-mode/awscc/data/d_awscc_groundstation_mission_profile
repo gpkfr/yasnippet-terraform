@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_groundstation_mission_profile
+# key: d_awscc_groundstation_mission_profile
+# --
+
+data "awscc_groundstation_mission_profile" "${1:this}" {
+    id = "${2:id}"
+}

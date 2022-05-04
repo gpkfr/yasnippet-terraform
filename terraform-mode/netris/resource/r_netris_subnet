@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_netris_subnet
+# key: r_netris_subnet
+# --
+
+resource "netris_subnet" "${1:this}" {
+    name = "${2:name}"
+    prefix = "${3:prefix}"
+    purpose = "${4:purpose}"
+    tenantid = "${5:tenantid}"
+}

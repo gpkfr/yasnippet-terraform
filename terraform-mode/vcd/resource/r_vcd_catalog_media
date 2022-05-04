@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_catalog_media
+# key: r_vcd_catalog_media
+# --
+
+resource "vcd_catalog_media" "${1:this}" {
+    catalog = "${2:catalog}"
+    media_path = "${3:media_path}"
+    name = "${4:name}"
+}

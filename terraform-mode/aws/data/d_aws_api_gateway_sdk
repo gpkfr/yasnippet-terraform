@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_aws_api_gateway_sdk
+# key: d_aws_api_gateway_sdk
+# --
+
+data "aws_api_gateway_sdk" "${1:this}" {
+    rest_api_id = "${2:rest_api_id}"
+    sdk_type = "${3:sdk_type}"
+    stage_name = "${4:stage_name}"
+}

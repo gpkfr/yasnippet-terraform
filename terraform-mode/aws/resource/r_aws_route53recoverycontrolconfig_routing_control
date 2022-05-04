@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_route53recoverycontrolconfig_routing_control
+# key: r_aws_route53recoverycontrolconfig_routing_control
+# --
+
+resource "aws_route53recoverycontrolconfig_routing_control" "${1:this}" {
+    cluster_arn = "${2:cluster_arn}"
+    name = "${3:name}"
+}

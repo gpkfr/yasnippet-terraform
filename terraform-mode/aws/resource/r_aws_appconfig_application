@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_appconfig_application
+# key: r_aws_appconfig_application
+# --
+
+resource "aws_appconfig_application" "${1:this}" {
+    name = "${2:name}"
+}

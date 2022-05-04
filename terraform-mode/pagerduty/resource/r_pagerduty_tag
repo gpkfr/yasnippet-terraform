@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_tag
+# key: r_pagerduty_tag
+# --
+
+resource "pagerduty_tag" "${1:this}" {
+    label = "${2:label}"
+}

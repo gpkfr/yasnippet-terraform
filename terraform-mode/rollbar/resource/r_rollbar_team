@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_rollbar_team
+# key: r_rollbar_team
+# --
+
+resource "rollbar_team" "${1:this}" {
+    name = "${2:name}"
+}

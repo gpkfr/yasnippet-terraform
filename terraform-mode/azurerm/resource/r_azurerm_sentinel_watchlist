@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_sentinel_watchlist
+# key: r_azurerm_sentinel_watchlist
+# --
+
+resource "azurerm_sentinel_watchlist" "${1:this}" {
+    display_name = "${2:display_name}"
+    item_search_key = "${3:item_search_key}"
+    log_analytics_workspace_id = "${4:log_analytics_workspace_id}"
+    name = "${5:name}"
+}

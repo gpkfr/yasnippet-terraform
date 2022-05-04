@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gcore_cdn_resource
+# key: r_gcore_cdn_resource
+# --
+
+resource "gcore_cdn_resource" "${1:this}" {
+    cname = "${2:cname}"
+}

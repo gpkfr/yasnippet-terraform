@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationstorefrontauthaction
+# key: r_citrixadc_authenticationstorefrontauthaction
+# --
+
+resource "citrixadc_authenticationstorefrontauthaction" "${1:this}" {
+    name = "${2:name}"
+    serverurl = "${3:serverurl}"
+}

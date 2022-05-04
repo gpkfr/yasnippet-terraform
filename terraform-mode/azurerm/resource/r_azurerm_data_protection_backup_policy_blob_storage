@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_protection_backup_policy_blob_storage
+# key: r_azurerm_data_protection_backup_policy_blob_storage
+# --
+
+resource "azurerm_data_protection_backup_policy_blob_storage" "${1:this}" {
+    name = "${2:name}"
+    retention_duration = "${3:retention_duration}"
+    vault_id = "${4:vault_id}"
+}

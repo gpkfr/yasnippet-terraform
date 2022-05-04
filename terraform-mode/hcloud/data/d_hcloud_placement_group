@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_hcloud_placement_group
+# key: d_hcloud_placement_group
+# --
+
+data "hcloud_placement_group" "${1:this}" {
+}

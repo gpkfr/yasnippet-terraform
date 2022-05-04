@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_lex_bot_alias
+# key: r_awscc_lex_bot_alias
+# --
+
+resource "awscc_lex_bot_alias" "${1:this}" {
+    bot_alias_name = "${2:bot_alias_name}"
+    bot_id = "${3:bot_id}"
+}

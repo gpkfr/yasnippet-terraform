@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_firewall_multicastaddress
+# key: d_fortios_firewall_multicastaddress
+# --
+
+data "fortios_firewall_multicastaddress" "${1:this}" {
+    name = "${2:name}"
+}

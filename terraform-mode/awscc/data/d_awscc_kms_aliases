@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_kms_aliases
+# key: d_awscc_kms_aliases
+# --
+
+data "awscc_kms_aliases" "${1:this}" {
+}

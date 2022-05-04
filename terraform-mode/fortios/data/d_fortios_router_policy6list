@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_policy6list
+# key: d_fortios_router_policy6list
+# --
+
+data "fortios_router_policy6list" "${1:this}" {
+}

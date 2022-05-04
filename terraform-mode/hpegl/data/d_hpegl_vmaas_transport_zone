@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_hpegl_vmaas_transport_zone
+# key: d_hpegl_vmaas_transport_zone
+# --
+
+data "hpegl_vmaas_transport_zone" "${1:this}" {
+    name = "${2:name}"
+}

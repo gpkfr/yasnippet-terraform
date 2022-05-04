@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_sumologic_forwarder
+# key: r_aviatrix_sumologic_forwarder
+# --
+
+resource "aviatrix_sumologic_forwarder" "${1:this}" {
+    access_id = "${2:access_id}"
+    access_key = "${3:access_key}"
+}

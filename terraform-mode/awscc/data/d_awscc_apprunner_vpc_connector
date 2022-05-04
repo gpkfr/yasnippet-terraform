@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_apprunner_vpc_connector
+# key: d_awscc_apprunner_vpc_connector
+# --
+
+data "awscc_apprunner_vpc_connector" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_dynatrace_request_naming
+# key: r_dynatrace_request_naming
+# --
+
+resource "dynatrace_request_naming" "${1:this}" {
+    naming_pattern = "${2:naming_pattern}"
+}

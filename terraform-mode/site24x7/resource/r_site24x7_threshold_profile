@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_site24x7_threshold_profile
+# key: r_site24x7_threshold_profile
+# --
+
+resource "site24x7_threshold_profile" "${1:this}" {
+    profile_name = "${2:profile_name}"
+    type = "${3:type}"
+}

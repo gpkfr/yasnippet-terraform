@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_gcore_lbmember
+# key: r_gcore_lbmember
+# --
+
+resource "gcore_lbmember" "${1:this}" {
+    address = "${2:address}"
+    pool_id = "${3:pool_id}"
+    protocol_port = "${4:protocol_port}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_events_archive
+# key: r_awscc_events_archive
+# --
+
+resource "awscc_events_archive" "${1:this}" {
+    source_arn = "${2:source_arn}"
+}

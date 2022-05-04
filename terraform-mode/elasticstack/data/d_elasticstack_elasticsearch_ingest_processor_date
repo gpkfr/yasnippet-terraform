@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_date
+# key: d_elasticstack_elasticsearch_ingest_processor_date
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_date" "${1:this}" {
+    field = "${2:field}"
+    formats = "${3:formats}"
+}

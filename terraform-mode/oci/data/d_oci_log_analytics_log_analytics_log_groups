@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_log_analytics_log_analytics_log_groups
+# key: d_oci_log_analytics_log_analytics_log_groups
+# --
+
+data "oci_log_analytics_log_analytics_log_groups" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    namespace = "${3:namespace}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_netapp-gcp_kms_config
+# key: r_netapp-gcp_kms_config
+# --
+
+resource "netapp-gcp_kms_config" "${1:this}" {
+    key_name = "${2:key_name}"
+    key_ring_location = "${3:key_ring_location}"
+    key_ring_name = "${4:key_ring_name}"
+    network = "${5:network}"
+}

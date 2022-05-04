@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_polaris_gcp_project
+# key: r_polaris_gcp_project
+# --
+
+resource "polaris_gcp_project" "${1:this}" {
+}

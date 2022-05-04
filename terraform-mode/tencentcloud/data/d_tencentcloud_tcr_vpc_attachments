@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_tcr_vpc_attachments
+# key: d_tencentcloud_tcr_vpc_attachments
+# --
+
+data "tencentcloud_tcr_vpc_attachments" "${1:this}" {
+    instance_id = "${2:instance_id}"
+}

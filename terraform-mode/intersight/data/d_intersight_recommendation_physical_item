@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_recommendation_physical_item
+# key: d_intersight_recommendation_physical_item
+# --
+
+data "intersight_recommendation_physical_item" "${1:this}" {
+}

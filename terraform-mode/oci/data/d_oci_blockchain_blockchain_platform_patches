@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_blockchain_blockchain_platform_patches
+# key: d_oci_blockchain_blockchain_platform_patches
+# --
+
+data "oci_blockchain_blockchain_platform_patches" "${1:this}" {
+    blockchain_platform_id = "${2:blockchain_platform_id}"
+}

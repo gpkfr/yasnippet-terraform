@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_o_auth_token
+# key: d_intersight_iam_o_auth_token
+# --
+
+data "intersight_iam_o_auth_token" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_firewall_rules
+# key: r_upcloud_firewall_rules
+# --
+
+resource "upcloud_firewall_rules" "${1:this}" {
+    server_id = "${2:server_id}"
+}

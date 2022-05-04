@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationcertpolicy
+# key: r_citrixadc_authenticationcertpolicy
+# --
+
+resource "citrixadc_authenticationcertpolicy" "${1:this}" {
+    name = "${2:name}"
+    rule = "${3:rule}"
+}

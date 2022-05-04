@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_reputation_profile_action
+# key: r_akamai_appsec_reputation_profile_action
+# --
+
+resource "akamai_appsec_reputation_profile_action" "${1:this}" {
+    action = "${2:action}"
+    config_id = "${3:config_id}"
+    reputation_profile_id = "${4:reputation_profile_id}"
+    security_policy_id = "${5:security_policy_id}"
+    version = "${6:version}"
+}

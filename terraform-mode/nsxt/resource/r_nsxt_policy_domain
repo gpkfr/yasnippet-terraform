@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_nsxt_policy_domain
+# key: r_nsxt_policy_domain
+# --
+
+resource "nsxt_policy_domain" "${1:this}" {
+    display_name = "${2:display_name}"
+    sites = "${3:sites}"
+}

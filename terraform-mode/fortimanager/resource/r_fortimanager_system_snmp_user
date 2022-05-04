@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_snmp_user
+# key: r_fortimanager_system_snmp_user
+# --
+
+resource "fortimanager_system_snmp_user" "${1:this}" {
+}

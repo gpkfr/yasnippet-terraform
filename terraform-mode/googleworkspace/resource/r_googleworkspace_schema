@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_googleworkspace_schema
+# key: r_googleworkspace_schema
+# --
+
+resource "googleworkspace_schema" "${1:this}" {
+    schema_name = "${2:schema_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_system_npu_dswdtsprofile
+# key: r_fortimanager_object_system_npu_dswdtsprofile
+# --
+
+resource "fortimanager_object_system_npu_dswdtsprofile" "${1:this}" {
+}

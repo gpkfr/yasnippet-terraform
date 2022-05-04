@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_bios_boot_device
+# key: d_intersight_bios_boot_device
+# --
+
+data "intersight_bios_boot_device" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_certificatemanagement_policy
+# key: d_intersight_certificatemanagement_policy
+# --
+
+data "intersight_certificatemanagement_policy" "${1:this}" {
+}

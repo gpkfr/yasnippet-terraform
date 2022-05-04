@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_storage_drive_group
+# key: r_intersight_storage_drive_group
+# --
+
+resource "intersight_storage_drive_group" "${1:this}" {
+}

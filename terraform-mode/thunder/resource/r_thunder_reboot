@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_reboot
+# key: r_thunder_reboot
+# --
+
+resource "thunder_reboot" "${1:this}" {
+}

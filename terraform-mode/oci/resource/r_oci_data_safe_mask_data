@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_mask_data
+# key: r_oci_data_safe_mask_data
+# --
+
+resource "oci_data_safe_mask_data" "${1:this}" {
+    masking_policy_id = "${2:masking_policy_id}"
+    target_id = "${3:target_id}"
+}

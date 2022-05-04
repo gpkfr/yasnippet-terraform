@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_softwarerepository_category_support_constraint
+# key: d_intersight_softwarerepository_category_support_constraint
+# --
+
+data "intersight_softwarerepository_category_support_constraint" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_elasticstack_elasticsearch_index_template
+# key: r_elasticstack_elasticsearch_index_template
+# --
+
+resource "elasticstack_elasticsearch_index_template" "${1:this}" {
+    index_patterns = "${2:index_patterns}"
+    name = "${3:name}"
+}

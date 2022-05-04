@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_fwmsetting
+# key: r_fortianalyzer_fmupdate_fwmsetting
+# --
+
+resource "fortianalyzer_fmupdate_fwmsetting" "${1:this}" {
+}

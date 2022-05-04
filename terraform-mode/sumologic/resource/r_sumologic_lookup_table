@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_lookup_table
+# key: r_sumologic_lookup_table
+# --
+
+resource "sumologic_lookup_table" "${1:this}" {
+    description = "${2:description}"
+}

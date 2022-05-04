@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_bot_channel_sms
+# key: r_azurerm_bot_channel_sms
+# --
+
+resource "azurerm_bot_channel_sms" "${1:this}" {
+    bot_name = "${2:bot_name}"
+    location = "${3:location}"
+    phone_number = "${4:phone_number}"
+    resource_group_name = "${5:resource_group_name}"
+    sms_channel_account_security_id = "${6:sms_channel_account_security_id}"
+    sms_channel_auth_token = "${7:sms_channel_auth_token}"
+}

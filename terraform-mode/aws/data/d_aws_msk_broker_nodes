@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_msk_broker_nodes
+# key: d_aws_msk_broker_nodes
+# --
+
+data "aws_msk_broker_nodes" "${1:this}" {
+    cluster_arn = "${2:cluster_arn}"
+}

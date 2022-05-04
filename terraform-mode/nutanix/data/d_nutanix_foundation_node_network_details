@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_foundation_node_network_details
+# key: d_nutanix_foundation_node_network_details
+# --
+
+data "nutanix_foundation_node_network_details" "${1:this}" {
+    ipv6_addresses = "${2:ipv6_addresses}"
+}

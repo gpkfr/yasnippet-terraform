@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_marketplace_publication_packages
+# key: d_oci_marketplace_publication_packages
+# --
+
+data "oci_marketplace_publication_packages" "${1:this}" {
+    publication_id = "${2:publication_id}"
+}

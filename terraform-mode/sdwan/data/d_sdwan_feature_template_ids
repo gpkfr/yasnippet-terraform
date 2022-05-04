@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_sdwan_feature_template_ids
+# key: d_sdwan_feature_template_ids
+# --
+
+data "sdwan_feature_template_ids" "${1:this}" {
+    template_type = "${2:template_type}"
+}

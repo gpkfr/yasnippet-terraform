@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_gocache_ssl_certificate
+# key: r_gocache_ssl_certificate
+# --
+
+resource "gocache_ssl_certificate" "${1:this}" {
+    certificate = "${2:certificate}"
+    domain = "${3:domain}"
+    enabled = "${4:enabled}"
+    private_key = "${5:private_key}"
+}

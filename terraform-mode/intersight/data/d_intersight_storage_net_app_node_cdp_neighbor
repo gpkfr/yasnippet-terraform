@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_net_app_node_cdp_neighbor
+# key: d_intersight_storage_net_app_node_cdp_neighbor
+# --
+
+data "intersight_storage_net_app_node_cdp_neighbor" "${1:this}" {
+}

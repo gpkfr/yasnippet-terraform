@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_botprofile_captcha_binding
+# key: r_citrixadc_botprofile_captcha_binding
+# --
+
+resource "citrixadc_botprofile_captcha_binding" "${1:this}" {
+    bot_captcha_url = "${2:bot_captcha_url}"
+    name = "${3:name}"
+}

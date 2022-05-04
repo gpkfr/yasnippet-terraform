@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_keychain
+# key: d_fortios_router_keychain
+# --
+
+data "fortios_router_keychain" "${1:this}" {
+    name = "${2:name}"
+}

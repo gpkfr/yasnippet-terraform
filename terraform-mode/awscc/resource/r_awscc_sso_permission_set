@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sso_permission_set
+# key: r_awscc_sso_permission_set
+# --
+
+resource "awscc_sso_permission_set" "${1:this}" {
+    instance_arn = "${2:instance_arn}"
+    name = "${3:name}"
+}

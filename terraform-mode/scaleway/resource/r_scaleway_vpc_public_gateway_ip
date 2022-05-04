@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_vpc_public_gateway_ip
+# key: r_scaleway_vpc_public_gateway_ip
+# --
+
+resource "scaleway_vpc_public_gateway_ip" "${1:this}" {
+}

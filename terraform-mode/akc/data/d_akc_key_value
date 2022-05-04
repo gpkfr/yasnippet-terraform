@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_akc_key_value
+# key: d_akc_key_value
+# --
+
+data "akc_key_value" "${1:this}" {
+    endpoint = "${2:endpoint}"
+    key = "${3:key}"
+}

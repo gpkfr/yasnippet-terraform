@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_nsconfig_clear
+# key: r_citrixadc_nsconfig_clear
+# --
+
+resource "citrixadc_nsconfig_clear" "${1:this}" {
+    level = "${2:level}"
+    timestamp = "${3:timestamp}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotsitewise_portal
+# key: r_awscc_iotsitewise_portal
+# --
+
+resource "awscc_iotsitewise_portal" "${1:this}" {
+    portal_contact_email = "${2:portal_contact_email}"
+    portal_name = "${3:portal_name}"
+    role_arn = "${4:role_arn}"
+}

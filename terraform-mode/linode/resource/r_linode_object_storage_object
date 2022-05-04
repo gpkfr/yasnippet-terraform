@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_linode_object_storage_object
+# key: r_linode_object_storage_object
+# --
+
+resource "linode_object_storage_object" "${1:this}" {
+    access_key = "${2:access_key}"
+    bucket = "${3:bucket}"
+    cluster = "${4:cluster}"
+    key = "${5:key}"
+    secret_key = "${6:secret_key}"
+}

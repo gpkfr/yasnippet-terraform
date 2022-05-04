@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_hpegl_vmaas_router_route
+# key: r_hpegl_vmaas_router_route
+# --
+
+resource "hpegl_vmaas_router_route" "${1:this}" {
+    name = "${2:name}"
+    network = "${3:network}"
+    next_hop = "${4:next_hop}"
+    router_id = "${5:router_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloudfront_realtime_log_config
+# key: r_aws_cloudfront_realtime_log_config
+# --
+
+resource "aws_cloudfront_realtime_log_config" "${1:this}" {
+    fields = "${2:fields}"
+    name = "${3:name}"
+    sampling_rate = "${4:sampling_rate}"
+}

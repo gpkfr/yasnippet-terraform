@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_datadog_application_key
+# key: d_datadog_application_key
+# --
+
+data "datadog_application_key" "${1:this}" {
+}

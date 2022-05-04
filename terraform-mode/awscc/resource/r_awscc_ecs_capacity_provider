@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ecs_capacity_provider
+# key: r_awscc_ecs_capacity_provider
+# --
+
+resource "awscc_ecs_capacity_provider" "${1:this}" {
+    auto_scaling_group_provider = "${2:auto_scaling_group_provider}"
+}

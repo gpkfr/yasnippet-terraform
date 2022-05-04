@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_signer_signing_profiles
+# key: d_awscc_signer_signing_profiles
+# --
+
+data "awscc_signer_signing_profiles" "${1:this}" {
+}

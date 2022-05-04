@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_route_map
+# key: r_thunder_route_map
+# --
+
+resource "thunder_route_map" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_linode_stackscripts
+# key: d_linode_stackscripts
+# --
+
+data "linode_stackscripts" "${1:this}" {
+}

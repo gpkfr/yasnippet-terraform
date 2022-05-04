@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_apm_synthetics_monitor
+# key: d_oci_apm_synthetics_monitor
+# --
+
+data "oci_apm_synthetics_monitor" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+    monitor_id = "${3:monitor_id}"
+}

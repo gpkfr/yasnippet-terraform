@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_loadbalancer_backend
+# key: r_upcloud_loadbalancer_backend
+# --
+
+resource "upcloud_loadbalancer_backend" "${1:this}" {
+    loadbalancer = "${2:loadbalancer}"
+    name = "${3:name}"
+}

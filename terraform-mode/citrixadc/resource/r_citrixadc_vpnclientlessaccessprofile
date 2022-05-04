@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnclientlessaccessprofile
+# key: r_citrixadc_vpnclientlessaccessprofile
+# --
+
+resource "citrixadc_vpnclientlessaccessprofile" "${1:this}" {
+    profilename = "${2:profilename}"
+}

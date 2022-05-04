@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_cloudtamerio_aws_cloudformation_template
+# key: d_cloudtamerio_aws_cloudformation_template
+# --
+
+data "cloudtamerio_aws_cloudformation_template" "${1:this}" {
+}

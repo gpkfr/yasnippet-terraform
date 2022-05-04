@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_scaleway_object_bucket
+# key: d_scaleway_object_bucket
+# --
+
+data "scaleway_object_bucket" "${1:this}" {
+}

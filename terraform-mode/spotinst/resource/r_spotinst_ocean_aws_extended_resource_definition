@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_ocean_aws_extended_resource_definition
+# key: r_spotinst_ocean_aws_extended_resource_definition
+# --
+
+resource "spotinst_ocean_aws_extended_resource_definition" "${1:this}" {
+    name = "${2:name}"
+    resource_mapping = "${3:resource_mapping}"
+}

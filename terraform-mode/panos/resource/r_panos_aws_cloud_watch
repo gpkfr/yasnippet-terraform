@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_panos_aws_cloud_watch
+# key: r_panos_aws_cloud_watch
+# --
+
+resource "panos_aws_cloud_watch" "${1:this}" {
+}

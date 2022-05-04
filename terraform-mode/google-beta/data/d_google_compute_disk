@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_google_compute_disk
+# key: d_google_compute_disk
+# --
+
+data "google_compute_disk" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_port_mac_binding
+# key: d_intersight_port_mac_binding
+# --
+
+data "intersight_port_mac_binding" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_servicecatalog_constraint
+# key: d_aws_servicecatalog_constraint
+# --
+
+data "aws_servicecatalog_constraint" "${1:this}" {
+    id = "${2:id}"
+}

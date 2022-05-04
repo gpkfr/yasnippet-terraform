@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_dhcp_options
+# key: r_awscc_ec2_dhcp_options
+# --
+
+resource "awscc_ec2_dhcp_options" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_splunk_generic_acl
+# key: r_splunk_generic_acl
+# --
+
+resource "splunk_generic_acl" "${1:this}" {
+    path = "${2:path}"
+}

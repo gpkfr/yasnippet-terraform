@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_backup_vault_policy
+# key: r_aws_backup_vault_policy
+# --
+
+resource "aws_backup_vault_policy" "${1:this}" {
+    backup_vault_name = "${2:backup_vault_name}"
+    policy = "${3:policy}"
+}

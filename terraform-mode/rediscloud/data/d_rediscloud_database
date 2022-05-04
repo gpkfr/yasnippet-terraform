@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_rediscloud_database
+# key: d_rediscloud_database
+# --
+
+data "rediscloud_database" "${1:this}" {
+    subscription_id = "${2:subscription_id}"
+}

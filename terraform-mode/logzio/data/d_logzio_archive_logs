@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logzio_archive_logs
+# key: d_logzio_archive_logs
+# --
+
+data "logzio_archive_logs" "${1:this}" {
+}

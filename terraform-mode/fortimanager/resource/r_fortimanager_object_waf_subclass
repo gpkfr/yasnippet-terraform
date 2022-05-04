@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_waf_subclass
+# key: r_fortimanager_object_waf_subclass
+# --
+
+resource "fortimanager_object_waf_subclass" "${1:this}" {
+}

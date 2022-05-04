@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lambda_function
+# key: d_awscc_lambda_function
+# --
+
+data "awscc_lambda_function" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vcd_portgroup
+# key: d_vcd_portgroup
+# --
+
+data "vcd_portgroup" "${1:this}" {
+    name = "${2:name}"
+    type = "${3:type}"
+}

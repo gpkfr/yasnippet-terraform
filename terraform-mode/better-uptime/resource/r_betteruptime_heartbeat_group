@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_betteruptime_heartbeat_group
+# key: r_betteruptime_heartbeat_group
+# --
+
+resource "betteruptime_heartbeat_group" "${1:this}" {
+}

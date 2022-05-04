@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cognitive_account_customer_managed_key
+# key: r_azurerm_cognitive_account_customer_managed_key
+# --
+
+resource "azurerm_cognitive_account_customer_managed_key" "${1:this}" {
+    cognitive_account_id = "${2:cognitive_account_id}"
+    key_vault_key_id = "${3:key_vault_key_id}"
+}

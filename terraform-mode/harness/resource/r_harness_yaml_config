@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_harness_yaml_config
+# key: r_harness_yaml_config
+# --
+
+resource "harness_yaml_config" "${1:this}" {
+    content = "${2:content}"
+    path = "${3:path}"
+}

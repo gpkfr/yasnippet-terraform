@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_private_dns_record
+# key: r_tencentcloud_private_dns_record
+# --
+
+resource "tencentcloud_private_dns_record" "${1:this}" {
+    record_type = "${2:record_type}"
+    record_value = "${3:record_value}"
+    sub_domain = "${4:sub_domain}"
+    zone_id = "${5:zone_id}"
+}

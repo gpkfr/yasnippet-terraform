@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_kion_project_cloud_access_role
+# key: r_kion_project_cloud_access_role
+# --
+
+resource "kion_project_cloud_access_role" "${1:this}" {
+    aws_iam_role_name = "${2:aws_iam_role_name}"
+    name = "${3:name}"
+    project_id = "${4:project_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ciphertrust_azure_vault
+# key: r_ciphertrust_azure_vault
+# --
+
+resource "ciphertrust_azure_vault" "${1:this}" {
+    azure_connection = "${2:azure_connection}"
+    name = "${3:name}"
+    subscription_id = "${4:subscription_id}"
+}

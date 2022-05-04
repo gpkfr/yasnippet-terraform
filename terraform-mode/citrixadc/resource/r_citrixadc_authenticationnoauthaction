@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationnoauthaction
+# key: r_citrixadc_authenticationnoauthaction
+# --
+
+resource "citrixadc_authenticationnoauthaction" "${1:this}" {
+    name = "${2:name}"
+}

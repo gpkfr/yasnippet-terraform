@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_buddy_project
+# key: r_buddy_project
+# --
+
+resource "buddy_project" "${1:this}" {
+    display_name = "${2:display_name}"
+    domain = "${3:domain}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_kms_vault_replication
+# key: r_oci_kms_vault_replication
+# --
+
+resource "oci_kms_vault_replication" "${1:this}" {
+    replica_region = "${2:replica_region}"
+    vault_id = "${3:vault_id}"
+}

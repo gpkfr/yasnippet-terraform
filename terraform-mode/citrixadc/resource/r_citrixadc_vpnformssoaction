@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnformssoaction
+# key: r_citrixadc_vpnformssoaction
+# --
+
+resource "citrixadc_vpnformssoaction" "${1:this}" {
+    actionurl = "${2:actionurl}"
+    name = "${3:name}"
+    passwdfield = "${4:passwdfield}"
+    ssosuccessrule = "${5:ssosuccessrule}"
+    userfield = "${6:userfield}"
+}

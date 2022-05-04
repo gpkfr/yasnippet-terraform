@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_macie2_account
+# key: r_aws_macie2_account
+# --
+
+resource "aws_macie2_account" "${1:this}" {
+}

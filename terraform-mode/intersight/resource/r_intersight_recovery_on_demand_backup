@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_recovery_on_demand_backup
+# key: r_intersight_recovery_on_demand_backup
+# --
+
+resource "intersight_recovery_on_demand_backup" "${1:this}" {
+}

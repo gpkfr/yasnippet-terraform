@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_vpnvserver
+# key: r_citrixadc_vpnvserver
+# --
+
+resource "citrixadc_vpnvserver" "${1:this}" {
+    name = "${2:name}"
+    servicetype = "${3:servicetype}"
+}

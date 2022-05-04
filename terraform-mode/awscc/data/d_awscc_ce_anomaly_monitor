@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ce_anomaly_monitor
+# key: d_awscc_ce_anomaly_monitor
+# --
+
+data "awscc_ce_anomaly_monitor" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_upcloud_loadbalancer_dynamic_certificate_bundle
+# key: r_upcloud_loadbalancer_dynamic_certificate_bundle
+# --
+
+resource "upcloud_loadbalancer_dynamic_certificate_bundle" "${1:this}" {
+    hostnames = "${2:hostnames}"
+    key_type = "${3:key_type}"
+    name = "${4:name}"
+}

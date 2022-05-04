@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_systemreplacemsg_automation
+# key: r_fortios_systemreplacemsg_automation
+# --
+
+resource "fortios_systemreplacemsg_automation" "${1:this}" {
+}

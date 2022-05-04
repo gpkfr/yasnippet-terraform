@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_trafficcloneprofile
+# key: r_avi_trafficcloneprofile
+# --
+
+resource "avi_trafficcloneprofile" "${1:this}" {
+    name = "${2:name}"
+}

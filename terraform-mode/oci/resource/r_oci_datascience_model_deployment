@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_datascience_model_deployment
+# key: r_oci_datascience_model_deployment
+# --
+
+resource "oci_datascience_model_deployment" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    project_id = "${3:project_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53recoveryreadiness_resource_sets
+# key: d_awscc_route53recoveryreadiness_resource_sets
+# --
+
+data "awscc_route53recoveryreadiness_resource_sets" "${1:this}" {
+}

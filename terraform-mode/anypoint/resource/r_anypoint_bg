@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_anypoint_bg
+# key: r_anypoint_bg
+# --
+
+resource "anypoint_bg" "${1:this}" {
+    name = "${2:name}"
+    owner_id = "${3:owner_id}"
+    parent_organization_id = "${4:parent_organization_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_list_user_grants
+# key: d_oci_data_safe_list_user_grants
+# --
+
+data "oci_data_safe_list_user_grants" "${1:this}" {
+    user_assessment_id = "${2:user_assessment_id}"
+    user_key = "${3:user_key}"
+}

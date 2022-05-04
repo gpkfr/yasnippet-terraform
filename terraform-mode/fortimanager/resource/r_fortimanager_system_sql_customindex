@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_sql_customindex
+# key: r_fortimanager_system_sql_customindex
+# --
+
+resource "fortimanager_system_sql_customindex" "${1:this}" {
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_digital_twins_endpoint_eventgrid
+# key: r_azurerm_digital_twins_endpoint_eventgrid
+# --
+
+resource "azurerm_digital_twins_endpoint_eventgrid" "${1:this}" {
+    digital_twins_id = "${2:digital_twins_id}"
+    eventgrid_topic_endpoint = "${3:eventgrid_topic_endpoint}"
+    eventgrid_topic_primary_access_key = "${4:eventgrid_topic_primary_access_key}"
+    eventgrid_topic_secondary_access_key = "${5:eventgrid_topic_secondary_access_key}"
+    name = "${6:name}"
+}

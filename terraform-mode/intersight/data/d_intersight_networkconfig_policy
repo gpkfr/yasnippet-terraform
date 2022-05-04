@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_networkconfig_policy
+# key: d_intersight_networkconfig_policy
+# --
+
+data "intersight_networkconfig_policy" "${1:this}" {
+}

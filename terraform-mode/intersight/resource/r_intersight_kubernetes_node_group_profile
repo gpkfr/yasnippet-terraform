@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_kubernetes_node_group_profile
+# key: r_intersight_kubernetes_node_group_profile
+# --
+
+resource "intersight_kubernetes_node_group_profile" "${1:this}" {
+}

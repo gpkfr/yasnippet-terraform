@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_sync_cloud_endpoint
+# key: r_azurerm_storage_sync_cloud_endpoint
+# --
+
+resource "azurerm_storage_sync_cloud_endpoint" "${1:this}" {
+    file_share_name = "${2:file_share_name}"
+    name = "${3:name}"
+    storage_account_id = "${4:storage_account_id}"
+    storage_sync_group_id = "${5:storage_sync_group_id}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ovh_domain_zone
+# key: r_ovh_domain_zone
+# --
+
+resource "ovh_domain_zone" "${1:this}" {
+    ovh_subsidiary = "${2:ovh_subsidiary}"
+    payment_mean = "${3:payment_mean}"
+}

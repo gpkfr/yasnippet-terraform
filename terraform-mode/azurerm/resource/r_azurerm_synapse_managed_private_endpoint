@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_synapse_managed_private_endpoint
+# key: r_azurerm_synapse_managed_private_endpoint
+# --
+
+resource "azurerm_synapse_managed_private_endpoint" "${1:this}" {
+    name = "${2:name}"
+    subresource_name = "${3:subresource_name}"
+    synapse_workspace_id = "${4:synapse_workspace_id}"
+    target_resource_id = "${5:target_resource_id}"
+}

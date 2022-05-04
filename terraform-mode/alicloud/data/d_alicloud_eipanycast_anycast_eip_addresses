@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_eipanycast_anycast_eip_addresses
+# key: d_alicloud_eipanycast_anycast_eip_addresses
+# --
+
+data "alicloud_eipanycast_anycast_eip_addresses" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_responderhtmlpage
+# key: r_citrixadc_responderhtmlpage
+# --
+
+resource "citrixadc_responderhtmlpage" "${1:this}" {
+    name = "${2:name}"
+}

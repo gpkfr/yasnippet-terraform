@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_nks_cluster
+# key: d_ncloud_nks_cluster
+# --
+
+data "ncloud_nks_cluster" "${1:this}" {
+    uuid = "${2:uuid}"
+}

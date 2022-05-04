@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_mongodbatlas_ldap_verify
+# key: d_mongodbatlas_ldap_verify
+# --
+
+data "mongodbatlas_ldap_verify" "${1:this}" {
+    project_id = "${2:project_id}"
+    request_id = "${3:request_id}"
+}

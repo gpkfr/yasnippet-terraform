@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_memory_persistent_memory_policy
+# key: r_intersight_memory_persistent_memory_policy
+# --
+
+resource "intersight_memory_persistent_memory_policy" "${1:this}" {
+}

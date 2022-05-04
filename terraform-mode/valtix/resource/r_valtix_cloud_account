@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_valtix_cloud_account
+# key: r_valtix_cloud_account
+# --
+
+resource "valtix_cloud_account" "${1:this}" {
+    csp_type = "${2:csp_type}"
+    name = "${3:name}"
+}

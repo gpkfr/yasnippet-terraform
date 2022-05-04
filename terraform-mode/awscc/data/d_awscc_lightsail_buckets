@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lightsail_buckets
+# key: d_awscc_lightsail_buckets
+# --
+
+data "awscc_lightsail_buckets" "${1:this}" {
+}

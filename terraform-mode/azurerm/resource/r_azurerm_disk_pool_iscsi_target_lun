@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_disk_pool_iscsi_target_lun
+# key: r_azurerm_disk_pool_iscsi_target_lun
+# --
+
+resource "azurerm_disk_pool_iscsi_target_lun" "${1:this}" {
+    disk_pool_managed_disk_attachment_id = "${2:disk_pool_managed_disk_attachment_id}"
+    iscsi_target_id = "${3:iscsi_target_id}"
+    name = "${4:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_terminal_audit_log
+# key: d_intersight_terminal_audit_log
+# --
+
+data "intersight_terminal_audit_log" "${1:this}" {
+}

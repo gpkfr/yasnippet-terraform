@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortios_wirelesscontroller_log
+# key: r_fortios_wirelesscontroller_log
+# --
+
+resource "fortios_wirelesscontroller_log" "${1:this}" {
+}

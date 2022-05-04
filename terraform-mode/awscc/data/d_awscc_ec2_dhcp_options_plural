@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_ec2_dhcp_options_plural
+# key: d_awscc_ec2_dhcp_options_plural
+# --
+
+data "awscc_ec2_dhcp_options_plural" "${1:this}" {
+}

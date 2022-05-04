@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_signer_signing_job
+# key: r_aws_signer_signing_job
+# --
+
+resource "aws_signer_signing_job" "${1:this}" {
+    profile_name = "${2:profile_name}"
+}

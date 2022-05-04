@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_googleworkspace_org_unit
+# key: d_googleworkspace_org_unit
+# --
+
+data "googleworkspace_org_unit" "${1:this}" {
+}

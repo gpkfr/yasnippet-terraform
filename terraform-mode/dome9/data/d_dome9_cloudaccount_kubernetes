@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_dome9_cloudaccount_kubernetes
+# key: d_dome9_cloudaccount_kubernetes
+# --
+
+data "dome9_cloudaccount_kubernetes" "${1:this}" {
+    id = "${2:id}"
+}

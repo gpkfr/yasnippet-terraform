@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_lb_app_profile
+# key: r_vcd_lb_app_profile
+# --
+
+resource "vcd_lb_app_profile" "${1:this}" {
+    edge_gateway = "${2:edge_gateway}"
+    name = "${3:name}"
+    type = "${4:type}"
+}

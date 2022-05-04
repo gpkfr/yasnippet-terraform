@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_hcloud_firewall
+# key: r_hcloud_firewall
+# --
+
+resource "hcloud_firewall" "${1:this}" {
+    name = "${2:name}"
+}

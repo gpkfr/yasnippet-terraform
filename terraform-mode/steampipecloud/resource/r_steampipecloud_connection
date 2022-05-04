@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_steampipecloud_connection
+# key: r_steampipecloud_connection
+# --
+
+resource "steampipecloud_connection" "${1:this}" {
+    handle = "${2:handle}"
+    plugin = "${3:plugin}"
+}

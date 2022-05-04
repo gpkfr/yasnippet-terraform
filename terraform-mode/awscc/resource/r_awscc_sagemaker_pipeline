@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_sagemaker_pipeline
+# key: r_awscc_sagemaker_pipeline
+# --
+
+resource "awscc_sagemaker_pipeline" "${1:this}" {
+    pipeline_definition = "${2:pipeline_definition}"
+    pipeline_name = "${3:pipeline_name}"
+    role_arn = "${4:role_arn}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_ip_lists
+# key: d_illumio-core_ip_lists
+# --
+
+data "illumio-core_ip_lists" "${1:this}" {
+}

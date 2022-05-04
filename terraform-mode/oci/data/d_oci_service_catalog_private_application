@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_service_catalog_private_application
+# key: d_oci_service_catalog_private_application
+# --
+
+data "oci_service_catalog_private_application" "${1:this}" {
+    private_application_id = "${2:private_application_id}"
+}

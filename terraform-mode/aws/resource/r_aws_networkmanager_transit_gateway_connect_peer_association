@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_networkmanager_transit_gateway_connect_peer_association
+# key: r_aws_networkmanager_transit_gateway_connect_peer_association
+# --
+
+resource "aws_networkmanager_transit_gateway_connect_peer_association" "${1:this}" {
+    device_id = "${2:device_id}"
+    global_network_id = "${3:global_network_id}"
+    transit_gateway_connect_peer_arn = "${4:transit_gateway_connect_peer_arn}"
+}

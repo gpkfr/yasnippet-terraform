@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_access_keys_configuration
+# key: r_cloudflare_access_keys_configuration
+# --
+
+resource "cloudflare_access_keys_configuration" "${1:this}" {
+    account_id = "${2:account_id}"
+}

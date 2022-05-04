@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_shoreline_bot
+# key: r_shoreline_bot
+# --
+
+resource "shoreline_bot" "${1:this}" {
+    command = "${2:command}"
+    name = "${3:name}"
+}

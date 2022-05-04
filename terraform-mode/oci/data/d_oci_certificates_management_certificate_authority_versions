@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_certificates_management_certificate_authority_versions
+# key: d_oci_certificates_management_certificate_authority_versions
+# --
+
+data "oci_certificates_management_certificate_authority_versions" "${1:this}" {
+    certificate_authority_id = "${2:certificate_authority_id}"
+}

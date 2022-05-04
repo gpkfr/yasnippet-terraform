@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_organization_organization
+# key: d_intersight_organization_organization
+# --
+
+data "intersight_organization_organization" "${1:this}" {
+}

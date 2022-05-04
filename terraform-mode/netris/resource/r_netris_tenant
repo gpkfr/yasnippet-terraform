@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_netris_tenant
+# key: r_netris_tenant
+# --
+
+resource "netris_tenant" "${1:this}" {
+    name = "${2:name}"
+}

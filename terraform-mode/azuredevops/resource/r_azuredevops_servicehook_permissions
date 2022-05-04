@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_servicehook_permissions
+# key: r_azuredevops_servicehook_permissions
+# --
+
+resource "azuredevops_servicehook_permissions" "${1:this}" {
+    permissions = "${2:permissions}"
+    principal = "${3:principal}"
+}

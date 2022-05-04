@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_quicksight_theme
+# key: r_awscc_quicksight_theme
+# --
+
+resource "awscc_quicksight_theme" "${1:this}" {
+    aws_account_id = "${2:aws_account_id}"
+    theme_id = "${3:theme_id}"
+}

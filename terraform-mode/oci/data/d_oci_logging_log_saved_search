@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_logging_log_saved_search
+# key: d_oci_logging_log_saved_search
+# --
+
+data "oci_logging_log_saved_search" "${1:this}" {
+    log_saved_search_id = "${2:log_saved_search_id}"
+}

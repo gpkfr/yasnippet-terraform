@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_datascience_model_deployment
+# key: d_oci_datascience_model_deployment
+# --
+
+data "oci_datascience_model_deployment" "${1:this}" {
+    model_deployment_id = "${2:model_deployment_id}"
+}

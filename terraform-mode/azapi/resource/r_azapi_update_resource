@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azapi_update_resource
+# key: r_azapi_update_resource
+# --
+
+resource "azapi_update_resource" "${1:this}" {
+    type = "${2:type}"
+}

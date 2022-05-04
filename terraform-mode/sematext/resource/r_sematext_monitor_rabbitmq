@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_sematext_monitor_rabbitmq
+# key: r_sematext_monitor_rabbitmq
+# --
+
+resource "sematext_monitor_rabbitmq" "${1:this}" {
+    billing_plan_id = "${2:billing_plan_id}"
+    name = "${3:name}"
+}

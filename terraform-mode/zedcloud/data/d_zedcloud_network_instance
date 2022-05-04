@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_zedcloud_network_instance
+# key: d_zedcloud_network_instance
+# --
+
+data "zedcloud_network_instance" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_databrew_dataset
+# key: d_awscc_databrew_dataset
+# --
+
+data "awscc_databrew_dataset" "${1:this}" {
+    id = "${2:id}"
+}

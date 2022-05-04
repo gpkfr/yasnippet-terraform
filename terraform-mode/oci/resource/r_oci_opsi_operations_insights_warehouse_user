@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_oci_opsi_operations_insights_warehouse_user
+# key: r_oci_opsi_operations_insights_warehouse_user
+# --
+
+resource "oci_opsi_operations_insights_warehouse_user" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    connection_password = "${3:connection_password}"
+    is_awr_data_access = "${4:is_awr_data_access}"
+    name = "${5:name}"
+    operations_insights_warehouse_id = "${6:operations_insights_warehouse_id}"
+}

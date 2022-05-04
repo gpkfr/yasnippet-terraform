@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_servicecatalog_portfolio_share
+# key: r_aws_servicecatalog_portfolio_share
+# --
+
+resource "aws_servicecatalog_portfolio_share" "${1:this}" {
+    portfolio_id = "${2:portfolio_id}"
+    principal_id = "${3:principal_id}"
+    type = "${4:type}"
+}

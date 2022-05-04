@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_dcnm_interface
+# key: r_dcnm_interface
+# --
+
+resource "dcnm_interface" "${1:this}" {
+    fabric_name = "${2:fabric_name}"
+    name = "${3:name}"
+    policy = "${4:policy}"
+    switch_name_1 = "${5:switch_name_1}"
+    type = "${6:type}"
+}

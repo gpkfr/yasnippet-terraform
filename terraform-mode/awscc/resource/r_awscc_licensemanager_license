@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_awscc_licensemanager_license
+# key: r_awscc_licensemanager_license
+# --
+
+resource "awscc_licensemanager_license" "${1:this}" {
+    consumption_configuration = "${2:consumption_configuration}"
+    entitlements = "${3:entitlements}"
+    home_region = "${4:home_region}"
+    issuer = "${5:issuer}"
+    license_name = "${6:license_name}"
+    product_name = "${7:product_name}"
+    validity = "${8:validity}"
+}

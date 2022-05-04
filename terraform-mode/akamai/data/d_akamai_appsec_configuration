@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_akamai_appsec_configuration
+# key: d_akamai_appsec_configuration
+# --
+
+data "akamai_appsec_configuration" "${1:this}" {
+}

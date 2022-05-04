@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_datasync_location_smbs
+# key: d_awscc_datasync_location_smbs
+# --
+
+data "awscc_datasync_location_smbs" "${1:this}" {
+}

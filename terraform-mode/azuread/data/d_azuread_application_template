@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_azuread_application_template
+# key: d_azuread_application_template
+# --
+
+data "azuread_application_template" "${1:this}" {
+}

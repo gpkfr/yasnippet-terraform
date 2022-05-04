@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fic_eri_router_paired_to_gcp_connection_v1
+# key: r_fic_eri_router_paired_to_gcp_connection_v1
+# --
+
+resource "fic_eri_router_paired_to_gcp_connection_v1" "${1:this}" {
+    bandwidth = "${2:bandwidth}"
+    name = "${3:name}"
+}

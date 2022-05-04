@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_route
+# key: r_fortianalyzer_system_route
+# --
+
+resource "fortianalyzer_system_route" "${1:this}" {
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_vpc_public_gateway_pat_rule
+# key: r_scaleway_vpc_public_gateway_pat_rule
+# --
+
+resource "scaleway_vpc_public_gateway_pat_rule" "${1:this}" {
+    gateway_id = "${2:gateway_id}"
+    private_ip = "${3:private_ip}"
+    private_port = "${4:private_port}"
+    public_port = "${5:public_port}"
+}

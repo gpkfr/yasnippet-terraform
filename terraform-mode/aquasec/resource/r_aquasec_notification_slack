@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_notification_slack
+# key: r_aquasec_notification_slack
+# --
+
+resource "aquasec_notification_slack" "${1:this}" {
+    channel = "${2:channel}"
+    enabled = "${3:enabled}"
+    type = "${4:type}"
+    user_name = "${5:user_name}"
+    webhook_url = "${6:webhook_url}"
+}

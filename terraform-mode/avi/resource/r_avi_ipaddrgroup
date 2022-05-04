@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_ipaddrgroup
+# key: r_avi_ipaddrgroup
+# --
+
+resource "avi_ipaddrgroup" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_vcd_network_isolated_v2
+# key: r_vcd_network_isolated_v2
+# --
+
+resource "vcd_network_isolated_v2" "${1:this}" {
+    gateway = "${2:gateway}"
+    name = "${3:name}"
+    prefix_length = "${4:prefix_length}"
+}

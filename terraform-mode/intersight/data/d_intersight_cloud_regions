@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_cloud_regions
+# key: d_intersight_cloud_regions
+# --
+
+data "intersight_cloud_regions" "${1:this}" {
+}

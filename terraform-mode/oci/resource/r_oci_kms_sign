@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_kms_sign
+# key: r_oci_kms_sign
+# --
+
+resource "oci_kms_sign" "${1:this}" {
+    crypto_endpoint = "${2:crypto_endpoint}"
+    key_id = "${3:key_id}"
+    message = "${4:message}"
+    signing_algorithm = "${5:signing_algorithm}"
+}

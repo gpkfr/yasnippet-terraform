@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_datadog_integration_slack_channel
+# key: r_datadog_integration_slack_channel
+# --
+
+resource "datadog_integration_slack_channel" "${1:this}" {
+    account_name = "${2:account_name}"
+    channel_name = "${3:channel_name}"
+}

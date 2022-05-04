@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ecl_dedicated_hypervisor_license_v1
+# key: r_ecl_dedicated_hypervisor_license_v1
+# --
+
+resource "ecl_dedicated_hypervisor_license_v1" "${1:this}" {
+    license_type = "${2:license_type}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_tcr_namespaces
+# key: d_tencentcloud_tcr_namespaces
+# --
+
+data "tencentcloud_tcr_namespaces" "${1:this}" {
+    instance_id = "${2:instance_id}"
+}

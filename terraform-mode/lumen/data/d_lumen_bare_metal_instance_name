@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_lumen_bare_metal_instance_name
+# key: d_lumen_bare_metal_instance_name
+# --
+
+data "lumen_bare_metal_instance_name" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_capability_chassis_manufacturing_def
+# key: d_intersight_capability_chassis_manufacturing_def
+# --
+
+data "intersight_capability_chassis_manufacturing_def" "${1:this}" {
+}

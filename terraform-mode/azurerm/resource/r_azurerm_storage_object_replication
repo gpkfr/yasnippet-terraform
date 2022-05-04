@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_storage_object_replication
+# key: r_azurerm_storage_object_replication
+# --
+
+resource "azurerm_storage_object_replication" "${1:this}" {
+    destination_storage_account_id = "${2:destination_storage_account_id}"
+    source_storage_account_id = "${3:source_storage_account_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_admin_radius
+# key: r_fortimanager_system_admin_radius
+# --
+
+resource "fortimanager_system_admin_radius" "${1:this}" {
+}

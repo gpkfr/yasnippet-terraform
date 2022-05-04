@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_data_factory_linked_service_kusto
+# key: r_azurerm_data_factory_linked_service_kusto
+# --
+
+resource "azurerm_data_factory_linked_service_kusto" "${1:this}" {
+    data_factory_id = "${2:data_factory_id}"
+    kusto_database_name = "${3:kusto_database_name}"
+    kusto_endpoint = "${4:kusto_endpoint}"
+    name = "${5:name}"
+}

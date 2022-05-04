@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_qldb_stream
+# key: r_aws_qldb_stream
+# --
+
+resource "aws_qldb_stream" "${1:this}" {
+    inclusive_start_time = "${2:inclusive_start_time}"
+    ledger_name = "${3:ledger_name}"
+    role_arn = "${4:role_arn}"
+    stream_name = "${5:stream_name}"
+}

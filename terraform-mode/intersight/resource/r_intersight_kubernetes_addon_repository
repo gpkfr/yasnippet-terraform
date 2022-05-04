@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_kubernetes_addon_repository
+# key: r_intersight_kubernetes_addon_repository
+# --
+
+resource "intersight_kubernetes_addon_repository" "${1:this}" {
+}

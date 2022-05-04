@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_datascience_job_run
+# key: d_oci_datascience_job_run
+# --
+
+data "oci_datascience_job_run" "${1:this}" {
+    job_run_id = "${2:job_run_id}"
+}

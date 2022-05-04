@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_buddy_project_group
+# key: r_buddy_project_group
+# --
+
+resource "buddy_project_group" "${1:this}" {
+    domain = "${2:domain}"
+    group_id = "${3:group_id}"
+    permission_id = "${4:permission_id}"
+    project_name = "${5:project_name}"
+}

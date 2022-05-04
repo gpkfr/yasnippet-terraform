@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_disk_pool_managed_disk_attachment
+# key: r_azurerm_disk_pool_managed_disk_attachment
+# --
+
+resource "azurerm_disk_pool_managed_disk_attachment" "${1:this}" {
+    disk_pool_id = "${2:disk_pool_id}"
+    managed_disk_id = "${3:managed_disk_id}"
+}

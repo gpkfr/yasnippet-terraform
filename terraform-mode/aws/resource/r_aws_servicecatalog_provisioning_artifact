@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_servicecatalog_provisioning_artifact
+# key: r_aws_servicecatalog_provisioning_artifact
+# --
+
+resource "aws_servicecatalog_provisioning_artifact" "${1:this}" {
+    product_id = "${2:product_id}"
+}

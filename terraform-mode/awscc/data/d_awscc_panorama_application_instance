@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_panorama_application_instance
+# key: d_awscc_panorama_application_instance
+# --
+
+data "awscc_panorama_application_instance" "${1:this}" {
+    id = "${2:id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_packages_global_footer_shapingpolicy
+# key: r_fortimanager_packages_global_footer_shapingpolicy
+# --
+
+resource "fortimanager_packages_global_footer_shapingpolicy" "${1:this}" {
+    pkg = "${2:pkg}"
+}

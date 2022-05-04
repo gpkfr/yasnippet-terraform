@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_lbmonitor
+# key: r_citrixadc_lbmonitor
+# --
+
+resource "citrixadc_lbmonitor" "${1:this}" {
+}

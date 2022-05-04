@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_opsi_exadata_insight
+# key: d_oci_opsi_exadata_insight
+# --
+
+data "oci_opsi_exadata_insight" "${1:this}" {
+    exadata_insight_id = "${2:exadata_insight_id}"
+}

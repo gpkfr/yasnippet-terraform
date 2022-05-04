@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_configcat_segment
+# key: r_configcat_segment
+# --
+
+resource "configcat_segment" "${1:this}" {
+    comparator = "${2:comparator}"
+    comparison_attribute = "${3:comparison_attribute}"
+    comparison_value = "${4:comparison_value}"
+    name = "${5:name}"
+    product_id = "${6:product_id}"
+}

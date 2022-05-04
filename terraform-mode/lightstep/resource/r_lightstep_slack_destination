@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lightstep_slack_destination
+# key: r_lightstep_slack_destination
+# --
+
+resource "lightstep_slack_destination" "${1:this}" {
+    channel = "${2:channel}"
+    project_name = "${3:project_name}"
+}

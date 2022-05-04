@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_ionoscloud_nic
+# key: r_ionoscloud_nic
+# --
+
+resource "ionoscloud_nic" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    lan = "${3:lan}"
+    server_id = "${4:server_id}"
+}

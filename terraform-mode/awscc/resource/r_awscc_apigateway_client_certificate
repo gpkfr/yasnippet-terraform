@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_apigateway_client_certificate
+# key: r_awscc_apigateway_client_certificate
+# --
+
+resource "awscc_apigateway_client_certificate" "${1:this}" {
+}

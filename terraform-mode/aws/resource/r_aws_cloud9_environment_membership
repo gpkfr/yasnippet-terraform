@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_cloud9_environment_membership
+# key: r_aws_cloud9_environment_membership
+# --
+
+resource "aws_cloud9_environment_membership" "${1:this}" {
+    environment_id = "${2:environment_id}"
+    permissions = "${3:permissions}"
+    user_arn = "${4:user_arn}"
+}

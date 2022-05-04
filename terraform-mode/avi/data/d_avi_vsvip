@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_vsvip
+# key: d_avi_vsvip
+# --
+
+data "avi_vsvip" "${1:this}" {
+}

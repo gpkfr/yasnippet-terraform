@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_logzio_alert
+# key: r_logzio_alert
+# --
+
+resource "logzio_alert" "${1:this}" {
+    alert_notification_endpoints = "${2:alert_notification_endpoints}"
+    notification_emails = "${3:notification_emails}"
+    query_string = "${4:query_string}"
+    search_timeframe_minutes = "${5:search_timeframe_minutes}"
+    title = "${6:title}"
+    value_aggregation_type = "${7:value_aggregation_type}"
+}

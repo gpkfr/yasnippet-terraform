@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_eval_rule_action
+# key: r_akamai_appsec_eval_rule_action
+# --
+
+resource "akamai_appsec_eval_rule_action" "${1:this}" {
+    config_id = "${2:config_id}"
+    rule_action = "${3:rule_action}"
+    rule_id = "${4:rule_id}"
+    security_policy_id = "${5:security_policy_id}"
+    version = "${6:version}"
+}

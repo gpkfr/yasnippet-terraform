@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_valtix_profile_dlp
+# key: r_valtix_profile_dlp
+# --
+
+resource "valtix_profile_dlp" "${1:this}" {
+    name = "${2:name}"
+}

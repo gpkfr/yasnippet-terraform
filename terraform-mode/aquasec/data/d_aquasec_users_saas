@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aquasec_users_saas
+# key: d_aquasec_users_saas
+# --
+
+data "aquasec_users_saas" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_outscale_flexible_gpu_link
+# key: r_outscale_flexible_gpu_link
+# --
+
+resource "outscale_flexible_gpu_link" "${1:this}" {
+    flexible_gpu_id = "${2:flexible_gpu_id}"
+    vm_id = "${3:vm_id}"
+}

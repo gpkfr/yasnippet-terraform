@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_profitbricks_firewall
+# key: r_profitbricks_firewall
+# --
+
+resource "profitbricks_firewall" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    nic_id = "${3:nic_id}"
+    protocol = "${4:protocol}"
+    server_id = "${5:server_id}"
+}

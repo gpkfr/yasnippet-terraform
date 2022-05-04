@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudformation_publisher
+# key: r_awscc_cloudformation_publisher
+# --
+
+resource "awscc_cloudformation_publisher" "${1:this}" {
+    accept_terms_and_conditions = "${2:accept_terms_and_conditions}"
+}

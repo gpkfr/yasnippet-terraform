@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_sagemaker_model_package_groups
+# key: d_awscc_sagemaker_model_package_groups
+# --
+
+data "awscc_sagemaker_model_package_groups" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_lambda_code_signing_config
+# key: r_aws_lambda_code_signing_config
+# --
+
+resource "aws_lambda_code_signing_config" "${1:this}" {
+}

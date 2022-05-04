@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_asset_device_contract_notification
+# key: r_intersight_asset_device_contract_notification
+# --
+
+resource "intersight_asset_device_contract_notification" "${1:this}" {
+}

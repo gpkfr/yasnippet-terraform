@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iot_provisioning_template
+# key: r_awscc_iot_provisioning_template
+# --
+
+resource "awscc_iot_provisioning_template" "${1:this}" {
+    provisioning_role_arn = "${2:provisioning_role_arn}"
+    template_body = "${3:template_body}"
+}

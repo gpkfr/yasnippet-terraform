@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_vra_storage_profile_aws
+# key: d_vra_storage_profile_aws
+# --
+
+data "vra_storage_profile_aws" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_repository_policy_reserved_names
+# key: r_azuredevops_repository_policy_reserved_names
+# --
+
+resource "azuredevops_repository_policy_reserved_names" "${1:this}" {
+    project_id = "${2:project_id}"
+}

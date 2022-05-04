@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_harness_service
+# key: d_harness_service
+# --
+
+data "harness_service" "${1:this}" {
+    app_id = "${2:app_id}"
+    id = "${3:id}"
+}

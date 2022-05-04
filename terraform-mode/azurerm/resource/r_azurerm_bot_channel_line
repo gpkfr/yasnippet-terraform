@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_bot_channel_line
+# key: r_azurerm_bot_channel_line
+# --
+
+resource "azurerm_bot_channel_line" "${1:this}" {
+    bot_name = "${2:bot_name}"
+    location = "${3:location}"
+    resource_group_name = "${4:resource_group_name}"
+}

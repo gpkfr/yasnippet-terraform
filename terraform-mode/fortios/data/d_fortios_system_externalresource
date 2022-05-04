@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_externalresource
+# key: d_fortios_system_externalresource
+# --
+
+data "fortios_system_externalresource" "${1:this}" {
+    name = "${2:name}"
+}

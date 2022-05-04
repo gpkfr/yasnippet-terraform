@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_teams_rule
+# key: r_cloudflare_teams_rule
+# --
+
+resource "cloudflare_teams_rule" "${1:this}" {
+    account_id = "${2:account_id}"
+    action = "${3:action}"
+    description = "${4:description}"
+    name = "${5:name}"
+    precedence = "${6:precedence}"
+}

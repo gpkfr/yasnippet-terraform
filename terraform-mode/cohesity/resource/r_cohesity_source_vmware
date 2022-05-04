@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cohesity_source_vmware
+# key: r_cohesity_source_vmware
+# --
+
+resource "cohesity_source_vmware" "${1:this}" {
+    endpoint = "${2:endpoint}"
+    username = "${3:username}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_zone
+# key: d_fortios_system_zone
+# --
+
+data "fortios_system_zone" "${1:this}" {
+    name = "${2:name}"
+}

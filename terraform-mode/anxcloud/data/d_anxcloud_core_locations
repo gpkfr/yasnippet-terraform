@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_anxcloud_core_locations
+# key: d_anxcloud_core_locations
+# --
+
+data "anxcloud_core_locations" "${1:this}" {
+}

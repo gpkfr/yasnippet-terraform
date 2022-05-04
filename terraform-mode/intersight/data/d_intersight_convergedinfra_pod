@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_convergedinfra_pod
+# key: d_intersight_convergedinfra_pod
+# --
+
+data "intersight_convergedinfra_pod" "${1:this}" {
+}

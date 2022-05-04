@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_equinix_network_account
+# key: d_equinix_network_account
+# --
+
+data "equinix_network_account" "${1:this}" {
+    metro_code = "${2:metro_code}"
+}

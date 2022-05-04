@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_github_ref
+# key: d_github_ref
+# --
+
+data "github_ref" "${1:this}" {
+    ref = "${2:ref}"
+    repository = "${3:repository}"
+}

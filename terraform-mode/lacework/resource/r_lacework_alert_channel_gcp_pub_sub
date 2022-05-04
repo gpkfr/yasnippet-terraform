@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_lacework_alert_channel_gcp_pub_sub
+# key: r_lacework_alert_channel_gcp_pub_sub
+# --
+
+resource "lacework_alert_channel_gcp_pub_sub" "${1:this}" {
+    name = "${2:name}"
+    project_id = "${3:project_id}"
+    topic_id = "${4:topic_id}"
+}

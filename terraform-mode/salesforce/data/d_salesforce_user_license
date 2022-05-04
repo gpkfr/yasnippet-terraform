@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_salesforce_user_license
+# key: d_salesforce_user_license
+# --
+
+data "salesforce_user_license" "${1:this}" {
+    license_definition_key = "${2:license_definition_key}"
+}

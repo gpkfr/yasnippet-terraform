@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_kinesisvideo_signaling_channel
+# key: d_awscc_kinesisvideo_signaling_channel
+# --
+
+data "awscc_kinesisvideo_signaling_channel" "${1:this}" {
+    id = "${2:id}"
+}

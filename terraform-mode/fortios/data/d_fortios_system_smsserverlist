@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_smsserverlist
+# key: d_fortios_system_smsserverlist
+# --
+
+data "fortios_system_smsserverlist" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_okta_role_subscription
+# key: d_okta_role_subscription
+# --
+
+data "okta_role_subscription" "${1:this}" {
+    notification_type = "${2:notification_type}"
+    role_type = "${3:role_type}"
+}

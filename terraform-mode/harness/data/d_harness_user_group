@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_harness_user_group
+# key: d_harness_user_group
+# --
+
+data "harness_user_group" "${1:this}" {
+}

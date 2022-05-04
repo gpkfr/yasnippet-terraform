@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_xray_group
+# key: d_awscc_xray_group
+# --
+
+data "awscc_xray_group" "${1:this}" {
+    id = "${2:id}"
+}

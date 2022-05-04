@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_betteruptime_monitor
+# key: d_betteruptime_monitor
+# --
+
+data "betteruptime_monitor" "${1:this}" {
+    url = "${2:url}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_metal_device
+# key: d_metal_device
+# --
+
+data "metal_device" "${1:this}" {
+}

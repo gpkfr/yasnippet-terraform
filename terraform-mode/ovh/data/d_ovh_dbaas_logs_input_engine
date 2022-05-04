@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ovh_dbaas_logs_input_engine
+# key: d_ovh_dbaas_logs_input_engine
+# --
+
+data "ovh_dbaas_logs_input_engine" "${1:this}" {
+}

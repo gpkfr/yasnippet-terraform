@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53resolver_firewall_domain_list
+# key: d_awscc_route53resolver_firewall_domain_list
+# --
+
+data "awscc_route53resolver_firewall_domain_list" "${1:this}" {
+    id = "${2:id}"
+}

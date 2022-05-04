@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_resiliencehub_resiliency_policy
+# key: r_awscc_resiliencehub_resiliency_policy
+# --
+
+resource "awscc_resiliencehub_resiliency_policy" "${1:this}" {
+    policy = "${2:policy}"
+    policy_name = "${3:policy_name}"
+    tier = "${4:tier}"
+}

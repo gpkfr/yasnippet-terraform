@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_apm_apm_domain
+# key: d_oci_apm_apm_domain
+# --
+
+data "oci_apm_apm_domain" "${1:this}" {
+    apm_domain_id = "${2:apm_domain_id}"
+}

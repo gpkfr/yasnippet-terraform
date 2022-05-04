@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_iam_end_point_user_policy
+# key: d_intersight_iam_end_point_user_policy
+# --
+
+data "intersight_iam_end_point_user_policy" "${1:this}" {
+}

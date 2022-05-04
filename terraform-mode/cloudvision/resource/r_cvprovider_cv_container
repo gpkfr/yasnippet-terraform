@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_cvprovider_cv_container
+# key: r_cvprovider_cv_container
+# --
+
+resource "cvprovider_cv_container" "${1:this}" {
+    containername = "${2:containername}"
+    parentcontainername = "${3:parentcontainername}"
+}

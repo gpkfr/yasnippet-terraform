@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_authenticationldapaction
+# key: r_citrixadc_authenticationldapaction
+# --
+
+resource "citrixadc_authenticationldapaction" "${1:this}" {
+    name = "${2:name}"
+}

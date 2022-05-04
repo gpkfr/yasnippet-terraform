@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_compute_physical_summary
+# key: d_intersight_compute_physical_summary
+# --
+
+data "intersight_compute_physical_summary" "${1:this}" {
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_dome9_cloudaccount_gcp
+# key: r_dome9_cloudaccount_gcp
+# --
+
+resource "dome9_cloudaccount_gcp" "${1:this}" {
+    client_email = "${2:client_email}"
+    client_id = "${3:client_id}"
+    client_x509_cert_url = "${4:client_x509_cert_url}"
+    name = "${5:name}"
+    private_key = "${6:private_key}"
+    private_key_id = "${7:private_key_id}"
+    project_id = "${8:project_id}"
+}

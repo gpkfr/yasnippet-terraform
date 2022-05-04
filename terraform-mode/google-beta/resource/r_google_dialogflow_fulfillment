@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_google_dialogflow_fulfillment
+# key: r_google_dialogflow_fulfillment
+# --
+
+resource "google_dialogflow_fulfillment" "${1:this}" {
+    display_name = "${2:display_name}"
+}

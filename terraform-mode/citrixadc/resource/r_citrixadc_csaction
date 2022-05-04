@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_csaction
+# key: r_citrixadc_csaction
+# --
+
+resource "citrixadc_csaction" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_compute_server_setting
+# key: d_intersight_compute_server_setting
+# --
+
+data "intersight_compute_server_setting" "${1:this}" {
+}

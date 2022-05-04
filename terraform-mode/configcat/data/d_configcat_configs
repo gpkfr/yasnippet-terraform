@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_configcat_configs
+# key: d_configcat_configs
+# --
+
+data "configcat_configs" "${1:this}" {
+    product_id = "${2:product_id}"
+}

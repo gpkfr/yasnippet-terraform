@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_dynamic_vip
+# key: r_fortimanager_object_dynamic_vip
+# --
+
+resource "fortimanager_object_dynamic_vip" "${1:this}" {
+}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_google_container_azure_node_pool
+# key: r_google_container_azure_node_pool
+# --
+
+resource "google_container_azure_node_pool" "${1:this}" {
+    cluster = "${2:cluster}"
+    location = "${3:location}"
+    name = "${4:name}"
+    subnet_id = "${5:subnet_id}"
+    version = "${6:version}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_databricks_metastore
+# key: r_databricks_metastore
+# --
+
+resource "databricks_metastore" "${1:this}" {
+    name = "${2:name}"
+    storage_root = "${3:storage_root}"
+}

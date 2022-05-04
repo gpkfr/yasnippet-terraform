@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_net_app_initiator_group
+# key: d_intersight_storage_net_app_initiator_group
+# --
+
+data "intersight_storage_net_app_initiator_group" "${1:this}" {
+}

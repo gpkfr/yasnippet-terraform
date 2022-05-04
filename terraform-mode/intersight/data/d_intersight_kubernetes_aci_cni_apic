@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_aci_cni_apic
+# key: d_intersight_kubernetes_aci_cni_apic
+# --
+
+data "intersight_kubernetes_aci_cni_apic" "${1:this}" {
+}

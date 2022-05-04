@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_lacework_integration_aws_ct
+# key: r_lacework_integration_aws_ct
+# --
+
+resource "lacework_integration_aws_ct" "${1:this}" {
+    name = "${2:name}"
+    queue_url = "${3:queue_url}"
+}

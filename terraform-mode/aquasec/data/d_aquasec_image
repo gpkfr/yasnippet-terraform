@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_aquasec_image
+# key: d_aquasec_image
+# --
+
+data "aquasec_image" "${1:this}" {
+    registry = "${2:registry}"
+    repository = "${3:repository}"
+    tag = "${4:tag}"
+}

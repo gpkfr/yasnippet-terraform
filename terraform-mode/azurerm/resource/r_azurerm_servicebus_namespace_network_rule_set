@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_servicebus_namespace_network_rule_set
+# key: r_azurerm_servicebus_namespace_network_rule_set
+# --
+
+resource "azurerm_servicebus_namespace_network_rule_set" "${1:this}" {
+    namespace_id = "${2:namespace_id}"
+}

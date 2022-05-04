@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_virtual_desktop_application_group
+# key: r_azurerm_virtual_desktop_application_group
+# --
+
+resource "azurerm_virtual_desktop_application_group" "${1:this}" {
+    host_pool_id = "${2:host_pool_id}"
+    location = "${3:location}"
+    name = "${4:name}"
+    resource_group_name = "${5:resource_group_name}"
+    type = "${6:type}"
+}

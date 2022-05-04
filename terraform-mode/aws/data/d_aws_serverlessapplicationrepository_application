@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_serverlessapplicationrepository_application
+# key: d_aws_serverlessapplicationrepository_application
+# --
+
+data "aws_serverlessapplicationrepository_application" "${1:this}" {
+    application_id = "${2:application_id}"
+}

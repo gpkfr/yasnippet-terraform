@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_kubernetes_validating_webhook_configuration
+# key: r_kubernetes_validating_webhook_configuration
+# --
+
+resource "kubernetes_validating_webhook_configuration" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aws_grafana_workspace_saml_configuration
+# key: r_aws_grafana_workspace_saml_configuration
+# --
+
+resource "aws_grafana_workspace_saml_configuration" "${1:this}" {
+    editor_role_values = "${2:editor_role_values}"
+    workspace_id = "${3:workspace_id}"
+}

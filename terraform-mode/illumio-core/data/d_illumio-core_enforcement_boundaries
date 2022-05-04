@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_enforcement_boundaries
+# key: d_illumio-core_enforcement_boundaries
+# --
+
+data "illumio-core_enforcement_boundaries" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_fmupdate_fctservices
+# key: r_fortianalyzer_fmupdate_fctservices
+# --
+
+resource "fortianalyzer_fmupdate_fctservices" "${1:this}" {
+}

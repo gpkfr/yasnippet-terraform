@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_bluecat_ip_allocation
+# key: r_bluecat_ip_allocation
+# --
+
+resource "bluecat_ip_allocation" "${1:this}" {
+    name = "${2:name}"
+    network = "${3:network}"
+}

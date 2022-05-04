@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_static6
+# key: d_fortios_router_static6
+# --
+
+data "fortios_router_static6" "${1:this}" {
+    seq_num = "${2:seq_num}"
+}

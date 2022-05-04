@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_address_groups
+# key: d_nutanix_address_groups
+# --
+
+data "nutanix_address_groups" "${1:this}" {
+}

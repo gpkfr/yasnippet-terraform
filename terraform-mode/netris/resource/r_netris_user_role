@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_netris_user_role
+# key: r_netris_user_role
+# --
+
+resource "netris_user_role" "${1:this}" {
+    name = "${2:name}"
+    pgroup = "${3:pgroup}"
+}

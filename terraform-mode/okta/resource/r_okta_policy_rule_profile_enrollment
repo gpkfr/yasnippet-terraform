@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_okta_policy_rule_profile_enrollment
+# key: r_okta_policy_rule_profile_enrollment
+# --
+
+resource "okta_policy_rule_profile_enrollment" "${1:this}" {
+    policy_id = "${2:policy_id}"
+    unknown_user_action = "${3:unknown_user_action}"
+}

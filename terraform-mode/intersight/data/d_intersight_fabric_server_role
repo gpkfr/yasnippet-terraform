@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_fabric_server_role
+# key: d_intersight_fabric_server_role
+# --
+
+data "intersight_fabric_server_role" "${1:this}" {
+}

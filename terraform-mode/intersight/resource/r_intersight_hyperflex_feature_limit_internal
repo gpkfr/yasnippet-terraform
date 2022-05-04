@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_hyperflex_feature_limit_internal
+# key: r_intersight_hyperflex_feature_limit_internal
+# --
+
+resource "intersight_hyperflex_feature_limit_internal" "${1:this}" {
+}

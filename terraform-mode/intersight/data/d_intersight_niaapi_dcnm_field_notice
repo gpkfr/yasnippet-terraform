@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_niaapi_dcnm_field_notice
+# key: d_intersight_niaapi_dcnm_field_notice
+# --
+
+data "intersight_niaapi_dcnm_field_notice" "${1:this}" {
+}

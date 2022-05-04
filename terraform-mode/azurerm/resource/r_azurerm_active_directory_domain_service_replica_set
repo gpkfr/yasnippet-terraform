@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_active_directory_domain_service_replica_set
+# key: r_azurerm_active_directory_domain_service_replica_set
+# --
+
+resource "azurerm_active_directory_domain_service_replica_set" "${1:this}" {
+    domain_service_id = "${2:domain_service_id}"
+    location = "${3:location}"
+    subnet_id = "${4:subnet_id}"
+}

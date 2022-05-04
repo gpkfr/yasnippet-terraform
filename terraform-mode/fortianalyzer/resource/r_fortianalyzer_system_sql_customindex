@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_system_sql_customindex
+# key: r_fortianalyzer_system_sql_customindex
+# --
+
+resource "fortianalyzer_system_sql_customindex" "${1:this}" {
+}

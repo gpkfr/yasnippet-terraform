@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_lookoutequipment_inference_schedulers
+# key: d_awscc_lookoutequipment_inference_schedulers
+# --
+
+data "awscc_lookoutequipment_inference_schedulers" "${1:this}" {
+}

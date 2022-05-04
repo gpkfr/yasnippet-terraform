@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_panos_ssl_decrypt_trusted_root_ca_entry
+# key: r_panos_ssl_decrypt_trusted_root_ca_entry
+# --
+
+resource "panos_ssl_decrypt_trusted_root_ca_entry" "${1:this}" {
+    certificate_name = "${2:certificate_name}"
+}

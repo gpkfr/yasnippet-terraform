@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_labelgroup
+# key: r_avi_labelgroup
+# --
+
+resource "avi_labelgroup" "${1:this}" {
+    name = "${2:name}"
+}

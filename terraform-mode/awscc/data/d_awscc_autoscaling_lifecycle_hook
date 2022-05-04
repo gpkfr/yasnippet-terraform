@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_autoscaling_lifecycle_hook
+# key: d_awscc_autoscaling_lifecycle_hook
+# --
+
+data "awscc_autoscaling_lifecycle_hook" "${1:this}" {
+    id = "${2:id}"
+}

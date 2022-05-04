@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_opsi_database_insight
+# key: d_oci_opsi_database_insight
+# --
+
+data "oci_opsi_database_insight" "${1:this}" {
+    database_insight_id = "${2:database_insight_id}"
+}

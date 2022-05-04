@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_aviatrix_device_transit_gateway_attachment
+# key: r_aviatrix_device_transit_gateway_attachment
+# --
+
+resource "aviatrix_device_transit_gateway_attachment" "${1:this}" {
+    connection_name = "${2:connection_name}"
+    device_bgp_asn = "${3:device_bgp_asn}"
+    device_name = "${4:device_name}"
+    transit_gateway_bgp_asn = "${5:transit_gateway_bgp_asn}"
+    transit_gateway_name = "${6:transit_gateway_name}"
+}

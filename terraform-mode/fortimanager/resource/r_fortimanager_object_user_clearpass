@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_user_clearpass
+# key: r_fortimanager_object_user_clearpass
+# --
+
+resource "fortimanager_object_user_clearpass" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_gcore_storage_sftp
+# key: d_gcore_storage_sftp
+# --
+
+data "gcore_storage_sftp" "${1:this}" {
+}

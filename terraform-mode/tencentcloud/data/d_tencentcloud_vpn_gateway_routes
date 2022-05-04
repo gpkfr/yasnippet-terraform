@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_vpn_gateway_routes
+# key: d_tencentcloud_vpn_gateway_routes
+# --
+
+data "tencentcloud_vpn_gateway_routes" "${1:this}" {
+    vpn_gateway_id = "${2:vpn_gateway_id}"
+}

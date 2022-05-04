@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_netapp-cloudmanager_cvo_gcp
+# key: r_netapp-cloudmanager_cvo_gcp
+# --
+
+resource "netapp-cloudmanager_cvo_gcp" "${1:this}" {
+    client_id = "${2:client_id}"
+    gcp_service_account = "${3:gcp_service_account}"
+    name = "${4:name}"
+    project_id = "${5:project_id}"
+    svm_password = "${6:svm_password}"
+    zone = "${7:zone}"
+}

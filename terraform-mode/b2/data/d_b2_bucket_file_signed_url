@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_b2_bucket_file_signed_url
+# key: d_b2_bucket_file_signed_url
+# --
+
+data "b2_bucket_file_signed_url" "${1:this}" {
+    bucket_id = "${2:bucket_id}"
+    file_name = "${3:file_name}"
+}

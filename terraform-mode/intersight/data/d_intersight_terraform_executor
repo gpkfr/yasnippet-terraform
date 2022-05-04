@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_terraform_executor
+# key: d_intersight_terraform_executor
+# --
+
+data "intersight_terraform_executor" "${1:this}" {
+}

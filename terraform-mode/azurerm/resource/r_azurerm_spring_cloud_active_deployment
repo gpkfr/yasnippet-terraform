@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_spring_cloud_active_deployment
+# key: r_azurerm_spring_cloud_active_deployment
+# --
+
+resource "azurerm_spring_cloud_active_deployment" "${1:this}" {
+    deployment_name = "${2:deployment_name}"
+    spring_cloud_app_id = "${3:spring_cloud_app_id}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_snmp_server_enable_traps_routing_ospf
+# key: r_thunder_snmp_server_enable_traps_routing_ospf
+# --
+
+resource "thunder_snmp_server_enable_traps_routing_ospf" "${1:this}" {
+}

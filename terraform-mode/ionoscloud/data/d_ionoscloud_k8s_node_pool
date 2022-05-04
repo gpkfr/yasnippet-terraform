@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_k8s_node_pool
+# key: d_ionoscloud_k8s_node_pool
+# --
+
+data "ionoscloud_k8s_node_pool" "${1:this}" {
+    k8s_cluster_id = "${2:k8s_cluster_id}"
+}

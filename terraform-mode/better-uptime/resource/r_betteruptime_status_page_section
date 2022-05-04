@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_betteruptime_status_page_section
+# key: r_betteruptime_status_page_section
+# --
+
+resource "betteruptime_status_page_section" "${1:this}" {
+    status_page_id = "${2:status_page_id}"
+}

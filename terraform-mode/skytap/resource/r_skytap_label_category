@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_skytap_label_category
+# key: r_skytap_label_category
+# --
+
+resource "skytap_label_category" "${1:this}" {
+    name = "${2:name}"
+    single_value = "${3:single_value}"
+}

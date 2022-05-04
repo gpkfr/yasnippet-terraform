@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_alicloud_fnf_flow
+# key: r_alicloud_fnf_flow
+# --
+
+resource "alicloud_fnf_flow" "${1:this}" {
+    definition = "${2:definition}"
+    description = "${3:description}"
+    name = "${4:name}"
+    type = "${5:type}"
+}

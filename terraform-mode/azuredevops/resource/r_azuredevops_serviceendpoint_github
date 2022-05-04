@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_serviceendpoint_github
+# key: r_azuredevops_serviceendpoint_github
+# --
+
+resource "azuredevops_serviceendpoint_github" "${1:this}" {
+    project_id = "${2:project_id}"
+    service_endpoint_name = "${3:service_endpoint_name}"
+}

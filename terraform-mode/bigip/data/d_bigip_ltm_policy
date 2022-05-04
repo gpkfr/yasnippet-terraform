@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_bigip_ltm_policy
+# key: d_bigip_ltm_policy
+# --
+
+data "bigip_ltm_policy" "${1:this}" {
+    name = "${2:name}"
+}

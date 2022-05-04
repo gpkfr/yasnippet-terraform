@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_field
+# key: r_sumologic_field
+# --
+
+resource "sumologic_field" "${1:this}" {
+    field_name = "${2:field_name}"
+}

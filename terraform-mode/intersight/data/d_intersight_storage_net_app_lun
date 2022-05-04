@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_storage_net_app_lun
+# key: d_intersight_storage_net_app_lun
+# --
+
+data "intersight_storage_net_app_lun" "${1:this}" {
+}

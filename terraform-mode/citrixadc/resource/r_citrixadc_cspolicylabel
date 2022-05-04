@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_cspolicylabel
+# key: r_citrixadc_cspolicylabel
+# --
+
+resource "citrixadc_cspolicylabel" "${1:this}" {
+    cspolicylabeltype = "${2:cspolicylabeltype}"
+    labelname = "${3:labelname}"
+}

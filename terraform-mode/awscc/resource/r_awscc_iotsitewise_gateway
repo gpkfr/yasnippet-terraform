@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotsitewise_gateway
+# key: r_awscc_iotsitewise_gateway
+# --
+
+resource "awscc_iotsitewise_gateway" "${1:this}" {
+    gateway_name = "${2:gateway_name}"
+    gateway_platform = "${3:gateway_platform}"
+}

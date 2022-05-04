@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_gcore_loadbalancerv2
+# key: d_gcore_loadbalancerv2
+# --
+
+data "gcore_loadbalancerv2" "${1:this}" {
+    name = "${2:name}"
+}

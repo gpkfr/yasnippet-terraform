@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_cloud_guard_data_mask_rule
+# key: d_oci_cloud_guard_data_mask_rule
+# --
+
+data "oci_cloud_guard_data_mask_rule" "${1:this}" {
+    data_mask_rule_id = "${2:data_mask_rule_id}"
+}

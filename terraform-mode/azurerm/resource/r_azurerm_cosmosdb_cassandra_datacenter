@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_cosmosdb_cassandra_datacenter
+# key: r_azurerm_cosmosdb_cassandra_datacenter
+# --
+
+resource "azurerm_cosmosdb_cassandra_datacenter" "${1:this}" {
+    cassandra_cluster_id = "${2:cassandra_cluster_id}"
+    delegated_management_subnet_id = "${3:delegated_management_subnet_id}"
+    location = "${4:location}"
+    name = "${5:name}"
+}

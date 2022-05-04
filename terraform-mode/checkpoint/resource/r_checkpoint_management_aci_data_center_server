@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_checkpoint_management_aci_data_center_server
+# key: r_checkpoint_management_aci_data_center_server
+# --
+
+resource "checkpoint_management_aci_data_center_server" "${1:this}" {
+    name = "${2:name}"
+    urls = "${3:urls}"
+    username = "${4:username}"
+}

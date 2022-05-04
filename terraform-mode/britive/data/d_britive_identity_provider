@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_britive_identity_provider
+# key: d_britive_identity_provider
+# --
+
+data "britive_identity_provider" "${1:this}" {
+    name = "${2:name}"
+}

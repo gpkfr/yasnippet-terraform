@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_testsedatastorelevel1
+# key: r_avi_testsedatastorelevel1
+# --
+
+resource "avi_testsedatastorelevel1" "${1:this}" {
+    name = "${2:name}"
+}

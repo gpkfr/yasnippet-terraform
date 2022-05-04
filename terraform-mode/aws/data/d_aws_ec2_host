@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ec2_host
+# key: d_aws_ec2_host
+# --
+
+data "aws_ec2_host" "${1:this}" {
+}

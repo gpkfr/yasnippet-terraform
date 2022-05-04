@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_gcore_network
+# key: r_gcore_network
+# --
+
+resource "gcore_network" "${1:this}" {
+    name = "${2:name}"
+}

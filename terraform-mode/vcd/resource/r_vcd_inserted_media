@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_vcd_inserted_media
+# key: r_vcd_inserted_media
+# --
+
+resource "vcd_inserted_media" "${1:this}" {
+    catalog = "${2:catalog}"
+    name = "${3:name}"
+    vapp_name = "${4:vapp_name}"
+    vm_name = "${5:vm_name}"
+}

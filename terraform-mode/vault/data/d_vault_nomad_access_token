@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_vault_nomad_access_token
+# key: d_vault_nomad_access_token
+# --
+
+data "vault_nomad_access_token" "${1:this}" {
+    backend = "${2:backend}"
+    role = "${3:role}"
+}

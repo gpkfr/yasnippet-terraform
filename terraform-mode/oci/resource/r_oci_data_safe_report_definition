@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oci_data_safe_report_definition
+# key: r_oci_data_safe_report_definition
+# --
+
+resource "oci_data_safe_report_definition" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+    parent_id = "${4:parent_id}"
+}

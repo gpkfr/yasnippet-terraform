@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_cloudtamerio_gcp_iam_role
+# key: r_cloudtamerio_gcp_iam_role
+# --
+
+resource "cloudtamerio_gcp_iam_role" "${1:this}" {
+    gcp_role_launch_stage = "${2:gcp_role_launch_stage}"
+    name = "${3:name}"
+    role_permissions = "${4:role_permissions}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alkira_policy_rule_list
+# key: r_alkira_policy_rule_list
+# --
+
+resource "alkira_policy_rule_list" "${1:this}" {
+    name = "${2:name}"
+}

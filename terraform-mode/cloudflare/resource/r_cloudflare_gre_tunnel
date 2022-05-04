@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_cloudflare_gre_tunnel
+# key: r_cloudflare_gre_tunnel
+# --
+
+resource "cloudflare_gre_tunnel" "${1:this}" {
+    cloudflare_gre_endpoint = "${2:cloudflare_gre_endpoint}"
+    customer_gre_endpoint = "${3:customer_gre_endpoint}"
+    interface_address = "${4:interface_address}"
+    name = "${5:name}"
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_netris_roh
+# key: r_netris_roh
+# --
+
+resource "netris_roh" "${1:this}" {
+    anycastips = "${2:anycastips}"
+    name = "${3:name}"
+    ports = "${4:ports}"
+    siteid = "${5:siteid}"
+    tenantid = "${6:tenantid}"
+    type = "${7:type}"
+    unicastips = "${8:unicastips}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3_bucket_ownership_controls
+# key: r_aws_s3_bucket_ownership_controls
+# --
+
+resource "aws_s3_bucket_ownership_controls" "${1:this}" {
+    bucket = "${2:bucket}"
+}

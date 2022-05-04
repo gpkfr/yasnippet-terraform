@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_iteration_permissions
+# key: r_azuredevops_iteration_permissions
+# --
+
+resource "azuredevops_iteration_permissions" "${1:this}" {
+    permissions = "${2:permissions}"
+    principal = "${3:principal}"
+    project_id = "${4:project_id}"
+}

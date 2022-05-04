@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwjsoncontenttype
+# key: r_citrixadc_appfwjsoncontenttype
+# --
+
+resource "citrixadc_appfwjsoncontenttype" "${1:this}" {
+    jsoncontenttypevalue = "${2:jsoncontenttypevalue}"
+}

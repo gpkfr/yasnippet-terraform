@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_astra_cdc
+# key: r_astra_cdc
+# --
+
+resource "astra_cdc" "${1:this}" {
+    database_id = "${2:database_id}"
+    database_name = "${3:database_name}"
+    keyspace = "${4:keyspace}"
+    table = "${5:table}"
+    tenant_name = "${6:tenant_name}"
+    topic_partitions = "${7:topic_partitions}"
+}

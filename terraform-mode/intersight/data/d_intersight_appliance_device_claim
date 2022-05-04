@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_appliance_device_claim
+# key: d_intersight_appliance_device_claim
+# --
+
+data "intersight_appliance_device_claim" "${1:this}" {
+}

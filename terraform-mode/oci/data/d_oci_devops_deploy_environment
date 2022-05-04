@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_devops_deploy_environment
+# key: d_oci_devops_deploy_environment
+# --
+
+data "oci_devops_deploy_environment" "${1:this}" {
+    deploy_environment_id = "${2:deploy_environment_id}"
+}

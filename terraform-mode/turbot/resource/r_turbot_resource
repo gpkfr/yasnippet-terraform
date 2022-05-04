@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_turbot_resource
+# key: r_turbot_resource
+# --
+
+resource "turbot_resource" "${1:this}" {
+    parent = "${2:parent}"
+    type = "${3:type}"
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_oci_opsi_awr_hub
+# key: r_oci_opsi_awr_hub
+# --
+
+resource "oci_opsi_awr_hub" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+    display_name = "${3:display_name}"
+    object_storage_bucket_name = "${4:object_storage_bucket_name}"
+    operations_insights_warehouse_id = "${5:operations_insights_warehouse_id}"
+}

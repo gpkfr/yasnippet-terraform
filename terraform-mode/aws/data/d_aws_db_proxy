@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_db_proxy
+# key: d_aws_db_proxy
+# --
+
+data "aws_db_proxy" "${1:this}" {
+    name = "${2:name}"
+}

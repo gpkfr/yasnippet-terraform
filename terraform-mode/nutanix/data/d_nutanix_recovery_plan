@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_nutanix_recovery_plan
+# key: d_nutanix_recovery_plan
+# --
+
+data "nutanix_recovery_plan" "${1:this}" {
+}

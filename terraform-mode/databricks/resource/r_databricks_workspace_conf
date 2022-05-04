@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_databricks_workspace_conf
+# key: r_databricks_workspace_conf
+# --
+
+resource "databricks_workspace_conf" "${1:this}" {
+}

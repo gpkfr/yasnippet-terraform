@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: d_oci_dns_view
+# key: d_oci_dns_view
+# --
+
+data "oci_dns_view" "${1:this}" {
+    scope = "${2:scope}"
+    view_id = "${3:view_id}"
+}

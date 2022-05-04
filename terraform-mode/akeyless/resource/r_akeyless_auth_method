@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_auth_method
+# key: r_akeyless_auth_method
+# --
+
+resource "akeyless_auth_method" "${1:this}" {
+    path = "${2:path}"
+}

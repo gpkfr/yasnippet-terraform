@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_fabric_pc_operation
+# key: r_intersight_fabric_pc_operation
+# --
+
+resource "intersight_fabric_pc_operation" "${1:this}" {
+}

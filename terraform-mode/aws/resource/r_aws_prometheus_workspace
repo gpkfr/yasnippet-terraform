@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_prometheus_workspace
+# key: r_aws_prometheus_workspace
+# --
+
+resource "aws_prometheus_workspace" "${1:this}" {
+}

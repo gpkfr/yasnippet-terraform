@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_grafana_oncall_escalation_chain
+# key: d_grafana_oncall_escalation_chain
+# --
+
+data "grafana_oncall_escalation_chain" "${1:this}" {
+    name = "${2:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ec2_transit_gateway_connect
+# key: r_awscc_ec2_transit_gateway_connect
+# --
+
+resource "awscc_ec2_transit_gateway_connect" "${1:this}" {
+    options = "${2:options}"
+    transport_transit_gateway_attachment_id = "${3:transport_transit_gateway_attachment_id}"
+}

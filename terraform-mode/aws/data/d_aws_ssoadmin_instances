@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_aws_ssoadmin_instances
+# key: d_aws_ssoadmin_instances
+# --
+
+data "aws_ssoadmin_instances" "${1:this}" {
+}

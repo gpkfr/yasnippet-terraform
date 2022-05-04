@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_octopusdeploy_account
+# key: r_octopusdeploy_account
+# --
+
+resource "octopusdeploy_account" "${1:this}" {
+    account_type = "${2:account_type}"
+    name = "${3:name}"
+}

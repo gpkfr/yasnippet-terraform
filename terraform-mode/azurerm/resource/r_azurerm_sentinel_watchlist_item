@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_sentinel_watchlist_item
+# key: r_azurerm_sentinel_watchlist_item
+# --
+
+resource "azurerm_sentinel_watchlist_item" "${1:this}" {
+    properties = "${2:properties}"
+    watchlist_id = "${3:watchlist_id}"
+}

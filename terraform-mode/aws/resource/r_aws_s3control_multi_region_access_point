@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_aws_s3control_multi_region_access_point
+# key: r_aws_s3control_multi_region_access_point
+# --
+
+resource "aws_s3control_multi_region_access_point" "${1:this}" {
+}

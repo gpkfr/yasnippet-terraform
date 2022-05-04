@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_resiliencehub_app
+# key: r_awscc_resiliencehub_app
+# --
+
+resource "awscc_resiliencehub_app" "${1:this}" {
+    app_template_body = "${2:app_template_body}"
+    name = "${3:name}"
+    resource_mappings = "${4:resource_mappings}"
+}

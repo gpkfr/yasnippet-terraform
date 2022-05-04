@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_oneview_deployment_plan
+# key: r_oneview_deployment_plan
+# --
+
+resource "oneview_deployment_plan" "${1:this}" {
+    name = "${2:name}"
+    oe_build_plan_uri = "${3:oe_build_plan_uri}"
+    type = "${4:type}"
+}

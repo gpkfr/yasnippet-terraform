@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_illumio-core_vens
+# key: d_illumio-core_vens
+# --
+
+data "illumio-core_vens" "${1:this}" {
+}

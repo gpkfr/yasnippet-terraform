@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_sumologic_cloud_to_cloud_source
+# key: r_sumologic_cloud_to_cloud_source
+# --
+
+resource "sumologic_cloud_to_cloud_source" "${1:this}" {
+    collector_id = "${2:collector_id}"
+    config = "${3:config}"
+    schema_ref = "${4:schema_ref}"
+}

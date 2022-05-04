@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_log_ioc
+# key: r_fortimanager_system_log_ioc
+# --
+
+resource "fortimanager_system_log_ioc" "${1:this}" {
+}

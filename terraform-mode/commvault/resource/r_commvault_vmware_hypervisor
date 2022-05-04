@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_commvault_vmware_hypervisor
+# key: r_commvault_vmware_hypervisor
+# --
+
+resource "commvault_vmware_hypervisor" "${1:this}" {
+    access_nodes = "${2:access_nodes}"
+    display_name = "${3:display_name}"
+    host_name = "${4:host_name}"
+    password = "${5:password}"
+    user_name = "${6:user_name}"
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_networkvisibility
+# key: d_fortios_system_networkvisibility
+# --
+
+data "fortios_system_networkvisibility" "${1:this}" {
+}

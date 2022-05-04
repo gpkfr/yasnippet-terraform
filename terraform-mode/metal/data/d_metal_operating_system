@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_metal_operating_system
+# key: d_metal_operating_system
+# --
+
+data "metal_operating_system" "${1:this}" {
+}

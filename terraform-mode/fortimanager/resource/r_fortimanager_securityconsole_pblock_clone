@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_securityconsole_pblock_clone
+# key: r_fortimanager_securityconsole_pblock_clone
+# --
+
+resource "fortimanager_securityconsole_pblock_clone" "${1:this}" {
+}

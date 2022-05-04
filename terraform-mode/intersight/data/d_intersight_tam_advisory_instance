@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_tam_advisory_instance
+# key: d_intersight_tam_advisory_instance
+# --
+
+data "intersight_tam_advisory_instance" "${1:this}" {
+}

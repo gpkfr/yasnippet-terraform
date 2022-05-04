@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_akeyless_producer_artifactory
+# key: r_akeyless_producer_artifactory
+# --
+
+resource "akeyless_producer_artifactory" "${1:this}" {
+    artifactory_token_audience = "${2:artifactory_token_audience}"
+    artifactory_token_scope = "${3:artifactory_token_scope}"
+    name = "${4:name}"
+}

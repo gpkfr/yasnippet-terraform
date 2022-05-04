@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_akamai_cp_code
+# key: r_akamai_cp_code
+# --
+
+resource "akamai_cp_code" "${1:this}" {
+    name = "${2:name}"
+}

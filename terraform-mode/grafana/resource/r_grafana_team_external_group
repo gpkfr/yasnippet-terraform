@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_grafana_team_external_group
+# key: r_grafana_team_external_group
+# --
+
+resource "grafana_team_external_group" "${1:this}" {
+    groups = "${2:groups}"
+    team_id = "${3:team_id}"
+}

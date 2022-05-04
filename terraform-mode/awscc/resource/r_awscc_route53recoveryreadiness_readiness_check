@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53recoveryreadiness_readiness_check
+# key: r_awscc_route53recoveryreadiness_readiness_check
+# --
+
+resource "awscc_route53recoveryreadiness_readiness_check" "${1:this}" {
+    readiness_check_name = "${2:readiness_check_name}"
+}

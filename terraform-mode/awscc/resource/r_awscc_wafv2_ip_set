@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_wafv2_ip_set
+# key: r_awscc_wafv2_ip_set
+# --
+
+resource "awscc_wafv2_ip_set" "${1:this}" {
+    addresses = "${2:addresses}"
+    ip_address_version = "${3:ip_address_version}"
+    scope = "${4:scope}"
+}

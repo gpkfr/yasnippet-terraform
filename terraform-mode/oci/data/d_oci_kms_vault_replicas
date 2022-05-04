@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_kms_vault_replicas
+# key: d_oci_kms_vault_replicas
+# --
+
+data "oci_kms_vault_replicas" "${1:this}" {
+    vault_id = "${2:vault_id}"
+}

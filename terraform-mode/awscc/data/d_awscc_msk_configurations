@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_msk_configurations
+# key: d_awscc_msk_configurations
+# --
+
+data "awscc_msk_configurations" "${1:this}" {
+}

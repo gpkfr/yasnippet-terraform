@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_aliyun_dcdn_domain_config
+# key: r_aliyun_dcdn_domain_config
+# --
+
+resource "aliyun_dcdn_domain_config" "${1:this}" {
+    domain_name = "${2:domain_name}"
+    function_name = "${3:function_name}"
+}

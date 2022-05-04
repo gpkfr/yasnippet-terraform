@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_citrixadc_appfwprofile_crosssitescripting_binding
+# key: r_citrixadc_appfwprofile_crosssitescripting_binding
+# --
+
+resource "citrixadc_appfwprofile_crosssitescripting_binding" "${1:this}" {
+    as_scan_location_xss = "${2:as_scan_location_xss}"
+    crosssitescripting = "${3:crosssitescripting}"
+    formactionurl_xss = "${4:formactionurl_xss}"
+    name = "${5:name}"
+}

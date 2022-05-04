@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_upcloud_tags
+# key: d_upcloud_tags
+# --
+
+data "upcloud_tags" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_avi_backupconfiguration
+# key: r_avi_backupconfiguration
+# --
+
+resource "avi_backupconfiguration" "${1:this}" {
+    name = "${2:name}"
+}

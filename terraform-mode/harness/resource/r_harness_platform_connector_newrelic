@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: r_harness_platform_connector_newrelic
+# key: r_harness_platform_connector_newrelic
+# --
+
+resource "harness_platform_connector_newrelic" "${1:this}" {
+    account_id = "${2:account_id}"
+    api_key_ref = "${3:api_key_ref}"
+    identifier = "${4:identifier}"
+    name = "${5:name}"
+    url = "${6:url}"
+}

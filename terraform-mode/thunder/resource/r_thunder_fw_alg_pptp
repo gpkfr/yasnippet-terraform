@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_thunder_fw_alg_pptp
+# key: r_thunder_fw_alg_pptp
+# --
+
+resource "thunder_fw_alg_pptp" "${1:this}" {
+}

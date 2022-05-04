@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_elasticstack_elasticsearch_ingest_processor_drop
+# key: d_elasticstack_elasticsearch_ingest_processor_drop
+# --
+
+data "elasticstack_elasticsearch_ingest_processor_drop" "${1:this}" {
+}

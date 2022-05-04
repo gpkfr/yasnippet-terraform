@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_carvel_kapp
+# key: r_carvel_kapp
+# --
+
+resource "carvel_kapp" "${1:this}" {
+    app = "${2:app}"
+    namespace = "${3:namespace}"
+}

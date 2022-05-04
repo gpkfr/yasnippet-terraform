@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_firmware_running_firmware
+# key: d_intersight_firmware_running_firmware
+# --
+
+data "intersight_firmware_running_firmware" "${1:this}" {
+}

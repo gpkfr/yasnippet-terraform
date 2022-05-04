@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_avi_vrfcontext
+# key: d_avi_vrfcontext
+# --
+
+data "avi_vrfcontext" "${1:this}" {
+}

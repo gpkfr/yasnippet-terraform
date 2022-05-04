@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_bigip_vwan_config
+# key: d_bigip_vwan_config
+# --
+
+data "bigip_vwan_config" "${1:this}" {
+    azure_vwan_name = "${2:azure_vwan_name}"
+    azure_vwan_resourcegroup = "${3:azure_vwan_resourcegroup}"
+    azure_vwan_vpnsite = "${4:azure_vwan_vpnsite}"
+}

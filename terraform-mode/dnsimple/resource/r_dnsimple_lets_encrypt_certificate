@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_dnsimple_lets_encrypt_certificate
+# key: r_dnsimple_lets_encrypt_certificate
+# --
+
+resource "dnsimple_lets_encrypt_certificate" "${1:this}" {
+    auto_renew = "${2:auto_renew}"
+    contact_id = "${3:contact_id}"
+    name = "${4:name}"
+}

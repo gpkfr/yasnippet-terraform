@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_sentinel_alert_rule_machine_learning_behavior_analytics
+# key: r_azurerm_sentinel_alert_rule_machine_learning_behavior_analytics
+# --
+
+resource "azurerm_sentinel_alert_rule_machine_learning_behavior_analytics" "${1:this}" {
+    alert_rule_template_guid = "${2:alert_rule_template_guid}"
+    log_analytics_workspace_id = "${3:log_analytics_workspace_id}"
+    name = "${4:name}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_sqlserver_publish_subscribe
+# key: r_tencentcloud_sqlserver_publish_subscribe
+# --
+
+resource "tencentcloud_sqlserver_publish_subscribe" "${1:this}" {
+    publish_instance_id = "${2:publish_instance_id}"
+    subscribe_instance_id = "${3:subscribe_instance_id}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_tencentcloud_availability_zones_by_product
+# key: d_tencentcloud_availability_zones_by_product
+# --
+
+data "tencentcloud_availability_zones_by_product" "${1:this}" {
+    product = "${2:product}"
+}

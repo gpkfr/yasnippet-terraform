@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_datadog_service_level_objective
+# key: d_datadog_service_level_objective
+# --
+
+data "datadog_service_level_objective" "${1:this}" {
+}

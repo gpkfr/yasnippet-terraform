@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_awscc_appstream_app_block
+# key: r_awscc_appstream_app_block
+# --
+
+resource "awscc_appstream_app_block" "${1:this}" {
+    name = "${2:name}"
+    setup_script_details = "${3:setup_script_details}"
+    source_s3_location = "${4:source_s3_location}"
+}

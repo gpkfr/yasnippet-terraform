@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_google_iam_deny_policy
+# key: r_google_iam_deny_policy
+# --
+
+resource "google_iam_deny_policy" "${1:this}" {
+    name = "${2:name}"
+    parent = "${3:parent}"
+}

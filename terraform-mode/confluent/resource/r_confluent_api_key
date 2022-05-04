@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_confluent_api_key
+# key: r_confluent_api_key
+# --
+
+resource "confluent_api_key" "${1:this}" {
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_fortios_system_sdnconnector
+# key: r_fortios_system_sdnconnector
+# --
+
+resource "fortios_system_sdnconnector" "${1:this}" {
+    status = "${2:status}"
+    type = "${3:type}"
+}

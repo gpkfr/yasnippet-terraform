@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_awscc_applicationinsights_application
+# key: d_awscc_applicationinsights_application
+# --
+
+data "awscc_applicationinsights_application" "${1:this}" {
+    id = "${2:id}"
+}

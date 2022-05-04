@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_customerprofiles_object_type
+# key: r_awscc_customerprofiles_object_type
+# --
+
+resource "awscc_customerprofiles_object_type" "${1:this}" {
+    domain_name = "${2:domain_name}"
+}

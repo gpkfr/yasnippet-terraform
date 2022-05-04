@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azurerm_frontdoor_rules_engine
+# key: r_azurerm_frontdoor_rules_engine
+# --
+
+resource "azurerm_frontdoor_rules_engine" "${1:this}" {
+    frontdoor_name = "${2:frontdoor_name}"
+    name = "${3:name}"
+    resource_group_name = "${4:resource_group_name}"
+}

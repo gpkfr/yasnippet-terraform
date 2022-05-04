@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_logzio_endpoint
+# key: d_logzio_endpoint
+# --
+
+data "logzio_endpoint" "${1:this}" {
+}

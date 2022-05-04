@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_confluent_private_link_access
+# key: r_confluent_private_link_access
+# --
+
+resource "confluent_private_link_access" "${1:this}" {
+}

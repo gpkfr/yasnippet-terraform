@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ecs_task_definition
+# key: r_awscc_ecs_task_definition
+# --
+
+resource "awscc_ecs_task_definition" "${1:this}" {
+}

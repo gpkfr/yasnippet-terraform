@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_aws_schemas_schema
+# key: r_aws_schemas_schema
+# --
+
+resource "aws_schemas_schema" "${1:this}" {
+    content = "${2:content}"
+    name = "${3:name}"
+    registry_name = "${4:registry_name}"
+    type = "${5:type}"
+}

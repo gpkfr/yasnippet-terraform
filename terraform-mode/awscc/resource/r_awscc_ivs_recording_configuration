@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_awscc_ivs_recording_configuration
+# key: r_awscc_ivs_recording_configuration
+# --
+
+resource "awscc_ivs_recording_configuration" "${1:this}" {
+    destination_configuration = "${2:destination_configuration}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_azuredevops_git_permissions
+# key: r_azuredevops_git_permissions
+# --
+
+resource "azuredevops_git_permissions" "${1:this}" {
+    permissions = "${2:permissions}"
+    principal = "${3:principal}"
+    project_id = "${4:project_id}"
+}

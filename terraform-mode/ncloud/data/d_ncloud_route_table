@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_ncloud_route_table
+# key: d_ncloud_route_table
+# --
+
+data "ncloud_route_table" "${1:this}" {
+}

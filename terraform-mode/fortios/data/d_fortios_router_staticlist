@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_router_staticlist
+# key: d_fortios_router_staticlist
+# --
+
+data "fortios_router_staticlist" "${1:this}" {
+}

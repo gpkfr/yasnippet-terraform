@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_nutanix_network_security_rule
+# key: r_nutanix_network_security_rule
+# --
+
+resource "nutanix_network_security_rule" "${1:this}" {
+    name = "${2:name}"
+}

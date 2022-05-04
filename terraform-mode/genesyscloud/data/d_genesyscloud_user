@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_genesyscloud_user
+# key: d_genesyscloud_user
+# --
+
+data "genesyscloud_user" "${1:this}" {
+}

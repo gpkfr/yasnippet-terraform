@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_volterra_voltstack_site
+# key: r_volterra_voltstack_site
+# --
+
+resource "volterra_voltstack_site" "${1:this}" {
+    master_nodes = "${2:master_nodes}"
+    name = "${3:name}"
+    namespace = "${4:namespace}"
+    volterra_certified_hw = "${5:volterra_certified_hw}"
+}

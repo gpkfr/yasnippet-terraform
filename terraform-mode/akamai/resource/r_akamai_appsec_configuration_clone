@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_akamai_appsec_configuration_clone
+# key: r_akamai_appsec_configuration_clone
+# --
+
+resource "akamai_appsec_configuration_clone" "${1:this}" {
+    contract_id = "${2:contract_id}"
+    create_from_config_id = "${3:create_from_config_id}"
+    create_from_version = "${4:create_from_version}"
+    description = "${5:description}"
+    group_id = "${6:group_id}"
+    host_names = "${7:host_names}"
+    name = "${8:name}"
+}

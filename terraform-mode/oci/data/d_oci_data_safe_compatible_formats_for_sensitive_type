@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_data_safe_compatible_formats_for_sensitive_type
+# key: d_oci_data_safe_compatible_formats_for_sensitive_type
+# --
+
+data "oci_data_safe_compatible_formats_for_sensitive_type" "${1:this}" {
+    compartment_id = "${2:compartment_id}"
+}

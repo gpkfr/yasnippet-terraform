@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_intersight_software_release_meta
+# key: r_intersight_software_release_meta
+# --
+
+resource "intersight_software_release_meta" "${1:this}" {
+}

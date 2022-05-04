@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_evidently_launch
+# key: r_awscc_evidently_launch
+# --
+
+resource "awscc_evidently_launch" "${1:this}" {
+    groups = "${2:groups}"
+    name = "${3:name}"
+    project = "${4:project}"
+    scheduled_splits_config = "${5:scheduled_splits_config}"
+}

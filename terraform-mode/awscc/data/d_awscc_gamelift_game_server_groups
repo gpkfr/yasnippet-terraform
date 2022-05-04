@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_gamelift_game_server_groups
+# key: d_awscc_gamelift_game_server_groups
+# --
+
+data "awscc_gamelift_game_server_groups" "${1:this}" {
+}

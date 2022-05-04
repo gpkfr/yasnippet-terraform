@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_oci_optimizer_resource_action
+# key: r_oci_optimizer_resource_action
+# --
+
+resource "oci_optimizer_resource_action" "${1:this}" {
+    resource_action_id = "${2:resource_action_id}"
+    status = "${3:status}"
+}

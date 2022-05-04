@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_equinix_metal_vrf
+# key: r_equinix_metal_vrf
+# --
+
+resource "equinix_metal_vrf" "${1:this}" {
+    metro = "${2:metro}"
+    name = "${3:name}"
+    project_id = "${4:project_id}"
+}

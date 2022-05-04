@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aquasec_user_saas
+# key: r_aquasec_user_saas
+# --
+
+resource "aquasec_user_saas" "${1:this}" {
+    account_admin = "${2:account_admin}"
+    csp_roles = "${3:csp_roles}"
+    email = "${4:email}"
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_okta_org_configuration
+# key: r_okta_org_configuration
+# --
+
+resource "okta_org_configuration" "${1:this}" {
+    company_name = "${2:company_name}"
+}

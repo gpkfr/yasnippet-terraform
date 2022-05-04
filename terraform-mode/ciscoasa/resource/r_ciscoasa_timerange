@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_ciscoasa_timerange
+# key: r_ciscoasa_timerange
+# --
+
+resource "ciscoasa_timerange" "${1:this}" {
+    name = "${2:name}"
+}

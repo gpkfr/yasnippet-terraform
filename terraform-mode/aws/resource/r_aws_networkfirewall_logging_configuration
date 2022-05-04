@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_aws_networkfirewall_logging_configuration
+# key: r_aws_networkfirewall_logging_configuration
+# --
+
+resource "aws_networkfirewall_logging_configuration" "${1:this}" {
+    firewall_arn = "${2:firewall_arn}"
+}

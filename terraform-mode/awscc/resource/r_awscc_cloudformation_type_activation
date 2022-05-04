@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_cloudformation_type_activation
+# key: r_awscc_cloudformation_type_activation
+# --
+
+resource "awscc_cloudformation_type_activation" "${1:this}" {
+}

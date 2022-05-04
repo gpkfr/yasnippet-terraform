@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_object_router_routemap
+# key: r_fortimanager_object_router_routemap
+# --
+
+resource "fortimanager_object_router_routemap" "${1:this}" {
+}

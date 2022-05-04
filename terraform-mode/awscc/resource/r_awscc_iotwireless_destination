@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_awscc_iotwireless_destination
+# key: r_awscc_iotwireless_destination
+# --
+
+resource "awscc_iotwireless_destination" "${1:this}" {
+    expression = "${2:expression}"
+    expression_type = "${3:expression_type}"
+    name = "${4:name}"
+    role_arn = "${5:role_arn}"
+}

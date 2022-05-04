@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_shipa_framework
+# key: r_shipa_framework
+# --
+
+resource "shipa_framework" "${1:this}" {
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_aws_cloudfront_realtime_log_config
+# key: d_aws_cloudfront_realtime_log_config
+# --
+
+data "aws_cloudfront_realtime_log_config" "${1:this}" {
+    name = "${2:name}"
+}

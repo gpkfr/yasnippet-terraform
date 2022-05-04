@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_teams
+# key: d_octopusdeploy_teams
+# --
+
+data "octopusdeploy_teams" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_variables
+# key: d_octopusdeploy_variables
+# --
+
+data "octopusdeploy_variables" "${1:this}" {
+}

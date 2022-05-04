@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_tencentcloud_private_dns_zone
+# key: r_tencentcloud_private_dns_zone
+# --
+
+resource "tencentcloud_private_dns_zone" "${1:this}" {
+    domain = "${2:domain}"
+}

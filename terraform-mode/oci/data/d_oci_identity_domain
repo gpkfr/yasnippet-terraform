@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d_oci_identity_domain
+# key: d_oci_identity_domain
+# --
+
+data "oci_identity_domain" "${1:this}" {
+    domain_id = "${2:domain_id}"
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_aws_dynamodb_tag
+# key: r_aws_dynamodb_tag
+# --
+
+resource "aws_dynamodb_tag" "${1:this}" {
+    key = "${2:key}"
+    resource_arn = "${3:resource_arn}"
+    value = "${4:value}"
+}

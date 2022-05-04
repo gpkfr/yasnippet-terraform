@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortimanager_system_ntp
+# key: r_fortimanager_system_ntp
+# --
+
+resource "fortimanager_system_ntp" "${1:this}" {
+}

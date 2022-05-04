@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_ncloud_lb_target_group
+# key: r_ncloud_lb_target_group
+# --
+
+resource "ncloud_lb_target_group" "${1:this}" {
+    protocol = "${2:protocol}"
+    vpc_no = "${3:vpc_no}"
+}

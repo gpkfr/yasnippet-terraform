@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: d_ionoscloud_firewall
+# key: d_ionoscloud_firewall
+# --
+
+data "ionoscloud_firewall" "${1:this}" {
+    datacenter_id = "${2:datacenter_id}"
+    nic_id = "${3:nic_id}"
+    server_id = "${4:server_id}"
+}

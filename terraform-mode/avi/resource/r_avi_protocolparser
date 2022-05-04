@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: r_avi_protocolparser
+# key: r_avi_protocolparser
+# --
+
+resource "avi_protocolparser" "${1:this}" {
+    name = "${2:name}"
+    parser_code = "${3:parser_code}"
+}

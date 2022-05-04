@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_octopusdeploy_lifecycles
+# key: d_octopusdeploy_lifecycles
+# --
+
+data "octopusdeploy_lifecycles" "${1:this}" {
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: r_limelight_edgefunction
+# key: r_limelight_edgefunction
+# --
+
+resource "limelight_edgefunction" "${1:this}" {
+    function_archive = "${2:function_archive}"
+    function_sha256 = "${3:function_sha256}"
+    handler = "${4:handler}"
+    name = "${5:name}"
+    runtime = "${6:runtime}"
+    shortname = "${7:shortname}"
+}

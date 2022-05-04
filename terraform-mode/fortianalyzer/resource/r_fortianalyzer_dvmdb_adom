@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_fortianalyzer_dvmdb_adom
+# key: r_fortianalyzer_dvmdb_adom
+# --
+
+resource "fortianalyzer_dvmdb_adom" "${1:this}" {
+}

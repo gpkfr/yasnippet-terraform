@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_scaleway_vpc_public_gateway_dhcp
+# key: r_scaleway_vpc_public_gateway_dhcp
+# --
+
+resource "scaleway_vpc_public_gateway_dhcp" "${1:this}" {
+    subnet = "${2:subnet}"
+}

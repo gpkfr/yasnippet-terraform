@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: r_lacework_team_member
+# key: r_lacework_team_member
+# --
+
+resource "lacework_team_member" "${1:this}" {
+    company = "${2:company}"
+    email = "${3:email}"
+    first_name = "${4:first_name}"
+    last_name = "${5:last_name}"
+}

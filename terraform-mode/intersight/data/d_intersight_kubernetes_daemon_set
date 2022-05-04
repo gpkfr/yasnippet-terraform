@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_intersight_kubernetes_daemon_set
+# key: d_intersight_kubernetes_daemon_set
+# --
+
+data "intersight_kubernetes_daemon_set" "${1:this}" {
+}

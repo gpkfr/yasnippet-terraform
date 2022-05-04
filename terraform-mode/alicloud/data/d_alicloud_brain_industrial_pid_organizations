@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_alicloud_brain_industrial_pid_organizations
+# key: d_alicloud_brain_industrial_pid_organizations
+# --
+
+data "alicloud_brain_industrial_pid_organizations" "${1:this}" {
+}

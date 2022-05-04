@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_awscc_route53recoveryreadiness_cells
+# key: d_awscc_route53recoveryreadiness_cells
+# --
+
+data "awscc_route53recoveryreadiness_cells" "${1:this}" {
+}

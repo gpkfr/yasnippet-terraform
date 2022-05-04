@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: r_spotinst_elastigroup_aws_beanstalk
+# key: r_spotinst_elastigroup_aws_beanstalk
+# --
+
+resource "spotinst_elastigroup_aws_beanstalk" "${1:this}" {
+    desired_capacity = "${2:desired_capacity}"
+    instance_types_spot = "${3:instance_types_spot}"
+    max_size = "${4:max_size}"
+    min_size = "${5:min_size}"
+    name = "${6:name}"
+    product = "${7:product}"
+    region = "${8:region}"
+}

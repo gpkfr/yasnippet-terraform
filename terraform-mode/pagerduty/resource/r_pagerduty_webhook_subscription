@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_pagerduty_webhook_subscription
+# key: r_pagerduty_webhook_subscription
+# --
+
+resource "pagerduty_webhook_subscription" "${1:this}" {
+    events = "${2:events}"
+}

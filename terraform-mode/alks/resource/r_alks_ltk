@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r_alks_ltk
+# key: r_alks_ltk
+# --
+
+resource "alks_ltk" "${1:this}" {
+    iam_username = "${2:iam_username}"
+}

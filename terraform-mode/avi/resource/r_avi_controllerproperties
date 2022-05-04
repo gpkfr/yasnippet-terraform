@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_avi_controllerproperties
+# key: r_avi_controllerproperties
+# --
+
+resource "avi_controllerproperties" "${1:this}" {
+}

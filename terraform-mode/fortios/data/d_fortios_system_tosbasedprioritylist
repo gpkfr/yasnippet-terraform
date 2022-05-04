@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: d_fortios_system_tosbasedprioritylist
+# key: d_fortios_system_tosbasedprioritylist
+# --
+
+data "fortios_system_tosbasedprioritylist" "${1:this}" {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r_awscc_route53_hosted_zone
+# key: r_awscc_route53_hosted_zone
+# --
+
+resource "awscc_route53_hosted_zone" "${1:this}" {
+}

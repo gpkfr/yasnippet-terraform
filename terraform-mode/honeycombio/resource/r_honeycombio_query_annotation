@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r_honeycombio_query_annotation
+# key: r_honeycombio_query_annotation
+# --
+
+resource "honeycombio_query_annotation" "${1:this}" {
+    dataset = "${2:dataset}"
+    name = "${3:name}"
+    query_id = "${4:query_id}"
+}
