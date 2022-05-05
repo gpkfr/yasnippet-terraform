@@ -4,6 +4,6 @@
 # --
 variable "${1:name}" {
   ${2:description = "$3"}
-  ${4:type = $5}
+  ${4:type = ${5:$$(yas-choose-value '("string" "bool" "number" "list" "map" ))}}
   ${6:default = "$7"}
 }
