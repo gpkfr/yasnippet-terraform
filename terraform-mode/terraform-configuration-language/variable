@@ -4,6 +4,6 @@
 # --
 variable "${1:name}" {
   ${2:description = "$3"}
-  ${4:type = "$5"}
+  ${4:type = $5}
   ${6:default = "$7"}
 }
